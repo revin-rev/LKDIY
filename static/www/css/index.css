@@ -1,0 +1,341 @@
+/******************************************************
+   *Variables START
+******************************************************/
+/******************************************************
+   *Sidebar and Slider START
+******************************************************/
+/**
+   *Slider START
+**/
+.www-slider {
+  width: 780px;
+  margin-top: 10px;
+  padding: 0;
+}
+.www-slider .bx-wrapper .bx-pager {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 10px;
+  display: inline-block;
+}
+.www-slider .bx-pager.bx-default-pager a {
+  width: 20px;
+  height: 20px;
+  background: #fff;
+  opacity: 1;
+  border-radius: 50%;
+}
+.www-slider .bx-pager.bx-default-pager a:hover,
+.www-slider .bx-pager.bx-default-pager a.active {
+  background: #c41411;
+}
+/**
+   *Slider END
+**/
+/**
+   *Slider Right Side Adds START
+**/
+.www-slider-adds {
+  margin-top: 10px;
+}
+/**
+   *Slider Right Side Adds END
+**/
+/******************************************************
+   *Sidebar and Slider END
+******************************************************/
+/******************************************************
+   *www-products Slider START
+******************************************************/
+/**
+  *www-products Heading START
+**/
+.www-products-heading {
+  font-size: 24px;
+  color: #ff5722;
+  margin-top: 41px;
+  margin-bottom: 15px;
+}
+/**
+  *www-products Heading END
+**/
+/**
+  *www-products Slider START
+**/
+.www-products-slider .bx-wrapper {
+  border: 1px solid #e6e6e6;
+  padding: 20px 0;
+  overflow: hidden;
+}
+.www-products-slider #www-products-slider {
+  left: 0;
+}
+.www-products-slider #www-products-slider li {
+  width: 240px !important;
+}
+.www-products-slider .bx-wrapper .bx-controls-direction a {
+  background-color: transparent;
+  opacity: 1;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 38%;
+  height: 68px;
+  width: 37px;
+  border-radius: 0;
+  background-image: url("../../common/images/spirit_icons.png");
+}
+.www-products-slider .bx-wrapper .bx-prev {
+  left: 0;
+  background-position: -112px -8px;
+}
+.www-products-slider .bx-wrapper .bx-next {
+  right: 0;
+  background-position: -168px -8px;
+}
+/**
+  *www-products Slider END
+**/
+/**
+   *Product Block START
+**/
+.www-product .www-product-description {
+  margin-top: 30px;
+  padding-left: 36px;
+  padding-right: 36px;
+  border-right: 1px solid #dedede;
+}
+.www-product .www-product-title {
+  color: #666666;
+  font-size: 12px;
+  line-height: 22px;
+}
+.www-product .www-product-price {
+  font-size: 20px;
+  color: #c41411;
+  vertical-align: middle;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+.www-product .www-product-price span {
+  color: #999999;
+  font-size: 14px;
+  vertical-align: middle;
+}
+.www-product .www-product-price i {
+  font-style: normal;
+  font-size: 75%;
+}
+/**
+   *Product Block END
+**/
+/******************************************************
+   *www-products Slider END
+******************************************************/
+/******************************************************
+   *Popular Scene START
+******************************************************/
+/**
+  *Popular Section Heading END
+**/
+.www-section-heading {
+  font-size: 20px;
+  color: #666666;
+  font-weight: normal;
+  margin-top: 41px;
+  margin-bottom: 15px;
+}
+/**
+  *Popular Section Heading END
+**/
+/**
+    *Popular Scene Block  END
+**/
+.www-popular-scene-block {
+  position: relative;
+  height: 190px;
+}
+.www-popular-scene-block img {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+}
+.www-popular-scene-block .www-popular-scene-title {
+  position: absolute;
+  z-index: 10;
+  color: #fff;
+  font-size: 24px;
+  display: inline-block;
+  font-family: "SimHei";
+  left: 0;
+  right: 0;
+  top: 106px;
+  text-align: center;
+  vertical-align: middle;
+  text-shadow: 0 0 6px #000;
+}
+/**
+    *Popular Scene Block  END
+**/
+/**
+    *Popular Brands  START
+**/
+.www-brands-logos ul {
+  margin: 0;
+  border: 1px solid #e6e6e6;
+  padding: 5px 3px;
+}
+.www-brands-logos ul li {
+  display: block;
+  float: left;
+  margin: 5px 0;
+  padding: 0 7px;
+}
+.www-brands-logos ul li a {
+  display: block;
+  padding: 8px;
+  width: 184px;
+  height: 70px;
+  border: 1px solid #dedede;
+  text-align: center;
+}
+.www-brands-logos ul li a.www-last {
+  border: 0;
+  color: #666666;
+  font-size: 16px;
+  padding: 24px 18px;
+  line-height: 24px;
+}
+/**
+    *Popular Brands  END
+**/
+/******************************************************
+   *Popular Scene End
+******************************************************/
+/******************************************************
+   *Digital Office Section  START
+******************************************************/
+/**
+   *Fixed nav START
+**/
+.sui-nav.nav-list.www-side-fixed {
+  padding-left: 0;
+  padding-right: 0;
+  margin: 0;
+  position: fixed;
+  top: 30%;
+  left: 30px;
+  display: inline-block;
+}
+.sui-nav.nav-list.www-side-fixed li {
+  display: block;
+}
+.sui-nav.nav-list.www-side-fixed li a {
+  display: block;
+  height: 35px;
+  width: 35px;
+  text-align: center;
+  padding: 5px;
+  color: #666666;
+  line-height: 27px;
+  position: relative;
+}
+.sui-nav.nav-list.www-side-fixed li a:hover {
+  background: transparent;
+}
+.sui-nav.nav-list.www-side-fixed li a span {
+  position: absolute;
+  top: 4px;
+  left: 0px;
+  display: none;
+  line-height: 15px;
+}
+.sui-nav.nav-list.www-side-fixed li a i {
+  font-style: normal;
+}
+.sui-nav.nav-list.www-side-fixed li.active a {
+  background: #c41411;
+  color: #fff;
+}
+.sui-nav.nav-list.www-side-fixed li.active a span {
+  display: block;
+}
+.sui-nav.nav-list.www-side-fixed li.active a i {
+  display: none;
+}
+.sui-nav.nav-list.www-side-fixed li.www-last a {
+  color: #c41411;
+  line-height: 15px;
+}
+/**
+*Fixed nav START
+**/
+/**
+   *Digital Office Section Heading START
+**/
+.www-digital-office-heading {
+  font-size: 20px;
+  color: #222222;
+  font-weight: normal;
+  margin-top: 41px;
+  padding-bottom: 15px;
+  margin-bottom: 0;
+  border-bottom: 1px solid #b0120a;
+}
+.www-digital-office-heading span {
+  color: #f91313;
+}
+/**
+   *Digital Office Section Heading END
+**/
+/**
+   *Digital Office Block START
+**/
+.www-digital-office-block {
+  margin: 0;
+}
+.www-digital-office-block .column {
+  padding: 0;
+}
+.www-digital-office-block .half-width {
+  padding: 0;
+  width: 50%;
+}
+/**
+   *Digital Office Block START
+**/
+.www-long-column {
+  width: 240px;
+  overflow: visible;
+}
+.www-long-column-two-images {
+  width: 240px;
+  overflow: visible;
+}
+.www-wide-column-two-images {
+  width: 480px;
+  overflow: visible;
+}
+.www-wide-column-two-images img {
+  max-height: 230px;
+}
+.one-long-half-block {
+  height: 230px;
+  overflow: hidden;
+}
+.one-long-forth-block {
+  height: 115px;
+  overflow: hidden;
+}
+.one-single-block {
+  height: 460px;
+  overflow: hidden;
+}
+/******************************************************
+   *Digital Office Section  END
+******************************************************/

@@ -1,0 +1,612 @@
+@import "variable";
+
+//Import all variables
+
+/******************************************************
+   *Header START
+******************************************************/
+.header {
+  border-bottom: 2px solid @baseColorDark;
+}
+
+/**
+   *Header Top nav START
+**/
+.top-nav {
+  background: @primaryColor;
+  border-bottom: 1px solid #e5e5e5;
+
+  /**
+     *Header Top nav left and right blocks START
+  **/
+  .top-nav-left, .top-nav-right {
+    text-align: center;
+    & > ul {
+      &:after {
+        content: '';
+        display: block;
+        position: relative;
+        clear: both;
+      }
+
+      & > li {
+        padding: 0;
+        float: left;
+
+        & > a {
+          padding: 7px 18px;
+          display: block;
+          color: @baseTextColor;
+          border-left: 1px solid transparent;
+          border-right: 1px solid transparent;
+
+          .arrow {
+            display: inline-block;
+            height: 4px;
+            width: 8px;
+            background-image: url("../images/spirit_icons.png");
+            vertical-align: middle;
+            background-position: -74px 150px;
+            margin-left: 3px;
+          }
+          &:hover {
+            text-decoration: none;
+          }
+        }
+
+        /**
+           *Top Menu DropDown Start
+        **/
+        &.drop-down {
+          position: relative;
+
+          & > ul {
+            list-style: none;
+            padding: 0;
+            position: absolute;
+            top: 100%;
+            background: @white;
+            left: 0;
+            border: 1px solid #e5e5e5;
+            border-top: 0;
+            display: none;
+            min-width: 100%;
+            padding-bottom: 4px;
+            z-index: 10;
+
+            & > li {
+
+              & > a {
+                padding: 7px 18px;
+                display: block;
+                color: @baseTextColor;
+                white-space: nowrap;
+                text-align: left;
+
+                span {
+                  color: @baseColor;
+                }
+              }
+            }
+          }
+          &:hover {
+            & > a {
+              background: @white;
+              border-left-color: #ddd;
+              border-right-color: #ddd;
+
+              .arrow {
+                background-position: -91px 150px;
+              }
+            }
+            & > ul {
+              display: block;
+            }
+          }
+        }
+        /**
+           *Top Menu DropDown Start
+        **/
+      }
+    }
+  }
+  /**
+     *Header Top nav left and right blocks END
+  **/
+}
+
+/**
+   *Header Top nav END
+**/
+
+/**
+   *Mid of Header Including Logo,Cart and Search Box START
+**/
+.middle-header {
+  margin: 32px auto;
+
+  .search-box {
+    margin-top: 2px;
+    width: 557px;
+    margin-left: 180px;
+
+    .search-notice {
+      margin-top: 8px;
+      color: @baseTextColor;
+      font-size: 12px;
+    }
+  }
+  .cart-column {
+    margin-left: 73px;
+    margin-top: 2px;
+
+    .cart-btn {
+      background: @CartBtnBG;
+      display: inline-block;
+      border: 1px solid @CartBtnBorder;
+      color: @baseTextColor;
+      width: 160px;
+      text-align: center;
+      height: 36px;
+      vertical-align: middle;
+      padding: 7px 0;
+      position: relative;
+      cursor: pointer;
+
+      * {
+        vertical-align: middle;
+      }
+
+      .cart-total {
+        font-size: 14px;
+        color: @baseColorDark;
+        margin-left: 20px;
+      }
+      .cart-icon {
+        margin-right: 4px;
+      }
+      .red-arrow-down {
+        margin-left: 5px;
+      }
+
+      .cart-drop-down {
+        position: absolute;
+        top: 36px;
+        right: -1px;
+        min-width: 321px;
+        background: @white;
+        min-height: 10px;
+        display: none;
+        z-index: 10;
+
+        .empty-cart {
+          display: block;
+          padding: 26px;
+          text-align: center;
+        }
+        .cart-row {
+          border-top: 1px solid @primaryColor;
+          padding: 10px;
+          display: block;
+          text-align: left;
+
+          * {
+            vertical-align: top;
+          }
+        }
+        .cart-item-image {
+          display: inline-block;
+          height: 50px;
+          width: 50px;
+          border: 1px solid @primaryColor;
+          margin-right: 10px;
+        }
+        .cart-item-title {
+          display: inline-block;
+          width: 144px;
+          text-align: left;
+          line-height: 16px;
+          a {
+            color: @baseTextColor;
+          }
+        }
+        .cart-item-detail {
+          text-align: right;
+          width: 90px;
+          display: inline-block;
+          color: @baseColorDark;
+
+          span {
+            color: @baseTextColor;
+          }
+
+          a {
+            color: @baseTextColor;
+            display: block;
+            &:hover {
+              color: @baseColorDark;
+            }
+          }
+        }
+      }
+
+      &:hover {
+        background: @white;
+        border-color: @white;
+        box-shadow: 0 0 5px fadeout(#000, 40%);
+
+        &:after {
+          content: '';
+          position: absolute;
+          display: block;
+          top: 32px;
+          height: 4px;
+          width: 160px;
+          left: 0;
+          right: 0;
+          background: @white;
+          margin: 0 -1px;
+          z-index: 11;
+        }
+
+        .red-arrow-down {
+          background-position: -43px 156px;
+        }
+
+        .cart-drop-down {
+          display: block;
+          box-shadow: 0 0 5px fadeout(#000, 40%);
+        }
+        .cart-row-footer {
+          padding: 7px 10px;
+          padding-left: 20px;
+          background: @primaryColor;
+
+          & > span {
+            display: inline-block;
+            padding: 7px 0;
+          }
+          &:after {
+            display: block;
+            content: '';
+            clear: both;
+          }
+          .cart-footer-price {
+            color: @baseColorDark;
+            font-weight: bold;
+          }
+          .btn {
+            border-radius: 4px;
+            padding: 7px 8px;
+            background: @baseColorDark;
+            border: 0;
+          }
+        }
+      }
+    }
+  }
+}
+
+/**
+   *Mid of Header Including Logo,Cart and Search Box START
+**/
+
+/**
+   *Header Main Nav Bar START
+**/
+.main-nav-bar {
+  .nav-bar {
+    ul {
+      list-style: none;
+      padding: 0;
+      margin-left: 210px;
+
+      &:after {
+        content: '';
+        display: block;
+        position: relative;
+        clear: both;
+      }
+
+      li {
+        float: left;
+
+        a {
+          color: @baseTextColor;
+          font-size: 16px;
+          padding: 12px 20px;
+          display: block;
+          text-align: center;
+
+          &:hover {
+            color: @baseColorDark;
+          }
+        }
+      }
+    }
+  }
+}
+
+/**
+   *Header Main Nav Bar END
+**/
+
+/******************************************************
+   *Header END
+******************************************************/
+
+/******************************************************
+   *Sidebar START
+******************************************************/
+.side-bar {
+  width: 230px;
+  color: @white;
+  margin-top: -45px;
+
+  > h5 {
+    background: @baseColorDark;
+    font-size: 16px;
+    margin: 0;
+    padding: 12px 10px;
+    font-weight: normal;
+    line-height: 21px;
+  }
+
+  > ul {
+    margin: 0;
+    padding: 0;
+    position: relative;
+
+    > li {
+      line-height: 16px;
+
+      > a {
+        position: relative;
+        display: block;
+        padding: 8px 10px;
+        background: @baseColor;
+        color: @white;
+        line-height: 16px;
+
+        > .nav-arrow {
+          position: absolute;
+          right: 10px;
+          top: 34%;
+          font-size: 10px;
+          font-family: Consolas, monaco, monospace;
+        }
+
+      }
+      .mega-menu {
+        position: absolute;
+        left: 100%;
+        width: 990px;
+        z-index: 15;
+        top: 0;
+        background: @sideBarHover;
+        height: 100%;
+        border-bottom: 1px solid @baseColor;
+        border-right: 1px solid @baseColor;
+        padding: 15px 10px;
+        display: none;
+
+        &:after {
+          content: '';
+          display: block;
+          clear: both;
+        }
+
+        > ul {
+          list-style: none;
+          padding: 0;
+          float: left;
+          > li {
+            > a {
+              text-align: right;
+              display: inline-block;
+              width: 90px;
+              color: @baseTextColor;
+              vertical-align: top;
+              font-weight: bold;
+              padding: 9px 0;
+
+              &:hover {
+                color: @baseColorDark;
+              }
+            }
+            .nav-arrow {
+              font-size: 10px;
+              font-family: Consolas, monaco, monospace;
+              vertical-align: middle;
+              display: inline-block;
+              margin-left: 10px;
+            }
+
+            ul {
+              vertical-align: top;
+              display: inline-block;
+              width: 611px;
+              margin-left: 18px;
+              border-bottom: 1px solid #ededed;
+              li {
+                display: inline-block;
+                position: relative;
+                left: -10px;
+                a {
+                  display: block;
+                  color: @baseTextColor;
+                  padding: 8px 10px;
+
+                  &:hover {
+                    color: @baseColorDark;
+                  }
+                }
+              }
+            }
+          }
+        }
+
+        > .dropdown-adds {
+          float: right;
+          padding-right: 10px;
+          width: 178px;
+        }
+      }
+      &:hover {
+        > a {
+          background: @sideBarHover;
+          color: @baseColorDark;
+          text-decoration: none;
+          > .nav-arrow {
+            color: @sideBarHover;
+          }
+        }
+        .mega-menu {
+          display: block;
+        }
+      }
+
+    }
+  }
+}
+
+/******************************************************
+   *Sidebar END
+******************************************************/
+
+/******************************************************
+   *Sub Footer Section  START
+******************************************************/
+
+.sub-footer {
+  background: @subFooterBG;
+  margin-top: 60px;
+
+  .row {
+    margin: 0;
+    padding: 0 25px;
+  }
+  .column {
+    width: 25%;
+  }
+}
+
+/**
+   *Sub Footer Service Block START
+**/
+.service-block {
+  padding: 30px 0;
+
+  .service-icon, .service-description {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .service-description {
+    width: 183px;
+
+    span {
+      display: block;
+      margin-top: 4px;
+    }
+  }
+  .service-icon {
+    margin-right: 15px;
+  }
+  .service-title {
+    font-size: 22px;
+    color: @baseColorDark;
+    font-family: "SimHei";
+
+    & > span {
+      font-size: 18px;
+      color: @baseTextColor;
+    }
+  }
+}
+
+/**
+ *Sub Footer Service Block END
+**/
+
+/******************************************************
+   *Sub Footer Section  END
+******************************************************/
+
+/******************************************************
+   *Footer Section  START
+******************************************************/
+.footer {
+  .main-footer {
+    padding-bottom: 30px;
+    margin-bottom: 15px;
+    border-bottom: 2px solid @baseColorDark;
+  }
+  .footer-title {
+    margin-top: 30px;
+    color: #333333;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  .footer-list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+
+    li {
+      a {
+        color: @baseTextColor;
+        line-height: 20px;
+      }
+    }
+  }
+  .footer-first-column {
+    width: 190px;
+  }
+  .footer-second-column, .footer-third-column, .footer-fourth-column{
+    width: 197px;
+  }
+  .footer-fifth-column{
+    width: 190px;
+  }
+  .barcode {
+    margin-top: 34px;
+  }
+  .barcode-text {
+    color: @baseTextColor;
+  }
+
+  .footer-list-last {
+    margin-bottom: 15px;
+
+    li {
+      a {
+        color: @baseTextColor;
+      }
+    }
+  }
+  .footer-links {
+    a {
+      color: @baseTextColor;
+    }
+  }
+  .footer-copyright {
+    margin-top: 15px;
+    color: @footerCopyrightTextColor;
+    padding-bottom: 30px;
+
+    a {
+      color: @footerCopyrightTextColor;
+    }
+
+    .list-inline {
+      li {
+        margin-right: 66px;
+        margin-bottom: 8px;
+      }
+    }
+  }
+}
+
+/******************************************************
+   *Footer Section  END
+******************************************************/

@@ -1,0 +1,211 @@
+/******************************************************
+   *Variables START
+******************************************************/
+/******************************************************
+   *Normalizing CSS START
+******************************************************/
+* {
+  box-sizing: border-box;
+}
+body,
+html {
+  font-family: Arial, "Microsoft Yahei", STXihei, sans-serif;;
+  padding: 0;
+  margin: 0;
+  font-size: 12px;
+}
+ul {
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  outline: 0;
+  border: 0;
+}
+a:hover {
+  text-decoration: none;
+}
+a img {
+  border: 0;
+  vertical-align: middle;
+}
+p {
+  margin: 0 0 10px 0;
+  padding: 0;
+}
+/******************************************************
+   *Normalizing CSS END
+******************************************************/
+/******************************************************
+   *Helper Classes CSS START
+******************************************************/
+.border-right {
+  border-right: 1px solid #dedede;
+}
+.border-bottom {
+  border-bottom: 1px solid #dedede;
+}
+.border {
+  border: 1px solid #dedede;
+}
+.center-block {
+  display: block;
+  margin: 0 auto;
+}
+.list-inline {
+  padding-left: 0;
+  margin-left: -5px;
+  list-style: none;
+}
+.list-inline > li {
+  display: inline-block;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+.img-max-100 {
+  max-width: 100%;
+}
+.margin-bottom-10 {
+  margin-bottom: 10px;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+.column {
+  padding-left: 10px;
+  padding-right: 10px;
+  float: left;
+}
+.float-right {
+  float: right;
+}
+.row {
+  margin: 0 -10px;
+}
+.row:after {
+  content: '';
+  display: block;
+  position: relative;
+  clear: both;
+}
+.clear-fix:after {
+  content: '';
+  display: block;
+  position: relative;
+  clear: both;
+}
+.row-img {
+  margin: 0 -3px;
+}
+.width-100 {
+  width: 100%;
+}
+.cart-icon {
+  background-image: url("../images/spirit_icons.png");
+  background-position: -14px 124px;
+  width: 21px;
+  height: 18px;
+  display: inline-block;
+}
+.red-arrow-down {
+  background-image: url("../images/spirit_icons.png");
+  background-position: -13px 156px;
+  width: 14px;
+  height: 15px;
+  display: inline-block;
+}
+.row-img {
+  margin: 0 -2px 0 -1px;
+}
+.column-img {
+  float: left;
+  padding-left: 1px;
+  padding-right: 2px;
+  width: 25%;
+}
+.box-icon {
+  width: 66px;
+  height: 66px;
+  display: inline-block;
+  background-image: url("../images/spirit_icons.png");
+}
+.truck-icon {
+  background-position: 366px 74px;
+}
+.brush-icon {
+  background-position: 299px 74px;
+}
+.seven-icon {
+  background-position: 214px 74px;
+}
+.hands-icon {
+  background-position: 137px 74px;
+}
+.margin-bottom-20 {
+  margin-bottom: 20px;
+}
+/******************************************************
+   *Helper Classes CSS START
+******************************************************/
+/******************************************************
+   *Helper Element CSS START
+******************************************************/
+/**
+   *Input Group START
+**/
+.input-group {
+  position: relative;
+  display: table;
+  border-collapse: separate;
+  border: 2px solid #b0120a;
+}
+.input-group .form-control {
+  position: relative;
+  z-index: 2;
+  float: left;
+  width: 100%;
+  margin-bottom: 0;
+  height: 32px;
+  border: 0;
+  outline: 0;
+  padding: 7px 10px;
+}
+.input-group-btn {
+  position: relative;
+  font-size: 0;
+  width: 1%;
+  white-space: nowrap;
+  vertical-align: middle;
+  display: table-cell;
+}
+.input-group-btn .www-btn {
+  z-index: 2;
+  margin-left: -1px;
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  height: 32px;
+  border: 0;
+  background: #b0120a;
+  color: #fff;
+  min-width: 82px;
+}
+/**
+   *Input Group START
+**/
+/******************************************************
+   *Helper Element CSS END
+******************************************************/
