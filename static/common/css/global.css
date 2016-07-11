@@ -68,6 +68,9 @@ p {
 .margin-bottom-10 {
   margin-bottom: 10px;
 }
+.margin-bottom-30 {
+  margin-bottom: 30px;
+}
 .container {
   width: 1200px;
   margin: 0 auto;
@@ -145,8 +148,17 @@ p {
 .margin-bottom-20 {
   margin-bottom: 20px;
 }
+.margin-top-20 {
+  margin-top: 20px;
+}
+.grey-bg {
+  background-color: #f7f7f7;
+}
+.sui-form .height-auto[type="text"] {
+  height: auto;
+}
 /******************************************************
-   *Helper Classes CSS START
+   *Helper Classes CSS End
 ******************************************************/
 /******************************************************
    *Helper Element CSS START
@@ -203,8 +215,11 @@ p {
   color: #fff;
   min-width: 82px;
 }
+.input-styled {
+  background-color: transparent;
+}
 /**
-   *Input Group START
+   *Input Group End
 **/
 /******************************************************
    *Helper Element CSS END

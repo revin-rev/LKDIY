@@ -534,3 +534,131 @@
 /******************************************************
    *Footer Section  END
 ******************************************************/
+/******************************************************
+   *Header After Login START
+******************************************************/
+.after-login-header-outr {
+  background-color: #c41411;
+  margin-bottom: 32px;
+}
+.after-login-header-outr .logo-column {
+  padding-top: 19px;
+  padding-bottom: 19px;
+}
+.after-login-header-outr .login-navbar ul {
+  padding: 0;
+  margin: 12px 0 0 51px;
+  list-style: none;
+}
+.after-login-header-outr .login-navbar ul li {
+  display: inline-block;
+}
+.after-login-header-outr .login-navbar ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  padding: 35px 25px;
+  display: block;
+}
+.after-login-header-outr .after-login-search {
+  margin-top: 35px;
+}
+.after-login-header-outr .after-login-search .input-group {
+  border: 0;
+  color: #333333;
+  width: 200px;
+}
+.after-login-header-outr .after-login-search .input-group .form-control::-webkit-input-placeholder {
+  color: #333333;
+}
+.after-login-header-outr .after-login-search .input-group .form-control:-moz-placeholder {
+  color: #333333;
+}
+.after-login-header-outr .after-login-search .input-group .form-control::-moz-placeholder {
+  color: #333333;
+}
+.after-login-header-outr .after-login-search .input-group .form-control:-ms-input-placeholder {
+  color: #333333;
+}
+.after-login-header-outr .after-login-search .input-group-btn .www-btn {
+  background-color: #f7f7f7;
+  color: #333333;
+  min-width: 54px;
+}
+/******************************************************
+   *Header After Login End
+******************************************************/
+/******************************************************
+   *Login Sidebar START
+******************************************************/
+.login-sidebar {
+  width: 150px;
+}
+.login-sidebar .login-sidebar-block {
+  margin-bottom: 41px;
+}
+.login-sidebar .login-sidebar-block h5 {
+  color: #222222;
+  font-size: 16px;
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+.login-sidebar .login-sidebar-block ul {
+  list-style: none;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+.login-sidebar .login-sidebar-block ul li a {
+  list-style: none;
+  text-decoration: none;
+  color: #666666;
+  font-size: 14px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: block;
+}
+.login-sidebar .login-sidebar-block ul li a:hover,
+.login-sidebar .login-sidebar-block ul li a.active {
+  color: #d01716;
+}
+/******************************************************
+   *Login Sidebar End
+******************************************************/
+/******************************************************
+   *After Login Right Section START
+******************************************************/
+.after-login-right-content-section {
+  width: 1070px;
+}
+.after-login-right-content-section .heading {
+  color: #333333;
+  font-size: 16px;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+.after-login-right-content-section form input[type="text"] {
+  background-color: #f7f7f7;
+  border-radius: 0;
+  box-shadow: none;
+  padding: 8px;
+}
+/******************************************************
+   *After Login Right Section Ends
+******************************************************/
+/******* right category section start *******/
+.category-listing-right-section {
+  width: 980px;
+}
+/******* right category section end *******/
+/******************************************************
+   *top heading bar start
+******************************************************/
+.top-heading-bar {
+  border-top: 1px solid #dedede;
+  border-bottom: 1px solid #dedede;
+  background-color: #f7f7f7;
+}
+/******************************************************
+   *top heading bar end
+******************************************************/

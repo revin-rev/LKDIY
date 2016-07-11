@@ -1,5 +1,5 @@
 @import "variable";
-
+@import "lesshat";
 //Import all variables
 
 /******************************************************
@@ -610,3 +610,147 @@
 /******************************************************
    *Footer Section  END
 ******************************************************/
+
+
+
+/******************************************************
+   *Header After Login START
+******************************************************/
+.after-login-header-outr{
+    background-color: @baseColor;
+    margin-bottom:32px;
+    .logo-column{
+      padding-top:19px;
+      padding-bottom:19px;
+    }
+    .login-navbar{
+        ul{
+          padding: 0;
+          margin:12px 0 0 51px;
+          list-style: none;
+          li{
+            display: inline-block;
+            a{
+              text-decoration: none;
+              color: @white;
+              font-size: 16px;
+              padding:35px 25px;
+              display: block;
+            }
+          }
+        }
+    }
+  .after-login-search {
+    margin-top: 35px;
+
+      .input-group{
+        border: 0;
+        color: @baseTextColorDark;
+        width: 200px;
+
+        .form-control{
+          .placeholder(@baseTextColorDark)
+        }
+      }
+      .input-group-btn .www-btn{
+        background-color: @subFooterBG;
+        color: @baseTextColorDark;
+        min-width: 54px;
+      }
+  }
+}
+/******************************************************
+   *Header After Login End
+******************************************************/
+
+/******************************************************
+   *Login Sidebar START
+******************************************************/
+.login-sidebar{
+  width:150px;
+
+  .login-sidebar-block{
+    margin-bottom:41px;
+
+    h5{
+      color: #222222;
+      font-size: 16px;
+      margin-bottom: 20px;
+      margin-top: 0;
+    }
+
+    ul{
+        list-style: none;
+        display: block;
+        margin:0;
+        padding: 0;
+
+        li{
+
+            a{
+              list-style: none;
+              text-decoration: none;
+              color: @baseTextColor;
+              font-size: @baseFontLarge;
+              padding-top: 10px;
+              padding-bottom: 10px;
+              display: block;
+              &:hover, &.active{
+                color:@loginSidebarLinkHover;
+              }
+            }
+
+          }
+      }
+  }
+}
+/******************************************************
+   *Login Sidebar End
+******************************************************/
+
+/******************************************************
+   *After Login Right Section START
+******************************************************/
+.after-login-right-content-section{
+  width:1070px;
+
+  .heading{
+    color: @baseTextColorDark;
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 30px;
+  }
+  form{
+    input[type="text"]{
+      background-color:@sideBarHover;
+      border-radius:0;
+      box-shadow: none;
+      padding: 8px;
+    }
+  }
+}
+/******************************************************
+   *After Login Right Section Ends
+******************************************************/
+
+/******* right category section start *******/
+.category-listing-right-section{
+  width: 980px;
+}
+/******* right category section end *******/
+
+/******************************************************
+   *top heading bar start
+******************************************************/
+.top-heading-bar{
+  border-top:1px solid @CartBtnBorder ;
+  border-bottom:1px solid @CartBtnBorder ;
+  background-color: @subFooterBG
+}
+
+/******************************************************
+   *top heading bar end
+******************************************************/
+
+
+

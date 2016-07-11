@@ -11,7 +11,7 @@ body, html {
   font-family: ~'Arial, "Microsoft Yahei", STXihei, sans-serif;';
   padding: 0;
   margin: 0;
-  font-size: 12px;
+  font-size:@baseFont;
 }
 
 ul {
@@ -81,6 +81,10 @@ p {
 
 .margin-bottom-10 {
   margin-bottom: 10px;
+}
+
+.margin-bottom-30 {
+  margin-bottom: 30px;
 }
 
 .container {
@@ -180,8 +184,19 @@ p {
   margin-bottom: 20px;
 }
 
+.margin-top-20 {
+  margin-top: 20px;
+}
+
+.grey-bg{
+  background-color:@sideBarHover;
+}
+
+.sui-form .height-auto[type="text"]{
+  height: auto;
+}
 /******************************************************
-   *Helper Classes CSS START
+   *Helper Classes CSS End
 ******************************************************/
 
 /******************************************************
@@ -245,10 +260,19 @@ p {
   }
 
 }
+.input-styled{
+  background-color: transparent;
+}
+
+
 
 /**
-   *Input Group START
+   *Input Group End
 **/
+
+
+
+
 
 /******************************************************
    *Helper Element CSS END
