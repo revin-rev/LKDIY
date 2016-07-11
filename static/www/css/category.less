@@ -36,7 +36,7 @@
 
     li{
       float: left;
-      width: 90px;
+      min-width: 90px;
       padding: 10px 0;
       margin-bottom: 10px;
       padding-bottom: 0;
@@ -51,29 +51,58 @@
           cursor: pointer;
         }
 
-          input{
-            opacity: 0;
-            height: 100%;
-            width: 100%;
-            z-index: 1;
-            top: 0;
-            left: 0;
-            position: absolute;
+        input{
+          .opacity(0);
+          height: 100%;
+          width: 100%;
+          z-index: 1;
+          top: 0;
+          left: 0;
+          position: absolute;
 
-            &:checked{
-              & + .www-checkbox-radio-title{
-                color: @baseColor;
-              }
+          &:checked{
+            & + .www-checkbox-radio-title{
+              color: @baseColor;
             }
           }
+        }
+      }
+      &.www-input-lists{
+        padding-top: 8px;
+        margin-bottom: 8px;
+        white-space: nowrap;
       }
     }
 
     &.www-checkbox-radio-list-wide{
-        li{
-          width: 150px;
-        }
+      li{
+        width: 150px;
+      }
     }
+    .www-input-filter{
+      border: 1px solid @CartBtnBorder;
+      height: 22px;
+      width: 42px;
+      display: inline-block;
+      padding: 5px;
+      margin-right: 8px;
+
+      & + input {
+        margin-left: 8px;
+        margin-right: 0;
+      }
+
+      &:focus{
+        outline: 0;
+      }
+    }
+  }
+
+  .www-input-button{
+    background: @primaryColor;
+    border: 1px solid @CartBtnBorder;
+    height: 22px;
+    width: 42px;
   }
 }
 
@@ -208,11 +237,7 @@
   .www-category-pagination{
     float: right;
 
-    .sui-pagination
-
-    ul
-
-    li{
+    .sui-pagination ul li{
 
       a, span{
         margin-left: 3px;
@@ -294,13 +319,6 @@
 /******************************************************
    *category section end
 ******************************************************/
-
-
-/*------ variable css--------*/
-@backgroundColorTransparent:transparent;
-
-
-/*------ global css--------*/
 
 
 

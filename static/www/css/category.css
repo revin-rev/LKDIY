@@ -33,7 +33,7 @@
 }
 .www-form-filters .www-checkbox-radio-list li {
   float: left;
-  width: 90px;
+  min-width: 90px;
   padding: 10px 0;
   margin-bottom: 10px;
   padding-bottom: 0;
@@ -48,6 +48,10 @@
   cursor: pointer;
 }
 .www-form-filters .www-checkbox-radio-list li .www-checkbox-radio-custom input {
+  zoom: 1;
+  filter: alpha(opacity=0);
+  -webkit-opacity: 0;
+  -moz-opacity: 0;
   opacity: 0;
   height: 100%;
   width: 100%;
@@ -59,8 +63,34 @@
 .www-form-filters .www-checkbox-radio-list li .www-checkbox-radio-custom input:checked + .www-checkbox-radio-title {
   color: #c41411;
 }
+.www-form-filters .www-checkbox-radio-list li.www-input-lists {
+  padding-top: 8px;
+  margin-bottom: 8px;
+  white-space: nowrap;
+}
 .www-form-filters .www-checkbox-radio-list.www-checkbox-radio-list-wide li {
   width: 150px;
+}
+.www-form-filters .www-checkbox-radio-list .www-input-filter {
+  border: 1px solid #dedede;
+  height: 22px;
+  width: 42px;
+  display: inline-block;
+  padding: 5px;
+  margin-right: 8px;
+}
+.www-form-filters .www-checkbox-radio-list .www-input-filter + input {
+  margin-left: 8px;
+  margin-right: 0;
+}
+.www-form-filters .www-checkbox-radio-list .www-input-filter:focus {
+  outline: 0;
+}
+.www-form-filters .www-input-button {
+  background: #f2f2f2;
+  border: 1px solid #dedede;
+  height: 22px;
+  width: 42px;
 }
 .www-top-heading-bar-left {
   margin: 0;
@@ -246,5 +276,3 @@
 /******************************************************
    *category section end
 ******************************************************/
-/*------ variable css--------*/
-/*------ global css--------*/
