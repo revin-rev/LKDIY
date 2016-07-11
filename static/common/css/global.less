@@ -208,9 +208,11 @@ p {
 **/
 .input-group {
   position: relative;
-  display: table;
+  display: block;
   border-collapse: separate;
   border: 2px solid @baseColorDark;
+
+  .clear-fix;
 }
 
 .input-group .form-control {
@@ -223,15 +225,19 @@ p {
   border: 0;
   outline: 0;
   padding: 7px 10px;
+  max-width: 452px;
+  display: block;
+
 }
 
 .input-group-btn {
   position: relative;
   font-size: 0;
-  width: 1%;
+  width: 81px;
   white-space: nowrap;
   vertical-align: middle;
-  display: table-cell;
+  display: block;
+  float: left;
 
   .www-btn {
     z-index: 2;
