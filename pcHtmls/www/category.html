@@ -235,22 +235,16 @@
         <!-- Header END -->
 
 
-        <div class="container">
-            <ul class="sui-breadcrumb">
-                <li><a href="#">首页</a></li>
-                <li class="active">手机数码、电脑办公</li>
-            </ul>
-        </div>
+
 
         <!-- Sidebar And Category  START -->
         <div class="container">
             <div class="row">
-                <div class="column side-bar">
-                    <h5>全部商品分类</h5>
+                <div class="column side-bar transformed-mega-menu">
+                    <h5>全部商品分类 <span class="sui-icon icon-sort-down"></span> <span class="sui-icon icon-sort-up hidden"></span></h5>
                     <ul>
                         <li>
                             <a href="#">家用电器 <span class="nav-arrow">></span></a>
-
                             <div class="mega-menu">
                                 <ul>
                                     <li>
@@ -623,69 +617,385 @@
                         </li>
                     </ul>
                 </div>
+
+                <div class="column width-100">
+                    <ul class="sui-breadcrumb custom-breadcrumb">
+                        <li><a href="#">数码配件</a></li>
+                        <li class="active">U盘</li>
+                    </ul>
+                </div>
+
+                <!--Filters START-->
+                <div class="column width-100">
+                    <form action="#" class="www-form-filters">
+                       <div class="www-form-filters-row">
+                           <label>品牌</label>
+                           <ul class="www-checkbox-radio-list www-checkbox-radio-list-wide">
+                               <li>
+                                <span class="www-checkbox-radio-custom">
+                                    <input type="checkbox" />
+                                    <span class="www-checkbox-radio-title">金士顿（Kingston)</span>
+                                </span>
+                               </li>
+                               <li>
+                                <span class="www-checkbox-radio-custom">
+                                    <input type="checkbox" />
+                                    <span class="www-checkbox-radio-title">闪迪（SanDisk）</span>
+                                </span>
+                               </li>
+                               <li>
+                                <span class="www-checkbox-radio-custom">
+                                    <input type="checkbox" />
+                                    <span class="www-checkbox-radio-title">台电（Teclast）</span>
+                                </span>
+                               </li>
+                               <li>
+                                <span class="www-checkbox-radio-custom">
+                                    <input type="checkbox" />
+                                    <span class="www-checkbox-radio-title">东芝（TOSHIBA）</span>
+                                </span>
+                               </li>
+                               <li>
+                                <span class="www-checkbox-radio-custom">
+                                    <input type="checkbox" />
+                                    <span class="www-checkbox-radio-title">忆捷（EAGET）</span>
+                                </span>
+                               </li>
+                               <li>
+                                <span class="www-checkbox-radio-custom">
+                                    <input type="checkbox" />
+                                    <span class="www-checkbox-radio-title">朗科（Netac）</span>
+                                </span>
+                               </li>
+                               <li>
+                                <span class="www-checkbox-radio-custom">
+                                    <input type="checkbox" />
+                                    <span class="www-checkbox-radio-title">索尼（SONY）</span>
+                                </span>
+                               </li>
+                               <li>
+                                <span class="www-checkbox-radio-custom">
+                                    <input type="checkbox" />
+                                    <span class="www-checkbox-radio-title">威刚（ADATA）</span>
+                                </span>
+                               </li>
+                               <li>
+                                <span class="www-checkbox-radio-custom">
+                                    <input type="checkbox" />
+                                    <span class="www-checkbox-radio-title">迪士尼（Disney）</span>
+                                </span>
+                               </li>
+                               <li>
+                                <span class="www-checkbox-radio-custom">
+                                    <input type="checkbox" />
+                                    <span class="www-checkbox-radio-title">三星（SAMSUNG）</span>
+                                </span>
+                               </li>
+                               <li>
+                                <span class="www-checkbox-radio-custom">
+                                    <input type="checkbox" />
+                                    <span class="www-checkbox-radio-title">创见（Transcend）</span>
+                                </span>
+                               </li>
+                               <li>
+                                <span class="www-checkbox-radio-custom">
+                                    <input type="checkbox" />
+                                    <span class="www-checkbox-radio-title">海盗船（CORSAIR）</span>
+                                </span>
+                               </li>
+                           </ul>
+                       </div>
+                        <div class="www-form-filters-row">
+                            <label>品牌</label>
+                            <ul class="www-checkbox-radio-list ">
+                                <li>
+                                <span class="www-checkbox-radio-custom">
+                                    <input type="radio" name="demo"/>
+                                    <span class="www-checkbox-radio-title">0-99</span>
+                                </span>
+                                </li>
+                                <li>
+                                <span class="www-checkbox-radio-custom">
+                                    <input type="checkbox" />
+                                    <span class="www-checkbox-radio-title">闪迪（SanDisk）</span>
+                                </span>
+                                </li>
+                                <li>
+                                <span class="www-checkbox-radio-custom">
+                                    <input type="checkbox" />
+                                    <span class="www-checkbox-radio-title">台电（Teclast）</span>
+                                </span>
+                                </li>
+                                <li>
+                                <span class="www-checkbox-radio-custom">
+                                    <input type="checkbox" />
+                                    <span class="www-checkbox-radio-title">东芝（TOSHIBA）</span>
+                                </span>
+                                </li>
+                                <li>
+                                <span class="www-checkbox-radio-custom">
+                                    <input type="checkbox" />
+                                    <span class="www-checkbox-radio-title">忆捷（EAGET）</span>
+                                </span>
+                                </li>
+                                <li>
+                                <span class="www-checkbox-radio-custom">
+                                    <input type="checkbox" />
+                                    <span class="www-checkbox-radio-title">朗科（Netac）</span>
+                                </span>
+                                </li>
+                                <li>
+                                <span class="www-checkbox-radio-custom">
+                                    <input type="checkbox" />
+                                    <span class="www-checkbox-radio-title">索尼（SONY）</span>
+                                </span>
+                                </li>
+                                <li>
+                                <span class="www-checkbox-radio-custom">
+                                    <input type="checkbox" />
+                                    <span class="www-checkbox-radio-title">威刚（ADATA）</span>
+                                </span>
+                                </li>
+                                <li>
+                                <span class="www-checkbox-radio-custom">
+                                    <input type="checkbox" />
+                                    <span class="www-checkbox-radio-title">迪士尼（Disney）</span>
+                                </span>
+                                </li>
+                                <li>
+                                <span class="www-checkbox-radio-custom">
+                                    <input type="checkbox" />
+                                    <span class="www-checkbox-radio-title">三星（SAMSUNG）</span>
+                                </span>
+                                </li>
+                                <li>
+                                <span class="www-checkbox-radio-custom">
+                                    <input type="checkbox" />
+                                    <span class="www-checkbox-radio-title">创见（Transcend）</span>
+                                </span>
+                                </li>
+                                <li>
+                                <span class="www-checkbox-radio-custom">
+                                    <input type="checkbox" />
+                                    <span class="www-checkbox-radio-title">海盗船（CORSAIR）</span>
+                                </span>
+                                </li>
+                            </ul>
+                        </div>
+                    </form>
+                </div>
+                <!--Filters END-->
+
                 <!-- category listing section start -->
-                    <div class="column category-listing-right-section margin-top-20">
-                        <div class="row top-heading-bar">
-                            <div class="www-top-heading-bar-left">
-                                <ul>
-                                    <li class="active"><a href="#">综合</a></li>
-                                    <li><a href="#">销量<span class="sui-icon icon-sort-down">&nbsp;</span> </a> </li>
-                                    <li><a href="#">价格<span class="sui-icon icon-sort-down">&nbsp;</span> </a> </li>
-                                </ul>
+                <div class="column category-listing-right-section margin-top-20">
+                    <div class="row top-heading-bar">
+                        <div class="www-top-heading-bar-left">
+                            <ul>
+                                <li class="active"><a href="#">综合</a></li>
+                                <li><a href="#">销量<span class="sui-icon icon-sort-down">&nbsp;</span> </a> </li>
+                                <li><a href="#">价格<span class="sui-icon icon-sort-down">&nbsp;</span> </a> </li>
+                            </ul>
+                        </div>
+                        <div class="www-top-heading-bar-right">
+                            <p>
+                                <span class="nav-arrow"><</span>
+                                <span><span class="active-page">1</span> / 10</span>
+                                <span class="nav-arrow">></span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row www-bottom-category-products-section margin-top-20">
+                        <div class="www-four-products-row">
+                            <div class="column www-single-product">
+                                <div class="www-single-product-image">
+                                    <img src="../../static/www/images/category-product-image.png"/>
+                                </div>
+                                <h2>￥9.90 </h2>
+                                <p>
+                                    金士顿（Kingston）DT SE9H 16GB
+                                    <span>金属U盘 银色亮薄</span>
+                                </p>
                             </div>
-                            <div class="www-top-heading-bar-right">
-                                 <p>
-                                     <span class="nav-arrow"><</span>
-                                        <span><span class="active-page">1</span> / 10</span>
-                                     <span class="nav-arrow">></span>
-                                 </p>
+                            <div class="column www-single-product">
+                                <div class="www-single-product-image">
+                                    <img src="../../static/www/images/category-product-image.png"/>
+                                </div>
+                                <h2>￥9.90<span class="www-plus-text">+</span>50<span>积分 </span> </h2>
+                                <p>
+                                    金士顿（Kingston）DT SE9H 16GB
+                                    <span>金属U盘 银色亮薄</span>
+                                </p>
+                            </div>
+                            <div class="column www-single-product">
+                                <div class="www-single-product-image">
+                                    <img src="../../static/www/images/category-product-image.png"/>
+                                </div>
+                                <h2>500<span>积分 </span> </h2>
+                                <p>
+                                    金士顿（Kingston）DT SE9H 16GB
+                                    <span>金属U盘 银色亮薄</span>
+                                </p>
+                            </div>
+                            <div class="column www-single-product www-last-product">
+                                <div class="www-single-product-image">
+                                    <img src="../../static/www/images/category-product-image.png"/>
+                                </div>
+                                <h2>￥9.90 </h2>
+                                <p>
+                                    金士顿（Kingston）DT SE9H 16GB
+                                    <span>金属U盘 银色亮薄</span>
+                                </p>
                             </div>
                         </div>
-                        <div class="row www-bottom-category-products-section margin-top-20">
-                            <div class="www-four-products-row">
-                                <div class="column www-single-product">
-                                    <div class="www-single-product-image">
-                                        <img src="../../static/www/images/category-product-image.png">
-                                    </div>
-                                    <h2>￥9.90 </h2>
-                                    <p>
-                                        金士顿（Kingston）DT SE9H 16GB
-                                        <span>金属U盘 银色亮薄</span>
-                                    </p>
+                        <div class="www-four-products-row">
+                            <div class="column www-single-product">
+                                <div class="www-single-product-image">
+                                    <img src="../../static/www/images/category-product-image.png"/>
                                 </div>
-                                <div class="column www-single-product">
-                                    <div class="www-single-product-image">
-                                        <img src="../../static/www/images/category-product-image.png">
-                                    </div>
-                                    <h2>￥9.90 </h2>
-                                    <p>
-                                        金士顿（Kingston）DT SE9H 16GB
-                                        <span>金属U盘 银色亮薄</span>
-                                    </p>
+                                <h2>￥9.90 </h2>
+                                <p>
+                                    金士顿（Kingston）DT SE9H 16GB
+                                    <span>金属U盘 银色亮薄</span>
+                                </p>
+                            </div>
+                            <div class="column www-single-product">
+                                <div class="www-single-product-image">
+                                    <img src="../../static/www/images/image-placeholder.jpg"/>
                                 </div>
-                                <div class="column www-single-product">
-                                    <div class="www-single-product-image">
-                                        <img src="../../static/www/images/category-product-image.png">
-                                    </div>
-                                    <h2>￥9.90 </h2>
-                                    <p>
-                                        金士顿（Kingston）DT SE9H 16GB
-                                        <span>金属U盘 银色亮薄</span>
-                                    </p>
+                                <h2>￥9.90 </h2>
+                                <p>
+                                    金士顿（Kingston）DT SE9H 16GB
+                                    <span>金属U盘 银色亮薄</span>
+                                </p>
+                            </div>
+                            <div class="column www-single-product">
+                                <div class="www-single-product-image">
+                                    <img src="../../static/www/images/category-product-image.png"/>
                                 </div>
-                                <div class="column www-single-product www-last-product">
-                                    <div class="www-single-product-image">
-                                        <img src="../../static/www/images/category-product-image.png">
-                                    </div>
-                                    <h2>￥9.90 </h2>
-                                    <p>
-                                        金士顿（Kingston）DT SE9H 16GB
-                                        <span>金属U盘 银色亮薄</span>
-                                    </p>
+                                <h2>￥9.90 </h2>
+                                <p>
+                                    金士顿（Kingston）DT SE9H 16GB
+                                    <span>金属U盘 银色亮薄</span>
+                                </p>
+                            </div>
+                            <div class="column www-single-product www-last-product">
+                                <div class="www-single-product-image">
+                                    <img src="../../static/www/images/category-product-image.png"/>
+                                </div>
+                                <h2>￥9.90 </h2>
+                                <p>
+                                    金士顿（Kingston）DT SE9H 16GB
+                                    <span>金属U盘 银色亮薄</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="www-four-products-row">
+                            <div class="column www-single-product">
+                                <div class="www-single-product-image">
+                                    <img src="../../static/www/images/category-product-image.png"/>
+                                </div>
+                                <h2>￥9.90 </h2>
+                                <p>
+                                    金士顿（Kingston）DT SE9H 16GB
+                                    <span>金属U盘 银色亮薄</span>
+                                </p>
+                            </div>
+                            <div class="column www-single-product">
+                                <div class="www-single-product-image">
+                                    <img src="../../static/www/images/category-product-image.png"/>
+                                </div>
+                                <h2>￥9.90 </h2>
+                                <p>
+                                    金士顿（Kingston）DT SE9H 16GB
+                                    <span>金属U盘 银色亮薄</span>
+                                </p>
+                            </div>
+                            <div class="column www-single-product">
+                                <div class="www-single-product-image">
+                                    <img src="../../static/www/images/category-product-image.png"/>
+                                </div>
+                                <h2>￥9.90 </h2>
+                                <p>
+                                    金士顿（Kingston）DT SE9H 16GB
+                                    <span>金属U盘 银色亮薄</span>
+                                </p>
+                            </div>
+                            <div class="column www-single-product www-last-product">
+                                <div class="www-single-product-image">
+                                    <img src="../../static/www/images/category-product-image.png"/>
+                                </div>
+                                <h2>￥9.90 </h2>
+                                <p>
+                                    金士顿（Kingston）DT SE9H 16GB
+                                    <span>金属U盘 银色亮薄</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="www-four-products-row">
+                            <div class="column www-single-product">
+                                <div class="www-single-product-image">
+                                    <img src="../../static/www/images/category-product-image.png"/>
+                                </div>
+                                <h2>￥9.90 </h2>
+                                <p>
+                                    金士顿（Kingston）DT SE9H 16GB
+                                    <span>金属U盘 银色亮薄</span>
+                                </p>
+                            </div>
+                            <div class="column www-single-product">
+                                <div class="www-single-product-image">
+                                    <img src="../../static/www/images/category-product-image.png"/>
+                                </div>
+                                <h2>￥9.90 </h2>
+                                <p>
+                                    金士顿（Kingston）DT SE9H 16GB
+                                    <span>金属U盘 银色亮薄</span>
+                                </p>
+                            </div>
+                            <div class="column www-single-product">
+                                <div class="www-single-product-image">
+                                    <img src="../../static/www/images/category-product-image.png"/>
+                                </div>
+                                <h2>￥9.90 </h2>
+                                <p>
+                                    金士顿（Kingston）DT SE9H 16GB
+                                    <span>金属U盘 银色亮薄</span>
+                                </p>
+                            </div>
+                            <div class="column www-single-product www-last-product">
+                                <div class="www-single-product-image">
+                                    <img src="../../static/www/images/category-product-image.png"/>
+                                </div>
+                                <h2>￥9.90 </h2>
+                                <p>
+                                    金士顿（Kingston）DT SE9H 16GB
+                                    <span>金属U盘 银色亮薄</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="www-category-pagination">
+                            <div class="sui-pagination pagination-large">
+                                <ul>
+                                    <li class="prev disabled"><a href="#">«上一页</a></li>
+                                    <li class="active"><a href="#">1</a></li>
+                                    <li>  <a href=""> 2 </a> </ li>
+                                    <li>  <a href=""> 3 </a> </ li>
+                                    <li class="dotted"><span>...</span></li>
+                                    <li>  <a href=""> 10 </a> </ li>
+                                    <li class="next"><a href="#">下一页»</a></li>
+                                </ul>
+                                <div>
+                                    <span class="www-total-no-of-pages">共 10 页</span>
+                                            <span>
+                                              到第
+                                              <input type="text" class="page-num www-simple-input-text-field" placeholder="1"/>页
+                                              <button class="page-confirm" onclick="alert(1)">确定</button>
+                                            </span>
                                 </div>
                             </div>
                         </div>
                     </div>
+                </div>
                 <!-- category listing section ends-->
             </div>
         </div>

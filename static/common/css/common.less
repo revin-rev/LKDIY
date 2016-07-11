@@ -350,6 +350,16 @@
     padding: 12px 10px;
     font-weight: normal;
     line-height: 21px;
+
+    span{
+      height: 8px;
+      display: inline-block;
+      float: right;
+      line-height: 1px;
+      vertical-align: middle;
+      position: relative;
+      top: 8px;
+    }
   }
 
   > ul {
@@ -466,6 +476,36 @@
         }
       }
 
+    }
+  }
+
+  &.transformed-mega-menu{
+    position: relative;
+    h5{
+      cursor: pointer;
+    }
+    &>ul{
+      display:none;
+      position: absolute;
+      top: 100%;
+      width: 210px;
+      z-index: 100;
+    }
+
+    &:hover{
+      & > ul{
+        display:block;
+      }
+      h5{
+        span.icon-sort-up{
+          display: block;
+          visibility: visible;
+          line-height: 12px;
+        }
+        span.icon-sort-down{
+          display: none;
+        }
+      }
     }
   }
 }

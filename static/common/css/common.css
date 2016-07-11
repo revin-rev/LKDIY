@@ -316,6 +316,15 @@
   font-weight: normal;
   line-height: 21px;
 }
+.side-bar > h5 span {
+  height: 8px;
+  display: inline-block;
+  float: right;
+  line-height: 1px;
+  vertical-align: middle;
+  position: relative;
+  top: 8px;
+}
 .side-bar > ul {
   margin: 0;
   padding: 0;
@@ -416,6 +425,30 @@
 }
 .side-bar > ul > li:hover .mega-menu {
   display: block;
+}
+.side-bar.transformed-mega-menu {
+  position: relative;
+}
+.side-bar.transformed-mega-menu h5 {
+  cursor: pointer;
+}
+.side-bar.transformed-mega-menu > ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  width: 210px;
+  z-index: 100;
+}
+.side-bar.transformed-mega-menu:hover > ul {
+  display: block;
+}
+.side-bar.transformed-mega-menu:hover h5 span.icon-sort-up {
+  display: block;
+  visibility: visible;
+  line-height: 12px;
+}
+.side-bar.transformed-mega-menu:hover h5 span.icon-sort-down {
+  display: none;
 }
 /******************************************************
    *Sidebar END

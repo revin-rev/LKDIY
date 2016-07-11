@@ -271,11 +271,33 @@ p {
 }
 
 
-
 /**
    *Input Group End
 **/
-
+.simple-input-text-field{
+  border-radius: 0;
+  box-shadow: none;
+  padding: 8px;
+  height: auto;
+}
+.custom-breadcrumb{
+  padding: 0;
+  margin-bottom: 15px;
+  margin-top: 20px;
+  li{
+    a{
+      font-size: 16px;
+      color: @baseTextColor;
+    }
+    & + li:before {
+      content: ">";
+      color: @baseTextColor;
+    }
+  }
+  &>.active {
+    color: @baseTextColor;
+  }
+}
 
 
 
