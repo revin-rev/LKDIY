@@ -134,16 +134,16 @@ p {
   background-image: url("../images/spirit_icons.png");
 }
 .truck-icon {
-  background-position: 366px 74px;
+  background-position: 124px 74px;
 }
 .brush-icon {
-  background-position: 299px 74px;
+  background-position: 358px 74px;
 }
 .seven-icon {
-  background-position: 214px 74px;
+  background-position: 272px 74px;
 }
 .hands-icon {
-  background-position: 137px 74px;
+  background-position: 195px 74px;
 }
 .margin-bottom-20 {
   margin-bottom: 20px;
@@ -200,7 +200,7 @@ p {
   display: block;
   float: left;
 }
-.input-group-btn .www-btn {
+.input-group-btn .btn {
   z-index: 2;
   margin-left: -1px;
   display: inline-block;
@@ -251,6 +251,27 @@ p {
 }
 .custom-breadcrumb > .active {
   color: #666666;
+}
+.back-to-top {
+  height: 36px;
+  width: 36px;
+  background: url("../images/spirit_icons.png");
+  display: inline-block;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  background-position: 44px 78px;
+  -webkit-transition: height 0.2s;
+  -moz-transition: height 0.2s;
+  -o-transition: height 0.2s;
+  transition: height 0.2s;
+}
+.back-to-top:hover {
+  height: 70px;
+  background-position: 44px 155px;
+}
+.padding-bottom-zero {
+  padding-bottom: 0;
 }
 /******************************************************
    *Helper Element CSS END

@@ -1,18 +1,15 @@
-@import "../../common/css/variable";
-
+/******************************************************
+   *Variables START
+******************************************************/
 /******************************************************
    *mail verify top section start
 ******************************************************/
-.www-mail-verify-top-section{
+.user-mail-verify-top-section {
   padding: 30px;
 }
-.www-mail-verify-btm-section{
+.user-mail-verify-btm-section {
   padding: 30px;
 }
-
-
-
 /******************************************************
    *mail verify top section end
 ******************************************************/
-

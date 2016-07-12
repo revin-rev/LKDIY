@@ -492,6 +492,7 @@
   font-size: 22px;
   color: #b0120a;
   font-family: "SimHei";
+  line-height: 22px;
 }
 .service-block .service-title > span {
   font-size: 18px;
@@ -682,6 +683,7 @@
 /******* right category section start *******/
 .category-listing-right-section {
   width: 980px;
+  position: relative;
 }
 /******* right category section end *******/
 /******************************************************
@@ -695,3 +697,6 @@
 /******************************************************
    *top heading bar end
 ******************************************************/
+.accordion-sidebar {
+  width: 230px;
+}

@@ -4,12 +4,24 @@
 /******************************************************
    *Styling For IE START
 ******************************************************/
-.side-bar > ul > li > a {
+html[data-browser='8'] .side-bar > ul > li > a,
+html[data-browser='9'] .side-bar > ul > li > a {
   line-height: 14px;
 }
-.cart-column .cart-btn:hover {
+html[data-browser='8'] .cart-column .cart-btn:hover,
+html[data-browser='9'] .cart-column .cart-btn:hover {
   border-color: #dedede !important;
 }
 /******************************************************
    *Styling For IE END
+******************************************************/
+/******************************************************
+   *Styling For IE 10 and greater START
+******************************************************/
+html[data-browser='11'] .side-bar > ul > li > a,
+html[data-browser='10'] .side-bar > ul > li > a {
+  line-height: 14px;
+}
+/******************************************************
+   *Styling For IE 10 and greater END
 ******************************************************/
