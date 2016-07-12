@@ -12,6 +12,18 @@ html[data-browser='8'] .cart-column .cart-btn:hover,
 html[data-browser='9'] .cart-column .cart-btn:hover {
   border-color: #dedede !important;
 }
+html[data-browser='8'] .www-popular-scene-title span,
+html[data-browser='9'] .www-popular-scene-title span {
+  display: inline-block;
+  background: #000;
+  line-height: 25px;
+  padding: 5px 10px;
+  zoom: 1;
+  filter: alpha(opacity=80);
+  -webkit-opacity: 0.8;
+  -moz-opacity: 0.8;
+  opacity: 0.8;
+}
 /******************************************************
    *Styling For IE END
 ******************************************************/
