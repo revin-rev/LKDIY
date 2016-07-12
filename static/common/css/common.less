@@ -658,46 +658,88 @@
    *Header After Login START
 ******************************************************/
 .after-login-header-outr{
-    background-color: @baseColor;
-    margin-bottom:32px;
-    .logo-column{
-      padding-top:19px;
-      padding-bottom:19px;
-    }
-    .login-navbar{
-        ul{
-          padding: 0;
-          margin:12px 0 0 51px;
-          list-style: none;
-          li{
-            display: inline-block;
-            a{
-              text-decoration: none;
-              color: @white;
-              font-size: 16px;
-              padding:35px 25px;
-              display: block;
+  background-color: @baseColor;
+  margin-bottom:32px;
+  .logo-column{
+    padding-top:19px;
+    padding-bottom:19px;
+  }
+  .login-navbar{
+    ul{
+      padding: 0;
+      margin:12px 0 0 51px;
+      list-style: none;
+      li{
+        display: inline-block;
+        a{
+          text-decoration: none;
+          color: @white;
+          font-size: 16px;
+          padding:35px 25px;
+          display: block;
+          position: relative;
+
+          &:hover{
+            &:after{
+              content: '';
+              width: 0;
+              height: 0;
+              border-left:9px solid transparent;
+              border-right:9px solid transparent;
+              border-bottom:9px solid @white;
+              position: absolute;
+              left: 0;
+              bottom:0;
+              right: 0;
+              margin: 0 auto;
+              text-align: center;
             }
           }
         }
+        &.active{
+          a:after{
+            content: '';
+            width: 0;
+            height: 0;
+            border-left:9px solid transparent;
+            border-right:9px solid transparent;
+            border-bottom:9px solid @white;
+            position: absolute;
+            left: 0;
+            bottom:0;
+            right: 0;
+            margin: 0 auto;
+            text-align: center;
+          }
+        }
+      }
+
     }
+  }
   .after-login-search {
     margin-top: 35px;
 
-      .input-group{
-        border: 0;
-        color: @baseTextColorDark;
-        width: 200px;
-
-        .form-control{
-          .placeholder(@baseTextColorDark)
-        }
+    .input-group{
+      border: 0;
+      color: @baseTextColorDark;
+      width: 200px;
+      input[type="text"]{
+        width: 145px;
       }
-      .input-group-btn .www-btn{
+      .form-control{
+        .placeholder(@baseTextColorDark)
+      }
+    }
+    .input-group-btn
+    {
+      width:55px;
+      .btn{
         background-color: @subFooterBG;
         color: @baseTextColorDark;
-        min-width: 54px;
+        min-width: 48px;
       }
+    }
+
   }
 }
 /******************************************************
@@ -721,28 +763,28 @@
     }
 
     ul{
-        list-style: none;
-        display: block;
-        margin:0;
-        padding: 0;
+      list-style: none;
+      display: block;
+      margin:0;
+      padding: 0;
 
-        li{
+      li{
 
-            a{
-              list-style: none;
-              text-decoration: none;
-              color: @baseTextColor;
-              font-size: @baseFontLarge;
-              padding-top: 10px;
-              padding-bottom: 10px;
-              display: block;
-              &:hover, &.active{
-                color:@loginSidebarLinkHover;
-              }
-            }
-
+        a{
+          list-style: none;
+          text-decoration: none;
+          color: @baseTextColor;
+          font-size: @baseFontLarge;
+          padding-top: 10px;
+          padding-bottom: 10px;
+          display: block;
+          &:hover, &.active{
+            color:@loginSidebarLinkHover;
           }
+        }
+
       }
+    }
   }
 }
 /******************************************************

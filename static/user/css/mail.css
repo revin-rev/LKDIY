@@ -1,6 +1,19 @@
 /******************************************************
    *Variables START
 ******************************************************/
+.user-active-down-arrow {
+  width: 0;
+  height: 0;
+  border-left: 9px solid transparent;
+  border-right: 9px solid transparent;
+  border-bottom: 9px solid #fff;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: 0 auto;
+  text-align: center;
+}
 /******************************************************
    *mail verify top section start
 ******************************************************/

@@ -593,6 +593,35 @@
   font-size: 16px;
   padding: 35px 25px;
   display: block;
+  position: relative;
+}
+.after-login-header-outr .login-navbar ul li a:hover:after {
+  content: '';
+  width: 0;
+  height: 0;
+  border-left: 9px solid transparent;
+  border-right: 9px solid transparent;
+  border-bottom: 9px solid #fff;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: 0 auto;
+  text-align: center;
+}
+.after-login-header-outr .login-navbar ul li.active a:after {
+  content: '';
+  width: 0;
+  height: 0;
+  border-left: 9px solid transparent;
+  border-right: 9px solid transparent;
+  border-bottom: 9px solid #fff;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: 0 auto;
+  text-align: center;
 }
 .after-login-header-outr .after-login-search {
   margin-top: 35px;
@@ -601,6 +630,9 @@
   border: 0;
   color: #333333;
   width: 200px;
+}
+.after-login-header-outr .after-login-search .input-group input[type="text"] {
+  width: 145px;
 }
 .after-login-header-outr .after-login-search .input-group .form-control::-webkit-input-placeholder {
   color: #333333;
@@ -614,10 +646,13 @@
 .after-login-header-outr .after-login-search .input-group .form-control:-ms-input-placeholder {
   color: #333333;
 }
-.after-login-header-outr .after-login-search .input-group-btn .www-btn {
+.after-login-header-outr .after-login-search .input-group-btn {
+  width: 55px;
+}
+.after-login-header-outr .after-login-search .input-group-btn .btn {
   background-color: #f7f7f7;
   color: #333333;
-  min-width: 54px;
+  min-width: 48px;
 }
 /******************************************************
    *Header After Login End
