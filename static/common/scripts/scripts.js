@@ -7,13 +7,26 @@
         });
     });
 
-    $(window).scroll(function(){
-        if($('body').scrollTop() > 400){
+    function backToTop(){
+        var _top = 0;
+
+        if($('body').scrollTop() <= 0){
+            _top = $('html').scrollTop();
+        }else{
+            _top = $(' body').scrollTop();
+        }
+        if(_top > 400){
             $('.back-to-top').fadeIn();
         }else{
             $('.back-to-top').fadeOut();
         }
+    }
+
+    $(window).scroll(function(){
+        backToTop();
     });
+
+    backToTop();
 
     //detect if IE
 
