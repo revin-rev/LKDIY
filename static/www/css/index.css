@@ -110,6 +110,8 @@
   color: #666666;
   font-size: 12px;
   line-height: 22px;
+  height: 44px;
+  overflow: hidden;
 }
 .www-product .www-product-price {
   font-size: 20px;

@@ -17,8 +17,45 @@
 /******************************************************
    *mail verify top section start
 ******************************************************/
-.user-mail-verify-top-section {
-  padding: 30px;
+.user-mail-verify-top-section .sui-form.form-horizontal .controls {
+  padding-left: 0;
+  width: 300px;
+}
+.user-mail-verify-top-section .sui-form.form-horizontal .control-group {
+  margin-bottom: 12px;
+}
+.user-mail-verify-top-section .sui-form.form-horizontal .control-group .control-label {
+  margin-right: 18px;
+  display: block;
+}
+.user-mail-verify-top-section span {
+  font-size: 12px;
+  color: #999999;
+  margin-left: 10px;
+}
+.user-mail-verify-top-section .user-verify-detail {
+  display: inline-block;
+}
+.user-mail-verify-top-section .user-verify-detail p {
+  margin: 0;
+}
+.user-mail-verify-top-section .user-verify-detail p span {
+  display: table;
+  margin-left: 0;
+  font-size: 14px;
+  margin-bottom: 23px;
+}
+.user-mail-verify-top-section .user-verify-detail p span.user-sent-mail-to {
+  color: #333333;
+}
+.user-mail-verify-top-section .user-verify-detail p span.user-verify-mail-message {
+  color: #d01716;
+}
+.user-mail-verify-top-section .user-verify-detail p span.user-verify-mail-message2 {
+  color: #999999;
+}
+.user-mail-verify-top-section .user-verify-detail p span.margin-bottom {
+  margin-bottom: 0;
 }
 .user-mail-verify-btm-section {
   padding: 30px;

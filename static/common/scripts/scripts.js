@@ -65,8 +65,6 @@
 
     $('html').attr('data-browser',CheckVersion());
 
-    //dodotdot js for ellipsis
-    $('.middle-header .cart-column .cart-btn').hover(function(){
-        $('.middle-header .cart-column .cart-btn .cart-drop-down .cart-item-title').dotdotdot();
-    });
+    //set vertical align middle loading Image
+    $('.loading-img').css('top', ($(window).height() / 2) - 83 );
 })(jQuery);

@@ -196,6 +196,7 @@
   text-align: left;
   line-height: 16px;
   height: 48px;
+  overflow: hidden;
 }
 .middle-header .cart-column .cart-btn .cart-drop-down .cart-item-title a {
   color: #666666;
@@ -654,6 +655,7 @@
   background-color: #f7f7f7;
   color: #333333;
   min-width: 48px;
+  font-size: 14px;
 }
 /******************************************************
    *Header After Login End
@@ -706,12 +708,61 @@
   font-size: 16px;
   margin-top: 0;
   margin-bottom: 30px;
+  font-weight: normal;
 }
-.after-login-right-content-section form input[type="text"] {
+.after-login-right-content-section form {
+  margin-bottom: 0;
+}
+.after-login-right-content-section form input[type="text"],
+.after-login-right-content-section form input[type="password"] {
   background-color: #f7f7f7;
   border-radius: 0;
   box-shadow: none;
   padding: 8px;
+}
+.after-login-right-content-section .control-label {
+  margin-right: 18px;
+  display: block;
+  font-size: 14px;
+}
+.after-login-right-content-section .sui-form .form-horizontal .control-group {
+  margin-bottom: 0;
+}
+.single-input input[type="text"] {
+  width: 300px;
+  height: 36px;
+}
+.double-input input[type="text"],
+.double-input input[type="password"] {
+  width: 160px;
+  height: 36px;
+}
+.after-login-sections-padding {
+  padding: 30px;
+}
+.after-login-sections-padding .btn-primary {
+  padding: 11px 25px;
+  color: #fff;
+  font-size: 14px;
+  background-color: #d01716;
+  border-color: #d01716;
+  margin-top: 18px;
+  border-radius: 0;
+}
+.after-login-sections-padding ol {
+  margin-left: 12px;
+  margin-top: 28px;
+  color: #999999;
+  font-size: 14px;
+}
+.after-login-sections-padding ol li {
+  line-height: 20px;
+}
+.after-login-sections-padding ol li span {
+  color: #d01716;
+}
+.after-login-sections-padding .sui-form.form-horizontal .control-group.margin-bottom-0 {
+  margin-bottom: 0;
 }
 /******************************************************
    *After Login Right Section Ends
@@ -735,4 +786,15 @@
 ******************************************************/
 .accordion-sidebar {
   width: 230px;
+}
+.loading-img {
+  opacity: 0.8;
+  position: fixed;
+  top: 45%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  display: block;
+  max-width: 245px;
+  z-index: 1000;
 }

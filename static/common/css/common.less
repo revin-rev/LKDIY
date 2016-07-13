@@ -207,6 +207,7 @@
           text-align: left;
           line-height: 16px;
           height: 48px;
+          overflow: hidden;
           a {
             color: @baseTextColor;
           }
@@ -738,6 +739,7 @@
         background-color: @subFooterBG;
         color: @baseTextColorDark;
         min-width: 48px;
+        font-size: @baseFontLarge;
       }
     }
 
@@ -803,14 +805,71 @@
     font-size: 16px;
     margin-top: 0;
     margin-bottom: 30px;
+    font-weight: normal;
   }
   form{
-    input[type="text"]{
+    margin-bottom: 0;
+    input[type="text"], input[type="password"]{
       background-color:@sideBarHover;
       border-radius:0;
       box-shadow: none;
       padding: 8px;
     }
+
+  }
+  .control-label{
+    margin-right: 18px;
+    display: block;
+    font-size: @baseFontLarge;
+  }
+  .sui-form .form-horizontal .control-group{
+    margin-bottom: 0;
+
+  }
+}
+
+.single-input{
+  input[type="text"]{
+    width: 300px;
+    height: 36px;
+  }
+}
+
+.double-input{
+  input[type="text"], input[type="password"]{
+    width: 160px;
+    height: 36px;
+  }
+}
+
+.after-login-sections-padding{
+  padding: 30px;
+
+  .btn-primary{
+    padding: 11px 25px;
+    color: @white;
+    font-size: @baseFontLarge;
+    background-color: @loginSidebarLinkHover;
+    border-color: @loginSidebarLinkHover;
+    margin-top: 18px;
+    border-radius: 0;
+  }
+  ol{
+    margin-left: 12px;
+    margin-top: 28px;
+    color: @footerCopyrightTextColor;
+    font-size: @baseFontLarge;
+
+    li{
+      line-height: 20px;
+
+      span{
+        color: @loginSidebarLinkHover;
+      }
+    }
+  }
+  .sui-form.form-horizontal .control-group.margin-bottom-0{
+    margin-bottom: 0;
   }
 }
 /******************************************************
@@ -841,4 +900,17 @@
 
 .accordion-sidebar{
   width: 230px;
+}
+
+
+.loading-img {
+  opacity: 0.8;
+  position: fixed;
+  top: 45%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  display: block;
+  max-width: 245px;
+  z-index: 1000;
 }

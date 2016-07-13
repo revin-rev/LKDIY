@@ -5,14 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <title>LKDIY</title>
-
     <link rel="stylesheet" href="../../static/common/plugins/sui/css/sui-all.min.css">
     <link rel="stylesheet" href="../../static/common/css/global.css">
     <link rel="stylesheet" href="../../static/common/css/common.css">
     <link rel="stylesheet" href="../../static/item/css/category.css">
-    <link rel="stylesheet" type="text/css" href="../../static/common/css/ie-global.css" />
 </head>
 <body>
+
+<!--Loader START-->
+<!--<img src="../../static/item/images/loading.gif" alt="Loading" name="Loading" class="loading-img"/>-->
+<!--Loader END-->
+
 <!-- Header START -->
 <div class="header">
     <!-- Top Navbar START -->
@@ -621,9 +624,9 @@
 
         <!--Filters START-->
         <div class="column width-100">
-            <form action="#" class="item-form-filters">
+            <form action="#" class="item-form-filters sui-form">
                 <div class="item-form-filters-row">
-                    <label>品牌</label>
+                    <label class="item-title-label">品牌</label>
                     <ul class="item-checkbox-radio-list item-checkbox-radio-list-wide">
                         <li>
                                 <span class="item-checkbox-radio-custom">
@@ -705,7 +708,7 @@
                     </div>
                 </div>
                 <div class="item-form-filters-row">
-                    <label>品牌</label>
+                    <label class="item-title-label">品牌</label>
                     <ul class="item-checkbox-radio-list ">
                         <li>
                                 <span class="item-checkbox-radio-custom">
@@ -755,7 +758,7 @@
                     </ul>
                 </div>
                 <div class="item-form-filters-row">
-                    <label>容量：</label>
+                    <label class="item-title-label">容量：</label>
                     <ul class="item-checkbox-radio-list ">
                         <li>
                                 <span class="item-checkbox-radio-custom">
@@ -799,7 +802,7 @@
                     </div>
                 </div>
                 <div class="item-form-filters-row">
-                    <label>用途:</label>
+                    <label class="item-title-label">用途:</label>
                     <ul class="item-checkbox-radio-list ">
                         <li>
                                 <span class="item-checkbox-radio-custom">
@@ -831,363 +834,428 @@
                         <a href="#" class="item-multiple-btn"><span>+</span> 多选</a>
                     </div>
                 </div>
+                <div class="item-form-filters-row">
+                    <label class="item-title-label">用途:</label>
+                    <ul class="item-checkbox-radio-list ">
+                        <li>
+                            <label class="checkbox-pretty inline checked">
+                                <input type="checkbox" checked="checked"><span>节日送礼</span>
+                            </label>
+                        </li>
+                        <li>
+                            <label class="checkbox-pretty inline checked">
+                                <input type="checkbox" checked="checked"><span>企业采购</span>
+                            </label>
+                        </li>
+                        <li>
+                            <label class="checkbox-pretty inline checked">
+                                <input type="checkbox" checked="checked"><span>企业采购</span>
+                            </label>
+                        </li>
+                        <li>
+                            <label class="checkbox-pretty inline checked">
+                                <input type="checkbox" checked="checked"><span>个人定制</span>
+                            </label>
+                        </li>
+                    </ul>
+                    <div class="item-filter-btn-set">
+                        <a href="#" class="item-more-btn">更多 <span class="sui-icon icon-sort-down"></span></a>
+                        <a href="#" class="item-multiple-btn"><span>+</span> 多选</a>
+                    </div>
+                </div>
             </form>
         </div>
         <!--Filters END-->
 
         <!-- accordion sidebar and category listing section start -->
-            <div class="accordion-sidebar-and-category-section">
-                    <!-- accordion sidebar start -->
-                    <div class="column accordion-sidebar  margin-top-20">
-                        <div class="item-digital-office-sidebar">
-                                <h1 class="item-accordion-main-heading">数码办公</h1>
-                                <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-                            <div class="panel panel-default">
-                                <div class="panel-heading active" role="tab" id="headingOne">
-                                    <h4 class="panel-title">
-                                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                          <span class="item-accordion-plus">+</span><span class="item-accordion-minus">-</span>  手机壳
-                                        </a>
-                                    </h4>
-                                </div>
-                                <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
-                                    <div class="panel-body">
-                                        <ul class="item-accordion-sub-list">
-                                            <li class="active"><a href="#">iPhone6/6s</a> </li>
-                                            <li><a href="#">华为麦芒4</a> </li>
-                                            <li><a href="#" class="padding-bottom-zero">华为荣耀7</a> </li>
-                                        </ul>
-                                    </div>
-                                </div>
+        <div class="accordion-sidebar-and-category-section">
+            <!-- accordion sidebar start -->
+            <div class="column accordion-sidebar  margin-top-20">
+                <div class="item-digital-office-sidebar">
+                    <h1 class="item-accordion-main-heading">数码办公</h1>
+                    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                        <div class="panel panel-default">
+                            <div class="panel-heading active" role="tab" id="headingOne">
+                                <h4 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        <span class="item-accordion-plus">+</span><span class="item-accordion-minus">-</span>  手机壳
+                                    </a>
+                                </h4>
                             </div>
-                            <div class="panel panel-default">
-                                <div class="panel-heading" role="tab" id="headingTwo">
-                                    <h4 class="panel-title">
-                                        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                            <span class="item-accordion-plus">+</span><span class="item-accordion-minus">-</span> U盘
-                                        </a>
-                                    </h4>
+                            <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                                <div class="panel-body">
+                                    <ul class="item-accordion-sub-list">
+                                        <li class="active"><a href="#">iPhone6/6s</a> </li>
+                                        <li><a href="#">华为麦芒4</a> </li>
+                                        <li><a href="#" class="padding-bottom-zero">华为荣耀7</a> </li>
+                                    </ul>
                                 </div>
-                                <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-                                    <div class="panel-body">
-                                        2
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="panel panel-default">
-                                <div class="panel-heading" role="tab" id="headingThree">
-                                    <h4 class="panel-title">
-                                        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                            <span class="item-accordion-plus">+</span><span class="item-accordion-minus">-</span> 笔记本
-                                        </a>
-                                    </h4>
-                                </div>
-                                <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-                                    <div class="panel-body">
-                                        3
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="panel panel-default">
-                                <div class="panel-heading" role="tab" id="headingFour">
-                                    <h4 class="panel-title">
-                                        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
-                                            <span class="item-accordion-plus">+</span><span class="item-accordion-minus">-</span> 名片
-                                        </a>
-                                    </h4>
-                                </div>
-                                <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
-                                    <div class="panel-body">
-                                        4
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="panel panel-default">
-                                <div class="panel-heading" role="tab" id="headingFive">
-                                        <h4 class="panel-title">
-                                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseThree">
-                                                <span class="item-accordion-plus">+</span><span class="item-accordion-minus">-</span>  笔
-                                            </a>
-                                        </h4>
-                                    </div>
-                                    <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
-                                        <div class="panel-body">
-                                            5
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="panel panel-default">
-                                        <div class="panel-heading" role="tab" id="headingSix">
-                                            <h4 class="panel-title">
-                                                <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseSix" aria-expanded="false" aria-controls="collapseThree">
-                                                    <span class="item-accordion-plus">+</span><span class="item-accordion-minus">-</span> 笔筒
-                                                </a>
-                                            </h4>
-                                        </div>
-                                        <div id="collapseSix" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSix">
-                                            <div class="panel-body">
-                                                6
-                                            </div>
-                                        </div>
-                                    </div>
-                                <div class="panel panel-default">
-                                        <div class="panel-heading" role="tab" id="headingSeven">
-                                            <h4 class="panel-title">
-                                                <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseSeven" aria-expanded="false" aria-controls="collapseThree">
-                                                    <span class="item-accordion-plus">+</span><span class="item-accordion-minus">-</span>   鼠标垫
-                                                </a>
-                                            </h4>
-                                        </div>
-                                        <div id="collapseSeven" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSeven">
-                                            <div class="panel-body">
-                                                7
-                                            </div>
-                                        </div>
-                                    </div>
                             </div>
                         </div>
-                        <div class="item-digital-office-sidebar">
-                            <h1 class="item-accordion-main-heading">推荐商品</h1>
-                            <div class="item-featured-products">
-                                    <div class="item-single-product">
-                                        <div class="item-featured-image">
-                                            <img src="../../static/item/images/featured-product.jpg"/>
-                                        </div>
-                                        <h2>￥9.90 </h2>
-                                    </div>
-                                    <div class="item-single-product">
-                                        <div class="item-featured-image">
-                                            <img src="../../static/item/images/featured-product.jpg"/>
-                                        </div>
-                                        <h2>￥9.90<span class="item-plus-text">+</span>50<span>积分 </span> </h2>
-                                    </div>
-                                    <div class="item-single-product">
-                                        <div class="item-featured-image">
-                                            <img src="../../static/item/images/featured-product.jpg"/>
-                                        </div>
-                                        <h2>500<span class="item">积分 </span> </h2>
-                                    </div>
-                                    <div class="item-single-product">
-                                        <div class="item-featured-image">
-                                            <img src="../../static/item/images/featured-product.jpg"/>
-                                        </div>
-                                        <h2>￥9.90</h2>
-                                    </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingTwo">
+                                <h4 class="panel-title">
+                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        <span class="item-accordion-plus">+</span><span class="item-accordion-minus">-</span> U盘
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                                <div class="panel-body">
+                                    2
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingThree">
+                                <h4 class="panel-title">
+                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                        <span class="item-accordion-plus">+</span><span class="item-accordion-minus">-</span> 笔记本
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                                <div class="panel-body">
+                                    3
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingFour">
+                                <h4 class="panel-title">
+                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+                                        <span class="item-accordion-plus">+</span><span class="item-accordion-minus">-</span> 名片
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+                                <div class="panel-body">
+                                    4
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingFive">
+                                <h4 class="panel-title">
+                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseThree">
+                                        <span class="item-accordion-plus">+</span><span class="item-accordion-minus">-</span>  笔
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
+                                <div class="panel-body">
+                                    5
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingSix">
+                                <h4 class="panel-title">
+                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseSix" aria-expanded="false" aria-controls="collapseThree">
+                                        <span class="item-accordion-plus">+</span><span class="item-accordion-minus">-</span> 笔筒
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapseSix" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSix">
+                                <div class="panel-body">
+                                    6
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingSeven">
+                                <h4 class="panel-title">
+                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseSeven" aria-expanded="false" aria-controls="collapseThree">
+                                        <span class="item-accordion-plus">+</span><span class="item-accordion-minus">-</span>   鼠标垫
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapseSeven" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSeven">
+                                <div class="panel-body">
+                                    7
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <!-- accordion sidebar end -->
-
-                    <!-- category listing section start -->
-                    <div class="column category-listing-right-section margin-top-20">
-                        <div class="row top-heading-bar">
-                            <div class="item-top-heading-bar-left">
-                                <ul>
-                                    <li class="active"><a href="#">综合</a></li>
-                                    <li><a href="#">销量<span class="sui-icon icon-sort-down">&nbsp;</span> </a> </li>
-                                    <li><a href="#">价格<span class="sui-icon icon-sort-down">&nbsp;</span> </a> </li>
-                                </ul>
-                            </div>
-                            <div class="item-top-heading-bar-right">
-                                <p>
-                                    <span class="nav-arrow"><</span>
-                                    <span><span class="active-page">1</span> / 10</span>
-                                    <span class="nav-arrow">></span>
-                                </p>
-                            </div>
+                </div>
+                <div class="item-digital-office-sidebar">
+                    <h1 class="item-accordion-main-heading">推荐商品</h1>
+                    <div class="item-featured-products">
+                        <div class="item-single-product">
+                            <a href="#">
+                                <div class="item-featured-image">
+                                    <img src="../../static/item/images/featured-product.jpg"/>
+                                </div>
+                                <h2>￥9.90 </h2>
+                            </a>
                         </div>
-                        <div class="row item-bottom-category-products-section margin-top-20">
-                                <div class="column item-single-product">
-                                    <div class="item-single-product-image">
-                                        <img src="../../static/item/images/category-product-image.png"/>
-                                    </div>
-                                    <h2>￥9.90 </h2>
-                                    <p>
-                                        金士顿（Kingston）DT SE9H 16GB
-                                        金属U盘 银色亮薄
-                                    </p>
+                        <div class="item-single-product">
+                            <a href="#">
+                                <div class="item-featured-image">
+                                    <img src="../../static/item/images/featured-product.jpg"/>
                                 </div>
-                                <div class="column item-single-product">
-                                    <div class="item-single-product-image">
-                                        <img src="../../static/item/images/category-product-image.png"/>
-                                    </div>
-                                    <h2>￥9.90<span class="item-plus-text">+</span>50<span>积分 </span> </h2>
-                                    <p>
-                                        金士顿（Kingston）DT SE9H 16GB
-                                        金属U盘 银色亮薄
-                                    </p>
+                                <h2>￥9.90<span class="item-plus-text">+</span>50<span>积分 </span> </h2>
+                            </a>
+                        </div>
+                        <div class="item-single-product">
+                            <a href="#">
+                                <div class="item-featured-image">
+                                    <img src="../../static/item/images/featured-product.jpg"/>
                                 </div>
-                                <div class="column item-single-product">
-                                    <div class="item-single-product-image">
-                                        <img src="../../static/item/images/category-product-image.png"/>
-                                    </div>
-                                    <h2>500<span>积分 </span> </h2>
-                                    <p>
-                                        金士顿（Kingston）DT SE9H 16GB
-                                        金属U盘 银色亮薄
-                                    </p>
+                                <h2>500<span class="item">积分 </span> </h2>
+                            </a>
+                        </div>
+                        <div class="item-single-product">
+                            <a href="#">
+                                <div class="item-featured-image">
+                                    <img src="../../static/item/images/featured-product.jpg"/>
                                 </div>
-                                <div class="column item-single-product item-last-product">
-                                    <div class="item-single-product-image">
-                                        <img src="../../static/item/images/category-product-image.png"/>
-                                    </div>
-                                    <h2>￥9.90 </h2>
-                                    <p>
-                                        金士顿（Kingston）DT SE9H 16GB
-                                        金属U盘 银色亮薄
-                                    </p>
-                                </div>
+                                <h2>￥9.90</h2>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- accordion sidebar end -->
 
-                                <div class="column item-single-product">
-                                    <div class="item-single-product-image">
-                                        <img src="../../static/item/images/category-product-image.png"/>
-                                    </div>
-                                    <h2>￥9.90 </h2>
-                                    <p>
-                                        金士顿（Kingston）DT SE9H 16GB
-                                        金属U盘 银色亮薄
-                                    </p>
-                                </div>
-                                <div class="column item-single-product">
-                                    <div class="item-single-product-image">
-                                        <img src="../../static/item/images/image-placeholder.jpg"/>
-                                    </div>
-                                    <h2>￥9.90 </h2>
-                                    <p>
-                                        金士顿（Kingston）DT SE9H 16GB
-                                        金属U盘 银色亮薄
-                                    </p>
-                                </div>
-                                <div class="column item-single-product">
-                                    <div class="item-single-product-image">
-                                        <img src="../../static/item/images/category-product-image.png"/>
-                                    </div>
-                                    <h2>￥9.90 </h2>
-                                    <p>
-                                        金士顿（Kingston）DT SE9H 16GB
-                                        金属U盘 银色亮薄
-                                    </p>
-                                </div>
-                                <div class="column item-single-product item-last-product">
-                                    <div class="item-single-product-image">
-                                        <img src="../../static/item/images/category-product-image.png"/>
-                                    </div>
-                                    <h2>￥9.90 </h2>
-                                    <p>
-                                        金士顿（Kingston）DT SE9H 16GB
-                                        金属U盘 银色亮薄
-                                    </p>
-                                </div>
-                                <div class="column item-single-product">
-                                    <div class="item-single-product-image">
-                                        <img src="../../static/item/images/category-product-image.png"/>
-                                    </div>
-                                    <h2>￥9.90 </h2>
-                                    <p>
-                                        金士顿（Kingston）DT SE9H 16GB
-                                        金属U盘 银色亮薄
-                                    </p>
-                                </div>
-                                <div class="column item-single-product">
-                                    <div class="item-single-product-image">
-                                        <img src="../../static/item/images/category-product-image.png"/>
-                                    </div>
-                                    <h2>￥9.90 </h2>
-                                    <p>
-                                        金士顿（Kingston）DT SE9H 16GB
-                                        金属U盘 银色亮薄
-                                    </p>
-                                </div>
-                                <div class="column item-single-product">
-                                    <div class="item-single-product-image">
-                                        <img src="../../static/item/images/category-product-image.png"/>
-                                    </div>
-                                    <h2>￥9.90 </h2>
-                                    <p>
-                                        金士顿（Kingston）DT SE9H 16GB
-                                        金属U盘 银色亮薄
-                                    </p>
-                                </div>
-                                <div class="column item-single-product item-last-product">
-                                    <div class="item-single-product-image">
-                                        <img src="../../static/item/images/category-product-image.png"/>
-                                    </div>
-                                    <h2>￥9.90 </h2>
-                                    <p>
-                                        金士顿（Kingston）DT SE9H 16GB
-                                        金属U盘 银色亮薄
-                                    </p>
-                                </div>
-                                <div class="column item-single-product">
-                                    <div class="item-single-product-image">
-                                        <img src="../../static/item/images/category-product-image.png"/>
-                                    </div>
-                                    <h2>￥9.90 </h2>
-                                    <p>
-                                        金士顿（Kingston）DT SE9H 16GB
-                                        金属U盘 银色亮薄
-                                    </p>
-                                </div>
-                                <div class="column item-single-product">
-                                    <div class="item-single-product-image">
-                                        <img src="../../static/item/images/category-product-image.png"/>
-                                    </div>
-                                    <h2>￥9.90 </h2>
-                                    <p>
-                                        金士顿（Kingston）DT SE9H 16GB
-                                        金属U盘 银色亮薄
-                                    </p>
-                                </div>
-                                <div class="column item-single-product">
-                                    <div class="item-single-product-image">
-                                        <img src="../../static/item/images/category-product-image.png"/>
-                                    </div>
-                                    <h2>￥9.90 </h2>
-                                    <p>
-                                        金士顿（Kingston）DT SE9H 16GB
-                                        金属U盘 银色亮薄
-                                    </p>
-                                </div>
-                                <div class="column item-single-product item-last-product">
-                                    <div class="item-single-product-image">
-                                        <img src="../../static/item/images/category-product-image.png"/>
-                                    </div>
-                                    <h2>￥9.90 </h2>
-                                    <p>
-                                        金士顿（Kingston）DT SE9H 16GB
-                                        金属U盘 银色亮薄
-                                    </p>
-                                </div>
+            <!-- category listing section start -->
+            <div class="column category-listing-right-section margin-top-20">
+                <div class="row top-heading-bar">
+                    <div class="item-top-heading-bar-left">
+                        <ul>
+                            <li class="active"><a href="#">综合<span class="sui-icon icon-sort-down">&nbsp;</span> <span class="sui-icon icon-sort-up">&nbsp;</span></a></li>
+                            <li><a href="#">销量<span class="sui-icon icon-sort-down">&nbsp;</span> <span class="sui-icon icon-sort-up">&nbsp;</span> </a> </li>
+                            <li><a href="#">价格<span class="sui-icon icon-sort-down">&nbsp;</span> <span class="sui-icon icon-sort-up">&nbsp;</span></a> </li>
+                        </ul>
+                    </div>
+                    <div class="item-top-heading-bar-right">
+                        <p>
+                            <span class="nav-arrow"><</span>
+                            <span><span class="active-page">1</span> / 10</span>
+                            <span class="nav-arrow">></span>
+                        </p>
+                    </div>
+                </div>
+                <div class="row item-bottom-category-products-section margin-top-20">
+                    <div class="column item-single-product">
+                        <a href="#">
+                            <div class="item-single-product-image">
+                                <img src="../../static/item/images/category-product-image.png"/>
+                            </div>
+                            <h2>￥9.90 </h2>
+                            <p>
+                                金士顿（Kingston）DT SE9H 16GB
+                                金属U盘 银色亮薄
+                            </p>
+                        </a>
+                    </div>
+                    <div class="column item-single-product">
+                        <a href="#">
+                            <div class="item-single-product-image">
+                                <img src="../../static/item/images/category-product-image.png"/>
+                            </div>
+                            <h2>￥9.90<span class="item-plus-text">+</span>50<span>积分 </span> </h2>
+                            <p>
+                                金士顿（Kingston）DT SE9H 16GB
+                                金属U盘 银色亮薄
+                            </p>
+                        </a>
+                    </div>
+                    <div class="column item-single-product">
+                        <a href="#">
+                            <div class="item-single-product-image">
+                                <img src="../../static/item/images/category-product-image.png"/>
+                            </div>
+                            <h2>500<span>积分 </span> </h2>
+                            <p>
+                                金士顿（Kingston）DT SE9H 16GB
+                                金属U盘 银色亮薄
+                            </p>
+                        </a>
+                    </div>
+                    <div class="column item-single-product item-last-product">
+                        <div class="item-single-product-image">
+                            <img src="../../static/item/images/category-product-image.png"/>
+                        </div>
+                        <h2>￥9.90 </h2>
+                        <p>
+                            金士顿（Kingston）DT SE9H 16GB
+                            金属U盘 银色亮薄
+                        </p>
+                    </div>
 
-                            <div class="item-category-pagination">
-                                <div class="sui-pagination pagination-large">
-                                    <ul>
-                                        <li class="prev disabled"><a href="#">«上一页</a></li>
-                                        <li class="active"><a href="#">1</a></li>
-                                        <li>  <a href=""> 2 </a> </li>
-                                        <li>  <a href=""> 3 </a> </li>
-                                        <li class="dotted"><span>...</span></li>
-                                        <li>  <a href=""> 10 </a> </li>
-                                        <li class="next"><a href="#">下一页»</a></li>
-                                    </ul>
-                                    <div>
-                                        <span class="item-total-no-of-pages">共 10 页</span>
+                    <div class="column item-single-product">
+                        <a href="#">
+                            <div class="item-single-product-image">
+                                <img src="../../static/item/images/category-product-image.png"/>
+                            </div>
+                            <h2>￥9.90 </h2>
+                            <p>
+                                金士顿（Kingston）DT SE9H 16GB
+                                金属U盘 银色亮薄
+                            </p>
+                        </a>
+                    </div>
+                    <div class="column item-single-product">
+                        <a href="#">
+                            <div class="item-single-product-image">
+                                <img src="../../static/item/images/image-placeholder.jpg"/>
+                            </div>
+                            <h2>￥9.90 </h2>
+                            <p>
+                                金士顿（Kingston）DT SE9H 16GB
+                                金属U盘 银色亮薄
+                            </p>
+                        </a>
+                    </div>
+                    <div class="column item-single-product">
+                        <a href="#">
+                            <div class="item-single-product-image">
+                                <img src="../../static/item/images/category-product-image.png"/>
+                            </div>
+                            <h2>￥9.90 </h2>
+                            <p>
+                                金士顿（Kingston）DT SE9H 16GB
+                                金属U盘 银色亮薄
+                            </p>
+                        </a>
+                    </div>
+                    <div class="column item-single-product item-last-product">
+                        <div class="item-single-product-image">
+                            <img src="../../static/item/images/category-product-image.png"/>
+                        </div>
+                        <h2>￥9.90 </h2>
+                        <p>
+                            金士顿（Kingston）DT SE9H 16GB
+                            金属U盘 银色亮薄
+                        </p>
+                    </div>
+                    <div class="column item-single-product">
+                        <a href="#">
+                            <div class="item-single-product-image">
+                                <img src="../../static/item/images/category-product-image.png"/>
+                            </div>
+                            <h2>￥9.90 </h2>
+                            <p>
+                                金士顿（Kingston）DT SE9H 16GB
+                                金属U盘 银色亮薄
+                            </p>
+                        </a>
+                    </div>
+                    <div class="column item-single-product">
+                        <a href="#">
+                            <div class="item-single-product-image">
+                                <img src="../../static/item/images/category-product-image.png"/>
+                            </div>
+                            <h2>￥9.90 </h2>
+                            <p>
+                                金士顿（Kingston）DT SE9H 16GB
+                                金属U盘 银色亮薄
+                            </p>
+                        </a>
+                    </div>
+                    <div class="column item-single-product">
+                        <a href="#">
+                            <div class="item-single-product-image">
+                                <img src="../../static/item/images/category-product-image.png"/>
+                            </div>
+                            <h2>￥9.90 </h2>
+                            <p>
+                                金士顿（Kingston）DT SE9H 16GB
+                                金属U盘 银色亮薄
+                            </p>
+                        </a>
+                    </div>
+                    <div class="column item-single-product item-last-product">
+                        <a href="#">
+                            <div class="item-single-product-image">
+                                <img src="../../static/item/images/category-product-image.png"/>
+                            </div>
+                            <h2>￥9.90 </h2>
+                            <p>
+                                金士顿（Kingston）DT SE9H 16GB
+                                金属U盘 银色亮薄
+                            </p>
+                        </a>
+                    </div>
+                    <div class="column item-single-product">
+                        <a href="#">
+                            <div class="item-single-product-image">
+                                <img src="../../static/item/images/category-product-image.png"/>
+                            </div>
+                            <h2>￥9.90 </h2>
+                            <p>
+                                金士顿（Kingston）DT SE9H 16GB
+                                金属U盘 银色亮薄
+                            </p>
+                        </a>
+                    </div>
+                    <div class="column item-single-product">
+                        <a href="#">
+                            <div class="item-single-product-image">
+                                <img src="../../static/item/images/category-product-image.png"/>
+                            </div>
+                            <h2>￥9.90 </h2>
+                            <p>
+                                金士顿（Kingston）DT SE9H 16GB
+                                金属U盘 银色亮薄
+                            </p>
+                        </a>
+                    </div>
+                    <div class="column item-single-product">
+                        <a href="#">
+                            <div class="item-single-product-image">
+                                <img src="../../static/item/images/category-product-image.png"/>
+                            </div>
+                            <h2>￥9.90 </h2>
+                            <p>
+                                金士顿（Kingston）DT SE9H 16GB
+                                金属U盘 银色亮薄
+                            </p>
+                        </a>
+                    </div>
+                    <div class="column item-single-product item-last-product">
+                        <a href="#">
+                            <div class="item-single-product-image">
+                                <img src="../../static/item/images/category-product-image.png"/>
+                            </div>
+                            <h2>￥9.90 </h2>
+                            <p>
+                                金士顿（Kingston）DT SE9H 16GB
+                                金属U盘 银色亮薄
+                            </p>
+                        </a>
+                    </div>
+
+                    <div class="item-category-pagination">
+                        <div class="sui-pagination pagination-large">
+                            <ul>
+                                <li class="prev disabled"><a href="#">«上一页</a></li>
+                                <li class="active"><a href="#">1</a></li>
+                                <li>  <a href=""> 2 </a> </li>
+                                <li>  <a href=""> 3 </a> </li>
+                                <li class="dotted"><span>...</span></li>
+                                <li>  <a href=""> 10 </a> </li>
+                                <li class="next"><a href="#">下一页»</a></li>
+                            </ul>
+                            <div>
+                                <span class="item-total-no-of-pages">共 10 页</span>
                                         <span>
                                           到第
                                           <input type="text" class="page-num item-simple-input-text-field" placeholder="1"/>页
                                           <button class="page-confirm" onclick="alert(1)">确定</button>
                                         </span>
-                                    </div>
-                                </div>
                             </div>
                         </div>
-                        <img src="../../static/item/images/loading.gif" alt="Loading" name="Loading" class="item-loading"/>
                     </div>
-                    <!-- category listing section ends-->
-                    </div>
+                </div>
+
             </div>
-        <!-- accordion sidebar and category listing section end -->
+            <!-- category listing section ends-->
+        </div>
     </div>
+    <!-- accordion sidebar and category listing section end -->
+</div>
 </div>
 <!-- Sidebar And Category END -->
 
@@ -1389,11 +1457,7 @@
 
 <script src="../../static/common/scripts/jquery-1.12.4.min.js"></script>
 <script src="../../static/common/scripts/scripts.js"></script>
-<script src="../../static/common/plugins/sui/js/sui-all.js"></script>
+<script src="../../static/common/plugins/sui/js/sui-all.min.js"></script>
 <script src="../../static/item/scripts/category.js"></script>
 </body>
 </html>
-
-
-
-

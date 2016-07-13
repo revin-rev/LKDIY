@@ -66,7 +66,33 @@
   color: #c41411;
   border-color: #c41411;
 }
-.item-form-filters label {
+.item-form-filters .item-form-filters-row .checkbox-pretty,
+.item-form-filters .item-form-filters-row .radio-pretty {
+  color: #005aa0;
+}
+.item-form-filters .item-form-filters-row .checkbox-pretty > span,
+.item-form-filters .item-form-filters-row .radio-pretty > span {
+  display: inline-block;
+}
+.item-form-filters .item-form-filters-row .checkbox-pretty > span:before,
+.item-form-filters .item-form-filters-row .radio-pretty > span:before,
+.item-form-filters .item-form-filters-row .checkbox-pretty > span:before,
+.item-form-filters .item-form-filters-row .radio-pretty > span:before {
+  color: #ccc;
+}
+.item-form-filters .item-form-filters-row .checkbox-pretty.checked > span:before,
+.item-form-filters .item-form-filters-row .radio-pretty.checked > span:before {
+  color: #c41411;
+}
+.item-form-filters .item-form-filters-row .checkbox-pretty:hover,
+.item-form-filters .item-form-filters-row .radio-pretty:hover {
+  color: #c41411;
+}
+.item-form-filters .item-form-filters-row .checkbox-pretty:hover > span:before,
+.item-form-filters .item-form-filters-row .radio-pretty:hover > span:before {
+  color: #c41411;
+}
+.item-form-filters label.item-title-label {
   width: 125px;
   padding-left: 11px;
   display: block;
@@ -178,9 +204,19 @@
   line-height: 0px;
   width: 8px;
 }
+.item-top-heading-bar-left ul li a span.icon-sort-up {
+  display: none;
+}
 .item-top-heading-bar-left ul li.active a {
   background-color: #c41411;
   color: #fff;
+}
+.item-top-heading-bar-left ul li.active a span.icon-sort-up {
+  display: block;
+  top: 27px;
+}
+.item-top-heading-bar-left ul li.active a span.icon-sort-down {
+  display: none;
 }
 .item-top-heading-bar-right {
   margin: 0;
@@ -302,6 +338,8 @@
   margin: 0;
   font-size: 12px;
   color: #666666;
+  height: 36px;
+  overflow: hidden;
 }
 .item-single-product p span {
   display: block;
@@ -309,7 +347,6 @@
 }
 .item-single-product:hover {
   border-color: #c41411;
-  cursor: pointer;
   -webkit-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.4);
   -moz-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.4);
   box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.4);
@@ -499,13 +536,3 @@
 /******************************************************
    *category section end
 ******************************************************/
-img.item-loading {
-  opacity: 0.8;
-  position: absolute;
-  top: 45%;
-  left: 0;
-  right: 0;
-  margin: 0 auto;
-  display: block;
-  max-width: 245px;
-}

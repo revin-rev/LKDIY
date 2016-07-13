@@ -8,4 +8,5 @@
             $(this).parents('.panel-heading').removeClass('active');
         }
     });
+
 })(jQuery);

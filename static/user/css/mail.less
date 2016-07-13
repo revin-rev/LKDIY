@@ -19,7 +19,51 @@
    *mail verify top section start
 ******************************************************/
 .user-mail-verify-top-section{
-  padding: 30px;
+
+  .sui-form.form-horizontal .controls{
+    padding-left: 0;
+    width: 300px;
+  }
+
+  .sui-form.form-horizontal .control-group{
+    margin-bottom: 12px;
+
+    .control-label{
+      margin-right: 18px;
+      display: block;
+    }
+  }
+
+  span{
+    font-size: @baseFont;
+    color: @footerCopyrightTextColor;
+    margin-left: 10px;
+  }
+
+  .user-verify-detail{
+    display: inline-block;
+
+    p{
+      margin: 0;
+      span{
+        display: table;
+        margin-left: 0;
+        font-size: @baseFontLarge;
+        margin-bottom: 23px;
+
+        &.user-sent-mail-to{
+          color: @baseTextColorDark;
+        }
+        &.user-verify-mail-message{
+          color: @loginSidebarLinkHover;
+        }
+        &.user-verify-mail-message2{
+          color: @footerCopyrightTextColor;
+        }
+        &.margin-bottom{ margin-bottom: 0}
+      }
+    }
+  }
 }
 .user-mail-verify-btm-section{
   padding: 30px;
