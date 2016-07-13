@@ -4,13 +4,44 @@
 /******************************************************
    *category section start
 ******************************************************/
+.item-selected-filters{
+  margin-top: 15px;
+  margin-bottom: 10px;
 
+  label{
+    display: inline-block;
+    vertical-align: middle;
+
+    &.item-search + label{
+      margin-left: 17px;
+    }
+
+    &.item-tag{
+      border: 1px solid @CartBtnBorder;
+      background: @topHeadingBarBackground;
+      padding: 5px 9px;
+
+      span{
+        color: @baseColor;
+      }
+
+      & + label{
+        margin-left: 10px;
+      }
+    }
+  }
+}
 .item-form-filters{
   border-top:3px solid @CartBtnBorder;
 
   .item-form-filters-row {
     border-bottom:1px solid @CartBtnBorder;
     position: relative;
+
+    &.item-active-row{
+      border:2px solid @orange;
+      margin-top: -1px;
+    }
 
     &:after {
       content: '';
@@ -69,12 +100,16 @@
           border-color: @baseColor;
         }
       }
+
+
     }
 
     .checkbox-pretty,.radio-pretty{
       color: @filtersTextColor;
 
+
       & > span{
+        color: @filtersTextColor;
         display: inline-block;
         &:before,&:before{
           color: #ccc;
@@ -93,10 +128,28 @@
         color: @baseColor;
 
         & > span{
+          color: @baseColor;
           &:before{
             color: @baseColor;
           }
         }
+      }
+
+      &.item-hide-check{
+        span{
+          &:before{
+            display: none;
+          }
+
+        }
+        &.checked{
+          color: @baseColor;
+
+          span{
+            color: @baseColor;
+          }
+        }
+
       }
     }
   }
@@ -176,15 +229,48 @@
 
       &:focus{
         outline: 0;
+        border-color: @baseColor;
       }
     }
   }
-
   .item-input-button{
     background: @primaryColor;
     border: 1px solid @CartBtnBorder;
     height: 22px;
     width: 42px;
+  }
+
+  .item-more-filter{
+    text-align: left;
+    margin-left: 63px;
+
+    .item-input-filter{
+      height: 26px;
+      width: 56px;
+      text-align: center;
+      display: block;
+      margin-bottom: 4px;
+      border-radius: 4px;
+
+      & + input{
+        margin-left: 0;
+      }
+    }
+    .item-input-button{
+      text-align: center;
+      border-radius: 4px;
+      height: 26px;
+      width: 56px;
+
+      &.item-btn-active{
+        background: @baseColor;
+        color: @white;
+      }
+
+      & + .item-input-button{
+        margin-left: 10px;
+      }
+    }
   }
 }
 

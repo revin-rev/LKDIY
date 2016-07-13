@@ -9,4 +9,8 @@
         }
     });
 
+    $('.item-tag').click(function(){
+        $(this).remove();
+    });
+
 })(jQuery);
