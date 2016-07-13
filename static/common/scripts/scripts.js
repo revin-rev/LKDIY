@@ -28,11 +28,10 @@
 
     backToTop();
 
-    //detect if IE
+    //detect if IE then load css
 
     function CheckVersion(){
         var rv = -1; // Return value assumes failure.
-
         if (navigator.appName == 'Microsoft Internet Explorer'){
 
             var ua = navigator.userAgent,
@@ -49,8 +48,25 @@
             else rv = 11;
         }
 
+        if(rv == 8 || rv == 9 || rv == 10 || rv == 11){
+            url = '../../static/common/css/ie-global.css';
+            if (document.createStyleSheet)
+            {
+                document.createStyleSheet(url);
+            }
+            else
+            {
+                $('<link rel="stylesheet" type="text/css" href="' + url + '" />').appendTo('head');
+            }
+        }
+
         return rv;
     }
 
     $('html').attr('data-browser',CheckVersion());
+
+    //dodotdot js for ellipsis
+    $('.middle-header .cart-column .cart-btn').hover(function(){
+        $('.middle-header .cart-column .cart-btn .cart-drop-down .cart-item-title').dotdotdot();
+    });
 })(jQuery);

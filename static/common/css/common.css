@@ -195,6 +195,7 @@
   width: 144px;
   text-align: left;
   line-height: 16px;
+  height: 48px;
 }
 .middle-header .cart-column .cart-btn .cart-drop-down .cart-item-title a {
   color: #666666;
