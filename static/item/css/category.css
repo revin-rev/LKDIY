@@ -160,6 +160,9 @@
   padding: 0;
   margin: 0;
 }
+.item-form-filters .item-checkbox-radio-list.item-multiple-list {
+  display: none;
+}
 .item-form-filters .item-checkbox-radio-list li {
   float: left;
   min-width: 90px;
@@ -197,6 +200,9 @@
   margin-bottom: 8px;
   white-space: nowrap;
 }
+.item-form-filters .item-checkbox-radio-list li.item-more {
+  display: none;
+}
 .item-form-filters .item-checkbox-radio-list.item-checkbox-radio-list-wide li {
   width: 150px;
 }
@@ -224,6 +230,8 @@
 }
 .item-form-filters .item-more-filter {
   text-align: left;
+  display: block;
+  width: 100%;
 }
 .item-form-filters .item-more-filter .item-input-filter {
   height: 26px;

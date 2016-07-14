@@ -71,28 +71,21 @@
 
 
     /***********************Filters START*********************/
-    //demo label objects
-    var _demoLabels = ['Demo1','Demo2','Demo3','Demo4','Demo5','Demo6'];
 
     //multiple option button
     $('.item-multiple-btn').click(function(e){
         e.preventDefault();
 
         var _this = $(this);
-        var _btnList = '<li class="item-input-lists item-more-filter"> <input type="button" disabled="true" name="confirm" value="确认" class="item-input-button item-btn-active item-confirm-btn"> <input type="button" value="取消" class="item-input-button item-cancel-btn"> </li>';
 
         if(!$(_this).hasClass('active')){
+            $(_this).parents('.item-form-filters-row').find('.item-checkbox-radio-list').hide(0);
+            $(_this).parents('.item-form-filters-row').find('.item-multiple-list').show(0);
             $(_this).parents('.item-form-filters-row').addClass('item-active-row');
-            $(_this).parents('.item-form-filters-row').find('ul li label.inline').removeClass('item-hide-check');
-            $(_this).parents('.item-form-filters-row').find('ul li label.inline').removeClass('radio-pretty').addClass('checkbox-pretty');
-            $(_this).parents('.item-form-filters-row').find('ul li label.inline input').prop('type','checkbox');
-            $(_this).parents('.item-form-filters-row').find('ul').append(_btnList);
         }else{
+            $(_this).parents('.item-form-filters-row').find('.item-checkbox-radio-list').show(0);
+            $(_this).parents('.item-form-filters-row').find('.item-multiple-list').hide(0);
             $(_this).parents('.item-form-filters-row').removeClass('item-active-row');
-            $(_this).parents('.item-form-filters-row').find('ul li label.inline').addClass('item-hide-check');
-            $(_this).parents('.item-form-filters-row').find('ul li label.inline').addClass('radio-pretty').removeClass('checkbox-pretty');
-            $(_this).parents('.item-form-filters-row').find('ul li label.inline input').prop('type','radio');
-            $(_this).parents('.item-form-filters-row').find('ul li.item-input-lists').remove();
         }
 
         $(_this).toggleClass('active');
@@ -102,12 +95,10 @@
     $(document).on('click','.item-cancel-btn',function(){
         var _this = $(this);
 
+        $(_this).parents('.item-form-filters-row').find('.item-checkbox-radio-list').show(0);
+        $(_this).parents('.item-form-filters-row').find('.item-multiple-list').hide(0);
         $(_this).parents('.item-form-filters-row').removeClass('item-active-row');
-        $(_this).parents('.item-form-filters-row').find('ul li label.inline').addClass('item-hide-check');
-        $(_this).parents('.item-form-filters-row').find('ul li label.inline').addClass('radio-pretty').removeClass('checkbox-pretty');
-        $(_this).parents('.item-form-filters-row').find('ul li label.inline input').prop('type','radio');
         $(_this).parents('.item-form-filters-row').find('.item-multiple-btn').toggleClass('active');
-        $(_this).parents('.item-form-filters-row').find('ul li.item-input-lists').remove();
     });
 
     $(document).on('click','.item-confirm-btn',function(){
@@ -126,7 +117,7 @@
         _values = _values.replace(/,\s*$/, "");
 
         //hide if input is radio
-        $(_this).parents('.item-form-filters-row').slideUp(200);
+        $(_this).parents('.item-form-filters-row').slideUp(100);
         var _label = '<label class="item-tag" data-target-row="' + _rowLabelId + '">' + _rowLabel + ' <span>' + _values + '</span> <span class="item-remove"><i class="sui-icon icon-tb-close"></i></span></label>';
 
         //Append Label after selecting
@@ -141,28 +132,7 @@
 
         var _this = $(this);
 
-        if(!$(_this).hasClass('active')){
-
-            $.each(_demoLabels,function(index,value){
-                var _last = $(_this).parents('.item-form-filters-row').find('li').has('label.inline').last().clone();
-
-                if($(_this).parents('.item-form-filters-row').find('.item-multiple-btn').hasClass('active')){
-                    $(_this).parents('.item-form-filters-row').find('ul li.item-input-lists').before(_last);
-                }else{
-                    $(_this).parents('.item-form-filters-row').find('ul').append(_last);
-                }
-                _last       = $(_this).parents('.item-form-filters-row').find('li').has('label.inline').last();
-
-                $(_last).find('input').prop('value',value)
-                    .end()
-                    .find('span').text(value);
-            });
-
-        }else{
-            $.each(_demoLabels,function(index,value){
-                var _elementToDelete = $(_this).parents('.item-form-filters-row').find('[value="'+ value +'"]').parents('li').remove();
-            });
-        }
+        $(_this).parents('.item-form-filters-row').find('li.item-more').slideToggle(100);
 
         $(_this).toggleClass('active');
         $(_this).find('span').toggleClass('icon-sort-up');
@@ -171,7 +141,7 @@
     //remove filter tag
     $(document).on('click','.item-tag',function(e){
         var _rowID = $(this).data('target-row');
-        $('#'+ _rowID).slideDown().find('input').prop('checked',false)
+        $('#'+ _rowID).slideDown(100).find('input').prop('checked',false)
             .end()
             .find('label.inline').removeClass('checked');
         $(this).remove();
@@ -191,7 +161,7 @@
             evt.preventDefault();
 
             //hide if input is radio
-            $(_this).parents('.item-form-filters-row').slideUp(200);
+            $(_this).parents('.item-form-filters-row').slideUp(100);
             var _label = '<label class="item-tag" data-target-row="' + _rowLabelId + '">' + _rowLabel + ' <span>' + _value + '</span> <span class="item-remove"><i class="sui-icon icon-tb-close"></i></span></label>';
 
             //Append Label after selecting

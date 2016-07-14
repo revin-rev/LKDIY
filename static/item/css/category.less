@@ -182,6 +182,10 @@
     padding: 0;
     margin: 0;
 
+    &.item-multiple-list{
+      display: none;
+    }
+
     li{
       float: left;
       min-width: 90px;
@@ -220,6 +224,9 @@
         margin-bottom: 8px;
         white-space: nowrap;
       }
+      &.item-more{
+        display: none;
+      }
     }
 
     &.item-checkbox-radio-list-wide{
@@ -255,6 +262,8 @@
 
   .item-more-filter{
     text-align: left;
+    display: block;
+    width: 100%;
 
     .item-input-filter{
       height: 26px;
