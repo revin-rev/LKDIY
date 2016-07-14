@@ -616,20 +616,23 @@
             </ul>
         </div>
 
-        <div class="column width-100 item-category-filters">
+        <div class="column width-100">
             <ul class="sui-breadcrumb custom-breadcrumb">
                 <li><a href="#">数码配件</a></li>
                 <li class="active">U盘</li>
             </ul>
 
             <div class="item-selected-filters">
+                <label class="item-search">全部结果：”U盘”</label>
+                <label class="item-tag">接口：<span>USB3.0</span> <span class="item-remove"><i class="sui-icon icon-tb-close"></i></span></label>
+                <label class="item-tag">产品特性：<span>防水</span> <span class="item-remove"><i class="sui-icon icon-tb-close"></i></span></label>
             </div>
         </div>
 
         <!--Filters START-->
         <div class="column width-100">
             <form action="#" class="item-form-filters sui-form">
-                <div class="item-form-filters-row" id="row1">
+                <div class="item-form-filters-row">
                     <label class="item-title-label">品牌 :</label>
                     <ul class="item-checkbox-radio-list item-checkbox-radio-list-wide">
                         <li>
@@ -694,12 +697,12 @@
                         </li>
                     </ul>
 
-                    <div class="item-filter-btn-set" >
+                    <div class="item-filter-btn-set">
                         <a href="#" class="item-more-btn">更多 <span class="sui-icon icon-sort-down"></span></a>
                         <a href="#" class="item-multiple-btn"><span>+</span> 多选</a>
                     </div>
                 </div>
-                <div class="item-form-filters-row " id="row2">
+                <div class="item-form-filters-row ">
                     <label class="item-title-label">品牌 :</label>
                     <ul class="item-checkbox-radio-list ">
                         <li>
@@ -742,7 +745,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="item-form-filters-row" id="row3">
+                <div class="item-form-filters-row">
                     <label class="item-title-label">容量：</label>
                     <ul class="item-checkbox-radio-list ">
                         <li>
@@ -775,33 +778,65 @@
                         <a href="#" class="item-multiple-btn"><span>+</span> 多选</a>
                     </div>
                 </div>
-                <div class="item-form-filters-row" id="row4">
+                <div class="item-form-filters-row">
                     <label class="item-title-label">用途:</label>
                     <ul class="item-checkbox-radio-list ">
                         <li>
                             <label class="radio-pretty inline  item-hide-check">
-                                <input type="radio" name="row4" value="节日送礼"/><span>节日送礼</span>
+                                <input type="radio" name="row4"/><span>节日送礼</span>
                             </label>
                         </li>
                         <li>
                             <label class="radio-pretty inline  item-hide-check">
-                                <input type="radio" name="row4" value="商务办公"/><span>商务办公</span>
+                                <input type="radio" name="row4"/><span>企业采购</span>
                             </label>
                         </li>
                         <li>
                             <label class="radio-pretty inline  item-hide-check">
-                                <input type="radio" name="row4" value="企业采购"/><span>企业采购</span>
+                                <input type="radio" name="row4"/><span>企业采购</span>
                             </label>
                         </li>
                         <li>
                             <label class="radio-pretty inline  item-hide-check">
-                                <input type="radio" name="row4" value="个人定制"/><span>个人定制</span>
+                                <input type="radio" name="row4"/><span>个人定制</span>
                             </label>
                         </li>
                     </ul>
                     <div class="item-filter-btn-set">
                         <a href="#" class="item-more-btn">更多 <span class="sui-icon icon-sort-down"></span></a>
                         <a href="#" class="item-multiple-btn"><span>+</span> 多选</a>
+                    </div>
+                </div>
+                <div class="item-form-filters-row item-active-row">
+                    <label class="item-title-label">用途:</label>
+                    <ul class="item-checkbox-radio-list ">
+                        <li>
+                            <label class="checkbox-pretty inline checked">
+                                <input type="checkbox" checked="checked"/><span>节日送礼</span>
+                            </label>
+                        </li>
+                        <li>
+                            <label class="checkbox-pretty inline checked">
+                                <input type="checkbox" checked="checked"/><span>企业采购</span>
+                            </label>
+                        </li>
+                        <li>
+                            <label class="checkbox-pretty inline checked">
+                                <input type="checkbox" checked="checked"/><span>企业采购</span>
+                            </label>
+                        </li>
+                        <li>
+                            <label class="checkbox-pretty inline checked">
+                                <input type="checkbox" checked="checked"/><span>个人定制</span>
+                            </label>
+                        </li>
+                        <li class="item-input-lists item-more-filter">
+                            <input type="text" name="from" placeholder="确定" class="item-input-filter"/><input type="button" name="to" value="确定" class="item-input-button item-btn-active"/> <input type="button" value="确定" class="item-input-button"/>
+                        </li>
+                    </ul>
+                    <div class="item-filter-btn-set">
+                        <a href="#" class="item-more-btn active">更多 <span class="sui-icon icon-sort-down"></span></a>
+                        <a href="#" class="item-multiple-btn active"><span>+</span> 多选</a>
                     </div>
                 </div>
             </form>

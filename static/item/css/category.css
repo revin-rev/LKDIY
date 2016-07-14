@@ -26,6 +26,13 @@
 .item-selected-filters label.item-tag + label {
   margin-left: 10px;
 }
+.item-category-filters .custom-breadcrumb {
+  display: inline-block;
+  margin-right: 20px;
+}
+.item-category-filters .item-selected-filters {
+  display: inline-block;
+}
 .item-form-filters {
   border-top: 3px solid #dedede;
 }
@@ -64,6 +71,9 @@
   line-height: 15px;
   vertical-align: middle;
   border-radius: 2px;
+}
+.item-form-filters .item-form-filters-row .item-filter-btn-set .item-more-btn span.icon-sort-up {
+  line-height: 24px;
 }
 .item-form-filters .item-form-filters-row .item-filter-btn-set .item-more-btn:hover,
 .item-form-filters .item-form-filters-row .item-filter-btn-set .item-more-btn.active {

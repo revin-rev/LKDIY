@@ -31,6 +31,15 @@
     }
   }
 }
+.item-category-filters{
+  .custom-breadcrumb{
+    display: inline-block;
+    margin-right: 20px;
+  }
+  .item-selected-filters{
+    display: inline-block;
+  }
+}
 .item-form-filters{
   border-top:3px solid @CartBtnBorder;
 
@@ -71,6 +80,10 @@
           line-height: 15px;
           vertical-align: middle;
           border-radius: 2px;
+
+          &.icon-sort-up{
+            line-height: 24px;
+          }
         }
         &:hover,&.active{
           color: @baseColor;
