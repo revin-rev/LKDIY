@@ -690,9 +690,9 @@
               content: '';
               width: 0;
               height: 0;
-              border-left:9px solid transparent;
-              border-right:9px solid transparent;
-              border-bottom:9px solid @white;
+              border-left:14px solid transparent;
+              border-right:14px solid transparent;
+              border-bottom:11px solid @white;
               position: absolute;
               left: 0;
               bottom:0;
@@ -707,9 +707,9 @@
             content: '';
             width: 0;
             height: 0;
-            border-left:9px solid transparent;
-            border-right:9px solid transparent;
-            border-bottom:9px solid @white;
+            border-left:14px solid transparent;
+            border-right:14px solid transparent;
+            border-bottom:11px solid @white;
             position: absolute;
             left: 0;
             bottom:0;
@@ -762,10 +762,14 @@
   .login-sidebar-block{
     margin-bottom:41px;
 
+    &.last-child{
+      margin-bottom: 0;
+    }
+
     h5{
       color: #222222;
       font-size: 16px;
-      margin-bottom: 20px;
+      margin-bottom: 9px;
       margin-top: 0;
     }
 
@@ -788,6 +792,7 @@
           &:hover, &.active{
             color:@loginSidebarLinkHover;
           }
+          &.last-child-link{ padding-bottom: 0}
         }
 
       }
@@ -917,4 +922,11 @@
   display: block;
   max-width: 245px;
   z-index: 1000;
+}
+
+/*--- page title with logo ---*/
+.page-title-with-logo{
+  font-size:24px;
+  color: @baseTextColorDark;
+  margin-top: 35px;
 }

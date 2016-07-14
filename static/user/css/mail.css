@@ -27,6 +27,7 @@
 .user-mail-verify-top-section .sui-form.form-horizontal .control-group .control-label {
   margin-right: 18px;
   display: block;
+  width: 70px;
 }
 .user-mail-verify-top-section span {
   font-size: 12px;

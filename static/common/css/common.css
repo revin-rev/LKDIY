@@ -604,9 +604,9 @@
   content: '';
   width: 0;
   height: 0;
-  border-left: 9px solid transparent;
-  border-right: 9px solid transparent;
-  border-bottom: 9px solid #fff;
+  border-left: 14px solid transparent;
+  border-right: 14px solid transparent;
+  border-bottom: 11px solid #fff;
   position: absolute;
   left: 0;
   bottom: 0;
@@ -618,9 +618,9 @@
   content: '';
   width: 0;
   height: 0;
-  border-left: 9px solid transparent;
-  border-right: 9px solid transparent;
-  border-bottom: 9px solid #fff;
+  border-left: 14px solid transparent;
+  border-right: 14px solid transparent;
+  border-bottom: 11px solid #fff;
   position: absolute;
   left: 0;
   bottom: 0;
@@ -672,10 +672,13 @@
 .login-sidebar .login-sidebar-block {
   margin-bottom: 41px;
 }
+.login-sidebar .login-sidebar-block.last-child {
+  margin-bottom: 0;
+}
 .login-sidebar .login-sidebar-block h5 {
   color: #222222;
   font-size: 16px;
-  margin-bottom: 20px;
+  margin-bottom: 9px;
   margin-top: 0;
 }
 .login-sidebar .login-sidebar-block ul {
@@ -696,6 +699,9 @@
 .login-sidebar .login-sidebar-block ul li a:hover,
 .login-sidebar .login-sidebar-block ul li a.active {
   color: #d01716;
+}
+.login-sidebar .login-sidebar-block ul li a.last-child-link {
+  padding-bottom: 0;
 }
 /******************************************************
    *Login Sidebar End
@@ -800,4 +806,10 @@
   display: block;
   max-width: 245px;
   z-index: 1000;
+}
+/*--- page title with logo ---*/
+.page-title-with-logo {
+  font-size: 24px;
+  color: #333333;
+  margin-top: 35px;
 }
