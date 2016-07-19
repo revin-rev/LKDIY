@@ -198,11 +198,25 @@
     width: 900px;
     float: left;
     ul{
-
       list-style: none;
       padding: 0;
       margin: 0;
+      max-height: 78px;
+      overflow: hidden;
+
+
+      &.item-max-height{
+        max-height: none;
+      }
+
+      &:after{
+        content: '';
+        clear: both;
+        display: block;
+      }
     }
+
+
 
     &.item-multiple-list{
       display: none;

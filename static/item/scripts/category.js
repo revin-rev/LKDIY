@@ -1,7 +1,6 @@
 (function($){
     /*---- adding active class to accordion heading ----*/
     $('.item-digital-office-sidebar .panel-heading a').click(function(){
-        console.log($(this).parent());
         if(!$(this).parents('.panel-heading').hasClass('active')){
             $(this).parents('.panel-heading').addClass('active');
         }else{
@@ -45,9 +44,9 @@
     $('.item-more-btn').click(function(e){
         e.preventDefault();
         var _this = $(this);
-        $(_this).parents('.item-form-filters-row').find('li.item-more').slideToggle(100);
-        $(_this).toggleClass('active');
-        $(_this).find('span').toggleClass('icon-sort-up');
+        $(_this).parents('.item-form-filters-row').find('.item-checkbox-radio-list ul').toggleClass('item-max-height');
+        $(_this).toggleClass('active')
+                .find('span').toggleClass('icon-sort-up');
     });
 
     //remove filter tag

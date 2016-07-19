@@ -175,6 +175,16 @@
   list-style: none;
   padding: 0;
   margin: 0;
+  max-height: 78px;
+  overflow: hidden;
+}
+.item-form-filters .item-checkbox-radio-list ul.item-max-height {
+  max-height: none;
+}
+.item-form-filters .item-checkbox-radio-list ul:after {
+  content: '';
+  clear: both;
+  display: block;
 }
 .item-form-filters .item-checkbox-radio-list.item-multiple-list {
   display: none;
