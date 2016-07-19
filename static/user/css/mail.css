@@ -19,7 +19,7 @@
 ******************************************************/
 .user-mail-verify-top-section .sui-form.form-horizontal .controls {
   padding-left: 0;
-  width: 300px;
+  width: auto;
 }
 .user-mail-verify-top-section .sui-form.form-horizontal .control-group {
   margin-bottom: 12px;
@@ -57,6 +57,13 @@
 }
 .user-mail-verify-top-section .user-verify-detail p span.margin-bottom {
   margin-bottom: 0;
+}
+.user-mail-verify-top-section .user-captcha-image {
+  margin-left: 7px;
+}
+.user-mail-verify-top-section .msg-con span {
+  color: #ea4a36;
+  margin-left: 0;
 }
 .user-mail-verify-btm-section {
   padding: 30px;

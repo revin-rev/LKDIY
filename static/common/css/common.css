@@ -813,3 +813,18 @@
   color: #333333;
   margin-top: 35px;
 }
+/*******************Error message styling***********************/
+.sui-form.form-horizontal.sui-validate .sui-msg.msg-error .msg-con {
+  background-color: #fff2f2;
+  border-color: #c41411;
+  width: 268px;
+  padding: 8px 26px;
+}
+.sui-form.form-horizontal.sui-validate .msg-icon {
+  top: 6px;
+  font-size: 18px;
+}
+.sui-form.form-horizontal.sui-validate .msg-icon:before {
+  content: "\e6e4";
+  font-family: 'icon-tb';
+}
