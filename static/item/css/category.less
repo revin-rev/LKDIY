@@ -163,15 +163,24 @@
       }
     }
 
+    .checkbox-pretty{
+      display: none;
+    }
+
     &.item-active-row{
       border:2px solid @orange;
       margin-top: -1px;
 
       .item-checkbox-element{
         display: block;
+        clear: both;
+        padding: 10px 0;
       }
-      .item-radio-element{
+      .radio-pretty{
         display: none ;
+      }
+      .checkbox-pretty{
+        display: block;
       }
     }
 
@@ -188,9 +197,12 @@
   .item-checkbox-radio-list{
     width: 900px;
     float: left;
-    list-style: none;
-    padding: 0;
-    margin: 0;
+    ul{
+
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
 
     &.item-multiple-list{
       display: none;
