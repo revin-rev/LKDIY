@@ -78,16 +78,9 @@
 
         var _this = $(this);
 
-        if(!$(_this).hasClass('active')){
-            $(_this).parents('.item-form-filters-row').find('.item-checkbox-radio-list').hide(0);
-            $(_this).parents('.item-form-filters-row').find('.item-multiple-list').show(0);
-            $(_this).parents('.item-form-filters-row').addClass('item-active-row');
-        }else{
-            $(_this).parents('.item-form-filters-row').find('.item-checkbox-radio-list').show(0);
-            $(_this).parents('.item-form-filters-row').find('.item-multiple-list').hide(0);
-            $(_this).parents('.item-form-filters-row').removeClass('item-active-row');
-        }
-
+        $(_this).parents('.item-form-filters-row').toggleClass('item-active-row');
+        $(_this).parents('.item-form-filters-row').find('.item-more').hide(0);
+        $(_this).parents('.item-form-filters-row').find('.item-more-btn').removeClass('active').find('.sui-icon').removeClass('icon-sort-up');
         $(_this).toggleClass('active');
     });
 
@@ -95,34 +88,21 @@
     $(document).on('click','.item-cancel-btn',function(){
         var _this = $(this);
 
-        $(_this).parents('.item-form-filters-row').find('.item-checkbox-radio-list').show(0);
-        $(_this).parents('.item-form-filters-row').find('.item-multiple-list').hide(0);
-        $(_this).parents('.item-form-filters-row').removeClass('item-active-row');
+        $(_this).parents('.item-form-filters-row').toggleClass('item-active-row');
+        $(_this).parents('.item-form-filters-row').find('.item-more').hide(0);
+        $(_this).parents('.item-form-filters-row').find('.item-more-btn').removeClass('active').find('.sui-icon').removeClass('icon-sort-up');
         $(_this).parents('.item-form-filters-row').find('.item-multiple-btn').toggleClass('active');
     });
 
     $(document).on('click','.item-confirm-btn',function(){
         var _this           = $(this);
-        var _rowLabel       = $(_this).parents('.item-form-filters-row').find('.item-title-label').text();
         var _rowLabelId     = $(_this).parents('.item-form-filters-row').prop('id');
-        var _values         = '';
-        var _inputs         = $(_this).parents('.item-form-filters-row').find('ul input');
-
-        $.each(_inputs,function(index,element){
-            if($(this).is(':checked')){
-                _values += ' ' + element.value + ',';
-            }
-        });
-
-        _values = _values.replace(/,\s*$/, "");
 
         //hide if input is radio
         $(_this).parents('.item-form-filters-row').slideUp(100);
-        var _label = '<label class="item-tag" data-target-row="' + _rowLabelId + '">' + _rowLabel + ' <span>' + _values + '</span> <span class="item-remove"><i class="sui-icon icon-tb-close"></i></span></label>';
 
-        //Append Label after selecting
-        $('.item-selected-filters').append(_label);
-
+        //show label
+        $('[data-target-row='+_rowLabelId+'].item-multiple-tag').fadeIn(100);
 
     });
 
@@ -132,7 +112,12 @@
 
         var _this = $(this);
 
-        $(_this).parents('.item-form-filters-row').find('li.item-more').slideToggle(100);
+        if($(_this).parents('.item-form-filters-row').hasClass('item-active-row')){
+            $(_this).parents('.item-form-filters-row').find('li.item-more.item-checkbox-element').slideToggle(100);
+        }else{
+            $(_this).parents('.item-form-filters-row').find('li.item-more').not('.item-checkbox-element').slideToggle(100);
+        }
+
 
         $(_this).toggleClass('active');
         $(_this).find('span').toggleClass('icon-sort-up');
@@ -144,7 +129,7 @@
         $('#'+ _rowID).slideDown(100).find('input').prop('checked',false)
             .end()
             .find('label.inline').removeClass('checked');
-        $(this).remove();
+        $(this).fadeOut(100);
     });
 
     //add a filter tag
@@ -162,10 +147,10 @@
 
             //hide if input is radio
             $(_this).parents('.item-form-filters-row').slideUp(100);
-            var _label = '<label class="item-tag" data-target-row="' + _rowLabelId + '">' + _rowLabel + ' <span>' + _value + '</span> <span class="item-remove"><i class="sui-icon icon-tb-close"></i></span></label>';
 
-            //Append Label after selecting
-            $('.item-selected-filters').append(_label);
+            var _id = $(_this).parents('.item-form-filters-row').prop('id');
+
+            $('[data-target-row='+_id+'].item-single-tag').fadeIn(100);
 
             //check input
             $(_this).find('input').prop('checked',true);

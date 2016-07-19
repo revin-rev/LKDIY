@@ -47,10 +47,7 @@
     border-bottom:1px solid @CartBtnBorder;
     position: relative;
 
-    &.item-active-row{
-      border:2px solid @orange;
-      margin-top: -1px;
-    }
+
 
     &:after {
       content: '';
@@ -165,6 +162,19 @@
 
       }
     }
+
+    &.item-active-row{
+      border:2px solid @orange;
+      margin-top: -1px;
+
+      .item-checkbox-element{
+        display: block;
+      }
+      .item-radio-element{
+        display: none ;
+      }
+    }
+
   }
 
   label.item-title-label{
@@ -261,9 +271,9 @@
   }
 
   .item-more-filter{
-    text-align: left;
+    text-align: center;
     display: block;
-    width: 100%;
+    width: 100%  !important;
 
     .item-input-filter{
       height: 26px;
@@ -293,6 +303,23 @@
       }
     }
   }
+
+  .item-checkbox-element{
+    display: none;
+  }
+
+
+}
+
+
+.item-breadcrumb-column{
+  width: 980px;
+}
+.item-result-text-column{
+  width: 240px;
+  text-align: right;
+  padding-right: 20px;
+  padding-top: 15px;
 }
 
 /*--- topbar start ---*/
