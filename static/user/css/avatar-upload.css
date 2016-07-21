@@ -1,0 +1,102 @@
+/******************************************************
+   *Variables START
+******************************************************/
+.user-avatar-upload-section-outr {
+  float: left;
+}
+.user-avatar-upload-section-outr .user-mail-verify-top-section {
+  float: left;
+}
+.user-avatar-upload-section-outr .user-avatar-upload-left-section {
+  width: 515px;
+  margin-right: 65px;
+  display: inline-block;
+}
+.user-avatar-upload-section-outr .user-avatar-upload-left-section .user-custom-file-upload-btn {
+  position: relative;
+  z-index: 9999;
+}
+.user-avatar-upload-section-outr .user-avatar-upload-left-section .user-custom-file-upload-btn input {
+  height: 40px;
+  zoom: 1;
+  filter: alpha(opacity=0);
+  -webkit-opacity: 0;
+  -moz-opacity: 0;
+  opacity: 0;
+  width: 185px;
+  cursor: pointer;
+}
+.user-avatar-upload-section-outr .user-avatar-upload-left-section label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 9;
+  zoom: 1;
+  filter: alpha(opacity=100);
+  -webkit-opacity: 1;
+  -moz-opacity: 1;
+  opacity: 1;
+  background-color: #eee;
+  border: 1px solid #ccc;
+  padding: 10px 25px;
+}
+.user-avatar-upload-section-outr .user-avatar-upload-left-section label img {
+  margin-right: 5px;
+}
+.user-avatar-upload-section-outr .user-avatar-upload-left-section .user-uploaded-image-area {
+  background-color: #fff;
+  height: 308px;
+  vertical-align: middle;
+  text-align: center;
+  width: 100%;
+  padding-top: 74px;
+  padding-bottom: 74px;
+}
+.user-avatar-upload-section-outr .user-avatar-upload-left-section .user-uploaded-image-area img {
+  border: 1px solid #ccc;
+}
+.user-avatar-upload-section-outr .user-avatar-upload-left-section .btn-primary {
+  margin-top: 30px;
+}
+.user-avatar-upload-section-outr .user-avatar-right-thumbnails {
+  width: 396px;
+  display: inline-block;
+  vertical-align: top;
+}
+.user-avatar-upload-section-outr .user-avatar-right-thumbnails h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  line-height: normal;
+}
+.user-avatar-upload-section-outr .user-avatar-right-thumbnails .user-100-100-image {
+  width: 100px;
+  height: 100px;
+  border: 1px solid #ccc ;
+  vertical-align: middle;
+  display: table-cell;
+}
+.user-avatar-upload-section-outr .user-avatar-right-thumbnails .user-50-50-image {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #ccc ;
+  vertical-align: middle;
+  display: table-cell;
+}
+.user-avatar-upload-section-outr .user-avatar-right-thumbnails .user-preview-image-sizes {
+  margin-bottom: 12px;
+}
+.user-avatar-upload-section-outr .user-avatar-right-thumbnails .user-preview-image-sizes span {
+  margin-top: 10px;
+}
+.user-avatar-upload-section-outr .user-avatar-right-thumbnails .user-preview-images-heading span {
+  margin-bottom: 18px;
+}
+.user-avatar-upload-section-outr span {
+  display: inline-block;
+  width: 100%;
+  font-size: 14px;
+  color: #999999;
+  margin-top: 14px;
+  margin-bottom: 18px;
+}
