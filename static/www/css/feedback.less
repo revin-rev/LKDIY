@@ -18,33 +18,44 @@
         border-bottom: 1px solid @imageBorderColor;
         .www-feedback-form{
           display: inline-block;
+          margin-bottom: 0;
 
           label{
             color: @baseTextColorDark;
             margin: 0;
             font-size: @baseFont;
             line-height: normal;
+            vertical-align: top;
+            text-align: left;
+            width: auto;
           }
 
           textarea{
-            width: 990px;
+            width: 1000px;
             height: 142px;
             margin-left:25px;
             border:1px solid @CartBtnBorder;
             padding: 10px;
             font-family: @fontFamilyVeradna;
             resize: none;
+            border-radius: 0;
+            .box-shadow(none);
           }
 
           .btn-primary{
-            margin-top: 14px;
-            padding: 11px 15px;
+            margin-top: 0px;
+            padding:8px 19px;
+            border-radius: 0;
+            background-color: @baseColor;
+            border-color:@baseColor ;
             &:hover{
               background-color: @baseColor;
               border-color:@baseColor ;
             }
           }
-
+          .margin-bottom{
+            margin-bottom: 0;
+          }
         }
     }
 
