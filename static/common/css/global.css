@@ -212,7 +212,7 @@ p {
 .input-group-btn .btn {
   z-index: 2;
   margin-left: -1px;
-  width: 100%;
+  width: 82px;
   display: inline-block;
   padding: 6px 12px;
   margin-bottom: 0;
@@ -232,7 +232,6 @@ p {
   border: 0;
   background: #b0120a;
   color: #fff;
-  min-width: 82px;
 }
 .input-styled {
   background-color: transparent;
