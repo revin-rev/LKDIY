@@ -1,0 +1,88 @@
+@import "../../common/css/variable";
+@import "../../common/css/lesshat";
+
+/*feedback start*/
+.www-feedback-outr{
+  margin-top:20px ;
+  padding: 10px;
+  margin-bottom: 40px;
+
+  .www-feedback-white-inner-portion{
+    background-color: @white;
+    padding: 30px 45px;
+    .border-radius(12px);
+
+    .www-feedback-top-textarea{
+        display: inline-block;
+        padding-bottom: 15px;
+        border-bottom: 1px solid @imageBorderColor;
+        .www-feedback-form{
+          display: inline-block;
+
+          label{
+            color: @baseTextColorDark;
+            margin: 0;
+            font-size: @baseFont;
+            line-height: normal;
+          }
+
+          textarea{
+            width: 990px;
+            height: 142px;
+            margin-left:25px;
+            border:1px solid @CartBtnBorder;
+            padding: 10px;
+            font-family: @fontFamilyVeradna;
+            resize: none;
+          }
+
+          .btn-primary{
+            margin-top: 14px;
+            padding: 11px 15px;
+            &:hover{
+              background-color: @baseColor;
+              border-color:@baseColor ;
+            }
+          }
+
+        }
+    }
+
+    .www-customer-service{
+        margin-top: 20px;
+        display: inline-block;
+        width: 100%;
+        padding-left: 11px;
+      span{
+        font-size: @baseFontLarge;
+        color: @baseTextColorDark;
+        width: 270px;
+        padding-right: 5px;
+        display: inline-block;
+        }
+
+      .www-second-span{
+        width: 240px;
+        float: none;
+      }
+    }
+
+    .www-bright-heading{
+      font-size: 18px;
+      color: @baseTextColorDark;
+      margin-top: 0;
+      padding-bottom: 10px;
+      border-bottom: 1px solid @CartBtnBorder;
+      padding-left: 11px;
+    }
+  }
+  a{
+    color: @filtersTextColor;
+    text-decoration: underline;
+  }
+}
+.www-feeback-outr-height{
+  min-height: 390px;
+}
+/*feedback end*/
+

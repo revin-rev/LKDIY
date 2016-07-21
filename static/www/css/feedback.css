@@ -1,0 +1,83 @@
+/******************************************************
+   *Variables START
+******************************************************/
+/*feedback start*/
+.www-feedback-outr {
+  margin-top: 20px ;
+  padding: 10px;
+  margin-bottom: 40px;
+}
+.www-feedback-outr .www-feedback-white-inner-portion {
+  background-color: #fff;
+  padding: 30px 45px;
+  -webkit-border-radius: 12px;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 12px;
+  -moz-background-clip: padding;
+  border-radius: 12px;
+  background-clip: padding-box;
+}
+.www-feedback-outr .www-feedback-white-inner-portion .www-feedback-top-textarea {
+  display: inline-block;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #dedede;
+}
+.www-feedback-outr .www-feedback-white-inner-portion .www-feedback-top-textarea .www-feedback-form {
+  display: inline-block;
+}
+.www-feedback-outr .www-feedback-white-inner-portion .www-feedback-top-textarea .www-feedback-form label {
+  color: #333333;
+  margin: 0;
+  font-size: 12px;
+  line-height: normal;
+}
+.www-feedback-outr .www-feedback-white-inner-portion .www-feedback-top-textarea .www-feedback-form textarea {
+  width: 990px;
+  height: 142px;
+  margin-left: 25px;
+  border: 1px solid #dedede;
+  padding: 10px;
+  font-family: 'Verdana';
+  resize: none;
+}
+.www-feedback-outr .www-feedback-white-inner-portion .www-feedback-top-textarea .www-feedback-form .btn-primary {
+  margin-top: 14px;
+  padding: 11px 15px;
+}
+.www-feedback-outr .www-feedback-white-inner-portion .www-feedback-top-textarea .www-feedback-form .btn-primary:hover {
+  background-color: #c41411;
+  border-color: #c41411;
+}
+.www-feedback-outr .www-feedback-white-inner-portion .www-customer-service {
+  margin-top: 20px;
+  display: inline-block;
+  width: 100%;
+  padding-left: 11px;
+}
+.www-feedback-outr .www-feedback-white-inner-portion .www-customer-service span {
+  font-size: 14px;
+  color: #333333;
+  width: 270px;
+  padding-right: 5px;
+  display: inline-block;
+}
+.www-feedback-outr .www-feedback-white-inner-portion .www-customer-service .www-second-span {
+  width: 240px;
+  float: none;
+}
+.www-feedback-outr .www-feedback-white-inner-portion .www-bright-heading {
+  font-size: 18px;
+  color: #333333;
+  margin-top: 0;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #dedede;
+  padding-left: 11px;
+}
+.www-feedback-outr a {
+  color: #005aa0;
+  text-decoration: underline;
+}
+.www-feeback-outr-height {
+  min-height: 390px;
+}
+/*feedback end*/
