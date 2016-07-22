@@ -26,30 +26,31 @@ html[data-browser='9'] .www-popular-scene-title span {
 }
 html[data-browser='8'] .sui-icon.icon-sort-down,
 html[data-browser='9'] .sui-icon.icon-sort-down {
-  line-height: 0;
-  content: '';
   display: inline-block;
-  width: 0;
-  height: 0;
-  border-left: 4px solid transparent;
-  border-top: 5px solid;
-  border-right: 4px solid transparent;
+}
+html[data-browser='8'] .sui-icon.icon-sort-down:after,
+html[data-browser='9'] .sui-icon.icon-sort-down:after {
+  display: none;
+}
+html[data-browser='8'] .sui-icon.icon-sort-down:before,
+html[data-browser='9'] .sui-icon.icon-sort-down:before {
+  display: none;
 }
 html[data-browser='8'] .sui-icon.icon-sort-up,
 html[data-browser='9'] .sui-icon.icon-sort-up {
-  content: '';
-  line-height: 0;
   display: inline-block;
-  width: 0;
-  height: 0;
-  border-left: 4px solid transparent;
-  border-bottom: 5px solid;
-  border-right: 4px solid transparent;
-  border-top: 0;
+}
+html[data-browser='8'] .sui-icon.icon-sort-up:after,
+html[data-browser='9'] .sui-icon.icon-sort-up:after {
+  display: none;
+}
+html[data-browser='8'] .sui-icon.icon-sort-up:before,
+html[data-browser='9'] .sui-icon.icon-sort-up:before {
+  display: none;
 }
 html[data-browser='8'] .item-top-heading-bar-left ul li.active a span.icon-sort-up,
 html[data-browser='9'] .item-top-heading-bar-left ul li.active a span.icon-sort-up {
-  top: 30px;
+  top: 22px;
 }
 html[data-browser='8'] .side-bar.transformed-mega-menu:hover h5 span.icon-sort-up,
 html[data-browser='9'] .side-bar.transformed-mega-menu:hover h5 span.icon-sort-up {
@@ -59,13 +60,59 @@ html[data-browser='8'] .item-form-filters .item-form-filters-row .item-filter-bt
 html[data-browser='9'] .item-form-filters .item-form-filters-row .item-filter-btn-set .item-more-btn span.icon-sort-up {
   line-height: 24px;
 }
-html[data-browser='8'] .transformed-mega-menu .icon-sort-down.sui-icon:before,
-html[data-browser='9'] .transformed-mega-menu .icon-sort-down.sui-icon:before {
+html[data-browser='8'] .item-top-heading-bar-left ul li a span.icon-sort-up,
+html[data-browser='9'] .item-top-heading-bar-left ul li a span.icon-sort-up {
   display: none;
 }
-html[data-browser='8'] .transformed-mega-menu .sui-icon.icon-sort-up.hidden:before,
-html[data-browser='9'] .transformed-mega-menu .sui-icon.icon-sort-up.hidden:before {
-  display: none;
+html[data-browser='8'] .transformed-mega-menu .icon-sort-down.sui-icon,
+html[data-browser='9'] .transformed-mega-menu .icon-sort-down.sui-icon,
+html[data-browser='8'] .item-top-heading-bar-left ul li .icon-sort-down.sui-icon,
+html[data-browser='9'] .item-top-heading-bar-left ul li .icon-sort-down.sui-icon {
+  background: url("../images/all-arrows.png");
+  height: 8px;
+  width: 8px;
+  background-position: 8px -11px;
+}
+html[data-browser='8'] .transformed-mega-menu .sui-icon.icon-sort-up,
+html[data-browser='9'] .transformed-mega-menu .sui-icon.icon-sort-up,
+html[data-browser='8'] .item-top-heading-bar-left ul li .sui-icon.icon-sort-up,
+html[data-browser='9'] .item-top-heading-bar-left ul li .sui-icon.icon-sort-up {
+  background: url("../images/all-arrows.png");
+  height: 8px;
+  width: 8px;
+  background-position: 8px 0px;
+}
+html[data-browser='8'] .item-top-heading-bar-left ul li.active a span.icon-sort-up,
+html[data-browser='9'] .item-top-heading-bar-left ul li.active a span.icon-sort-up {
+  display: inline-block;
+}
+html[data-browser='8'] .item-top-heading-bar-left ul li .icon-sort-down.sui-icon,
+html[data-browser='9'] .item-top-heading-bar-left ul li .icon-sort-down.sui-icon {
+  background: url("../images/all-arrows.png");
+  height: 8px;
+  width: 8px;
+  background-position: 8px -18px;
+}
+html[data-browser='8'] .item-top-heading-bar-left ul li a:hover .icon-sort-down.sui-icon,
+html[data-browser='9'] .item-top-heading-bar-left ul li a:hover .icon-sort-down.sui-icon {
+  background: url("../images/all-arrows.png");
+  height: 8px;
+  width: 8px;
+  background-position: 8px 0px;
+}
+html[data-browser='8'] .item-form-filters .item-form-filters-row .item-filter-btn-set .item-more-btn span,
+html[data-browser='9'] .item-form-filters .item-form-filters-row .item-filter-btn-set .item-more-btn span {
+  background: url("../images/all-arrows.png");
+  height: 27px;
+  width: 27px;
+  background-position: 0 59px;
+  border: 0;
+}
+html[data-browser='8'] .item-form-filters .item-form-filters-row .item-filter-btn-set .item-more-btn:hover span,
+html[data-browser='9'] .item-form-filters .item-form-filters-row .item-filter-btn-set .item-more-btn:hover span,
+html[data-browser='8'] .item-form-filters .item-form-filters-row .item-filter-btn-set .item-more-btn.active span,
+html[data-browser='9'] .item-form-filters .item-form-filters-row .item-filter-btn-set .item-more-btn.active span {
+  background-position: 0 0;
 }
 /******************************************************
    *Styling For IE END

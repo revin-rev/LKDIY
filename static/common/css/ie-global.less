@@ -22,7 +22,6 @@ html[data-browser='8'],html[data-browser='9']{
 
       &:hover {
         border-color: @CartBtnBorder !important;
-
       }
     }
   }
@@ -36,42 +35,27 @@ html[data-browser='8'],html[data-browser='9']{
     }
   }
   .sui-icon.icon-sort-down{
-    line-height: 0;
-    content: '';
     display: inline-block;
-    width: 0;
-    height: 0;
-    border-left: 4px solid transparent;
-    border-top: 5px solid;
-    border-right: 4px solid transparent;
-    &:after{
 
+    &:after{
+      display: none;
     }
     &:before{
-
+      display: none;
     }
   }
   .sui-icon.icon-sort-up{
-    line-height: 0;
-    content: '';
-    line-height: 0;
     display: inline-block;
-    width: 0;
-    height: 0;
-    border-left: 4px solid transparent;
-    border-bottom: 5px solid;
-    border-right: 4px solid transparent;
-    border-top: 0;
 
     &:after{
-
+        display: none;
     }
     &:before{
-
+      display: none;
     }
   }
   .item-top-heading-bar-left ul li.active a span.icon-sort-up{
-    top:30px;
+    top:22px;
   }
   .side-bar.transformed-mega-menu:hover h5 span.icon-sort-up{
     line-height: 0;
@@ -79,16 +63,56 @@ html[data-browser='8'],html[data-browser='9']{
   .item-form-filters .item-form-filters-row .item-filter-btn-set .item-more-btn span.icon-sort-up {
     line-height: 24px;
   }
-  .transformed-mega-menu{
-    .icon-sort-down.sui-icon:before{
-      display: none;
+  .item-top-heading-bar-left ul li a span.icon-sort-up {
+    display: none;
+  }
+  .transformed-mega-menu,.item-top-heading-bar-left ul li{
+    .icon-sort-down.sui-icon{
+      background: url("../images/all-arrows.png");
+      height: 8px;
+      width: 8px;
+      background-position:8px -11px;
     }
-    .sui-icon.icon-sort-up.hidden:before{
-      display: none;
+    .sui-icon.icon-sort-up{
+      background: url("../images/all-arrows.png");
+      height: 8px;
+      width: 8px;
+      background-position:8px -0px;
+    }
+
+  }
+  .item-top-heading-bar-left ul li.active a span.icon-sort-up {
+    display: inline-block;
+  }
+  .item-top-heading-bar-left ul li{
+    .icon-sort-down.sui-icon{
+      background: url("../images/all-arrows.png");
+      height: 8px;
+      width: 8px;
+      background-position:8px -18px;
+    }
+    a:hover{
+      .icon-sort-down.sui-icon{
+        background: url("../images/all-arrows.png");
+        height: 8px;
+        width: 8px;
+        background-position:8px -0px;
+      }
     }
   }
-  .item-top-heading-bar-left{
-
+  .item-form-filters .item-form-filters-row .item-filter-btn-set .item-more-btn{
+    span{
+      background: url("../images/all-arrows.png");
+      height: 27px;
+      width: 27px;
+      background-position:0 59px;
+      border:0;
+    }
+    &:hover,&.active{
+      span{
+        background-position:0 0;
+      }
+    }
   }
 
 }
