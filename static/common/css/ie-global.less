@@ -37,40 +37,41 @@ html[data-browser='8'],html[data-browser='9']{
   }
   .sui-icon.icon-sort-down{
     line-height: 0;
+    content: '';
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-left: 4px solid transparent;
+    border-top: 5px solid;
+    border-right: 4px solid transparent;
     &:after{
-      display: none;
+
     }
     &:before{
-      line-height: 0;
-      content: '';
-      display: inline-block;
-      width: 0;
-      height: 0;
-      border-left: 4px solid transparent;
-      border-top: 5px solid;
-      border-right: 4px solid transparent;
+
     }
   }
   .sui-icon.icon-sort-up{
     line-height: 0;
+    content: '';
+    line-height: 0;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-left: 4px solid transparent;
+    border-bottom: 5px solid;
+    border-right: 4px solid transparent;
+    border-top: 0;
 
     &:after{
-      display: none;
+
     }
     &:before{
-      content: '';
-      line-height: 0;
-      display: inline-block;
-      width: 0;
-      height: 0;
-      border-left: 4px solid transparent;
-      border-bottom: 5px solid;
-      border-right: 4px solid transparent;
-      border-top: 0;
+
     }
   }
   .item-top-heading-bar-left ul li.active a span.icon-sort-up{
-    top:22px;
+    top:30px;
   }
   .side-bar.transformed-mega-menu:hover h5 span.icon-sort-up{
     line-height: 0;
@@ -78,6 +79,18 @@ html[data-browser='8'],html[data-browser='9']{
   .item-form-filters .item-form-filters-row .item-filter-btn-set .item-more-btn span.icon-sort-up {
     line-height: 24px;
   }
+  .transformed-mega-menu{
+    .icon-sort-down.sui-icon:before{
+      display: none;
+    }
+    .sui-icon.icon-sort-up.hidden:before{
+      display: none;
+    }
+  }
+  .item-top-heading-bar-left{
+
+  }
+
 }
 /******************************************************
    *Styling For IE END
