@@ -268,12 +268,17 @@ p {
   display: inline-block;
   position: fixed;
   right: 20px;
-  bottom: 20px;
+  bottom: 48%;
   background-position: 44px 78px;
   -webkit-transition: height 0.2s;
   -moz-transition: height 0.2s;
   -o-transition: height 0.2s;
   transition: height 0.2s;
+  -lh-property: 0;
+bottom:-webkit-calc(50% - 18px);
+bottom:-moz-calc(50% - 18px);
+bottom:calc(50% - 18px);
+;
 }
 .back-to-top:hover {
   height: 70px;

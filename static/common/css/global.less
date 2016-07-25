@@ -320,9 +320,10 @@ p {
   display: inline-block;
   position: fixed;
   right: 20px;
-  bottom: 20px;
+  bottom: 48%;
   background-position: 44px 78px;
   .transition( height 0.2s);
+  .calc(~'bottom',~'50% - 18px');
 
   &:hover{
     height: 70px;
