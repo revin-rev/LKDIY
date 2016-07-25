@@ -43,11 +43,11 @@
 
     function getCurrentPosition(){
         // Get container scroll position
-        var _fromTop = $(this).scrollTop();
+        var _fromTop = $(this).scrollTop() + 200;
 
         var _lastScrollLimit = $('.www-scroll-element:last').offset().top + $('.www-scroll-element:last').height() - 500;
 
-        var _firstScrollLimit = $('.www-scroll-element:first').offset().top;
+        var _firstScrollLimit = $('.www-scroll-element:first').offset().top - 50;
 
         if(_fromTop > _lastScrollLimit){
             $('.www-side-fixed').fadeOut(300);

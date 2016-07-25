@@ -23,7 +23,7 @@
   -webkit-opacity: 0;
   -moz-opacity: 0;
   opacity: 0;
-  width: 185px;
+  width: 200px;
   cursor: pointer;
 }
 .user-avatar-upload-section-outr .user-avatar-upload-left-section label {
@@ -39,6 +39,8 @@
   background-color: #eee;
   border: 1px solid #ccc;
   padding: 10px 25px;
+  width: 200px;
+  text-align: center;
 }
 .user-avatar-upload-section-outr .user-avatar-upload-left-section label img {
   margin-right: 5px;
@@ -81,7 +83,9 @@
   height: 50px;
   border: 1px solid #ccc ;
   vertical-align: middle;
-  display: table-cell;
+}
+.user-avatar-upload-section-outr .user-avatar-right-thumbnails .user-50-50-image img {
+  margin-top: 4px;
 }
 .user-avatar-upload-section-outr .user-avatar-right-thumbnails .user-preview-image-sizes {
   margin-bottom: 12px;

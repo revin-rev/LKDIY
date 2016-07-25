@@ -657,7 +657,7 @@
 .after-login-header-outr .after-login-search .input-group-btn .btn {
   background-color: #f7f7f7;
   color: #333333;
-  min-width: 48px;
+  width: 100%;
   font-size: 14px;
 }
 /******************************************************
