@@ -92,7 +92,7 @@
     <div class="container">
         <div class="row">
             <div class="column logo-column">
-                <a href="#" class="center-block"><img alt="Logo" src="../../static/common/images/logo_white.png"></a>
+                <a href="#" class="center-block"><img alt="Logo" src="../../static/common/images/logo_white.png"/></a>
             </div>
             <div class="column login-navbar">
                 <ul>
@@ -156,18 +156,19 @@
             <div class="grey-bg after-login-sections-padding width-100 ">
                 <h5 class="heading">退换货</h5>
 
+
                 <!--_______________STEPS PROGRESSBAR START_______________-->
                 <div class="trade-steps trade-steps-3">
-                    <div class="trade-step trade-step-done ">
+                    <div class="trade-step trade-step-done trade-current-step">
                         <div class="trade-step-label">买家申请退货</div>
                         <div class="trade-round"><i class="sui-icon icon-tb-check"></i></div>
-                        <div class="trade-bar ">
+                        <div class="trade-bar trade-half-progress">
                             <div class="trade-bar-progress"></div>
                         </div>
                     </div>
-                    <div class="trade-step trade-mid-step trade-current-step">
+                    <div class="trade-step trade-mid-step">
                         <div class="trade-step-label">商家处理退货信息</div>
-                        <div class="trade-round"><i class="sui-icon icon-tb-check"></i></div>
+                        <div class="trade-round">2</div>
                         <div class="trade-bar">
                             <div class="trade-bar-progress"></div>
                         </div>
@@ -178,15 +179,190 @@
                     </div>
                 </div>
                 <!--_______________STEPS PROGRESSBAR END_______________-->
-                    <div class="trade-steps-completion-message">
-                        <p><img src="../../static/common/images/green-tick-icon.png" /> 申请已提交，商家正在处理退款信息，请耐心等待！</p>
+
+                <div class="trade-product-detail-and-status-section">
+                    <div class="trade-product-detail-and-status-section-top">
+                        <p class="trade-order-number">
+                            订单号 : <span>1258654566</span>
+                        </p>
+                        <p class="trade-order-status float-right">
+                            状态：买家申请退款
+                        </p>
                     </div>
-            </div>
+                    <div class="trade-single-product-detail-row width-100">
+                            <span class="trade-checkbox">
+                                <label class="checkbox-pretty inline ">
+                                    <input type="checkbox" /><span></span>
+                                </label>
+                            </span>
+                        <div class="trade-product-thumb-name">
+                            <img src="../../static/trade/images/product-thumb.jpg"/>
+                            <div class="trade-product-name-point-cross">
+                                <h2>iPhone 6s plus 近代 软壳纯定制  6s plus 近代 软壳纯定制  6s plus 近代 软壳纯定制 （经典款）</h2>
+                                <span class="trade-product-points">90积分+￥68</span>
+                                <span class="trade-corss">X1</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="trade-single-product-detail-row width-100">
+                            <span class="trade-checkbox">
+                               <label class="checkbox-pretty inline">
+                                   <input type="checkbox"/><span></span>
+                               </label>
+                            </span>
+                        <div class="trade-product-thumb-name">
+                            <img src="../../static/trade/images/product-thumb.jpg"/>
+                            <div class="trade-product-name-point-cross">
+                                <h2>iPhone 6s plus 近代 软壳纯定制  6s plus 近代 软壳纯定制  6s plus 近代 软壳纯定制 （经典款）</h2>
+                                <span class="trade-product-points">90积分+￥68</span>
+                                <span class="trade-corss">X1</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="trade-forms after-login-tabs-design">
+                    <ul class="sui-nav nav-tabs tab-wraped">
+                        <li >
+                            <a href="#return" data-toggle="tab" class="padding-left-zero">
+                                <h3>我要退货</h3>
+                            </a>
+                        </li>
+                        <li class="active">
+                            <a href="#refund" data-toggle="tab" class="border-right-zero">
+                                <h3>我要退款（无需退货）</h3>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="tab-content tab-wraped">
+                        <div id="return" class="tab-pane ">
+                            <div class="trade-return-form">
+                                <form class="sui-form form-horizontal sui-validate" novalidate="novalidate">
+                                    <div class="control-group">
+                                        <label class="control-label"><em>*</em> 退货原因：</label>
+                                        <div class="controls double-input">
+                                                <span class="sui-dropdown dropdown-bordered select">
+                                                    <span class="dropdown-inner">
+                                                        <a id="drop4" role="button" data-toggle="dropdown" href="#" class="dropdown-toggle">
+                                                            <input value="1" name="zt" type="hidden"><i class="caret"></i><span>请选择退货原因</span>
+                                                        </a>
+                                                          <ul id="menu4" role="menu" aria-labelledby="drop4" class="sui-dropdown-menu">
+                                                              <li role="presentation" class="active"><a role="menuitem" tabindex="-1" href="javascript:void(0);" value="1">七天无理由退货</a></li>
+                                                              <li role="presentation"><a role="menuitem" tabindex="-1" href="javascript:void(0);" value="1">退运费</a></li>
+                                                              <li role="presentation"><a role="menuitem" tabindex="-1" href="javascript:void(0);" value="1">收到商品破损</a></li>
+                                                              <li role="presentation"><a role="menuitem" tabindex="-1" href="javascript:void(0);" value="1">商品发错</a></li>
+                                                              <li role="presentation"><a role="menuitem" tabindex="-1" href="javascript:void(0);" value="1">商品需要维修</a></li>
+                                                              <li role="presentation"><a role="menuitem" tabindex="-1" href="javascript:void(0);" value="1">发票问题</a></li>
+                                                              <li role="presentation"><a role="menuitem" tabindex="-1" href="javascript:void(0);" value="1">商品与描述不符</a></li>
+                                                              <li role="presentation"><a role="menuitem" tabindex="-1" href="javascript:void(0);" value="1">商品质量问题</a></li>
+                                                          </ul>
+                                                    </span>
+                                                </span>
+                                        </div>
+                                    </div>
+                                    <div class="control-group">
+                                        <label class="control-label"><em>*</em> 退货金额：</label>
+                                        <div class="controls double-input">
+                                            <input type="text" class="grey-bg" data-rules="required|email"/>
+                                        </div>
+                                    </div>
+                                    <div class="control-group">
+                                        <label class="control-label vertical-align-top">退货说明：</label>
+                                        <div class="controls">
+                                            <textarea></textarea>
+                                        </div>
+                                    </div>
+
+                                    <div class="control-group margin-bottom">
+                                        <label class="control-label vertical-align-top">退货说明：</label>
+                                        <div class="controls">
+                                            <div class="trade-custom-file-upload-btn">
+                                                <input type="file" class="trade-custom-file-upload-btn"/>
+                                                <label class="www-file-upload"><img src="../../static/user/images/image-icon.jpg"> 选择您要上传的图片</label>
+                                            </div>
+                                            <span class="trade-custom-files-upload-extension">仅支持JPG GIF PNG JPEG BMP，文件小于2M</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="control-group margin-bottom-0">
+                                        <label class="control-label"></label>
+                                        <div class="controls">
+                                            <button class="sui-btn btn-primary" type="submit"><font><font>提交</font></font></button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div id="refund" class="tab-pane active">
+
+                            <div class="trade-return-form">
+                                <form class="sui-form form-horizontal sui-validate" novalidate="novalidate">
+                                    <div class="control-group">
+                                        <label class="control-label"><em>*</em> 退款原因：</label>
+                                        <div class="controls double-input">
+                                                <span class="sui-dropdown dropdown-bordered select">
+                                                    <span class="dropdown-inner">
+                                                        <a id="drop4" role="button" data-toggle="dropdown" href="#" class="dropdown-toggle">
+                                                            <input value="1" name="zt" type="hidden"><i class="caret"></i><span>请选择退货原因</span>
+                                                        </a>
+                                                          <ul id="menu4" role="menu" aria-labelledby="drop4" class="sui-dropdown-menu">
+                                                              <li role="presentation" class="active"><a role="menuitem" tabindex="-1" href="javascript:void(0);" value="1">七天无理由退货</a></li>
+                                                              <li role="presentation"><a role="menuitem" tabindex="-1" href="javascript:void(0);" value="1">退运费</a></li>
+                                                              <li role="presentation"><a role="menuitem" tabindex="-1" href="javascript:void(0);" value="1">收到商品破损</a></li>
+                                                              <li role="presentation"><a role="menuitem" tabindex="-1" href="javascript:void(0);" value="1">商品发错</a></li>
+                                                              <li role="presentation"><a role="menuitem" tabindex="-1" href="javascript:void(0);" value="1">商品需要维修</a></li>
+                                                              <li role="presentation"><a role="menuitem" tabindex="-1" href="javascript:void(0);" value="1">发票问题</a></li>
+                                                              <li role="presentation"><a role="menuitem" tabindex="-1" href="javascript:void(0);" value="1">商品与描述不符</a></li>
+                                                              <li role="presentation"><a role="menuitem" tabindex="-1" href="javascript:void(0);" value="1">商品质量问题</a></li>
+                                                          </ul>
+                                                    </span>
+                                                </span>
+                                        </div>
+                                    </div>
+                                    <div class="control-group">
+                                        <label class="control-label"><em>*</em> 退款金额：</label>
+                                        <div class="controls double-input">
+                                            <input type="text" class="grey-bg" data-rules="required|email"/>
+                                        </div>
+                                    </div>
+                                    <div class="control-group">
+                                        <label class="control-label vertical-align-top">退款说明：</label>
+                                        <div class="controls">
+                                            <textarea></textarea>
+                                        </div>
+                                    </div>
+
+                                    <div class="control-group margin-bottom">
+                                        <label class="control-label vertical-align-top">上传凭证：</label>
+                                        <div class="controls">
+                                            <div class="trade-custom-file-upload-btn">
+                                                <input type="file" class="trade-custom-file-upload-btn"/>
+                                                <label class="www-file-upload"><img src="../../static/user/images/image-icon.jpg"> 选择您要上传的图片</label>
+                                            </div>
+                                            <span class="trade-custom-files-upload-extension">仅支持JPG GIF PNG JPEG BMP，文件小于2M</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="control-group margin-bottom-0">
+                                        <label class="control-label"></label>
+                                        <div class="controls">
+                                            <button class="sui-btn btn-primary" type="submit"><font><font>提交</font></font></button>
+                                        </div>
+                                    </div>
+                                </form>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        <!-- Return Section End-->
-
     </div>
+    <!-- Return Section End-->
+
+</div>
 </div>
 <!-- Mid Section End -->
 

@@ -303,15 +303,27 @@
   position: relative;
   clear: both;
 }
+.trade-steps.trade-steps-4 .trade-step {
+  width: 281px;
+}
+.trade-steps.trade-steps-3 .trade-step {
+  width: 421px;
+}
 .trade-steps .trade-step {
   float: left;
   position: relative;
+}
+.trade-steps .trade-step.last {
+  width: 32px;
+  position: absolute;
+  right: 0;
 }
 .trade-steps .trade-step .trade-step-label {
   display: inline-block;
   position: relative;
   margin-bottom: 10px;
   white-space: nowrap;
+  font-size: 14px;
 }
 .trade-steps .trade-step .trade-round {
   -webkit-box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.35), inset 0px 3px 1px 0px rgba(0, 0, 0, 0.08);
@@ -396,15 +408,6 @@
   width: 22px;
   font-size: 17px;
   padding-top: 2px;
-}
-.trade-steps.trade-steps-4 .trade-step {
-  width: 281px;
-}
-.trade-steps.trade-steps-4 .trade-step.last {
-  width: auto;
-  position: absolute;
-  right: 0;
-  text-align: right;
 }
 .trade-steps .trade-mid-step.trade-step-done .trade-round,
 .trade-steps .trade-mid-step.trade-current-step .trade-round {

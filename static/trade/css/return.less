@@ -313,15 +313,33 @@
     clear: both;
   }
 
+  &.trade-steps-4{
+    .trade-step{
+      width: 281px;
+    }
+  }
+  &.trade-steps-3{
+    .trade-step{
+      width: 421px;
+    }
+  }
+
   .trade-step{
     float: left;
     position: relative;
+
+    &.last{
+      width: 32px;
+      position: absolute;
+      right: 0;
+    }
 
     .trade-step-label{
       display: inline-block;
       position: relative;
       margin-bottom: 10px;
       white-space: nowrap;
+      font-size: 14px;
     }
 
     .trade-round{
@@ -400,21 +418,6 @@
           font-size: 17px;
           padding-top: 2px;
         }
-      }
-    }
-  }
-
-
-
-  &.trade-steps-4{
-    .trade-step{
-      width: 281px;
-
-      &.last{
-        width: auto;
-        position: absolute;
-        right: 0;
-        text-align: right;
       }
     }
   }
