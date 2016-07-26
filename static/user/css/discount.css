@@ -1,0 +1,79 @@
+/******************************************************
+   *Variables START
+******************************************************/
+.user-discount-section {
+  float: left;
+}
+.user-discount-section .user-single-discount-row {
+  background-color: #fff;
+  float: left;
+  margin-bottom: 30px;
+}
+.user-discount-section .user-single-discount-row .user-discount-image {
+  width: 310px;
+  position: relative;
+  float: left;
+}
+.user-discount-section .user-single-discount-row .user-discount-image img {
+  width: 100%;
+}
+.user-discount-section .user-single-discount-row .user-discount-image .user-discount-image-data {
+  position: absolute;
+  top: 25px;
+  bottom: 25px;
+  text-align: center;
+  color: #fff;
+  width: 100%;
+}
+.user-discount-section .user-single-discount-row .user-discount-image .user-discount-image-data h1 {
+  margin: 0;
+  line-height: 33px;
+  font-size: 40px;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+.user-discount-section .user-single-discount-row .user-discount-image .user-discount-image-data p {
+  margin: 0;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.user-discount-section .user-single-discount-row .user-discount-image .user-discount-image-data span {
+  font-size: 14px;
+}
+.user-discount-section .user-single-discount-row .user-discount-detail {
+  width: 620px;
+  display: inline-block;
+  padding: 25px 50px 25px 30px;
+  height: 160px;
+  position: relative;
+}
+.user-discount-section .user-single-discount-row .user-discount-detail .user-coupon-number {
+  width: 100%;
+}
+.user-discount-section .user-single-discount-row .user-discount-detail .user-coupon-number span {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 18px;
+}
+.user-discount-section .user-single-discount-row .user-discount-detail .user-coupon-date {
+  font-size: 14px;
+  color: #666666;
+  margin-top: 20px;
+  float: right;
+}
+.user-discount-section .user-single-discount-row .user-discount-detail img {
+  bottom: 50px;
+  position: absolute;
+  right: -30px;
+  top: 45px;
+}
+.user-discount-section .margin-bottom {
+  margin-bottom: 0;
+}
+.user-discount-section .item-category-pagination .sui-pagination ul .prev.disabled a {
+  background-color: #fff;
+}
+.user-discount-section .sui-pagination {
+  margin-top: 30px;
+  margin-bottom: 0;
+}

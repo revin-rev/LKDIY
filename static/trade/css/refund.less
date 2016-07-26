@@ -1,0 +1,29 @@
+@import "../../common/css/variable";
+@import "../../common/css/lesshat";
+
+
+.trade-refund-listing-block{
+
+  .item-category-pagination{
+    float: none;
+    text-align: right;
+
+    .sui-pagination{
+      margin: 0;
+    }
+
+    .sui-pagination ul li{
+      &.prev.disabled a{
+        background-color: @white;
+        color: #cccccc;
+      }
+
+      &.active a{
+        border-color: transparent;
+      }
+    }
+  }
+}
+
+
+

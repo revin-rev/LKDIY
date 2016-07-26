@@ -1,0 +1,89 @@
+/******************************************************
+   *Variables START
+******************************************************/
+.user-my-integral-section h5 {
+  display: inline-block;
+}
+.user-my-integral-section span {
+  color: #d01716;
+  font-size: 14px;
+  margin-left: 12px;
+}
+.user-my-integral-section .user-my-integral-detail {
+  width: 100%;
+}
+.user-my-integral-section .user-my-integral-detail span {
+  margin-left: 0;
+}
+.user-my-integral-section .user-my-integral-detail .user-integrals {
+  border: 1px solid #CCCCCC;
+  padding-top: 2px;
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+.user-my-integral-section .user-my-integral-detail .user-integrals .user-integral-headings {
+  background-color: #fff;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  font-weight: normal;
+}
+.user-my-integral-section .user-my-integral-detail .user-integrals .user-integral-headings .user-integral-date-heading {
+  display: inline-table;
+  vertical-align: middle;
+  font-size: 14px;
+  color: #666666;
+  width: 300px;
+  text-align: center;
+  margin-right: 10px;
+}
+.user-my-integral-section .user-my-integral-detail .user-integrals .user-integral-headings .user-integral-income-heading {
+  display: inline-table;
+  vertical-align: middle;
+  font-size: 14px;
+  color: #666666;
+  width: 200px;
+  text-align: center;
+  margin-right: 10px;
+}
+.user-my-integral-section .user-my-integral-detail .user-integrals .user-integral-headings .user-integral-details-type-heading {
+  display: inline-table;
+  color: #666666;
+  font-size: 14px;
+  line-height: normal;
+  width: 445px;
+  text-align: center;
+}
+.user-my-integral-section .user-my-integral-detail .user-integral-data {
+  padding-top: 13px;
+  padding-bottom: 13px;
+  border-bottom: 1px solid #CCCCCC;
+}
+.user-my-integral-section .user-my-integral-detail .user-integral-data .user-date-data {
+  font-size: 14px;
+  color: #999999;
+  width: 300px;
+  text-align: center;
+  vertical-align: middle;
+  display: inline-table;
+  margin-right: 10px;
+}
+.user-my-integral-section .user-my-integral-detail .user-integral-data .user-income-data {
+  font-size: 14px;
+  color: #333333;
+  width: 200px;
+  text-align: center;
+  vertical-align: middle;
+  display: inline-table;
+  margin-right: 10px;
+}
+.user-my-integral-section .user-my-integral-detail .user-integral-data .user-type-data {
+  font-size: 14px;
+  color: #333333;
+  width: 445px;
+  text-align: center;
+  vertical-align: middle;
+  display: inline-table;
+}
+.user-my-integral-section .user-my-integral-detail .border-bottom-zero {
+  border-bottom: 0;
+}

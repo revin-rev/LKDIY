@@ -1,0 +1,154 @@
+@import "../../common/css/variable";
+@import "../../common/css/lesshat";
+
+/*orders listing heading bar start*/
+.trade-order-headings-outr{
+  background-color: @white;
+  padding: 10px 20px;
+
+  h2{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    font-size: @baseFont;
+    color: @baseTextColor;
+    font-weight: normal;
+    line-height: normal;
+
+    &.trade-product-order-detail-heading{
+      width: 489px;
+      text-align: center;
+      margin-right:10px;
+    }
+
+    &.trade-product-reciver-heading{
+      width: 100px;
+      text-align: center;
+      margin-right: 10px;
+    }
+
+    &.trade-product-price-heading{
+      width: 100px;
+      text-align: center;
+      margin-right: 10px;
+    }
+
+    &.trade-product-all-states-heading{
+      width: 100px;
+      text-align: center;
+      margin-right: 10px;
+    }
+
+    &.trade-product-operations-heading{
+      width: 100px;
+      text-align: center;
+    }
+
+  }
+
+}
+/*orders listing heading bar end*/
+
+/* product order detail row start*/
+.trade-single-order-detail-row{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border: 1px solid #cccccc;
+
+  .trade-single-order-baisc-detail{
+    background-color: @white;
+    padding: 15px;
+
+    p{
+      display: inline-block;
+      margin: 0;
+      margin-right: 30px;
+      font-size: @baseFontLarge;
+      color: @primaryColorLight;
+
+      span{
+        color: @baseTextColor;
+      }
+    }
+  }
+  .trade-product-data{
+    padding: 25px 20px;
+    display: inline-table;
+    font-size: @baseFontLarge;
+
+    .trade-name{
+      width: 489px;
+      margin-right: 10px;
+      display: inline-table;
+      vertical-align: middle;
+
+      p{
+        color: @baseTextColorDark;
+        width: 195px;
+      }
+
+      span{
+        margin-left: 62px;
+        color: @baseTextColor;
+      }
+    }
+
+    .trade-receiver-value{
+      width: 100px;
+      margin-right: 10px;
+      display: inline-table;
+      text-align: center;
+      vertical-align: middle;
+    }
+
+    .trade-price-value{
+      width: 100px;
+      margin-right: 10px;
+      display: inline-table;
+      color: @primaryColorLight;
+      text-align: center;
+      vertical-align: middle;
+    }
+
+    .trade-status-value{
+      width: 100px;
+      margin-right: 10px;
+      display: inline-table;
+      color: @primaryColorLight;
+      text-align: center;
+      vertical-align: middle;
+    }
+
+    .trade-operation-value{
+      width: 100px;
+      display: inline-table;
+      color: @primaryColorLight;
+      text-align: center;
+      vertical-align: middle;
+
+      a{
+        display: inline-table;
+        margin-bottom: 16px;
+        vertical-align: top;
+
+        &.margin-bottom-0{
+          margin-bottom: 0;
+        }
+      }
+    }
+
+    p{
+      display: inline-table;
+      vertical-align: middle;
+      margin-bottom: 0;
+      font-size: @baseFontLarge;
+      margin-left: 22px;
+    }
+  }
+}
+/* product order detail row end*/
+
+/* global */
+.margin-zero{
+  margin: 0;
+}

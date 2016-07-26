@@ -1,0 +1,17 @@
+/******************************************************
+   *Variables START
+******************************************************/
+.trade-refund-listing-block .item-category-pagination {
+  float: none;
+  text-align: right;
+}
+.trade-refund-listing-block .item-category-pagination .sui-pagination {
+  margin: 0;
+}
+.trade-refund-listing-block .item-category-pagination .sui-pagination ul li.prev.disabled a {
+  background-color: #fff;
+  color: #cccccc;
+}
+.trade-refund-listing-block .item-category-pagination .sui-pagination ul li.active a {
+  border-color: transparent;
+}

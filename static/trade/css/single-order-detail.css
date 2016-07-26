@@ -1,0 +1,131 @@
+/******************************************************
+   *Variables START
+******************************************************/
+/*orders listing heading bar start*/
+.trade-order-headings-outr {
+  background-color: #fff;
+  padding: 10px 20px;
+}
+.trade-order-headings-outr h2 {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+  color: #666666;
+  font-weight: normal;
+  line-height: normal;
+}
+.trade-order-headings-outr h2.trade-product-order-detail-heading {
+  width: 489px;
+  text-align: center;
+  margin-right: 10px;
+}
+.trade-order-headings-outr h2.trade-product-reciver-heading {
+  width: 100px;
+  text-align: center;
+  margin-right: 10px;
+}
+.trade-order-headings-outr h2.trade-product-price-heading {
+  width: 100px;
+  text-align: center;
+  margin-right: 10px;
+}
+.trade-order-headings-outr h2.trade-product-all-states-heading {
+  width: 100px;
+  text-align: center;
+  margin-right: 10px;
+}
+.trade-order-headings-outr h2.trade-product-operations-heading {
+  width: 100px;
+  text-align: center;
+}
+/*orders listing heading bar end*/
+/* product order detail row start*/
+.trade-single-order-detail-row {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border: 1px solid #cccccc;
+}
+.trade-single-order-detail-row .trade-single-order-baisc-detail {
+  background-color: #fff;
+  padding: 15px;
+}
+.trade-single-order-detail-row .trade-single-order-baisc-detail p {
+  display: inline-block;
+  margin: 0;
+  margin-right: 30px;
+  font-size: 14px;
+  color: #999999;
+}
+.trade-single-order-detail-row .trade-single-order-baisc-detail p span {
+  color: #666666;
+}
+.trade-single-order-detail-row .trade-product-data {
+  padding: 25px 20px;
+  display: inline-table;
+  font-size: 14px;
+}
+.trade-single-order-detail-row .trade-product-data .trade-name {
+  width: 489px;
+  margin-right: 10px;
+  display: inline-table;
+  vertical-align: middle;
+}
+.trade-single-order-detail-row .trade-product-data .trade-name p {
+  color: #333333;
+  width: 195px;
+}
+.trade-single-order-detail-row .trade-product-data .trade-name span {
+  margin-left: 62px;
+  color: #666666;
+}
+.trade-single-order-detail-row .trade-product-data .trade-receiver-value {
+  width: 100px;
+  margin-right: 10px;
+  display: inline-table;
+  text-align: center;
+  vertical-align: middle;
+}
+.trade-single-order-detail-row .trade-product-data .trade-price-value {
+  width: 100px;
+  margin-right: 10px;
+  display: inline-table;
+  color: #999999;
+  text-align: center;
+  vertical-align: middle;
+}
+.trade-single-order-detail-row .trade-product-data .trade-status-value {
+  width: 100px;
+  margin-right: 10px;
+  display: inline-table;
+  color: #999999;
+  text-align: center;
+  vertical-align: middle;
+}
+.trade-single-order-detail-row .trade-product-data .trade-operation-value {
+  width: 100px;
+  display: inline-table;
+  color: #999999;
+  text-align: center;
+  vertical-align: middle;
+}
+.trade-single-order-detail-row .trade-product-data .trade-operation-value a {
+  display: inline-table;
+  margin-bottom: 16px;
+  vertical-align: top;
+}
+.trade-single-order-detail-row .trade-product-data .trade-operation-value a.margin-bottom-0 {
+  margin-bottom: 0;
+}
+.trade-single-order-detail-row .trade-product-data p {
+  display: inline-table;
+  vertical-align: middle;
+  margin-bottom: 0;
+  font-size: 14px;
+  margin-left: 22px;
+}
+/* product order detail row end*/
+/* global */
+.margin-zero {
+  margin: 0;
+}

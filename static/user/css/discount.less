@@ -1,0 +1,90 @@
+@import "../../common/css/variable";
+
+.user-discount-section{
+    float: left;
+    .user-single-discount-row{
+      background-color: @white;
+      float: left;
+      margin-bottom: 30px;
+
+      .user-discount-image{
+        width: 310px;
+        position: relative;
+        float: left;
+
+        img{
+          width: 100%;
+        }
+
+        .user-discount-image-data{
+          position: absolute;
+          top:25px;
+          bottom:25px;
+          text-align: center;
+          color: @white;
+          width: 100%;
+
+          h1{
+            margin: 0;
+            line-height: 33px;
+            font-size: 40px;
+            font-weight: normal;
+            margin-bottom: 20px;
+          }
+
+          p{
+            margin: 0;
+            font-size: @baseFontMedium;
+            margin-bottom: 20px;
+          }
+
+          span{
+            font-size: @baseFontLarge;
+          }
+        }
+      }
+
+      .user-discount-detail{
+        width: 620px;
+        display: inline-block;
+        padding:25px 50px 25px 30px;
+        height: 160px;
+        position: relative;
+
+        .user-coupon-number{
+          width: 100%;
+
+          span{
+            display: block;
+            font-size: @baseFontLarge;
+            margin-bottom: 18px;
+          }
+        }
+
+        .user-coupon-date{
+          font-size: @baseFontLarge;
+          color: @baseTextColor;
+          margin-top: 20px;
+          float: right;
+        }
+
+        img{
+          bottom: 50px;
+          position: absolute;
+          right: -30px;
+          top: 45px;
+        }
+      }
+
+    }
+  .margin-bottom{
+    margin-bottom: 0;
+  }
+  .item-category-pagination .sui-pagination ul .prev.disabled a{
+    background-color: @white;
+  }
+  .sui-pagination{
+    margin-top: 30px;
+    margin-bottom: 0;
+  }
+}

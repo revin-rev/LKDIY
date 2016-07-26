@@ -1113,3 +1113,135 @@
     }
   }
 }
+
+
+/*pagination start*/
+.item-category-pagination{
+  float: right;
+
+  .sui-pagination ul li{
+
+    a, span{
+      margin-left: 3px;
+      margin-right: 3px;
+      padding: 10px 17px;
+      border-color: @CartBtnBorder;
+      background-color: @sideBarHover;
+      color:@baseTextColor;
+    }
+    span{
+      background: @backgroundColorTransparent;
+    }
+    a:hover{
+      background: @backgroundColorTransparent;
+      border-color:@white;
+      color: @baseColor;
+    }
+
+    &.active{
+      a {
+        background: @backgroundColorTransparent;
+        border-color:@white;
+        color: @baseColor;
+      }
+    }
+    &.prev{
+      a {
+        background: @backgroundColorTransparent;
+
+        &:hover{
+          border-color: @CartBtnBorder;
+        }
+      }
+    }
+    &.dotted span{
+      border: 0;
+    }
+
+  }
+  .item-total-no-of-pages{
+    margin-right:10px;
+    margin-left: 24px;
+  }
+
+  div{
+    vertical-align: middle;
+    .page-num + .page-confirm{
+      background-color:@subFooterBG;
+      color:@baseTextColor;
+      border-color: @CartBtnBorder;
+      font-size: 12px;
+      line-height: 18px;
+      padding: 8px 12px;
+
+      &:hover, &:focus, &:active{
+        background-color:@baseColor;
+        border-color: @baseColor;
+      }
+    }
+  }
+  .page-num.item-simple-input-text-field{
+    border-radius: 0;
+    box-shadow: none;
+    padding: 8px;
+    height: 37px;
+    width: 38px;
+    text-align: center;
+    margin-left: 2px;
+    margin-right: 5px;
+    &:focus{
+      border-color:@baseColor;
+      outline: none;
+    }
+  }
+}
+/*pagination end*/
+
+/*related products start*/
+.related-products{
+  margin-top: 30px;
+  float: left;
+
+  h5{
+    display: inline-block;
+  }
+
+  a{
+    font-size: @baseFontLarge;
+    color: @baseTextColor;
+    float: right;
+  }
+
+  .product{
+    width: 230px;
+    height: 180px;
+    text-align: center;
+    margin-right: 20px;
+    float: left;
+    span {
+      display: table-cell;
+      height: 130px;
+      text-align: center;
+      vertical-align: middle;
+      width: 230px;
+      margin-bottom: 5px;
+    }
+
+    p{
+      width: 100%;
+      height: 18px;
+      overflow: hidden;
+      font-size: @baseFontLarge;
+      color: @baseTextColor;
+    }
+
+    .price{
+      color: @baseColor;
+      height: auto;
+    }
+    &.margin-zero{
+      margin: 0;
+    }
+  }
+}
+/*related products end*/
