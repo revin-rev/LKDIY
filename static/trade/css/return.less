@@ -299,6 +299,145 @@
     }
   }
 }
+
+.trade-steps{
+  width: 874px;
+  margin: 0 auto 30px;
+  position: relative;
+
+
+  &:after {
+    content: '';
+    display: block;
+    position: relative;
+    clear: both;
+  }
+
+  .trade-step{
+    float: left;
+    position: relative;
+
+    .trade-step-label{
+      display: inline-block;
+      position: relative;
+      margin-bottom: 10px;
+      white-space: nowrap;
+    }
+
+    .trade-round{
+      .box-shadow(0px 1px 0px 0px rgba(255, 255, 255, 0.35), inset 0px 3px 1px 0px rgba(0, 0, 0, 0.08));
+      border:1px solid transparent;
+      color: #cccccc;
+      font-size: 24px;
+      height: 32px;
+      width: 32px;
+      line-height: 30px;
+      width: 32px;
+      .border-radius(50%);
+      text-align: center;
+      position: relative;
+      z-index: 1;
+      background: @primaryColor;
+      font-family: 'arial black','arial';
+    }
+
+    .trade-bar{
+      height: 8px;
+      position: absolute;
+      left: 25px;
+      width: 100%;
+      background: @primaryColor;
+      padding: 2px 0;
+      .box-shadow(0px 1px 0px 0px rgba(255, 255, 255, 0.35),inset 0px 1px 2px 0px rgba(0, 0, 0, 0.2));
+      top: 41px;
+
+      .trade-bar-progress{
+        height: 4px;
+        position: relative;
+        z-index: 1;
+      }
+
+      &.trade-half-progress{
+        .trade-bar-progress{
+          width: 50%;
+        }
+      }
+    }
+    &.trade-step-done{
+      .trade-round{
+        padding: 4px;
+
+        i{
+          background: @baseColor;
+          display: block;
+          .border-radius(50%);
+          color: #fff;
+          height: 22px;
+          width: 22px;
+          font-size: 17px;
+          padding-top: 2px;
+        }
+      }
+      .trade-bar-progress{
+        background: @baseColor;
+      }
+    }
+
+    &.trade-current-step{
+      .trade-step-label{
+        color: @baseColor;
+      }
+      .trade-round{
+        padding: 4px;
+
+        i{
+          background: @baseColor;
+          display: block;
+          .border-radius(50%);
+          color: #fff;
+          height: 22px;
+          width: 22px;
+          font-size: 17px;
+          padding-top: 2px;
+        }
+      }
+    }
+  }
+
+
+
+  &.trade-steps-4{
+    .trade-step{
+      width: 281px;
+
+      &.last{
+        width: auto;
+        position: absolute;
+        right: 0;
+        text-align: right;
+      }
+    }
+  }
+
+  .trade-mid-step{
+    &.trade-step-done,&.trade-current-step{
+      .trade-round{
+        position: relative;
+        &:before{
+          content: '';
+          height: 4px;
+          z-index: 1;
+          display: block;
+          position: absolute;
+          width: 6px;
+          background: @baseColor;
+          left: -1px;
+          top: 14px;
+        }
+      }
+    }
+  }
+}
 /* return third step form end*/
 
 

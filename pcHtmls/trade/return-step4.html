@@ -155,47 +155,38 @@
         <div class="column after-login-right-content-section">
             <div class="grey-bg after-login-sections-padding width-100 ">
                 <h5 class="heading">退换货</h5>
-                    <div class="trade-top-return-progress-bar">
-                        <!-- Progress bar start -->
-                        <div class="sui-steps-round">
-                            <div class="finished">
-                                <label class="text-color-darkgrey">买家申请退货</label>
-                                <div class="wrap">
-                                    <div class="round">
-                                        <i class="sui-icon icon-pc-right"></i>
-                                    </div>
-                                    <div class="bar"></div>
-                                </div>
-                            </div>
-                            <div class="finished">
-                                <label>商家处理退货信息</label>
-                                <div class="wrap">
-                                    <div class="round">
-                                        <i class="sui-icon icon-pc-right"></i>
-                                    </div>
-                                    <div class="bar"></div>
-                                </div>
-                            </div>
-                            <div class="finished">
-                                <label>买家退货给商家</label>
-                                <div class="wrap">
-                                    <div class="round">
-                                        <i class="sui-icon icon-pc-right"></i>
-                                    </div>
-                                    <div class="bar"></div>
-                                </div>
-                            </div>
-                            <div class="todo last">
-                                <label>完成</label>
-                                <div class="wrap">
-                                    <div class="round">
-                                        <i class="sui-icon icon-pc-right"></i>
-                                    </div>
-                                </div>
-                            </div>
+
+                <!--_______________STEPS PROGRESSBAR START_______________-->
+                <div class="trade-steps trade-steps-4">
+                    <div class="trade-step trade-step-done ">
+                        <div class="trade-step-label">买家申请退货</div>
+                        <div class="trade-round"><i class="sui-icon icon-tb-check"></i></div>
+                        <div class="trade-bar ">
+                            <div class="trade-bar-progress"></div>
                         </div>
-                        <!-- Progress bar end -->
                     </div>
+
+                    <div class="trade-step trade-mid-step trade-step-done">
+                        <div class="trade-step-label">商家处理退货信息</div>
+                        <div class="trade-round"><i class="sui-icon icon-tb-check"></i></div>
+                        <div class="trade-bar">
+                            <div class="trade-bar-progress"></div>
+                        </div>
+                    </div>
+                    <div class="trade-step trade-mid-step  trade-step-done">
+                        <div class="trade-step-label">商家处理退货信息</div>
+                        <div class="trade-round"><i class="sui-icon icon-tb-check"></i></div>
+                        <div class="trade-bar ">
+                            <div class="trade-bar-progress"></div>
+                        </div>
+                    </div>
+                    <div class="trade-step last trade-mid-step trade-current-step">
+                        <div class="trade-step-label">完成</div>
+                        <div class="trade-round"><i class="sui-icon icon-tb-check"></i></div>
+                    </div>
+                </div>
+                <!--_______________STEPS PROGRESSBAR END_______________-->
+
                     <div class="trade-steps-completion-message">
                             <img src="../../static/common/images/green-tick-icon.png" class="column" />
                             <div class="column">
@@ -410,6 +401,7 @@
 <script src="../../static/common/scripts/jquery-1.12.4.min.js"></script>
 <script src="../../static/common/scripts/scripts.js"></script>
 <script src="../../static/common/plugins/sui/.package/js/sui.min.js"></script>
+<script src="../../static/trade/scripts/step.js"></script>
 </body>
 </html>
 
