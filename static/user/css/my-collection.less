@@ -6,14 +6,25 @@
   .user-my-collection-sorting{
     font-size: @baseFontLarge;
 
-    p{
-      margin-bottom: 0;
-      display: inline-block;
+    ul{
+      li{
+        margin-bottom: 0;
+        display: inline-block;
 
-      a{
-        color: @filtersTextColor;
-        margin-left: 20px;
-        font-size: @baseFontLarge;
+        label{
+          margin-right:2px ;
+        }
+
+        *,.checkbox-pretty span::before, .radio-pretty span::before{
+          display: inline-block;
+          vertical-align: middle;
+        }
+
+        a{
+          color: @filtersTextColor;
+          margin-right: 7px;
+          font-size: @baseFontLarge;
+        }
       }
     }
   }
@@ -83,8 +94,10 @@
       margin: 0;
       font-size: @baseFont;
       color:@baseTextColor;
-      height:18px;
+      white-space: nowrap;
+      text-overflow: ellipsis;
       overflow: hidden;
+      padding-left: 2px;
 
       input{
         margin-right: 5px;
@@ -152,4 +165,48 @@
   .user-my-collection-section .item-category-pagination .sui-pagination.pagination-large ul .prev.disabled a{
     background-color: @white;
   }
+
+}
+.user-no-collection{
+  float: left;
+  margin-top: 30px;
+  text-align: center;
+  padding-bottom: 170px;
+  padding-top: 110px;
+
+  p{
+    font-size: @baseFontMedium;
+    color: #222222;
+    margin: 0;
+  }
+
+  a{
+    color: @white;
+    padding: 8px 25px;
+    display: inline-block;
+    background-color: @loginSidebarLinkHover;
+    margin-top: 30px;
+  }
+}
+.checkbox-pretty span::before, .radio-pretty span::before{
+  background:@white;
+  border: 1px solid #cccccc;
+  border-radius: 2px;
+  content: "";
+  height: 14px;
+  width: 14px;
+  display: inline-block;
+  vertical-align: -5px;
+  margin-right: 10px;
+}
+.checkbox-pretty.checked span::before, .radio-pretty.checked  span::before {
+  color: #da0000;
+  content: "\e645";
+  font-family: 'icon-tb';
+  height: 14px;
+  width: 14px;
+  vertical-align: middle;
+  font-size: 15px;
+  line-height: 14px;
+
 }

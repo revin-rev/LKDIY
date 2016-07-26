@@ -9,13 +9,22 @@
 .user-my-collection-section .user-my-collection-sorting {
   font-size: 14px;
 }
-.user-my-collection-section .user-my-collection-sorting p {
+.user-my-collection-section .user-my-collection-sorting ul li {
   margin-bottom: 0;
   display: inline-block;
 }
-.user-my-collection-section .user-my-collection-sorting p a {
+.user-my-collection-section .user-my-collection-sorting ul li label {
+  margin-right: 2px ;
+}
+.user-my-collection-section .user-my-collection-sorting ul li *,
+.user-my-collection-section .user-my-collection-sorting ul li .checkbox-pretty span::before,
+.user-my-collection-section .user-my-collection-sorting ul li .radio-pretty span::before {
+  display: inline-block;
+  vertical-align: middle;
+}
+.user-my-collection-section .user-my-collection-sorting ul li a {
   color: #005aa0;
-  margin-left: 20px;
+  margin-right: 7px;
   font-size: 14px;
 }
 .user-my-collection-section .sui-form {
@@ -72,8 +81,10 @@
   margin: 0;
   font-size: 12px;
   color: #666666;
-  height: 18px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
   overflow: hidden;
+  padding-left: 2px;
 }
 .user-my-collection-section .user-single-product p input {
   margin-right: 5px;
@@ -131,4 +142,46 @@
 }
 .user-my-collection-section .user-my-collection-section .item-category-pagination .sui-pagination.pagination-large ul .prev.disabled a {
   background-color: #fff;
+}
+.user-no-collection {
+  float: left;
+  margin-top: 30px;
+  text-align: center;
+  padding-bottom: 170px;
+  padding-top: 110px;
+}
+.user-no-collection p {
+  font-size: 16px;
+  color: #222222;
+  margin: 0;
+}
+.user-no-collection a {
+  color: #fff;
+  padding: 8px 25px;
+  display: inline-block;
+  background-color: #d01716;
+  margin-top: 30px;
+}
+.checkbox-pretty span::before,
+.radio-pretty span::before {
+  background: #fff;
+  border: 1px solid #cccccc;
+  border-radius: 2px;
+  content: "";
+  height: 14px;
+  width: 14px;
+  display: inline-block;
+  vertical-align: -5px;
+  margin-right: 10px;
+}
+.checkbox-pretty.checked span::before,
+.radio-pretty.checked span::before {
+  color: #da0000;
+  content: "\e645";
+  font-family: 'icon-tb';
+  height: 14px;
+  width: 14px;
+  vertical-align: middle;
+  font-size: 15px;
+  line-height: 14px;
 }
