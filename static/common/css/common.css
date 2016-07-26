@@ -39,7 +39,7 @@
            *Top Menu DropDown Start
         **/
   /**
-           *Top Menu DropDown Start
+           *Top Menu DropDown END
         **/
 }
 .top-nav .top-nav-left > ul > li > a,
@@ -53,12 +53,25 @@
 .top-nav .top-nav-left > ul > li > a .arrow,
 .top-nav .top-nav-right > ul > li > a .arrow {
   display: inline-block;
-  height: 4px;
+  height: 7px;
   width: 8px;
-  background-image: url("../images/spirit_icons.png");
   vertical-align: middle;
   background-position: -74px 150px;
   margin-left: 3px;
+  line-height: 0px;
+  color: #999999;
+  font-family: 'sui-icon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.top-nav .top-nav-left > ul > li > a .arrow:before,
+.top-nav .top-nav-right > ul > li > a .arrow:before {
+  content: "\e6c4";
 }
 .top-nav .top-nav-left > ul > li > a:hover,
 .top-nav .top-nav-right > ul > li > a:hover {
@@ -103,7 +116,11 @@
 }
 .top-nav .top-nav-left > ul > li.drop-down:hover > a .arrow,
 .top-nav .top-nav-right > ul > li.drop-down:hover > a .arrow {
-  background-position: -91px 150px;
+  line-height: 10px;
+}
+.top-nav .top-nav-left > ul > li.drop-down:hover > a .arrow:before,
+.top-nav .top-nav-right > ul > li.drop-down:hover > a .arrow:before {
+  content: "\e6c5";
 }
 .top-nav .top-nav-left > ul > li.drop-down:hover > ul,
 .top-nav .top-nav-right > ul > li.drop-down:hover > ul {
@@ -239,7 +256,10 @@
   z-index: 11;
 }
 .middle-header .cart-column .cart-btn:hover .red-arrow-down {
-  background-position: -43px 156px;
+  line-height: 21px;
+}
+.middle-header .cart-column .cart-btn:hover .red-arrow-down:before {
+  content: "\e6c5";
 }
 .middle-header .cart-column .cart-btn:hover .cart-drop-down {
   display: block;
@@ -270,7 +290,7 @@
   border: 0;
 }
 /**
-   *Mid of Header Including Logo,Cart and Search Box START
+   *Mid of Header Including Logo,Cart and Search Box END
 **/
 /**
    *Header Main Nav Bar START

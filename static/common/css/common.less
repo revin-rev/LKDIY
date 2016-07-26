@@ -42,12 +42,25 @@
 
           .arrow {
             display: inline-block;
-            height: 4px;
+            height: 7px;
             width: 8px;
-            background-image: url("../images/spirit_icons.png");
             vertical-align: middle;
             background-position: -74px 150px;
             margin-left: 3px;
+            line-height: 0px;
+            color: #999999;
+            font-family: 'sui-icon';
+            speak: none;
+            font-style: normal;
+            font-weight: normal;
+            font-variant: normal;
+            text-transform: none;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+
+            &:before{
+              content: "\e6c4";
+            }
           }
           &:hover {
             text-decoration: none;
@@ -96,7 +109,11 @@
               border-right-color: #ddd;
 
               .arrow {
-                background-position: -91px 150px;
+                line-height: 10px;
+
+                &:before{
+                  content: "\e6c5";
+                }
               }
             }
             & > ul {
@@ -105,7 +122,7 @@
           }
         }
         /**
-           *Top Menu DropDown Start
+           *Top Menu DropDown END
         **/
       }
     }
@@ -256,7 +273,10 @@
         }
 
         .red-arrow-down {
-          background-position: -43px 156px;
+          line-height: 21px;
+          &:before{
+            content: "\e6c5";
+          }
         }
 
         .cart-drop-down {
@@ -294,7 +314,7 @@
 }
 
 /**
-   *Mid of Header Including Logo,Cart and Search Box START
+   *Mid of Header Including Logo,Cart and Search Box END
 **/
 
 /**

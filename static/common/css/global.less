@@ -140,11 +140,24 @@ p {
 }
 
 .red-arrow-down {
-  background-image: url("../images/spirit_icons.png");
-  background-position: -13px 156px;
   width: 14px;
   height: 15px;
   display: inline-block;
+  vertical-align: middle;
+  color: @white;
+  font-family: 'sui-icon';
+  speak: none;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: @baseColorDark;
+  .border-radius(2px);
+  line-height: 10px;
+  text-align: center;
+
+  &:before{
+    content: "\e6c4";
+  }
 }
 
 .row-img {
