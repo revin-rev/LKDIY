@@ -842,7 +842,7 @@
   background-color: #fff2f2;
   border-color: #c41411;
   width: 268px;
-  padding: 7px 10px;
+  padding: 7px 26px;
 }
 .sui-form.form-horizontal.sui-validate .msg-icon {
   top: 6px;
@@ -1005,6 +1005,7 @@
 /*pagination start*/
 .item-category-pagination {
   float: right;
+  /*kuljit*/
 }
 .item-category-pagination .sui-pagination ul li a,
 .item-category-pagination .sui-pagination ul li span {
@@ -1040,6 +1041,7 @@
 .item-category-pagination .item-total-no-of-pages {
   margin-right: 10px;
   margin-left: 24px;
+  font-weight: bold;
 }
 .item-category-pagination div {
   vertical-align: middle;
@@ -1063,7 +1065,7 @@
   box-shadow: none;
   padding: 8px;
   height: 37px;
-  width: 38px;
+  width: 50px;
   text-align: center;
   margin-left: 2px;
   margin-right: 5px;
@@ -1071,6 +1073,9 @@
 .item-category-pagination .page-num.item-simple-input-text-field:focus {
   border-color: #c41411;
   outline: none;
+}
+.item-category-pagination .sui-pagination div .page-num:focus {
+  width: 70px;
 }
 /*pagination end*/
 /*related products start*/
@@ -1116,3 +1121,22 @@
   margin: 0;
 }
 /*related products end*/
+.sui-form select:focus,
+.sui-form textarea:focus,
+.sui-form input[type="text"]:focus,
+.sui-form input[type="password"]:focus,
+.sui-form input[type="datetime"]:focus,
+.sui-form input[type="datetime-local"]:focus,
+.sui-form input[type="date"]:focus,
+.sui-form input[type="month"]:focus,
+.sui-form input[type="time"]:focus,
+.sui-form input[type="week"]:focus,
+.sui-form input[type="number"]:focus,
+.sui-form input[type="email"]:focus,
+.sui-form input[type="url"]:focus,
+.sui-form input[type="search"]:focus,
+.sui-form input[type="tel"]:focus,
+.sui-form input[type="color"]:focus,
+.sui-form .uneditable-input:focus {
+  outline: none;
+}

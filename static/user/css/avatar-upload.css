@@ -39,6 +39,7 @@
   background-color: #eee;
   border: 1px solid #ccc;
   padding: 10px 25px;
+  font-size: 14px;
 }
 .user-avatar-upload-section-outr .user-avatar-upload-left-section label img {
   margin-right: 5px;

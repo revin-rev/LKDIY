@@ -99,17 +99,17 @@
   line-height: normal;
   font-weight: normal;
 }
-.www-best-products-section .www-top-heading-and-pages p {
+.www-best-products-section .www-top-heading-and-pages a {
   margin: 0;
   display: inline;
   float: right;
 }
-.www-best-products-section .www-top-heading-and-pages p span {
+.www-best-products-section .www-top-heading-and-pages a span {
   float: left;
   color: #222222;
   font-size: 14px;
 }
-.www-best-products-section .www-top-heading-and-pages p .back-arrow {
+.www-best-products-section .www-top-heading-and-pages a .back-arrow {
   background-image: url("../../common/images/spirit_icons.png");
   background-position: 385px 188px;
   float: left;
