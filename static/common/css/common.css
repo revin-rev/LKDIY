@@ -842,7 +842,7 @@
   background-color: #fff2f2;
   border-color: #c41411;
   width: 268px;
-  padding: 8px 26px;
+  padding: 7px 10px;
 }
 .sui-form.form-horizontal.sui-validate .msg-icon {
   top: 6px;
@@ -851,6 +851,9 @@
 .sui-form.form-horizontal.sui-validate .msg-icon:before {
   content: "\e6e4";
   font-family: 'icon-tb';
+  float: left;
+  margin-right: 5px;
+  margin-top: 2px;
 }
 /*******************Error message styling END***********************/
 /*******************Tabs START***********************/
