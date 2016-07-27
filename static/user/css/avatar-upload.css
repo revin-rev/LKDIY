@@ -15,6 +15,7 @@
 .user-avatar-upload-section-outr .user-avatar-upload-left-section .user-custom-file-upload-btn {
   position: relative;
   z-index: 9999;
+  white-space: nowrap;
 }
 .user-avatar-upload-section-outr .user-avatar-upload-left-section .user-custom-file-upload-btn input {
   height: 40px;
@@ -100,4 +101,10 @@
   color: #999999;
   margin-top: 14px;
   margin-bottom: 18px;
+}
+.user-width-50 {
+  width: 50px;
+}
+.user-width-50 img {
+  width: 50px;
 }

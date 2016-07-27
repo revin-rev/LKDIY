@@ -125,6 +125,7 @@
 .trade-forms .trade-custom-file-upload-btn {
   position: relative;
   z-index: 9999;
+  white-space: nowrap;
 }
 .trade-forms .trade-custom-file-upload-btn input {
   height: 40px;
