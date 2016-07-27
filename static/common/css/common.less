@@ -1119,7 +1119,86 @@
 
 
 /*pagination start*/
-.item-category-pagination{
+.common-pagination{
+  float: right;
+
+  .sui-pagination ul li{
+
+    a, span{
+      margin-left: 3px;
+      margin-right: 3px;
+      padding: 10px 17px;
+      border-color: @CartBtnBorder;
+      background-color: @sideBarHover;
+      color:@baseTextColor;
+    }
+    span{
+      background: @backgroundColorTransparent;
+    }
+    a:hover{
+      background: @backgroundColorTransparent;
+      border-color:@white;
+      color: @baseColor;
+    }
+
+    &.active{
+      a {
+        background: @backgroundColorTransparent;
+        border-color:@white;
+        color: @baseColor;
+      }
+    }
+    &.prev{
+      a {
+        background: @backgroundColorTransparent;
+
+        &:hover{
+          border-color: @CartBtnBorder;
+        }
+      }
+    }
+    &.dotted span{
+      border: 0;
+    }
+
+  }
+  .item-total-no-of-pages{
+    margin-right:10px;
+    margin-left: 24px;
+  }
+
+  div{
+    vertical-align: middle;
+    .page-confirm{
+      background-color:@subFooterBG;
+      color:@baseTextColor;
+      border-color: @CartBtnBorder;
+      font-size: 12px;
+      line-height: 18px;
+      padding: 8px 12px;
+
+      &:hover, &:focus, &:active{
+        background-color:@baseColor;
+        border-color: @baseColor;
+      }
+    }
+  }
+  .item-simple-input-text-field{
+    border-radius: 0;
+    box-shadow: none;
+    padding: 8px;
+    height: 37px;
+    width: 38px;
+    text-align: center;
+    margin-left: 2px;
+    margin-right: 5px;
+    &:focus{
+      border-color:@baseColor;
+      outline: none;
+    }
+  }
+}
+.common-pagination{
   float: right;
 
   .sui-pagination ul li{
@@ -1272,3 +1351,7 @@
 .sui-form .uneditable-input:focus{
   outline: none
 }
+
+
+
+

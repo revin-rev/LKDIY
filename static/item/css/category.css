@@ -360,76 +360,7 @@
   color: #c41411;
 }
 /*--- topbar end ---*/
-/*--- products and pagination start ---*/
-.item-bottom-category-products-section .item-category-pagination {
-  float: right;
-}
-.item-bottom-category-products-section .item-category-pagination .sui-pagination ul li a,
-.item-bottom-category-products-section .item-category-pagination .sui-pagination ul li span {
-  margin-left: 3px;
-  margin-right: 3px;
-  padding: 10px 17px;
-  border-color: #dedede;
-  background-color: #f7f7f7;
-  color: #666666;
-}
-.item-bottom-category-products-section .item-category-pagination .sui-pagination ul li span {
-  background: transparent;
-}
-.item-bottom-category-products-section .item-category-pagination .sui-pagination ul li a:hover {
-  background: transparent;
-  border-color: #fff;
-  color: #c41411;
-}
-.item-bottom-category-products-section .item-category-pagination .sui-pagination ul li.active a {
-  background: transparent;
-  border-color: #fff;
-  color: #c41411;
-}
-.item-bottom-category-products-section .item-category-pagination .sui-pagination ul li.prev a {
-  background: transparent;
-}
-.item-bottom-category-products-section .item-category-pagination .sui-pagination ul li.prev a:hover {
-  border-color: #dedede;
-}
-.item-bottom-category-products-section .item-category-pagination .sui-pagination ul li.dotted span {
-  border: 0;
-}
-.item-bottom-category-products-section .item-category-pagination .item-total-no-of-pages {
-  margin-right: 10px;
-  margin-left: 24px;
-}
-.item-bottom-category-products-section .item-category-pagination div {
-  vertical-align: middle;
-}
-.item-bottom-category-products-section .item-category-pagination div .page-confirm {
-  background-color: #f7f7f7;
-  color: #666666;
-  border-color: #dedede;
-  font-size: 12px;
-  line-height: 18px;
-  padding: 8px 12px;
-}
-.item-bottom-category-products-section .item-category-pagination div .page-confirm:hover,
-.item-bottom-category-products-section .item-category-pagination div .page-confirm:focus,
-.item-bottom-category-products-section .item-category-pagination div .page-confirm:active {
-  background-color: #c41411;
-  border-color: #c41411;
-}
-.item-bottom-category-products-section .item-category-pagination .item-simple-input-text-field {
-  border-radius: 0;
-  box-shadow: none;
-  padding: 8px;
-  height: 37px;
-  width: 38px;
-  text-align: center;
-  margin-left: 2px;
-  margin-right: 5px;
-}
-.item-bottom-category-products-section .item-category-pagination .item-simple-input-text-field:focus {
-  border-color: #c41411;
-  outline: none;
-}
+/*--- products and pagination start --*/
 .item-single-product {
   width: 240px;
   padding: 20px;

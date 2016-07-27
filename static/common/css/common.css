@@ -1003,11 +1003,11 @@
   margin-top: 29px;
 }
 /*pagination start*/
-.item-category-pagination {
+.common-pagination {
   float: right;
 }
-.item-category-pagination .sui-pagination ul li a,
-.item-category-pagination .sui-pagination ul li span {
+.common-pagination .sui-pagination ul li a,
+.common-pagination .sui-pagination ul li span {
   margin-left: 3px;
   margin-right: 3px;
   padding: 10px 17px;
@@ -1015,37 +1015,36 @@
   background-color: #f7f7f7;
   color: #666666;
 }
-.item-category-pagination .sui-pagination ul li span {
+.common-pagination .sui-pagination ul li span {
   background: transparent;
 }
-.item-category-pagination .sui-pagination ul li a:hover {
-  background: transparent;
-  border-color: #fff;
-  color: #c41411;
-}
-.item-category-pagination .sui-pagination ul li.active a {
+.common-pagination .sui-pagination ul li a:hover {
   background: transparent;
   border-color: #fff;
   color: #c41411;
 }
-.item-category-pagination .sui-pagination ul li.prev a {
+.common-pagination .sui-pagination ul li.active a {
+  background: transparent;
+  border-color: #fff;
+  color: #c41411;
+}
+.common-pagination .sui-pagination ul li.prev a {
   background: transparent;
 }
-.item-category-pagination .sui-pagination ul li.prev a:hover {
+.common-pagination .sui-pagination ul li.prev a:hover {
   border-color: #dedede;
 }
-.item-category-pagination .sui-pagination ul li.dotted span {
+.common-pagination .sui-pagination ul li.dotted span {
   border: 0;
 }
-.item-category-pagination .item-total-no-of-pages {
+.common-pagination .item-total-no-of-pages {
   margin-right: 10px;
   margin-left: 24px;
-  font-weight: bold;
 }
-.item-category-pagination div {
+.common-pagination div {
   vertical-align: middle;
 }
-.item-category-pagination div .page-num + .page-confirm {
+.common-pagination div .page-confirm {
   background-color: #f7f7f7;
   color: #666666;
   border-color: #dedede;
@@ -1053,13 +1052,83 @@
   line-height: 18px;
   padding: 8px 12px;
 }
-.item-category-pagination div .page-num + .page-confirm:hover,
-.item-category-pagination div .page-num + .page-confirm:focus,
-.item-category-pagination div .page-num + .page-confirm:active {
+.common-pagination div .page-confirm:hover,
+.common-pagination div .page-confirm:focus,
+.common-pagination div .page-confirm:active {
   background-color: #c41411;
   border-color: #c41411;
 }
-.item-category-pagination .page-num.item-simple-input-text-field {
+.common-pagination .item-simple-input-text-field {
+  border-radius: 0;
+  box-shadow: none;
+  padding: 8px;
+  height: 37px;
+  width: 38px;
+  text-align: center;
+  margin-left: 2px;
+  margin-right: 5px;
+}
+.common-pagination .item-simple-input-text-field:focus {
+  border-color: #c41411;
+  outline: none;
+}
+.common-pagination {
+  float: right;
+}
+.common-pagination .sui-pagination ul li a,
+.common-pagination .sui-pagination ul li span {
+  margin-left: 3px;
+  margin-right: 3px;
+  padding: 10px 17px;
+  border-color: #dedede;
+  background-color: #f7f7f7;
+  color: #666666;
+}
+.common-pagination .sui-pagination ul li span {
+  background: transparent;
+}
+.common-pagination .sui-pagination ul li a:hover {
+  background: transparent;
+  border-color: #fff;
+  color: #c41411;
+}
+.common-pagination .sui-pagination ul li.active a {
+  background: transparent;
+  border-color: #fff;
+  color: #c41411;
+}
+.common-pagination .sui-pagination ul li.prev a {
+  background: transparent;
+}
+.common-pagination .sui-pagination ul li.prev a:hover {
+  border-color: #dedede;
+}
+.common-pagination .sui-pagination ul li.dotted span {
+  border: 0;
+}
+.common-pagination .item-total-no-of-pages {
+  margin-right: 10px;
+  margin-left: 24px;
+  font-weight: bold;
+}
+.common-pagination div {
+  vertical-align: middle;
+}
+.common-pagination div .page-num + .page-confirm {
+  background-color: #f7f7f7;
+  color: #666666;
+  border-color: #dedede;
+  font-size: 12px;
+  line-height: 18px;
+  padding: 8px 12px;
+}
+.common-pagination div .page-num + .page-confirm:hover,
+.common-pagination div .page-num + .page-confirm:focus,
+.common-pagination div .page-num + .page-confirm:active {
+  background-color: #c41411;
+  border-color: #c41411;
+}
+.common-pagination .page-num.item-simple-input-text-field {
   border-radius: 0;
   box-shadow: none;
   padding: 8px;
@@ -1069,11 +1138,11 @@
   margin-left: 2px;
   margin-right: 5px;
 }
-.item-category-pagination .page-num.item-simple-input-text-field:focus {
+.common-pagination .page-num.item-simple-input-text-field:focus {
   border-color: #c41411;
   outline: none;
 }
-.item-category-pagination .sui-pagination div .page-num:focus {
+.common-pagination .sui-pagination div .page-num:focus {
   width: 70px;
 }
 /*pagination end*/
