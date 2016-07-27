@@ -15,3 +15,23 @@
 .trade-refund-listing-block .item-category-pagination .sui-pagination ul li.active a {
   border-color: transparent;
 }
+.trade-nav {
+  margin-bottom: 25px;
+}
+.trade-nav li {
+  line-height: 30px;
+}
+.trade-nav li a {
+  font-size: 16px;
+  color: #333333;
+  border-bottom: 1px solid transparent;
+  padding: 6px 0;
+}
+.trade-nav li a:hover {
+  color: #d01716;
+  border-bottom: 1px solid;
+}
+.trade-nav li.active a {
+  color: #d01716;
+  border-bottom: 1px solid;
+}
