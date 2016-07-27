@@ -8,6 +8,12 @@
         }
     });
 
+
+    $('.item-accordion-sub-list li a').click(function(e){
+        e.preventDefault();
+        $(this).parent().addClass('active').siblings().removeClass('active');
+    });
+
     /***********************Filters START*********************/
 
         //multiple option button
