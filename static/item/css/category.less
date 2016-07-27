@@ -322,6 +322,14 @@
       &.item-btn-active{
         background: @baseColor;
         color: @white;
+
+        &[disabled], &:disabled {
+          background: @baseColor;
+          color: @white;
+          text-shadow: none;
+          text-decoration: line-through;
+
+        }
       }
 
       & + .item-input-button{

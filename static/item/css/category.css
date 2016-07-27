@@ -280,6 +280,13 @@
   background: #c41411;
   color: #fff;
 }
+.item-form-filters .item-more-filter .item-input-button.item-btn-active[disabled],
+.item-form-filters .item-more-filter .item-input-button.item-btn-active:disabled {
+  background: #c41411;
+  color: #fff;
+  text-shadow: none;
+  text-decoration: line-through;
+}
 .item-form-filters .item-more-filter .item-input-button + .item-input-button {
   margin-left: 10px;
 }
