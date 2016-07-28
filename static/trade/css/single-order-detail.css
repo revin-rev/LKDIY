@@ -35,6 +35,9 @@
   text-align: center;
   margin-right: 10px;
 }
+.trade-order-headings-outr h2.trade-product-all-states-heading a.dropdown-toggle {
+  color: #666666;
+}
 .trade-order-headings-outr h2.trade-product-operations-heading {
   width: 100px;
   text-align: center;

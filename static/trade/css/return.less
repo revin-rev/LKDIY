@@ -289,14 +289,20 @@
   }
 
   p{
-    display: inline-block;
+    display: table-cell;
+    vertical-align: middle;
     font-weight: bold;
     font-size: @baseFontLarge;
     color: @baseTextColor;
 
     a{
       color: @baseColor;
-      margin-right: 40px;
+      float: left;
+      width: 124px;
+    }
+    span.trade-step-3-text{
+      float: left;
+      width: 430px;
     }
   }
 }
