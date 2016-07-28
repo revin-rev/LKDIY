@@ -130,6 +130,15 @@
 .user-my-collection-section .user-single-product.margin-bottom {
   margin-bottom: 0;
 }
+.user-my-collection-section .user-single-product .checkbox-pretty span,
+.user-my-collection-section .user-single-product .radio-pretty span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.user-my-collection-section .user-single-product .checkbox-pretty span:before,
+.user-my-collection-section .user-single-product .radio-pretty span:before {
+  margin-left: 0;
+}
 .user-my-collection-section .user-last-product {
   float: right;
   margin-right: 0;

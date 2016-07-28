@@ -189,21 +189,21 @@
                 <!--_______________STEPS PROGRESSBAR START_______________-->
                 <div class="trade-steps trade-steps-3">
                     <div class="trade-step trade-step-done trade-current-step">
-                        <div class="trade-step-label">买家申请退货</div>
+                        <div class="trade-step-label">买家申请退款</div>
                         <div class="trade-round"><i class="sui-icon icon-tb-check"></i></div>
                         <div class="trade-bar trade-half-progress">
                             <div class="trade-bar-progress"></div>
                         </div>
                     </div>
                     <div class="trade-step trade-mid-step">
-                        <div class="trade-step-label">商家处理退货信息</div>
+                        <div class="trade-step-label">商家处理退款信息</div>
                         <div class="trade-round">2</div>
                         <div class="trade-bar">
                             <div class="trade-bar-progress"></div>
                         </div>
                     </div>
                     <div class="trade-step last trade-mid-step">
-                        <div class="trade-step-label">商家处理退货信息</div>
+                        <div class="trade-step-label">完成</div>
                         <div class="trade-round">3</div>
                     </div>
                 </div>
@@ -265,7 +265,7 @@
                         </li>
                     </ul>
                     <div class="tab-content tab-wraped">
-                        <div id="return" class="tab-pane ">
+                        <div id="return" class="tab-pane active">
                             <div class="trade-return-form">
                                 <form class="sui-form form-horizontal sui-validate" novalidate="novalidate">
                                     <div class="control-group">
@@ -273,11 +273,11 @@
                                         <div class="controls double-input">
                                                 <span class="sui-dropdown dropdown-bordered select">
                                                     <span class="dropdown-inner">
-                                                        <a id="drop4" role="button" data-toggle="dropdown" href="#" class="dropdown-toggle">
-                                                            <input value="1" name="zt" type="hidden"><i class="caret"></i><span>请选择退货原因</span>
+                                                        <a id="drop5" role="button" data-toggle="dropdown" href="#" class="dropdown-toggle">
+                                                            <input  name="zt" type="hidden"  data-rules="required"><i class="caret"></i><span>请选择退货原因</span>
                                                         </a>
-                                                          <ul id="menu4" role="menu" aria-labelledby="drop4" class="sui-dropdown-menu">
-                                                              <li role="presentation" class="active"><a role="menuitem" tabindex="-1" href="javascript:void(0);" value="1">七天无理由退货</a></li>
+                                                          <ul id="menu5" role="menu" aria-labelledby="drop4" class="sui-dropdown-menu">
+                                                              <li role="presentation" class="active"><a role="menuitem" tabindex="-1" href="javascript:void(0);" >七天无理由退货</a></li>
                                                               <li role="presentation"><a role="menuitem" tabindex="-1" href="javascript:void(0);" value="1">退运费</a></li>
                                                               <li role="presentation"><a role="menuitem" tabindex="-1" href="javascript:void(0);" value="1">收到商品破损</a></li>
                                                               <li role="presentation"><a role="menuitem" tabindex="-1" href="javascript:void(0);" value="1">商品发错</a></li>
@@ -323,7 +323,7 @@
                                 </form>
                             </div>
                         </div>
-                        <div id="refund" class="tab-pane active">
+                        <div id="refund" class="tab-pane">
 
                             <div class="trade-return-form">
                                 <form class="sui-form form-horizontal sui-validate" novalidate="novalidate">
@@ -333,10 +333,10 @@
                                                 <span class="sui-dropdown dropdown-bordered select">
                                                     <span class="dropdown-inner">
                                                         <a id="drop4" role="button" data-toggle="dropdown" href="#" class="dropdown-toggle">
-                                                            <input value="1" name="zt" type="hidden"><i class="caret"></i><span>请选择退货原因</span>
+                                                            <input  name="zt2" type="hidden" data-rules="required"><i class="caret"></i><span>请选择退货原因</span>
                                                         </a>
                                                           <ul id="menu4" role="menu" aria-labelledby="drop4" class="sui-dropdown-menu">
-                                                              <li role="presentation" class="active"><a role="menuitem" tabindex="-1" href="javascript:void(0);" value="1">七天无理由退货</a></li>
+                                                              <li role="presentation" class="active"><a role="menuitem" tabindex="-1" href="javascript:void(0);" >七天无理由退货</a></li>
                                                               <li role="presentation"><a role="menuitem" tabindex="-1" href="javascript:void(0);" value="1">退运费</a></li>
                                                               <li role="presentation"><a role="menuitem" tabindex="-1" href="javascript:void(0);" value="1">收到商品破损</a></li>
                                                               <li role="presentation"><a role="menuitem" tabindex="-1" href="javascript:void(0);" value="1">商品发错</a></li>
