@@ -3,7 +3,7 @@
 ******************************************************/
 /*--- category empty start ---*/
 .www-500-message {
-  padding-top: 90px;
+  padding-top: 58px;
   padding-bottom: 140px;
 }
 .www-500-message .www-error-message-center-area {
@@ -14,6 +14,10 @@
   float: none;
   text-align: left;
   width: 330px;
+}
+.www-500-message .www-error-message-center-area h1 {
+  font-size: 30px;
+  font-weight: 400;
 }
 .www-500-message .www-error-message-center-area span {
   display: block;
