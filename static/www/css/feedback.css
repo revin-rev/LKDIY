@@ -34,6 +34,7 @@
   vertical-align: top;
   text-align: left;
   width: auto;
+  padding-left: 8px;
 }
 .www-feedback-outr .www-feedback-white-inner-portion .www-feedback-top-textarea .www-feedback-form textarea {
   width: 1000px;
@@ -66,7 +67,7 @@
   margin-top: 13px;
   display: inline-block;
   width: 100%;
-  padding-left: 11px;
+  padding-left: 8px;
 }
 .www-feedback-outr .www-feedback-white-inner-portion .www-customer-service span {
   font-size: 14px;
@@ -95,5 +96,12 @@
 }
 .www-feeback-outr-height {
   min-height: 390px;
+}
+.www-feedback-header h3 {
+  font-size: 24px;
+  font-weight: normal;
+  color: #333333;
+  margin-bottom: 0;
+  padding-top: 21px;
 }
 /*feedback end*/
