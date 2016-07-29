@@ -25,11 +25,14 @@
   }
 }
 
-.trade-nav{
+.trade-nav,.trade-nav.sui-nav.nav-tabs{
   margin-bottom: 25px;
+  padding: 0;
+  border: 0;
   li{
     line-height: 30px;
     padding: 0 40px;
+    margin: 0;
 
     a{
       font-size: 16px;
@@ -37,16 +40,29 @@
       border-bottom: 1px solid transparent;
       padding: 6px 0;
 
+
       &:hover{
         color: @loginSidebarLinkHover;
         border-bottom: 1px solid;
+        background: transparent;
       }
     }
     &.active{
       a{
+        border: 1px solid transparent;
         color: @loginSidebarLinkHover;
         border-bottom: 1px solid;
+        background: transparent;
+        font-weight: 400;
       }
+    }
+
+    &:first-child{
+      padding-left: 0;
+    }
+
+    & + li{
+      border-left: 1px solid @white;
     }
   }
 }
