@@ -289,6 +289,17 @@
   background: #b0120a;
   border: 0;
 }
+.middle-header.error-page-header .cart-column {
+  float: right;
+  margin-left: 50px;
+  margin-right: 16px;
+}
+.middle-header.error-page-header .search-box {
+  margin-left: 252px;
+}
+.middle-header.error-page-header .logo-column {
+  margin-top: -12px;
+}
 /**
    *Mid of Header Including Logo,Cart and Search Box END
 **/
