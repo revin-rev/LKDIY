@@ -3,7 +3,7 @@
 ******************************************************/
 /*--- category empty start ---*/
 .www-500-message {
-  padding-top: 90px;
+  padding-top: 58px;
   padding-bottom: 140px;
 }
 .www-500-message .www-error-message-center-area {
@@ -13,13 +13,17 @@
   margin: 0 auto;
   float: none;
   text-align: left;
-  width: 330px;
+  width: 360px;
+}
+.www-500-message .www-error-message-center-area h1 {
+  font-size: 30px;
+  font-weight: 400;
 }
 .www-500-message .www-error-message-center-area span {
   display: block;
 }
 .www-500-message .www-error-message-center-area span a {
-  color: #007dc0;
+  color: #005aa0;
 }
 .www-500-message .www-error-message-center-area span font {
   font-size: 18px;
