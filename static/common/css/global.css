@@ -71,6 +71,9 @@ p {
 .margin-bottom-30 {
   margin-bottom: 30px;
 }
+.margin-zero {
+  margin: 0;
+}
 .container {
   width: 1200px;
   margin: 0 auto;

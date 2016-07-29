@@ -42,6 +42,10 @@
   width: 100px;
   text-align: center;
 }
+.trade-order-headings-outr h2 .sui-dropup.dropdown-bordered .dropdown-inner,
+.trade-order-headings-outr h2 .sui-dropdown.dropdown-bordered .dropdown-inner {
+  border: 0;
+}
 /*orders listing heading bar end*/
 /* product order detail row start*/
 .trade-single-order-detail-row {
@@ -128,7 +132,9 @@
   margin-left: 22px;
 }
 /* product order detail row end*/
-/* global */
-.margin-zero {
-  margin: 0;
+.trade-normal-a {
+  color: #333333;
+}
+.trade-normal-a:hover {
+  color: #333333;
 }
