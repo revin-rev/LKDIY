@@ -186,6 +186,9 @@ p {
 .grey-bg {
   background-color: #f7f7f7;
 }
+.grey-bg {
+  background-color: #f2f2f2;
+}
 .sui-form .height-auto[type="text"] {
   height: auto;
 }

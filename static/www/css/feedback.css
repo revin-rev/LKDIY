@@ -9,7 +9,7 @@
 }
 .www-feedback-outr .www-feedback-white-inner-portion {
   background-color: #fff;
-  padding: 30px 45px;
+  padding: 15px 40px 30px;
   -webkit-border-radius: 12px;
   -webkit-background-clip: padding-box;
   -moz-border-radius: 12px;
@@ -63,7 +63,7 @@
   margin-bottom: 0;
 }
 .www-feedback-outr .www-feedback-white-inner-portion .www-customer-service {
-  margin-top: 20px;
+  margin-top: 13px;
   display: inline-block;
   width: 100%;
   padding-left: 11px;
@@ -83,9 +83,11 @@
   font-size: 18px;
   color: #333333;
   margin-top: 0;
-  padding-bottom: 10px;
+  font-weight: bold;
   border-bottom: 1px solid #dedede;
-  padding-left: 11px;
+  padding-bottom: 8px;
+  padding-left: 20px;
+  line-height: 18px;
 }
 .www-feedback-outr a {
   color: #005aa0;
