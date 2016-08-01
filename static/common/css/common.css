@@ -856,9 +856,12 @@
   background-color: #fff2f2;
   border-color: #c41411;
   width: 268px;
-  padding: 7px 26px;
+  padding: 7px 35px;
+  position: relative;
 }
 .sui-form.form-horizontal.sui-validate .msg-icon {
+  position: absolute;
+  left: 15px;
   top: 6px;
   font-size: 18px;
 }
