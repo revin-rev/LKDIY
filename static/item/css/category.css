@@ -561,6 +561,9 @@
 .item-category-empty p span a {
   color: #007dc0;
 }
+.item-category-empty.item-search-empty {
+  padding-top: 60px;
+}
 /*--- category empty end ---*/
 /*--- best products start ----*/
 .item-best-products-section .item-top-heading-and-pages {
