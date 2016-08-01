@@ -5,6 +5,7 @@
 .trade-order-headings-outr {
   background-color: #fff;
   padding: 10px 20px;
+  display: table;
 }
 .trade-order-headings-outr h2 {
   display: inline-block;
@@ -39,7 +40,7 @@
   color: #666666;
 }
 .trade-order-headings-outr h2.trade-product-operations-heading {
-  width: 100px;
+  width: 121px;
   text-align: center;
 }
 .trade-order-headings-outr h2 .sui-dropup.dropdown-bordered .dropdown-inner,
@@ -55,7 +56,7 @@
 }
 .trade-single-order-detail-row .trade-single-order-baisc-detail {
   background-color: #fff;
-  padding: 15px;
+  padding: 15px 20px;
 }
 .trade-single-order-detail-row .trade-single-order-baisc-detail p {
   display: inline-block;
@@ -75,28 +76,29 @@
 .trade-single-order-detail-row .trade-product-data .trade-name {
   width: 489px;
   margin-right: 10px;
-  display: inline-table;
+  display: inline-block;
   vertical-align: middle;
 }
 .trade-single-order-detail-row .trade-product-data .trade-name p {
   color: #333333;
   width: 195px;
+  margin-left: 18px;
 }
 .trade-single-order-detail-row .trade-product-data .trade-name span {
-  margin-left: 62px;
+  margin-left: 30px;
   color: #666666;
 }
 .trade-single-order-detail-row .trade-product-data .trade-receiver-value {
   width: 100px;
   margin-right: 10px;
-  display: inline-table;
+  display: inline-block;
   text-align: center;
   vertical-align: middle;
 }
 .trade-single-order-detail-row .trade-product-data .trade-price-value {
   width: 100px;
   margin-right: 10px;
-  display: inline-table;
+  display: inline-block;
   color: #999999;
   text-align: center;
   vertical-align: middle;
@@ -104,17 +106,18 @@
 .trade-single-order-detail-row .trade-product-data .trade-status-value {
   width: 100px;
   margin-right: 10px;
-  display: inline-table;
+  display: inline-block;
   color: #999999;
   text-align: center;
   vertical-align: middle;
 }
 .trade-single-order-detail-row .trade-product-data .trade-operation-value {
-  width: 100px;
-  display: inline-table;
+  width: 119px;
+  display: inline-block;
   color: #999999;
   text-align: center;
   vertical-align: middle;
+  padding: 0 2px;
 }
 .trade-single-order-detail-row .trade-product-data .trade-operation-value a {
   display: inline-table;
@@ -125,7 +128,7 @@
   margin-bottom: 0;
 }
 .trade-single-order-detail-row .trade-product-data p {
-  display: inline-table;
+  display: inline-block;
   vertical-align: middle;
   margin-bottom: 0;
   font-size: 14px;
