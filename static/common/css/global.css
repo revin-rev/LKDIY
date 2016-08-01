@@ -198,6 +198,9 @@ p {
 .sui-form .height-auto[type="text"] {
   height: auto;
 }
+.inline-block {
+  display: inline-block;
+}
 /******************************************************
    *Helper Classes CSS End
 ******************************************************/
