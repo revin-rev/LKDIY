@@ -201,6 +201,9 @@ p {
 .inline-block {
   display: inline-block;
 }
+.min-height-571 {
+  min-height: 571px;
+}
 /******************************************************
    *Helper Classes CSS End
 ******************************************************/
