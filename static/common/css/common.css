@@ -148,6 +148,10 @@
 .middle-header .search-box .search-notice a {
   color: #666666;
 }
+.middle-header .search-box .search-notice a + a {
+  display: inline-block;
+  margin-left: 6px;
+}
 .middle-header .cart-column {
   margin-left: 73px;
   margin-top: 2px;
