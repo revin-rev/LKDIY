@@ -68,4 +68,31 @@
     //set vertical align middle loading Image
     $('.loading-img').css('top', ($(window).height() / 2) - 83 );
 
+    //dropDown validation error
+    $('span.sui-dropdown.dropdown-bordered.select input').change(function(){
+        var _this = $(this);
+        setTimeout(function(){
+            if($(_this).hasClass('input-error')){
+                $(_this).parents('.dropdown-inner').addClass('input-error');
+            }else{
+                $(_this).parents('.dropdown-inner').removeClass('input-error');
+            }
+        },10);
+    });
+
+    $('.sui-validate').submit(function(){
+        $form = $(this);
+        $($form).find('span.sui-dropdown.dropdown-bordered.select input').each(function(){
+            var _this = $(this);
+            setTimeout(function() {
+                if ($(_this).hasClass('input-error')) {
+                    $(_this).parents('.dropdown-inner').addClass('input-error');
+                } else {
+                    $(_this).parents('.dropdown-inner').removeClass('input-error');
+                }
+            },10);
+        });
+    });
+
+
 })(jQuery);

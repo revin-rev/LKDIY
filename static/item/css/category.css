@@ -253,6 +253,13 @@
   border: 1px solid #dedede;
   height: 22px;
   width: 42px;
+  display: inline-block;
+  padding: 3px 0;
+  vertical-align: middle;
+  text-decoration: none;
+}
+.item-form-filters .item-input-button.disabled {
+  cursor: no-drop;
 }
 .item-form-filters .item-more-filter {
   text-align: center;

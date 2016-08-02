@@ -34,15 +34,21 @@
         $(_this).parents('.item-form-filters-row').find('.item-multiple-btn').toggleClass('active');
     });
 
-    $(document).on('click','.item-confirm-btn',function(){
-        var _this           = $(this);
-        var _rowLabelId     = $(_this).parents('.item-form-filters-row').prop('id');
+    $(document).on('click','.item-confirm-btn',function(evt){
+        evt.preventDefault();
 
-        //hide if input is radio
-        $(_this).parents('.item-form-filters-row').slideUp(100);
+        if(!$(this).hasClass('disabled')){
+            var _this           = $(this);
+            var _rowLabelId     = $(_this).parents('.item-form-filters-row').prop('id');
 
-        //show label
-        $('[data-target-row='+_rowLabelId+'].item-multiple-tag').fadeIn(100);
+            //hide if input is radio
+            $(_this).parents('.item-form-filters-row').slideUp(100);
+
+            //show label
+            $('[data-target-row='+_rowLabelId+'].item-multiple-tag').fadeIn(100);
+
+            $(this).addClass('disabled');
+        }
 
     });
 
@@ -115,9 +121,9 @@
         //set disable confirm button if not selected
         if($(_this).parents('.item-form-filters-row').hasClass('item-active-row')){
             if($(_this).find('input:checked').length == 0){
-                $(_this).parents('.item-form-filters-row').find('.item-confirm-btn').prop('disabled',true);
+                $(_this).parents('.item-form-filters-row').find('.item-confirm-btn').addClass('disabled');
             }else{
-                $(_this).parents('.item-form-filters-row').find('.item-confirm-btn').prop('disabled',false);
+                $(_this).parents('.item-form-filters-row').find('.item-confirm-btn').removeClass('disabled');
             }
         }
     });
