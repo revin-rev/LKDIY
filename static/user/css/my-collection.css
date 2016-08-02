@@ -54,6 +54,9 @@
   margin-bottom: 30px;
   background-color: #fff;
 }
+.user-my-collection-section .user-single-product.column:nth-child(5n+0) {
+  clear: both;
+}
 .user-my-collection-section .user-single-product .user-single-product-image {
   width: 100%;
   height: 198px ;
