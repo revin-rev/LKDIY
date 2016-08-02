@@ -74,6 +74,17 @@
   float: right;
   color: #666666;
 }
+.trade-product-detail-and-status-section .checkbox-pretty.inline,
+.trade-product-detail-and-status-section .radio-pretty.inline {
+  display: inline-block;
+  line-height: 13px;
+  vertical-align: top;
+}
+.trade-product-detail-and-status-section .checkbox-pretty.inline span,
+.trade-product-detail-and-status-section .radio-pretty.inline span {
+  vertical-align: top;
+  line-height: 16px;
+}
 .trade-product-detail-and-status-section .checkbox-pretty span:before,
 .trade-product-detail-and-status-section .radio-pretty span:before {
   content: "";
