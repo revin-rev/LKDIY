@@ -13,6 +13,16 @@ html[data-browser='11'] .trade-single-order-detail-row .trade-product-data .trad
 html[data-browser='10'] .trade-single-order-detail-row .trade-product-data .trade-operation-value {
   width: 102px;
 }
+html[data-browser='8'] .checkbox-pretty span:before,
+html[data-browser='9'] .checkbox-pretty span:before,
+html[data-browser='11'] .checkbox-pretty span:before,
+html[data-browser='10'] .checkbox-pretty span:before,
+html[data-browser='8'] .radio-pretty span:before,
+html[data-browser='9'] .radio-pretty span:before,
+html[data-browser='11'] .radio-pretty span:before,
+html[data-browser='10'] .radio-pretty span:before {
+  font-size: 120%;
+}
 /******************************************************
    *Styling For IE START
 ******************************************************/
