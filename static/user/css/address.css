@@ -1,0 +1,164 @@
+/******************************************************
+   *Variables START
+******************************************************/
+.user-address-form.form-horizontal .controls {
+  padding-left: 14px;
+}
+.user-address-form.form-horizontal .control-label {
+  white-space: nowrap;
+  color: #333333;
+  min-width: 98px;
+}
+.user-address-form.form-horizontal .control-label em {
+  font-style: italic;
+  display: inline-block;
+  height: 16px;
+  font-size: 20px;
+  width: 10px;
+  text-align: left;
+  vertical-align: middle;
+  color: #d01716;
+  text-indent: -2px;
+}
+.user-address-form.form-horizontal .double-input input[type="text"],
+.user-address-form.form-horizontal .double-input input[type="password"] {
+  width: 180px;
+}
+.user-address-form.form-horizontal .sui-dropup.dropdown-bordered,
+.user-address-form.form-horizontal .sui-dropdown.dropdown-bordered {
+  height: 36px;
+}
+.user-address-form.form-horizontal .sui-dropup.dropdown-bordered .dropdown-inner,
+.user-address-form.form-horizontal .sui-dropdown.dropdown-bordered .dropdown-inner {
+  height: 36px;
+  padding: 8px;
+  width: 120px;
+  border-radius: 0;
+}
+.user-address-form.form-horizontal .sui-dropup.dropdown-bordered .dropdown-inner a,
+.user-address-form.form-horizontal .sui-dropdown.dropdown-bordered .dropdown-inner a {
+  width: 100%;
+  padding: 0;
+  border-bottom: 0;
+  color: #333333;
+}
+.user-address-form.form-horizontal .sui-dropup .dropdown-inner > .sui-dropdown-menu,
+.user-address-form.form-horizontal .sui-dropdown .dropdown-inner > .sui-dropdown-menu {
+  border-top: 1px solid #cccccc;
+  margin-top: 8px;
+  padding-top: 0;
+  box-shadow: none;
+  z-index: 999999;
+  border-radius: 0;
+}
+.user-address-form.form-horizontal .sui-dropup .dropdown-inner > .sui-dropdown-menu li,
+.user-address-form.form-horizontal .sui-dropdown .dropdown-inner > .sui-dropdown-menu li {
+  padding: 0;
+}
+.user-address-form.form-horizontal .sui-dropup .dropdown-inner > .sui-dropdown-menu li :hover,
+.user-address-form.form-horizontal .sui-dropdown .dropdown-inner > .sui-dropdown-menu li :hover {
+  background-color: #d01716;
+}
+.user-address-form.form-horizontal .sui-dropup .dropdown-inner > .sui-dropdown-menu li a,
+.user-address-form.form-horizontal .sui-dropdown .dropdown-inner > .sui-dropdown-menu li a {
+  padding: 6px;
+  background-color: transparent;
+}
+.user-address-form.form-horizontal .sui-dropup .dropdown-inner > .sui-dropdown-menu li a.active,
+.user-address-form.form-horizontal .sui-dropdown .dropdown-inner > .sui-dropdown-menu li a.active {
+  color: #333333;
+}
+.user-address-form.form-horizontal .sui-dropdown.dropdown-bordered > .dropdown-inner > .sui-dropdown-menu li:hover > a,
+.user-address-form.form-horizontal .sui-dropdown.dropdown-bordered.dropdown-xlarge > .dropdown-inner > .sui-dropdown-menu li:hover > a,
+.user-address-form.form-horizontal .sui-dropdown.dropdown-bordered.dropdown-large > .dropdown-inner > .sui-dropdown-menu li:hover > a,
+.user-address-form.form-horizontal .sui-dropdown.dropdown-bordered.dropdown-small > .dropdown-inner > .sui-dropdown-menu li:hover > a,
+.user-address-form.form-horizontal .sui-dropdown.dropdown-bordered > .dropdown-inner > .sui-dropdown-menu li.active > a,
+.user-address-form.form-horizontal .sui-dropdown.dropdown-bordered.dropdown-xlarge > .dropdown-inner > .sui-dropdown-menu li.active > a,
+.user-address-form.form-horizontal .sui-dropdown.dropdown-bordered.dropdown-large > .dropdown-inner > .sui-dropdown-menu li.active > a,
+.user-address-form.form-horizontal .sui-dropdown.dropdown-bordered.dropdown-small > .dropdown-inner > .sui-dropdown-menu li.active > a {
+  color: #333333;
+}
+.user-address-form.form-horizontal .sui-dropdown.dropdown-bordered .dropdown-inner .sui-dropdown-menu li:hover a:hover {
+  color: #fff;
+}
+.user-address-form.form-horizontal .multiple-select .sui-msg.msg-error + .sui-msg.msg-error {
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  zoom: 1;
+  filter: alpha(opacity=0);
+  -webkit-opacity: 0;
+  -moz-opacity: 0;
+  opacity: 0;
+  visibility: hidden;
+}
+.user-address-form.form-horizontal .multiple-select .inner-label {
+  margin-left: 10px;
+  margin-right: 10px;
+  display: inline-block;
+}
+.user-address-form.form-horizontal .control-group.margin-bottom-10 {
+  margin-bottom: 10px;
+}
+.user-address-form.form-horizontal .btn-primary {
+  margin-top: 0;
+}
+.user-notification {
+  font-size: 14px;
+  display: inline-block;
+  margin-top: 32px;
+  margin-bottom: 30px;
+}
+.user-notification span {
+  color: #c41411;
+}
+.user-table {
+  display: table;
+  width: 100%;
+  border: 1px solid #dedede;
+}
+.user-table .user-table-row {
+  display: table-row;
+}
+.user-table .user-table-row .user-table-th {
+  background: #f2f2f2;
+  border-bottom: 1px solid #dedede;
+}
+.user-table .user-table-row .user-table-th:first-child {
+  width: 93px;
+}
+.user-table .user-table-row .user-table-th:nth-child(2) {
+  width: 164px;
+}
+.user-table .user-table-row .user-table-th:nth-child(3) {
+  width: 315px;
+}
+.user-table .user-table-row .user-table-th:nth-child(4) {
+  width: 85px;
+}
+.user-table .user-table-row .user-table-td {
+  border-bottom: 1px solid #f2f2f2;
+  background: #fff;
+}
+.user-table .user-table-row .user-table-th,
+.user-table .user-table-row .user-table-td {
+  display: table-cell;
+  font-size: 14px;
+  line-height: 24px;
+  padding: 10px 15px;
+}
+.user-table .user-table-row .user-table-th a.btn.btn-set-default,
+.user-table .user-table-row .user-table-td a.btn.btn-set-default {
+  display: inline-block;
+  background: #f3d0cf;
+  border: 1px solid #c41411;
+  color: #c41411;
+  padding: 2px 10px;
+  float: right;
+  margin: -3px 0;
+}
+.user-table .user-table-row .user-table-th a.btn.btn-set-default:hover,
+.user-table .user-table-row .user-table-td a.btn.btn-set-default:hover {
+  background: #c41411;
+  color: #fff;
+}

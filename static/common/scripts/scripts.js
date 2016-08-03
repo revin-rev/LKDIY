@@ -81,8 +81,8 @@
     });
 
     $('.sui-validate').submit(function(){
-        $form = $(this);
-        $($form).find('span.sui-dropdown.dropdown-bordered.select input').each(function(){
+        var _form = $(this);
+        $(_form).find('span.sui-dropdown.dropdown-bordered.select input').each(function(){
             var _this = $(this);
             setTimeout(function() {
                 if ($(_this).hasClass('input-error')) {

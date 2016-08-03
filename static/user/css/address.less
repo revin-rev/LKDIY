@@ -1,0 +1,168 @@
+@import "../../common/css/variable";
+@import "../../common/css/lesshat";
+
+.user-address-form{
+
+  &.form-horizontal{
+
+    .controls{
+      padding-left: 14px;
+    }
+    .control-label{
+      white-space: nowrap;
+      color: @tradeNavColor;
+      min-width: 98px;
+      em {
+        font-style: italic;
+        display: inline-block;
+        height: 16px;
+        font-size: 20px;
+        width: 10px;
+        text-align: left;
+        vertical-align: middle;
+        color: @loginSidebarLinkHover;
+        text-indent: -2px;
+      }
+    }
+    .double-input input[type="text"], .double-input input[type="password"]{
+      width: 180px;
+    }
+
+    .sui-dropup.dropdown-bordered, .sui-dropdown.dropdown-bordered{
+      height: 36px;
+    }
+    .sui-dropup.dropdown-bordered .dropdown-inner, .sui-dropdown.dropdown-bordered .dropdown-inner{
+      height: 36px;
+      padding: 8px;
+      width: 120px;
+      border-radius: 0;
+      a{
+        width:100%;
+        padding: 0;
+        border-bottom: 0;
+        color: #333333;
+
+      }
+    }
+    .sui-dropup .dropdown-inner > .sui-dropdown-menu, .sui-dropdown .dropdown-inner > .sui-dropdown-menu{
+      border-top: 1px solid #cccccc;
+      margin-top: 8px;
+      padding-top: 0;
+      box-shadow:none;
+      z-index: 999999;
+      border-radius: 0;
+
+      li{
+        padding: 0;
+
+        :hover {
+          background-color: @loginSidebarLinkHover;
+
+        }
+
+        a{
+          padding:6px;
+          background-color: transparent;
+
+          &.active{
+            color: @baseTextColorDark;
+          }
+        }
+      }
+    }
+    .sui-dropdown.dropdown-bordered > .dropdown-inner > .sui-dropdown-menu li:hover > a, .sui-dropdown.dropdown-bordered.dropdown-xlarge > .dropdown-inner > .sui-dropdown-menu li:hover > a, .sui-dropdown.dropdown-bordered.dropdown-large > .dropdown-inner > .sui-dropdown-menu li:hover > a, .sui-dropdown.dropdown-bordered.dropdown-small > .dropdown-inner > .sui-dropdown-menu li:hover > a, .sui-dropdown.dropdown-bordered > .dropdown-inner > .sui-dropdown-menu li.active > a, .sui-dropdown.dropdown-bordered.dropdown-xlarge > .dropdown-inner > .sui-dropdown-menu li.active > a, .sui-dropdown.dropdown-bordered.dropdown-large > .dropdown-inner > .sui-dropdown-menu li.active > a, .sui-dropdown.dropdown-bordered.dropdown-small > .dropdown-inner > .sui-dropdown-menu li.active > a
+    {
+      color: @baseTextColorDark;
+    }
+    .sui-dropdown.dropdown-bordered  .dropdown-inner .sui-dropdown-menu li:hover  a:hover
+    {
+      color: @white;
+    }
+    .multiple-select{
+      .sui-msg.msg-error{
+        & + .sui-msg.msg-error{
+          width: 0;
+          height: 0;
+          overflow: hidden;
+          .opacity(0);
+          visibility: hidden;
+        }
+      }
+      .inner-label{
+        margin-left: 10px;
+        margin-right: 10px;
+        display: inline-block;
+      }
+    }
+    .control-group{
+      &.margin-bottom-10{
+        margin-bottom: 10px;
+      }
+    }
+    .btn-primary{
+      margin-top: 0;
+    }
+  }
+}
+.user-notification{
+  font-size: @baseFontLarge;
+  display: inline-block;
+  margin-top: 32px;
+  margin-bottom: 30px;
+  span{
+      color: @baseColor;
+  }
+}
+.user-table{
+  display: table;
+  width: 100%;
+  border: 1px solid @CartBtnBorder;
+
+  .user-table-row{
+    display: table-row;
+
+    .user-table-th{
+      background: @primaryColor;
+      border-bottom: 1px solid @CartBtnBorder;
+
+      &:first-child{
+        width: 93px;
+      }
+      &:nth-child(2) {
+        width: 164px;
+      }
+      &:nth-child(3) {
+        width: 315px;
+      }
+      &:nth-child(4) {
+        width: 85px;
+      }
+    }
+    .user-table-td{
+      border-bottom: 1px solid @primaryColor;
+      background: @white;
+    }
+    .user-table-th,.user-table-td{
+      display: table-cell;
+      font-size: @baseFontLarge;
+      line-height: 24px;
+      padding: 10px 15px;
+
+      a.btn.btn-set-default {
+        display: inline-block;
+        background: #f3d0cf;
+        border: 1px solid @baseColor;
+        color: @baseColor;
+        padding: 2px 10px;
+        float: right;
+        margin: -3px 0;
+
+        &:hover{
+          background: @baseColor;
+          color: @white;
+        }
+      }
+    }
+  }
+}
+

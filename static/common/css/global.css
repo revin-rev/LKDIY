@@ -41,6 +41,9 @@ p {
 /******************************************************
    *Helper Classes CSS START
 ******************************************************/
+.base-color-medium {
+  color: #d01716;
+}
 span.dropdown-inner.input-error {
   border-color: #ea4a36 !important;
 }
@@ -185,6 +188,12 @@ span.dropdown-inner.input-error {
 .margin-left-20 {
   margin-left: 20px;
 }
+.margin-left-25 {
+  margin-left: 25px;
+}
+.margin-left-15 {
+  margin-left: 15px;
+}
 .margin-top-20 {
   margin-top: 20px;
 }
@@ -208,6 +217,9 @@ span.dropdown-inner.input-error {
 }
 .min-height-571 {
   min-height: 571px;
+}
+.tip {
+  color: #999999;
 }
 /******************************************************
    *Helper Classes CSS End
