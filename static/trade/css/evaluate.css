@@ -1,0 +1,28 @@
+/******************************************************
+   *Variables START
+******************************************************/
+.trade-evaluate-form {
+  background: #fff;
+}
+.br-widget a {
+  font-family: 'icon-tb';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin-left: 5px;
+}
+.br-widget a:after {
+  content: "\e64c";
+}
+.br-widget a.br-selected:after,
+.br-widget a.br-active:after {
+  content: "\e64b";
+}
+.br-widget .br-current-rating {
+  display: none;
+}
