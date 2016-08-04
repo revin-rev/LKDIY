@@ -757,6 +757,9 @@
 .after-login-right-content-section .heading.margin-bottom-30 {
   margin-bottom: 30px;
 }
+.after-login-right-content-section .heading.margin-bottom-20 {
+  margin-bottom: 20px;
+}
 .after-login-right-content-section form {
   margin-bottom: 0;
 }
@@ -1228,4 +1231,13 @@
 .sui-form input[type="color"]:focus,
 .sui-form .uneditable-input:focus {
   outline: none;
+}
+/*Styling for Fixed Error*/
+.fixed-error {
+  position: relative;
+}
+.fixed-error .sui-msg {
+  position: absolute;
+  left: 100%;
+  top: 1px;
 }

@@ -79,14 +79,12 @@
       color: @white;
     }
     .multiple-select{
+      white-space: nowrap;
+      position: relative;
       .sui-msg.msg-error{
-        & + .sui-msg.msg-error{
-          width: 0;
-          height: 0;
-          overflow: hidden;
-          .opacity(0);
-          visibility: hidden;
-        }
+          position: absolute;
+          left: 100%;
+          top: 2px;
       }
       .inner-label{
         margin-left: 10px;
@@ -101,6 +99,12 @@
     }
     .btn-primary{
       margin-top: 0;
+    }
+    .control-group{
+      margin-bottom: 12px;
+    }
+    .btn-primary {
+      padding: 8px 25px;
     }
   }
   label.checkbox-pretty.inline-block + label.checkbox-pretty.inline-block {
@@ -147,6 +151,10 @@
     .user-table-td{
       border-bottom: 1px solid @primaryColor;
       background: @white;
+
+      a > span{
+        color: @baseTextColor;
+      }
     }
     .user-table-th,.user-table-td{
       display: table-cell;
@@ -159,9 +167,9 @@
         background: #f3d0cf;
         border: 1px solid @baseColor;
         color: @baseColor;
-        padding: 2px 10px;
+        padding: 0 7px;
         float: right;
-        margin: -3px 0;
+        margin: -1px 0;
 
         &:hover{
           background: @baseColor;

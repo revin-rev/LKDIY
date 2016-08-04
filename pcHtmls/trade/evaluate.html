@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="../../static/common/plugins/sui/.package/css/sui-all.css">
     <link rel="stylesheet" href="../../static/common/css/global.css">
     <link rel="stylesheet" href="../../static/common/css/common.css">
-    <link rel="stylesheet" href="../../static/user/css/address.css">
+    <link rel="stylesheet" href="../../static/trade/css/refund.css">
+    <link rel="stylesheet" href="../../static/trade/css/single-order-detail.css">
 </head>
 <body>
 <!-- Top Navbar START -->
@@ -106,7 +107,7 @@
                     <div class="input-group">
                         <input type="text" placeholder="手机壳" class="form-control">
                             <span class="input-group-btn">
-                                <input type="submit" value="搜索" class="btn"/>
+                                <input type="submit" value="搜索" class="btn">
                             </span>
                     </div>
                 </form>
@@ -119,7 +120,6 @@
 <!-- Mid Section Start -->
 <div class="container">
     <div class="row">
-
         <!-- Login Sidebar Start -->
         <div class="column login-sidebar">
             <div class="login-sidebar-block">
@@ -134,11 +134,11 @@
                 <h5>账户中心</h5>
                 <ul>
                     <li><a href="#">个人信息</a> </li>
-                    <li><a href="#" class="active">收货地址</a> </li>
+                    <li><a href="#">收货地址</a> </li>
                     <li><a href="#">我的收藏</a> </li>
-                    <li><a href="#" >我的优惠券</a> </li>
+                    <li><a href="#">我的优惠券</a> </li>
                     <li><a href="#">我的积分</a> </li>
-                    <li><a href="#">退换货</a> </li>
+                    <li><a href="#" class="active">退换货</a> </li>
                     <li><a href="#">修改头像</a> </li>
                 </ul>
             </div>
@@ -152,183 +152,218 @@
             </div>
         </div>
         <!-- Login Sidebar End -->
-
-        <!-- Integral Section Start-->
+        <!-- Return Section Start-->
         <div class="column after-login-right-content-section">
-            <div class="grey-bg after-login-sections-padding width-100 user-my-collection-section">
-                <h5 class="heading">收货地址 <a href="#" class="margin-left-25 inline-block base-color-medium">新增收货地址</a></h5>
+            <div class="grey-bg after-login-sections-padding width-100 trade-refund-listing-block clear-fix">
+                <h5 class="heading margin-bottom-30">退换货</h5>
+                <!-- Order Listing Start-->
+                    <!-- Orders heading bar start-->
+                        <div class="trade-order-headings-outr">
+                            <h2 class="trade-product-order-detail-heading">订单详情</h2>
+                            <h2 class="trade-product-reciver-heading">收货人</h2>
+                            <h2 class="trade-product-price-heading">价格</h2>
+                            <h2 class="trade-product-all-states-heading">
+                                <span class="sui-dropdown dropdown-bordered select">
+                                    <span class="dropdown-inner">
+                                        <a id="drop5" role="button" data-toggle="dropdown" href="#" class="dropdown-toggle">
+                                            <input name="zt" type="hidden" value="1"><i class="caret"></i><span>全部状态</span></a>
+                                                        <ul id="menu5" role="menu" aria-labelledby="drop4" class="sui-dropdown-menu">
+                                                            <li role="presentation" class="active"><a role="menuitem" tabindex="-1" href="javascript:void(0);" value="1">全部状态</a></li>
+                                                            <li role="presentation"><a role="menuitem" tabindex="-1" href="javascript:void(0);" value="1">北京</a></li>
+                                                            <li role="presentation"><a role="menuitem" tabindex="-1" href="javascript:void(0);" value="1">北京</a></li>
+                                                            <li role="presentation"><a role="menuitem" tabindex="-1" href="javascript:void(0);" value="1">北京</a></li>
+                                                            <li role="presentation"><a role="menuitem" tabindex="-1" href="javascript:void(0);" value="1">北京</a></li>
 
-                <form class="sui-form form-horizontal user-address-form sui-validate" novalidate="novalidate">
-
-                    <div class="control-group">
-                        <label class="control-label"><em>*</em> 收件人姓名：</label>
-                        <div class="controls double-input fixed-error">
-                            <input type="text" class="grey-bg" name="demo1" data-rules="required"/>
-                        </div>
-                        <span class="tip margin-left-15 inline-block">请填写收货人姓名</span>
-                    </div>
-                    <div class="control-group">
-                        <label class="control-label"><em>*</em> 所在地区：</label>
-                        <div class="controls double-input multiple-select">
-                            <span class="sui-dropdown dropdown-bordered select">
-                                <span class="dropdown-inner">
-                                    <a id="drop5" role="button" data-toggle="dropdown" href="#" class="dropdown-toggle">
-                                        <input name="demo2[3]" type="hidden" data-rules="required"  class=""><i class="caret"></i><span>请选择</span>
-                                    </a>
-                                    <ul id="menu5" role="menu" aria-labelledby="drop4" class="sui-dropdown-menu">
-                                        <li role="presentation" class=""><a role="menuitem" tabindex="-1" href="javascript:void(0);">请选择</a></li>
-                                        <li role="presentation" class="active"><a role="menuitem" tabindex="-1" href="javascript:void(0);" value="1">退运费</a></li>
-                                        <li role="presentation" class=""><a role="menuitem" tabindex="-1" href="javascript:void(0);" value="1">收到商品破损</a></li>
-                                        <li role="presentation" class=""><a role="menuitem" tabindex="-1" href="javascript:void(0);" value="1">商品发错</a></li>
-                                        <li role="presentation" class=""><a role="menuitem" tabindex="-1" href="javascript:void(0);" value="1">商品需要维修</a></li>
-                                    </ul>
+                                                        </ul>
+                                    </span>
                                 </span>
-                            </span>
-                            <span class="inner-label">省</span>
-                            <span class="sui-dropdown dropdown-bordered select">
-                                <span class="dropdown-inner">
-                                    <a id="drop6" role="button" data-toggle="dropdown" href="#" class="dropdown-toggle">
-                                        <input name="demo2[2]" type="hidden" data-rules="required"  class=""><i class="caret"></i><span>请选择</span>
-                                    </a>
-                                    <ul id="menu6" role="menu" aria-labelledby="drop4" class="sui-dropdown-menu">
-                                        <li role="presentation" class=""><a role="menuitem" tabindex="-1" href="javascript:void(0);">请选择</a></li>
-                                        <li role="presentation" class="active"><a role="menuitem" tabindex="-1" href="javascript:void(0);" value="1">退运费</a></li>
-                                        <li role="presentation" class=""><a role="menuitem" tabindex="-1" href="javascript:void(0);" value="1">收到商品破损</a></li>
-                                        <li role="presentation" class=""><a role="menuitem" tabindex="-1" href="javascript:void(0);" value="1">商品发错</a></li>
-                                        <li role="presentation" class=""><a role="menuitem" tabindex="-1" href="javascript:void(0);" value="1">商品需要维修</a></li>
-                                    </ul>
-                                </span>
-                            </span>
-                            <span class="inner-label">市</span>
-                            <span class="sui-dropdown dropdown-bordered select">
-                                 <span class="dropdown-inner">
-                                    <a id="drop7" role="button" data-toggle="dropdown" href="#" class="dropdown-toggle">
-                                        <input name="demo2[1]" type="hidden" data-rules="required"  class=""><i class="caret"></i><span>请选择</span>
-                                    </a>
-                                    <ul id="menu7" role="menu" aria-labelledby="drop4" class="sui-dropdown-menu">
-                                        <li role="presentation" class=""><a role="menuitem" tabindex="-1" href="javascript:void(0);">请选择</a></li>
-                                        <li role="presentation" class="active"><a role="menuitem" tabindex="-1" href="javascript:void(0);" value="1">退运费</a></li>
-                                        <li role="presentation" class=""><a role="menuitem" tabindex="-1" href="javascript:void(0);" value="1">收到商品破损</a></li>
-                                        <li role="presentation" class=""><a role="menuitem" tabindex="-1" href="javascript:void(0);" value="1">商品发错</a></li>
-                                        <li role="presentation" class=""><a role="menuitem" tabindex="-1" href="javascript:void(0);" value="1">商品需要维修</a></li>
-                                    </ul>
-                                </span>
-                            </span>
-                            <span class="inner-label">区</span>
+                            </h2>
+                            <h2 class="trade-product-operations-heading">交易操作</h2>
                         </div>
-                    </div>
-                    <div class="control-group">
-                        <label class="control-label"><em>*</em> 详细地址：</label>
-                        <div class="controls double-input">
-                            <input type="text" class="grey-bg" name="demo3" data-rules="required"/>
-                        </div>
-                    </div>
-                    <div class="control-group">
-                        <label class="control-label"><em>*</em> 手机号：</label>
-                        <div class="controls double-input">
-                            <input type="text" class="grey-bg" name="demo4" data-rules="required"/>
-                        </div>
-                    </div>
-                    <div class="control-group">
-                        <label class="control-label">邮编：</label>
-                        <div class="controls double-input">
-                            <input type="text" class="grey-bg" name="demo5"/>
-                        </div>
-                    </div>
-                    <div class="control-group margin-bottom-10">
-                        <label class="control-label">固定电话：</label>
-                        <div class="controls double-input">
-                            <input type="text" class="grey-bg" name="demo6" />
-                        </div>
-                    </div>
-                    <div class="control-group margin-bottom-10">
-                        <label class="control-label"></label>
-                        <div class="controls double-input">
-                            <label data-toggle="checkbox" class="checkbox-pretty">
-                                <input type="checkbox" ><span> 设置为默认收货地址</span>
-                            </label>
-                        </div>
-                    </div>
-                    <div class="control-group margin-bottom-0">
-                        <label class="control-label"></label>
-                        <div class="controls">
-                            <button class="sui-btn btn-primary" type="submit">提交</button>
-                        </div>
-                    </div>
-                </form>
+                    <!-- Orders heading bar end-->
 
-                <span class="user-notification"> 您已创建 <span>4</span> 个收货地址，最多可创建 <span>20</span> 个</span>
+                    <!-- products listing start-->
+                        <!-- single order detail row start-->
+                            <div class="trade-single-order-detail-row">
+                                    <div class="trade-single-order-baisc-detail">
+                                            <p>2016-03-16 18:12:26</p>
+                                            <p>订单号：<span>1258654566</span></p>
+                                    </div>
+                                    <div class="trade-product-data">
+                                        <div class="trade-name">
+                                            <a href="#"><img src="../../static/trade/images/product-thumb.jpg"/></a>
+                                            <p><a href="#" class="trade-normal-a">iPhone 6s plus 近代 软壳 纯定制 （经典款）</a></p>
+                                            <span>X1</span>
+                                        </div>
+                                        <div class="trade-receiver-value">宗晓雅</div>
+                                        <div class="trade-price-value">90积分+￥68</div>
+                                        <div class="trade-status-value">待审核</div>
+                                        <div class="trade-operation-value">
+                                            <a href="#">取消申请</a>
+                                            <a href="#" class="margin-bottom-0">查看详情</a>
+                                        </div>
+                                    </div>
+                            </div>
+                        <!-- single order detail row end-->
 
-                <div class="user-table">
-                    <div class="user-table-row">
-                        <div class="user-table-th">收货人</div>
-                        <div class="user-table-th">所在地区</div>
-                        <div class="user-table-th">详细地址</div>
-                        <div class="user-table-th">邮编</div>
-                        <div class="user-table-th">手机</div>
-                        <div class="user-table-th">操作</div>
-                    </div>
-                    <div class="user-table-row">
-                        <div class="user-table-td">刘智伟</div>
-                        <div class="user-table-td">江苏省 南京市 秦淮区</div>
-                        <div class="user-table-td">中华路363号中华园商务楼2楼</div>
-                        <div class="user-table-td">210000</div>
-                        <div class="user-table-td">15195918065</div>
-                        <div class="user-table-td"><a href="#">修改 <span>|</span></a> <a href="#">删除</a></div>
-                    </div>
-                    <div class="user-table-row">
-                        <div class="user-table-td">刘智伟</div>
-                        <div class="user-table-td">江苏省 南京市 秦淮区</div>
-                        <div class="user-table-td">中华路363号中华园商务楼2楼</div>
-                        <div class="user-table-td">210000</div>
-                        <div class="user-table-td">15195918065</div>
-                        <div class="user-table-td"><a href="#">修改 <span>|</span></a> <a href="#">删除</a></div>
-                    </div>
-                    <div class="user-table-row">
-                        <div class="user-table-td">刘智伟</div>
-                        <div class="user-table-td">江苏省 南京市 秦淮区</div>
-                        <div class="user-table-td">中华路363号中华园商务楼2楼</div>
-                        <div class="user-table-td">210000</div>
-                        <div class="user-table-td">15195918065</div>
-                        <div class="user-table-td"><a href="#">修改 <span>|</span></a> <a href="#">删除</a> <a href="#" class="btn btn-set-default">默认地址</a></div>
-                    </div>
-                    <div class="user-table-row">
-                        <div class="user-table-td">刘智伟</div>
-                        <div class="user-table-td">江苏省 南京市 秦淮区</div>
-                        <div class="user-table-td">中华路363号中华园商务楼2楼</div>
-                        <div class="user-table-td">210000</div>
-                        <div class="user-table-td">15195918065</div>
-                        <div class="user-table-td"><a href="#">修改 <span>|</span></a> <a href="#">删除</a> <a href="#" class="btn btn-set-default">设为默认</a></div>
-                    </div>
-                    <div class="user-table-row">
-                        <div class="user-table-td">刘智伟</div>
-                        <div class="user-table-td">江苏省 南京市 秦淮区</div>
-                        <div class="user-table-td">中华路363号中华园商务楼2楼</div>
-                        <div class="user-table-td">210000</div>
-                        <div class="user-table-td">15195918065</div>
-                        <div class="user-table-td"><a href="#">修改 <span>|</span></a> <a href="#">删除</a></div>
-                    </div>
-                    <div class="user-table-row">
-                        <div class="user-table-td">刘智伟</div>
-                        <div class="user-table-td">江苏省 南京市 秦淮区</div>
-                        <div class="user-table-td">中华路363号中华园商务楼2楼</div>
-                        <div class="user-table-td">210000</div>
-                        <div class="user-table-td">15195918065</div>
-                        <div class="user-table-td"><a href="#">修改 <span>|</span></a> <a href="#">删除</a></div>
-                    </div>
-                    <div class="user-table-row">
-                        <div class="user-table-td">刘智伟</div>
-                        <div class="user-table-td">江苏省 南京市 秦淮区</div>
-                        <div class="user-table-td">中华路363号中华园商务楼2楼</div>
-                        <div class="user-table-td">210000</div>
-                        <div class="user-table-td">15195918065</div>
-                        <div class="user-table-td"><a href="#">修改 <span>|</span></a> <a href="#">删除</a></div>
-                    </div>
+                        <!-- single order detail row start-->
+                        <div class="trade-single-order-detail-row">
+                            <div class="trade-single-order-baisc-detail">
+                                <p>2016-03-16 18:12:26</p>
+                                <p>订单号：<span>1258654566</span></p>
+                            </div>
+                            <div class="trade-product-data">
+                                <div class="trade-name">
+                                    <a href="#"><img src="../../static/trade/images/product-thumb.jpg"/></a>
+                                    <p><a href="#" class="trade-normal-a">iPhone 6s plus 近代 软壳 纯定制 （经典款）</a></p>
+                                    <span>X1</span>
+                                </div>
+                                <div class="trade-receiver-value">宗晓雅</div>
+                                <div class="trade-price-value">300积分</div>
+                                <div class="trade-status-value">审核通过</div>
+                                <div class="trade-operation-value">
+                                    <a href="#">取消申请</a>
+                                    <a href="#" class="margin-bottom-0">查看详情</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- single order detail row end-->
+
+                        <!-- single order detail row start-->
+                        <div class="trade-single-order-detail-row">
+                            <div class="trade-single-order-baisc-detail">
+                                <p>2016-03-16 18:12:26</p>
+                                <p>订单号：<span>1258654566</span></p>
+                            </div>
+                            <div class="trade-product-data">
+                                <div class="trade-name">
+                                    <a href="#"><img src="../../static/trade/images/product-thumb.jpg"/></a>
+                                    <p><a href="#" class="trade-normal-a">iPhone 6s plus 近代 软壳 纯定制 （经典款）</a></p>
+                                    <span>X1</span>
+                                </div>
+                                <div class="trade-receiver-value">宗晓雅</div>
+                                <div class="trade-price-value">300积分</div>
+                                <div class="trade-status-value">审核未通过</div>
+                                <div class="trade-operation-value">
+                                    <!--<a href="#">取消申请</a>-->
+                                    <!--<a href="#" class="margin-bottom-0">查看详情</a>-->
+                                </div>
+                            </div>
+                        </div>
+                        <!-- single order detail row end-->
+
+                        <!-- single order detail row start-->
+                        <div class="trade-single-order-detail-row">
+                            <div class="trade-single-order-baisc-detail">
+                                <p>2016-03-16 18:12:26</p>
+                                <p>订单号：<span>1258654566</span></p>
+                            </div>
+                            <div class="trade-product-data">
+                                <div class="trade-name">
+                                    <a href="#"><img src="../../static/trade/images/product-thumb.jpg"/></a>
+                                    <p><a href="#" class="trade-normal-a">iPhone 6s plus 近代 软壳 纯定制 （经典款）</a></p>
+                                    <span>X1</span>
+                                </div>
+                                <div class="trade-receiver-value">宗晓雅</div>
+                                <div class="trade-price-value">300积分</div>
+                                <div class="trade-status-value">待确认</div>
+                                <div class="trade-operation-value">
+                                    <!--<a href="#">取消申请</a>-->
+                                    <a href="#" class="margin-bottom-0">查看详情</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- single order detail row end-->
+
+                        <!-- single order detail row start-->
+                        <div class="trade-single-order-detail-row">
+                            <div class="trade-single-order-baisc-detail">
+                                <p>2016-03-16 18:12:26</p>
+                                <p>订单号：<span>1258654566</span></p>
+                            </div>
+                            <div class="trade-product-data">
+                                <div class="trade-name">
+                                    <a href="#"><img src="../../static/trade/images/product-thumb.jpg"/></a>
+                                    <p><a href="#" class="trade-normal-a">iPhone 6s plus 近代 软壳 纯定制 （经典款）</a></p>
+                                    <span>X1</span>
+                                </div>
+                                <div class="trade-receiver-value">宗晓雅</div>
+                                <div class="trade-price-value">300积分</div>
+                                <div class="trade-status-value">已确认</div>
+                                <div class="trade-operation-value">
+                                    <!--<a href="#">取消申请</a>-->
+                                    <a href="#" class="margin-bottom-0">查看详情</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- single order detail row end-->
+
+                        <!-- pagination start-->
+                        <div class="common-pagination ">
+                            <div class="sui-pagination pagination-large margin-bottom-0 margin-top-0">
+                                <ul>
+                                    <li class="prev disabled"><a href="javascript:void(0);">«上一页</a></li>
+                                    <li class="active"><a href="#">1</a></li>
+                                    <li>  <a href=""> 2 </a> </li>
+                                    <li>  <a href=""> 3 </a> </li>
+                                    <li class="dotted"><span>...</span></li>
+                                    <li>  <a href=""> 10 </a> </li>
+                                    <li class="next"><a href="#">下一页»</a></li>
+                                </ul>
+                                <div>
+                                    <span class="item-total-no-of-pages">共 10 页</span>
+                                    <span>
+                                      到第
+                                      <input type="text" placeholder="1" class="page-num item-simple-input-text-field" value="1">页
+                                      <button onclick="alert(1)" class="page-confirm">确定</button>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- pagination end-->
+
+                    <!-- products listing end-->
+
+                <!-- Order Listing End-->
+            </div>
+            <div class="grey-bg after-login-sections-padding width-100 related-products">
+                <div class="row">
+                    <h5 class="heading">猜你喜欢</h5>
+                    <a href="#">查看更多 ></a>
+                </div>
+
+                <div class="product">
+                    <a href="#">
+                        <span><img src="../../static/common/images/relate-product-image.png"/></span>
+                        <p>得力3193伊芙系列芙系列</p>
+                        <span class="price">￥38</span>
+                    </a>
+                </div>
+                <div class="product">
+                    <a href="#">
+                        <span><img src="../../static/common/images/relate-product-image.png"/></span>
+                        <p>得力3193伊芙系列芙系列</p>
+                        <span class="price">￥38</span>
+                    </a>
+                </div>
+                <div class="product">
+                    <a href="#">
+                        <span><img src="../../static/common/images/relate-product-image.png"/></span>
+                        <p>得力3193伊芙系列芙系列</p>
+                        <span class="price">￥38</span>
+                    </a>
+                </div>
+                <div class="product margin-zero">
+                    <a href="#">
+                        <span><img src="../../static/common/images/relate-product-image.png"/></span>
+                        <p>得力3193伊芙系列芙系列</p>
+                        <span class="price">￥38</span>
+                    </a>
                 </div>
             </div>
         </div>
         </div>
-        <!-- Integral Section End-->
+        <!-- Return Section End-->
 
     </div>
 </div>

@@ -81,16 +81,14 @@
 .user-address-form.form-horizontal .sui-dropdown.dropdown-bordered .dropdown-inner .sui-dropdown-menu li:hover a:hover {
   color: #fff;
 }
-.user-address-form.form-horizontal .multiple-select .sui-msg.msg-error + .sui-msg.msg-error {
-  width: 0;
-  height: 0;
-  overflow: hidden;
-  zoom: 1;
-  filter: alpha(opacity=0);
-  -webkit-opacity: 0;
-  -moz-opacity: 0;
-  opacity: 0;
-  visibility: hidden;
+.user-address-form.form-horizontal .multiple-select {
+  white-space: nowrap;
+  position: relative;
+}
+.user-address-form.form-horizontal .multiple-select .sui-msg.msg-error {
+  position: absolute;
+  left: 100%;
+  top: 2px;
 }
 .user-address-form.form-horizontal .multiple-select .inner-label {
   margin-left: 10px;
@@ -102,6 +100,12 @@
 }
 .user-address-form.form-horizontal .btn-primary {
   margin-top: 0;
+}
+.user-address-form.form-horizontal .control-group {
+  margin-bottom: 12px;
+}
+.user-address-form.form-horizontal .btn-primary {
+  padding: 8px 25px;
 }
 .user-address-form label.checkbox-pretty.inline-block + label.checkbox-pretty.inline-block {
   margin-left: 27px;
@@ -146,6 +150,9 @@
   border-bottom: 1px solid #f2f2f2;
   background: #fff;
 }
+.user-table .user-table-row .user-table-td a > span {
+  color: #666666;
+}
 .user-table .user-table-row .user-table-th,
 .user-table .user-table-row .user-table-td {
   display: table-cell;
@@ -159,9 +166,9 @@
   background: #f3d0cf;
   border: 1px solid #c41411;
   color: #c41411;
-  padding: 2px 10px;
+  padding: 0 7px;
   float: right;
-  margin: -3px 0;
+  margin: -1px 0;
 }
 .user-table .user-table-row .user-table-th a.btn.btn-set-default:hover,
 .user-table .user-table-row .user-table-td a.btn.btn-set-default:hover {
