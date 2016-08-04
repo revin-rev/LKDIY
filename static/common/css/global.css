@@ -44,6 +44,15 @@ p {
 .base-color-medium {
   color: #d01716;
 }
+.base-medium-font {
+  font-size: 14px;
+}
+.vertical-align-middle {
+  vertical-align: middle;
+}
+.line-height-23 {
+  line-height: 23px;
+}
 span.dropdown-inner.input-error {
   border-color: #ea4a36 !important;
 }

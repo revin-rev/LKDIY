@@ -103,6 +103,12 @@
 .user-address-form.form-horizontal .btn-primary {
   margin-top: 0;
 }
+.user-address-form label.checkbox-pretty.inline-block + label.checkbox-pretty.inline-block {
+  margin-left: 27px;
+}
+.user-address-form .input-date {
+  background-position: 98% center;
+}
 .user-notification {
   font-size: 14px;
   display: inline-block;
