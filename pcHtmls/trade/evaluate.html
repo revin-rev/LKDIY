@@ -189,33 +189,250 @@
                                     </div>
                                 <form class="trade-evaluate-form sui-form form-horizontal  sui-validate">
                                         <div class="control-group">
-                                            <label class="control-label"><em>*</em> 评分：</label>
-                                            <div class="controls double-input ">
-                                                <select id="example">
-                                                    <option value="1">1</option>
-                                                    <option value="2">2</option>
-                                                    <option value="3">3</option>
-                                                    <option value="4">4</option>
-                                                    <option value="5">5</option>
-                                                </select>
+                                            <label class="control-label vertical-align-top"><em>*</em> 评分：</label>
+                                            <div class="controls double-input vertical-align-top fixed-error" >
+                                                <div class="margin-bottom-10">
+                                                    <select class="trade-stars" name="demo" >
+                                                        <option value=""></option>
+                                                        <option value="1">1</option>
+                                                        <option value="2">2</option>
+                                                        <option value="3">3</option>
+                                                        <option value="4">4</option>
+                                                        <option value="5">5</option>
+                                                    </select>
+                                                    <span class="margin-left-15 inline-block base-medium-font vertical-align-middle">请填写收货人姓名</span>
+                                                </div>
+                                                <div class="margin-bottom-10">
+                                                    <select class="trade-stars" name="demo2" >
+                                                        <option value=""></option>
+                                                        <option value="1">1</option>
+                                                        <option value="2">2</option>
+                                                        <option value="3">3</option>
+                                                        <option value="4">4</option>
+                                                        <option value="5">5</option>
+                                                    </select>
+                                                    <span class="margin-left-15 inline-block base-medium-font vertical-align-middle">商家服务态度</span>
+                                                </div>
+                                                <div >
+                                                    <select class="trade-stars" name="demo3" >
+                                                        <option value=""></option>
+                                                        <option value="1">1</option>
+                                                        <option value="2">2</option>
+                                                        <option value="3">3</option>
+                                                        <option value="4">4</option>
+                                                        <option value="5">5</option>
+                                                    </select>
+                                                    <span class="margin-left-15 inline-block base-medium-font vertical-align-middle">物流服务态度</span>
+                                                </div>
                                             </div>
-                                            <span class="tip margin-left-15 inline-block">请填写收货人姓名</span>
                                         </div>
                                         <div class="control-group margin-bottom-10">
-                                            <label class="control-label">固定电话：</label>
-                                            <div class="controls double-input">
-                                                <input type="text" class="grey-bg" name="demo6">
+                                            <label class="control-label padding-top-10">心得：</label>
+                                            <div class="controls double-input trade-absolute-tip">
+                                                <textarea name="test" data-rules="required"  data-error-msg="请输入10字以上" data-empty-msg="请输入10字以上"  placeholder="商品是否给力，快分享你的购物心得吧~" ></textarea>
+                                                <span class="tip inline-block trade-absolute-tip">10-500字</span>
+                                            </div>
+                                        </div>
+                                        <div class="control-group margin-bottom-10">
+                                            <label class="control-label padding-top-10">晒单：</label>
+                                            <div class="controls double-input trade-placeholder-column">
+                                                <span class="trade-file-placeholder">
+                                                    <input type="file" data-rules="required" data-empty-msg="请不要上传大于2M的图片" data-error-msg="请不要上传大于2M的图片"/>
+                                                    <span class="trade-file-label">上传照片</span>
+                                                </span>
+                                                <div><span class="tip base-medium-font">每张图片大小不超过2M，最多5张。</span></div>
                                             </div>
                                         </div>
                                         <div class="control-group margin-bottom-0">
                                             <label class="control-label"></label>
                                             <div class="controls">
-                                                <button class="sui-btn btn-primary" type="submit">提交</button>
+                                                <button class="sui-btn btn-primary" type="submit">提交评论</button>
+                                                <label data-toggle="checkbox" class="checkbox-pretty inline-block margin-left-15">
+                                                    <input type="checkbox"><span> 匿名评价</span>
+                                                </label>
                                             </div>
                                         </div>
                                 </form>
                             </div>
                         <!-- single order detail row end-->
+
+                        <!-- single order detail row start-->
+                        <div class="trade-single-order-detail-row">
+                            <div class="trade-single-order-baisc-detail">
+                                <p>2016-03-16 18:12:26</p>
+                                <p>订单号：<span>1258654566</span></p>
+                            </div>
+                            <div class="trade-product-data">
+                                <div class="trade-name">
+                                    <a href="#"><img src="../../static/trade/images/product-thumb.jpg"/></a>
+                                    <p><a href="#" class="trade-normal-a">iPhone 6s plus 近代 软壳 纯定制 （经典款）</a></p>
+                                    <span>X1</span>
+                                </div>
+                                <div class="trade-receiver-value">宗晓雅</div>
+                                <div class="trade-price-value">300积分</div>
+                                <div class="trade-status-value">待评价</div>
+                                <div class="trade-operation-value">
+                                    <a href="#" class="btn btn-primary trade-btn-evaluate">评论晒单</a>
+                                </div>
+                            </div>
+                            <form class="trade-evaluate-form sui-form form-horizontal  sui-validate">
+                                <div class="control-group">
+                                    <label class="control-label vertical-align-top"><em>*</em> 评分：</label>
+                                    <div class="controls double-input vertical-align-top fixed-error" >
+                                        <div class="margin-bottom-10">
+                                            <select class="trade-stars" name="demo" >
+                                                <option value=""></option>
+                                                <option value="1">1</option>
+                                                <option value="2">2</option>
+                                                <option value="3">3</option>
+                                                <option value="4">4</option>
+                                                <option value="5">5</option>
+                                            </select>
+                                            <span class="margin-left-15 inline-block base-medium-font vertical-align-middle">请填写收货人姓名</span>
+                                        </div>
+                                        <div class="margin-bottom-10">
+                                            <select class="trade-stars" name="demo2" >
+                                                <option value=""></option>
+                                                <option value="1">1</option>
+                                                <option value="2">2</option>
+                                                <option value="3">3</option>
+                                                <option value="4">4</option>
+                                                <option value="5">5</option>
+                                            </select>
+                                            <span class="margin-left-15 inline-block base-medium-font vertical-align-middle">商家服务态度</span>
+                                        </div>
+                                        <div >
+                                            <select class="trade-stars" name="demo3" >
+                                                <option value=""></option>
+                                                <option value="1">1</option>
+                                                <option value="2">2</option>
+                                                <option value="3">3</option>
+                                                <option value="4">4</option>
+                                                <option value="5">5</option>
+                                            </select>
+                                            <span class="margin-left-15 inline-block base-medium-font vertical-align-middle">物流服务态度</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="control-group margin-bottom-10">
+                                    <label class="control-label padding-top-10">心得：</label>
+                                    <div class="controls double-input trade-absolute-tip">
+                                        <textarea name="test" data-rules="required"  data-error-msg="请输入10字以上" data-empty-msg="请输入10字以上"  placeholder="商品是否给力，快分享你的购物心得吧~" ></textarea>
+                                        <span class="tip inline-block trade-absolute-tip">10-500字</span>
+                                    </div>
+                                </div>
+                                <div class="control-group margin-bottom-10">
+                                    <label class="control-label padding-top-10">晒单：</label>
+                                    <div class="controls double-input trade-placeholder-column">
+                                                        <span class="trade-file-placeholder">
+                                                            <input type="file" data-rules="required" data-empty-msg="请不要上传大于2M的图片" data-error-msg="请不要上传大于2M的图片"/>
+                                                            <span class="trade-file-label">上传照片</span>
+                                                        </span>
+                                        <div><span class="tip base-medium-font">每张图片大小不超过2M，最多5张。</span></div>
+                                    </div>
+                                </div>
+                                <div class="control-group margin-bottom-0">
+                                    <label class="control-label"></label>
+                                    <div class="controls">
+                                        <button class="sui-btn btn-primary" type="submit">提交评论</button>
+                                        <label data-toggle="checkbox" class="checkbox-pretty inline-block margin-left-15">
+                                            <input type="checkbox"><span> 匿名评价</span>
+                                        </label>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <!-- single order detail row end-->
+
+                <!-- single order detail row start-->
+                <div class="trade-single-order-detail-row">
+                    <div class="trade-single-order-baisc-detail">
+                        <p>2016-03-16 18:12:26</p>
+                        <p>订单号：<span>1258654566</span></p>
+                    </div>
+                    <div class="trade-product-data">
+                        <div class="trade-name">
+                            <a href="#"><img src="../../static/trade/images/product-thumb.jpg"/></a>
+                            <p><a href="#" class="trade-normal-a">iPhone 6s plus 近代 软壳 纯定制 （经典款）</a></p>
+                            <span>X1</span>
+                        </div>
+                        <div class="trade-receiver-value">宗晓雅</div>
+                        <div class="trade-price-value">300积分</div>
+                        <div class="trade-status-value">待评价</div>
+                        <div class="trade-operation-value">
+                            <a href="#" class="btn btn-primary trade-btn-evaluate">评论晒单</a>
+                        </div>
+                    </div>
+                    <form class="trade-evaluate-form sui-form form-horizontal  sui-validate">
+                        <div class="control-group">
+                            <label class="control-label vertical-align-top"><em>*</em> 评分：</label>
+                            <div class="controls double-input vertical-align-top fixed-error" >
+                                <div class="margin-bottom-10">
+                                    <select class="trade-stars" name="demo" >
+                                        <option value=""></option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                    </select>
+                                    <span class="margin-left-15 inline-block base-medium-font vertical-align-middle">请填写收货人姓名</span>
+                                </div>
+                                <div class="margin-bottom-10">
+                                    <select class="trade-stars" name="demo2" >
+                                        <option value=""></option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                    </select>
+                                    <span class="margin-left-15 inline-block base-medium-font vertical-align-middle">商家服务态度</span>
+                                </div>
+                                <div >
+                                    <select class="trade-stars" name="demo3" >
+                                        <option value=""></option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                    </select>
+                                    <span class="margin-left-15 inline-block base-medium-font vertical-align-middle">物流服务态度</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="control-group margin-bottom-10">
+                            <label class="control-label padding-top-10">心得：</label>
+                            <div class="controls double-input trade-absolute-tip">
+                                <textarea name="test" data-rules="required"  data-error-msg="请输入10字以上" data-empty-msg="请输入10字以上"  placeholder="商品是否给力，快分享你的购物心得吧~" ></textarea>
+                                <span class="tip inline-block trade-absolute-tip">10-500字</span>
+                            </div>
+                        </div>
+                        <div class="control-group margin-bottom-10">
+                            <label class="control-label padding-top-10">晒单：</label>
+                            <div class="controls double-input trade-placeholder-column">
+                                                        <span class="trade-file-placeholder">
+                                                            <input type="file" data-rules="required" data-empty-msg="请不要上传大于2M的图片" data-error-msg="请不要上传大于2M的图片"/>
+                                                            <span class="trade-file-label">上传照片</span>
+                                                        </span>
+                                <div><span class="tip base-medium-font">每张图片大小不超过2M，最多5张。</span></div>
+                            </div>
+                        </div>
+                        <div class="control-group margin-bottom-0">
+                            <label class="control-label"></label>
+                            <div class="controls">
+                                <button class="sui-btn btn-primary" type="submit">提交评论</button>
+                                <label data-toggle="checkbox" class="checkbox-pretty inline-block margin-left-15">
+                                    <input type="checkbox"><span> 匿名评价</span>
+                                </label>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <!-- single order detail row end-->
+
+
 
 
                         <!-- pagination start-->
@@ -245,41 +462,6 @@
                     <!-- products listing end-->
 
                 <!-- Order Listing End-->
-            </div>
-            <div class="grey-bg after-login-sections-padding width-100 related-products">
-                <div class="row">
-                    <h5 class="heading">猜你喜欢</h5>
-                    <a href="#">查看更多 ></a>
-                </div>
-
-                <div class="product">
-                    <a href="#">
-                        <span><img src="../../static/common/images/relate-product-image.png"/></span>
-                        <p>得力3193伊芙系列芙系列</p>
-                        <span class="price">￥38</span>
-                    </a>
-                </div>
-                <div class="product">
-                    <a href="#">
-                        <span><img src="../../static/common/images/relate-product-image.png"/></span>
-                        <p>得力3193伊芙系列芙系列</p>
-                        <span class="price">￥38</span>
-                    </a>
-                </div>
-                <div class="product">
-                    <a href="#">
-                        <span><img src="../../static/common/images/relate-product-image.png"/></span>
-                        <p>得力3193伊芙系列芙系列</p>
-                        <span class="price">￥38</span>
-                    </a>
-                </div>
-                <div class="product margin-zero">
-                    <a href="#">
-                        <span><img src="../../static/common/images/relate-product-image.png"/></span>
-                        <p>得力3193伊芙系列芙系列</p>
-                        <span class="price">￥38</span>
-                    </a>
-                </div>
             </div>
         </div>
         </div>
@@ -488,9 +670,11 @@
 <script src="../../static/common/plugins/sui/.package/js/sui.min.js"></script>
 <script src="../../static/common/plugins/jquery-bar-rating/jquery.barrating.js"></script>
 <script>
-    $('#example').barrating({
-        theme: 'fontawesome-stars',
-        showSelectedRating: true
+    $('.trade-stars').barrating();
+    $('.trade-btn-evaluate').click(function(e){
+        e.preventDefault();
+
+        $(this).parents('.trade-single-order-detail-row').find('.trade-evaluate-form').slideToggle();
     });
 </script>
 </body>

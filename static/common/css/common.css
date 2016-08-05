@@ -746,6 +746,7 @@
 ******************************************************/
 .after-login-right-content-section {
   width: 1070px;
+  background: #f7f7f7;
 }
 .after-login-right-content-section .heading {
   color: #333333;
@@ -788,7 +789,7 @@
   height: 36px;
 }
 .after-login-sections-padding {
-  padding: 30px;
+  padding: 30px 20px;
 }
 .after-login-sections-padding .btn-primary {
   padding: 11px 25px;
