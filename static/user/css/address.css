@@ -24,6 +24,10 @@
 .user-address-form.form-horizontal .double-input input[type="password"] {
   width: 180px;
 }
+.user-address-form.form-horizontal .double-input input[type="text"].trade-long-input,
+.user-address-form.form-horizontal .double-input input[type="password"].trade-long-input {
+  width: 300px;
+}
 .user-address-form.form-horizontal .sui-dropup.dropdown-bordered,
 .user-address-form.form-horizontal .sui-dropdown.dropdown-bordered {
   height: 36px;
