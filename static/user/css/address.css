@@ -111,6 +111,23 @@
 .user-address-form.form-horizontal .btn-primary {
   padding: 8px 25px;
 }
+.user-address-form.form-horizontal.user-detail-form {
+  color: #333333;
+}
+.user-address-form.form-horizontal.user-detail-form input,
+.user-address-form.form-horizontal.user-detail-form .sui-dropdown.dropdown-bordered .dropdown-inner {
+  padding: 8px 20px;
+}
+.user-address-form.form-horizontal.user-detail-form .btn-primary {
+  margin-top: 8px;
+}
+.user-address-form.form-horizontal.user-detail-form .control-label {
+  width: 88px;
+  min-width: 0;
+}
+.user-address-form.form-horizontal.user-detail-form .control-group {
+  margin-bottom: 16px;
+}
 .user-address-form label.checkbox-pretty.inline-block + label.checkbox-pretty.inline-block {
   margin-left: 27px;
 }
@@ -178,4 +195,13 @@
 .user-table .user-table-row .user-table-td a.btn.btn-set-default:hover {
   background: #c41411;
   color: #fff;
+}
+.datepicker {
+  min-width: 283px !important;
+}
+.datepicker.dropdown-menu table {
+  width: 100%;
+}
+.datepicker-orient-top {
+  margin-top: -4px;
 }
