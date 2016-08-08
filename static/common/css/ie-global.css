@@ -26,6 +26,10 @@ html[data-browser='10'] .radio-pretty span:before {
 /******************************************************
    *Styling For IE START
 ******************************************************/
+html[data-browser='8'] .user-my-collection-section .user-single-product,
+html[data-browser='9'] .user-my-collection-section .user-single-product {
+  min-height: 320px;
+}
 html[data-browser='8'] .side-bar > ul > li > a,
 html[data-browser='9'] .side-bar > ul > li > a {
   line-height: 14px;

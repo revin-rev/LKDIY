@@ -1106,6 +1106,7 @@
 }
 .common-pagination {
   float: right;
+  clear: both;
 }
 .common-pagination .sui-pagination ul li a,
 .common-pagination .sui-pagination ul li span {
