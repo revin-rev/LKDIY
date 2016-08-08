@@ -1060,6 +1060,12 @@
 .common-pagination .sui-pagination ul li.prev a:hover {
   border-color: #dedede;
 }
+.common-pagination .sui-pagination ul li.next a {
+  background: transparent;
+}
+.common-pagination .sui-pagination ul li.next a:hover {
+  border-color: #dedede;
+}
 .common-pagination .sui-pagination ul li.dotted span {
   border: 0;
 }
