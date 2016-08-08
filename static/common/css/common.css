@@ -872,6 +872,7 @@
   left: 18px;
   top: 6px;
   font-size: 18px;
+  text-decoration: none;
 }
 .sui-form.form-horizontal.sui-validate .msg-icon:before {
   content: "\e6e4";
