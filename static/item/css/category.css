@@ -239,6 +239,7 @@
   display: inline-block;
   padding: 5px;
   margin-right: 8px;
+  line-height: 10px;
 }
 .item-form-filters .item-checkbox-radio-list .item-input-filter + input {
   margin-left: 8px;
@@ -260,6 +261,9 @@
 }
 .item-form-filters .item-input-button.disabled {
   cursor: no-drop;
+}
+.item-form-filters .item-input-button.item-price-btn {
+  padding: 3px 8px;
 }
 .item-form-filters .item-more-filter {
   text-align: center;
