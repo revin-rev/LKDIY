@@ -70,6 +70,10 @@
 .trade-single-order-detail-row .trade-single-order-baisc-detail p span {
   color: #666666;
 }
+.trade-single-order-detail-row .trade-single-order-baisc-detail .trade-del-col {
+  color: #333333;
+  font-size: 14px;
+}
 .trade-single-order-detail-row .trade-product-data {
   padding: 25px 20px;
   display: inline-table;
@@ -93,6 +97,9 @@
 .trade-single-order-detail-row .trade-product-data .trade-name span {
   margin-left: 30px;
   color: #666666;
+}
+.trade-single-order-detail-row .trade-product-data .trade-name span.trade-extra-margin {
+  margin-left: 66px;
 }
 .trade-single-order-detail-row .trade-product-data .trade-receiver-value {
   width: 115px;

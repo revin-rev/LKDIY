@@ -57,6 +57,32 @@ p {
 .base-medium-font{
   font-size: @baseFontLarge;
 }
+.base-text-color{
+  color: @baseTextColor;
+}
+.base-text-dark-color{
+  color: @baseTextColorDark;
+}
+.attention-color{
+  color: #e78925;
+}
+.btn-gray{
+  background: #eeeeee;
+  border: 1px solid #cccccc;
+  color: @baseTextColorDark;
+  margin-bottom: 0 !important;
+  display: inline-block;
+  padding: 6px 16px;
+}
+.btn-default{
+  background: @baseColor;
+  color: #fff;
+  border-color: @baseColor;
+
+  &:hover{
+    color: #fff;
+  }
+}
 .vertical-align-middle{
   vertical-align: middle;
 }
@@ -226,6 +252,12 @@ span.dropdown-inner.input-error {
 }
 .margin-top-0 {
   margin-top: 0;
+}
+.margin-bottom-10 {
+  margin-bottom: 10px !important;
+}
+.margin-top-10 {
+  margin-top: 10px ;
 }
 .margin-right-10{
   margin-right: 10px;

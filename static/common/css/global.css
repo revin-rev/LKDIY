@@ -51,6 +51,31 @@ p {
 .base-medium-font {
   font-size: 14px;
 }
+.base-text-color {
+  color: #666666;
+}
+.base-text-dark-color {
+  color: #333333;
+}
+.attention-color {
+  color: #e78925;
+}
+.btn-gray {
+  background: #eeeeee;
+  border: 1px solid #cccccc;
+  color: #333333;
+  margin-bottom: 0 !important;
+  display: inline-block;
+  padding: 6px 16px;
+}
+.btn-default {
+  background: #c41411;
+  color: #fff;
+  border-color: #c41411;
+}
+.btn-default:hover {
+  color: #fff;
+}
 .vertical-align-middle {
   vertical-align: middle;
 }
@@ -194,6 +219,12 @@ span.dropdown-inner.input-error {
 }
 .margin-top-0 {
   margin-top: 0;
+}
+.margin-bottom-10 {
+  margin-bottom: 10px !important;
+}
+.margin-top-10 {
+  margin-top: 10px ;
 }
 .margin-right-10 {
   margin-right: 10px;
