@@ -22,17 +22,17 @@
   margin-right: 10px;
 }
 .trade-order-headings-outr h2.trade-product-reciver-heading {
-  width: 100px;
+  width: 115px;
   text-align: center;
   margin-right: 10px;
 }
 .trade-order-headings-outr h2.trade-product-price-heading {
-  width: 100px;
+  width: 115px;
   text-align: center;
   margin-right: 10px;
 }
 .trade-order-headings-outr h2.trade-product-all-states-heading {
-  width: 100px;
+  width: 110px;
   text-align: center;
   margin-right: 10px;
 }
@@ -40,7 +40,7 @@
   color: #666666;
 }
 .trade-order-headings-outr h2.trade-product-operations-heading {
-  width: 121px;
+  width: 95px;
   text-align: center;
 }
 .trade-order-headings-outr h2 .sui-dropup.dropdown-bordered .dropdown-inner,
@@ -89,14 +89,14 @@
   color: #666666;
 }
 .trade-single-order-detail-row .trade-product-data .trade-receiver-value {
-  width: 100px;
+  width: 115px;
   margin-right: 10px;
   display: inline-block;
   text-align: center;
   vertical-align: middle;
 }
 .trade-single-order-detail-row .trade-product-data .trade-price-value {
-  width: 100px;
+  width: 115px;
   margin-right: 10px;
   display: inline-block;
   color: #999999;
@@ -104,7 +104,7 @@
   vertical-align: middle;
 }
 .trade-single-order-detail-row .trade-product-data .trade-status-value {
-  width: 100px;
+  width: 110px;
   margin-right: 10px;
   display: inline-block;
   color: #999999;
@@ -112,7 +112,7 @@
   vertical-align: middle;
 }
 .trade-single-order-detail-row .trade-product-data .trade-operation-value {
-  width: 119px;
+  width: 95px;
   display: inline-block;
   color: #999999;
   text-align: center;

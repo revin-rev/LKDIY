@@ -1158,7 +1158,8 @@
     a, span{
       margin-left: 3px;
       margin-right: 3px;
-      padding: 10px 15px;
+      padding: 10px 8px;
+      min-width: 40px;
       border-color: @CartBtnBorder;
       background-color: @sideBarHover;
       color:@baseTextColor;
@@ -1188,15 +1189,7 @@
         }
       }
     }
-    &.next{
-      a {
-        background: @backgroundColorTransparent;
 
-        &:hover{
-          border-color: @CartBtnBorder;
-        }
-      }
-    }
     &.dotted span{
       border: 0;
     }
@@ -1247,7 +1240,9 @@
     a, span{
       margin-left: 3px;
       margin-right: 3px;
-      padding: 10px 17px;
+      padding: 10px 8px;
+      min-width: 40px;
+      text-align: center;
       border-color: @CartBtnBorder;
       background-color: @sideBarHover;
       color:@baseTextColor;
@@ -1271,6 +1266,17 @@
     &.prev{
       a {
         background: @backgroundColorTransparent;
+        padding: 10px 16px;
+
+        &:hover{
+          border-color: @CartBtnBorder;
+        }
+      }
+    }
+    &.next{
+      a {
+        background: @backgroundColorTransparent;
+        padding: 10px 16px;
 
         &:hover{
           border-color: @CartBtnBorder;
@@ -1297,6 +1303,9 @@
       font-size: 12px;
       line-height: 18px;
       padding: 8px 12px;
+      min-width: 56px;
+      text-align: center;
+      margin-left: 12px;
 
       &:hover, &:focus, &:active{
         background-color:@baseColor;

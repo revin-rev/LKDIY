@@ -1036,7 +1036,8 @@
 .common-pagination .sui-pagination ul li span {
   margin-left: 3px;
   margin-right: 3px;
-  padding: 10px 15px;
+  padding: 10px 8px;
+  min-width: 40px;
   border-color: #dedede;
   background-color: #f7f7f7;
   color: #666666;
@@ -1058,12 +1059,6 @@
   background: transparent;
 }
 .common-pagination .sui-pagination ul li.prev a:hover {
-  border-color: #dedede;
-}
-.common-pagination .sui-pagination ul li.next a {
-  background: transparent;
-}
-.common-pagination .sui-pagination ul li.next a:hover {
   border-color: #dedede;
 }
 .common-pagination .sui-pagination ul li.dotted span {
@@ -1112,7 +1107,9 @@
 .common-pagination .sui-pagination ul li span {
   margin-left: 3px;
   margin-right: 3px;
-  padding: 10px 17px;
+  padding: 10px 8px;
+  min-width: 40px;
+  text-align: center;
   border-color: #dedede;
   background-color: #f7f7f7;
   color: #666666;
@@ -1132,8 +1129,16 @@
 }
 .common-pagination .sui-pagination ul li.prev a {
   background: transparent;
+  padding: 10px 16px;
 }
 .common-pagination .sui-pagination ul li.prev a:hover {
+  border-color: #dedede;
+}
+.common-pagination .sui-pagination ul li.next a {
+  background: transparent;
+  padding: 10px 16px;
+}
+.common-pagination .sui-pagination ul li.next a:hover {
   border-color: #dedede;
 }
 .common-pagination .sui-pagination ul li.dotted span {
@@ -1154,6 +1159,9 @@
   font-size: 12px;
   line-height: 18px;
   padding: 8px 12px;
+  min-width: 56px;
+  text-align: center;
+  margin-left: 12px;
 }
 .common-pagination div .page-num + .page-confirm:hover,
 .common-pagination div .page-num + .page-confirm:focus,
