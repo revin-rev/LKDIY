@@ -71,6 +71,10 @@
 .trade-single-order-detail-row .trade-product-data {
   padding: 25px 20px;
   display: inline-table;
+  font-size: 0;
+  width: 100%;
+}
+.trade-single-order-detail-row .trade-product-data * {
   font-size: 14px;
 }
 .trade-single-order-detail-row .trade-product-data .trade-name {
