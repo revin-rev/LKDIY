@@ -6,6 +6,8 @@
   background-color: #fff;
   padding: 10px 20px;
   display: table;
+  width: 100%;
+  font-size: 0;
 }
 .trade-order-headings-outr h2 {
   display: inline-block;
