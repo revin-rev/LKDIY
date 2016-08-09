@@ -50,7 +50,6 @@
   padding: 15px;
   border: 1px solid #dedede;
   margin-right: 30px;
-  min-height: 350px;
   margin-bottom: 30px;
   background-color: #fff;
 }
@@ -95,6 +94,10 @@
 .user-my-collection-section .user-single-product p span {
   display: block;
   margin-top: 3px;
+}
+.user-my-collection-section .user-single-product p label.checkbox-pretty {
+  display: inline-block;
+  width: 100%;
 }
 .user-my-collection-section .user-single-product:hover {
   border-color: #c41411;
