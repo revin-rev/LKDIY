@@ -76,6 +76,9 @@ p {
 .btn-default:hover {
   color: #fff;
 }
+.white-bg {
+  background: #fff;
+}
 .vertical-align-middle {
   vertical-align: middle;
 }
