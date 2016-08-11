@@ -1,0 +1,155 @@
+@import "../../common/css/variable";
+@import "../../common/css/lesshat";
+
+/* login section start */
+.sso-login-bg-outer{
+  background-image: url(../../../static/sso/images/login-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 100%;
+  padding-bottom: 30px;
+  padding-top: 30px;
+
+  .sso-login-form-outr{
+    float: right;
+    background-color: @white;
+    padding: 20px 20px 33px;
+    min-width: 362px;
+    border:1px solid @CartBtnBorder;
+
+    .sso-signup-link-and-heading{
+      h1{
+        font-size: @baseFontXLarge;
+        color: @baseTextColor;
+        margin: 0;
+        line-height: normal;
+        display: inline-block;
+      }
+      a{
+        float: right;
+        font-size: @baseFontMedium;
+        color: @baseColor;
+        padding-top: 8px;
+      }
+    }
+
+    .sso-login-form{
+      margin-top:10px;
+
+      .sui-form{
+        margin-bottom: 0;
+
+        .input-prepend{
+          margin-bottom: 20px;
+          width: 320px;
+          position: relative;
+        }
+
+        .add-on{
+          height: 35px;
+          padding: 7px 10px;
+          float: left;
+          width: 40px;
+        }
+
+        input[type="text"]{
+          height: 35px;
+          width: 280px;
+          .border-radius(2px);
+        }
+
+        input[type="password"]{
+          height: 35px;
+          width: 280px;
+          .border-radius(2px);
+          color: @baseTextColor;
+        }
+
+        .margin-zero{
+          margin: 0;
+        }
+
+        p{
+          font-size:@baseFont ;
+          color: @baseTextColor;
+          display: inline-block;
+          margin-bottom: 0;
+
+          input{
+            margin-right:10px;
+            display: inline;
+          }
+
+          label{
+            display: inline;
+          }
+        }
+
+        a{
+          float: right;
+          color: @baseTextColor;
+        }
+
+        .control-group{
+          width: 100%;
+
+          .controls{
+            width: 100%;
+            padding: 0;
+          }
+        }
+      }
+
+      .sui-btn.btn-primary{
+        width: 100%;
+        margin-top: 20px;
+        height: 35px;
+        font-size: 18px;
+        border: 0;
+      }
+
+      .sso-another-accounts-login{
+        margin-top: 30px;
+
+        p{
+          color: @primaryColorLight;
+        }
+
+        .sso-another-accounts-links{
+          margin: 0;
+          padding: 0;
+
+          li{
+            display: inline-block;
+            margin-right: 10px;
+          }
+        }
+      }
+    }
+  }
+  .sui-msg.msg-error {
+    
+    position: absolute;
+    top: -43px;
+    float: left;
+    left: -5px;
+    
+}
+.sui-form.form-horizontal.sui-validate .sui-msg.msg-error .msg-con
+{
+width: 317px;
+}
+
+}
+/* login section end */
+
+
+
+/* global css */
+.border-bottom-zero{
+  border-bottom: 0;
+}
+
+
+
+

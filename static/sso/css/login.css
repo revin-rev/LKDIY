@@ -1,1 +1,132 @@
-/*This file is for customer login page*/
+/******************************************************
+   *Variables START
+******************************************************/
+/* login section start */
+.sso-login-bg-outer {
+  background-image: url(../../../static/sso/images/login-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 100%;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+.sso-login-bg-outer .sso-login-form-outr {
+  float: right;
+  background-color: #fff;
+  padding: 20px 20px 33px;
+  min-width: 362px;
+  border: 1px solid #dedede;
+}
+.sso-login-bg-outer .sso-login-form-outr .sso-signup-link-and-heading h1 {
+  font-size: 20px;
+  color: #666666;
+  margin: 0;
+  line-height: normal;
+  display: inline-block;
+}
+.sso-login-bg-outer .sso-login-form-outr .sso-signup-link-and-heading a {
+  float: right;
+  font-size: 16px;
+  color: #c41411;
+  padding-top: 8px;
+}
+.sso-login-bg-outer .sso-login-form-outr .sso-login-form {
+  margin-top: 10px;
+}
+.sso-login-bg-outer .sso-login-form-outr .sso-login-form .sui-form {
+  margin-bottom: 0;
+}
+.sso-login-bg-outer .sso-login-form-outr .sso-login-form .sui-form .input-prepend {
+  margin-bottom: 20px;
+  width: 320px;
+  position: relative;
+}
+.sso-login-bg-outer .sso-login-form-outr .sso-login-form .sui-form .add-on {
+  height: 35px;
+  padding: 7px 10px;
+  float: left;
+  width: 40px;
+}
+.sso-login-bg-outer .sso-login-form-outr .sso-login-form .sui-form input[type="text"] {
+  height: 35px;
+  width: 280px;
+  -webkit-border-radius: 2px;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 2px;
+  -moz-background-clip: padding;
+  border-radius: 2px;
+  background-clip: padding-box;
+}
+.sso-login-bg-outer .sso-login-form-outr .sso-login-form .sui-form input[type="password"] {
+  height: 35px;
+  width: 280px;
+  -webkit-border-radius: 2px;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 2px;
+  -moz-background-clip: padding;
+  border-radius: 2px;
+  background-clip: padding-box;
+  color: #666666;
+}
+.sso-login-bg-outer .sso-login-form-outr .sso-login-form .sui-form .margin-zero {
+  margin: 0;
+}
+.sso-login-bg-outer .sso-login-form-outr .sso-login-form .sui-form p {
+  font-size: 12px;
+  color: #666666;
+  display: inline-block;
+  margin-bottom: 0;
+}
+.sso-login-bg-outer .sso-login-form-outr .sso-login-form .sui-form p input {
+  margin-right: 10px;
+  display: inline;
+}
+.sso-login-bg-outer .sso-login-form-outr .sso-login-form .sui-form p label {
+  display: inline;
+}
+.sso-login-bg-outer .sso-login-form-outr .sso-login-form .sui-form a {
+  float: right;
+  color: #666666;
+}
+.sso-login-bg-outer .sso-login-form-outr .sso-login-form .sui-form .control-group {
+  width: 100%;
+}
+.sso-login-bg-outer .sso-login-form-outr .sso-login-form .sui-form .control-group .controls {
+  width: 100%;
+  padding: 0;
+}
+.sso-login-bg-outer .sso-login-form-outr .sso-login-form .sui-btn.btn-primary {
+  width: 100%;
+  margin-top: 20px;
+  height: 35px;
+  font-size: 18px;
+  border: 0;
+}
+.sso-login-bg-outer .sso-login-form-outr .sso-login-form .sso-another-accounts-login {
+  margin-top: 30px;
+}
+.sso-login-bg-outer .sso-login-form-outr .sso-login-form .sso-another-accounts-login p {
+  color: #999999;
+}
+.sso-login-bg-outer .sso-login-form-outr .sso-login-form .sso-another-accounts-login .sso-another-accounts-links {
+  margin: 0;
+  padding: 0;
+}
+.sso-login-bg-outer .sso-login-form-outr .sso-login-form .sso-another-accounts-login .sso-another-accounts-links li {
+  display: inline-block;
+  margin-right: 10px;
+}
+.sso-login-bg-outer .sui-msg.msg-error {
+  position: absolute;
+  top: -43px;
+  float: left;
+  left: -5px;
+}
+.sso-login-bg-outer .sui-form.form-horizontal.sui-validate .sui-msg.msg-error .msg-con {
+  width: 317px;
+}
+/* login section end */
+/* global css */
+.border-bottom-zero {
+  border-bottom: 0;
+}
