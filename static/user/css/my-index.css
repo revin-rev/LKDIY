@@ -1,3 +1,105 @@
 /******************************************************
    *Variables START
 ******************************************************/
+.user-top-bar-menu-links {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+  -webkit-border-radius: 70px 0 0 70px;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 70px 0 0 70px;
+  -moz-background-clip: padding;
+  border-radius: 70px 0 0 70px;
+  background-clip: padding-box;
+}
+.user-top-bar-menu-links .user-image-and-name {
+  padding: 6px 10px;
+  width: 355px;
+}
+.user-top-bar-menu-links .user-image-and-name .user-name-title {
+  font-size: 18px;
+  margin-bottom: 26px;
+  margin-top: 15px;
+}
+.user-top-bar-menu-links .user-image-and-name .user-name {
+  padding-left: 20px;
+  width: 230px;
+}
+.user-top-bar-menu-links .user-image-and-name img {
+  -webkit-border-radius: 50%;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 50%;
+  -moz-background-clip: padding;
+  border-radius: 50%;
+  background-clip: padding-box;
+  width: 85px;
+  height: 85px;
+}
+.user-top-bar-menu-links .user-icon {
+  background-image: url("../images/user-icons.png");
+  background-repeat: no-repeat;
+  border: 3px solid #d1d1d1;
+  -webkit-border-radius: 50%;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 50%;
+  -moz-background-clip: padding;
+  border-radius: 50%;
+  background-clip: padding-box;
+  width: 66px;
+  height: 66px;
+  display: block;
+  margin-bottom: 14px;
+}
+.user-top-bar-menu-links .user-icon-card {
+  background-position: 9px 11px;
+}
+.user-top-bar-menu-links .user-icon-truck {
+  background-position: -45px 21px;
+}
+.user-top-bar-menu-links .user-icon-box {
+  background-position: -103px 13px;
+}
+.user-top-bar-menu-links .user-icon-msg {
+  background-position: -161px 17px;
+}
+.user-top-bar-menu-links .user-notice {
+  color: #d01716;
+}
+.user-top-bar-menu-links .user-top-nav-links {
+  width: 610px;
+}
+.user-top-bar-menu-links .user-top-nav-links ul:after {
+  content: '';
+  position: relative;
+  width: 100%;
+  clear: both;
+  display: block;
+}
+.user-top-bar-menu-links .user-top-nav-links ul li {
+  width: 165px;
+  text-align: left;
+  float: left;
+}
+.user-top-bar-menu-links .user-top-nav-links ul li.last {
+  width: auto;
+}
+.user-top-bar-menu-links .user-top-nav-links ul li a {
+  display: inline-block;
+  text-align: center;
+  color: #333333;
+}
+.user-top-bar-menu-links .user-top-nav-links ul li a .user-notice {
+  margin-right: -8px;
+}
+.user-table {
+  display: table;
+  width: 100%;
+}
+.user-table .user-table-row {
+  display: table-row;
+}
+.user-table .user-table-row .user-table-column {
+  display: table-cell;
+  padding: 15px 25px;
+  vertical-align: middle;
+}

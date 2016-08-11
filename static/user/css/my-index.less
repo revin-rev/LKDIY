@@ -1,3 +1,103 @@
 @import "../../common/css/variable";
 @import "../../common/css/lesshat";
 
+.user-top-bar-menu-links{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+  .border-radius(70px 0 0 70px);
+
+  .user-image-and-name{
+    padding: 6px 10px;
+    width: 355px;
+
+    .user-name-title{
+      font-size: 18px;
+      margin-bottom: 26px;
+      margin-top: 15px;
+    }
+    .user-name{
+      padding-left: 20px;
+      width: 230px;
+    }
+
+    img{
+      .border-radius(50%);
+      width: 85px;
+      height: 85px;
+    }
+  }
+  .user-icon{
+    background-image: url("../images/user-icons.png");
+    background-repeat: no-repeat;
+    border:3px solid #d1d1d1;
+    .border-radius(50%);
+    width: 66px;
+    height: 66px;
+    display: block;
+    margin-bottom: 14px;
+  }
+  .user-icon-card{
+    background-position: 9px 11px;
+  }
+  .user-icon-truck {
+    background-position: -45px 21px;
+  }
+  .user-icon-box {
+    background-position: -103px 13px;
+  }
+  .user-icon-msg {
+    background-position: -161px 17px;
+  }
+  .user-notice{
+    color: @loginSidebarLinkHover;
+  }
+
+  .user-top-nav-links{
+    width: 610px;
+    ul{
+
+      &:after{
+        content: '';
+        position: relative;
+        width: 100%;
+        clear: both;
+        display: block;
+      }
+
+      li{
+        width: 165px;
+        text-align: left;
+        float: left;
+
+        &.last{
+          width: auto;
+        }
+
+        a{
+          display: inline-block;
+          text-align: center;
+          color: @baseTextColorDark;
+
+          .user-notice{
+            margin-right: -8px;
+          }
+        }
+      }
+    }
+  }
+}
+.user-table{
+  display: table;
+  width: 100%;
+
+  .user-table-row{
+    display: table-row;
+
+    .user-table-column{
+      display: table-cell;
+      padding: 15px 25px;
+      vertical-align: middle;
+    }
+  }
+}
