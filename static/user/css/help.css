@@ -1,0 +1,86 @@
+/******************************************************
+   *Variables START
+******************************************************/
+.user-help-side-bar {
+  width: 250px;
+  background: #f7f7f7;
+}
+.user-help-side-bar > h4 {
+  border: 1px solid #dedede;
+  border-left: 3px solid #d01716;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 80px;
+  margin: 0;
+  font-size: 16px;
+}
+.user-help-side-bar ul {
+  list-style: none;
+}
+.user-help-side-bar ul li a {
+  display: block;
+  border: 1px solid #dedede;
+  border-top: 0;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 83px;
+  color: #666666;
+}
+.user-help-side-bar ul li a:hover {
+  color: #d01716;
+}
+.user-help-side-bar ul li a .icon-caret-down {
+  display: none;
+}
+.user-help-side-bar ul li.active {
+  background: #fff;
+}
+.user-help-side-bar ul li.active > a {
+  color: #d01716;
+}
+.user-help-side-bar ul li.active > a .icon-caret-down {
+  display: inline-block;
+}
+.user-help-side-bar ul li.active > a .icon-caret-right {
+  display: none;
+}
+.user-help-main {
+  width: 970px;
+}
+.user-help-main .user-inner-block {
+  border: 1px solid #dedede;
+  padding: 20px;
+}
+.user-help-main .user-help-heading {
+  margin: 0;
+  color: #333333;
+  font-size: 16px;
+  padding-bottom: 10px;
+  border-bottom: 3px solid #dedede;
+  margin-bottom: 30px;
+}
+.user-help-main .user-question-block .user-question-block-heading {
+  font-size: 16px;
+  color: #333333;
+  margin-bottom: 38px;
+}
+.user-help-main .user-question-block .user-question-block-heading i {
+  color: #d01716;
+  font-size: 200%;
+  vertical-align: middle;
+  margin-right: 8px;
+}
+.user-help-main .user-question-block ul {
+  list-style: none;
+}
+.user-help-main .user-question-block ul li {
+  margin-bottom: 38px;
+}
+.user-help-main .user-question-block ul li span {
+  display: block;
+  margin-bottom: 15px;
+}
+.user-help-main .user-question-block ul li span.user-question {
+  color: #333333;
+  font-weight: bold;
+}

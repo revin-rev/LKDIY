@@ -1,103 +1,106 @@
 @import "../../common/css/variable";
 @import "../../common/css/lesshat";
 
-.user-top-bar-menu-links{
-  padding-top: 20px;
-  padding-bottom: 20px;
-  margin-bottom: 30px;
-  .border-radius(70px 0 0 70px);
+.user-help-side-bar{
+  width: 250px;
+  background: @subFooterBG;
 
-  .user-image-and-name{
-    padding: 6px 10px;
-    width: 355px;
-
-    .user-name-title{
-      font-size: 18px;
-      margin-bottom: 26px;
-      margin-top: 15px;
-    }
-    .user-name{
-      padding-left: 20px;
-      width: 230px;
-    }
-
-    img{
-      .border-radius(50%);
-      width: 85px;
-      height: 85px;
-    }
-  }
-  .user-icon{
-    background-image: url("../images/user-icons.png");
-    background-repeat: no-repeat;
-    border:3px solid #d1d1d1;
-    .border-radius(50%);
-    width: 66px;
-    height: 66px;
-    display: block;
-    margin-bottom: 14px;
-  }
-  .user-icon-card{
-    background-position: 9px 11px;
-  }
-  .user-icon-truck {
-    background-position: -45px 21px;
-  }
-  .user-icon-box {
-    background-position: -103px 13px;
-  }
-  .user-icon-msg {
-    background-position: -161px 17px;
-  }
-  .user-notice{
-    color: @loginSidebarLinkHover;
+  & > h4{
+    border:1px solid @avgBorderColor;
+    border-left: 3px solid @textHoverColor;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 80px;
+    margin: 0;
+    font-size: 16px;
   }
 
-  .user-top-nav-links{
-    width: 610px;
-    ul{
+  ul{
+    list-style: none;
 
-      &:after{
-        content: '';
-        position: relative;
-        width: 100%;
-        clear: both;
+    li{
+      a{
         display: block;
+        border:1px solid @avgBorderColor;
+        border-top: 0;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-left: 83px;
+        color: @baseTextColor;
+
+        &:hover{
+          color: @textHoverColor;
+        }
+        .icon-caret-down{
+          display: none;
+        }
       }
 
+      &.active{
+        background: @white;
+         > a{
+            color: @textHoverColor;
+
+
+            .icon-caret-down{
+              display: inline-block;
+            }
+            .icon-caret-right{
+              display: none;
+            }
+          }
+      }
+    }
+  }
+}
+
+.user-help-main{
+  width: 970px;
+
+  .user-inner-block{
+    border:1px solid @avgBorderColor;
+    padding: 20px;
+  }
+
+  .user-help-heading{
+    margin: 0;
+    color: @baseTextColorDark;
+    font-size: @baseFontMedium;
+    padding-bottom: 10px;
+    border-bottom:3px solid @darkBorderColor;
+    margin-bottom: 30px;
+  }
+
+  .user-question-block{
+    .user-question-block-heading{
+      font-size: @baseFontMedium;
+      color: @baseTextColorDark;
+      margin-bottom: 38px;
+
+      i{
+        color: @textHoverColor;
+        font-size: 200%;
+        vertical-align: middle;
+        margin-right: 8px;
+      }
+    }
+
+    ul{
+      list-style: none;
+
       li{
-        width: 165px;
-        text-align: left;
-        float: left;
+        margin-bottom: 38px;
+        span{
+          display: block;
+          margin-bottom: 15px;
 
-        &.last{
-          width: auto;
-        }
-
-        a{
-          display: inline-block;
-          text-align: center;
-          color: @baseTextColorDark;
-
-          .user-notice{
-            margin-right: -8px;
+          &.user-question{
+            color: @baseTextColorDark;
+            font-weight: bold;
           }
         }
       }
     }
   }
-}
-.user-table{
-  display: table;
-  width: 100%;
 
-  .user-table-row{
-    display: table-row;
-
-    .user-table-column{
-      display: table-cell;
-      padding: 15px 25px;
-      vertical-align: middle;
-    }
-  }
 }

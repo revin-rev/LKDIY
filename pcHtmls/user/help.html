@@ -8,8 +8,7 @@
     <link rel="stylesheet" href="../../static/common/plugins/sui/.package/css/sui-all.css">
     <link rel="stylesheet" href="../../static/common/css/global.css">
     <link rel="stylesheet" href="../../static/common/css/common.css">
-    <link rel="stylesheet" href="../../static/user/css/my-index.css">
-    <link rel="stylesheet" href="../../static/trade/css/single-order-detail.css">
+    <link rel="stylesheet" href="../../static/user/css/help.css">
 </head>
 <body>
 <!-- Top Navbar START -->
@@ -97,9 +96,9 @@
             </div>
             <div class="column login-navbar">
                 <ul>
-                    <li class="active"><a href="#">首页</a></li>
+                    <li><a href="#">首页</a></li>
                     <li><a href="#">浏览记录 </a></li>
-                    <li><a href="#">帮助中心</a></li>
+                    <li class="active"><a href="#">帮助中心</a></li>
                 </ul>
             </div>
             <div class="column float-right">
@@ -120,208 +119,81 @@
 <!-- Mid Section Start -->
 <div class="container">
     <div class="row">
-        <!-- Login Sidebar Start -->
-        <div class="column login-sidebar">
-            <div class="login-sidebar-block">
-                <h5>订单中心</h5>
-                <ul>
-                    <li><a href="#">我的订单</a></li>
-                    <li><a href="">评价晒单</a> </li>
-                </ul>
-            </div>
+        <!-- Help Sidebar Start -->
+        <div class="column user-help-side-bar ">
+            <h4 class=" base-text-dark-color"><strong>帮助中心</strong></h4>
+            <ul class="base-medium-font">
+                <li><a href="#">购物指南</a></li>
+                <li><a href="#">购物指南</a></li>
+                <li  class="active"><a href="#"><i class="sui-icon icon-caret-right"></i> <i class="sui-icon icon-caret-down"></i>  常见问题</a>
+                    <ul>
+                        <li><a href="#">购买咨询</a></li>
+                        <li><a href="#">配送查询</a></li>
+                    </ul>
+                </li>
+                <li><a href="#"><i class="sui-icon icon-caret-right"></i> <i class="sui-icon icon-caret-down"></i> 售后服务</a></li>
+                <li><a href="#">联系我们</a></li>
+            </ul>
+        </div>
+        <!-- Help Sidebar End -->
 
-            <div class="login-sidebar-block">
-                <h5>账户中心</h5>
-                <ul>
-                    <li><a href="#">个人信息</a> </li>
-                    <li><a href="#">收货地址</a> </li>
-                    <li><a href="#">我的收藏</a> </li>
-                    <li><a href="#">我的优惠券</a> </li>
-                    <li><a href="#">我的积分</a> </li>
-                    <li><a href="#">退换货</a> </li>
-                    <li><a href="#">修改头像</a> </li>
-                </ul>
-            </div>
+        <!-- Help Main Start -->
+        <div class="column user-help-main">
+            <div class="user-inner-block">
+                <h4 class="user-help-heading">常见问题</h4>
 
-            <div class="login-sidebar-block last-child">
-                <h5>安全中心</h5>
-                <ul>
-                    <li><a href="#">修改密码</a> </li>
-                    <li><a href="#" class=" last-child-link">绑定邮箱</a> </li>
-                </ul>
+                <!--Question block START-->
+                <div class="user-question-block">
+                    <h4 class="user-question-block-heading"><i class="sui-icon icon-caret-right"></i>购买咨询</h4>
+
+                    <ul class="base-medium-font">
+                        <li>
+                            <span class="user-question">Q：支付完成后，手机收不到或者丢失验证码短信怎么办？</span>
+                            <span class="user-answer">A：请您联系客服，客服将按照下单原手机号重新发送提车验证码短信。</span>
+                        </li>
+                        <li>
+                            <span class="user-question">Q：买车时如何使用验证码？</span>
+                            <span class="user-answer">A：您到店购车时，出示好车e贷发送给您的短信，4S店工作人员将根据短信内容激活验证码。</span>
+                        </li>
+                        <li>
+                            <span class="user-question">Q：支付后如何申请退款？</span>
+                            <span class="user-answer">A：未提车前请您联系客服办理订金退款。若已提车并与4S店签署购车协议，请与4S店商议退款事宜。</span>
+                        </li>
+                        <li>
+                            <span class="user-question">Q：在好车e贷商城下单的订金可以在买车后抵扣车款吗，是全款购车发票吗？</span>
+                            <span class="user-answer">A：可以抵扣，且您将获得全款购车发票。</span>
+                        </li>
+                        <li>
+                            <span class="user-question">Q：是否可以异地购车？</span>
+                            <span class="user-answer">A：商品页面已经明确说明发售地区，请您详细阅读并按照发售地区购车。</span>
+                        </li>
+                    </ul>
+                </div>
+                <!--Question block END-->
+
+                <!--Question block START-->
+                <div class="user-question-block">
+                    <h4 class="user-question-block-heading"><i class="sui-icon icon-caret-right"></i>提车相关</h4>
+
+                    <ul class="base-medium-font">
+                        <li>
+                            <span class="user-question">Q：在好车e贷商城下单后，在哪里提车？</span>
+                            <span class="user-answer">A：您成功下单后，好车e贷客服会联系您，并通知提车时间及提车4S店。</span>
+                        </li>
+                        <li>
+                            <span class="user-question">Q：如提车时4S店不配合怎么办？</span>
+                            <span class="user-answer">A：请您及时联系好车e贷客服并告知下单信息，客服人员将协调解决。</span>
+                        </li>
+                    </ul>
+                </div>
+                <!--Question block END-->
             </div>
         </div>
-        <!-- Login Sidebar End -->
-        <!-- Return Section Start-->
-        <div class="column after-login-right-content-section">
-            <div class="row white-bg">
-                <div class="column user-top-bar-menu-links grey-bg clear-fix width-100 base-medium-font base-text-dark-color">
-                    <div class="user-image-and-name column">
-                       <span class="column"> <img src="../../static/user/images/user-round.jpg" alt="User Name"/></span>
-                        <span class="user-name column">
-                            <span class="center-block user-name-title">宗晓雅</span>
-                            <span class="center-block">积分：<span class="user-notice">200</span></span>
-                        </span>
-                    </div>
-                    <div class="user-top-nav-links column">
-                        <ul class="list-inline">
-                            <li><a href="#"><span class="user-icon user-icon-card"></span> 待付款 <span class="user-notice">2</span></a></li>
-                            <li><a href="#"><span class="user-icon user-icon-truck"></span> 待发货 <span class="user-notice">2</span></a></li>
-                            <li><a href="#"><span class="user-icon user-icon-box"></span> 待收货 <span class="user-notice">2</span></a></li>
-                            <li class="last"><a href="#"><span class="user-icon user-icon-msg"></span> 待评价 <span class="user-notice">2</span></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="grey-bg after-login-sections-padding width-100 trade-refund-listing-block clear-fix">
-                <h5 class="heading inline-block margin-bottom-30">我的订单</h5>
-                <a href="#" class="pull-right base-text-color  base-medium-font">查看全部订单 &gt;</a>
-                <div class="clear-fix"></div>
+        <!-- Help Main End -->
 
-                <div class="user-table base-medium-font">
-                    <div class="user-table-row">
-                        <div class="user-table-column sui-text-left">
-                            <img src="../../static/user/images/product.jpg" alt="demo" class="inline-block"/>
-
-                        </div>
-                        <div class="user-table-column sui-text-center">
-                            宗晓雅
-                        </div>
-                        <div class="user-table-column sui-text-center">
-                            ￥68+200积分
-                        </div>
-                        <div class="user-table-column sui-text-center">
-                            2015-12-3    17：00
-                        </div>
-                        <div class="user-table-column sui-text-center">
-                            <a href="#" class="base-text-color">已完成</a>
-                        </div>
-                        <div class="user-table-column sui-text-center">
-                            <a href="#" class="base-text-color">查看</a>
-                        </div>
-                    </div>
-                    <div class="user-table-row">
-                        <div class="user-table-column sui-text-left">
-                            <img src="../../static/user/images/product.jpg" alt="demo" class="inline-block margin-right-10"/><img src="../../static/user/images/product.jpg" alt="demo" class="inline-block "/>
-                        </div>
-                        <div class="user-table-column sui-text-center">
-                            宗晓雅
-                        </div>
-                        <div class="user-table-column sui-text-center">
-                            ￥68+200积分
-                        </div>
-                        <div class="user-table-column sui-text-center">
-                            2015-12-3    17：00
-                        </div>
-                        <div class="user-table-column sui-text-center">
-                            <a href="#" class="base-text-color">已完成</a>
-                        </div>
-                        <div class="user-table-column sui-text-center">
-                            <a href="#" class="base-text-color">查看</a>
-                        </div>
-                    </div>
-                    <div class="user-table-row">
-                        <div class="user-table-column sui-text-left">
-                            <img src="../../static/user/images/product.jpg" alt="demo" class="inline-block margin-right-10"/><img src="../../static/user/images/product.jpg" alt="demo" class="inline-block margin-right-10"/><img src="../../static/user/images/product.jpg" alt="demo" class="inline-block"/>
-                        </div>
-                        <div class="user-table-column sui-text-center">
-                            宗晓雅
-                        </div>
-                        <div class="user-table-column sui-text-center">
-                            ￥68+200积分
-                        </div>
-                        <div class="user-table-column sui-text-center">
-                            2015-12-3    17：00
-                        </div>
-                        <div class="user-table-column sui-text-center">
-                            <a href="#" class="base-text-color">已完成</a>
-                        </div>
-                        <div class="user-table-column sui-text-center">
-                            <a href="#" class="base-text-color">查看</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="grey-bg after-login-sections-padding width-100 related-products">
-                    <div class="row">
-                        <h5 class="heading">猜你喜欢</h5>
-                        <a href="#">查看更多 ></a>
-                    </div>
-
-                    <div class="product">
-                        <a href="#">
-                            <span><img src="../../static/common/images/relate-product-image.png"/></span>
-                            <p>得力3193伊芙系列芙系列</p>
-                            <span class="price">￥38</span>
-                        </a>
-                    </div>
-                    <div class="product">
-                        <a href="#">
-                            <span><img src="../../static/common/images/relate-product-image.png"/></span>
-                            <p>得力3193伊芙系列芙系列</p>
-                            <span class="price">￥38</span>
-                        </a>
-                    </div>
-                    <div class="product">
-                        <a href="#">
-                            <span><img src="../../static/common/images/relate-product-image.png"/></span>
-                            <p>得力3193伊芙系列芙系列</p>
-                            <span class="price">￥38</span>
-                        </a>
-                    </div>
-                    <div class="product margin-zero">
-                        <a href="#">
-                            <span><img src="../../static/common/images/relate-product-image.png"/></span>
-                            <p>得力3193伊芙系列芙系列</p>
-                            <span class="price">￥38</span>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </div>
-        <!-- Return Section End-->
     </div>
 </div>
 
-<!-- Modal Section START -->
-
-<div id="myModal" tabindex="-1" role="dialog" data-hasfoot="false" class="sui-modal hide fade">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" data-dismiss="modal" aria-hidden="true" class="sui-close">×</button>
-                <h4 id="myModalLabel" class="modal-title">删除订单</h4>
-            </div>
-            <div class="modal-body">
-                <strong class="center-block margin-bottom-30">确认删除该订单？</strong>
-                <button type="button" data-ok="modal" class="btn-gray">取消</button><button type="button" data-dismiss="modal" class="btn-gray btn-default">确定</button>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- Modal Section END -->
-
-<!-- Modal Section START -->
-
-<div id="myModal2" tabindex="-1" role="dialog" data-hasfoot="false" class="sui-modal hide fade">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" data-dismiss="modal" aria-hidden="true" class="sui-close">×</button>
-                <h4 id="myModalLabel2" class="modal-title">取消订单</h4>
-            </div>
-            <div class="modal-body">
-                <strong class="center-block margin-bottom-30">确认取消该订单？</strong>
-                <button type="button" data-ok="modal" class="btn-gray">取消</button><button type="button" data-dismiss="modal" class="btn-gray btn-default">确定</button>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- Modal Section END -->
 
 <!-- Sub Footer START -->
 <div class="sub-footer">
