@@ -745,7 +745,7 @@
    *After Login Right Section START
 ******************************************************/
 .after-login-right-content-section {
-  width: 1070px;
+  width: 1060px;
   background: #f7f7f7;
 }
 .after-login-right-content-section .heading {
@@ -1203,7 +1203,7 @@
   float: right;
 }
 .related-products .product {
-  width: 230px;
+  width: 229px;
   height: 180px;
   text-align: center;
   margin-right: 20px;

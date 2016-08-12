@@ -126,6 +126,9 @@ span.dropdown-inner.input-error {
 .padding-top-10 {
   padding-top: 10px;
 }
+.border-bottom-zero {
+  border-bottom: 0;
+}
 .container {
   width: 1200px;
   margin: 0 auto;

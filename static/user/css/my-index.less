@@ -2,8 +2,8 @@
 @import "../../common/css/lesshat";
 
 .user-top-bar-menu-links{
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 25px;
+  padding-bottom: 24px;
   margin-bottom: 30px;
   .border-radius(70px 0 0 70px);
 
@@ -96,8 +96,15 @@
 
     .user-table-column{
       display: table-cell;
-      padding: 15px 25px;
+      padding: 24px 25px;
       vertical-align: middle;
+      border-bottom: 1px solid @white;
+    }
+
+    &:last-child{
+      .user-table-column{
+        border-bottom: 0;
+      }
     }
   }
 }

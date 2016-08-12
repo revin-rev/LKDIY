@@ -2,8 +2,8 @@
    *Variables START
 ******************************************************/
 .user-top-bar-menu-links {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 25px;
+  padding-bottom: 24px;
   margin-bottom: 30px;
   -webkit-border-radius: 70px 0 0 70px;
   -webkit-background-clip: padding-box;
@@ -100,6 +100,10 @@
 }
 .user-table .user-table-row .user-table-column {
   display: table-cell;
-  padding: 15px 25px;
+  padding: 24px 25px;
   vertical-align: middle;
+  border-bottom: 1px solid #fff;
+}
+.user-table .user-table-row:last-child .user-table-column {
+  border-bottom: 0;
 }
