@@ -50,7 +50,7 @@
 }
 .trade-nav li:first-child,
 .trade-nav.sui-nav.nav-tabs li:first-child {
-  padding-left: 0;
+  padding-left: 5px;
 }
 .trade-nav li + li,
 .trade-nav.sui-nav.nav-tabs li + li {
