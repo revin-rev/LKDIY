@@ -1150,7 +1150,61 @@
 }
 
 
-/*pagination start*/
+/****small progress bar starts START***/
+.top-steps{
+  margin-top: 20px;
+}
+.step-small{
+  width: 482px;
+
+  .step-progress-row{
+    height: 8px;
+    width: 100%;
+    background: @baseColor;
+    .border-radius(8px);
+  }
+  .step-label{
+    color:  @baseColor;
+    text-align: center;
+    display: inline-block;
+
+
+    .step-status{
+      background: @baseColor;
+      color: #fff;
+      display: block;
+      width: 24px;
+      height: 24px;
+      .border-radius(50%);
+      margin: 0 auto 5px;
+      padding-top: 3px;
+      font-size: @baseFontLarge;
+      font-weight: bold;
+    }
+  }
+
+  .small-step-1{
+    width: 112px;
+    float: left;
+    text-align: right;
+  }
+  .small-step-2{
+    width: 256px;
+    float: left;
+    text-align: center;
+  }
+
+  .step{
+    margin-top: -16px;
+  }
+
+
+}
+
+/****small progress bar starts END***/
+
+
+  /*pagination start*/
 .common-pagination{
   float: right;
 

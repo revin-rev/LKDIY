@@ -1029,6 +1029,60 @@
 .sui-steps-round .todo.last .wrap {
   margin-top: 29px;
 }
+/****small progress bar starts START***/
+.top-steps {
+  margin-top: 20px;
+}
+.step-small {
+  width: 482px;
+}
+.step-small .step-progress-row {
+  height: 8px;
+  width: 100%;
+  background: #c41411;
+  -webkit-border-radius: 8px;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 8px;
+  -moz-background-clip: padding;
+  border-radius: 8px;
+  background-clip: padding-box;
+}
+.step-small .step-label {
+  color: #c41411;
+  text-align: center;
+  display: inline-block;
+}
+.step-small .step-label .step-status {
+  background: #c41411;
+  color: #fff;
+  display: block;
+  width: 24px;
+  height: 24px;
+  -webkit-border-radius: 50%;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 50%;
+  -moz-background-clip: padding;
+  border-radius: 50%;
+  background-clip: padding-box;
+  margin: 0 auto 5px;
+  padding-top: 3px;
+  font-size: 14px;
+  font-weight: bold;
+}
+.step-small .small-step-1 {
+  width: 112px;
+  float: left;
+  text-align: right;
+}
+.step-small .small-step-2 {
+  width: 256px;
+  float: left;
+  text-align: center;
+}
+.step-small .step {
+  margin-top: -16px;
+}
+/****small progress bar starts END***/
 /*pagination start*/
 .common-pagination {
   float: right;

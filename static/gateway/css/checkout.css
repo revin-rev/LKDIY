@@ -1,0 +1,52 @@
+/******************************************************
+   *Variables START
+******************************************************/
+.gateway-container {
+  border: 1px solid rgba(0, 90, 160, 0.2);
+  border-top: 2px solid  #005aa0;
+  margin-top: 70px;
+  min-height: 400px;
+  padding-top: 60px;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: center;
+}
+.gateway-container .gateway-info-block {
+  display: inline-block;
+  text-align: left;
+  padding-left: 10px;
+  margin-left: -72px;
+}
+.gateway-container .gateway-info-block h4 {
+  margin-top: 0;
+  white-space: nowrap;
+  margin-bottom: 38px;
+  font-size: 16px;
+}
+.gateway-container .gateway-info-block h4 img {
+  margin-left: -48px;
+  margin-right: 5px;
+}
+.gateway-container .gateway-info-block ul {
+  margin-top: 15px;
+  margin-left: 12px;
+}
+.gateway-container .gateway-info-block ul li a {
+  font-size: 14px;
+  padding: 8px 12px;
+  min-width: 120px;
+  text-align: center;
+  -webkit-border-radius: 2px;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 2px;
+  -moz-background-clip: padding;
+  border-radius: 2px;
+  background-clip: padding-box;
+  background: #ebebeb;
+}
+.gateway-container .gateway-info-block ul li a.btn-red {
+  background: #c41411;
+  border-color: #c41411;
+  color: #fff;
+  margin-right: 20px;
+}
