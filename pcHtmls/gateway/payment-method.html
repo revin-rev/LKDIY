@@ -126,16 +126,42 @@
 
         <!--checkout mid section START-->
         <div class="container">
-            <div class="gateway-container gateway-center-content ">
-                <div class="row sui-text-left inline-block" >
+            <div class="gateway-container gateway-top-less">
+                <div class="row sui-text-left" >
                     <div class="column">
-                        <img src="../../static/gateway/images/redirecting.png" alt="ok"/>
+                        <img src="../../static/gateway/images/ok.png" alt="ok"/>
                     </div>
-                    <div class="column margin-left-25">
-                       <h2>正在创建支付安全链接...</h2>
-                        <span class="base-large-font base-color-light">请您耐心等待</span>
+                    <div class="column">
+                        <div class="row">
+                            <span class="base-large-font center-block margin-bottom-30 margin-top-20">您的订单1501116222已提交，请于X小时内完成支付！（逾期订单将被取消）</span>
+                            <h4 class="margin-bottom-20"><span class="base-large-font">应付金额：<strong class="base-color-medium">￥336.00</strong></span> <span class="base-color-light ">（在线支付）</span></h4>
+                        </div>
                     </div>
+                    <div class="column width-100 clear-fix">
+                        <hr>
+                    </div>
+                    <div class="clear-fix"></div>
+                    <div class="gateway-offset-block">
+                        <span class="base-large-font center-block margin-top-20 margin-bottom-20">支付平台</span>
+
+                        <ul class="list-inline">
+                            <li>
+                                <label><input name="payment" class="margin-right-10" type="radio"/> <img src="../../static/gateway/images/gateway-1.png" alt="payment-way"/></label>
+                            </li>
+                            <li class="margin-left-10">
+                                <label><input name="payment" class="margin-right-10" type="radio"/> <img src="../../static/gateway/images/gateway-2.png" alt="payment-way"/></label>
+                            </li>
+                            <li class="margin-left-10">
+                                <label><input name="payment" class="margin-right-10" type="radio"/> <img src="../../static/gateway/images/gateway-3.png" alt="payment-way"/></label>
+                            </li>
+                        </ul>
+                    </div>
+
                 </div>
+                <ul class="list-inline gateway-btns margin-top-30">
+                    <li><a href="#" class="sui-btn btn-red">继续购买</a></li>
+                    <li><a href="#" class="sui-btn margin-left-25">查看订单详情</a></li>
+                </ul>
             </div>
         </div>
         <!--checkout mid section END-->

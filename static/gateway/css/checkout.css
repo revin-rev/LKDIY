@@ -11,8 +11,16 @@
   padding-right: 30px;
   text-align: center;
 }
+.gateway-container h2 {
+  font-weight: 400;
+  font-size: 30px;
+  margin-bottom: 15px;
+}
 .gateway-container.gateway-top-less {
   padding-top: 20px;
+}
+.gateway-container.gateway-center-content {
+  padding-top: 137px;
 }
 .gateway-container ul.gateway-btns {
   margin-top: 15px;
@@ -37,8 +45,8 @@
   color: #fff;
   margin-right: 20px;
 }
-.gateway-container ul.gateway-btns.gateway-btns {
-  margin-top: 60px;
+.gateway-container ul.gateway-btns.margin-top-30 {
+  margin-top: 50px;
 }
 .gateway-container .gateway-info-block {
   display: inline-block;
