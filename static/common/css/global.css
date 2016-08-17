@@ -217,6 +217,9 @@ span.dropdown-inner.input-error {
 .margin-bottom-30 {
   margin-bottom: 30px;
 }
+.margin-bottom-40 {
+  margin-bottom: 40px;
+}
 .margin-zero {
   margin: 0;
 }
@@ -243,6 +246,9 @@ span.dropdown-inner.input-error {
 }
 .margin-bottom-20 {
   margin-bottom: 20px;
+}
+.margin-left-30 {
+  margin-left: 30px;
 }
 .margin-left-20 {
   margin-left: 20px;
@@ -362,6 +368,7 @@ span.dropdown-inner.input-error {
   padding: 8px;
   height: auto;
 }
+/*Breadcrumb START*/
 .custom-breadcrumb {
   padding: 0;
   margin-bottom: 15px;
@@ -378,6 +385,40 @@ span.dropdown-inner.input-error {
 .custom-breadcrumb > .active {
   color: #666666;
 }
+.custom-breadcrumb.custom-breadcrumb-x2 li.first-link a {
+  font-size: 18px;
+  font-weight: bold;
+}
+.custom-breadcrumb.custom-breadcrumb-x2 li + li:before {
+  content: ">";
+  color: #666666;
+  font-family: monospace;
+  font-size: 16px;
+  vertical-align: top;
+  line-height: 14px;
+}
+.custom-breadcrumb.custom-breadcrumb-x2 li + li a {
+  font-size: 12px;
+}
+/*Breadcrumb END*/
+/*Panels START*/
+.panel {
+  border: 1px solid #dedede;
+}
+.panel .panel-heading {
+  border-bottom: 1px solid #dedede;
+  padding: 10px 20px;
+  font-size: 14px;
+  background: #f2f2f2;
+}
+.panel .panel-body {
+  padding: 7px 20px;
+}
+.panel .panel-body.long-body {
+  padding: 20px;
+  min-height: 60px;
+}
+/*Panels END*/
 .back-to-top {
   height: 36px;
   width: 36px;
