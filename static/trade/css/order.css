@@ -27,6 +27,9 @@
   border-color: #c41411;
   color: #fff;
 }
+.trade-base-btn + .trade-base-btn {
+  margin-left: 18px;
+}
 .trade-steps {
   width: 874px;
   margin: 0 auto 60px;
