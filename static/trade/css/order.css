@@ -12,6 +12,10 @@
   vertical-align: middle;
   display: table-cell;
 }
+.trade-table .trade-table-row .trade-table-column hr {
+  border-color: #dedede;
+  border-bottom: 0;
+}
 .trade-base-btn {
   background: #c41411;
   border-color: #c41411;
@@ -152,4 +156,59 @@
   background: #c41411;
   left: -1px;
   top: 14px;
+}
+.trade-products-table {
+  border: 1px solid #dedede;
+  border-bottom: 0;
+}
+.trade-products-table .trade-table-column {
+  border-bottom: 1px solid #dedede;
+  border-right: 1px solid #dedede;
+  padding: 9px 20px;
+}
+.trade-products-table .trade-table-column:last-child {
+  border-right: 0;
+}
+.trade-products-table .trade-table-thead {
+  background: #eaf7fc;
+}
+.trade-products-table .trade-table-thead .trade-table-column {
+  border-right: 0;
+  padding: 3px 20px;
+}
+.trade-products-table .btn-default {
+  background: #f2f2f2;
+  border-color: #dedede;
+  color: #666666;
+  padding: 3px 14px;
+}
+.trade-products-table .btn-default:hover {
+  background: #c41411;
+  color: #fff;
+  border: #c41411;
+}
+.trade-total-block {
+  margin-top: 50px;
+  min-width: 204px;
+  text-align: center;
+}
+.trade-total-block label.trade-label {
+  min-width: 78px;
+  text-align: right;
+  display: inline-block;
+}
+.trade-total-block span.trade-label {
+  display: inline-block;
+  min-width: 43px;
+  text-align: left;
+}
+.trade-total-block hr {
+  margin: 10px 0;
+}
+.trade-total-block strong {
+  vertical-align: middle;
+}
+.trade-total-block .trade-large {
+  color: #c41411;
+  font-size: 24px;
 }

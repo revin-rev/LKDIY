@@ -12,6 +12,11 @@
     .trade-table-column{
       vertical-align: middle;
         display: table-cell;
+
+      hr{
+        border-color: @avgBorderColor;
+        border-bottom: 0;
+      }
     }
   }
 }
@@ -27,7 +32,6 @@
     color: @white;
   }
 }
-
 .trade-steps{
   width: 874px;
   margin: 0 auto 60px;
@@ -164,5 +168,65 @@
         }
       }
     }
+  }
+}
+.trade-products-table{
+  border:1px solid @avgBorderColor;
+  border-bottom:0;
+
+
+  .trade-table-column{
+    border-bottom:1px solid @avgBorderColor;
+    border-right:1px solid @avgBorderColor;
+    padding: 9px 20px;
+
+    &:last-child{
+      border-right:0;
+    }
+  }
+  .trade-table-thead{
+    background: #eaf7fc;
+
+    .trade-table-column{
+      border-right:0;
+      padding: 3px 20px;
+    }
+  }
+  .btn-default{
+    background: @primaryColor;
+    border-color: @avgBorderColor;
+    color: @baseTextColor;
+    padding: 3px 14px;
+
+    &:hover{
+      background: @baseColor;
+      color: @white;
+      border: @baseColor;
+    }
+  }
+}
+.trade-total-block{
+  margin-top: 50px;
+  min-width: 204px;
+  text-align: center;
+  label.trade-label{
+    min-width: 78px;
+    text-align: right;
+    display: inline-block;
+  }
+  span.trade-label{
+    display: inline-block;
+    min-width: 43px;
+    text-align: left;
+  }
+  hr{
+    margin: 10px 0;
+  }
+  strong{
+    vertical-align: middle;
+  }
+  .trade-large{
+    color: @baseColor;
+    font-size: 24px;
   }
 }
