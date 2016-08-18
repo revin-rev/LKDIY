@@ -94,6 +94,9 @@ p {
 .line-height-24 {
   line-height: 24px;
 }
+.line-height-36 {
+  line-height: 36px;
+}
 span.dropdown-inner.input-error {
   border-color: #ea4a36 !important;
 }
@@ -244,6 +247,9 @@ span.dropdown-inner.input-error {
 .margin-top-10 {
   margin-top: 10px ;
 }
+.margin-top-15 {
+  margin-top: 15px ;
+}
 .margin-right-10 {
   margin-right: 10px;
 }
@@ -264,6 +270,9 @@ span.dropdown-inner.input-error {
 }
 .margin-left-10 {
   margin-left: 15px;
+}
+.margin-left-5 {
+  margin-left: 5px;
 }
 .margin-top-20 {
   margin-top: 20px;
