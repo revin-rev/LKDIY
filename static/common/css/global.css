@@ -414,19 +414,19 @@ span.dropdown-inner.input-error {
 }
 /*Breadcrumb END*/
 /*Panels START*/
-.panel {
+.panel.custom {
   border: 1px solid #dedede;
 }
-.panel .panel-heading {
+.panel.custom .panel-heading {
   border-bottom: 1px solid #dedede;
   padding: 10px 20px;
   font-size: 14px;
   background: #f2f2f2;
 }
-.panel .panel-body {
+.panel.custom .panel-body {
   padding: 7px 20px;
 }
-.panel .panel-body.long-body {
+.panel.custom .panel-body.long-body {
   padding: 20px;
   min-height: 60px;
 }
