@@ -88,8 +88,8 @@
     </div>
     <!-- Top Navbar END -->
     <!-- Header After Login START -->
+    <!-- Middle header START -->
     <div class="container">
-        <!-- Middle header START -->
         <div class="container middle-header trade-shopping-cart-middle-header">
             <div class="row">
                 <div class="column logo-column ">
@@ -110,35 +110,33 @@
                 </div>
             </div>
         </div>
-        <!-- Middle header END -->
         <table class="sui-table table-bordered-simple">
           <thead>
             <tr>
                 <th width="10%">
                     <label class="checkbox">
-                        <input type="checkbox">
-                    </label>全选
-                </th>
-                <th width="30%">商品信息</th>
-                <th width="10%">单价(元)</th>
-                <th width="10%">数量</th>
-                <th width="10%">金额(元)</th>
-                <th width="10%">操作</th>
-            </tr>
-        </thead>
-    </table>
-    <table class="sui-table">
-      <thead>
-          <tr>
-              <th>
-                  <label class="checkbox">
-                      <input type="checkbox">
-                  </label>
-                  普通商品
-              </th>
-          </tr>
-      </thead>
-  </table>
+                        <input type="checkbox" id="checkAll">
+                    </label>全选 </th>
+                    <th width="30%">商品信息</th>
+                    <th width="10%">单价(元)</th>
+                    <th width="10%">数量</th>
+                    <th width="10%">金额(元)</th>
+                    <th width="10%">操作</th>
+                </tr>
+            </thead>
+        </table>
+        <table class="sui-table">
+          <thead>
+              <tr>
+                  <th>
+                      <label class="checkbox">
+                          <input type="checkbox">
+                      </label>
+                      普通商品
+                  </th>
+              </tr>
+          </thead>
+      </table>
       <div class="trade-single-order-detail-row">
         <div class="trade-product-data trade-product-data-border">
             <label class="checkbox">
@@ -161,7 +159,9 @@
                 <input class="decrement" value="-" type="button">
                 <input name="quantity" value="1" maxlength="2" max="10" size="1" class="number" id="number" style="text-align: center" type="text">
                 <input type="button" class="increment" value="+" />
-                <label class="inline-block trade-extra-tight">库存紧张</label>
+                <label class="inline-block trade-extra-tight">
+                    库存紧张
+                </label>
             </div>  
             <div class="trade-status-value-final">
                 88.00
@@ -196,16 +196,16 @@
                 </span>
             </div>
             <div class="trade-receiver-value-new">
-                88.00
+                120.00
             </div>
             <div class="trade-price-value-inc">
                 <input class="decrement" value="-" type="button">
-                <input name="quantity" value="1" maxlength="2" max="10" size="1" class="number" id="number" style="text-align: center" type="text">
+                <input name="quantity" value="2" maxlength="2" max="10" size="1" class="number" id="number" style="text-align: center" type="text">
                 <input type="button" class="increment" value="+" />
                 <label class="inline-block trade-extra-tight">库存紧张</label>
             </div>  
             <div class="trade-status-value-final">
-                88.00
+                240.00
             </div>
             <ul class="unstyled">
                 <li>
@@ -217,181 +217,257 @@
             </ul>
         </div>
     </div>
-        <table class="sui-table">
-          <thead>
-              <tr>
-                  <th><label class="checkbox"><input type="checkbox">
+    <table class="sui-table">
+      <thead>
+          <tr>
+              <th>
+                  <label class="checkbox"><input type="checkbox">
                   </label>
                   普通商品
               </th>
           </tr>
       </thead>
-    </table>
-
-<div class="trade-single-order-detail-row">
+  </table>
+  <div class="trade-single-order-detail-row">
     <div class="trade-product-data trade-product-data-border">
-        <label class="checkbox"><input type="checkbox"></label>
+        <label class="checkbox">
+            <input type="checkbox">
+        </label>
         <div class="trade-name trade-name-new">
-            <a href="#"><img src="../../static/trade/images/blank-image.png"></a>
+            <a href="#">
+                <img src="../../static/trade/images/blank-image.png">
+            </a>
             <p>
                 <a href="#" class="trade-normal-anew">iPhone 5/5s 椭圆口保护壳</a>
                 <label class="inline-block trade-extra-margins">返修/退换货</label>
             </p>
             <span class="inline-block trade-extra-margin-new">型号：5/5s光面白色椭圆口磨砂</span>
         </div>
-        <div class="trade-receiver-value-new">58.00+800积分</div>
+        <div class="trade-receiver-value-new">
+            58.00+800积分
+        </div>
         <div class="trade-price-value-inc">
-                <input class="decrement" value="-" type="button">
-                <input name="quantity" value="1" maxlength="2" max="10" size="1" class="number" id="number" style="text-align: center" type="text">
-                <input type="button" class="increment" value="+" />
-                <label class="inline-block trade-extra-tight">库存紧张</label>
-            </div>   
-        <div class="trade-status-value-final">58.00+800积分</div>
+            <input class="decrement" value="-" type="button">
+            <input name="quantity" value="1" maxlength="2" max="10" size="1" class="number" id="number" style="text-align: center" type="text">
+            <input type="button" class="increment" value="+" />
+            <label class="inline-block trade-extra-tight">
+                库存紧张
+            </label>
+        </div>  
+        <div class="trade-status-value-final">
+            58.00+800积分
+        </div>
         <ul class="unstyled">
-            <li><a href="#">移动到收藏夹</a></li>
-            <li><a href="#" class="trade-extra-color" data-toggle="modal" data-target="#myModal" data-keyboard="false">删除</a></li>
+            <li>
+                <a href="#">移动到收藏夹</a>
+            </li>
+            <li>
+                <a href="#" class="trade-extra-color" data-toggle="modal" data-target="#myModal" data-keyboard="false">删除</a>
+            </li>
         </ul>
     </div>
     <div class="trade-product-data trade-product-data-border">
-        <label class="checkbox"><input type="checkbox"></label>
-        <div class="trade-name trade-name-new">
-            <a href="#"><img src="../../static/trade/images/blank-image.png"></a>
-            <p>
-                <a href="#" class="trade-normal-anew">iPhone 5/5s 椭圆口保护壳</a>
-                <label class="inline-block trade-extra-margins">返修/退换货</label>
-            </p>
-            <span class="inline-block trade-extra-margin-new">型号：5/5s光面白色椭圆口磨砂</span>
-        </div>
-        <div class="trade-receiver-value-new">88.00</div>
-        <div class="trade-price-value-inc">
-                <input class="decrement" value="-" type="button">
-                <input name="quantity" value="1" maxlength="2" max="10" size="1" class="number" id="number" style="text-align: center" type="text">
-                <input type="button" class="increment" value="+" />
-                <label class="inline-block trade-extra-tight">库存紧张</label>
-            </div>   
-        <div class="trade-status-value-final">88.00</div>
-        <ul class="unstyled">
-            <li><a href="#">移动到收藏夹</a></li>
-            <li><a href="#" class="trade-extra-color" data-toggle="modal" data-target="#myModal" data-keyboard="false">删除</a></li>
-        </ul>
+    <label class="checkbox">
+        <input type="checkbox">
+    </label>
+    <div class="trade-name trade-name-new">
+        <a href="#">
+            <img src="../../static/trade/images/blank-image.png">
+        </a>
+        <p>
+            <a href="#" class="trade-normal-anew">
+                iPhone 5/5s 椭圆口保护壳
+            </a>
+            <label class="inline-block trade-extra-margins">
+                返修/退换货
+            </label>
+        </p>
+        <span class="inline-block trade-extra-margin-new">
+            型号：5/5s光面白色椭圆口磨砂
+        </span>
     </div>
+    <div class="trade-receiver-value-new">
+        5000积分
+    </div>
+    <div class="trade-price-value-inc">
+        <input class="decrement" value="-" type="button">
+        <input name="quantity" value="2" maxlength="2" max="10" size="1" class="number" id="number" style="text-align: center" type="text">
+        <input type="button" class="increment" value="+" />
+        <label class="inline-block trade-extra-tight">
+            库存紧张
+        </label>
+    </div>  
+    <div class="trade-status-value-final">
+        10000积分
+    </div>
+    <ul class="unstyled">
+        <li>
+            <a href="#">
+                移动到收藏夹
+            </a>
+        </li>
+        <li>
+            <a href="#" class="trade-extra-color" data-toggle="modal" data-target="#myModal" data-keyboard="false">
+                删除
+            </a>
+        </li>
+    </ul>
 </div>
 
 
-
+</div>
 <table class="sui-table table-bordered-simple trade-margin">
-          <thead>
-            <tr>
-                <th width="5%"><label class="checkbox"><input type="checkbox"></label>全选</th>
-                <th width="5%">商品信息</th>
-                <th width="5%">批量删除</th>
-                <th width="15%">移入收藏夹</th>
-                <th width="5%">已选择 <span>0</span> 件商品</th>
-                <th width="10%">总价（不含运费）：<span>0.00</span></th>
-                <th width="5%">结 算</th>
+  <thead>
+    <tr>
+        <th width="3%">
+            <label class="checkbox">
+                <input type="checkbox">
+            </label>
+            全选
+        </th>
+        <th width="3%">
+           批量删除 
+        </th>
+        <th width="18%">
+            移入收藏夹
+        </th>
+        
+        <th width="6%">
+            已选择 
+            <span class="trade-total-value">
+                6
+            </span> 
+            件商品
+        </th>
+        <th class="trade-price" width="15%">
+            总价（不含运费）：
+            <label class="trade-bold">
+                386.00+10800积分
+            </label>
+            <span class="trade-total-price">
+                
+                您的积分（8000）不足以支付购物车中的商品
+            </span>
+        </th>
+        <th class="trade-bg" width="3%">
+            结 算
+        </th>
+    </tr>
+</thead>
 
-            </tr>
-        </thead>
+</table>
 
-    </table>
-
-
-    <div class="trade-my-collections">
+<div class="trade-my-collections">
+    <div class="trade-best-products-listing">
         <div class="clear-fix">
-        <h5 class="heading margin-top-10 pull-left">热卖推荐</h5>
-            <a href="#" class="margin-top-10 pull-right trade-ima">换一批 </a>
-           
+            <h5 class="heading margin-top-10 pull-left">
+                热卖推荐
+            </h5>
+            <a href="#" class="margin-top-10 pull-right trade-ima">
+                换一批 
+            </a>
         </div>
-        <div class="trade-best-products-listing">
-            <div class="column trade-single-product">
-                <a href="#">
-                    <div class="trade-single-product-image">
-                        <img src="../../static/item/images/category-product-image.png">
-                    </div>
-                    <h2>￥9.90 </h2>
-                    <p>
-                    <span class="trade-color">金士顿（Kingston）DT SE9H 16GB</span>
-                      <span class="trade-color">金属U盘 银色亮薄</span>
-                  </p>
-              </a>
-          </div>
-          <div class="column trade-single-product">
-                <a href="#">
-                    <div class="trade-single-product-image">
-                        <img src="../../static/item/images/category-product-image.png">
-                    </div>
-                    <h2>￥9.90 </h2>
-                    <p>
-                    <span class="trade-color">金士顿（Kingston）DT SE9H 16GB</span>
-                      <span class="trade-color">金属U盘 银色亮薄</span>
-                  </p>
-              </a>
-          </div>
-          <div class="column trade-single-product">
-                <a href="#">
-                    <div class="trade-single-product-image">
-                        <img src="../../static/item/images/category-product-image.png">
-                    </div>
-                    <h2>￥9.90 </h2>
-                    <p>
-                    <span class="trade-color">金士顿（Kingston）DT SE9H 16GB</span>
-                      <span class="trade-color">金属U盘 银色亮薄</span>
-                  </p>
-              </a>
-          </div>
-          <div class="column trade-single-product">
-                <a href="#">
-                    <div class="trade-single-product-image">
-                        <img src="../../static/item/images/category-product-image.png">
-                    </div>
-                    <h2>￥9.90 </h2>
-                    <p>
-                    <span class="trade-color">金士顿（Kingston）DT SE9H 16GB</span>
-                      <span class="trade-color">金属U盘 银色亮薄</span>
-                  </p>
-              </a>
-          </div>
-          <div class="column trade-single-product">
-                <a href="#">
-                    <div class="trade-single-product-image">
-                        <img src="../../static/item/images/category-product-image.png">
-                    </div>
-                    <h2>￥9.90 </h2>
-                    <p>
-                    <span class="trade-color">金士顿（Kingston）DT SE9H 16GB</span>
-                      <span class="trade-color">金属U盘 银色亮薄</span>
-                  </p>
-              </a>
-          </div>
-      </div>
-      
-      
-
-  </div>
-
-
-
-<!-- Modal Section START -->
-
-<div id="myModal" tabindex="-1" role="dialog" data-hasfoot="false" class="sui-modal hide fade">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" data-dismiss="modal" aria-hidden="true" class="sui-close">×</button>
-                <h4 id="myModalLabel" class="modal-title">删除订单</h4>
-            </div>
-            <div class="modal-body">
-                <strong class="center-block margin-bottom-30">确认删除该订单？</strong>
-                <button type="button" data-ok="modal" class="btn-gray">取消</button><button type="button" data-dismiss="modal" class="btn-gray btn-default">确定</button>
-            </div>
+        <div class="column trade-single-product">
+            <a href="#">
+                <div class="trade-single-product-image">
+                    <img src="../../static/item/images/category-product-image.png">
+                </div>
+                <h2>
+                    ￥9.90 
+                </h2>
+                <p>
+                    <span class="trade-color">
+                        金士顿（Kingston）DT SE9H 16GB
+                    </span>
+                    <span class="trade-color">
+                        金属U盘 银色亮薄
+                    </span>
+                </p>
+            </a>
+        </div>
+        <div class="column trade-single-product">
+            <a href="#">
+                <div class="trade-single-product-image">
+                    <img src="../../static/item/images/category-product-image.png">
+                </div>
+                <h2>
+                    ￥9.90 
+                </h2>
+                <p>
+                    <span class="trade-color">
+                        金士顿（Kingston）DT SE9H 16GB
+                    </span>
+                    <span class="trade-color">
+                        金属U盘 银色亮薄
+                    </span>
+                </p>
+            </a>
+        </div>
+        <div class="column trade-single-product">
+            <a href="#">
+                <div class="trade-single-product-image">
+                    <img src="../../static/item/images/category-product-image.png">
+                </div>
+                <h2>
+                    ￥9.90 
+                </h2>
+                <p>
+                    <span class="trade-color">
+                        金士顿（Kingston）DT SE9H 16GB
+                    </span>
+                    <span class="trade-color">
+                        金属U盘 银色亮薄
+                    </span>
+                </p>
+            </a>
+        </div>
+        <div class="column trade-single-product">
+            <a href="#">
+                <div class="trade-single-product-image">
+                    <img src="../../static/item/images/category-product-image.png">
+                </div>
+                <h2>
+                    ￥9.90 
+                </h2>
+                <p>
+                    <span class="trade-color">
+                        金士顿（Kingston）DT SE9H 16GB
+                    </span>
+                    <span class="trade-color">
+                        金属U盘 银色亮薄
+                    </span>
+                </p>
+            </a>
+        </div>
+        <div class="column trade-single-product">
+            <a href="#">
+                <div class="trade-single-product-image">
+                    <img src="../../static/item/images/category-product-image.png">
+                </div>
+                <h2>
+                    ￥9.90 
+                </h2>
+                <p>
+                    <span class="trade-color">
+                        金士顿（Kingston）DT SE9H 16GB
+                    </span>
+                    <span class="trade-color">
+                        金属U盘 银色亮薄
+                    </span>
+                </p>
+            </a>
         </div>
     </div>
 </div>
+</div>
 
-<!-- Modal Section END -->
 
-  <!-- Sub Footer START -->
-  <div class="sub-footer">
+
+
+<!-- Middle header END -->
+
+<!-- Sub Footer START -->
+<div class="sub-footer">
     <div class="container">
         <div class="row">
             <div class="column">
@@ -447,6 +523,25 @@
 </div>
 <!-- Sub Footer END -->
 
+<!-- Modal Section START -->
+
+<div id="myModal" tabindex="-1" role="dialog" data-hasfoot="false" class="sui-modal hide fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" data-dismiss="modal" aria-hidden="true" class="sui-close">×</button>
+                <h4 id="myModalLabel" class="modal-title">删除订单</h4>
+            </div>
+            <div class="modal-body">
+                <strong class="center-block margin-bottom-30">确认删除该订单？</strong>
+                <button type="button" data-ok="modal" class="btn-gray">取消</button><button type="button" data-dismiss="modal" class="btn-gray btn-default">确定</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Modal Section END -->
 <!-- Footer START -->
 <div class="footer">
     <div class="container">
@@ -576,12 +671,10 @@
             </div>
         </div>
         <!-- Copyright and Quick Links START -->
-
     </div>
 </div>
 
-<!-- Back To top START-->
-<a href="#top" class="back-to-top"></a>
+    <a href="#top" class="back-to-top" style="display: block;"></a>
 <!-- Back To top END-->
 <script src="../../static/common/scripts/jquery-1.12.4.min.js"></script>
 <script src="../../static/common/scripts/scripts.js"></script>

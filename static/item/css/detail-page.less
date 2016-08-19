@@ -1,0 +1,439 @@
+@import "../../common/css/variable";
+@import "../../common/css/lesshat";
+
+/******************************************************
+   *Detail page
+******************************************************/
+
+.item-breadcrumb-column{
+  width: 980px;
+}
+.item-result-text-column{
+  width: 240px;
+  text-align: right;
+  padding-right: 20px;
+  padding-top: 15px;
+}
+
+/*--- topbar start ---*/
+.item-top-heading-bar-left{
+  margin: 0;
+  padding: 0;
+  float: left;
+
+
+  ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float: left;
+
+    li{
+
+      float: left;
+      a{
+        text-decoration: none;
+        color:@baseTextColor;
+        padding: 15px 20px;
+        display: block;
+        position: relative;
+
+        &:hover{
+          background-color: @baseColor;
+          color: @white;
+        }
+        span{
+          margin-left: 5px;
+          float: right;
+          position: absolute;
+          right:5px;
+          top: 22px;
+          height: 5px;
+          line-height: 0px;
+          width: 8px;
+
+          &.icon-sort-up{
+            display: none;
+          }
+        }
+      }
+      &.active a{
+        background-color: @baseColor;
+        color: @white;
+
+        span{
+          &.icon-sort-up{
+            display: block;
+            top: 27px;
+          }
+          &.icon-sort-down{
+            display: none;
+
+          }
+        }
+      }
+    }
+  }
+}
+.item-top-heading-bar-right{
+  margin: 0;
+  padding: 0;
+  float: right;
+
+  p{
+    margin: 0;
+    padding:15px 20px 0 0;
+    display: inline-block;
+    color:@baseTextColor;
+
+    .active-page{
+      color:@baseColor;
+    }
+  }
+}
+/*--- topbar end ---*/
+
+/*--- products and pagination start --*/
+
+.item-single-product{
+  width: 240px;
+  padding: 20px;
+  border: 1px solid @darkBorderColor;
+  margin-right: 6px;
+  min-height: 360px;
+  margin-bottom: 10px;
+
+  .item-single-product-image{
+    width: 100%;
+    height:198px ;
+    background-color:#e5e5e5;
+    border:1px solid #e5e5e5;
+
+    img{
+      width: 100%;
+    }
+  }
+
+  h2{
+    color:@baseColor;
+    font-size:@baseFontXLarge;
+    margin:20px 0 30px;
+    line-height: normal;
+    font-weight: normal;
+
+    span{
+      color:@footerCopyrightTextColor;
+      font-size: @baseFontLarge;
+      margin-left: 1px;
+      margin-right: 1px;
+      font-weight: normal;
+    }
+  }
+
+  p{
+    margin: 0;
+    font-size: @baseFont;
+    color:@baseTextColor;
+    height: 36px;
+    overflow: hidden;
+
+    span{
+      display: block;
+      margin-top:3px;
+    }
+  }
+  &:hover{
+    border-color: @baseColor;
+    .box-shadow(0px 0px 4px 0px rgba(0, 0, 0, 0.4));
+  }
+  .item-plus-text{
+    font-family: @fontFamilyVeradna;
+    font-size: @baseFontXLarge;
+  }
+}
+
+.item-last-product{
+  float: right;
+  margin-right: 0;
+}
+/*--- products and pagination end ---*/
+
+
+
+.item-digital-office-sidebar{
+  border: 1px solid @darkBorderColor;
+  margin-bottom: 20px;
+
+  .item-accordion-main-heading{
+    margin: 0;
+    padding:11px 15px;
+    font-size: 16px;
+    line-height: normal;
+    color: @baseTextColor;
+
+    &.item-accordion-main-heading-small{
+      padding:11px 8px;
+    }
+  }
+  .panel-heading {
+    border-top: 1px solid @darkBorderColor;
+    padding: 9px 15px;
+
+    span{
+      display: block;
+
+      &.item-accordion-minus{
+        display: none;
+      }
+    }
+
+    &.active{
+      background-color: @subFooterBG;
+
+      span{
+        display: none;
+
+        &.item-accordion-minus{
+          display: block;
+        }
+      }
+    }
+  }
+  .panel-body{
+    padding:15px 34px;
+  }
+  .panel-title{
+    margin: 0;
+  }
+  #accordion{
+    padding:0;
+  }
+
+  .panel-title a{
+    color:@baseTextColor ;
+    font-size: @baseFontLarge;
+    text-decoration: none;
+  }
+
+  .item-accordion-sub-list{
+    list-style: none;
+    li{
+      display: block;
+      &.active a, a:hover,a:focus{
+        color:@baseColor;
+        text-decoration: none
+      }
+      a{
+        font-size: @baseFont;
+        color:@baseTextColor;
+        padding-bottom: 30px;
+        display: block;
+        text-decoration: none;
+        &.padding-bottom-zero{ padding-bottom: 0}
+      }
+    }
+  }
+  .item-featured-products{
+    .item-single-product{
+      margin: 0;
+      padding: 0;
+      border: 0;
+      width: auto;
+      border-top: 1px solid @darkBorderColor;
+      min-height: 0;
+
+      &:hover{ box-shadow: none}
+      .item-featured-image{
+        width: 100%;
+        height:188px;
+        text-align: center;
+      }
+      h2{
+        color:@baseColor;
+        font-size:@baseFontLarge;
+        margin:0;
+        line-height: normal;
+        padding: 10px 13px;
+        font-weight: normal;
+        span{
+          color:@footerCopyrightTextColor;
+          font-size: @baseFontLarge;
+          margin-left: 1px;
+          margin-right: 1px;
+          font-weight: normal;
+        }
+        small{
+          color:@baseColor;
+        }
+      }
+    }
+  }
+  .panel-title {
+    span {
+
+      border: 1px solid @darkBorderColor;
+      color: @footerCopyrightTextColor;
+      font-size: 11px;
+      padding: 0 3px;
+      .border-radius(2px);
+      float: left;
+      height: 14px;
+      line-height: 13px;
+      margin-right: 7px;
+      margin-top: 3px;
+      text-align: center;
+      width: 14px;
+    }
+  }
+}
+
+
+  .item-block-title-bar{
+    padding:  16px 12px 16px 34px;
+    background: @primaryColor;
+    color: @detailPageColor;
+    font-size: @baseFontMedium;
+
+    a{
+        color: @detailPageColor;
+        font-size: @baseFontLarge;
+        vertical-align: middle;
+    }
+    .back-arrow{
+      background-image:url("../../common/images/spirit_icons.png");
+      background-position: 385px 186px;
+      display: inline-block;
+      height: 14px;
+      width: 20px;
+      vertical-align: middle;
+    }
+  }
+
+  .item-hot-product-row{
+    max-width: 837px;
+    margin: 0 auto;
+  }
+
+  .item-hot-product{
+    text-align: center;
+    margin-top: 15px;
+    max-width: 118px;
+    float: left;
+
+    h4{
+      font-size: @baseFontLarge;
+      font-weight: normal;
+      margin-top: 15px;
+    }
+
+    a{
+      display: block;
+      color: @detailPageColor;
+      border: 1px solid @baseColorDark;
+      font-size: @baseFontLarge;
+      padding: 7px;
+
+      &:hover{
+        background: @baseColorDark;
+        color: @white;
+      }
+    }
+
+    & + & {
+      margin-left: 115px;
+    }
+  }
+
+  .item-nav-bar-detail{
+    background: @primaryColor;
+    color: @detailPageColor;
+    margin-top: 30px;
+    ul{
+      list-style: none;
+      padding: 0;
+      margin: 0;
+
+        li{
+          float: left;
+
+          a{
+            font-size: @baseFontMedium;
+            color: @detailPageColor;
+            display: block;
+            padding: 16px;
+            min-width: 154px;
+            text-align: center;
+          }
+
+          & + li{
+            border-left: 2px solid @white;
+          }
+          &.active{
+            a{
+              color: @white;
+              background: @baseColorDark;
+            }
+            & + li{
+              border-left: 0;
+            }
+          }
+        }
+    }
+  }
+  .item-detail-values{
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+
+    li{
+      float: left;
+      color: @detailPageColor;
+      width: 25%;
+      margin-bottom: 30px;
+    }
+  }
+
+  .item-may-like-block{
+    border: 1px solid @primaryColor;
+    margin-top: 85px;
+    padding: 20px 15px;
+
+    > h4{
+      font-size: @baseFontMedium;
+      font-weight: normal;
+      margin: 0;
+      color: @detailPageColor;
+      margin-bottom: 48px;
+    }
+  }
+
+  .item-may-like-products{
+    width: 1109px;
+    margin: 0 auto;
+
+    .item-may-like-products{
+      width: 161px;
+      text-align: center;
+      font-size: @baseFontMedium;
+      float: left;
+
+      h4{
+        margin-top: 15px;
+        color: @detailPageColor;
+        font-weight: normal;
+        margin-bottom: 18px;
+        font-size: @baseFontMedium;
+      }
+      span{
+        color: @baseColor;
+      }
+    }
+
+    & + &{
+      margin-left: 76px;
+    }
+  }
+/******************************************************
+   **Detail page
+******************************************************/
+
