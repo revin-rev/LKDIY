@@ -19,10 +19,16 @@
   text-align: center;
 }
 .trade-new-shopping-cart {
-  padding: 5px;
+  padding: 15px;
 }
 .trade-new-shopping-cart2 {
   color: #2D8FCC;
+  text-align: left;
+  padding: 15px;
+}
+.trade-width50 {
+  margin-top: 80px;
+  margin-bottom: 200px;
 }
 /*orders listing heading bar start*/
 .trade-order-headings-outr {
