@@ -433,6 +433,140 @@
       margin-left: 76px;
     }
   }
+
+  .item-review-tab{
+    h4{
+      margin: 30px 0 20px;
+      padding: 0 25px;
+      font-weight: normal;
+      color: @detailPageColor;
+      font-size: @baseFontMedium;
+
+      span{
+        color: @baseColor;
+        margin-left: 20px;
+        display: inline-block;
+      }
+    }
+    .item-review-tabs{
+      list-style: none;
+      background: @primaryColor;
+      margin-left: -10px;
+      margin-right: -10px;
+      margin-bottom: 30px;
+
+      &:after{
+        content: '';
+        clear: both;
+        position: relative;
+        display: block;
+      }
+      li{
+        float: left;
+
+        a{
+          color: @detailPageColor;
+          padding: 6px 40px;
+          display: block;
+          font-size: @baseFontLarge;
+        }
+        &.active,&:hover{
+          a{
+            border-top:3px solid @baseColorDark ;
+            padding-top: 3px;
+            background: @white;
+          }
+        }
+      }
+    }
+  }
+  .item-user-review-block{
+    padding-bottom: 35px;
+    margin-bottom: 30px;
+    padding-left: 34px;
+    padding-right: 34px;
+    border-bottom: 1px solid @primaryColor;
+
+    .item-user-image-name,.item-user-comment{
+      float: left;
+    }
+    .item-user-image-name{
+      width: 46px;
+      text-align: center;
+      margin-right: 49px;
+      font-size: @baseFontLarge;
+
+      img{
+        height: 43px;
+        width: 43px;
+        border: 1px solid @primaryColor;
+        display: block;
+        margin: 0 auto;
+      }
+      span{
+        display: block;
+        margin-top: 10px;
+        color: @detailPageColor;
+      }
+    }
+    .item-user-comment{
+      padding-top: 5px;
+      font-size: @baseFontLarge;
+      width: 817px;
+
+      .item-user-comment-text{
+        color: @detailPageColor;
+        margin-bottom: 14px;
+        line-height: 30px;
+      }
+
+      .item-user-comment-reply{
+        background: @primaryColor;
+        padding: 12px 18px;
+        margin-top: 20px;
+        margin-right: -34px;
+
+        .item-reply-user-image-name{
+          width: 37px;
+          text-align: center;
+          margin-right: 22px;
+          font-size: @baseFontLarge;
+          float: left;
+
+          img{
+            height: 35px;
+            width: 35px;
+            border: 1px solid @primaryColor;
+            display: block;
+            margin: 0 auto;
+          }
+          span{
+            display: block;
+            margin-top: 5px;
+            color: @detailPageColor;
+          }
+        }
+      }
+      .item-reply-user-comment{
+        color: @detailPageColor;
+        padding-top: 3px;
+        float: left;
+        width: 722px;
+      }
+    }
+  }
+
+
+  /*Overriding breadcrumb styling Start*/
+  .custom-breadcrumb li + li:before{
+    padding: 0px 3px;
+    padding-left: 0px;
+  }
+  .custom-breadcrumb li a,.custom-breadcrumb li.active{
+    font-size: @baseFontLarge;
+    color: @detailPageColor;
+  }
+  /*Overriding breadcrumb styling End*/
 /******************************************************
    **Detail page
 ******************************************************/
