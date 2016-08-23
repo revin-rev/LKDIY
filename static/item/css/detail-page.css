@@ -493,6 +493,187 @@
   float: left;
   width: 722px;
 }
+.item-product-images-block {
+  float: left;
+  width: 450px;
+}
+.item-product-images-block .item-product-image-action {
+  font-size: 14px;
+  color: #222222;
+}
+.item-product-images-block .item-product-image-action i {
+  color: #b0120a;
+  font-size: 16px;
+}
+.item-product-images-block .item-item-product-thumbnail {
+  margin-bottom: 15px;
+  position: relative;
+}
+.item-product-images-block .item-item-product-thumbnail i {
+  font-size: 30px;
+  color: #afafaf;
+  position: absolute;
+  right: 0;
+  top: 22px;
+  cursor: pointer;
+}
+.item-product-detail-block {
+  float: left;
+  width: 558px;
+  padding-left: 27px;
+}
+.item-product-detail-block > h2 {
+  font-size: 20px;
+  margin-top: 0;
+  color: #222222;
+  margin-bottom: 18px;
+  font-weight: normal;
+}
+.item-product-detail-block > h3 {
+  font-size: 14px;
+  color: #b0120a;
+  margin-bottom: 30px;
+  font-weight: normal;
+  margin-top: 0;
+  line-height: 14px;
+}
+.item-product-detail-block .item-product-options-row {
+  margin-bottom: 20px;
+}
+.item-product-detail-block .item-product-price {
+  background: #f8f8f8;
+  padding: 30px 15px;
+  margin-bottom: 30px;
+  color: #222222;
+  font-size: 14px;
+}
+.item-product-detail-block .item-product-price span {
+  font-size: 22px;
+  color: #b0120a;
+  font-family: 'arial';
+}
+.item-product-detail-block .item-product-price span span {
+  font-size: 14px;
+}
+.item-product-detail-block .item-product-options-label {
+  float: left;
+  width: 74px;
+  color: #222222;
+  font-size: 14px;
+  margin-right: 6px;
+  padding-top: 8px;
+}
+.item-product-detail-block .item-product-options-values {
+  float: left;
+  width: 420px;
+}
+.item-product-detail-block .item-checkbox-option {
+  font-size: 0;
+}
+.item-product-detail-block .item-checkbox-option .checkbox-pretty > span:before,
+.item-product-detail-block .item-checkbox-option .radio-pretty > span:before {
+  display: none;
+}
+.item-product-detail-block .item-checkbox-option .checkbox-pretty {
+  font-size: 14px;
+  padding: 8px 16px;
+  border: 1px solid #cccccc;
+  display: inline-block;
+  margin-left: 3px !important;
+  margin-right: 3px;
+  margin-bottom: 10px;
+}
+.item-product-detail-block .item-checkbox-option .checkbox-pretty.checked {
+  border-color: #b0120a;
+}
+.item-product-detail-block .item-product-actions-btns a {
+  display: inline-block;
+  font-size: 22px;
+  color: #222222;
+  padding: 16px 60px;
+  border: 1px solid #b0120a;
+  margin-top: 40px;
+}
+.item-product-detail-block .item-product-actions-btns a + a {
+  margin-left: 50px;
+}
+.item-product-detail-block .item-product-actions-btns a:hover {
+  background: #b0120a;
+  color: #fff;
+}
+.item-product-related-block {
+  float: left;
+  width: 186px;
+  padding-left: 30px;
+  padding-right: 13px;
+}
+.item-product-related-block h4 {
+  font-size: 14px;
+  margin-top: 0;
+  font-weight: normal;
+  text-align: center;
+  margin-bottom: 22px;
+}
+.item-product-related-block .item-related-product-block {
+  position: relative;
+  border: 1px solid #d0d0d0;
+}
+.item-product-related-block .item-related-product-block img {
+  width: 100%;
+}
+.item-product-related-block .item-related-product-block h5 {
+  font-size: 14px;
+  margin: 0;
+  padding: 6px 10px;
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  font-weight: normal;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.item-product-related-block .item-related-product-block + .item-related-product-block {
+  margin-top: 30px;
+}
+.item-product-related-block .item-move-to-bottom {
+  font-size: 40px;
+  color: #afafaf;
+  float: right;
+  margin-right: 15px;
+  display: inline-block;
+  margin-top: 20px;
+}
+.input-number {
+  font-size: 0;
+  vertical-align: middle;
+  font-family: 'arial';
+  border: 1px solid #cccccc;
+  display: inline-block;
+}
+.input-number a {
+  display: inline-block;
+  background: #ededed;
+  font-size: 14px;
+  vertical-align: middle;
+  padding: 6px 0;
+  text-align: center;
+  min-width: 30px;
+  color: #222222;
+}
+.input-number input {
+  font-size: 14px;
+  vertical-align: middle;
+  border: 0;
+  line-height: 28px;
+  outline: 0;
+  text-align: center;
+  width: 30px;
+}
+.input-number input:focus {
+  box-shadow: none;
+  outline: 0;
+}
 /*Overriding breadcrumb styling Start*/
 .custom-breadcrumb li + li:before {
   padding: 0px 3px;

@@ -556,7 +556,210 @@
     }
   }
 
+  .item-product-images-block{
+    float: left;
+    width: 450px;
 
+    .item-product-image-action{
+      font-size: @baseFontLarge;
+      color: @detailPageColor;
+
+      i{
+        color: @baseColorDark;
+        font-size: @baseFontMedium;
+      }
+    }
+    .item-item-product-thumbnail{
+        margin-bottom: 15px;
+      position: relative;
+
+      i{
+        font-size: 30px;
+        color: #afafaf;
+        position: absolute;
+        right: 0;
+        top: 22px;
+        cursor: pointer;
+      }
+    }
+
+
+  }
+  .item-product-detail-block{
+    float: left;
+    width: 558px;
+    padding-left: 27px;
+
+    > h2{
+      font-size: @baseFontXLarge;
+      margin-top: 0;
+      color: @detailPageColor;
+      margin-bottom: 18px;
+      font-weight: normal;
+    }
+    >h3{
+      font-size: @baseFontLarge;
+      color: @baseColorDark;
+      margin-bottom: 30px;
+      font-weight: normal;
+      margin-top: 0;
+      line-height: @baseFontLarge;
+    }
+    .item-product-options-row{
+      margin-bottom: 20px;
+    }
+    .item-product-price{
+      background: #f8f8f8;
+      padding: 30px 15px;
+      margin-bottom: 30px;
+      color: @detailPageColor;
+      font-size: @baseFontLarge;
+
+      span{
+        font-size: 22px;
+        color: @baseColorDark;
+        font-family: 'arial';
+
+        span{
+          font-size: @baseFontLarge;
+        }
+      }
+
+    }
+
+    .item-product-options-label{
+      float: left;
+      width: 74px;
+      color: @detailPageColor;
+      font-size: @baseFontLarge;
+      margin-right: 6px;
+      padding-top: 8px;
+    }
+    .item-product-options-values{
+      float: left;
+      width: 420px;
+    }
+    .item-checkbox-option{
+      font-size: 0;
+
+      .checkbox-pretty > span:before, .radio-pretty > span:before{
+        display: none;
+      }
+      .checkbox-pretty{
+        font-size: @baseFontLarge;
+        padding: 8px 16px;
+        border: 1px solid #cccccc;
+        display: inline-block;
+        margin-left: 3px !important;
+        margin-right: 3px;
+        margin-bottom: 10px;
+
+        &.checked{
+          border-color: @baseColorDark;
+        }
+      }
+    }
+    .item-product-actions-btns{
+      a{
+        display: inline-block;
+        font-size: 22px;
+        color: @detailPageColor;
+        padding: 16px 60px;
+        border: 1px solid @baseColorDark;
+        margin-top: 40px;
+
+        & + a{
+          margin-left: 50px;
+        }
+
+        &:hover{
+          background: @baseColorDark;
+          color: @white;
+        }
+      }
+    }
+  }
+  .item-product-related-block{
+    float: left;
+    width: 186px;
+    padding-left: 30px;
+    padding-right: 13px;
+
+    h4{
+      font-size: @baseFontLarge;
+      margin-top: 0;
+      font-weight: normal;
+      text-align: center;
+      margin-bottom: 22px;
+    }
+    .item-related-product-block{
+      position: relative;
+      border: 1px solid #d0d0d0;
+
+      img{
+        width: 100%;
+      }
+
+      h5{
+        font-size: @baseFontLarge;
+        margin: 0;
+        padding: 6px 10px;
+        background: fadeout(#000,40%);
+        color: @white;
+        font-weight: normal;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+      }
+
+      &  + .item-related-product-block{
+        margin-top: 30px;
+      }
+    }
+
+    .item-move-to-bottom{
+      font-size: 40px;
+      color: #afafaf;
+      float: right;
+      margin-right: 15px;
+      display: inline-block;
+      margin-top: 20px;
+    }
+
+  }
+
+  .input-number{
+    font-size: 0;
+    vertical-align: middle;
+    font-family: 'arial';
+    border: 1px solid #cccccc;
+    display: inline-block;
+
+    a{
+      display: inline-block;
+      background: #ededed;
+      font-size: @baseFontLarge;
+      vertical-align: middle;
+      padding: 6px 0;
+      text-align: center;
+      min-width: 30px;
+      color: @detailPageColor;
+    }
+    input{
+      font-size: @baseFontLarge;
+      vertical-align: middle;
+      border: 0;
+      line-height: 28px;
+      outline: 0;
+      text-align: center;
+      width: 30px;
+      &:focus{
+        box-shadow: none;
+        outline: 0;
+      }
+    }
+  }
   /*Overriding breadcrumb styling Start*/
   .custom-breadcrumb li + li:before{
     padding: 0px 3px;
