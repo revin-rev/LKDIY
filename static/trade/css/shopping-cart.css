@@ -105,6 +105,7 @@
   display: inline-table;
   font-size: 0;
   width: 100%;
+  background-color: #fafafa;
 }
 .trade-single-order-detail-row .trade-product-data * {
   font-size: 14px;
@@ -118,7 +119,7 @@
 .trade-single-order-detail-row .trade-product-data .trade-name-new p {
   color: #333333;
   width: 195px;
-  margin-left: 18px;
+  margin-left: 5px;
 }
 .trade-single-order-detail-row .trade-product-data .trade-name-new span {
   margin-left: 30px;
@@ -142,7 +143,7 @@
   width: 12.5%;
 }
 .trade-single-order-detail-row .trade-product-data .trade-price-value-inc {
-  width: 37.5%;
+  left: 61.5%;
   margin-right: 10px;
   display: inline-block;
   color: #999999;
@@ -153,14 +154,14 @@
   z-index: 999;
 }
 .trade-single-order-detail-row .trade-product-data .trade-status-value-final {
-  width: 62.5%;
+  left: 76.5%;
   margin-right: 10px;
   display: inline-block;
   color: #c41411;
   text-align: center;
   position: absolute;
   margin-top: 5px;
-  z-index: 10;
+  z-index: 0;
 }
 .trade-single-order-detail-row .trade-product-data .trade-operation-value {
   width: 95px;
@@ -183,7 +184,7 @@
   vertical-align: middle;
   margin-bottom: 0;
   font-size: 14px;
-  margin-left: 22px;
+  margin-left: 5px;
 }
 /* product order detail row end*/
 .trade-normal-a {
@@ -243,15 +244,15 @@
 .trade-extra-tight {
   position: absolute;
   top: 24px;
-  left: 180px;
+  left: 10px;
   color: #c41411;
   text-align: center;
   vertical-align: middle;
-  width: 20%;
+  width: 80%;
 }
 .unstyled {
   float: right;
-  left: -30px;
+  left: -50px;
   top: 4px;
   position: relative;
 }
@@ -269,7 +270,7 @@
   width: 19%;
   padding: 15px;
   border: 1px solid #dedede;
-  margin-right: 12px;
+  margin-right: 15px;
   margin-bottom: 0px;
   background-color: #fff;
 }
@@ -348,7 +349,31 @@ table.sui-table.table-bordered-simple th.trade-bg {
   color: #fff;
   padding: 0px 10px 0px 13px;
   text-align: center;
+  border-bottom: 0px!important;
 }
 table.sui-table.table-bordered-simple th {
   vertical-align: middle;
+}
+.trade-price-value-inc .decrement {
+  position: relative;
+  left: 9px;
+}
+.trade-price-value-inc .increment {
+  position: relative;
+  right: 5px;
+}
+ul.unstyled li {
+  margin-bottom: 9px;
+}
+ul.unstyled li a {
+  color: #999999;
+}
+ul.unstyled li a:hover {
+  color: #005aa0;
+}
+.sui-table th img,
+.sui-table td img,
+.sui-table th label,
+.sui-table td label {
+  margin-right: 5px;
 }

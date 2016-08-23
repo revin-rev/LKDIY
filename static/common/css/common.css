@@ -1380,3 +1380,16 @@
   -moz-opacity: 0.5;
   opacity: 0.5;
 }
+.form-control.trade-form-control {
+  width: 397px;
+  max-width: 397px;
+}
+.column.trade-single-product:hover {
+  border: 1px solid #c41411;
+}
+.trade-ima {
+  color: #222;
+}
+.trade-single-product:last-child {
+  margin-right: 0px;
+}

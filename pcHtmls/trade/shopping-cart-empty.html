@@ -5,11 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <title>LKDIY</title>
+    
     <link rel="stylesheet" href="../../static/common/plugins/sui/.package/css/sui-all.css">
     <link rel="stylesheet" href="../../static/common/css/global.css">
     <link rel="stylesheet" href="../../static/common/css/common.css">
     <link rel="stylesheet" href="../../static/trade/css/refund.css">
     <link rel="stylesheet" href="../../static/trade/css/shopping-cart-empty.css">
+    
 </head>
 <body>
     <!-- Top Navbar START -->
@@ -101,7 +103,7 @@
                 <div class="column float-right trade-shopping-cart-column">
                     <form action="#" class="after-login-search">
                         <div class="input-group">
-                            <input type="text" class="form-control">
+                            <input type="text" class="form-control trade-form-control">
                             <span class="input-group-btn">
                                 <input type="submit" value="搜索" class="btn">
                             </span>
@@ -110,7 +112,7 @@
                 </div>
             </div>
         </div>
-        <!-- Middle header END -->
+        
         <div class="container">
             <div class="trade-register-outr">
                 <div class="trade-register-inr">
@@ -119,108 +121,117 @@
                             <img src="../../static/trade/images/shopping-cart-image.png" class="vertical-align-top"/>
                             <span class="inline-block margin-top-10">
                                 <span class="trade-new-shopping-cart">购物车空空的哦~，去看看心仪的商品吧~</span>
-                            <span class="trade-new-shopping-cart2 center-block" >我的购物车></span>
+                                <span class="trade-new-shopping-cart2 center-block" >我的购物车></span>
                             </span>
                         </div>
-
                     </div>  
                 </div>
-         </div>
-     </div>
-    <div class="trade-my-collections pull-left">
-        <div class="clear-fix">
-        <h5 class="heading margin-top-10 pull-left">热卖推荐</h5>
-            <a href="#" class="margin-top-10 pull-right trade-ima">换一批 </a>
-           
-        </div>
-        <div class="trade-best-products-listing">
-            <div class="column trade-single-product">
-                <a href="#">
-                    <div class="trade-single-product-image">
-                        <img src="../../static/item/images/category-product-image.png">
-                    </div>
-                    <h2>￥9.90 </h2>
-                    <p>
-                    <span class="trade-color">金士顿（Kingston）DT SE9H 16GB</span>
-                      <span class="trade-color">金属U盘 银色亮薄</span>
-                  </p>
-              </a>
-          </div>
-          <div class="column trade-single-product">
-                <a href="#">
-                    <div class="trade-single-product-image">
-                        <img src="../../static/item/images/category-product-image.png">
-                    </div>
-                    <h2>￥9.90 </h2>
-                    <p>
-                    <span class="trade-color">金士顿（Kingston）DT SE9H 16GB</span>
-                      <span class="trade-color">金属U盘 银色亮薄</span>
-                  </p>
-              </a>
-          </div>
-          <div class="column trade-single-product">
-                <a href="#">
-                    <div class="trade-single-product-image">
-                        <img src="../../static/item/images/category-product-image.png">
-                    </div>
-                    <h2>￥9.90 </h2>
-                    <p>
-                    <span class="trade-color">金士顿（Kingston）DT SE9H 16GB</span>
-                      <span class="trade-color">金属U盘 银色亮薄</span>
-                  </p>
-              </a>
-          </div>
-          <div class="column trade-single-product">
-                <a href="#">
-                    <div class="trade-single-product-image">
-                        <img src="../../static/item/images/category-product-image.png">
-                    </div>
-                    <h2>￥9.90 </h2>
-                    <p>
-                    <span class="trade-color">金士顿（Kingston）DT SE9H 16GB</span>
-                      <span class="trade-color">金属U盘 银色亮薄</span>
-                  </p>
-              </a>
-          </div>
-          <div class="column trade-single-product">
-                <a href="#">
-                    <div class="trade-single-product-image">
-                        <img src="../../static/item/images/category-product-image.png">
-                    </div>
-                    <h2>￥9.90 </h2>
-                    <p>
-                    <span class="trade-color">金士顿（Kingston）DT SE9H 16GB</span>
-                      <span class="trade-color">金属U盘 银色亮薄</span>
-                  </p>
-              </a>
-          </div>
-      </div>
-      
-      
-
-  </div>
-
-
-
-<!-- Modal Section START -->
-
-<div id="myModal" tabindex="-1" role="dialog" data-hasfoot="false" class="sui-modal hide fade">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" data-dismiss="modal" aria-hidden="true" class="sui-close">×</button>
-                <h4 id="myModalLabel" class="modal-title">删除订单</h4>
-            </div>
-            <div class="modal-body">
-                <strong class="center-block margin-bottom-30">确认删除该订单？</strong>
-                <button type="button" data-ok="modal" class="btn-gray">取消</button><button type="button" data-dismiss="modal" class="btn-gray btn-default">确定</button>
             </div>
         </div>
-    </div>
-</div>
-
-<!-- Modal Section END -->
-
+        <div class="trade-my-collections">
+            <div class="trade-best-products-listing">
+                <div class="clear-fix">
+                    <h5 class="heading margin-top-10 pull-left">
+                        热卖推荐
+                    </h5>
+                    <a href="#" class="margin-top-10 pull-right trade-ima">
+                        换一批 
+                    </a>
+                </div>
+                <div class="column trade-single-product">
+                    <a href="#">
+                        <div class="trade-single-product-image">
+                            <img src="../../static/item/images/category-product-image.png">
+                        </div>
+                        <h2>
+                            ￥9.90 
+                        </h2>
+                        <p>
+                            <span class="trade-color">
+                                金士顿（Kingston）DT SE9H 16GB
+                            </span>
+                            <span class="trade-color">
+                                金属U盘 银色亮薄
+                            </span>
+                        </p>
+                    </a>
+                </div>
+                <div class="column trade-single-product">
+                    <a href="#">
+                        <div class="trade-single-product-image">
+                            <img src="../../static/item/images/category-product-image.png">
+                        </div>
+                        <h2>
+                            ￥9.90 
+                        </h2>
+                        <p>
+                            <span class="trade-color">
+                                金士顿（Kingston）DT SE9H 16GB
+                            </span>
+                            <span class="trade-color">
+                                金属U盘 银色亮薄
+                            </span>
+                        </p>
+                    </a>
+                </div>
+                <div class="column trade-single-product">
+                    <a href="#">
+                        <div class="trade-single-product-image">
+                            <img src="../../static/item/images/category-product-image.png">
+                        </div>
+                        <h2>
+                            ￥9.90 
+                        </h2>
+                        <p>
+                            <span class="trade-color">
+                                金士顿（Kingston）DT SE9H 16GB
+                            </span>
+                            <span class="trade-color">
+                                金属U盘 银色亮薄
+                            </span>
+                        </p>
+                    </a>
+                </div>
+                <div class="column trade-single-product">
+                    <a href="#">
+                        <div class="trade-single-product-image">
+                            <img src="../../static/item/images/category-product-image.png">
+                        </div>
+                        <h2>
+                            ￥9.90 
+                        </h2>
+                        <p>
+                            <span class="trade-color">
+                                金士顿（Kingston）DT SE9H 16GB
+                            </span>
+                            <span class="trade-color">
+                                金属U盘 银色亮薄
+                            </span>
+                        </p>
+                    </a>
+                </div>
+                <div class="column trade-single-product">
+                    <a href="#">
+                        <div class="trade-single-product-image">
+                            <img src="../../static/item/images/category-product-image.png">
+                        </div>
+                        <h2>
+                            ￥9.90 
+                        </h2>
+                        <p>
+                            <span class="trade-color">
+                                金士顿（Kingston）DT SE9H 16GB
+                            </span>
+                            <span class="trade-color">
+                                金属U盘 银色亮薄
+                            </span>
+                        </p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div> 
+    <!-- Middle header END -->
   <!-- Sub Footer START -->
   <div class="sub-footer">
     <div class="container">
