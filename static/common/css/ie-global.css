@@ -11,10 +11,10 @@ html[data-browser='11'] .radio-pretty span:before,
 html[data-browser='10'] .radio-pretty span:before {
   font-size: 120% !important;
 }
-html[data-browser='8'] input,
-html[data-browser='9'] input,
-html[data-browser='11'] input,
-html[data-browser='10'] input {
+html[data-browser='8'] input.number,
+html[data-browser='9'] input.number,
+html[data-browser='11'] input.number,
+html[data-browser='10'] input.number {
   line-height: 14px;
 }
 /******************************************************
