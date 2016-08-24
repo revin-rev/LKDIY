@@ -6,6 +6,8 @@
     <meta name="description" content="">
     <title>LKDIY</title>
     <link rel="stylesheet" href="../../static/common/plugins/sui/.package/css/sui-all.css">
+    <link rel="stylesheet" href="../../static/common/plugins/jquery.bxslider/jquery.bxslider.css">
+    <link rel="stylesheet" href="../../static/common/plugins/fancyapps-fancyBox-18d1712/source/jquery.fancybox.css">
     <link rel="stylesheet" href="../../static/common/css/global.css">
     <link rel="stylesheet" href="../../static/common/css/common.css">
     <link rel="stylesheet" href="../../static/item/css/detail-page.css">
@@ -618,18 +620,34 @@
             </ul>
         </div>
 
-        <div class="column width-100">
+        <div class="column width-100 item-product-row">
+
+            <img  style="display: none" class="item-success-added" src="../../static/item/images/success.png" alt="success"/>
+            <!--product detail and images START-->
+
             <div class="item-product-images-block">
                 <div class="item-item-product-image">
                     <img src="../../static/item/images/pic.jpg" class="img-max-100" alt="main image"/>
+                    <a href="../../static/item/images/pic.jpg" class="item-zoom-btn fancybox" ><i class="sui-icon icon-tb-search"></i></a>
                 </div>
                 <div class="item-item-product-thumbnail">
-                    <img src="../../static/item/images/thumbnaill.jpg" class="img-max-100" alt="main image"/>
-                    <i class="sui-icon icon-pc-chevron-right"></i>
+                    <ul class="bx-slider product-thumbs">
+                        <li><a href="#" data-item-src="../../static/item/images/pic.jpg" class="center-block active"><img src="../../static/item/images/pic.jpg"   alt="demo"/></a></li>
+                        <li><a href="#" data-item-src="../../static/item/images/pic_2.jpg" class="center-block"><img src="../../static/item/images/pic_2.jpg"   alt="demo"/></a></li>
+                        <li><a href="#" data-item-src="../../static/item/images/pic.jpg" class="center-block"><img src="../../static/item/images/pic.jpg"   alt="demo"/></a></li>
+                        <li><a href="#" data-item-src="../../static/item/images/pic_2.jpg" class="center-block"><img src="../../static/item/images/pic_2.jpg"   alt="demo"/></a></li>
+                        <li><a href="#" data-item-src="../../static/item/images/pic.jpg" class="center-block"><img src="../../static/item/images/pic.jpg"   alt="demo"/></a></li>
+                        <li><a href="#" data-item-src="../../static/item/images/pic_2.jpg" class="center-block"><img src="../../static/item/images/pic_2.jpg"   alt="demo"/></a></li>
+                        <li><a href="#" data-item-src="../../static/item/images/pic.jpg" class="center-block"><img src="../../static/item/images/pic.jpg"   alt="demo"/></a></li>
+                        <li><a href="#" data-item-src="../../static/item/images/pic_2.jpg" class="center-block"><img src="../../static/item/images/pic_2.jpg"   alt="demo"/></a></li>
+                        <li><a href="#" data-item-src="../../static/item/images/pic.jpg" class="center-block"><img src="../../static/item/images/pic.jpg"   alt="demo"/></a></li>
+                        <li><a href="#" data-item-src="../../static/item/images/pic_2.jpg" class="center-block"><img src="../../static/item/images/pic_2.jpg"   alt="demo"/></a></li>
+                    </ul>
                 </div>
-                <a href="#" class="item-product-image-action"><i class="sui-icon icon-tb-like"></i> 收藏商品</a>
+                <a href="#" class="item-product-image-action item-like-btn"><i class="sui-icon icon-tb-like icon-tb-likefill"></i> 收藏商品</a>
                 <a href="#" class="item-product-image-action float-right">分享商品 <i class="sui-icon icon-tb-share"></i></a>
             </div>
+
             <div class="item-product-detail-block">
                 <h2>景为 苹果6s手机壳iPhone6套i6超薄金属边框6s六4.7外壳女新款</h2>
                 <h3>6/6S通用 立体浮雕 细磨砂手感 航空铝合金</h3>
@@ -683,6 +701,7 @@
                                 <input type="text" value="1"/>
                                 <a href="#" data-value="max"><i class="sui-icon icon-tb-add"></i></a>
                             </div>
+                            <span class="inline-block margin-left-25">有货/备货中</span>
                         </div>
                     </div>
                 </div>
@@ -695,20 +714,28 @@
                <h4>相关商品</h4>
                 
                 <div class="item-related-product-block">
-                    <img src="../../static/item/images/related.jpg" alt="related"/>
-                    <h5>￥19.90</h5>
+                    <a href="#">
+                        <img src="../../static/item/images/related.jpg" alt="related"/>
+                        <h5>￥19.90</h5>
+                    </a>
                 </div>
                 <div class="item-related-product-block">
-                    <img src="../../static/item/images/related.jpg" alt="related"/>
-                    <h5>￥19.90</h5>
+                    <a href="#">
+                        <img src="../../static/item/images/related.jpg" alt="related"/>
+                        <h5>￥19.90</h5>
+                    </a>
                 </div>
                 <div class="item-related-product-block">
-                    <img src="../../static/item/images/related.jpg" alt="related"/>
-                    <h5>￥19.90</h5>
+                    <a href="#">
+                        <img src="../../static/item/images/related.jpg" alt="related"/>
+                        <h5>￥19.90</h5>
+                    </a>
                 </div>
 
-                <a href="#" class="item-move-to-bottom"><i class="sui-icon icon-pc-chevron-bottom"></i></a>
+                <a href="#detail" class="item-move-to-bottom scroll"><i class="sui-icon icon-pc-chevron-bottom"></i></a>
             </div>
+
+            <!--product detail and images END-->
         </div>
 
         <!-- accordion sidebar and category listing section start -->
@@ -872,17 +899,6 @@
                 <div class="row item-block-title-bar">
                     热卖商品排行 <a href="#" class="float-right"><span>换一批</span><span class="back-arrow"></span></a>
                 </div>
-                <div class="item-product-preview-block clear-fix">
-                    <div class="item-product-images">
-
-                    </div>
-                    <div class="item-product-detail">
-
-                    </div>
-                    <div class="item-related-product">
-
-                    </div>
-                </div>
                 <div class="row item-hot-product-row">
                     <div class="column">
                         <div class="item-hot-product">
@@ -907,7 +923,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="row item-nav-bar-detail">
+                <div class="row item-nav-bar-detail" id="detail">
                     <ul class="clear-fix">
                         <li class="active" ><a href="#tab-1" data-toggle="tab" >详情描述</a></li>
                         <li><a href="#tab-2" data-toggle="tab" >所有评价（50）</a></li>
@@ -1806,5 +1822,9 @@
 <script src="../../static/common/scripts/scripts.js"></script>
 <script src="../../static/common/plugins/sui/.package/js/sui.min.js"></script>
 <script src="../../static/common/plugins/sui/.package/js/sui-all.min.js"></script>
+<script src="../../static/common/plugins/jquery.bxslider/jquery.bxslider.min.js"></script>
+<script src="../../static/common/plugins/fancyapps-fancyBox-18d1712/source/jquery.fancybox.js"></script>
+<script src="../../static/item/scripts/detail.js"></script>
+
 </body>
 </html>
