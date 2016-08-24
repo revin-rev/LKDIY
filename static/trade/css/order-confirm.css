@@ -445,17 +445,22 @@
 }
 /* return third step form end*/
 .trade-check-order {
-  font-size: 16px;
   border-bottom: 2px solid #c41411;
+  font-size: 16px;
+  margin-bottom: 32px;
   margin-left: 12px;
   padding-bottom: 3px;
-  margin-bottom: 32px;
+  width: 95%;
+}
+.top-steps-new {
+  width: 519px;
 }
 .trade-shipping-order {
   font-size: 14px;
   margin-left: 12px;
   padding-bottom: 3px;
-  border-bottom: 2px solid #dedede;
+  border-bottom: 2px solid #dedede ;
+  width: 95%;
 }
 .trade-shipping-address-management {
   float: right;
@@ -463,7 +468,7 @@
   top: -30px;
   color: #005aa0;
   font-size: 14px;
-  right: 7px;
+  right: 50px;
 }
 .width50 {
   width: 50%;
@@ -501,9 +506,13 @@
   padding-left: 8px;
   font-size: 14px;
 }
-.trade-province {
+.trade-floor .trade-province {
   color: #666;
-  font-size: 14px;
+  font-size: 13px;
+  padding-right: 11px;
+}
+.active_new .trade-province {
+  padding-right: 4px;
 }
 .trade-padding-left {
   left: 79px;
@@ -540,6 +549,18 @@
   padding: 12px;
   color: #666;
   background-color: #f3d0cf;
+  width: 98%;
+}
+.trade-font {
+  font-size: 18px;
+}
+.single-input input[type="text"].trade-long {
+  width: 158px;
+  height: 36px;
+}
+.trade-gateway-offset {
+  position: relative;
+  left: 36px;
 }
 .trade-confirm-order label input {
   margin-left: 11px;
@@ -565,19 +586,19 @@
   color: #005aa0;
 }
 .gateway-offset-block {
-  margin-left: 124px;
+  margin-left: 90px;
 }
 .trade-offset-block label input {
   margin-right: 25px;
 }
 .active_new {
-  background-color: #f9e7e7;
+  background-color: #f9e7e7 !important;
   margin-left: 12px;
   vertical-align: middle;
-  padding: 12px;
+  padding: 11px;
 }
 .active_new .gateway-offset-block {
-  margin-left: 101px;
+  margin-left: 90px;
 }
 .trade-default {
   color: #005aa0;
@@ -611,6 +632,8 @@
 }
 table.trade-products-table {
   border-bottom: 2px solid #82cfec;
+  width: 96%;
+  margin-left: 12px;
 }
 .trade-normal-goods {
   font-size: 14px;
@@ -636,6 +659,8 @@ table.trade-products-table {
 .trade-single-order-detail-row {
   margin-top: -25px;
   margin-bottom: 5px;
+  width: 96%;
+  margin-left: 12px;
   position: relative;
 }
 .trade-product-data {
@@ -657,7 +682,7 @@ table.trade-products-table {
 .trade-single-order-detail-row .trade-product-data .trade-name-new p {
   color: #333333;
   width: 195px;
-  margin-left: 18px;
+  margin-left: 7px;
 }
 .trade-single-order-detail-row .trade-product-data p {
   display: inline-block;
@@ -685,7 +710,7 @@ table.trade-products-table {
   position: absolute;
   margin-top: 6px;
   vertical-align: middle;
-  width: 400px;
+  left: 51%;
 }
 .trade-single-order-detail-row .trade-product-data .trade-no-offer {
   margin-right: 10px;
@@ -694,11 +719,11 @@ table.trade-products-table {
   position: absolute;
   margin-top: 6px;
   vertical-align: middle;
-  width: 60%;
+  left: 63%;
   float: left;
 }
 .trade-single-order-detail-row .trade-product-data .trade-status-value-final {
-  width: 83.5%;
+  left: 74.5%;
   margin-right: 10px;
   display: inline-block;
   color: #c41411;
@@ -709,7 +734,7 @@ table.trade-products-table {
 }
 .unstyled {
   float: right;
-  left: -65px;
+  left: -45px;
   top: 4px;
   position: relative;
 }
@@ -724,8 +749,8 @@ table.trade-products-table {
   width: 76px;
 }
 .sui-form input[type="text"].input-xxlarge {
-  width: 1060px;
-  padding: 21px;
+  width: 815px;
+  padding: 12px;
 }
 .trade-invoice-info {
   font-size: 14px;
@@ -737,25 +762,31 @@ table.trade-products-table {
   margin-left: 10px;
 }
 .trade-product-invoice {
-  padding: 10px 30px 47px;
   display: inline-table;
-  width: 100%;
+  width: 96%;
   border: 2px solid #2eafdf;
   margin-top: 8px;
+  margin-left: 12px;
 }
 .radio-pretty span {
   margin-right: 29px;
 }
 .width-50 {
-  width: 50%;
+  width: 395px;
+}
+.trade-invoice {
+  padding-left: 5px;
 }
 .control-label {
   white-space: nowrap;
   color: #666666;
-  width: 119px;
+  width: 75px;
   text-align: right;
   display: table-cell;
   vertical-align: middle;
+}
+.control-label.trade-taxpayer {
+  width: 118px;
 }
 .controls.trade-company-name {
   padding-left: 20px;
@@ -763,8 +794,8 @@ table.trade-products-table {
 }
 .double-input input[type="text"],
 .double-input input[type="password"] {
-  width: 360px;
-  padding: 15px;
+  width: 300px;
+  padding: 10px;
   color: #666;
 }
 .control-group {
@@ -787,7 +818,11 @@ table.trade-products-table {
   border-left: 1px solid #ccc;
 }
 .controls .input-medium {
-  width: 260px!important;
+  width: 210px!important;
+}
+.trade-prove {
+  position: relative;
+  left: -17px;
 }
 .trade-document {
   border-right: 1px solid #ccc;
@@ -808,8 +843,9 @@ table.trade-products-table {
   padding: 5px 15px;
 }
 .tabs {
-  width: 100%;
+  width: 96%;
   display: inline-block;
+  margin-left: 12px;
 }
 /*----- Tab Links -----*/
 /* Clearfix */
@@ -826,7 +862,7 @@ table.trade-products-table {
 .tab-links a {
   padding: 12px 35px;
   display: inline-block;
-  border-radius: 3px 3px 0px 0px;
+  border-radius: 0px;
   background: #f2f2f2;
   font-size: 16px;
   color: #4c4c4c;
@@ -844,6 +880,7 @@ li.active a:hover {
   border-bottom-color: transparent;
   position: relative;
   top: 1px;
+  border-radius: 0px;
 }
 /*----- Content of Tabs -----*/
 .tab-content {
@@ -852,6 +889,7 @@ li.active a:hover {
   box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
   background: #eaf7fc;
   border: 1px solid #2eafdf;
+  border-radius: 0px;
 }
 .tab {
   display: none;
@@ -870,7 +908,7 @@ li.active a:hover {
 }
 .trade-total-block {
   margin-top: 50px;
-  min-width: 300px;
+  min-width: 340px;
   text-align: center;
 }
 .inline-block {
@@ -881,7 +919,7 @@ li.active a:hover {
   text-align: right;
   display: inline-block;
   margin-right: 33px;
-  padding-bottom: 14px;
+  padding: 0 2px 14px 16px;
 }
 .trade-total-block span.trade-label {
   display: inline-block;
@@ -894,6 +932,7 @@ li.active a:hover {
   vertical-align: middle;
   padding: 29px;
   text-align: right;
+  width: 96%;
 }
 .trade-sendto {
   padding: 15px;
@@ -920,7 +959,7 @@ span.trade-sendto {
   top: 1px;
 }
 .btn-small {
-  padding: 15px 60px;
+  padding: 15px 36px;
   margin-left: 15px;
 }
 .trade-tab1 {
@@ -956,7 +995,7 @@ span.trade-sendto {
 }
 .step-small .step-progress-row1 {
   height: 8px;
-  width: 35%;
+  width: 100%;
   background: #cccccc;
   -webkit-border-radius: 8px;
   -webkit-background-clip: padding-box;
@@ -965,10 +1004,11 @@ span.trade-sendto {
   border-radius: 8px;
   background-clip: padding-box;
   position: relative;
-  top: -39px;
+  top: 0;
   left: -9px;
   float: right;
   z-index: -9;
+  text-align: right;
 }
 .step-small .step-label.step-order-submit {
   color: #cccccc;
@@ -994,4 +1034,30 @@ span.trade-sendto {
 }
 .trade-border-confirm {
   border-bottom: 1px solid #f2f2f2;
+}
+.trade-confirm-order.trade-simple {
+  padding: 12px;
+  margin-left: 11px;
+  background-color: transparent;
+  border: 0px;
+}
+.step-small .small-step-2-new {
+  width: 197px;
+  float: left;
+  text-align: center;
+}
+.step-small .small-step-3 {
+  float: right;
+  width: 173px;
+  text-align: right;
+  margin-top: -8px;
+}
+.step-small .step-label .step-status-third {
+  background: #cccccc none repeat scroll 0 0 padding-box;
+}
+.step-small .step-label-new {
+  color: #ccc;
+  position: relative;
+  right: 43px;
+  top: -16px;
 }

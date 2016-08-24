@@ -1393,3 +1393,14 @@
 .trade-single-product:last-child {
   margin-right: 0px;
 }
+.container-small {
+  width: 965px;
+  margin: 0px auto;
+}
+.container-small.middle-header-2 {
+  margin: 32px auto;
+}
+.container-very-small {
+  width: 940px;
+  margin: 0px auto;
+}
