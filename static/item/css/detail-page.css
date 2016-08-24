@@ -586,6 +586,13 @@
 .item-product-detail-block .item-product-price span span {
   font-size: 14px;
 }
+.item-product-detail-block .item-product-price span span.small {
+  color: #222222;
+}
+.item-product-detail-block .item-product-price span span.plus {
+  font-size: 22px;
+  color: #666666;
+}
 .item-product-detail-block .item-product-options-label {
   float: left;
   width: 74px;
