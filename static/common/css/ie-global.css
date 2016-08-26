@@ -56,10 +56,10 @@ html[data-browser='9'] .radio-pretty span:before {
 /******************************************************
    *Styling For IE 10 and greater START
 ******************************************************/
-html[data-browser='11'] .checkbox-pretty.checked span::before,
-html[data-browser='10'] .checkbox-pretty.checked span::before,
-html[data-browser='11'] .radio-pretty.checked span::before,
-html[data-browser='10'] .radio-pretty.checked span::before {
+html[data-browser='11'] .checkbox-pretty span::before,
+html[data-browser='10'] .checkbox-pretty span::before,
+html[data-browser='11'] .radio-pretty span::before,
+html[data-browser='10'] .radio-pretty span::before {
   font-size: 14px;
 }
 html[data-browser='11'] .side-bar > ul > li > a,
