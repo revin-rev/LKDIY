@@ -4,7 +4,7 @@
 /*orders listing heading bar start*/
 .trade-order-headings-outr {
   background-color: #fff;
-  padding: 10px 20px;
+  padding: 10px 20px 5px;
   display: table;
   width: 100%;
   font-size: 0;
@@ -58,7 +58,7 @@
 }
 .trade-single-order-detail-row .trade-single-order-baisc-detail {
   background-color: #fff;
-  padding: 15px 20px;
+  padding: 15px 20px 9px;
 }
 .trade-single-order-detail-row .trade-single-order-baisc-detail p {
   display: inline-block;
@@ -169,4 +169,23 @@
 .trade-order-none-block a.btn-primary {
   padding: 7px 22px;
   margin-top: 27px;
+}
+.trade-single-order-detail-row .trade-product-data .trade-price-value.trade-point {
+  color: #484848;
+  font-size: 14px;
+}
+.trade-nav li a span {
+  color: #d85e5d;
+}
+.btn-default:focus {
+  color: #fff;
+}
+.tab-content {
+  margin-bottom: 35px;
+}
+.common-pagination .item-total-no-of-pages {
+  color: #666;
+}
+.common-pagination .sui-pagination ul li.active a {
+  border: none;
 }

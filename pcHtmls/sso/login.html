@@ -13,7 +13,7 @@
     </head>
     <body>
         <!-- Header START -->
-        <div class="container header border-bottom-zero">
+        <div class="container border-bottom-zero">
 
             <!-- Middle header START -->
             <div class="container middle-header">
@@ -37,25 +37,34 @@
                         <a href="#">立即注册</a>
                     </div>
                     <div class="sso-login-form">
-                        <form class="sui-form form-horizontal sui-validate">
-                            <div class="input-prepend">
-                                <span class="add-on"><img src="../../static/sso/images/login-user-icon.png"/></span>
-                                <input type="text" placeholder="手机号/会员名" name="one" class="span2 input-fat" placeholder="手机号/会员名" data-rules="required|email">
-                            </div><br/>
-                            <div class="input-prepend">
-                                <span class="add-on"><img src="../../static/sso/images/login-pass-icon.png"/></span>
-                                <input type="password" name="second" class="span2 input-fat" value="******" data-rules="required">
-                            </div><br/>
-                            <div class="row margin-zero">
-                                <p><input type="checkbox" id="auto-login"/><label for="auto-login">自动登录</label></p>
-                                <a href="#">忘记密码?</a>
-                            </div>
-                            <div class="control-group">
-                                <div class="controls">
-                                    <button type="submit" class="sui-btn btn-primary">登    录</button>
-                                </div>
-                            </div>
-                        </form>
+                    	<form class="sui-form form-horizontal sui-validate" id="form-msg">
+                    		<div class="input-prepend">
+                    			<span class="add-on">
+                    				<img src="../../static/sso/images/login-user-icon.png"/>
+                    			</span>
+                    			<input type="text" name="one" data-error-msg="请输入用户名" class="span2 input-fat" placeholder="手机号/会员名" data-rules="required|email">
+                    		</div>
+                    		<br/>
+                    		<div class="input-prepend input-prepend-password">
+                    			<span class="add-on">
+                    				<img src="../../static/sso/images/login-pass-icon.png"/>
+                    			</span>
+                    			<input type="password" name="second" data-error-msg="请输入密码" class="span3 input-fat" placeholder="******" data-rules="required|minlength=6|maxlength=12">
+                    		</div>
+                    		<br/>
+                    		<div class="row margin-zero">
+                    			<p>
+                    				<input type="checkbox" id="auto-login"/>
+                    				<label for="auto-login">自动登录</label>
+                    			</p>
+                    			<a href="#">忘记密码?</a>
+                    		</div>
+                    		<div class="control-group">
+                    			<div class="controls">
+                    				<button type="submit" class="sui-btn btn-primary">登     录</button>
+                    			</div>
+                    		</div>
+                    	</form>
                         <div class="sso-another-accounts-login">
                             <p>使用合作网站账号登录亮刻：</p>
                             <ul class="sso-another-accounts-links">

@@ -2,7 +2,7 @@
    *Variables START
 ******************************************************/
 .gateway-container {
-  border: 1px solid rgba(0, 90, 160, 0.2);
+  border: 1px solid #ccdeec;
   border-top: 2px solid  #005aa0;
   margin-top: 70px;
   min-height: 400px;

@@ -1,6 +1,9 @@
 /******************************************************
    *Variables START
 ******************************************************/
+.column.login-sidebar .login-sidebar-block {
+  margin-bottom: 49px;
+}
 .user-top-bar-menu-links {
   padding-top: 25px;
   padding-bottom: 24px;
@@ -32,8 +35,6 @@
   -moz-background-clip: padding;
   border-radius: 50%;
   background-clip: padding-box;
-  width: 85px;
-  height: 85px;
 }
 .user-top-bar-menu-links .user-icon {
   background-image: url("../images/user-icons.png");
@@ -103,7 +104,4 @@
   padding: 24px 25px;
   vertical-align: middle;
   border-bottom: 1px solid #fff;
-}
-.user-table .user-table-row:last-child .user-table-column {
-  border-bottom: 0;
 }

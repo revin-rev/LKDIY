@@ -5,7 +5,6 @@
 .sso-login-bg-outer {
   background-image: url(../../../static/sso/images/login-bg.jpg);
   background-repeat: no-repeat;
-  background-position: bottom;
   background-size: 100%;
   padding-bottom: 30px;
   padding-top: 30px;
@@ -121,6 +120,10 @@
   top: -43px;
   float: left;
   left: -5px;
+}
+.sso-login-bg-outer .input-prepend-password .sui-msg.msg-error {
+  top: -98px;
+  position: absolute;
 }
 .sso-login-bg-outer .sui-form.form-horizontal.sui-validate .sui-msg.msg-error .msg-con {
   width: 317px;

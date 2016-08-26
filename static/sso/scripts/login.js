@@ -8,9 +8,28 @@
             if ($(_this).hasClass('input-error')) {
                 $(_form).prop('style','padding-top:40px');
             } 
+            /*else{
+              $(_form).prop('style','padding-top:0px');
+            }*/
         },10);  
         
     });
    }); 
 
-})(jQuery);    
+})(jQuery);  
+
+(function() {
+    if ( navigator.userAgent.toLowerCase().indexOf('firefox') > -1 )  {
+     $('.sso-login-bg-outer').css('height','550px');
+   }
+   if( navigator.userAgent.toLowerCase().indexOf('chrome') > -1  )
+   {
+    $('.sso-login-bg-outer').css('height','670px');
+   }
+   
+
+ })(jQuery); 
+
+
+
+

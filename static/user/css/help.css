@@ -4,6 +4,7 @@
 .user-help-side-bar {
   width: 250px;
   background: #f7f7f7;
+  padding: 0px;
 }
 .user-help-side-bar > h4 {
   border: 1px solid #dedede;

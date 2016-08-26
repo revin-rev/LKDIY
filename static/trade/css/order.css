@@ -29,6 +29,9 @@
 }
 .trade-base-btn + .trade-base-btn {
   margin-left: 18px;
+  background-color: #f2f2f2;
+  color: #999999;
+  border-color: #dedede;
 }
 .trade-steps {
   width: 874px;
@@ -214,4 +217,18 @@
 .trade-total-block .trade-large {
   color: #c41411;
   font-size: 24px;
+}
+.trade-table-column ul {
+  list-style-type: none;
+}
+.trade-table-column ul li {
+  margin: 2px;
+  padding: 2px;
+}
+.trade-products-table .btn-default.active {
+  background: #c41411;
+  color: #fff;
+}
+.trade-products-table ul li a.btn-default {
+  padding: 8px 14px 7px;
 }

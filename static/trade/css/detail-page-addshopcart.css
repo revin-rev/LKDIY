@@ -233,15 +233,18 @@
 }
 .trade-sent-mail-to {
   position: relative;
-  top: 10px;
-  font-size: 12px;
+  top: 19px;
+  font-size: 20px;
   color: #222222;
 }
 .trade-name {
-  width: 489px;
+  width: 549px;
   margin-right: 10px;
   display: inline-block;
   vertical-align: middle;
+  float: left;
+  margin-top: 22px;
+  margin-bottom: 30px;
 }
 .trade-name p {
   color: #333333;
@@ -258,38 +261,54 @@
   position: relative;
   top: 45px;
   left: 25px;
+  font-size: 16px;
 }
 .trade-related-products-new {
-  padding-bottom: 70px;
   margin-top: 30px;
   border: 1px solid #dedede;
+  padding: 16px 23px 69px 20px;
 }
 .trade-name .trade-normal-anew {
   position: relative;
   top: 60px;
   left: 25px;
   float: left;
+  font-size: 14px;
 }
 .trade-back-continue {
   float: right;
   position: relative;
+  top: 50px;
 }
 .trade-new-button {
+  border: 1px solid red;
+  border-radius: 0;
+  font-size: 16px;
+  left: -351px;
+  padding: 10px 35px;
   position: absolute;
   top: 60px;
-  left: -520px;
-  padding: 10px 35px;
-  border: 1px solid red;
 }
 .trade-new-billing {
   position: absolute;
-  top: 60px;
-  left: -370px;
-  padding: 10px 35px;
+  top: 59px;
+  left: -175px;
+  padding: 11px 35px;
   background-color: #B0120A;
   color: white;
+  border-radius: 0px;
+  font-size: 16px;
 }
 .sui-btn:hover,
 .sui-btn:focus {
   background-color: unset;
+  border: 1px solid red;
+}
+.sui-btn.trade-new-billing:hover,
+.sui-btn.trade-new-billing:focus {
+  background-color: #b0120a;
+  color: #fff;
+}
+h5.heading {
+  font-size: 16px;
 }
