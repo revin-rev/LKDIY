@@ -1,0 +1,9 @@
+.content-inner {
+  box-sizing: border-box;
+  border-top: 1px solid transparent;
+  margin-top: -1px;
+  padding-bottom: 0.5rem;
+}
+.javascript-scroll {
+  overflow: hidden;
+}
