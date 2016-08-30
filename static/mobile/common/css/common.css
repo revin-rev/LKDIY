@@ -1,3 +1,76 @@
 /******************************************************
    *Variables START
 ******************************************************/
+.header-base-color .bar {
+  background: #c41411;
+  padding: 0 ;
+  height: auto;
+}
+.header-base-color .bar .searchbar {
+  margin: 0;
+  background: transparent;
+  padding: .8rem 1.96rem;
+  height: auto;
+}
+.header-base-color .bar .searchbar .search-input {
+  float: left;
+  width: 87.75%;
+}
+.header-base-color .bar .searchbar .search-input input {
+  -webkit-border-radius: 2px;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 2px;
+  -moz-background-clip: padding;
+  border-radius: 2px;
+  background-clip: padding-box;
+  height: auto;
+  font-size: 1.484375rem;
+  padding: 1rem 1.6796875rem;
+  background: #b0120f;
+  color: rgba(255, 255, 255, 0.8);
+  position: relative;
+}
+.header-base-color .bar .searchbar .search-input input::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.8);
+}
+.header-base-color .bar .searchbar .search-input input:-moz-placeholder {
+  color: rgba(255, 255, 255, 0.8);
+}
+.header-base-color .bar .searchbar .search-input input::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.8);
+}
+.header-base-color .bar .searchbar .search-input input:-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.8);
+}
+.header-base-color .bar .searchbar .search-input .icon {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 2.9rem;
+  right: .3rem;
+  left: auto;
+}
+.header-base-color .bar .searchbar .message-notification {
+  float: left;
+  width: 12.2%;
+  text-align: right;
+}
+.header-base-color .bar .searchbar .message-notification a {
+  display: inline-block;
+  position: relative;
+  top: 0.85rem;
+  padding-left: 0.3rem;
+}
+.header-base-color .bar .searchbar .message-notification a img {
+  max-width: 100%;
+}
+.header-base-color .bar .searchbar .message-notification a .badge {
+  background: #e51937;
+  color: #fff;
+  height: 1.796875rem;
+  width: 1.796875rem;
+  font-size: 1.171875rem;
+  border: 3px solid #fff;
+  line-height: 1.3rem;
+  position: absolute;
+  top: -1rem;
+  right: -1rem;
+}

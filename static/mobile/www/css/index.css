@@ -1,1 +1,33 @@
-/*This file is for index page*/
+/******************************************************
+   *Variables START
+******************************************************/
+.content {
+  padding-top: 5.2734375rem;
+}
+ul#main-slider {
+  margin: 0;
+}
+.bx-wrapper .bx-pager {
+  position: absolute;
+  bottom: 20px;
+}
+.bx-wrapper .bx-pager.bx-default-pager a:hover,
+.bx-wrapper .bx-pager.bx-default-pager a.active {
+  background: #c41411;
+}
+.bx-wrapper .bx-pager.bx-default-pager a {
+  background: #d7d7d7;
+  text-indent: -9999px;
+  display: block;
+  width: 26px;
+  height: 26px;
+  margin: 0 5px;
+  outline: 0;
+  margin: 0 8px;
+  -webkit-border-radius: 50%;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 50%;
+  -moz-background-clip: padding;
+  border-radius: 50%;
+  background-clip: padding-box;
+}

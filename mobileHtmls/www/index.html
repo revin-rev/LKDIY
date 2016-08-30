@@ -9,18 +9,95 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
 
+    <link rel="stylesheet" href="../../static/common/plugins/jquery.bxslider/jquery.bxslider.css">
     <link rel="stylesheet" href="../../static/mobile/common/plugins/sui-mobile/dist/css/sm.min.css">
     <link rel="stylesheet" href="../../static/mobile/common/plugins/sui-mobile/dist/css/sm-extend.min.css">
+    <link rel="stylesheet" href="../../static/mobile/common/css/common.css">
+    <link rel="stylesheet" href="../../static/mobile/common/css/global.css">
     <link rel="stylesheet" href="../../static/mobile/www/css/index.css">
 </head>
 <body>
-<div class="page-group">
-    <div class="page page-current">
-        <!-- 你的html代码 -->
+
+<!--  header START -->
+<div class="header-base-color">
+    <header class="bar bar-nav header-bg">
+        <div class="searchbar header-search-bar">
+            <div class="search-input ">
+                <input type="search" id='search' placeholder='搜索商品'/>
+                <div class="search-btn">
+                    <a  type="submit"><span class="icon icon-search"></span></a>
+                </div>
+            </div>
+            <div class="message-notification">
+                <a href="#">
+                    <img src="../../static/mobile/www/images/msg.png" alt="#"/>
+                    <span class="badge">2</span>
+                </a>
+            </div>
+        </div>
+    </header>
+</div>
+<!--  header END -->
+
+<div class="content">
+    <!--  Slider START -->
+    <ul id="main-slider">
+        <li class="item"><img src="../../static/mobile/www/images/home-slider-img1.png" alt="#"></li>
+        <li class="item"><img src="../../static/mobile/www/images/home-slider-img1.png" alt="#"></li>
+        <li class="item"><img src="../../static/mobile/www/images/home-slider-img1.png" alt="#"></li>
+    </ul>
+    <!--  Slider End -->
+    <div class="content-padded grid-demo">
+        <div class="row">
+            <div class="col-25 text-center">
+                <img src="../../static/mobile/www/images/favourites.png" alt="#"/>
+                <h2>收藏夹</h2>
+            </div>
+            <div class="col-25 text-center">
+                <img src="../../static/mobile/www/images/foot-print.png" alt="#"/>
+                <h2>足迹</h2>
+            </div>
+            <div class="col-25 text-center">
+                <img src="../../static/mobile/www/images/assets.png" alt="#"/>
+                <h2>我的资产</h2>
+            </div>
+            <div class="col-25 text-center">
+                <img src="../../static/mobile/www/images/comment.png" alt="#"/>
+                <h2>我的评价</h2>
+            </div>
+            <div class="col-25 text-center">
+                <img src="../../static/mobile/www/images/address.png" alt="#"/>
+                <h2>收藏夹</h2>
+            </div>
+            <div class="col-25 text-center">
+                <img src="../../static/mobile/www/images/set-up.png" alt="#"/>
+                <h2>足迹</h2>
+            </div>
+            <div class="col-25 text-center">
+                <img src="../../static/mobile/www/images/help.png" alt="#"/>
+                <h2>我的资产</h2>
+            </div>
+            <div class="col-25 text-center">
+                <img src="../../static/mobile/www/images/daily-attendence.png" alt="#"/>
+                <h2>我的评价</h2>
+            </div>
+        </div>
     </div>
 </div>
 
+
+
+<script type='text/javascript' src='../../static/mobile/common/scripts/jquery-1.12.4.min.js' charset='utf-8'></script>
+<script type='text/javascript' src='//g.alicdn.com/sj/lib/zepto/zepto.min.js' charset='utf-8'></script>
 <script type='text/javascript' src='../../static/mobile/common/plugins/sui-mobile/dist/js/sm.min.js' charset='utf-8'></script>
 <script type='text/javascript' src='../../static/mobile/common/plugins/sui-mobile/dist/js/sm-extend.min.js' charset='utf-8'></script>
+<script src="../../static/common/plugins/jquery.bxslider/jquery.bxslider.min.js"></script>
+<script>
+    //Setting up Main slider
+    $('#main-slider').bxSlider({
+        controls:false,
+        auto:true
+    });
+</script>
 </body>
 </html>

@@ -1,4 +1,72 @@
 @import "variable";
 @import "lesshat";
 //Import all variables
+@baseRem:25.6rem;
 
+
+.header-base-color{
+  .bar{
+    background: @baseColor;
+    padding: 0 ;
+    height: auto;
+
+    .searchbar{
+      margin: 0;
+      background: transparent;
+      padding: .8rem 1.96rem;
+      height: auto;
+
+      .search-input{
+        float: left;
+        width: 87.75%;
+      }
+
+      .search-input input{
+        .border-radius(2px);
+        height: auto;
+        font-size: 38/@baseRem;
+        padding:  1rem 43/@baseRem;
+        background: @baseColorDark;
+        color: fadeout(@white,20%);
+        position: relative;
+
+        .placeholder(fadeout(@white,20%));
+      }
+      .search-input .icon{
+        color: fadeout(@white,20%);
+        font-size: 2.9rem;
+        right: .3rem;
+        left: auto;
+      }
+      .message-notification {
+        float: left;
+        width: 12.2%;
+        text-align: right;
+
+        a{
+          display: inline-block;
+          position: relative;
+          top: 0.85rem;
+          padding-left: 0.3rem;
+
+          img{
+            max-width: 100%;
+          }
+
+          .badge{
+            background: #e51937;
+            color: #fff;
+            height: 46/@baseRem;
+            width: 46/@baseRem;
+            font-size: 30/@baseRem;
+            border: 3px solid #fff;
+            line-height: 1.3rem;
+            position: absolute;
+            top: -1.0rem;
+            right: -1rem;
+          }
+        }
+      }
+    }
+  }
+}
