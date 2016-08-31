@@ -5,3 +5,11 @@ body {
   background: #ededed;
   font-family: Arial, "Microsoft Yahei", STXihei, sans-serif;;
 }
+/*Helper classes START*/
+.img-responsive {
+  max-width: 100%;
+}
+.padding-bottom-0 {
+  padding-bottom: 0 !important;
+}
+/*Helper classes START*/
