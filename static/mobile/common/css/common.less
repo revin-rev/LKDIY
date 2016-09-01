@@ -51,7 +51,17 @@
           padding-left: 0.3rem;
 
           img{
-            max-width: 100%;
+            max-width: 20px;
+
+            @media(min-width: 400px){
+              max-width: 24px;
+            }
+            @media(min-width: 768px){
+              max-width: 56px;
+            }
+            @media(min-width: 992px){
+              max-width: 100%;
+            }
           }
 
           .badge{
@@ -60,7 +70,7 @@
             height: 46/@baseRem;
             width: 46/@baseRem;
             font-size: 30/@baseRem;
-            border: 3px solid #fff;
+            border: 3/@baseRem solid #fff;
             line-height: 1.3rem;
             position: absolute;
             top: -1.0rem;
@@ -74,9 +84,38 @@
 
 /*index header END*/
 
+/*Main bar Start*/
+.main-bar{
+  height: auto;
+  background: @white;
+  border-top: 2px solid @borderColorExtra;
+
+  .tab-item .icon ~ .tab-label{
+    font-size: 36/@baseRem;
+    padding-bottom: 0.5rem;
+  }
+  .tab-item{
+    height: 5.3rem;
+  }
+  .tab-item .icon {
+    top: .05rem;
+    height: 3.2rem;
+    line-height: 4.2rem;
+    padding-top: 0;
+    padding-bottom: 0;
+    font-size: 2.6rem;
+  }
+  .tab-item.active, .tab-item:active {
+    color: @baseColor;
+  }
+
+  &~.content {
+    bottom: 5.9rem;
+  }
+}
+/*Main bar End*/
 
 /*index Footer START*/
-
 .footer{
   background: @baseTextColor;
   color: @footerTextColor;
@@ -109,5 +148,20 @@
     }
   }
 }
-
 /*index Footer END*/
+
+
+/*back to Top button START*/
+a.back-to-top {
+  position: fixed;
+  top: 48%;
+  right: 1.96rem;
+  width: 104/@baseRem;
+  display: block;
+  .calc(top,~'50% - 2.03rem');
+
+  img{
+    max-width: 100%;
+  }
+}
+/*back to Top button END*/

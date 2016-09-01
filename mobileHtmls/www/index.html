@@ -37,9 +37,28 @@
         </div>
     </header>
 </div>
+<!-- 工具栏 -->
+<nav class="bar bar-tab main-bar">
+    <a class="tab-item external active" href="#">
+        <span class="icon icon-home"></span>
+        <span class="tab-label">首页</span>
+    </a>
+    <a class="tab-item external" href="#">
+        <span class="icon icon-app"></span>
+        <span class="tab-label">分类</span>
+    </a>
+    <a class="tab-item external" href="#">
+        <span class="icon icon-cart"></span>
+        <span class="tab-label">购物车</span>
+    </a>
+    <a class="tab-item external" href="#">
+        <span class="icon icon-me"></span>
+        <span class="tab-label">我</span>
+    </a>
+</nav>
 <!--  header END -->
 
-<div class="content">
+<div class="content" id="top">
     <!--  Slider START -->
     <ul id="main-slider">
         <li class="item"><img src="../../static/mobile/www/images/home-slider-img1.png" alt="#"></li>
@@ -310,7 +329,7 @@
     <!--Products Container END-->
 
 
-    <!--Products Container START-->
+    <!--Footer START-->
     <div class="content-padded footer">
         <ul class="clearfix">
             <li><a href="#">登录</a></li>
@@ -322,7 +341,11 @@
             ©2009-2016 软件科技有限公司版权所有
         </div>
     </div>
-    <!--Products Container END-->
+    <!--Footer END-->
+
+    <!--Back to top Start-->
+    <a href="#top" class="back-to-top"><img src="../../static/mobile/common/images/arrow-up.png" alt="Back To Top"/></a>
+    <!--Back to top End-->
 
 </div>
 
@@ -367,9 +390,24 @@
                     });
                 }).trigger('resize');
             },
+            backToTop: function(){
+                $('.content').scroll(function(){
+                    if($('.content').scrollTop() > 150){
+                        $("[href='#top']").fadeIn();
+                    }else{
+                        $("[href='#top']").fadeOut();
+                    }
+                }).trigger('scroll');
+
+                $("[href='#top']").click(function(){
+                    $(".content").animate({ scrollTop: 0 }, 600);
+                    return false;
+                });
+            },
             init: function(){
                 _o.initSlider();
                 _o.matchHeight('.www-products-container-full-height .row','.www-product-col');
+                _o.backToTop();
             }
         };
         return _o;
@@ -378,8 +416,6 @@
     $(function(){
         pageModule.init();
     });
-
-
 
 </script>
 </body>

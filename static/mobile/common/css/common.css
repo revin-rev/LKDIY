@@ -61,7 +61,22 @@
   padding-left: 0.3rem;
 }
 .header-base-color .bar .searchbar .message-notification a img {
-  max-width: 100%;
+  max-width: 20px;
+}
+@media (min-width: 400px) {
+  .header-base-color .bar .searchbar .message-notification a img {
+    max-width: 24px;
+  }
+}
+@media (min-width: 768px) {
+  .header-base-color .bar .searchbar .message-notification a img {
+    max-width: 56px;
+  }
+}
+@media (min-width: 992px) {
+  .header-base-color .bar .searchbar .message-notification a img {
+    max-width: 100%;
+  }
 }
 .header-base-color .bar .searchbar .message-notification a .badge {
   background: #e51937;
@@ -69,13 +84,42 @@
   height: 1.796875rem;
   width: 1.796875rem;
   font-size: 1.171875rem;
-  border: 3px solid #fff;
+  border: 0.1171875rem solid #fff;
   line-height: 1.3rem;
   position: absolute;
   top: -1rem;
   right: -1rem;
 }
 /*index header END*/
+/*Main bar Start*/
+.main-bar {
+  height: auto;
+  background: #fff;
+  border-top: 2px solid #dedede;
+}
+.main-bar .tab-item .icon ~ .tab-label {
+  font-size: 1.40625rem;
+  padding-bottom: 0.5rem;
+}
+.main-bar .tab-item {
+  height: 5.3rem;
+}
+.main-bar .tab-item .icon {
+  top: .05rem;
+  height: 3.2rem;
+  line-height: 4.2rem;
+  padding-top: 0;
+  padding-bottom: 0;
+  font-size: 2.6rem;
+}
+.main-bar .tab-item.active,
+.main-bar .tab-item:active {
+  color: #c41411;
+}
+.main-bar ~ .content {
+  bottom: 5.9rem;
+}
+/*Main bar End*/
 /*index Footer START*/
 .footer {
   background: #666666;
@@ -112,3 +156,20 @@
   border: 2px solid;
 }
 /*index Footer END*/
+/*back to Top button START*/
+a.back-to-top {
+  position: fixed;
+  top: 48%;
+  right: 1.96rem;
+  width: 4.0625rem;
+  display: block;
+  -lh-property: 0;
+top:-webkit-calc(50% - 2.03rem);
+top:-moz-calc(50% - 2.03rem);
+top:calc(50% - 2.03rem);
+;
+}
+a.back-to-top img {
+  max-width: 100%;
+}
+/*back to Top button END*/
