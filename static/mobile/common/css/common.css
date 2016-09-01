@@ -1,6 +1,7 @@
 /******************************************************
    *Variables START
 ******************************************************/
+/*index header START*/
 .header-base-color .bar {
   background: #c41411;
   padding: 0 ;
@@ -74,3 +75,40 @@
   top: -1rem;
   right: -1rem;
 }
+/*index header END*/
+/*index Footer START*/
+.footer {
+  background: #666666;
+  color: #cccccc;
+  margin: 0;
+  padding: 1.953125rem 2.34375rem 2.34375rem;
+  margin-top: 1.5625rem;
+  font-size: 1.2109375rem;
+  font-weight: normal;
+}
+.footer ul {
+  margin: 0 -1.5625rem 2.34375rem;
+  padding: 0;
+  list-style: none;
+}
+.footer ul li {
+  float: left;
+  width: 25%;
+  padding: 0 0.78125rem;
+}
+.footer ul li a {
+  font-size: 1.40625rem;
+  display: block;
+  width: 100%;
+  padding: 1.171875rem;
+  text-align: center;
+  color: #cccccc;
+  -webkit-border-radius: 8px;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 8px;
+  -moz-background-clip: padding;
+  border-radius: 8px;
+  background-clip: padding-box;
+  border: 2px solid;
+}
+/*index Footer END*/

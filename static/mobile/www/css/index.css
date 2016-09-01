@@ -186,3 +186,9 @@ ul#main-slider {
 .www-brands-row ul li a img {
   max-width: 100%;
 }
+.www-more-link {
+  font-size: 1.40625rem;
+  color: #222222;
+  padding: 1.171875rem 1.171875rem 0.1953125rem;
+  display: inline-block;
+}

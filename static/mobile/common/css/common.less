@@ -3,6 +3,7 @@
 //Import all variables
 @baseRem:25.6rem;
 
+/*index header START*/
 
 .header-base-color{
   .bar{
@@ -70,3 +71,43 @@
     }
   }
 }
+
+/*index header END*/
+
+
+/*index Footer START*/
+
+.footer{
+  background: @baseTextColor;
+  color: @footerTextColor;
+  margin: 0;
+  padding: 50/@baseRem 60/@baseRem 60/@baseRem;
+  margin-top: 40/@baseRem;
+  font-size: 31/@baseRem;
+  font-weight: normal;
+
+  ul{
+    margin: 0 -40/@baseRem 60/@baseRem;
+    padding: 0;
+    list-style: none;
+
+    li{
+      float: left;
+      width: 25%;
+      padding: 0 20/@baseRem;
+
+      a{
+        font-size: 36/@baseRem;
+        display: block;
+        width: 100%;
+        padding: 30/@baseRem;
+        text-align: center;
+        color: @footerTextColor;
+        .border-radius(8px);
+        border: 2px solid;
+      }
+    }
+  }
+}
+
+/*index Footer END*/
