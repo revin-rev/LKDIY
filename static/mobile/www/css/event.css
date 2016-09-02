@@ -4,3 +4,96 @@
 .www-wheel-container {
   background: #691b4f;
 }
+.www-wheel-container .www-wheel-image-container {
+  max-width: 82%;
+  padding: 0 2%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -5.46875rem;
+}
+.www-wheel-title {
+  font-size: 1.953125rem;
+  color: #b33541;
+  letter-spacing: 0.46875rem;
+  display: inline-block;
+  margin-top: 3.515625rem;
+  margin-bottom: 3.125rem;
+}
+.www-wheel-title span {
+  font-size: 2.1484375rem;
+  color: #fff;
+}
+.wheel-btn {
+  font-size: 1.953125rem;
+  color: #fff;
+  display: inline-block;
+  padding: 0.5078125rem 3.125rem;
+  background-image: -moz-linear-gradient(90deg, #dd354f 0%, #ff5959 100%);
+  background-image: -webkit-linear-gradient(90deg, #dd354f 0%, #ff5959 100%);
+  background-image: -ms-linear-gradient(90deg, #dd354f 0%, #ff5959 100%);
+  -webkit-border-radius: 1.953125rem;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 1.953125rem;
+  -moz-background-clip: padding;
+  border-radius: 1.953125rem;
+  background-clip: padding-box;
+  margin-bottom: 3.125rem;
+}
+.www-event-page {
+  background: #d02d48;
+  padding-bottom: 5.1171875rem;
+}
+.www-event-page-title {
+  color: #fff;
+  font-size: 1.953125rem;
+  display: block;
+  margin-top: 0.78125rem;
+  margin-bottom: 0.78125rem;
+  padding: 0 2.5rem;
+}
+.www-event-page-container {
+  padding: 0 3.9453125rem;
+}
+.www-codes-list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  margin-bottom: 2.34375rem;
+}
+.www-codes-list li {
+  display: block;
+  background: #fff;
+  -webkit-box-shadow: 0px 2px 2px 0px rgba(21, 13, 7, 0.3);
+  -moz-box-shadow: 0px 2px 2px 0px rgba(21, 13, 7, 0.3);
+  box-shadow: 0px 2px 2px 0px rgba(21, 13, 7, 0.3);
+  font-size: 1.5625rem;
+  color: #666666;
+  padding: 0.546875rem 1.953125rem;
+  -webkit-border-radius: 25px;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 25px;
+  -moz-background-clip: padding;
+  border-radius: 25px;
+  background-clip: padding-box;
+}
+.www-codes-list li + li {
+  margin-top: 0.78125rem;
+}
+.www-event-round-box {
+  color: #fff;
+  font-size: 1.40625rem;
+  padding: 1.40625rem 1.5625rem;
+  border: 0.1171875rem solid #fff;
+  -webkit-border-radius: 0.9765625rem;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 0.9765625rem;
+  -moz-background-clip: padding;
+  border-radius: 0.9765625rem;
+  background-clip: padding-box;
+}
+.www-event-round-box ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 2.34375rem;
+}
