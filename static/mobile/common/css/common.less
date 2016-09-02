@@ -80,7 +80,30 @@
       }
     }
   }
+  .back-to-prev-btn{
+    position: absolute;
+    color: @white;
+    display: inline-block;
+    left: 31/@baseRem;
+
+    .icon{
+      font-size: 70/@baseRem;
+      line-height: 106/@baseRem;
+    }
+  }
+  .bar-title{
+    color: @white;
+    font-size: 46/@baseRem;
+    font-weight: 400;
+    margin: 33px 0;
+  }
+
+  & ~ .content{
+    padding-top: 135/@baseRem;
+  }
 }
+
+
 
 /*index header END*/
 
@@ -112,6 +135,7 @@
   &~.content {
     bottom: 5.9rem;
   }
+
 }
 /*Main bar End*/
 

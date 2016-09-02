@@ -90,6 +90,25 @@
   top: -1rem;
   right: -1rem;
 }
+.header-base-color .back-to-prev-btn {
+  position: absolute;
+  color: #fff;
+  display: inline-block;
+  left: 1.2109375rem;
+}
+.header-base-color .back-to-prev-btn .icon {
+  font-size: 2.734375rem;
+  line-height: 4.140625rem;
+}
+.header-base-color .bar-title {
+  color: #fff;
+  font-size: 1.796875rem;
+  font-weight: 400;
+  margin: 33px 0;
+}
+.header-base-color ~ .content {
+  padding-top: 5.2734375rem;
+}
 /*index header END*/
 /*Main bar Start*/
 .main-bar {

@@ -1,1 +1,100 @@
-/*This file is for item product common styles to reused*/
+/******************************************************
+   *Variables START
+******************************************************/
+.header-base-color .bar .item-icon {
+  position: absolute;
+  font-size: 2.98046875rem;
+  top: 1.609375rem;
+  color: #fff;
+  margin-left: 1.25rem;
+}
+.header-base-color .bar .item-searchbar .item-search-input input {
+  width: 29.9609375rem;
+  border-radius: 8px;
+  background-color: #fff;
+  margin-left: 3.5546875rem;
+  color: #333333;
+}
+.content .bar {
+  height: 4.87550781rem;
+  position: static;
+}
+.content .bar a.item-external {
+  padding-top: 0.78125rem;
+  padding-bottom: 0.703125rem;
+}
+.bar-tab .tab-item.active,
+.bar-tab .tab-item:active {
+  color: #c41411;
+}
+.bar-tab .tab-item.active .item-label {
+  font-size: 1.40625rem;
+}
+.bar-tab .tab-item .icon {
+  font-size: 1.484375rem;
+}
+.content .bar-tab .tab-item .item-label {
+  font-size: 1.40625rem;
+}
+.bar-tab .tab-item .icon.item-icon-me {
+  background: url("../image/item-search.png") no-repeat;
+  height: 38px;
+  width: 38px;
+}
+.bar-tab .tab-item .icon.item-icon-settings {
+  background: url("../image/item-people.png") no-repeat;
+  height: 38px;
+  width: 38px;
+}
+.row .item-left {
+  width: 10.96070312rem;
+  height: 62.1875rem;
+}
+.row ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  float: left;
+}
+.row ul li a {
+  padding: 2.734375rem 1.9921875rem 2.6171875rem 1.9921875rem;
+  float: left;
+  font-size: 1.384375rem;
+  color: #c41411;
+}
+.row .item-right {
+  width: 30.078125rem;
+  margin-left: 0%;
+}
+.row .item-right .item-right-banner {
+  margin-top: 1.5625rem;
+}
+.row .item-right .item-right-banner img {
+  max-width: 100%;
+}
+.row .item-right .content-block {
+  margin: 2.34375rem 0rem 1.25rem 0rem;
+  padding: 0rem;
+  font-size: 1.40625rem;
+  color: #333333;
+}
+.row .item-right .item-bg-white {
+  background-color: #fff;
+}
+.row .item-right .item-bg-white .item-img-container {
+  margin-left: 1.171875rem;
+  margin-top: 2.109375rem;
+  float: left;
+  height: 30.6vw;
+}
+.row .item-right .item-bg-white .item-img-container a h3 {
+  color: #666666;
+}
+.item-border {
+  border: 3px solid #dedede;
+  float: left;
+}
+.row ul li.item-border a {
+  color: #333333;
+}
+/*--- best products end ----*/

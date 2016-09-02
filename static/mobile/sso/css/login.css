@@ -121,6 +121,14 @@
   width: 1.5625rem;
   height: 1.17578125rem;
 }
+.sso-page .tabs .tab .sso-customer {
+  text-align: right;
+  padding: 1.6796875rem 1.953125rem;
+  color: #666666;
+  font-size: 1.640625rem;
+  height: 23.7890625rem;
+  width: 100%;
+}
 .sso-page input[type="checkbox"]:checked :before {
   background: #3d404e;
 }

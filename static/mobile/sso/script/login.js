@@ -1,3 +1,5 @@
+
+
 jQuery(document).ready(function(){
     jQuery('input[type=text],input[type=password]','.sso-form ').keyup(function(){
         var _form = $(this).parents('form');
@@ -25,21 +27,26 @@ jQuery(document).ready(function(){
 
     });
    jQuery('.sso-pass-eye').click(function(){
+
+       //console.log('clicked');
+
+       var _form = $(this).parents('form');
        
-       var text = jQuery('.sso-password').val();
+       var text = jQuery('.sso-password',_form).val();
        var img = jQuery(this).attr('src');
    
           if(text != '') {
             
           if(img == '../../static/mobile/sso/image/sso-eye.png'){
-               jQuery('.sso-password').attr('type','text');
-               jQuery('.sso-pass-eye').attr('src','../../static/mobile/sso/image/sso-blk-eye.png');
+               jQuery('.sso-password',_form).attr('type','text');
+               jQuery('.sso-pass-eye',_form).attr('src','../../static/mobile/sso/image/sso-blk-eye.png');
            } else {
                
-               jQuery('.sso-password').attr('type','password');
-               jQuery('.sso-pass-eye').attr('src','../../static/mobile/sso/image/sso-eye.png');
+               jQuery('.sso-password',_form).attr('type','password');
+               jQuery('.sso-pass-eye',_form).attr('src','../../static/mobile/sso/image/sso-eye.png');
            }
        }
+       //debugger;
    });
 
 
@@ -62,4 +69,7 @@ jQuery(document).ready(function(){
       ]
     })
     });
+
+
+  
 
