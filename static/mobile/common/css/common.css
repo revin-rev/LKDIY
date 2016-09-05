@@ -98,11 +98,11 @@
   color: #666666;
   font-size: 1.640625rem;
   padding: 0.8984375rem 1.640625rem;
-  -webkit-border-radius: 9px;
+  -webkit-border-radius: 0.3515625rem;
   -webkit-background-clip: padding-box;
-  -moz-border-radius: 9px;
+  -moz-border-radius: 0.3515625rem;
   -moz-background-clip: padding;
-  border-radius: 9px;
+  border-radius: 0.3515625rem;
   background-clip: padding-box;
 }
 .header-base-color .bar .searchbar.with-arrow input::-webkit-input-placeholder {

@@ -31,3 +31,19 @@
   margin-bottom: 0;
   margin-top: 0;
 }
+.www-no-result-block {
+  padding-top: 6.25rem;
+}
+.www-no-result-block img {
+  width: 9.453125rem;
+}
+.www-no-result-block h2 {
+  margin-top: 6.015625rem;
+  font-size: 1.796875rem;
+  color: #999999;
+  font-weight: normal;
+}
+.www-no-result-block h2 span {
+  display: block;
+  font-size: 1.40625rem;
+}
