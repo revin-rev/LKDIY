@@ -141,6 +141,8 @@
   padding: 0 1.953125rem;
   list-style: none;
   background: #fff;
+  margin-bottom: -1px;
+  border-bottom: 0.390625rem solid #eeeeee;
 }
 .header-base-color .sort-links ul li {
   float: left;
@@ -169,7 +171,7 @@
   padding-top: 5.2734375rem;
 }
 .header-base-color.has-sort-menu ~ .content {
-  padding-top: 10.15625rem;
+  padding-top: 10.546875rem;
 }
 /*index header END*/
 /*Main bar Start*/

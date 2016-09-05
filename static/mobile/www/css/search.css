@@ -1,0 +1,33 @@
+/******************************************************
+   *Variables START
+******************************************************/
+.content {
+  padding-top: 5.2734375rem;
+}
+.www-product-list-row {
+  padding: 0 10px;
+  background: #fff;
+  border-bottom: 3px solid #eeeeee;
+}
+.www-product-list-row .www-product-list-image {
+  float: left;
+  width: 35.822306238185256%;
+}
+.www-product-list-row .www-product-list-text {
+  float: left;
+  width: 64.17769376%;
+}
+.www-product-list-row .www-product-list-text h2 {
+  color: #333333;
+  font-weight: normal;
+  font-size: 1.71875rem;
+  margin-top: 1.5625rem;
+  min-height: 7.320313rem;
+}
+.www-product-list-row .www-product-list-text h3 {
+  color: #c41411;
+  font-weight: normal;
+  font-size: 1.953125rem;
+  margin-bottom: 0;
+  margin-top: 0;
+}

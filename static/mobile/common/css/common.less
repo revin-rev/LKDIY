@@ -1,7 +1,6 @@
+//Import all variables
 @import "variable";
 @import "lesshat";
-//Import all variables
-@baseRem:25.6rem;
 
 /*index header START*/
 
@@ -121,6 +120,8 @@
       padding: 0 50/@baseRem;
       list-style: none;
       background: @white;
+      margin-bottom: -1px;
+      border-bottom: 10/@baseRem solid @borderColorXtraLight;
 
       li{
         float: left;
@@ -159,7 +160,7 @@
   }
 
   &.has-sort-menu ~ .content{
-    padding-top: 260/@baseRem;
+    padding-top: 270/@baseRem;
   }
 }
 
