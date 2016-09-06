@@ -22,8 +22,8 @@
 .user-register-outr .user-address-form.form-horizontal .double-input input[type="text"].trade-long-input,
 .user-register-outr .user-address-form.form-horizontal .user-address-form.form-horizontal .double-input input[type="password"].trade-long-input {
   width: 300px;
-  padding: 11px 9px 12px;
-  border-radius: 0px;
+  padding: 6px 9px ;
+  border-radius: 0;
 }
 .user-register-outr .user-address-form.form-horizontal .control-label {
   white-space: nowrap;
@@ -64,8 +64,8 @@
 }
 .user-register-outr .user-register-holder .sui-form input[type="text"].input-large {
   width: 181px;
-  padding: 11px 9px 12px;
-  border-radius: 0px;
+  padding: 6px 9px ;
+  border-radius: 0;
 }
 .user-register-outr .user-register-holder .double-input input[type="text"] {
   padding: 11px 9px 12px;

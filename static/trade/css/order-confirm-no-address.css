@@ -731,7 +731,7 @@ table.trade-products-table {
 }
 .sui-form input[type="text"].input-xxlarge {
   width: 815px;
-  padding: 12px;
+  padding: 6px 12px;
 }
 .trade-invoice-info {
   font-size: 14px;
