@@ -49,10 +49,16 @@
 .trade-evaluate-form.sui-form.form-horizontal .trade-absolute-tip {
   position: relative;
 }
-.trade-evaluate-form.sui-form.form-horizontal .trade-absolute-tip .tip {
+.trade-evaluate-form.sui-form.form-horizontal .trade-absolute-tip .tip,
+.trade-evaluate-form.sui-form.form-horizontal .trade-absolute-tip .sui-msg {
   position: absolute;
   top: 127px;
   left: 555px;
+}
+.trade-evaluate-form.sui-form.form-horizontal .trade-absolute-tip .sui-msg {
+  position: absolute;
+  top: 44px;
+  left: 100%;
 }
 .br-wrapper {
   display: inline-block;
