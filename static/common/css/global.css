@@ -85,6 +85,9 @@ p {
 .white-bg {
   background: #fff;
 }
+.text-no-wrap {
+  white-space: nowrap;
+}
 .vertical-align-middle {
   vertical-align: middle;
 }

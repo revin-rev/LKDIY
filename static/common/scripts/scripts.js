@@ -95,4 +95,9 @@
     });
 
 
+    //file issue in IE8 fixed
+    $('input[type="file"]').focus(function(){
+        $(this).click();
+    });
+
 })(jQuery);
