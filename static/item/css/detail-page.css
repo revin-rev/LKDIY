@@ -636,7 +636,8 @@
 .item-product-detail-block .item-product-actions-btns a + a {
   margin-left: 50px;
 }
-.item-product-detail-block .item-product-actions-btns a:hover {
+.item-product-detail-block .item-product-actions-btns a:hover,
+.item-product-detail-block .item-product-actions-btns a.active {
   background: #b0120a;
   color: #fff;
 }
@@ -676,7 +677,7 @@
   margin-top: 30px;
 }
 .item-product-related-block .item-move-to-bottom {
-  font-size: 40px;
+  font-size: 50px;
   color: #afafaf;
   float: right;
   margin-right: 15px;

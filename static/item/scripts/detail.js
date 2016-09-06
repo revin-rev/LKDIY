@@ -48,7 +48,6 @@
         moveSlides:1,
         pager:false,
         infiniteLoop:false,
-        hideControlOnEnd:true,
         speed:300
     });
 
