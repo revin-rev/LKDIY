@@ -75,6 +75,10 @@
   border: 0;
 }
 /*orders listing heading bar end*/
+.trade-single-order-detail-row .trade-price-value-inc * {
+  height: 22px;
+  margin: 0 -3px;
+}
 /* product order detail row start*/
 .trade-single-order-detail-row {
   margin-top: -25px;
@@ -273,6 +277,13 @@
   margin-right: 15px;
   margin-bottom: 0px;
   background-color: #fff;
+}
+.trade-single-product:last-child,
+.trade-single-product.last {
+  margin-right: 0 !important;
+}
+.last {
+  margin-right: 0 !important;
 }
 .trade-my-collections {
   margin-top: 30px;
