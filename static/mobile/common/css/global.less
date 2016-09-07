@@ -46,6 +46,10 @@ html {
 
 
 /*modal styling START*/
+
+.modal-overlay, .popup-overlay, .preloader-indicator-overlay{
+  background: rgba(255, 255, 255, 0.79);
+}
 .modal {
   width: 38.5rem;
   position: absolute;
@@ -53,8 +57,47 @@ html {
   top: 50%;
 }
 .modal-inner {
-  padding: 4.6rem .75rem;
-  border-radius: .35rem .35rem 0 0;
+  padding: 4.8rem .75rem;
+  border-radius: 4px 4px 0 0;
+  background: @white;
+  border: 1px solid @fontLightColor;
+  border-bottom: 0;
+}
+.modal-inner:after{
+  background: @fontLightColor;
+}
+.modal-button{
+  background: #fff;
+  border: 1px solid @fontLightColor;
+  border-top: 0;
+  box-shadow: none;
+  font-size: 40/@baseRem;
+  color: @baseTextColor;
+  padding: 65/@baseRem 20/@baseRem;
+  display: inline-block;
+  line-height: 50/@baseRem;
+  height: auto;
+
+  &:after{
+    display: none;
+  }
+}
+.modal-button.modal-button-bold{
+  border-radius: 0 0 4px  0;
+  background: @baseColor;
+  color: @white;
+}
+.modal-button:first-child {
+  border-radius: 0 0 0 4px;
+  border-right: 0;
+}
+.modal-buttons{
+  height: auto;
+}
+
+
+.modal-text{
+  font-size: 46/@baseRem;
 }
 /*modal styling END*/
 

@@ -13,64 +13,26 @@
     <link rel="stylesheet" href="../../static/mobile/common/plugins/sui-mobile/dist/css/sm-extend.min.css">
     <link rel="stylesheet" href="../../static/mobile/common/css/common.css">
     <link rel="stylesheet" href="../../static/mobile/common/css/global.css">
-    <link rel="stylesheet" href="../../static/mobile/www/css/search.css">
 </head>
 <body>
 <header class="bar bar-nav">
-    <h1 class="title">Confirm</h1>
+    <h1 class="title">Popup</h1>
 </header>
 
 <div class="content">
     <div class="content-block">
-        <p><a href="#" class="confirm-ok">Confirm with text and Ok callback</a></p>
-        <p><a href="#" class="confirm-ok-cancel">Confirm with text, Ok and Cancel callbacks</a></p>
-        <p><a href="#" class="confirm-title-ok">Confirm with text, title and Ok callback</a></p>
-        <p><a href="#" class="confirm-title-ok-cancel">Confirm with text, title, Ok and Cancel callback</a></p>
+        <p><a href="#" class="confirm-ok">Click Here For Popup</a></p>
     </div>
 </div>
 
 <script type='text/javascript' src='../../static/mobile/common/scripts/jquery-1.12.4.min.js' charset='utf-8'></script>
-<script type="text/javascript">
-    var jQuery_noConflict = $.noConflict(true);
-</script>
-<script type='text/javascript' src='../../static/mobile/common/scripts/main.js' charset='utf-8'></script>
 <script type='text/javascript' src='//g.alicdn.com/sj/lib/zepto/zepto.min.js' charset='utf-8'></script>
 <script type='text/javascript' src='../../static/mobile/common/plugins/sui-mobile/dist/js/sm.min.js' charset='utf-8'></script>
 <script type='text/javascript' src='../../static/mobile/common/plugins/sui-mobile/dist/js/sm-extend.min.js' charset='utf-8'></script>
 <script>
         $(document).on('click','.confirm-ok', function () {
-            $.confirm('确定删除商品？', function () {
-                $.alert('You clicked Ok button');
-            });
+            $.confirm('确定删除商品？');
         });
-
-        $(document).on('click', '.confirm-ok-cancel',function () {
-            $.confirm('Are you sure?',
-                    function () {
-                        $.alert('You clicked Ok button');
-                    },
-                    function () {
-                        $.alert('You clicked Cancel button');
-                    }
-            );
-        });
-        $(document).on('click','.confirm-title-ok', function () {
-            $.confirm('Are you sure?', 'Custom Title', function () {
-                $.alert('You clicked Ok button');
-            });
-        });
-        $(document).on('click','.confirm-title-ok-cancel', function () {
-            $.confirm('Are you sure?', 'Custom Title',
-                    function () {
-                        $.alert('You clicked Ok button');
-                    },
-                    function () {
-                        $.alert('You clicked Cancel button');
-                    }
-            );
-        });
-
-
 </script>
 
 
