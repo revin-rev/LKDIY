@@ -28,6 +28,11 @@
  		},2000);
  		
  	});
+
+ 	$('.icon > img').click(function(){
+ 		$('.dropdown') .toggle();
+
+ 	});
  	
  });
 })(jQuery_noConflict)
