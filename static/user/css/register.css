@@ -52,6 +52,9 @@
   color: #999999;
   margin-left: 10px;
 }
+.user-register-outr .user-register-holder span.margin-left-15 {
+  margin-left: 16px;
+}
 .user-register-outr .user-register-holder span.medium {
   border: 1px solid #cccccc;
   padding: 9px;
