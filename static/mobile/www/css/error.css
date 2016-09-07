@@ -1,0 +1,19 @@
+/******************************************************
+   *Variables START
+******************************************************/
+.www-error-block {
+  padding-top: 6.25rem;
+}
+.www-error-block img {
+  width: 9.453125rem;
+}
+.www-error-block h2 {
+  margin-top: 6.015625rem;
+  font-size: 1.796875rem;
+  color: #999999;
+  font-weight: normal;
+}
+.www-error-block h2 span {
+  display: block;
+  font-size: 1.40625rem;
+}

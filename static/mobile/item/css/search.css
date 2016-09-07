@@ -4,46 +4,46 @@
 .content {
   padding-top: 5.2734375rem;
 }
-.www-product-list-row {
+.item-product-list-row {
   padding: 0 10px;
   background: #fff;
   border-bottom: 3px solid #eeeeee;
 }
-.www-product-list-row .www-product-list-image {
+.item-product-list-row .item-product-list-image {
   float: left;
   width: 35.822306238185256%;
 }
-.www-product-list-row .www-product-list-text {
+.item-product-list-row .item-product-list-text {
   float: left;
   width: 64.17769376%;
 }
-.www-product-list-row .www-product-list-text h2 {
+.item-product-list-row .item-product-list-text h2 {
   color: #333333;
   font-weight: normal;
   font-size: 1.71875rem;
   margin-top: 1.5625rem;
   min-height: 7.320313rem;
 }
-.www-product-list-row .www-product-list-text h3 {
+.item-product-list-row .item-product-list-text h3 {
   color: #c41411;
   font-weight: normal;
   font-size: 1.953125rem;
   margin-bottom: 0;
   margin-top: 0;
 }
-.www-no-result-block {
+.item-no-result-block {
   padding-top: 6.25rem;
 }
-.www-no-result-block img {
+.item-no-result-block img {
   width: 9.453125rem;
 }
-.www-no-result-block h2 {
+.item-no-result-block h2 {
   margin-top: 6.015625rem;
   font-size: 1.796875rem;
   color: #999999;
   font-weight: normal;
 }
-.www-no-result-block h2 span {
+.item-no-result-block h2 span {
   display: block;
   font-size: 1.40625rem;
 }

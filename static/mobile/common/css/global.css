@@ -34,7 +34,10 @@ html {
   display: block;
   margin: 0 auto;
 }
-/*Helper classes START*/
+.white-bg {
+  background: #fff;
+}
+/*Helper classes END*/
 /*modal styling START*/
 .modal-overlay,
 .popup-overlay,
