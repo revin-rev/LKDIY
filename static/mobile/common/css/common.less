@@ -252,3 +252,62 @@ a.back-to-top {
   }
 }
 /*back to Top button END*/
+
+
+/******** Sidebar **************/
+.sidebar{
+  width: 88%;
+  background: @white;
+  right: -88% !important;
+
+  .content-block{
+    padding: 50/@baseRem 36/@baseRem;
+    margin: 0;
+    height: 100%;
+    overflow: auto;
+
+    .side-bar-title{
+      margin-top: 0;
+      color: @fontDarkColor;
+      margin-bottom: 50/@baseRem;
+      font-weight: 400;
+    }
+  }
+  .content-footer{
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    bottom: 0;
+    z-index: 10;
+
+    .btns{
+      .btn{
+        width: 50%;
+        display: inline-block;
+        font-size: 46/@baseRem;
+        background: @white;
+        color: @fontDarkColor;
+        text-align: center;
+        border-top: 1px solid @borderColorExtra;
+        padding: 45/@baseRem 15/@baseRem;
+
+        &.active{
+          background: @baseColor;
+          color: @white;
+        }
+      }
+    }
+
+    & + .content-block{
+      padding-bottom: 124/@baseRem;
+    }
+  }
+}
+body.with-panel-right-cover .sidebar {
+  -webkit-transform: translate3d(-100%,0,0);
+  transform: translate3d(-100%,0,0);
+}
+.with-panel-right-cover .content{
+  overflow: hidden;
+}

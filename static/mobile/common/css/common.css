@@ -258,3 +258,53 @@ a.back-to-top img {
   max-width: 100%;
 }
 /*back to Top button END*/
+/******** Sidebar **************/
+.sidebar {
+  width: 88%;
+  background: #fff;
+  right: -88% !important;
+}
+.sidebar .content-block {
+  padding: 1.953125rem 1.40625rem;
+  margin: 0;
+  height: 100%;
+  overflow: auto;
+}
+.sidebar .content-block .side-bar-title {
+  margin-top: 0;
+  color: #333333;
+  margin-bottom: 1.953125rem;
+  font-weight: 400;
+}
+.sidebar .content-footer {
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 100%;
+  bottom: 0;
+  z-index: 10;
+}
+.sidebar .content-footer .btns .btn {
+  width: 50%;
+  display: inline-block;
+  font-size: 1.796875rem;
+  background: #fff;
+  color: #333333;
+  text-align: center;
+  border-top: 1px solid #dedede;
+  padding: 1.7578125rem 0.5859375rem;
+}
+.sidebar .content-footer .btns .btn.active {
+  background: #c41411;
+  color: #fff;
+}
+.sidebar .content-footer + .content-block {
+  padding-bottom: 4.84375rem;
+}
+body.with-panel-right-cover .sidebar {
+  -webkit-transform: translate3d(-100%, 0, 0);
+  transform: translate3d(-100%, 0, 0);
+}
+.with-panel-right-cover .content {
+  overflow: hidden;
+}
