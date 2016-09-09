@@ -203,6 +203,6 @@ top:calc(48% - 2px);
     border-width: 1px;
   }
   .item-checkbox-block .item-checkboxes-row {
-    max-height: 31px;
+    max-height: 30px;
   }
 }

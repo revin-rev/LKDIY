@@ -48,6 +48,9 @@
   margin-top: 0.8859375rem;
   margin-bottom: 0.8859375rem;
 }
+.shopping-cart-tabs-footer-navigation {
+  height: 11.520703rem !important;
+}
 .shopping-cart-list-products-container {
   border-top: 0px;
   padding-top: 0rem;
@@ -76,8 +79,8 @@
   padding: 0;
   padding-left: 1.953125rem;
   padding-top: 1.0071875rem;
-  padding-bottom: 1.3671875rem;
-  z-index: -10;
+  margin-bottom: 0;
+  z-index: 3;
 }
 .shopping-cart-header-secondary2 label.label-checkbox .item-media {
   float: left;
@@ -141,4 +144,135 @@
   color: #333;
   margin: 0;
   padding-right: 0.390625rem;
+}
+.shopping-cart-header-secondary2 .product-list-price-value-inc {
+  margin: 0rem 0rem 0rem 0rem;
+  padding-bottom: 1.875rem;
+  padding-left: 0.78125rem;
+}
+.shopping-cart-header-secondary2 .product-list-price-value-inc .decrement {
+  font-size: 0.78125rem;
+  border: 1px solid #f3f5f7;
+  padding: 0.5859375rem 0.9375rem 0.5859375rem 0.9375rem;
+}
+.shopping-cart-header-secondary2 .product-list-price-value-inc .number {
+  font-size: 0.78125rem;
+  border: 1px solid #f3f5f7;
+  padding: 0.5859375rem 0.9375rem 0.5859375rem 0.9375rem;
+  position: relative;
+  left: -7px;
+}
+.shopping-cart-header-secondary2 .product-list-price-value-inc .increment {
+  font-size: 0.78125rem;
+  border: 1px solid #f3f5f7;
+  padding: 0.5859375rem 0.9375rem 0.5859375rem 0.9375rem;
+  position: relative;
+  right: 14px;
+}
+.shopping-cart-header-secondary2 .product-list-price-value-inc .product-detail-stock {
+  font-size: 1.40625rem;
+  color: #d7d7d7;
+  margin-left: 1.953125rem;
+  vertical-align: middle;
+}
+.shopping-cart-header-secondary2 .product-list-price-value-inc .product-detail-stock .product-detail-stock-number {
+  color: #666;
+}
+.shopping-cart-tabs-footer {
+  padding-left: 2.3390625rem;
+  height: 4.90625rem;
+  width: auto;
+  border-top: 1px solid #d7d7d7;
+}
+.shopping-cart-tabs-footer .custom-width {
+  margin-left: 1%;
+  margin-top: 1.5%;
+}
+.shopping-cart-tabs-footer .custom-width label.label-checkbox .item-media {
+  float: left;
+}
+.shopping-cart-tabs-footer .custom-width label.label-checkbox .item-media i.shopping-cart-form-checkbox {
+  width: 1.953125rem;
+  height: 1.953125rem;
+}
+.shopping-cart-tabs-footer .custom-width label.label-checkbox .item-media i.shopping-cart-form-checkbox-down {
+  margin-top: 0.696875rem;
+  padding: 0.2rem;
+}
+.shopping-cart-tabs-footer .custom-width label.label-checkbox .item-media h2 {
+  float: right;
+  margin-top: 0.625rem;
+  font-size: 1.40625rem;
+  padding-left: 0.78125rem;
+  font-weight: normal;
+  color: #333;
+}
+.shopping-cart-tabs-footer .shopping-cart-external-third {
+  background-color: #ff5722;
+  height: 5.46875rem;
+}
+.shopping-cart-tabs-footer .shopping-cart-external-third .shopping-cart-moved {
+  color: #fff;
+  font-size: 1.5625rem;
+  padding: 1.3671875rem 0 0 0.78125rem;
+  float: left;
+}
+.shopping-cart-tabs-footer .external-third {
+  float: left;
+  width: 25%;
+}
+.shopping-cart-tabs-footer .external-third .tab-label-shopping-cart {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+  margin-top: 0.4296875rem;
+}
+.shopping-cart-tabs-footer .external-third .shopping-cart-99 {
+  font-size: 1.5625rem;
+  color: #999;
+  display: inline;
+  float: left;
+}
+.shopping-cart-tabs-footer .external-third .shopping-cart-cf {
+  font-size: 1.5625rem;
+  float: right;
+  color: #c41411;
+  text-align: right;
+  font-weight: bold;
+  padding-right: 0.5859375rem;
+}
+.shopping-cart-tabs-footer .external-fourth {
+  float: left;
+  background-color: #ce0000;
+  height: 5.46875rem;
+  width: 25%;
+  margin-left: 1%;
+}
+.shopping-cart-tabs-footer .external-fourth .tab-label-buy-now {
+  color: #fff;
+  font-size: 1.953125rem;
+  vertical-align: middle;
+  text-align: center;
+  padding: 1.09375rem 0px 0 0rem;
+  float: left;
+  margin-left: 3.3203125rem;
+}
+.shopping-cart-tabs-footer .tab-label-buy-now-new {
+  margin-left: 0;
+}
+label.label-checkbox input[type=radio]:checked + .item-media i.icon-form-checkbox {
+  background-color: #ce0000;
+}
+label.label-checkbox input[type=checkbox]:checked + .item-media i.icon-form-checkbox:after,
+label.label-checkbox input[type=radio]:checked + .item-media i.icon-form-checkbox:after {
+  background-size: 1.5rem 1.5rem;
+}
+label.label-checkbox i.icon-form-checkbox:after {
+  position: absolute;
+  left: 29%;
+  margin-left: -0.4rem;
+  top: 20%;
+  margin-top: -0.1rem;
+  width: 1.6rem;
+  height: 1.45rem;
 }
