@@ -1,0 +1,133 @@
+/******************************************************
+   *Variables START
+******************************************************/
+.content .order-deatil-fixed-tab {
+  padding-top: 1.171875rem;
+}
+.content a.button.active {
+  font-size: 1.796875rem;
+  color: #ce0000;
+  border-color: #ce0000;
+  border-bottom: 2px solid;
+  width: 20%;
+  margin-left: 1.7578125rem;
+  height: 2.61210938rem;
+  padding: 0;
+  margin-right: 1.7578125rem;
+}
+.content a.button {
+  font-size: 1.796875rem;
+  color: #666666;
+  padding: 0;
+}
+.content .order-details-large-products {
+  border-top: 1.5625rem solid #f3f5f7;
+}
+.content .order-details-large-products .order-detail-content-block {
+  background-color: #fff;
+  margin: 0;
+  padding: 0rem 0 0 0;
+}
+.content .order-details-large-products .order-detail-content-block .order-details-list .order-deatils-total {
+  margin-left: 1.7578125rem;
+  font-weight: normal;
+}
+.content .order-details-large-products .order-detail-content-block .order-details-list .order-deatils-total span {
+  color: #ce0000;
+  margin-left: 0.390625rem;
+}
+.content .order-details-large-products .order-detail-content-block .order-details-list .order-detail-complete {
+  float: right;
+  padding-right: 1.6796875rem;
+  color: #ce0000;
+}
+.content .order-details-large-products .order-detail-content-block .order-detail-pull {
+  float: right;
+}
+.content .order-details-large-products .order-detail-content-block .order-detail-pull .order-detail-total-second {
+  width: 50%;
+  float: left;
+}
+.content .order-details-large-products .order-detail-content-block .order-detail-pull .order-detail-completed {
+  float: right;
+  padding-right: 1.6796875rem;
+  font-weight: normal;
+}
+.content .order-details-large-products .order-detail-content-block-new {
+  border-bottom: 1px solid #d7d7d7;
+}
+.content .order-details-large-products .order-detail-content-block-button {
+  float: left;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.content .order-details-large-products .order-detail-content-block-button .order-detail-pull {
+  float: right;
+  width: 50%;
+  padding-top: 0.9375rem;
+}
+.content .order-details-large-products .order-detail-content-block-button .order-detail-pull .order-detail-total-second {
+  float: left;
+  width: 40%;
+  text-align: center;
+  color: #222222;
+  padding: 0.78125rem;
+  border-radius: 5px;
+  border: 1px solid #999999;
+  font-size: 1.5625rem;
+}
+.content .order-details-large-products .order-detail-content-block-button .order-detail-pull .order-detail-completed {
+  text-align: center;
+  color: #ce0000;
+  padding: 0.78125rem;
+  border-radius: 5px;
+  border: 1px solid #ce0000;
+  font-size: 1.5625rem;
+  width: 40%;
+  float: left;
+  margin-left: 12%;
+}
+.content .order-details-large-products .order-detail-content-block-button .order-detail-pull .order-detail-completed-second {
+  float: right;
+  margin-right: 1.6796875rem;
+}
+.content .order-details-large-products .order-details-list-products-container {
+  margin-top: 1.953125rem;
+  margin-bottom: 1.953125rem;
+}
+.content .order-details-large-products .order-details-list-products-container .order-detail-product-col {
+  width: 25%;
+  margin-left: 6.5%;
+}
+.content .order-details-large-products .order-detail-product-list-product-col {
+  width: 62%;
+  margin-left: 4%;
+}
+.content .order-details-large-products .order-detail-product-list-product-col h4.order-detail-product-title {
+  font-size: 1.5625rem;
+  margin-top: -0.3515625rem;
+  font-weight: normal;
+  margin-bottom: 0.390625rem;
+}
+.content .order-details-large-products .order-detail-product-list-product-col h4.order-detail-product-price {
+  color: #999999;
+  font-size: 1.40625rem;
+  margin: 0;
+  font-weight: normal;
+}
+.content .order-details-large-products .order-detail-product-list-product-col h4.order-detail-product-price-yen {
+  font-size: 1.40625rem;
+  margin: 1.171875rem 0 0 0;
+  font-weight: normal;
+  color: #c41411;
+  width: 50%;
+  float: left;
+}
+.content .order-details-large-products .order-detail-product-list-product-col h4.order-detail-product-price-x1 {
+  float: right;
+  margin-top: 1.171875rem;
+  margin-bottom: 0;
+  margin-right: 0.546875rem;
+  font-size: 1.5625rem;
+}
