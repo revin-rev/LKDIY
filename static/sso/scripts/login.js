@@ -12,7 +12,7 @@
         });
    });
 
-    $('.sui-validate input').keyup(function(){
+    $('.sui-validate input').bind('keyup  blur',function(){
         var _form = $(this).parents('form');
         var isValid  = true;
 
@@ -37,16 +37,7 @@
 
 })(jQuery);  
 
-(function() {
-    if ( navigator.userAgent.toLowerCase().indexOf('firefox') > -1 )  {
-     $('.sso-login-bg-outer').css('height','550px');
-   }
-   if( navigator.userAgent.toLowerCase().indexOf('chrome') > -1  )
-   {
-    $('.sso-login-bg-outer').css('height','670px');
-   }
 
- })(jQuery); 
 
 
 
