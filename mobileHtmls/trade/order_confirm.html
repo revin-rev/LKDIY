@@ -1,1 +1,303 @@
-<!-- This file is for trade confirm page -->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>我的生活</title>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <link rel="stylesheet" href="../../static/mobile/common/plugins/sui-mobile/dist/css/sm.min.css">
+    <link rel="stylesheet" href="../../static/mobile/common/plugins/sui-mobile/dist/css/sm-extend.min.css">
+    <link rel="stylesheet" href="../../static/mobile/common/css/common.css">
+    <link rel="stylesheet" href="../../static/mobile/common/css/global.css">
+    <link rel="stylesheet" href="../../static/mobile/trade/css/order-confirm.css">
+</head>
+<body>
+
+<!--  header START -->
+<div class="header-base-color">
+    <header class="bar bar-nav header-bg">
+        <a href="#" class="back-to-prev-btn"><span class="icon icon-left"></span></a>
+        <h2 class="text-center bar-title">确认订单</h2>
+    </header>
+</div>
+<!-- 工具栏 -->
+<!--  header END -->
+
+<div class="content" id="top">
+    <div class="trade-header-border">
+        <img src="../../static/mobile/trade/images/border.png" class="img-responsive" alt="">
+    </div>
+    <div class="trade-product-list-row clearfix">
+        <div class="trade-product-list-image">
+            <img src="../../static/mobile/item/image/search-product-1.jpg" alt="#" class="img-responsive">
+        </div>
+        <div class="trade-product-list-text">
+            <h2>飞利浦PHILIPS中高端男士电动剃须刀干湿两用</h2>
+            <h3>￥2998.00</h3>
+        </div>
+    </div>
+    <div class="trade-product-list-row clearfix">
+        <div class="trade-product-list-image">
+            <img src="../../static/mobile/item/image/search-product-2.jpg" alt="#" class="img-responsive">
+        </div>
+        <div class="trade-product-list-text">
+            <h2>特百惠厨具5.7升多用锅</h2>
+            <h3>￥598.00</h3>
+        </div>
+    </div>
+    <div class="trade-product-list-row clearfix">
+        <div class="trade-product-list-image">
+            <img src="../../static/mobile/item/image/search-product-3.jpg" alt="#" class="img-responsive">
+        </div>
+        <div class="trade-product-list-text">
+            <h2>富安娜(FUANNA)出品圣之花全棉床单四件套</h2>
+            <h3>3000积分+￥298</h3>
+        </div>
+    </div>
+    <div class="trade-product-list-row clearfix">
+        <div class="trade-product-list-image">
+            <img src="../../static/mobile/item/image/search-product-4.jpg" alt="#" class="img-responsive">
+        </div>
+        <div class="trade-product-list-text">
+            <h2>SANSUI TCL 扫地机器人全自动智能吸尘器</h2>
+            <h3>9980积分</h3>
+        </div>
+    </div>
+    <!--Back to top Start-->
+    <a href="#top" class="back-to-top"><img src="../../static/mobile/common/images/arrow-up.png" alt="Back To Top"/></a>
+    <!--Back to top End-->
+
+</div>
+<div class="panel-overlay"></div>
+<!-- Left Panel with Reveal effect -->
+<div class="panel panel-right panel-cover sidebar" id='sidebar'>
+    <div class="content-footer">
+        <div class="trade-buttons">
+            <div class="btns">
+                <a href="#" class="btn close-panel">重置</a><a href="#" class="btn close-panel active">确定</a>
+            </div>
+        </div>
+    </div>
+    <div class="content-block">
+        <h2 class="side-bar-title">价格区间</h2>
+        <div class="trade-sidebar-inputs">
+            <div class="trade-input-block-1">
+                <input type="text" value="500"/>
+            </div>
+            <div class="trade-input-block-2">
+                <input type="text" placeholder="最高价"/>
+            </div>
+            <span class="trade-input-minus"></span>
+        </div>
+        <hr class="trade-styled-hr">
+
+        <div class="trade-checkbox-block">
+            <div class="trade-checkboxes-heading">
+                <span class="trade-checkbox-title">品牌</span>
+                <span class="trade-checkbox-action pull-right"><span class="icon icon-down"></span></span>
+                <span class="trade-checkbox-title-small pull-right close-panel">全部</span>
+            </div>
+            <div class="trade-checkboxes-row">
+                <div class="trade-checkbox-column">
+                    <div class="trade-checkbox">
+                        <input type="checkbox" checked /> <label>飞利浦</label>
+                    </div>
+                </div>
+                <div class="trade-checkbox-column">
+                    <div class="trade-checkbox">
+                        <input type="checkbox" /> <label>富安娜</label>
+                    </div>
+                </div>
+                <div class="trade-checkbox-column">
+                    <div class="trade-checkbox">
+                        <input type="checkbox" /> <label>TCL</label>
+                    </div>
+                </div>
+                <div class="trade-checkbox-column">
+                    <div class="trade-checkbox">
+                        <input type="checkbox"  /> <label>飞利浦</label>
+                    </div>
+                </div>
+                <div class="trade-checkbox-column">
+                    <div class="trade-checkbox">
+                        <input type="checkbox" /> <label>富安娜</label>
+                    </div>
+                </div>
+                <div class="trade-checkbox-column">
+                    <div class="trade-checkbox">
+                        <input type="checkbox" /> <label>TCL</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="trade-checkbox-block open">
+            <div class="trade-checkboxes-heading">
+                <span class="trade-checkbox-title">功能特点</span>
+                <span class="trade-checkbox-action pull-right"><span class="icon icon-down"></span></span>
+                <span class="trade-checkbox-title-small pull-right close-panel">全部</span>
+            </div>
+            <div class="trade-checkboxes-row">
+                <div class="trade-checkbox-column">
+                    <div class="trade-checkbox">
+                        <input type="checkbox" checked /> <label>自动清洗</label>
+                    </div>
+                </div>
+                <div class="trade-checkbox-column">
+                    <div class="trade-checkbox">
+                        <input type="checkbox" checked /> <label>自动清洗</label>
+                    </div>
+                </div>
+                <div class="trade-checkbox-column">
+                    <div class="trade-checkbox">
+                        <input type="checkbox" checked /> <label>自动清洗</label>
+                    </div>
+                </div>
+                <div class="trade-checkbox-column">
+                    <div class="trade-checkbox">
+                        <input type="checkbox"  /> <label>自动清洗</label>
+                    </div>
+                </div>
+                <div class="trade-checkbox-column">
+                    <div class="trade-checkbox">
+                        <input type="checkbox" /> <label>自动清洗</label>
+                    </div>
+                </div>
+                <div class="trade-checkbox-column">
+                    <div class="trade-checkbox">
+                        <input type="checkbox" /> <label>自动清洗</label>
+                    </div>
+                </div>
+                <div class="trade-checkbox-column">
+                    <div class="trade-checkbox">
+                        <input type="checkbox"  /> <label>自动清洗</label>
+                    </div>
+                </div>
+                <div class="trade-checkbox-column">
+                    <div class="trade-checkbox">
+                        <input type="checkbox" /> <label>自动清洗</label>
+                    </div>
+                </div>
+                <div class="trade-checkbox-column">
+                    <div class="trade-checkbox">
+                        <input type="checkbox" /> <label>自动清洗</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="trade-checkbox-block">
+            <div class="trade-checkboxes-heading">
+                <span class="trade-checkbox-title">刀头</span>
+                <span class="trade-checkbox-action pull-right"><span class="icon icon-down"></span></span>
+                <span class="trade-checkbox-title-small pull-right close-panel">全部</span>
+            </div>
+            <div class="trade-checkboxes-row">
+                <div class="trade-checkbox-column">
+                    <div class="trade-checkbox">
+                        <input type="checkbox"  /> <label>常规充电</label>
+                    </div>
+                </div>
+                <div class="trade-checkbox-column">
+                    <div class="trade-checkbox">
+                        <input type="checkbox" /> <label>常规充电</label>
+                    </div>
+                </div>
+                <div class="trade-checkbox-column">
+                    <div class="trade-checkbox">
+                        <input type="checkbox" /> <label>常规充电</label>
+                    </div>
+                </div>
+                <div class="trade-checkbox-column">
+                    <div class="trade-checkbox">
+                        <input type="checkbox"  /> <label>常规充电</label>
+                    </div>
+                </div>
+                <div class="trade-checkbox-column">
+                    <div class="trade-checkbox">
+                        <input type="checkbox" /> <label>常规充电</label>
+                    </div>
+                </div>
+                <div class="trade-checkbox-column">
+                    <div class="trade-checkbox">
+                        <input type="checkbox" /> <label>常规充电</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="trade-checkbox-block">
+            <div class="trade-checkboxes-heading">
+                <span class="trade-checkbox-title">充电模式</span>
+                <span class="trade-checkbox-action pull-right"><span class="icon icon-down"></span></span>
+                <span class="trade-checkbox-title-small pull-right close-panel">全部</span>
+            </div>
+            <div class="trade-checkboxes-row">
+                <div class="trade-checkbox-column">
+                    <div class="trade-checkbox">
+                        <input type="checkbox"  /> <label>常规充电</label>
+                    </div>
+                </div>
+                <div class="trade-checkbox-column">
+                    <div class="trade-checkbox">
+                        <input type="checkbox" /> <label>常规充电</label>
+                    </div>
+                </div>
+                <div class="trade-checkbox-column">
+                    <div class="trade-checkbox">
+                        <input type="checkbox" /> <label>常规充电</label>
+                    </div>
+                </div>
+                <div class="trade-checkbox-column">
+                    <div class="trade-checkbox">
+                        <input type="checkbox"  /> <label>常规充电</label>
+                    </div>
+                </div>
+                <div class="trade-checkbox-column">
+                    <div class="trade-checkbox">
+                        <input type="checkbox" /> <label>常规充电</label>
+                    </div>
+                </div>
+                <div class="trade-checkbox-column">
+                    <div class="trade-checkbox">
+                        <input type="checkbox" /> <label>常规充电</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="product-detail-footer">
+        <a class="text-center product-detail-text" href="#">
+            确定
+            <p class="product-item-image" style="display:none">添加成功，请去购物车查看</p>
+        </a>
+    </div>
+</div>
+
+
+
+
+
+<script type='text/javascript' src='../../static/mobile/common/scripts/jquery-1.12.4.min.js' charset='utf-8'></script>
+<script type='text/javascript' src='//g.alicdn.com/sj/lib/zepto/zepto.min.js' charset='utf-8'></script>
+<script type='text/javascript' src='../../static/mobile/common/plugins/sui-mobile/dist/js/sm.min.js' charset='utf-8'></script>
+<script type='text/javascript' src='../../static/mobile/common/plugins/sui-mobile/dist/js/sm-extend.min.js' charset='utf-8'></script>
+<script type='text/javascript' src='../../static/mobile/common/scripts/main.js' charset='utf-8'></script>
+<script>
+    $(document).on("click", ".sidebar-btn", function() {
+        $.openPanel("#sidebar");
+    });
+
+    (function($){
+        $('.trade-checkbox-action').click(function(e){
+            e.preventDefault();
+            $(this).parents('.trade-checkbox-block').toggleClass('open');
+        });
+    })(jQuery_noConflict);
+</script>
+</body>
+</html>
