@@ -737,7 +737,7 @@ table.trade-products-table {
   font-size: 14px;
   margin-left: 2px;
   padding-bottom: 1px;
-  margin-top: 120px;
+  margin-top: 40px;
 }
 .double-input {
   margin-left: 10px;
@@ -851,11 +851,12 @@ li.active a:hover {
   border-bottom-color: transparent;
   position: relative;
   top: 1px;
+  border-radius: 0;
 }
 /*----- Content of Tabs -----*/
 .tab-content {
   padding: 10px;
-  border-radius: 3px;
+  border-radius: 0;
   box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
   background: #eaf7fc;
   border: 1px solid #2eafdf;
@@ -896,7 +897,7 @@ li.active a:hover {
   text-align: right;
 }
 .active-new-bottom {
-  background-color: #f9e7e7;
+  background-color: #f7f7f7;
   margin-left: 12px;
   vertical-align: middle;
   padding: 29px;
@@ -924,14 +925,16 @@ span.trade-sendto {
 .trade-large-red {
   font-size: 18px;
   color: #c41411;
+  vertical-align: middle;
 }
 .base-large-font {
   font-weight: normal;
   position: relative;
   top: 1px;
+  vertical-align: middle;
 }
 .btn-small {
-  padding: 15px 36px;
+  padding: 9px 36px;
   margin-left: 15px;
 }
 .trade-tab1 {

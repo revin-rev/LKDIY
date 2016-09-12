@@ -50,6 +50,10 @@ html[data-browser='8'] .radio-pretty span:before,
 html[data-browser='9'] .radio-pretty span:before {
   font-size: 17px;
 }
+html[data-browser='8'] .checkbox-pretty span:before,
+html[data-browser='9'] .checkbox-pretty span:before {
+  font-size: 12px;
+}
 /******************************************************
    *Styling For IE END
 ******************************************************/
