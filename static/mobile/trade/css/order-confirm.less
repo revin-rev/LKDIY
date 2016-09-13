@@ -5,11 +5,29 @@
   padding-top: 135/@baseRem;
 }
 
+.trade-product-panel{
+  background: @tradePanelBg;
+  border-top: 2px solid @borderColorExtra;
+  border-bottom: 2px solid @borderColorExtra;
+  margin-bottom: 50/@baseRem;
+
+  .trade-product-panel-heading{
+    font-size: 46/@baseRem;
+    color: @fontDarkColor;
+    background: @white;
+    padding: 38/@baseRem;
+  }
+
+}
 
 .trade-product-list-row{
-  padding: 0 10px;
-  background: @white;
-  border-bottom: 3px solid @borderColorXtraLight;
+  padding:50/@baseRem;
+  background: transparent;
+  border-bottom: 10px solid @white;
+
+  &:last-child{
+    border-bottom: 0;
+  }
 
   .trade-product-list-image{
     float: left;
@@ -22,9 +40,16 @@
     h2{
       color: @fontDarkColor;
       font-weight: normal;
-      font-size: 44/@baseRem;
-      margin-top: 40/@baseRem;
+      font-size: 40/@baseRem;
+      margin-top: 0;
       min-height: 7.320313rem;
+
+      span{
+        display: block;
+        font-size: 36/@baseRem;
+        color: @fontLightColor;
+        margin-top: 30/@baseRem;
+      }
     }
     h3{
       color: @baseColor;
@@ -32,69 +57,33 @@
       font-size: 50/@baseRem;
       margin-bottom: 0;
       margin-top: 0;
+
+      span{
+        font-size: 40/@baseRem;
+        float: right;
+        color: @baseTextColor;
+      }
     }
   }
-}
-
-.trade-no-result-block{
-  padding-top: 160/@baseRem;
-
-  img{
-    width: 242/@baseRem;
-  }
-
-  h2{
-    margin-top: 154/@baseRem;
-    font-size: 46/@baseRem;
-    color: @fontLightColor;
-    font-weight: normal;
-
-    span{
-      display: block;
-      font-size: 36/@baseRem;
-    }
-  }
-}
-
-.trade-sidebar-inputs{
-  position: relative;
-
-  .trade-input-minus{
-    background: @fontLightColor;
-    width: 40/@baseRem;
-    height: 4px;
-    position: absolute;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-    top: 48%;
-    .calc(top,~'48% - 2px');
-  }
-  &:after{
-    content: '';
-    display: block;
-    clear: both;
-    position: relative;
-  }
-  .trade-input-block-1{
-    width: 50%;
-    padding-right: 30/@baseRem;
+  .trade-product-footer{
     float: left;
-  }
-  .trade-input-block-2{
-    width: 50%;
-    padding-left: 30/@baseRem;
-    float: left;
-  }
-  input{
     width: 100%;
-    border: 2px solid @borderColorExtra;
-    text-align: center;
-    font-size: 42/@baseRem;
-    .border-radius(4px);
-    padding: 20/@baseRem;
+    margin-top: 60/@baseRem;
+    background: @white;
+    padding: 30/@baseRem;
+
+    .trade-product-footer-text{
+      font-size: 40/@baseRem;
+      span{
+        color: @fontLightColor;
+        display: inline-block;
+        margin-left: 80/@baseRem;
+      }
+    }
+
   }
 }
+
 .trade-styled-hr{
   height: 10/@baseRem;
   background: @bodyBackgroundColor;
@@ -103,101 +92,99 @@
   border-left: 0;
   margin: 30/@baseRem -36/@baseRem 50/@baseRem;
 }
-.trade-checkbox-block{
 
-  .trade-checkbox-title{
-    font-size: 46/@baseRem;
-    color: @fontDarkColor;
+.trade-top-order-header{
+  background: @white;
+  margin: 50/@baseRem 0;
+  border-bottom: 2px solid @tradeBorderColor;
+
+  > img{
+    width: 100%;
+    display: block;
   }
-
-  .trade-checkbox-title-small{
-    font-size: 42/@baseRem;
-    color: @baseTextColor;
+  .trade-header-title-inner{
+    padding: 45/@baseRem 60/@baseRem;
   }
-
-  .trade-checkboxes-heading{
-    margin-bottom: 45/@baseRem;
-  }
-
-  .trade-checkbox-action{
-    font-size: 46/@baseRem;
-    line-height: 28/@baseRem;
-    position: relative;
-    top: 15/@baseRem;
-    margin-left: 56/@baseRem;
-    color: @footerTextColor;
-    .transition(0.3s);
-  }
-
-  .trade-checkboxes-row{
-    margin-left: -15/@baseRem;
-    margin-right: -15/@baseRem;
+  .trade-header-title-row{
     margin-bottom: 15/@baseRem;
-    max-height: 121/@baseRem;
-    overflow: hidden;
-
-    &:after{
-      content: '';
-      clear: both;
-      position: relative;
-      display: block;
+    span{
+      color: #222222;
+      font-size: 46/@baseRem;
     }
-    .trade-checkbox-column{
-      float: left;
-      width: 33%;
-      padding-left: 15/@baseRem;
-      padding-right: 15/@baseRem;
-      margin-bottom: 30/@baseRem;
+    .trade-header-title-right{
+      float: right;
+    }
+  }
+  .trade-header-sub-title{
+    font-size: 36/@baseRem;
+    color: @baseTextColor;
+    display: block;
+    margin-bottom: 35/@baseRem;
+  }
+  .trade-link{
+    font-size: 40/@baseRem;
+    color: @baseColor;
+  }
+}
 
-      .trade-checkbox{
-        position: relative;
+.trade-pricing-counting-block{
+  background: @white;
+  border-top: 2px solid @borderColorExtra;
+  margin-bottom: 50/@baseRem;
 
-        label{
-          display: block;
-          background: @borderColorLight;
-          color: #333;
-          text-align: center;
-          font-size: 42/@baseRem;
-          .border-radius(4px);
-          padding: 12/@baseRem 10@baseRem;
-          border: 2px solid @borderColorLight;
-          white-space: nowrap;
-          overflow: hidden;
-          text-overflow: ellipsis;
-        }
+  .trade-pricing-counting-row{
+    border-bottom: 2px solid @borderColorExtra;
+    padding: 40/@baseRem 30/@baseRem;
+    font-size: 40/@baseRem;
 
-        input{
-          position: absolute;
-          width: 100%;
-          height: 100%;
-          top: 0;
-          left: 0;
-          .opacity(0);
+    .trade-label{
+       color: #222222;
+       float: left;
+     }
+    .trade-action{
+      color: @baseTextColor;
+      float: right;
+      vertical-align: middle;
+      text-align: right;
 
-          &:checked + label{
-            color: @baseColor;
-            border-color: @baseColor;
-            background: #fff;
-          }
-        }
+      span{
+        color: #cccccc;
+        vertical-align: middle;
+        margin-left: 15/@baseRem;
       }
     }
   }
-  .product-detail-footer
-  {
-    background-color: @baseColor;
-    padding: 50/@baseRem 0/@baseRem 45/@baseRem 52/@baseRem;
-    text-align: center;
-    font-size:50/@baseRem;
+}
 
+.trade-pricing-total-block{
+  background: @white;
+  border-top: 2px solid @borderColorExtra;
+
+
+  .trade-text{
+    font-size: 40/@baseRem;
+    padding: 50/@baseRem;
+    color: #222222;
+
+    .trade-total{
+      font-size: 46/@baseRem 50/@baseRem;
+      color: @baseColor;
+    }
+    .trade-extra{
+      display: block;
+      color: @baseColor;
+      span{
+        color: #222222;
+      }
+    }
   }
-  &.open{
-    .trade-checkboxes-row{
-      max-height: none;
-    }
-    .trade-checkbox-action{
-      .transform(rotate(180deg));
-    }
+  .trade-action-btn{
+    background: @baseColor;
+    color: @white;
+    text-align: center;
+    font-size: 50/@baseRem;
+    padding: 40ungit/@baseRem;
+    display: block;
   }
 }
 
@@ -214,3 +201,4 @@
     max-height: 30px;
   }
 }
+

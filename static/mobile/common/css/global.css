@@ -37,6 +37,12 @@ html {
 .white-bg {
   background: #fff;
 }
+.base-color {
+  color: #c41411 !important;
+}
+.text-right {
+  text-align: right;
+}
 /*Helper classes END*/
 /*modal styling START*/
 .modal-overlay,
