@@ -26,11 +26,12 @@
 }
 .trade-product-list-row .trade-product-list-image {
   float: left;
-  width: 35.822306238185256%;
+  width: 37.822306238185256%;
 }
 .trade-product-list-row .trade-product-list-text {
   float: left;
-  width: 64.17769376%;
+  width: 62.17769376%;
+  padding-left: 2.1484375rem;
 }
 .trade-product-list-row .trade-product-list-text h2 {
   color: #333333;
@@ -38,12 +39,13 @@
   font-size: 1.5625rem;
   margin-top: 0;
   min-height: 7.320313rem;
+  margin-bottom: 4.515625rem;
 }
 .trade-product-list-row .trade-product-list-text h2 span {
   display: block;
   font-size: 1.40625rem;
   color: #999999;
-  margin-top: 1.171875rem;
+  margin-top: 1.5625rem;
 }
 .trade-product-list-row .trade-product-list-text h3 {
   color: #c41411;
