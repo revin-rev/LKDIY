@@ -5,6 +5,7 @@
   padding-top: 135/@baseRem;
 }
 
+
 .trade-product-panel{
   background: @tradePanelBg;
   border-top: 2px solid @borderColorExtra;
@@ -107,6 +108,7 @@
   }
   .trade-header-title-inner{
     padding: 45/@baseRem 60/@baseRem;
+    position: relative;
   }
   .trade-header-title-row{
     margin-bottom: 15/@baseRem;
@@ -128,6 +130,16 @@
     font-size: 40/@baseRem;
     color: @baseColor;
   }
+
+  .trade-header-right-arrow{
+    font-size: 50/@baseRem;
+    color: @fontLightColor;
+    position: absolute;
+    top: 90/@baseRem;
+    right: 50/@baseRem;
+    position: absolute;
+    display: block;
+  }
 }
 
 .trade-pricing-counting-block{
@@ -143,6 +155,13 @@
     .trade-label{
        color: #222222;
        float: left;
+
+        .trade-badge{
+          font-size: 30/@baseRem;
+          background: @baseColor;
+          color: @white;
+          padding: 2px 5px;
+        }
      }
     .trade-action{
       color: @baseTextColor;
@@ -186,8 +205,26 @@
     color: @white;
     text-align: center;
     font-size: 50/@baseRem;
-    padding: 40ungit/@baseRem;
+    padding: 40/@baseRem;
     display: block;
+
+    &.disable{
+      background: @borderColorExtra;
+      color: @footerTextColor;
+    }
+  }
+}
+
+
+
+//no address//
+
+.trade-header-sub-title-no-address{
+  font-size:36/@baseRem;
+  margin-bottom: 0 !important;
+  .trade-link{
+    margin-bottom: 20/@baseRem;
+    font-size:46/@baseRem;
   }
 }
 

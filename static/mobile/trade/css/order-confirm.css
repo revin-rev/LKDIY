@@ -93,6 +93,7 @@
 }
 .trade-top-order-header .trade-header-title-inner {
   padding: 1.7578125rem 2.34375rem;
+  position: relative;
 }
 .trade-top-order-header .trade-header-title-row {
   margin-bottom: 0.5859375rem;
@@ -114,6 +115,14 @@
   font-size: 1.5625rem;
   color: #c41411;
 }
+.trade-top-order-header .trade-header-right-arrow {
+  font-size: 1.953125rem;
+  color: #999999;
+  top: 3.515625rem;
+  right: 1.953125rem;
+  position: absolute;
+  display: block;
+}
 .trade-pricing-counting-block {
   background: #fff;
   border-top: 2px solid #dedede;
@@ -127,6 +136,12 @@
 .trade-pricing-counting-block .trade-pricing-counting-row .trade-label {
   color: #222222;
   float: left;
+}
+.trade-pricing-counting-block .trade-pricing-counting-row .trade-label .trade-badge {
+  font-size: 1.171875rem;
+  background: #c41411;
+  color: #fff;
+  padding: 2px 5px;
 }
 .trade-pricing-counting-block .trade-pricing-counting-row .trade-action {
   color: #666666;
@@ -164,8 +179,20 @@
   color: #fff;
   text-align: center;
   font-size: 1.953125rem;
-  padding: 1.5625ungit;
+  padding: 1.5625rem;
   display: block;
+}
+.trade-pricing-total-block .trade-action-btn.disable {
+  background: #dedede;
+  color: #cccccc;
+}
+.trade-header-sub-title-no-address {
+  font-size: 1.40625rem;
+  margin-bottom: 0 !important;
+}
+.trade-header-sub-title-no-address .trade-link {
+  margin-bottom: 0.78125rem;
+  font-size: 1.796875rem;
 }
 @media (max-width: 992px) {
   .trade-checkbox-block .trade-checkboxes-row {
