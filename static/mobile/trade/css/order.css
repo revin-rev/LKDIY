@@ -131,3 +131,234 @@
   margin-right: 0.546875rem;
   font-size: 1.5625rem;
 }
+.content .order-detail-product-payment-method {
+  width: 100%;
+  background-color: #fff;
+  float: left;
+  margin-bottom: 0;
+  border-top: 1px solid #d7d7d7;
+}
+.content .order-detail-product-payment-method h4.order-detail-paid-pay {
+  font-size: 1.5625rem;
+  color: #222;
+  float: left;
+  margin-left: 4%;
+  width: 34%;
+}
+.content .order-detail-product-payment-method label {
+  margin-top: 2.04101563rem;
+  float: left;
+  color: #999999;
+  font-size: 1.5625rem;
+}
+.content .order-detail-product-payment-method-second {
+  width: 100%;
+  background-color: #fff;
+  float: left;
+  margin-bottom: 0;
+  margin-top: 0;
+  border-top: 1px solid #d7d7d7;
+}
+.content .order-detail-product-payment-method-second h4.order-detail-paid-pay {
+  font-size: 1.5625rem;
+  color: #222;
+  float: left;
+  margin-left: 4%;
+  width: 34%;
+}
+.content .order-detail-product-payment-method-second label {
+  margin-top: 2.04101563rem;
+  float: left;
+  color: #999999;
+  font-size: 1.5625rem;
+}
+.content .product-detail-spec {
+  padding-top: 1.8359375rem;
+  padding-left: 2.34375rem;
+  font-size: 1.5625rem;
+  color: #999999;
+  height: 5.8984375rem;
+  display: inline-block;
+  width: 100%;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  padding-right: 1.5rem;
+}
+.content .product-detail-spec span {
+  font-size: 1.5625rem;
+  color: #999999;
+  padding-left: 0.9765625rem;
+}
+.content .product-detail-spec .product-detail-color {
+  color: #cccccc;
+}
+.content .product-detail-spec .product-detail-color .icon-right {
+  font-size: 1.5625rem;
+}
+.content .order-details-large-products-new {
+  border-top: 0;
+}
+.content .order-details-large-products-new .order-detail-content-block .order-details-list .order-detail-paid-complete {
+  color: #999999;
+  font-weight: normal;
+}
+.content .order-details-large-products-new .order-details-paid-products-container {
+  margin: 0;
+  border-top: 1px solid #d7d7d7;
+  border-bottom: 0.546875rem solid #fff;
+  height: 970px;
+}
+.content .order-details-large-products-new .order-details-paid-products-container .order-detail-paid-product-information {
+  font-size: 1.796875rem;
+  font-weight: normal;
+  padding-left: 2.55rem;
+  background-color: #fff;
+  padding-top: 1.953125rem;
+  padding-bottom: 1.953125rem;
+  margin-bottom: 1.8359375rem;
+}
+.content .order-details-large-products-new .order-details-paid-products-container-completed {
+  height: 846px;
+}
+.content .order-details-large-products-new .order-detail-completed-block {
+  background: #fff;
+  padding: 1.953125rem 2.34375rem 2.34375rem 2.34375rem;
+  margin: 0;
+  float: left;
+  width: 100%;
+}
+.content .order-details-large-products-new .order-detail-completed-block .clearfix {
+  list-style: none;
+  float: right;
+  padding: 0;
+}
+.content .order-details-large-products-new .order-detail-completed-block li {
+  display: inline;
+}
+.content .order-details-large-products-new .order-detail-completed-block a {
+  font-size: 1.5625rem;
+  color: #cccccc;
+  background-color: #dedede;
+  padding: 1.015625rem 1.5625rem 1.015625rem 1.5625rem;
+  border-radius: 5px;
+  margin-right: 35px;
+}
+.content .order-details-large-products-new .order-detail-completed-block .order-completed-buy-again {
+  font-size: 1.5625rem;
+  color: #ce0000;
+  background-color: #ffffff;
+  margin-right: 0;
+  border: 1px solid #ce0000;
+}
+.content .order-details-large-products-new .order-detail-paid-content-block {
+  background-color: transparent;
+  width: 89%;
+  float: left;
+  border: 1px solid #dedede;
+  margin-left: 7%;
+  border-radius: 8px;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+.content .order-details-large-products-new .order-detail-paid-content-block .order-detail-paid-memo {
+  padding-left: 2.55rem;
+  margin-top: 1.3296875rem;
+  float: left;
+  font-size: 1.5625rem;
+  margin-bottom: 1.3296875rem;
+  color: #999999;
+  padding-right: 2.734375rem;
+  font-weight: normal;
+}
+.content .order-details-large-products-new .order-detail-paid-content-block label {
+  margin-top: 1.3296875rem;
+  float: left;
+  color: #999999;
+  font-size: 1.5625rem;
+}
+.content .order-detail-paid-container {
+  border-top: 0.5859375rem solid #f3f5f7;
+  background-color: #fff;
+  border-bottom: 1.953125rem solid #f3f5f7;
+}
+.content .order-detail-paid-container .order-detail-paid-list {
+  margin-top: 1.953125rem;
+  margin-bottom: 1.0546875rem;
+}
+.content .order-detail-paid-container .order-detail-paid-list .order-detail-paid-number {
+  font-size: 1.796875rem;
+  margin-left: 2.996875rem;
+  color: #222222;
+  float: left;
+}
+.content .order-detail-paid-container .order-detail-paid-list label {
+  font-size: 1.796875rem;
+  color: #ce0000;
+  padding-left: 0.9765625rem;
+}
+.content .order-detail-paid-container .order-detail-paid-list-date {
+  margin-bottom: 1.0546875rem;
+}
+.content .order-detail-paid-container .order-detail-paid-list-date .order-detail-paid-date {
+  font-size: 1.40625rem;
+  color: #666666;
+  margin-left: 2.996875rem;
+}
+.content .order-detail-paid-container .order-detail-paid-list-date label {
+  font-size: 1.40625rem;
+  color: #666666;
+}
+.content .order-detail-paid-container .order-detail-paid-list-money {
+  padding-bottom: 1.0546875rem;
+  border-bottom: 1px solid #d7d7d7;
+}
+.content .order-detail-paid-container .order-detail-paid-list-money .order-detail-paid-money {
+  font-size: 1.40625rem;
+  color: #666666;
+  margin-left: 2.996875rem;
+}
+.content .order-detail-paid-container .order-detail-paid-list-money label {
+  font-size: 1.40625rem;
+  color: #ce0000;
+}
+.content .order-detail-paid-container .order-detail-paid-list-money label span {
+  color: #666666;
+}
+.content .order-detail-paid-wang {
+  padding-left: 2.55rem;
+  border-top: 1px solid #d7d7d7;
+  background-color: #fff;
+  border-bottom: 1.953125rem solid #f3f5f7;
+}
+.content .order-detail-paid-wang .col-50 h2 {
+  color: #222222;
+  font-size: 1.796875rem;
+  font-weight: normal;
+  margin-bottom: 0.5078125rem;
+}
+.content .order-detail-paid-wang .col-50 h2.order-detail-paid-wang-number {
+  font-size: 1.71875rem;
+  font-weight: normal;
+  color: #222222;
+  float: right;
+  padding-right: 1.7578125rem;
+  margin-bottom: 0.5078125rem;
+}
+.content .order-detail-paid-wang .order-detail-paid-address {
+  font-size: 1.4453125rem;
+  color: #949494;
+  float: left;
+  margin-left: 1.9%;
+  width: 96%;
+  padding-bottom: 1.953125rem;
+}
+.product-detail-paid a.external {
+  background-color: #c41411;
+  font-size: 1.953125rem;
+  color: #fff;
+}
+.product-detail-paid-payment a.externals {
+  background-color: #fff;
+  font-size: 1.953125rem;
+  color: #222222;
+}
