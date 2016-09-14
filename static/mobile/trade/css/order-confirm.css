@@ -198,6 +198,31 @@
   margin-bottom: 0.78125rem;
   font-size: 1.796875rem;
 }
+.trade-top-input-block {
+  padding: 1.2890625rem 1.953125rem;
+  background: #fff;
+  margin: 1.953125rem 0;
+  border-top: 2px solid #dedede;
+  border-bottom: 2px solid #dedede;
+}
+.trade-top-input-block input {
+  font-size: 3.125rem;
+  color: #cccccc;
+  border: 0;
+  background: transparent;
+}
+.trade-top-input-block input::-webkit-input-placeholder {
+  color: #cccccc;
+}
+.trade-top-input-block input:-moz-placeholder {
+  color: #cccccc;
+}
+.trade-top-input-block input::-moz-placeholder {
+  color: #cccccc;
+}
+.trade-top-input-block input:-ms-input-placeholder {
+  color: #cccccc;
+}
 @media (max-width: 992px) {
   .trade-checkbox-block .trade-checkboxes-row {
     max-height: 75px;

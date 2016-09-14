@@ -362,3 +362,173 @@
   font-size: 1.953125rem;
   color: #222222;
 }
+/* -----------------------------------------------
+ * Timeline Start
+ * --------------------------------------------- */
+.timeline ul {
+  padding-top: 1.953125rem;
+}
+.timeline ul li {
+  list-style-type: none;
+  position: relative;
+  width: 0.234375rem;
+  margin-left: 1.40625rem;
+  padding-bottom: 1.953125rem;
+  background: #ccc;
+}
+.timeline ul li::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  width: 23px;
+  height: 23px;
+  border-radius: 50%;
+  background: inherit;
+  top: 0%;
+}
+.timeline ul li div {
+  position: relative;
+  bottom: 0;
+  width: 700px;
+  padding: 0 0.78125rem;
+  margin-left: 2.5390625rem;
+  font-size: 1.171875rem;
+  color: #666;
+}
+.timeline ul li.timeline-container::after {
+  background: url('../images/order-tracking.png') no-repeat;
+  width: 50px;
+  height: 50px;
+}
+/* -----------------------------------------------
+ * Timeline Ended
+ * --------------------------------------------- */
+/* -----------------------------------------------
+ * Successfullu Started
+ * --------------------------------------------- */
+.content .order-detail-border {
+  border-bottom: 3px solid #d7d7d7;
+  padding-bottom: 7.2265625rem;
+}
+.content .order-detail-border .order-detail-thankyou {
+  padding-top: 8.515625rem;
+  width: 40%;
+  display: inline-block;
+  text-align: right;
+}
+.content .order-detail-border .order-detail-thankyou img {
+  max-width: 100%;
+}
+.content .order-detail-border .order-detail-successfully-thankyou-posted {
+  width: 60%;
+  display: inline-block;
+  float: right;
+}
+.content .order-detail-border .order-detail-successfully-thankyou-posted h3 {
+  font-size: 2.34375rem;
+  color: #c41411;
+  padding-top: 6.8359375rem;
+  padding-left: 1.484375rem;
+}
+.content .text-center a {
+  margin-top: 8.515625rem;
+  display: inline-block;
+  padding: 20px 65px;
+  border-radius: 5px;
+  color: #c41411;
+  font-size: 1.953125rem;
+  text-align: center;
+  border: 1px solid #c41411;
+  margin-bottom: 1.953125rem;
+}
+/* -----------------------------------------------
+ * Successfullu Ended
+ * --------------------------------------------- */
+.order-detail_comment_delete {
+  background-color: #000;
+}
+.order-detail_comment_delete img {
+  padding-top: 17.578125rem;
+  max-width: 100%;
+  padding-bottom: 17.578125rem;
+}
+.product-detail-dots {
+  position: relative;
+  top: 1.5625rem;
+  right: 1.6796875rem;
+}
+.product-detail-dots span {
+  color: #fff;
+  font-size: 1.40625rem;
+}
+.content .order-detail-list-products-container {
+  margin: 0;
+}
+.content .shopping-cart-large-products {
+  border-top: 1.953125rem solid #f8f8f8;
+  border-bottom: 1px solid #d7d7d7;
+}
+.content .order-detail-comment-main {
+  margin-top: 1.953125rem;
+}
+.content .order-detail-comment-main .shopping-cart-product-comment {
+  padding-left: 1.953125rem;
+  width: 30%;
+  padding-right: 1.7578125rem;
+}
+.content .order-detail-comment-main .shopping-cart-product-list-order-detail-comment {
+  width: 61%;
+}
+.content .order-detail-comment-main .shopping-cart-product-list-order-detail-comment .shopping-cart-product-price {
+  border: 1px solid #d7d7d7;
+  margin: 0;
+  padding: 0.78125rem 0.78125rem 6.05585937rem 1.171875rem;
+  color: #999;
+  font-size: 1.5625rem;
+  font-weight: normal;
+  background-color: #fff;
+}
+.content .order-detail-comment-second {
+  margin-top: 3.90625rem;
+  border-bottom: 1px solid #d7d7d7;
+}
+.content .order-detail-comment-second ul {
+  list-style: none;
+  float: left;
+  width: 95%;
+}
+.content .order-detail-comment-second ul li {
+  float: left;
+  width: 22%;
+  margin-left: 3%;
+  border: 1px solid #d7d7d7;
+  padding-bottom: 8.75rem;
+  margin-bottom: 1.171875rem;
+  background-color: #fff;
+}
+.content .order-detail-comment-second ul li:last-child {
+  border: 0;
+  padding-bottom: 0;
+  background-color: transparent;
+}
+.content .order-detail-comment-second ul img {
+  max-width: 100%;
+}
+.content .order-detail-comment-third {
+  border-bottom: 1px solid #d7d7d7;
+  margin-bottom: 1.953125rem;
+  background-color: #fff;
+}
+.content .order-detail-comment-third .order-detail-comment-footer h2 {
+  margin-left: 2.734375rem;
+  font-size: 1.40625rem;
+  padding-top: 1.953125rem;
+  margin-top: 0;
+  width: 35%;
+  float: left;
+}
+.content .order-detail-comment-third .order-detail-comment-footer img {
+  padding-top: 2.2rem;
+}
