@@ -26,11 +26,11 @@
 }
 .trade-product-list-row .trade-product-list-image {
   float: left;
-  width: 37.822306238185256%;
+  width: 32.822306238185256%;
 }
 .trade-product-list-row .trade-product-list-text {
   float: left;
-  width: 62.17769376%;
+  width: 67.17769376%;
   padding-left: 2.1484375rem;
 }
 .trade-product-list-row .trade-product-list-text h2 {
@@ -39,13 +39,13 @@
   font-size: 1.5625rem;
   margin-top: 0;
   min-height: 7.320313rem;
-  margin-bottom: 4.515625rem;
+  margin-bottom: 1.515625rem;
 }
 .trade-product-list-row .trade-product-list-text h2 span {
   display: block;
   font-size: 1.40625rem;
   color: #999999;
-  margin-top: 1.5625rem;
+  margin-top: 1.328125rem;
 }
 .trade-product-list-row .trade-product-list-text h3 {
   color: #c41411;
@@ -130,18 +130,22 @@
 }
 .trade-pricing-counting-block .trade-pricing-counting-row {
   border-bottom: 2px solid #dedede;
-  padding: 1.5625rem 1.171875rem;
+  padding: 1.5625rem 1.953125rem;
   font-size: 1.5625rem;
 }
 .trade-pricing-counting-block .trade-pricing-counting-row .trade-label {
   color: #222222;
   float: left;
 }
+.trade-pricing-counting-block .trade-pricing-counting-row .trade-label.trade-padding-top {
+  padding-top: 1.2109375rem;
+}
 .trade-pricing-counting-block .trade-pricing-counting-row .trade-label .trade-badge {
   font-size: 1.171875rem;
   background: #c41411;
   color: #fff;
-  padding: 2px 5px;
+  padding: 5px;
+  margin-left: 0.5859375rem;
 }
 .trade-pricing-counting-block .trade-pricing-counting-row .trade-action {
   color: #666666;
@@ -164,7 +168,7 @@
   color: #222222;
 }
 .trade-pricing-total-block .trade-text .trade-total {
-  font-size: 1.796875rem 1.953125rem;
+  font-size: 1.953125rem;
   color: #c41411;
 }
 .trade-pricing-total-block .trade-text .trade-extra {
