@@ -204,12 +204,16 @@
   margin: 1.953125rem 0;
   border-top: 2px solid #dedede;
   border-bottom: 2px solid #dedede;
+  position: relative;
 }
 .trade-top-input-block input {
   font-size: 3.125rem;
   color: #cccccc;
   border: 0;
   background: transparent;
+  padding: 0.3515625rem 0;
+  padding-right: 4.6875rem;
+  width: 100%;
 }
 .trade-top-input-block input::-webkit-input-placeholder {
   color: #cccccc;
@@ -222,6 +226,18 @@
 }
 .trade-top-input-block input:-ms-input-placeholder {
   color: #cccccc;
+}
+.trade-top-input-block button {
+  position: absolute;
+  right: 1.953125rem;
+  background: transparent;
+  border: 0;
+  padding: 0;
+  top: 1.2890625rem;
+}
+.trade-top-input-block button img {
+  width: 4.21875rem;
+  height: 4.21875rem;
 }
 @media (max-width: 992px) {
   .trade-checkbox-block .trade-checkboxes-row {

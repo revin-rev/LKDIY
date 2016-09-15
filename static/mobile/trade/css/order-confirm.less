@@ -239,6 +239,7 @@
   margin: 50/@baseRem 0;
   border-top: 2px solid @borderColorExtra;
   border-bottom: 2px solid @borderColorExtra;
+  position: relative;
 
   input{
     font-size: 80/@baseRem;
@@ -246,6 +247,22 @@
     .placeholder(#cccccc);
     border: 0;
     background: transparent;
+    padding: 9/@baseRem 0;
+    padding-right: 120/@baseRem;
+    width: 100%;
+  }
+  button{
+    position: absolute;
+    right: 50/@baseRem;
+    background: transparent;
+    border: 0;
+    padding: 0;
+    top: 1.2890625rem;
+
+    img{
+      width: 108/@baseRem;
+      height: 108/@baseRem;
+    }
   }
 }
 
