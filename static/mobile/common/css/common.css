@@ -7,6 +7,7 @@
   padding: 0 ;
   height: auto;
   min-height: 5.1171875rem;
+  z-index: 100;
 }
 .header-base-color .bar .searchbar {
   margin: 0;
@@ -168,6 +169,13 @@
 }
 .header-base-color .sort-links ul li.active a {
   color: #c41411;
+}
+.header-base-color .right-side-link {
+  float: right;
+  padding-right: 1.953125rem;
+  color: #fff;
+  font-size: 1.40625rem;
+  line-height: 2.734375rem;
 }
 .header-base-color ~ .content {
   padding-top: 5.1953125rem;

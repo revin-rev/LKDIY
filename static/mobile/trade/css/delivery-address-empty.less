@@ -1,0 +1,42 @@
+@import "../../common/css/variable";
+@import "../../common/css/lesshat";
+
+.content{
+  padding-top: 135/@baseRem;
+  background: @white;
+}
+
+.trade-bottom-fixed-btn{
+  background: @baseColor;
+  color: @white;
+  font-size: 50/@baseRem;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  text-align: center;
+
+  a{
+    display: block;
+    color: @white;
+    padding:36/@baseRem 50/@baseRem;
+  }
+
+  ~ .content{
+    padding-bottom: 147/@baseRem;
+  }
+}
+.trade-address-empty{
+  font-size: 46/@baseRem;
+  color: @fontLightColor;
+  padding-top: 147/@baseRem;
+  line-height: 72/@baseRem;
+
+  a{
+    display: block;
+    font-size: 36/@baseRem;
+    color: @baseAnchorColor;
+  }
+}
+
