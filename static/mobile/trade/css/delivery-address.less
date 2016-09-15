@@ -1,0 +1,91 @@
+@import "../../common/css/variable";
+@import "../../common/css/lesshat";
+
+.content{
+  padding-top: 135/@baseRem;
+}
+
+.trade-bottom-fixed-btn{
+  background: @baseColor;
+  color: @white;
+  font-size: 50/@baseRem;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  text-align: center;
+
+  a{
+    display: block;
+    color: @white;
+    padding:36/@baseRem 50/@baseRem;
+  }
+
+  ~ .content{
+    padding-bottom: 147/@baseRem;
+  }
+}
+
+.trade-address-block{
+  background: @white;
+
+  .trade-address-inner{
+    padding: 30/@baseRem 50/@baseRem;
+
+    .trade-address-row{
+      font-size: 46/@baseRem;
+      color: @fontDarkColor;
+    }
+    .trade-address-description{
+      font-size: 36/@baseRem;
+      margin-top: 25/@baseRem;
+      color: @baseTextColor;
+      min-height: 112/@baseRem;
+    }
+  }
+  .trade-address-checkbox-row{
+    border-top:2px solid @tradeBorderColor;
+    border-bottom:2px solid @tradeBorderColor;
+    padding: 50/@baseRem;
+    font-size: 40/@baseRem;
+    color: @fontLightColor;
+    margin-bottom: 50/@baseRem;
+
+    .label-checkbox{
+      input:checked ~ *{
+        color: @baseColor;
+      }
+      i{
+        width: 68/@baseRem;
+        height: 68/@baseRem;
+        .border-radius(50%);
+        border: 2px solid ;
+
+        &:after{
+          background-size: 30/@baseRem 3.45rem !important;
+          top: 0;
+          margin: 0;
+          left: 0;
+          right: 0;
+          width: 100%;
+          height: 100%;
+        }
+      }
+      .item-inner{
+        margin-left: 35/@baseRem;
+      }
+    }
+    .trade-address-checkbox-actions{
+      a{
+        color: @fontLightColor;
+
+        &  + a{
+          margin-left: 50/@baseRem;
+        }
+      }
+    }
+  }
+}
+
+

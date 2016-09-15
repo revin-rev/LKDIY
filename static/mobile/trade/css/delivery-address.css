@@ -1,0 +1,81 @@
+/******************************************************
+   *Variables START
+******************************************************/
+.content {
+  padding-top: 5.2734375rem;
+}
+.trade-bottom-fixed-btn {
+  background: #c41411;
+  color: #fff;
+  font-size: 1.953125rem;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  text-align: center;
+}
+.trade-bottom-fixed-btn a {
+  display: block;
+  color: #fff;
+  padding: 1.40625rem 1.953125rem;
+}
+.trade-bottom-fixed-btn ~ .content {
+  padding-bottom: 5.7421875rem;
+}
+.trade-address-block {
+  background: #fff;
+}
+.trade-address-block .trade-address-inner {
+  padding: 1.171875rem 1.953125rem;
+}
+.trade-address-block .trade-address-inner .trade-address-row {
+  font-size: 1.796875rem;
+  color: #333333;
+}
+.trade-address-block .trade-address-inner .trade-address-description {
+  font-size: 1.40625rem;
+  margin-top: 0.9765625rem;
+  color: #666666;
+  min-height: 4.375rem;
+}
+.trade-address-block .trade-address-checkbox-row {
+  border-top: 2px solid #d7d7d7;
+  border-bottom: 2px solid #d7d7d7;
+  padding: 1.953125rem;
+  font-size: 1.5625rem;
+  color: #999999;
+  margin-bottom: 1.953125rem;
+}
+.trade-address-block .trade-address-checkbox-row .label-checkbox input:checked ~ * {
+  color: #c41411;
+}
+.trade-address-block .trade-address-checkbox-row .label-checkbox i {
+  width: 2.65625rem;
+  height: 2.65625rem;
+  -webkit-border-radius: 50%;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 50%;
+  -moz-background-clip: padding;
+  border-radius: 50%;
+  background-clip: padding-box;
+  border: 2px solid ;
+}
+.trade-address-block .trade-address-checkbox-row .label-checkbox i:after {
+  background-size: 1.171875rem 3.45rem !important;
+  top: 0;
+  margin: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+.trade-address-block .trade-address-checkbox-row .label-checkbox .item-inner {
+  margin-left: 1.3671875rem;
+}
+.trade-address-block .trade-address-checkbox-row .trade-address-checkbox-actions a {
+  color: #999999;
+}
+.trade-address-block .trade-address-checkbox-row .trade-address-checkbox-actions a + a {
+  margin-left: 1.953125rem;
+}

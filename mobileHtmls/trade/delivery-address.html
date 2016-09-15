@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>我的生活</title>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <link rel="stylesheet" href="../../static/mobile/common/plugins/sui-mobile/dist/css/sm.min.css">
+    <link rel="stylesheet" href="../../static/mobile/common/plugins/sui-mobile/dist/css/sm-extend.min.css">
+    <link rel="stylesheet" href="../../static/mobile/common/css/common.css">
+    <link rel="stylesheet" href="../../static/mobile/common/css/global.css">
+    <link rel="stylesheet" href="../../static/mobile/trade/css/delivery-address.css">
+</head>
+<body>
+
+<!--  header START -->
+<div class="header-base-color">
+    <header class="bar bar-nav header-bg">
+        <a href="#" class="back-to-prev-btn"><span class="icon icon-left"></span></a>
+        <h2 class="text-center bar-title">收货地址</h2>
+    </header>
+</div>
+<!-- 工具栏 -->
+<!--  header END -->
+
+<div class="trade-bottom-fixed-btn">
+    <a href="#">添加新地址</a>
+</div>
+
+<div class="content" id="top">
+
+    <div class="trade-address-block">
+        <div class="trade-address-inner">
+            <div class="trade-address-row">
+                宗晓雅 <span class="pull-right">13688886666</span>
+            </div>
+            <div class="trade-address-description">
+                上海市静安区某某路110号某某栋某某楼100室
+            </div>
+        </div>
+        <div class="trade-address-checkbox-row">
+            <label class="label-checkbox item-content">
+                <input type="radio" name="my-radio" checked>
+                <span class="item-media"><i class="icon icon-form-checkbox"></i></span>
+                <span class="item-inner">
+                    默认地址
+                </span>
+            </label>
+            <span class="trade-address-checkbox-actions pull-right"> <a href="#">编辑</a> <a href="#">删除</a> </span>
+        </div>
+    </div>
+
+    <div class="trade-address-block">
+        <div class="trade-address-inner">
+            <div class="trade-address-row">
+                宗晓雅 <span class="pull-right">13688886666</span>
+            </div>
+            <div class="trade-address-description">
+                南京南京市秦淮区秦虹路426号雅居乐花园二期15栋506室
+                （秦淮区政府对面）
+            </div>
+        </div>
+        <div class="trade-address-checkbox-row">
+            <label class="label-checkbox item-content">
+                <input type="radio" name="my-radio">
+                <span class="item-media"><i class="icon icon-form-checkbox"></i></span>
+                <span class="item-inner">
+                    默认地址
+                </span>
+            </label>
+            <span class="trade-address-checkbox-actions pull-right"> <a href="#">编辑</a> <a href="#">删除</a> </span>
+        </div>
+    </div>
+
+    <!--Back to top Start-->
+    <a href="#top" class="back-to-top"><img src="../../static/mobile/common/images/arrow-up.png" alt="Back To Top"/></a>
+    <!--Back to top End-->
+
+</div>
+<div class="panel-overlay"></div>
+
+
+
+
+<script type='text/javascript' src='../../static/mobile/common/scripts/jquery-1.12.4.min.js' charset='utf-8'></script>
+<script type='text/javascript' src='//g.alicdn.com/sj/lib/zepto/zepto.min.js' charset='utf-8'></script>
+<script type='text/javascript' src='../../static/mobile/common/plugins/sui-mobile/dist/js/sm.min.js' charset='utf-8'></script>
+<script type='text/javascript' src='../../static/mobile/common/plugins/sui-mobile/dist/js/sm-extend.min.js' charset='utf-8'></script>
+<script type='text/javascript' src='../../static/mobile/common/scripts/main.js' charset='utf-8'></script>
+<script>
+    $(document).on("click", ".sidebar-btn", function() {
+        $.openPanel("#sidebar");
+    });
+
+    (function($){
+        $('.trade-checkbox-action').click(function(e){
+            e.preventDefault();
+            $(this).parents('.trade-checkbox-block').toggleClass('open');
+        });
+    })(jQuery_noConflict);
+</script>
+</body>
+</html>
