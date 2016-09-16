@@ -1,0 +1,176 @@
+@import "../../common/css/variable";
+@import "../../common/css/lesshat";
+
+.content{
+  padding-top: 135/@baseRem;
+}
+
+.trade-bottom-fixed-btn{
+  background: @baseColor;
+  color: @white;
+  font-size: 50/@baseRem;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  text-align: center;
+
+  a{
+    display: block;
+    color: @white;
+    padding:36/@baseRem 50/@baseRem;
+  }
+
+  ~ .content{
+    padding-bottom: 147/@baseRem;
+  }
+}
+
+
+
+.trade-address-checkbox-row{
+  border-top:2px solid @tradeBorderColor;
+  border-bottom:2px solid @tradeBorderColor;
+  padding: 50/@baseRem;
+  font-size: 40/@baseRem;
+  color: @baseTextColor;
+  margin-bottom: 50/@baseRem;
+  background: @white;
+
+  &.trade-top-row{
+    margin-top: 50/@baseRem;
+    padding: 30/@baseRem 50/@baseRem;
+  }
+
+  .trade-single-text{
+    font-size: 46/@baseRem;
+    color: @fontDarkColor;
+    line-height: 88/@baseRem;
+  }
+
+  .label-switch{
+    width: 170/@baseRem;
+    border-radius: .8rem;
+    height: 88/@baseRem;
+
+    .checkbox{
+      width: 170/@baseRem;
+      border-radius: 42/@baseRem;
+      box-sizing: border-box;
+      height: 88/@baseRem;
+      background: #d9d9d9;
+    }
+  }
+
+  .label-switch input[type=checkbox]:checked + .checkbox{
+    background: @baseColor;
+  }
+
+  .label-switch .checkbox:after{
+    height: 80/@baseRem;
+    width: 80/@baseRem;
+    .border-radius(50%);
+  }
+
+  .label-switch .checkbox:before {
+    width: 164/@baseRem ;
+    border-radius: 46/@baseRem ;
+    height: 83/@baseRem ;
+  }
+
+  .label-switch input[type=checkbox]:checked+.checkbox:after{
+    .transform(translateX(83/@baseRem));
+  }
+
+  .trade-radio-btn-title{
+    color: @fontDarkColor;
+    font-size: 46/@baseRem;
+  }
+
+  .trade-input-hidden{
+    font-size: 40/@baseRem;
+    position: relative;
+    display: inline-block;
+    margin-top: 30/@baseRem;
+
+    & + .trade-input-hidden{
+        margin-left: 40/@baseRem;
+    }
+
+    span{
+      display: inline-block;
+      padding: 28/@baseRem 80/@baseRem;
+      .border-radius(8/@baseRem);
+      border:2px solid @borderColorExtra;
+    }
+
+    input{
+      position: absolute;
+      z-index: 10;
+      .opacity(0);
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      width: 100%;
+      height: 100%;
+
+      &:checked + span{
+        border-color: @baseColor;
+        color: @baseColor;
+      }
+    }
+  }
+
+  .trade-gap{
+    margin-top: 38/@baseRem;
+    margin-bottom: 28/@baseRem;
+
+    > div{
+      margin-top: 30/@baseRem;
+    }
+  }
+
+  .label-checkbox{
+    display: inline-block;
+
+    & + .label-checkbox{
+      margin-left: 80/@baseRem;
+    }
+
+    input:checked ~ *{
+      color: @baseColor;
+    }
+    i{
+      width: 68/@baseRem !important;
+      height: 68/@baseRem !important;
+      .border-radius(50%) !important;
+      border: 2px solid ;
+
+      &:after{
+        background-size: 30/@baseRem 3.45rem !important;
+        top: 0 !important;
+        margin: 0 !important;
+        left: 0 !important;
+        right: 0 !important;
+        width: 100% !important;
+        height: 100% !important;
+      }
+    }
+    .item-inner{
+      margin-left: 15/@baseRem;
+    }
+  }
+
+  .trade-input-small{
+    width: 100%;
+    border: 2px solid #cccccc;
+    padding: 28/@baseRem;
+    font-size: 40/@baseRem;
+    color: #cccccc;
+    .placeholder(#cccccc);
+    .border-radius(8/@baseRem);
+  }
+}
+

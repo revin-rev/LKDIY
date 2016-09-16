@@ -52,6 +52,9 @@ html {
 .text-left {
   text-align: left;
 }
+.base-dark-color {
+  color: #333333;
+}
 /*Helper classes END*/
 /*modal styling START*/
 .modal-overlay,
