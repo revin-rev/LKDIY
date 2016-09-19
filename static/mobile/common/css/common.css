@@ -261,6 +261,7 @@ top:-webkit-calc(50% - 2.03rem);
 top:-moz-calc(50% - 2.03rem);
 top:calc(50% - 2.03rem);
 ;
+  z-index: 100;
 }
 a.back-to-top img {
   max-width: 100%;

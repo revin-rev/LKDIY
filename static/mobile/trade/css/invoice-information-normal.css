@@ -185,3 +185,30 @@
 .trade-address-checkbox-row .trade-input-small:-ms-input-placeholder {
   color: #cccccc;
 }
+.trade-select-row label {
+  width: 11.953125rem;
+  display: inline-block;
+}
+.trade-select-row select {
+  -lh-property: 0;
+width:-webkit-calc(100% - 11.953125rem);
+width:-moz-calc(100% - 11.953125rem);
+width:calc(100% - 11.953125rem);
+;
+  border: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+.trade-select-row select + .icon {
+  position: absolute;
+  right: 1.953125rem;
+}
+.trade-notice-text {
+  padding: 0 1.953125rem 1.953125rem;
+  font-size: 1.5625rem;
+  color: #999999;
+}
+.trade-notice-text span {
+  color: #c41411;
+}
