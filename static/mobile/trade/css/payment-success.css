@@ -77,3 +77,29 @@ right:calc(100% + 2.34375rem);
   display: block;
   font-size: 1.875rem;
 }
+.trade-action-btns {
+  padding: 20.3125rem 1.953125rem 1.953125rem;
+}
+.trade-action-btns a {
+  display: inline-block;
+  font-size: 1.953125rem;
+  padding: 1.4453125rem 0.390625rem;
+  background: #fff;
+  width: 45%;
+  text-align: center;
+  -webkit-border-radius: 0.3125rem;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 0.3125rem;
+  -moz-background-clip: padding;
+  border-radius: 0.3125rem;
+  background-clip: padding-box;
+  border: 1px solid #999999;
+  color: #333333;
+}
+.trade-action-btns a.active {
+  color: #c41411;
+  border-color: #c41411;
+}
+.trade-action-btns a + a {
+  margin-left: 10%;
+}

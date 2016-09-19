@@ -89,3 +89,29 @@
     }
   }
 }
+
+.trade-action-btns{
+  padding: 520/@baseRem 50/@baseRem 50/@baseRem;
+
+  a{
+    display: inline-block;
+    font-size: 50/@baseRem;
+    padding: 37/@baseRem 10/@baseRem;
+    background: @white;
+    width: 45%;
+    text-align: center;
+    .border-radius(8/@baseRem);
+    border: 1px solid @fontLightColor;
+    color: @fontDarkColor;
+
+    &.active{
+      color: @baseColor;
+      border-color: @baseColor;
+    }
+
+    & + a{
+      margin-left: 10%;
+    }
+  }
+}
+
