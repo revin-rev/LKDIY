@@ -1,0 +1,78 @@
+@import "../../common/css/variable";
+@import "../../common/css/lesshat";
+
+.content{
+  padding-top: 135/@baseRem !important;
+}
+
+.trade-bottom-fixed-btn{
+  font-size: 50/@baseRem;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  text-align: center;
+  background: @white;
+
+
+
+    .trade-text{
+      font-size: 40/@baseRem;
+      padding: 50/@baseRem;
+      color: #222222;
+
+      .trade-total{
+        font-size: 50/@baseRem;
+        color: @baseColor;
+      }
+      .trade-extra{
+        display: block;
+        color: @baseColor;
+        span{
+          color: #222222;
+        }
+      }
+  }
+
+  ~ .content{
+    padding-bottom: 235/@baseRem;
+  }
+}
+
+.trade-address-checkbox-row{
+  border-top:2px solid @tradeBorderColor;
+  border-bottom:2px solid @tradeBorderColor;
+  padding: 50/@baseRem;
+  font-size: 40/@baseRem;
+  color: @baseTextColor;
+  background: @white;
+
+  & + &{
+    border-top: 0;
+  }
+
+
+  .trade-single-text{
+    font-size: 46/@baseRem;
+    color: @fontDarkColor;
+    line-height: 88/@baseRem;
+    vertical-align: middle;
+
+    *{
+      vertical-align: middle;
+    }
+    img{
+      width: 200/@baseRem;
+    }
+    label{
+      margin-left: 50/@baseRem;
+    }
+    .icon{
+      float: right;
+      padding-top: 54/@baseRem;
+      color: @fontLightColor;
+    }
+  }
+}
+

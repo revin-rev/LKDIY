@@ -1,0 +1,66 @@
+/******************************************************
+   *Variables START
+******************************************************/
+.content {
+  padding-top: 5.2734375rem !important;
+}
+.trade-bottom-fixed-btn {
+  font-size: 1.953125rem;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  text-align: center;
+  background: #fff;
+}
+.trade-bottom-fixed-btn .trade-text {
+  font-size: 1.5625rem;
+  padding: 1.953125rem;
+  color: #222222;
+}
+.trade-bottom-fixed-btn .trade-text .trade-total {
+  font-size: 1.953125rem;
+  color: #c41411;
+}
+.trade-bottom-fixed-btn .trade-text .trade-extra {
+  display: block;
+  color: #c41411;
+}
+.trade-bottom-fixed-btn .trade-text .trade-extra span {
+  color: #222222;
+}
+.trade-bottom-fixed-btn ~ .content {
+  padding-bottom: 9.1796875rem;
+}
+.trade-address-checkbox-row {
+  border-top: 2px solid #d7d7d7;
+  border-bottom: 2px solid #d7d7d7;
+  padding: 1.953125rem;
+  font-size: 1.5625rem;
+  color: #666666;
+  background: #fff;
+}
+.trade-address-checkbox-row + .trade-address-checkbox-row {
+  border-top: 0;
+}
+.trade-address-checkbox-row .trade-single-text {
+  font-size: 1.796875rem;
+  color: #333333;
+  line-height: 3.4375rem;
+  vertical-align: middle;
+}
+.trade-address-checkbox-row .trade-single-text * {
+  vertical-align: middle;
+}
+.trade-address-checkbox-row .trade-single-text img {
+  width: 7.8125rem;
+}
+.trade-address-checkbox-row .trade-single-text label {
+  margin-left: 1.953125rem;
+}
+.trade-address-checkbox-row .trade-single-text .icon {
+  float: right;
+  padding-top: 2.109375rem;
+  color: #999999;
+}
