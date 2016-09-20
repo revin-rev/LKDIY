@@ -30,7 +30,7 @@
 .trade-evaluate-form.sui-form.form-horizontal textarea {
   width: 620px;
   border-radius: 0;
-  min-height: 120px;
+  height: 120px;
   padding: 10px;
   font-size: 14px;
 }

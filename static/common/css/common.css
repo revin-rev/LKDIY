@@ -889,6 +889,12 @@
   margin-right: 5px;
   margin-top: 3px;
 }
+.sui-form.form-horizontal.sui-validate .sui-msg.msg-error {
+  margin-left: 16px;
+}
+.sui-form.form-horizontal.sui-validate .sui-msg.msg-error > .msg-con {
+  margin: 0 !important;
+}
 /*******************Error message styling END***********************/
 /*******************Tabs START***********************/
 .after-login-tabs-design .sui-nav.nav-tabs.tab-wraped {
