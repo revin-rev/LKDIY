@@ -38,6 +38,13 @@
                     </div>
                     <div class="sso-login-form">
                     	<form class="sui-form form-horizontal sui-validate" id="form-msg">
+
+                            <div class="sui-msg msg-error help-inline main-error  " style="display: none;">
+                                <div class="msg-con">
+                                    <span>请输入用户名和密码</span>
+                                </div>   <i class="msg-icon"></i>
+                            </div>
+
                     		<div class="input-prepend">
                     			<span class="add-on">
                     				<img src="../../static/sso/images/login-user-icon.png"/>
@@ -49,7 +56,7 @@
                     			<span class="add-on">
                     				<img src="../../static/sso/images/login-pass-icon.png"/>
                     			</span>
-                    			<input type="password" name="second" data-empty-msg="请输入用户名" data-error-msg="请输入密码" class="span3 input-fat" placeholder="******" data-rules="required|minlength=6|maxlength=12">
+                    			<input type="password" name="second" data-empty-msg="请输入密码" data-error-msg="请输入密码" class="span3 input-fat" placeholder="******" data-rules="required|minlength=6|maxlength=12">
                     		</div>
                     		<br/>
                     		<div class="row margin-zero">

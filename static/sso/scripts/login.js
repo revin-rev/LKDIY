@@ -23,16 +23,22 @@
                 if ($(_this).hasClass('input-error')) {
                     isValid = false;
                 }
-            },10);
+            },15);
         });
 
         setTimeout(function(){
             if(isValid){
-                $(_form).prop('style','padding-top:0');
+                $(_form).attr('style','padding-top:0');
             }else{
-                $(_form).prop('style','padding-top:40px');
+                $(_form).attr('style','padding-top:40px');
             }
-        },11);
+
+            if($('input.input-error').length >=  2){
+                $('.main-error').show(0);
+            }else{
+                $('.main-error').hide(0);
+            }
+        },20);
     });
 
 })(jQuery);  

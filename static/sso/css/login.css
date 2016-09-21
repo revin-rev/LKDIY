@@ -14,7 +14,7 @@
   float: right;
   background-color: #fff;
   padding: 20px 20px 33px;
-  min-width: 362px;
+  max-width: 365px;
   border: 1px solid #dedede;
 }
 .sso-login-bg-outer .sso-login-form-outr .sso-signup-link-and-heading h1 {
@@ -35,11 +35,12 @@
 }
 .sso-login-bg-outer .sso-login-form-outr .sso-login-form .sui-form {
   margin-bottom: 0;
+  position: relative;
 }
 .sso-login-bg-outer .sso-login-form-outr .sso-login-form .sui-form .input-prepend {
   margin-bottom: 20px;
   width: 320px;
-  position: relative;
+  position: static;
 }
 .sso-login-bg-outer .sso-login-form-outr .sso-login-form .sui-form .add-on {
   height: 33px;
@@ -132,15 +133,26 @@
 }
 .sso-login-bg-outer .sui-msg.msg-error {
   position: absolute;
-  top: -43px;
+  top: 0;
   float: left;
-  left: -5px;
+  left: -1px;
 }
 .sso-login-bg-outer .input-prepend-password .sui-msg.msg-error {
-  top: -98px;
+  top: 0;
   position: absolute;
 }
 .sso-login-bg-outer .sui-form.form-horizontal.sui-validate .sui-msg.msg-error .msg-con {
-  width: 317px;
+  width: 320px;
+}
+.sui-form.form-horizontal.sui-validate .sui-msg.msg-error {
+  margin: 0;
+  width: 100%;
+}
+.main-error {
+  z-index: 100;
+}
+.sui-form input[type='checkbox'] {
+  width: auto;
+  height: auto;
 }
 /* login section end */
