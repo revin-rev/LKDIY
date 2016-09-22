@@ -2,10 +2,6 @@
 
 //Import all variables
 
-
-
-
-
 .sso-page{
     .sso-bar {
         background:@baseColorLogin;
@@ -123,6 +119,12 @@
             background-color: @baseColorPlacholderWrite;
             color:#e0e0e0;
             margin-bottom: 25/@baseRem;
+            display: none;
+            margin-top: 20px;
+      }
+      .user-captcha-image{
+          width:520/@baseRem;
+          height: 80/@baseRem;
       }
       .sso-enable
       {
@@ -131,9 +133,11 @@
       }
       .sso-pass-eye
       {
-             position: relative;
-    top: -60px;
-    left: -49px;
+        position: absolute;
+        top: 23%;
+        right: 4%;
+        width:68/@baseRem;
+        height:41/@baseRem;
       }
       .input-large
       {
@@ -151,7 +155,7 @@
     vertical-align: middle;
     color: #333;
     border-radius: 3px;
-    width:428.45/@baseRem;
+    width:46%;
     text-align: center;
    
       }
@@ -208,6 +212,10 @@ input[type="checkbox"]:checked :after {
 //input[type="text"]:-ms-input-placeholder {  
   // color: red;  
 //}
+
+.list-block ul:after{
+    background-color: transparent;
+}
     
 
 }

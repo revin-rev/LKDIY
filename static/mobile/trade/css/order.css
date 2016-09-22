@@ -9,7 +9,6 @@
   color: #ce0000;
   border-color: #ce0000;
   border-bottom: 2px solid;
-  width: 20%;
   margin-left: 1.7578125rem;
   height: 2.61210938rem;
   padding: 0;
@@ -27,6 +26,7 @@
   background-color: #fff;
   margin: 0;
   padding: 0rem 0 0 0;
+  border-top: 1px solid #d7d7d7;
 }
 .content .order-details-large-products .order-detail-content-block .order-details-list .order-deatils-total {
   margin-left: 1.7578125rem;
@@ -41,11 +41,15 @@
   padding-right: 1.6796875rem;
   color: #ce0000;
 }
+.content .order-details-large-products .order-detail-content-block .order-refund-list {
+  border-bottom: 0;
+}
 .content .order-details-large-products .order-detail-content-block .order-detail-pull {
   float: right;
+  width: 50%;
+  margin: 0;
 }
 .content .order-details-large-products .order-detail-content-block .order-detail-pull .order-detail-total-second {
-  width: 50%;
   float: left;
 }
 .content .order-details-large-products .order-detail-content-block .order-detail-pull .order-detail-completed {
@@ -59,17 +63,17 @@
 .content .order-details-large-products .order-detail-content-block-button {
   float: left;
   width: 100%;
-  margin: 0;
-  padding: 0;
+  background-color: #fff;
 }
 .content .order-details-large-products .order-detail-content-block-button .order-detail-pull {
   float: right;
   width: 50%;
   padding-top: 0.9375rem;
+  padding-bottom: 0.9375rem;
 }
 .content .order-details-large-products .order-detail-content-block-button .order-detail-pull .order-detail-total-second {
   float: left;
-  width: 40%;
+  width: 44%;
   text-align: center;
   color: #222222;
   padding: 0.78125rem;
@@ -84,9 +88,9 @@
   border-radius: 5px;
   border: 1px solid #ce0000;
   font-size: 1.5625rem;
-  width: 40%;
+  width: 44%;
   float: left;
-  margin-left: 12%;
+  margin-left: 9%;
 }
 .content .order-details-large-products .order-detail-content-block-button .order-detail-pull .order-detail-completed-second {
   float: right;
@@ -106,7 +110,7 @@
 }
 .content .order-details-large-products .order-detail-product-list-product-col h4.order-detail-product-title {
   font-size: 1.5625rem;
-  margin-top: -0.3515625rem;
+  margin-top: 0.15625rem;
   font-weight: normal;
   margin-bottom: 0.390625rem;
 }
@@ -118,7 +122,7 @@
 }
 .content .order-details-large-products .order-detail-product-list-product-col h4.order-detail-product-price-yen {
   font-size: 1.40625rem;
-  margin: 1.171875rem 0 0 0;
+  margin: 0.78125rem 0 0 0;
   font-weight: normal;
   color: #c41411;
   width: 50%;
@@ -126,7 +130,7 @@
 }
 .content .order-details-large-products .order-detail-product-list-product-col h4.order-detail-product-price-x1 {
   float: right;
-  margin-top: 1.171875rem;
+  margin-top: 0.78125rem;
   margin-bottom: 0;
   margin-right: 0.546875rem;
   font-size: 1.5625rem;
@@ -399,8 +403,8 @@
 }
 .timeline ul li.timeline-container::after {
   background: url('../images/order-tracking.png') no-repeat;
-  width: 50px;
-  height: 50px;
+  width: 1.953125rem;
+  height: 1.953125rem;
 }
 /* -----------------------------------------------
  * Timeline Ended
@@ -423,7 +427,6 @@
 }
 .content .order-detail-border .order-detail-successfully-thankyou-posted {
   width: 60%;
-  display: inline-block;
   float: right;
 }
 .content .order-detail-border .order-detail-successfully-thankyou-posted h3 {
@@ -578,6 +581,8 @@
 }
 .header-base-color .bar .span_icon img {
   max-width: 100%;
+  width: 2.65625rem;
+  height: 2.65625rem;
 }
 .content .buttons-tab-apply {
   border-bottom: 1px solid #d7d7d7;
@@ -588,7 +593,6 @@
   color: #ce0000;
   border-color: #ce0000;
   border-bottom: 2px solid;
-  width: 20%;
   margin-left: 1.7578125rem;
   height: 2.61210938rem;
   padding: 0;
@@ -622,6 +626,7 @@
 }
 .content .order-details-apply-for-return .order-details-customer-apply-list .order-detail-apply-content-block .order-details-list .order-detail-pull h2.customer-service-list-right {
   width: 68%;
+  margin-left: 0rem;
 }
 .content .order-details-apply-for-return .order-details-customer-apply-list .apply-product-detail-spec {
   color: #222;
@@ -728,9 +733,10 @@
 .content .order-deatil-return-content-block ul.order-detail-return-information-step {
   list-style: none;
   float: left;
-  padding-left: 3.3203125rem;
+  padding-left: 0.1125rem;
   width: 100%;
   position: relative;
+  text-align: center;
 }
 .content .order-deatil-return-content-block ul.order-detail-return-information-step li.order-detail-retun-information-step1 .label-checkbox {
   float: left;
@@ -793,7 +799,7 @@
   list-style: none;
   width: 100%;
   float: left;
-  padding: 0;
+  padding-left: 0.9765625rem;
   text-align: center;
 }
 .content .order-deatil-return-content-block .order-detail-return-info-main ul li {
@@ -815,7 +821,7 @@
 }
 .content .order-deatil-return-content-block .order-detail-return-info-main ul li:last-child {
   text-align: right;
-  margin-left: 4%;
+  margin-left: 2%;
 }
 .content .order-deatil-return-content-block h3 {
   float: left;
@@ -854,6 +860,7 @@
 .content .order-detail-application-return .content-block .sale-type-new {
   width: 30%;
   float: left;
+  padding-top: 1.06210938rem;
 }
 .content .order-detail-application-return .content-block .sale-type-new p.sale-type {
   font-size: 1.71875rem;
@@ -865,12 +872,17 @@
 .content .order-detail-application-return .content-block .sale-type-new2 {
   float: left;
   width: 70%;
+  padding-top: 1.09023438rem;
 }
 .content .order-detail-application-return .content-block .sale-type-new2 p.return-sale-type {
   color: #222;
   font-size: 1.71875rem;
   margin: 0;
   padding-bottom: 1.953125rem;
+}
+.content .order-detail-application-return .content-block hr {
+  width: 86%;
+  border-color: #d7d7d7;
 }
 .content .order-detail-return-content-block-approval {
   padding-bottom: 1.18945313rem;
@@ -891,4 +903,103 @@ label.label-checkbox i.icon-form-checkbox:after {
 /* -----------------------------------------------
  * Return Information  Ended
  
+ * --------------------------------------------- */
+/* -----------------------------------------------
+ * Apply For Refund  Start
+ * --------------------------------------------- */
+.content #tab3 .order-details-apply-for-return .order-details-apply-refunded .order-detail-new-apply-refund {
+  margin-left: 1.953125rem;
+  margin-right: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  background-color: #fff;
+  border-top: 2px solid #d7d7d7;
+  width: 100%;
+  float: left;
+}
+.content #tab3 .order-details-apply-for-return .order-details-apply-refunded .order-detail-apply-refund {
+  background-color: #fff;
+  padding-left: 2.34375rem;
+  padding-top: 1.953125rem;
+  font-size: 1.796875rem;
+  padding-bottom: 1.953125rem;
+}
+.content #tab3 .order-details-apply-for-return .order-details-apply-refunded .order-detail-apply-refund label {
+  color: #c41411;
+  font-size: 1.796875rem;
+}
+.content #tab3 .order-details-apply-for-return .order-details-apply-refunded .order-detail-apply-refund span {
+  font-size: 1.796875rem;
+  color: #c41411;
+}
+.content #tab3 .order-details-apply-for-return .order-details-apply-refunded .order-detail-apply-refunding label {
+  color: #c41411;
+  font-size: 1.796875rem;
+}
+.content #tab3 .order-details-apply-for-return .order-details-apply-refunded .order-detail-apply-refunding span {
+  font-size: 1.796875rem;
+  color: #222;
+}
+/* -----------------------------------------------
+ * Apply For Refund  Ended
+ * --------------------------------------------- */
+/* -----------------------------------------------
+ * Apply For step1  Started
+ * --------------------------------------------- */
+.content .order-deatil-return-content-block ul.order-detail-information-refund-1 {
+  text-align: center;
+}
+.content .order-deatil-return-content-block .order-return-info-main-refund ul {
+  text-align: center;
+}
+.content .order-deatil-return-content-block .order-return-info-main-refund ul li:first-child {
+  margin-left: 12%;
+}
+/* -----------------------------------------------
+ * Apply For step1  Ended
+ * --------------------------------------------- */
+/* -----------------------------------------------
+ * Apply For Return Notice  Start
+ * --------------------------------------------- */
+.popup-create {
+  top: 10%;
+  width: 90%;
+  height: 78%;
+  left: 5%;
+  background-color: #f7f7f7;
+}
+.popup-create p {
+  text-align: center;
+  font-size: 1.640625rem;
+  color: #333333;
+}
+.popup-create .content-block {
+  width: 90%;
+  float: left;
+  margin: 0;
+  background-color: #fff;
+  padding: 1.953125rem;
+  margin-left: 5%;
+}
+.popup-create .content-block span {
+  font-size: 1.171875rem;
+  color: #666666;
+  line-height: 1.953125rem;
+  margin-bottom: 10px;
+  float: left;
+}
+.popup-create a.close-popup {
+  font-size: 1.171875rem;
+  color: #666666;
+  border: 2px solid #dedede;
+  border-radius: 5px;
+  position: relative;
+  top: 5%;
+  width: 50%;
+  float: left;
+  left: 25%;
+  padding: 1.3671875rem 1.3671875rem;
+}
+/* -----------------------------------------------
+ * Apply For Return Notice Ended
  * --------------------------------------------- */

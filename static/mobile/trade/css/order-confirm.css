@@ -46,6 +46,7 @@
   font-size: 1.40625rem;
   color: #999999;
   margin-top: 1.328125rem;
+  margin-left: 0.234375rem;
 }
 .trade-product-list-row .trade-product-list-text h3 {
   color: #c41411;
@@ -53,6 +54,7 @@
   font-size: 1.953125rem;
   margin-bottom: 0;
   margin-top: 0;
+  margin-left: -0.234375rem;
 }
 .trade-product-list-row .trade-product-list-text h3 span {
   font-size: 1.5625rem;

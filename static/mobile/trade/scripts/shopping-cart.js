@@ -16,12 +16,16 @@
  			$(this).next().val(value);
  		}
  	});
+
+ 	$(".shopping-cart-form-checkbox").click(function () {
+ 		//alert('ASDASDASD');
+ 		$('input:checkbox').not(this).prop('checked', this.checked);
+ 	});
  
  	
-$("#checkAll").click(function () {
- 		$('input:checkbox').not(this).prop('checked', this.checked);
-});
+ 	
 	
  	
  });
-})(jQuery_noConflict)
+})(jQuery_noConflict);
+

@@ -11,7 +11,7 @@ ul#main-slider{
 .bx-wrapper{
   .bx-pager {
     position: absolute;
-    bottom: 20px;
+    bottom: 20/@baseRem;
   }
 }
 
@@ -23,8 +23,8 @@ ul#main-slider{
   background: #d7d7d7;
   text-indent: -9999px;
   display: block;
-  width: 26/@baseRem;
-  height: 26/@baseRem;
+  width: 30px;
+  height: 30px;
   outline: 0;
   margin: 0 8px;
   .border-radius(50%);
@@ -88,6 +88,7 @@ ul#main-slider{
 
     & + .www-product-col{
       border-left: 15/@baseRem solid @borderColorLight;
+      margin-left:2%;
     }
 
     &:nth-child(1){
@@ -144,6 +145,7 @@ ul#main-slider{
     .text-left{
       text-align: left;
     }
+     
 
     .www-product-col{
       h2{
@@ -157,6 +159,7 @@ ul#main-slider{
       & + .www-product-col{
         border-left: 0;
       }
+     
     }
   }
 
@@ -174,6 +177,13 @@ ul#main-slider{
 .www-border-left-bottom{
   border-bottom: 2px solid @borderColorLight;
   border-left: 2px solid @borderColorLight;
+}
+
+.border-right{
+        border-right:1px solid #dedede;
+}
+.small-size{
+  max-width:80%;
 }
 
 .www-custom-row{
@@ -231,5 +241,9 @@ ul#main-slider{
   display: inline-block;
 }
 
-
-
+@media only screen and (min-width: 992px){
+.bx-wrapper .bx-pager.bx-default-pager a{
+ width: 30px;
+  height: 30px;
+}
+}

@@ -82,15 +82,23 @@
   background-color: #333333;
   color: #e0e0e0;
   margin-bottom: 0.9765625rem;
+  display: none;
+  margin-top: 20px;
+}
+.sso-page .tabs .tab .user-captcha-image {
+  width: 20.3125rem;
+  height: 3.125rem;
 }
 .sso-page .tabs .tab .sso-enable {
   background-color: #c41411;
   color: #fff;
 }
 .sso-page .tabs .tab .sso-pass-eye {
-  position: relative;
-  top: -60px;
-  left: -49px;
+  position: absolute;
+  top: 23%;
+  right: 4%;
+  width: 2.65625rem;
+  height: 1.6015625rem;
 }
 .sso-page .tabs .tab .input-large {
   width: 21.80898437rem;
@@ -106,7 +114,7 @@
   vertical-align: middle;
   color: #333;
   border-radius: 3px;
-  width: 16.73632813rem;
+  width: 46%;
   text-align: center;
 }
 .sso-page .tabs .tab .auto-login {
@@ -137,4 +145,7 @@
 }
 .sso-page .sso-text ::-webkit-input-placeholder {
   color: #cccccc;
+}
+.sso-page .list-block ul:after {
+  background-color: transparent;
 }
