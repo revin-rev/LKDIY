@@ -77,7 +77,7 @@
 /*orders listing heading bar end*/
 .trade-single-order-detail-row .trade-price-value-inc * {
   height: 22px;
-  margin: 0 -3px;
+  margin: 0 -1px;
 }
 /* product order detail row start*/
 .trade-single-order-detail-row {
@@ -145,6 +145,7 @@
   vertical-align: middle;
   float: left;
   width: 12.5%;
+  left: 48%;
 }
 .trade-single-order-detail-row .trade-product-data .trade-price-value-inc {
   left: 61.5%;
@@ -365,13 +366,24 @@ table.sui-table.table-bordered-simple th.trade-bg {
 table.sui-table.table-bordered-simple th {
   vertical-align: middle;
 }
+.trade-price-value-inc {
+  font-size: 0 !important;
+}
 .trade-price-value-inc .decrement {
   position: relative;
-  left: 9px;
+  outline: none;
+  border: 1px solid #666666;
 }
 .trade-price-value-inc .increment {
   position: relative;
-  right: 5px;
+  outline: none;
+  border: 1px solid #666666;
+}
+.trade-price-value-inc input[type=text] {
+  width: 35px;
+  outline: none;
+  line-height: 20px;
+  border: 1px solid #666666;
 }
 ul.unstyled li {
   margin-bottom: 9px;

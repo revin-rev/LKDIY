@@ -20,6 +20,7 @@
   width: 100%;
 }
 .user-register-outr .user-address-form.form-horizontal .double-input input[type="text"].trade-long-input,
+.user-register-outr .user-address-form.form-horizontal .double-input input[type="password"].trade-long-input,
 .user-register-outr .user-address-form.form-horizontal .user-address-form.form-horizontal .double-input input[type="password"].trade-long-input {
   width: 300px;
   padding: 6px 9px ;
@@ -71,7 +72,8 @@
   border-radius: 0;
 }
 .user-register-outr .user-register-holder .double-input input[type="text"] {
-  padding: 11px 9px 12px;
+  padding: 6px 9px ;
+  border-radius: 0;
 }
 .user-register-outr .user-register-holder #auto-login {
   margin-left: 10px;

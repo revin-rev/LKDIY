@@ -126,13 +126,13 @@
                        <div class="control-group fixed-error">
                            <label class="control-label"><em>*</em> 请设置密码</label>
                            <div class="controls double-input">
-                               <input type="text" class="grey-bg trade-long-input" data-empty-msg="请输入密码" data-error-msg="请输入密码" data-rules="required" name="demo3" placeholder="请输入密码" />
+                               <input type="password" name="password" id="password" class="grey-bg trade-long-input" data-empty-msg="请输入密码" data-error-msg="请输入密码" data-rules="required" placeholder="请输入密码" />
                            </div>
                        </div>
                        <div class="control-group fixed-error">
                            <label class="control-label"><em>*</em> 请确认密码</label>
                            <div class="controls double-input">
-                               <input type="text" class="grey-bg trade-long-input" data-empty-msg="请确认密码" data-error-msg="请确认密码" data-rules="required" name="demo31" placeholder="请再次输入密码" />
+                               <input type="password" name="re-password" class="grey-bg trade-long-input" data-empty-msg="请确认密码" data-error-msg="请确认密码" data-rules="required|match=password"  placeholder="请再次输入密码" />
                            </div>
                        </div>
                        <div class="control-group fixed-error">
@@ -145,7 +145,7 @@
                        </div>
                        <div class="control-group ">
                            <label class="control-label"><em>*</em> 验证码</label>
-                           <div class="controls double-input fixed-error">
+                           <div class="controls double-input fixed-error text-no-wrap">
                            <input type="text" class="grey-bg" name="demo2" data-empty-msg="请输入验证码" data-error-msg="请输入验证码" data-rules="required" placeholder="请输入验证码" />
                                <img src="../../static/user/images/captcha-image.jpg" class="user-captcha-image">
                            </div>
@@ -154,7 +154,7 @@
                        <div class="row margin-zero">
                            <div class="control-group">
                                <label class="control-label"></label>
-                               <div class="controls double-input">
+                               <div class="controls double-input fixed-error error-middle">
                                <input type="checkbox" id="auto-login" name="check" data-rules="required" data-empty-msg="请同意并勾选协议" data-error-msg="请同意并勾选协议">
                                    <label for="auto-login">我已阅读并同意</label>
                                    <a href="#">《亮刻用户注册协议》</a>

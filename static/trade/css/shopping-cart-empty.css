@@ -212,6 +212,9 @@
   margin-bottom: 0px;
   background-color: #fff;
 }
+.trade-single-product.last {
+  margin-right: 0 !important;
+}
 .trade-my-collections {
   margin-top: 30px;
 }

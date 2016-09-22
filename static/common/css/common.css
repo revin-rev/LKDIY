@@ -1327,6 +1327,9 @@
   left: 100%;
   top: 1px;
 }
+.error-middle .sui-msg {
+  top: -9px;
+}
 /*Modal styling starts*/
 .sui-modal {
   margin-left: -205px;
