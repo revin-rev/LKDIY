@@ -29,9 +29,6 @@
 }
 .trade-base-btn + .trade-base-btn {
   margin-left: 18px;
-  background-color: #f2f2f2;
-  color: #999999;
-  border-color: #dedede;
 }
 .trade-steps {
   width: 874px;
@@ -218,17 +215,100 @@
   color: #c41411;
   font-size: 24px;
 }
-.trade-table-column ul {
-  list-style-type: none;
+.trade-total-block .trade-border {
+  border: 1px solid #cccccc;
 }
-.trade-table-column ul li {
-  margin: 2px;
-  padding: 2px;
+.related-products .product {
+  width: 207px;
+  height: 180px;
+  text-align: center;
+  margin-right: 20px;
+  float: left;
 }
-.trade-products-table .btn-default.active {
-  background: #c41411;
+.trade-related-products {
+  margin-top: 30px;
+  float: left;
+  padding: 8px 42px 0 41px;
+  border: 1px solid #dedede;
+}
+.trade-sent-mail-to {
+  position: relative;
+  top: 19px;
+  font-size: 20px;
+  color: #222222;
+}
+.trade-name {
+  width: 549px;
+  margin-right: 10px;
+  display: inline-block;
+  vertical-align: middle;
+  float: left;
+  margin-top: 22px;
+  margin-bottom: 30px;
+}
+.trade-name p {
+  color: #333333;
+  width: 195px;
+  margin-left: 18px;
+}
+.trade-name a {
+  float: left;
+  position: relative;
+  top: 41px;
+}
+.trade-name .trade-normal-a {
+  color: #333333;
+  position: relative;
+  top: 45px;
+  left: 25px;
+  font-size: 16px;
+}
+.trade-related-products-new {
+  margin-top: 30px;
+  border: 1px solid #dedede;
+  padding: 16px 23px 69px 20px;
+}
+.trade-name .trade-normal-anew {
+  position: relative;
+  top: 60px;
+  left: 25px;
+  float: left;
+  font-size: 14px;
+}
+.trade-back-continue {
+  float: right;
+  position: relative;
+  top: 50px;
+}
+.trade-new-button {
+  border: 1px solid red;
+  border-radius: 0;
+  font-size: 16px;
+  left: -351px;
+  padding: 10px 35px;
+  position: absolute;
+  top: 60px;
+}
+.trade-new-billing {
+  position: absolute;
+  top: 59px;
+  left: -175px;
+  padding: 11px 35px;
+  background-color: #B0120A;
+  color: white;
+  border-radius: 0px;
+  font-size: 16px;
+}
+.sui-btn:hover,
+.sui-btn:focus {
+  background-color: unset;
+  border: 1px solid red;
+}
+.sui-btn.trade-new-billing:hover,
+.sui-btn.trade-new-billing:focus {
+  background-color: #b0120a;
   color: #fff;
 }
-.trade-products-table ul li a.btn-default {
-  padding: 8px 14px 7px;
+h5.heading {
+  font-size: 16px;
 }

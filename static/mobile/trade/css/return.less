@@ -1,0 +1,470 @@
+@import "../../common/css/variable";
+@import "../../common/css/lesshat";
+
+/* return top progress bar start*/
+.trade-top-return-progress-bar{
+  margin-bottom: 28px;
+  .sui-steps-round{
+    padding: 0;
+  }
+
+}
+/* return top progress bar end*/
+
+
+/* return products detail start*/
+.trade-product-detail-and-status-section{
+  background-color: @white;
+  padding: 20px 20px 0;
+  border:1px solid #cccccc ;
+
+  .trade-product-detail-and-status-section-top{
+    margin-bottom: 14px;
+  }
+
+  p{
+    display: inline-block;
+    margin-bottom: 0;
+
+    &.trade-order-number, &.trade-order-status{
+      color: @footerCopyrightTextColor;
+      font-size: @baseFontLarge;
+
+      span{
+        color: @baseTextColor;
+      }
+    }
+  }
+  .trade-single-product-detail-row{
+    padding:20px 5px 20px 15px;
+    border-top: 1px solid #cccccc;
+    display: table;
+
+    .trade-checkbox{
+      float: left;
+      position: relative;
+      margin-top: 15px;
+    }
+
+    .trade-product-thumb-name{
+      width: 900px;
+      float: left;
+      img{
+        width: 52px;
+        height: 52px;
+        display: inline;
+        vertical-align: top;
+        margin-left: 22px;
+        margin-right: 22px;
+      }
+
+      .trade-product-name-point-cross{
+        width:804px;
+        display: inline-block;
+        line-height: normal;
+        float: right;
+
+        h2{
+          margin:0 0 16px;
+          line-height: normal;
+          font-size: @baseFontLarge;
+          color: @baseTextColorDark;
+          font-weight: normal;
+        }
+
+        span{
+          font-size: @baseFontLarge;
+          color: @footerCopyrightTextColor;
+          &.trade-corss{
+            float: right;
+            color: @baseTextColor;
+          }
+        }
+      }
+    }
+  }
+  .checkbox-pretty.inline, .radio-pretty.inline{
+    display: inline-block;
+    line-height: 13px;
+    vertical-align: top;
+
+    span{
+      vertical-align: top;
+      line-height: 16px;
+    }
+  }
+  .checkbox-pretty span:before, .radio-pretty span:before {
+    content: "";
+    margin-right: 0;
+    vertical-align: middle;
+    font-size: 135%;
+    color:@baseTextColor;
+    margin-left: 0;
+  }
+
+  .checkbox-pretty.checked>span:before, .radio-pretty.checked>span:before {
+    content: "\e645";
+    color: @baseColor;
+    font-family: 'icon-tb';
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .checkbox-pretty span, .radio-pretty span {
+    font-family: 'icon-pc';
+    display: inline-block;
+    height: 25px;
+    width: 25px;
+    background:@topHeadingBarBackground;
+    border-radius: 50%;
+    color:@white;
+    text-align: center;
+    border: 2px solid #cccccc;
+  }
+
+}
+/* return products detail end*/
+
+/* return form  start*/
+.trade-forms{
+  margin-top: 32px;
+
+  em{
+    color: @textHoverColor;
+    font-size: @baseFontLarge;
+    font-weight: bold;
+    margin-right: 2px;
+  }
+  .double-input input[type="text"]{
+    background-color: @white;
+    width: 180px;
+  }
+  .double-input select{
+    background-color: @white;
+    width: 180px;
+  }
+
+  .trade-custom-file-upload-btn{
+    position: relative;
+    z-index: 9999;
+    white-space: nowrap;
+    input{
+      height: 40px;
+      .opacity(0) ;
+      width: 185px;
+      cursor: pointer;
+    }
+  }
+
+  .www-file-upload{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9;
+    .opacity(1) ;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    padding: 10px 25px;
+
+    img{
+      margin-right: 5px;
+    }
+  }
+  .sui-dropup.dropdown-bordered, .sui-dropdown.dropdown-bordered{
+    height: 36px;
+  }
+  .sui-dropup.dropdown-bordered .dropdown-inner, .sui-dropdown.dropdown-bordered .dropdown-inner{
+    height: 36px;
+    padding: 8px;
+    width: 180px;
+    border-radius: 0;
+    background-color: @white;
+    a{
+      width:100%;
+      padding: 0;
+      border-bottom: 0;
+      color: #333333;
+
+    }
+  }
+  .sui-dropup .dropdown-inner > .sui-dropdown-menu, .sui-dropdown .dropdown-inner > .sui-dropdown-menu{
+    border-top: 1px solid #cccccc;
+    margin-top: 8px;
+    padding-top: 0;
+    box-shadow:none;
+    z-index: 999999;
+    border-radius: 0;
+
+    li{
+      padding: 0;
+
+      :hover {
+        background-color: @textHoverColor;
+
+      }
+
+      a{
+        padding:6px;
+        background-color: transparent;
+
+       &.active{
+         color: @baseTextColorDark;
+       }
+      }
+    }
+  }
+  .sui-dropdown.dropdown-bordered > .dropdown-inner > .sui-dropdown-menu li:hover > a, .sui-dropdown.dropdown-bordered.dropdown-xlarge > .dropdown-inner > .sui-dropdown-menu li:hover > a, .sui-dropdown.dropdown-bordered.dropdown-large > .dropdown-inner > .sui-dropdown-menu li:hover > a, .sui-dropdown.dropdown-bordered.dropdown-small > .dropdown-inner > .sui-dropdown-menu li:hover > a, .sui-dropdown.dropdown-bordered > .dropdown-inner > .sui-dropdown-menu li.active > a, .sui-dropdown.dropdown-bordered.dropdown-xlarge > .dropdown-inner > .sui-dropdown-menu li.active > a, .sui-dropdown.dropdown-bordered.dropdown-large > .dropdown-inner > .sui-dropdown-menu li.active > a, .sui-dropdown.dropdown-bordered.dropdown-small > .dropdown-inner > .sui-dropdown-menu li.active > a
+  {
+    color: @baseTextColorDark;
+  }
+  .sui-dropdown.dropdown-bordered  .dropdown-inner .sui-dropdown-menu li:hover  a:hover
+  {
+    color: @white;
+  }
+  .sui-form.form-horizontal .control-group.margin-bottom{
+    margin-bottom: 0;
+  }
+}
+
+.after-login-right-content-section form textarea{
+  background-color: @white;
+  height: 80px;
+  width: 300px;
+  border-radius: 0;
+  box-shadow: none;
+}
+.after-login-right-content-section .sui-form.form-horizontal .control-label.vertical-align-top{
+  vertical-align: top;
+}
+.trade-custom-files-upload-extension{
+    color: #999999;
+    display: inline-block;
+    font-size: 14px;
+    margin-bottom: 12px;
+    margin-top: 14px;
+    width: 100%;
+}
+/* return form end*/
+
+.trade-steps-completion-message{
+  padding-top: 110px;
+  padding-bottom: 157px;
+  text-align: center;
+  margin: 0 auto;
+  width: 430px;
+  p{
+    font-size: 16px;
+    color: @baseTextColorDark;
+    img{
+      float: left;
+      margin-right: 15px;
+      margin-top: -20px;
+    }
+  }
+  .column {
+    span{
+      display: block;
+      text-align: left;
+      font-size: @baseFontLarge;
+      margin-bottom: 12px;
+      &.first-text{
+        font-size: @baseFontMedium;
+      }
+    }
+  }
+}
+.trade-width-step3{
+  width: 275px;
+}
+
+.trade-return-form{
+  .sui-form.form-horizontal .controls{
+    padding-left: 12px;
+  }
+}
+
+/* return third step form start*/
+.trade-return-third-step.trade-forms{
+  width: 650px;
+  margin: 0 auto;
+  padding-top: 60px;
+  padding-bottom: 120px;
+
+   .double-input input[type="text"]{
+    background-color: transparent;
+  }
+  .sui-form.form-horizontal .controls{
+    margin-left: 0;
+    padding-left: 0;
+  }
+  .sui-dropup.dropdown-bordered .dropdown-inner, .sui-dropdown.dropdown-bordered .dropdown-inner{
+    background-color: transparent;
+  }
+
+  label{
+    color: @baseTextColor;
+  }
+
+  p{
+    display: table-cell;
+    vertical-align: middle;
+    font-weight: bold;
+    font-size: @baseFontLarge;
+    color: @baseTextColor;
+
+    a{
+      color: @baseColor;
+      float: left;
+      width: 124px;
+    }
+    span.trade-step-3-text{
+      float: left;
+      width: 430px;
+    }
+  }
+}
+
+.trade-steps{
+  width: 874px;
+  margin: 0 auto 30px;
+  position: relative;
+
+
+  &:after {
+    content: '';
+    display: block;
+    position: relative;
+    clear: both;
+  }
+
+  &.trade-steps-4{
+    .trade-step{
+      width: 281px;
+    }
+  }
+  &.trade-steps-3{
+    .trade-step{
+      width: 421px;
+    }
+  }
+
+  .trade-step{
+    float: left;
+    position: relative;
+
+    &.last{
+      width: 32px;
+      position: absolute;
+      right: 0;
+    }
+
+    .trade-step-label{
+      display: inline-block;
+      position: relative;
+      margin-bottom: 10px;
+      white-space: nowrap;
+      font-size: 14px;
+    }
+
+    .trade-round{
+      .box-shadow(0px 1px 0px 0px rgba(255, 255, 255, 0.35), inset 0px 3px 1px 0px rgba(0, 0, 0, 0.08));
+      border:1px solid transparent;
+      color: #cccccc;
+      font-size: 24px;
+      height: 32px;
+      width: 32px;
+      line-height: 30px;
+      width: 32px;
+      .border-radius(50%);
+      text-align: center;
+      position: relative;
+      z-index: 1;
+      background: @primaryColor;
+      font-family: 'arial black','arial';
+    }
+
+    .trade-bar{
+      height: 8px;
+      position: absolute;
+      left: 25px;
+      width: 100%;
+      background: @primaryColor;
+      padding: 2px 0;
+      .box-shadow(0px 1px 0px 0px rgba(255, 255, 255, 0.35),inset 0px 1px 2px 0px rgba(0, 0, 0, 0.2));
+      top: 41px;
+
+      .trade-bar-progress{
+        height: 4px;
+        position: relative;
+        z-index: 1;
+      }
+
+      &.trade-half-progress{
+        .trade-bar-progress{
+          width: 50%;
+        }
+      }
+    }
+    &.trade-step-done{
+      .trade-round{
+        padding: 4px;
+
+        i{
+          background: @baseColor;
+          display: block;
+          .border-radius(50%);
+          color: #fff;
+          height: 22px;
+          width: 22px;
+          font-size: 17px;
+          padding-top: 2px;
+        }
+      }
+      .trade-bar-progress{
+        background: @baseColor;
+      }
+    }
+
+    &.trade-current-step{
+      .trade-step-label{
+        color: @baseColor;
+      }
+      .trade-round{
+        padding: 4px;
+
+        i{
+          background: @baseColor;
+          display: block;
+          .border-radius(50%);
+          color: #fff;
+          height: 22px;
+          width: 22px;
+          font-size: 17px;
+          padding-top: 2px;
+        }
+      }
+    }
+  }
+
+  .trade-mid-step{
+    &.trade-step-done,&.trade-current-step{
+      .trade-round{
+        position: relative;
+        &:before{
+          content: '';
+          height: 4px;
+          z-index: 1;
+          display: block;
+          position: absolute;
+          width: 6px;
+          background: @baseColor;
+          left: -1px;
+          top: 14px;
+        }
+      }
+    }
+  }
+}
+/* return third step form end*/
+
+
+

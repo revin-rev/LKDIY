@@ -1,0 +1,58 @@
+/******************************************************
+   *Variables START
+******************************************************/
+.trade-refund-listing-block .item-category-pagination {
+  float: none;
+  text-align: right;
+}
+.trade-refund-listing-block .item-category-pagination .sui-pagination {
+  margin: 0;
+}
+.trade-refund-listing-block .item-category-pagination .sui-pagination ul li.prev.disabled a {
+  background-color: #fff;
+  color: #cccccc;
+}
+.trade-refund-listing-block .item-category-pagination .sui-pagination ul li.active a {
+  border-color: transparent;
+}
+.trade-nav,
+.trade-nav.sui-nav.nav-tabs {
+  margin-bottom: 25px;
+  padding: 0;
+  border: 0;
+}
+.trade-nav li,
+.trade-nav.sui-nav.nav-tabs li {
+  line-height: 30px;
+  padding: 0 40px;
+  margin: 0;
+}
+.trade-nav li a,
+.trade-nav.sui-nav.nav-tabs li a {
+  font-size: 16px;
+  color: #333333;
+  border-bottom: 1px solid transparent;
+  padding: 6px 0;
+}
+.trade-nav li a:hover,
+.trade-nav.sui-nav.nav-tabs li a:hover {
+  color: #d01716;
+  border-bottom: 1px solid;
+  background: transparent;
+}
+.trade-nav li.active a,
+.trade-nav.sui-nav.nav-tabs li.active a {
+  border: 1px solid transparent;
+  color: #d01716;
+  border-bottom: 1px solid;
+  background: transparent;
+  font-weight: 400;
+}
+.trade-nav li:first-child,
+.trade-nav.sui-nav.nav-tabs li:first-child {
+  padding-left: 5px;
+}
+.trade-nav li + li,
+.trade-nav.sui-nav.nav-tabs li + li {
+  border-left: 1px solid #fff;
+}
