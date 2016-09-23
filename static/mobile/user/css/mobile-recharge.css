@@ -1,0 +1,284 @@
+/******************************************************
+   *Variables START
+******************************************************/
+.content .trade-recharge-number-main {
+  border-bottom: 2px solid #d7d7d7;
+}
+.content .trade-recharge-number-main .trade-recharge-number {
+  text-align: center;
+  padding-top: 2.9296875rem;
+  padding-bottom: 2.9296875rem;
+}
+.content .trade-recharge-number-main .trade-recharge-number span {
+  font-size: 2.8125rem;
+  color: #cccccc;
+}
+.content .trade-recharge-number-main .trade-recharge-imges {
+  text-align: center;
+  padding-top: 2.9296875rem;
+  padding-bottom: 2.9296875rem;
+}
+.content .trade-recharge-number-main .trade-recharge-imges img {
+  width: 3.125rem;
+  height: 3.125rem;
+  float: right;
+  margin-right: 1.953125rem;
+}
+.content .trade-custom-css {
+  border-top: 0.46875rem solid #f7f7f7;
+  border-bottom: 1px solid #f7f7f7;
+}
+.content .trade-custom-css .trade-recharge-number-main-1 {
+  border-top: 1px solid #d7d7d7;
+  background-color: #fff;
+}
+.content .trade-custom-css .trade-recharge-number-main-1 .trade-recharge-yen5 {
+  text-align: center;
+  padding: 3.125rem;
+}
+.content .trade-custom-css .trade-recharge-number-main-1 .trade-recharge-yen5 span {
+  font-size: 1.875rem;
+  color: #cccccc;
+}
+.content .trade-custom-css .trade-recharge-number-main-1 .trade-recharge-yen10 {
+  border-left: 0.1953125rem solid #f7f7f7;
+  text-align: center;
+  padding: 3.125rem;
+}
+.content .trade-custom-css .trade-recharge-number-main-1 .trade-recharge-yen10 span {
+  font-size: 1.875rem;
+  color: #cccccc;
+}
+.content .trade-custom-css .trade-recharge-number-main-1 .trade-recharge-yen20 {
+  border-left: 0.1953125rem solid #f7f7f7;
+  text-align: center;
+  padding: 3.125rem;
+}
+.content .trade-custom-css .trade-recharge-number-main-1 .trade-recharge-yen20 span {
+  font-size: 1.875rem;
+  color: #333333;
+}
+.content .trade-recharge-total {
+  border-top: 0.1953125rem solid #f7f7f7;
+  background-color: #fff;
+}
+.content .trade-recharge-total .trade-recharge-yen30 {
+  text-align: center;
+  padding: 3.125rem;
+}
+.content .trade-recharge-total .trade-recharge-yen30 span {
+  font-size: 1.875rem;
+  color: #333333;
+}
+.content .trade-recharge-total .trade-recharge-yen50 {
+  text-align: center;
+  border-left: 0.1953125rem solid #f7f7f7;
+  padding: 3.125rem;
+}
+.content .trade-recharge-total .trade-recharge-yen50 span {
+  font-size: 1.875rem;
+  color: #333333;
+}
+.content .trade-recharge-total .active {
+  border: 2px solid #c41411;
+}
+.content .trade-recharge-total .active span {
+  color: #c41411;
+}
+.content .trade-recharge-total .trade-recharge-yen100 {
+  text-align: center;
+  padding: 3.125rem;
+  border-left: 0.1953125rem solid #f7f7f7;
+}
+.content .trade-recharge-total .trade-recharge-yen100 span {
+  font-size: 1.875rem;
+  color: #333333;
+}
+.main-bar {
+  height: auto;
+  background: #fff;
+  border-top: 2px solid #ededed;
+  width: 100%;
+}
+.main-bar .www-custom-width {
+  width: 70%;
+  float: left;
+}
+.main-bar .www-custom-width .tab-label-mobile-recharge {
+  padding: 0;
+  list-style: none;
+  float: right;
+  text-align: right;
+  width: 45%;
+}
+.main-bar .www-custom-width .tab-label-mobile-recharge li {
+  color: #c41411;
+  font-size: 1.640625rem;
+  padding: 0.390625rem;
+  float: left;
+}
+.main-bar .external-fourth {
+  background-color: #ce0000;
+  height: 5.46875rem;
+  width: 30%;
+  float: right;
+}
+.main-bar .external-fourth .tab-label-buy-now {
+  color: #fff;
+  font-size: 1.953125rem;
+  vertical-align: middle;
+  padding: 1.09375rem 0px 0 0rem;
+  float: left;
+  width: 100%;
+  text-align: center;
+}
+/* -----------------------------------------------
+ * Mobile Recharge-2 Start
+ * --------------------------------------------- */
+.content .trade-recharge-number-main .trade-recharge-number-changed span.trade-mobile-recharge-number {
+  color: #333;
+  font-size: 2.8125rem;
+  position: absolute;
+  left: 2%;
+}
+.content .trade-recharge-number-main .trade-recharge-number-changed label {
+  font-size: 1.171875rem;
+  color: #666666;
+  position: absolute;
+  left: 3%;
+  top: 12.6%;
+}
+/* -----------------------------------------------
+ * Mobile Recharge-2 Ended
+ * --------------------------------------------- */
+/* -----------------------------------------------
+ * Water Electricity_gas Started
+ * --------------------------------------------- */
+.content .trade-recharge-number-main-1 {
+  background-color: #fff;
+}
+.content .trade-recharge-number-main-1 .trade-recharge-yen5 {
+  text-align: center;
+  padding-top: 2.9296875rem;
+}
+.content .trade-recharge-number-main-1 .trade-recharge-yen5 img {
+  width: 5.78125rem;
+  height: 5.4296875rem;
+}
+.content .trade-recharge-number-main-1 .trade-recharge-yen5 span {
+  font-size: 1.40625rem;
+  padding-bottom: 1.953125rem;
+  color: #333333;
+  width: 100%;
+  display: inline-block;
+  margin-top: 2.421875rem;
+}
+.content .trade-recharge-number-main-1 .trade-recharge-yen10 {
+  border-left: 0.1953125rem solid #f7f7f7;
+  text-align: center;
+  padding-top: 2.34375rem;
+}
+.content .trade-recharge-number-main-1 .trade-recharge-yen10 img {
+  width: 3.984375rem;
+  height: 6.1328125rem;
+}
+.content .trade-recharge-number-main-1 .trade-recharge-yen10 span {
+  font-size: 1.40625rem;
+  padding-bottom: 1.953125rem;
+  color: #333333;
+  width: 100%;
+  display: inline-block;
+  margin-top: 2.421875rem;
+}
+.content .trade-recharge-number-main-1 .trade-recharge-yen20 {
+  border-left: 0.1953125rem solid #f7f7f7;
+  text-align: center;
+  padding-top: 2.734375rem;
+}
+.content .trade-recharge-number-main-1 .trade-recharge-yen20 img {
+  width: 3.4375rem;
+  height: 5.78125rem;
+}
+.content .trade-recharge-number-main-1 .trade-recharge-yen20 span {
+  font-size: 1.40625rem;
+  padding-bottom: 1.953125rem;
+  color: #333333;
+  width: 100%;
+  display: inline-block;
+  margin-top: 2.421875rem;
+}
+/* -----------------------------------------------
+ * water_electricity_gas Ended
+ * --------------------------------------------- */
+/* -----------------------------------------------
+ * Water started
+ * --------------------------------------------- */
+.content .trade-address-checkbox-row.trade-top-row {
+  padding: 1.171875rem 1.953125rem;
+}
+.content .trade-address-checkbox-row {
+  border-bottom: 0.1953125rem solid #ededed;
+  padding: 1.953125rem;
+  font-size: 1.5625rem;
+  color: #666666;
+  background: #fff;
+}
+.content .label-switch {
+  width: 34%;
+  border-radius: .8rem;
+  height: 3.4375rem;
+  display: inline;
+  color: #999999;
+}
+.content .product-detail-color {
+  color: #cccccc;
+}
+.content .order-spec-text-changed {
+  color: #999;
+  margin-left: 5%;
+}
+.content img {
+  width: 2.34375rem;
+  height: 2.34375rem;
+}
+.trade-bottom-fixed-btn {
+  background: #dedede;
+  color: #fff;
+  font-size: 1.953125rem;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  text-align: center;
+}
+.trade-bottom-fixed-btn a {
+  display: block;
+  color: #cccccc;
+  padding: 1.40625rem 1.953125rem;
+}
+/* -----------------------------------------------
+ * Water Ended
+ * --------------------------------------------- */
+/* -----------------------------------------------
+ * Water-2 Start
+ * --------------------------------------------- */
+.trade-bottom-fixed-btn {
+  background: #c41411;
+  color: #fff;
+  font-size: 1.953125rem;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  text-align: center;
+}
+.trade-bottom-fixed-btn a {
+  display: block;
+  color: #fff;
+  padding: 1.40625rem 1.953125rem;
+}
+/* -----------------------------------------------
+ * Water-2 Ended
+ * --------------------------------------------- */

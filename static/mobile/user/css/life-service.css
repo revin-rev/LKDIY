@@ -1,0 +1,22 @@
+/******************************************************
+   *Variables START
+******************************************************/
+.content .life-service-main {
+  border-bottom: 2px solid #c41411;
+}
+.content .life-service-main .life-service-img {
+  padding: 2.421875rem;
+  text-align: center;
+}
+.content .life-service-main .life-service-img img {
+  width: 5.859375rem;
+  height: 7.03125rem;
+}
+.content .life-service-main .life-service-txt {
+  padding: 3.984375rem;
+  text-align: center;
+}
+.content .life-service-main .life-service-txt span {
+  font-size: 1.875rem;
+  color: #666666;
+}
