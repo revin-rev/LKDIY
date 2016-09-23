@@ -160,10 +160,16 @@
 
   .right-side-link{
     float: right;
-    padding-right: 50/@baseRem;
+    right: 50/@baseRem;
+    position: absolute;
     color: @white;
     font-size: 36/@baseRem;
     line-height: 70/@baseRem;
+
+    img{
+      vertical-align: middle;
+      height: 52/@baseRem;
+    }
   }
 
   & ~ .content{

@@ -1,0 +1,123 @@
+/******************************************************
+   *Variables START
+******************************************************/
+.user-profile-header {
+  background: #fff;
+  padding: 2.34375rem 1.953125rem;
+  position: relative;
+  border-bottom: 2px solid #d7d7d7;
+  margin-bottom: 1.953125rem;
+}
+.user-profile-header .user-img-block {
+  float: left;
+}
+.user-profile-header .user-img-block img {
+  width: 7.3046875rem;
+}
+.user-profile-header .user-img-block label {
+  font-size: 1.40625rem;
+  color: #666666;
+  display: inline-block;
+  margin-top: 0.9765625rem;
+}
+.user-profile-header .user-data {
+  float: left;
+  padding-left: 2.34375rem;
+}
+.user-profile-header .user-data h2 {
+  font-size: 1.953125rem;
+  font-weight: normal;
+  color: #333333;
+  margin-top: 1.171875rem;
+}
+.user-profile-header .user-data h3 {
+  color: #999999;
+  font-size: 1.5625rem;
+  margin: 0;
+  font-weight: 400;
+}
+.user-profile-header .user-data .icon-right-fixed {
+  position: absolute;
+  right: 1.953125rem;
+  font-size: 2.34375rem;
+  color: #999999;
+  top: 48%;
+  -lh-property: 0;
+top:-webkit-calc(50% - 1.7578125rem);
+top:-moz-calc(50% - 1.7578125rem);
+top:calc(50% - 1.7578125rem);
+;
+}
+.user-row {
+  background: #fff;
+  border-top: 2px solid #d7d7d7;
+  border-bottom: 2px solid #d7d7d7;
+}
+.user-row:not(.gap-bottom) + .user-row {
+  border-top: 0;
+}
+.user-row.gap-bottom {
+  margin-bottom: 1.953125rem;
+}
+.user-row .user-row-title {
+  font-size: 1.796875rem;
+  padding: 1.3671875rem 1.953125rem;
+}
+.user-row .user-row-title > span {
+  color: #d7d7d7;
+  vertical-align: middle;
+}
+.user-nav-links {
+  margin: 0;
+  list-style: none;
+  padding: 1.953125rem 0;
+}
+.user-nav-links li {
+  float: left;
+  width: 25%;
+  text-align: center;
+}
+.user-nav-links li a {
+  display: block;
+}
+.user-nav-links li a .user-link-img {
+  display: inline-block;
+  position: relative;
+}
+.user-nav-links li a .user-link-img img {
+  max-width: 2.65625rem;
+}
+.user-nav-links li a .user-link-img .badge {
+  position: absolute;
+  background: #c41411;
+  color: #fff;
+  width: 1.5625rem;
+  height: 1.5625rem;
+  font-size: 1.0546875rem;
+  line-height: 1.3671875rem;
+  right: -0.8203125rem;
+  top: -0.8203125rem;
+}
+.user-nav-links li a label {
+  display: block;
+  font-size: 1.40625rem;
+  color: #999999;
+}
+.user-main-links {
+  border-bottom: 0;
+}
+.user-main-links .col-25 {
+  padding: 1.953125rem 0;
+  border-bottom: 2px solid #d7d7d7;
+  margin-left: 0;
+  width: 25%;
+  min-height: 12.03125rem;
+}
+.user-main-links .col-25 h2 {
+  font-weight: normal;
+  color: #999999;
+  margin-bottom: 0;
+}
+.user-main-links .col-25 + .col-25 {
+  border-left: 2px solid #d7d7d7;
+}

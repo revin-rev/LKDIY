@@ -172,10 +172,15 @@
 }
 .header-base-color .right-side-link {
   float: right;
-  padding-right: 1.953125rem;
+  right: 1.953125rem;
+  position: absolute;
   color: #fff;
   font-size: 1.40625rem;
   line-height: 2.734375rem;
+}
+.header-base-color .right-side-link img {
+  vertical-align: middle;
+  height: 2.03125rem;
 }
 .header-base-color ~ .content {
   padding-top: 5.1953125rem;

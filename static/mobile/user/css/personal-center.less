@@ -1,0 +1,137 @@
+//Import all variables
+@import "../../common/css/variable";
+@import "../../common/css/lesshat";
+
+.user-profile-header{
+  background: @white;
+  padding: 60/@baseRem 50/@baseRem;
+  position: relative;
+  border-bottom: 2px solid @borderInternalColor;
+  margin-bottom: 50/@baseRem;
+
+  .user-img-block{
+    float: left;
+
+    img{
+      width: 187/@baseRem;
+    }
+
+    label{
+      font-size: 36/@baseRem;
+      color: @baseTextColor;
+      display: inline-block;
+      margin-top: 25/@baseRem;
+    }
+  }
+  .user-data{
+    float: left;
+    padding-left: 60/@baseRem;
+
+    h2{
+      font-size: 50/@baseRem;
+      font-weight: normal;
+      color: @fontDarkColor;
+      margin-top: 30/@baseRem;
+    }
+    h3{
+      color: @fontLightColor;
+      font-size: 40/@baseRem;
+      margin: 0;
+      font-weight: 400;
+    }
+    .icon-right-fixed{
+      position: absolute;
+      right: 50/@baseRem;
+      font-size: 60/@baseRem;
+      color: @fontLightColor;
+      top: 48%;
+      .calc(top,~'50% - 1.7578125rem');
+    }
+  }
+}
+.user-row{
+  background: @white;
+  border-top: 2px solid @borderInternalColor;
+  border-bottom: 2px solid @borderInternalColor;
+
+  &:not(.gap-bottom) + .user-row{
+    border-top: 0;
+  }
+
+  &.gap-bottom{
+    margin-bottom: 50/@baseRem;
+  }
+
+  .user-row-title{
+    font-size: 46/@baseRem;
+    padding: 35/@baseRem 50/@baseRem;
+
+    >span{
+      color: @borderInternalColor;
+      vertical-align: middle;
+    }
+  }
+}
+.user-nav-links{
+  margin: 0;
+  list-style: none;
+  padding:50/@baseRem 0 ;
+
+
+    li{
+      float: left;
+      width: 25%;
+      text-align: center;
+
+      a{
+        display: block;
+
+        .user-link-img{
+          display: inline-block;
+          position: relative;
+
+          img{
+            max-width: 68/@baseRem;
+          }
+
+          .badge{
+            position: absolute;
+            background: @baseColor;
+            color: @white;
+            width: 40/@baseRem;
+            height: 40/@baseRem;
+            font-size: 27/@baseRem;
+            line-height: 35/@baseRem;
+            right: -21/@baseRem;
+            top: -21/@baseRem;
+          }
+        }
+        label{
+          display: block;
+          font-size: 36/@baseRem;
+          color: @fontLightColor;
+        }
+      }
+    }
+}
+.user-main-links{
+    border-bottom: 0;
+
+  .col-25{
+    padding: 50/@baseRem 0;
+    border-bottom: 2px solid @borderInternalColor;
+    margin-left: 0;
+    width: 25%;
+    min-height: 308/@baseRem;
+
+    h2{
+      font-weight: normal;
+      color: @fontLightColor;
+      margin-bottom: 0;
+    }
+
+    & + .col-25{
+      border-left: 2px solid @borderInternalColor;
+    }
+  }
+}
