@@ -19,14 +19,17 @@ html[data-browser='10'] input.number {
 }
 html[data-browser='8'] input[type="radio"],
 html[data-browser='9'] input[type="radio"],
-html[data-browser='11'] input[type="radio"],
 html[data-browser='10'] input[type="radio"],
 html[data-browser='8'] input[type="checkbox"],
 html[data-browser='9'] input[type="checkbox"],
-html[data-browser='11'] input[type="checkbox"],
 html[data-browser='10'] input[type="checkbox"] {
   min-width: 20px;
   min-height: 20px;
+}
+html[data-browser='11'] input[type="radio"],
+html[data-browser='11'] input[type="checkbox"] {
+  min-width: 15px;
+  min-height: 15px;
 }
 /******************************************************
    *Styling For IE START

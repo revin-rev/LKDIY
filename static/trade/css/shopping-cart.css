@@ -135,16 +135,14 @@
   margin-top: 5px;
 }
 .trade-single-order-detail-row .trade-product-data .trade-receiver-value-new {
-  /* width: 110px; */
   margin-right: 10px;
   display: inline-block;
   text-align: center;
   position: absolute;
   margin-top: 6px;
-  /* margin-left: 34px; */
   vertical-align: middle;
   float: left;
-  width: 12.5%;
+  width: 10.5%;
   left: 48%;
 }
 .trade-single-order-detail-row .trade-product-data .trade-price-value-inc {
@@ -159,7 +157,7 @@
   z-index: 999;
 }
 .trade-single-order-detail-row .trade-product-data .trade-status-value-final {
-  left: 76.5%;
+  left: 72.5%;
   margin-right: 10px;
   display: inline-block;
   color: #c41411;
@@ -167,6 +165,7 @@
   position: absolute;
   margin-top: 5px;
   z-index: 0;
+  width: 11%;
 }
 .trade-single-order-detail-row .trade-product-data .trade-operation-value {
   width: 95px;
@@ -373,6 +372,9 @@ table.sui-table.table-bordered-simple th {
   position: relative;
   outline: none;
   border: 1px solid #666666;
+}
+.trade-price-value-inc .decrement[disabled] {
+  cursor: not-allowed;
 }
 .trade-price-value-inc .increment {
   position: relative;

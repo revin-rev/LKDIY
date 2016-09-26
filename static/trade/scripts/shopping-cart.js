@@ -5,12 +5,14 @@
  			value = parseInt(value) + 1;
  			$(this).prev().val(value);
  		}
+        $(this).siblings('.decrement').attr('disabled',false);
  	});
  	$('.decrement').click(function(){
  		var value = $(this).next().val();
- 		if (!isNaN(value) && value > 0){
- 			value = parseInt(value)- 1;
- 			$(this).next().val(value);
+            value = parseInt(value) - 1;
+            $(this).next().val(value);
+ 		if (!isNaN(value) && value < 2){
+            $(this).attr('disabled',true);
  		}
  	});
  	$("#checkAll").click(function () {
