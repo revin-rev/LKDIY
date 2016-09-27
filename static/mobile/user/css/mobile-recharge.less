@@ -37,6 +37,9 @@ border-bottom: 1px solid #f7f7f7;
     .trade-recharge-number-main-1{
         border-top:1px solid #d7d7d7;
             background-color: #fff;
+            margin:0;
+            padding:0;
+            list-style: none;
         .trade-recharge-yen5{
             text-align: center;
             padding:80/@baseRem;
@@ -68,11 +71,24 @@ border-bottom: 1px solid #f7f7f7;
             }
 
         }
+
+        .active{
+               border:2px solid #c41411;
+               span{
+                   color:#c41411;
+                   font-size:48/@baseRem;
+
+               }
+           }
     }
     }
     .trade-recharge-total{
         border-top:5/@baseRem solid #f7f7f7;
-            background-color: #fff;
+        background-color: #fff;
+        margin:0;
+        padding:0;
+        list-style: none;
+
         
        .trade-recharge-yen30 {
            text-align: center;
@@ -96,13 +112,7 @@ border-bottom: 1px solid #f7f7f7;
            
 
         }
-        .active{
-               border:2px solid #c41411;
-               span{
-                   color:#c41411;
-
-               }
-           }
+        
         .trade-recharge-yen100 {
            text-align: center;
             padding:80/@baseRem;
@@ -114,6 +124,19 @@ border-bottom: 1px solid #f7f7f7;
            }
 
         }
+        .custom_width{
+            width:33%;
+            margin: 0;
+            padding-bottom: 4.125rem;
+        }
+         .active{
+               border:2px solid #c41411;
+               span{
+                   color:#c41411;
+                   font-size:48/@baseRem;
+
+               }
+           }
     }
 }
 
@@ -132,12 +155,14 @@ border-bottom: 1px solid #f7f7f7;
     list-style: none;
     float: right;
     text-align: right;
-    width: 45%;
+    width: auto;
+    white-space: nowrap;
        li{
            color:#c41411;
            font-size:42/@baseRem;
            padding:10/@baseRem;
-           float:left;
+           float:none;
+           display: inline-block;
        } 
 
     
@@ -174,15 +199,17 @@ border-bottom: 1px solid #f7f7f7;
  span.trade-mobile-recharge-number{
            color:#333;
            font-size:72/@baseRem;
-               position: absolute;
-               left:2%;
+           float: left;
+           width: 85%;
+           text-align: left;
+           margin-left: 7%;       
        }
        label{
            font-size:30/@baseRem;
            color:#666666;
-               position: absolute;
-    left: 3%;
-    top: 12.6%;
+           float: left;
+           width: 38%;
+              
        }
     }
 }
@@ -253,6 +280,10 @@ border-bottom: 1px solid #f7f7f7;
             }
 
         }
+        .custom_width{
+            width:33%;
+            margin-left:0%;
+        }
     }
 }
 
@@ -291,6 +322,10 @@ border-bottom: 1px solid #f7f7f7;
     color: #cccccc;
 }
 .order-spec-text-changed {
+    color:#999;
+        margin-left: 5%;
+}
+.order-spec-text-changed-area {
     color:#999;
         margin-left: 5%;
 }
@@ -346,4 +381,222 @@ img{
 
  /* -----------------------------------------------
  * Water-2 Ended
+ * --------------------------------------------- */
+
+
+ /* -----------------------------------------------
+ * Water Confirm Start
+ * --------------------------------------------- */
+
+.content{
+    .user-address-checkbox-water{
+        border-bottom: 0px;
+        .sale-type-new{
+                width: 30%;
+                float: left;
+                padding-top: 1.06210938rem;
+            p.sale-type{
+                font-size: 48/@baseRem;
+                color: #333333;
+                padding-left: 1.734375rem;
+                margin: 0;
+                padding-bottom: 1.953125rem;
+
+            }
+        }
+        .sale-type-new2{
+                float: left;
+                width: 70%;
+                padding-top: 1.06210938rem;
+                p.return-sale-type{
+                color: #666;
+                font-size: 48/@baseRem;
+                margin: 0;
+                padding-bottom: 1.953125rem;
+                }
+                p.active{
+                    color:#c41411;
+                }
+        }
+        
+    }
+}
+.popup {
+    top: auto;
+    height: auto;
+    bottom: 0;
+    padding-bottom: 1.5625rem;
+    
+     .content-block {
+    padding-top: 0.78125rem;
+    padding-left: 1.796875rem;
+    padding-right: 1.796875rem;
+     p {
+    font-size: 1.796875rem;
+    color: #222;
+    padding-bottom: 0.390625rem;
+    margin-top: 0.1953125rem;
+}
+ul {
+    padding: 0;
+    list-style: none;
+    li {
+    font-size: 1.5625rem;
+    color: #666666;
+    padding-top: 1.953125rem;
+    padding-bottom: 1.953125rem;
+    border-bottom: 1px solid #d7d7d7;
+}
+}
+li:last-child{
+    border-bottom: 0px;
+}
+}
+.content-block-border{
+    padding:0;
+    ul{
+        li.popup-vat-area{
+            padding-left:40/@baseRem;
+        span.area-padding-rhgt{
+            padding-right:60/@baseRem;
+        }
+        }
+
+    }
+}
+
+
+
+a {
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+    color: #c41411;
+    border-top: 1px solid #d7d7d7;
+    font-size: 1.5625rem;
+    padding-top: 2.34375rem;
+}
+.back-to-prev-btn{
+    background-color: #c41411;
+    padding-top:1.34375rem;
+    padding-bottom: 1.34375rem;
+    font-size: 1.5625rem;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    .icon {
+    font-size: 2.734375rem;
+    line-height: 6.140625rem;
+    color: #fff;
+    margin-left: 22/@baseRem;
+}
+        p.popup-top-class{
+        //margin: 0;
+        text-align: center;
+        display: inline-block;
+        color:#fff;
+        font-size:42/@baseRem;
+        }
+    
+}
+}
+.popup-area{
+    top:-3/@baseRem;
+}
+.modal-overlay, .popup-overlay, .preloader-indicator-overlay {
+    background: rgba(17, 17, 17, 0.5);
+}
+
+ /* -----------------------------------------------
+ * Water Confirm Ended
+ * --------------------------------------------- */
+
+
+ /* -----------------------------------------------
+ * No Result Start
+ * --------------------------------------------- */
+.content{
+    .no-inquiry{
+        margin-top:217/@baseRem;
+        text-align: center;
+        font-size:48/@baseRem;
+        color:#666666;
+    }
+}
+
+
+ /* -----------------------------------------------
+ * No Result Ended
+ * --------------------------------------------- */
+
+
+  /* -----------------------------------------------
+ * Fuel Card Start
+ * --------------------------------------------- */
+.content{
+    .trade-custom-css{
+        .fuel_card_color{
+            .trade-recharge-number{
+                span{
+                    color:#333;
+                    font-size:48/@baseRem;
+                    margin-top:78/@baseRem;
+                    margin-bottom: 78/@baseRem;
+                    float: left;
+                    padding-left: 13%;
+
+
+                }
+            }
+            .product-list-price-value-inc{
+            margin:2rem 0rem 0rem 0rem;
+            padding-bottom: 1.875rem;
+            //padding-left: 0.78125rem;
+
+            .decrement {
+            font-size: 2.34375rem;
+            border: 1px solid #f3f5f7;
+            padding: 0.5859375rem 0.9375rem 0.5859375rem 0.9375rem;
+            }
+            .number {
+            font-size: 2.34375rem;
+            border: 1px solid #f3f5f7;
+            padding: 0.4859375rem 0.9375rem 0.5859375rem 0.9375rem;
+            position: relative;
+            left: -3/@baseRem;
+             }
+             .increment {
+            font-size: 2.34375rem;
+            border: 1px solid #f3f5f7;
+            padding: 0.5859375rem 0.9375rem 0.5859375rem 0.9375rem;
+            position: relative;
+            right: 5/@baseRem;
+                }
+            }
+        }
+    }
+}
+
+  /* -----------------------------------------------
+ * Fuel Card Ended
+ * --------------------------------------------- */
+
+
+  /* -----------------------------------------------
+ * Fuel Card 2 Start
+ * --------------------------------------------- */
+
+.content{
+    .trade-recharge-number-main{
+        .trade-recharge-number{
+            span.fuel_card_2_color{
+                font-size:54/@baseRem;
+                color:#333;
+            }
+        }
+    }
+}
+
+  /* -----------------------------------------------
+ * Fuel Card 2 Ended
  * --------------------------------------------- */

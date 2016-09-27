@@ -1,0 +1,115 @@
+/******************************************************
+   *Variables START
+******************************************************/
+.content .trade-address-checkbox-row {
+  border-top: 1.953125rem solid #f3f5f7;
+  background-color: #fff;
+  border-bottom: 1.953125rem solid #f3f5f7;
+}
+.content .trade-address-checkbox-row .trade-single-text {
+  border-top: 2px solid #d7d7d7;
+  width: 100%;
+  display: inline-block;
+}
+.content .trade-address-checkbox-row .trade-single-text .myprofile-head {
+  padding-top: 3.125rem;
+  padding-bottom: 3.125rem;
+  display: inline-block;
+  text-align: left;
+  font-size: 1.5625rem;
+  padding-left: 1.953125rem;
+}
+.content .trade-address-checkbox-row .trade-single-text .user-label-switch {
+  display: inline-block;
+  text-align: center;
+  padding-top: 0.78125rem;
+  padding-bottom: 1.171875rem;
+  padding-right: 1.171875rem;
+  width: 25%;
+}
+.content .trade-address-checkbox-row .trade-single-text .user-label-switch img {
+  width: 6.5234375rem;
+  height: 6.5234375rem;
+}
+.content .trade-address-checkbox-row .trade-single-text .profile_second .user-label-text {
+  display: inline-block;
+  text-align: right;
+  padding-top: 3.125rem;
+  padding-bottom: 3.125rem;
+  font-size: 1.5625rem;
+  padding-right: 0.9765625rem;
+}
+.content .trade-address-checkbox-row .trade-single-text .profile_second a.product-detail-color .icon {
+  color: #cccccc;
+  padding-top: 3.125rem;
+  padding-bottom: 3.125rem;
+  padding-right: 1.25rem;
+  font-size: 1.5625rem;
+}
+.content .trade-address-checkbox-row .trade-single-text .profile_second .user-profile-text {
+  position: absolute;
+  right: 7%;
+}
+.content .trade-address-checkbox-row .trade-single-second-brdr {
+  border-bottom: 2px solid #d7d7d7;
+}
+.content .trade-profile-checkbox-row {
+  border-top: 0;
+}
+.trade-bottom-fixed-btn {
+  background: #c41411;
+  color: #fff;
+  font-size: 1.953125rem;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  text-align: center;
+}
+.trade-bottom-fixed-btn a {
+  display: block;
+  color: #fff;
+  padding: 1.40625rem 1.953125rem;
+}
+/* -----------------------------------------------
+ *my-profile-modify nickname Start
+ * --------------------------------------------- */
+.content .profile-address-checkbox-row {
+  border-top: 0;
+  border-bottom: 2px solid #d7d7d7;
+}
+.content .profile-4-20 {
+  margin-top: 2.1875rem;
+  padding-left: 2.1484375rem;
+  float: left;
+  font-size: 1.171875rem;
+  color: #999999;
+}
+.product-detail-dots {
+  position: relative;
+  top: 1.6625rem;
+  right: 1.6796875rem;
+}
+.product-detail-dots span.icon {
+  color: #fff;
+  font-size: 1.40625rem;
+}
+/* -----------------------------------------------
+ * my-profile-modify nickname Ended
+ * --------------------------------------------- */
+/* -----------------------------------------------
+ * my-profile-modify Gender Start
+ * --------------------------------------------- */
+.content .product-detail-color {
+  padding-top: 3.90625rem;
+  padding-right: 2.1484375rem;
+  padding-bottom: 3.515625rem;
+}
+.content .product-detail-color img {
+  width: 1.5625rem;
+  height: 1.0546875rem;
+}
+/* -----------------------------------------------
+ * my-profile-modify Gender Ended
+ * --------------------------------------------- */
