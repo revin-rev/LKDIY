@@ -650,6 +650,7 @@ table.trade-products-table {
   font-size: 0;
   width: 100%;
   background: #f8fcfe;
+  position: relative;
 }
 .trade-product-data .trade-name-new {
   width: 33.5%;
@@ -673,15 +674,12 @@ table.trade-products-table {
   margin-left: 22px;
 }
 .trade-single-order-detail-row .trade-product-data .trade-receiver-value-new {
-  /* width: 110px; */
   margin-right: 10px;
   display: inline-block;
   text-align: center;
   position: absolute;
   margin-top: 6px;
-  /* margin-left: 34px; */
   vertical-align: middle;
-  float: left;
   left: 37.5%;
 }
 .trade-single-order-detail-row .trade-product-data .trade-normal-value-unit {
