@@ -1,185 +1,225 @@
 @import "../../common/css/variable";
-@import "../../common/css/lesshat";
 
-/* login section start */
-.sso-login-bg-outer{
-  background-image: url(../../../static/sso/images/login-bg.jpg);
-  background-repeat: no-repeat;
-  background-position: bottom;
-  background-size: 100%;
-  padding-bottom: 30px;
-  padding-top: 30px;
- // position: relative;
-  //height:650px;
-  //-webkit-height:650px;
-  //-moz-height:550px;
+//Import all variables
 
-  .sso-login-form-outr{
-    float: right;
-    background-color: @white;
-    padding: 20px 20px 33px;
-    max-width: 365px;
-    border:1px solid @darkBorderColor;
-
-    .sso-signup-link-and-heading{
-      h1{
-        font-size: @baseFontXLarge;
-        color: @baseTextColor;
-        margin: 0;
-        line-height: normal;
-        display: inline-block;
-      }
-      a{
-        float: right;
-        font-size: @baseFontMedium;
-        color: @baseColor;
-        padding-top: 8px;
-      }
-    }
-
-    .sso-login-form{
-      margin-top:10px;
-
-      .sui-form{
-        margin-bottom: 0;
-        position: relative;
-
-        .input-prepend{
-          margin-bottom: 20px;
-          width: 320px;
-          position: static;
-        }
-
-        .add-on{
-          height: 33px;
-          padding: 6px 10px;
-          float: left;
-          width: 40px;
-          position: relative;
-          z-index: 4;
-          top: 1px;
-          border: 1px solid transparent;
-        }
-
-        input[type="text"]{
-          height: 35px;
-          width: 320px;
-          position: relative;
-          padding-left: 48px;
-          left: -40px;
-          .border-radius(2px);
-        }
-
-        input[type="password"]{
-          height: 35px;
-          width: 320px;
-          position: relative;
-          padding-left: 48px;
-          left: -40px;
-          .border-radius(2px);
-          color: @baseTextColor;
-        }
-
-        input[type="password"],input[type="text"]{
-          &:focus{
-            border-color: #81d4fa;
-          }
-        }
-
-        .margin-zero{
-          margin: 0;
-        }
-
-        p{
-          font-size:@baseFont ;
-          color: @baseTextColor;
-          display: inline-block;
-          margin-bottom: 0;
-
-          input{
-            margin-right:10px;
-            display: inline;
-          }
-
-          label{
-            display: inline;
-          }
-        }
-
-        a{
-          float: right;
-          color: @baseTextColor;
-        }
-
-        .control-group{
-          width: 100%;
-
-          .controls{
-            width: 100%;
-            padding: 0;
-          }
-        }
-      }
-
-      .sui-btn.btn-primary{
-        width: 100%;
-        margin-top: 20px;
-        height: 35px;
-        font-size: 18px;
-        border: 0;
-      }
-
-      .sso-another-accounts-login{
-        margin-top: 30px;
-
-        p{
-          color: @primaryColorLight;
-        }
-
-        .sso-another-accounts-links{
-          margin: 0;
-          padding: 0;
-
-          li{
-            display: inline-block;
-            margin-right: 10px;
-          }
-        }
-      }
-    }
+.sso-page{
+  .sso-bar {
+    background:@baseColorLogin;
+    height: auto;
+    border-bottom: 1px solid #dedede;
   }
-  .sui-msg.msg-error {
+  .sso-icon
+  {
+    font-size: 3rem;
+    color:@baseTextColor;
     position: absolute;
-    top: 0;
-    float: left;
-    left: -1px;
-  }
-  .input-prepend-password .sui-msg.msg-error
-  {
-      top: 0;
-      position: absolute;
+    top: 51.2/@baseRem;
   }
 
-  .sui-form.form-horizontal.sui-validate .sui-msg.msg-error .msg-con
+
+
+  .sso-content
   {
-    width: 320px;
+    padding-top:118/@baseRem;
+
   }
+  .sso-content-block
+  {
+    padding:0rem;
+    margin:93/@baseRem 0;
+    padding: 0rem;
+    //margin: 3.6328125rem 0;
+    margin-bottom: 0;
+    height: calc(100vh - 3.6328125rem );
+    background:#fff;
+
+  }
+
+  .sso-buttons-tab
+  {
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+  }
+  .sso-buttons-tab:after {
+    background-color: unset;
+  }
+  a {
+    padding:43/@baseRem 50/@baseRem;
+    color:@baseTextColor;
+    font-size: 42/@baseRem;
+    display: inline-block;
+    &.active
+    {
+      color:@baseColor;
+      border-bottom: 4px solid @baseColor;
+    }
+  }
+  .sso-form
+  {
+    border-top:1px solid #dedede;
+
+  }
+
+
+  .sso-content-second
+  {
+    padding-top:123/@baseRem;
+
+  }
+  .list-block ul:before
+  {
+    background-color: unset;
+  }
+  .list-block .item-inner:after
+  {
+    background-color: unset;
+  }
+  .tabs{
+
+    .tab{
+
+
+      .sso-title
+      {
+        font-size: 46/@baseRem;
+        width:99%;
+        margin-top:52/@baseRem;
+      }
+      .sso-margin-bottom
+      {
+        margin-bottom: 53/@baseRem;
+      }
+
+      .sso-list-block
+      {
+        padding-top:145/@baseRem;
+      }
+
+      .sso-text
+      {
+        height: 80/@baseRem;
+        color:@baseColorPlacholderWrite;
+        border-radius:3px;
+        border:1px solid #dedede;
+        padding-left:50/@baseRem;
+
+      }
+      .sso-button
+      {
+        text-align: center;
+        width: 100%;
+        background-color: #dedede;
+        color:@baseColorPlaceholderText;
+      }
+      .sso-incorrect
+      {
+        text-align: center;
+        width: 100%;
+        background-color: @baseColorPlacholderWrite;
+        color:#e0e0e0;
+        margin-bottom: 25/@baseRem;
+        display: none;
+        margin-top: 20px;
+      }
+      .user-captcha-image{
+        width:45%;
+        height: 80/@baseRem;
+      }
+      .sso-enable
+      {
+        background-color: @baseColor;
+        color:#fff;
+      }
+      .sso-pass-eye
+      {
+        position: absolute;
+        top: 23%;
+        right: 4%;
+        width:68/@baseRem;
+        height:41/@baseRem;
+      }
+      .input-large
+      {
+        width: 50%;
+        margin-right:53/@baseRem;
+        float: left;
+      }
+      .medium
+      {
+        border: 1px solid #cccccc;
+        padding-top:25/@baseRem;
+        padding-bottom: 28/@baseRem;
+        display: inline-block;
+        height:81.13/@baseRem;
+        vertical-align: middle;
+        color: #333;
+        border-radius: 3px;
+        width:45%;
+        text-align: center;
+        margin-bottom: 10/@baseRem;
+
+      }
+      .auto-login
+      {
+        font-size: 36/@baseRem;
+      }
+      .sso-condition
+      {
+        color:@baseColor;
+        font-size: 36/@baseRem;
+        padding:54/@baseRem 0/@baseRem 0/@baseRem 0/@baseRem;
+
+
+      }
+      .input-error
+      {
+        width:40/@baseRem;
+        height: 30.1/@baseRem;
+      }
+      .sso-customer
+      {
+        text-align:right;
+        padding:43/@baseRem 50/@baseRem;
+        color:@baseTextColor;
+        font-size: 42/@baseRem;
+        height:609/@baseRem;
+        width: 100%;
+
+      }
+
+    }
+
+  }
+  input[type="checkbox"]:checked :before {
+    background: #3d404e;
+
+  }
+  input[type="checkbox"]:checked :after {
+    background-color:@baseColor;
+  }
+  .sso-text ::-webkit-input-placeholder {
+    color: @baseColorPlaceholderText;
+  }
+
+  //input[type="text"]:-moz-placeholder { /* Firefox 18- */
+  //   color: red;
+  //}
+
+  ///input[type="text"]::-moz-placeholder {  /* Firefox 19+ */
+  // color: red;  
+  //}
+
+  //input[type="text"]:-ms-input-placeholder {
+  // color: red;  
+  //}
+
+  .list-block ul:after{
+    background-color: transparent;
+  }
+
 
 }
-
-  .sui-form.form-horizontal.sui-validate .sui-msg.msg-error{
-    margin: 0;
-    width: 100%;
-  }
-  .main-error{
-    z-index: 100;
-  }
-
- .sui-form input[type='checkbox']{
-    width: auto;
-    height: auto;
-  }
-
-/* login section end */
+  
 
 
