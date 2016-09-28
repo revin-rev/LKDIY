@@ -65,3 +65,28 @@ width:calc(100% - 14.921875rem);
   vertical-align: middle;
   width: 1.875rem;
 }
+.user-activation-msg {
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  font-size: 1.640625rem;
+  position: fixed;
+  z-index: 1000;
+  top: 50%;
+  left: 0;
+  padding: 3.59375rem 1.953125rem;
+  -webkit-border-radius: 4px;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 4px;
+  -moz-background-clip: padding;
+  border-radius: 4px;
+  background-clip: padding-box;
+  right: 0;
+  margin: 0 auto;
+  width: 26.875rem;
+  text-align: center;
+  -lh-property: 0;
+top:-webkit-calc(50% - 4.84375rem);
+top:-moz-calc(50% - 4.84375rem);
+top:calc(50% - 4.84375rem);
+;
+}
