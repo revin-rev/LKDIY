@@ -1,0 +1,67 @@
+/******************************************************
+   *Variables START
+******************************************************/
+.content {
+  background: #f3f5f7;
+}
+.content-block {
+  padding: 5.8984375rem 1.953125rem;
+  margin: 0;
+}
+.content-block input[type=text] {
+  font-size: 1.5625rem;
+  border: 2px solid #dedede;
+  -webkit-border-radius: 4px;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 4px;
+  -moz-background-clip: padding;
+  border-radius: 4px;
+  background-clip: padding-box;
+  padding: 1.3671875rem 0.9375rem;
+  vertical-align: top;
+  -lh-property: 0;
+width:-webkit-calc(100% - 14.921875rem);
+width:-moz-calc(100% - 14.921875rem);
+width:calc(100% - 14.921875rem);
+;
+  background: #fff;
+}
+.content-block input[type=text]::-webkit-input-placeholder {
+  color: #cccccc;
+}
+.content-block input[type=text]:-moz-placeholder {
+  color: #cccccc;
+}
+.content-block input[type=text]::-moz-placeholder {
+  color: #cccccc;
+}
+.content-block input[type=text]:-ms-input-placeholder {
+  color: #cccccc;
+}
+.content-block input[type=submit] {
+  font-size: 1.5625rem;
+  -webkit-border-radius: 4px;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 4px;
+  -moz-background-clip: padding;
+  border-radius: 4px;
+  background-clip: padding-box;
+  padding: 1.2109375rem 0.9375rem;
+  vertical-align: top;
+  background: #c41411;
+  color: #fff;
+  border: 2px solid #c41411;
+  width: 12.96875rem;
+  margin-left: 1.953125rem;
+}
+.user-exchange-link {
+  display: inline-block;
+  vertical-align: middle;
+  color: #222222;
+  font-size: 1.5625rem;
+  margin-top: 3.90625rem;
+}
+.user-exchange-link img {
+  vertical-align: middle;
+  width: 1.875rem;
+}
