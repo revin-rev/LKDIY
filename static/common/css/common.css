@@ -227,7 +227,7 @@
 }
 .middle-header .cart-column .cart-btn .cart-drop-down .cart-item-detail {
   text-align: right;
-  width: 90px;
+  width: 89px;
   display: inline-block;
   color: #b0120a;
 }
@@ -251,7 +251,7 @@
   position: absolute;
   display: block;
   top: 32px;
-  height: 4px;
+  height: 5px;
   width: 160px;
   left: 0;
   right: 0;
