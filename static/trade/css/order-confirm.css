@@ -669,6 +669,7 @@ table.trade-products-table {
   font-size: 0;
   width: 100%;
   background: #f8fcfe;
+  border-bottom: 1px solid #fff;
 }
 .trade-product-data .trade-name-new {
   width: 33.5%;
