@@ -4,7 +4,7 @@
 .content {
   padding-top: 5.1171875rem !important;
 }
-.trade-bottom-fixed-btn {
+.gateway-bottom-fixed-btn {
   font-size: 1.953125rem;
   position: fixed;
   bottom: 0;
@@ -14,26 +14,26 @@
   text-align: center;
   background: #fff;
 }
-.trade-bottom-fixed-btn .trade-text {
+.gateway-bottom-fixed-btn .gateway-text {
   font-size: 1.5625rem;
   padding: 1.953125rem;
   color: #222222;
 }
-.trade-bottom-fixed-btn .trade-text .trade-total {
+.gateway-bottom-fixed-btn .gateway-text .gateway-total {
   font-size: 1.953125rem;
   color: #c41411;
 }
-.trade-bottom-fixed-btn .trade-text .trade-extra {
+.gateway-bottom-fixed-btn .gateway-text .gateway-extra {
   display: block;
   color: #c41411;
 }
-.trade-bottom-fixed-btn .trade-text .trade-extra span {
+.gateway-bottom-fixed-btn .gateway-text .gateway-extra span {
   color: #222222;
 }
-.trade-bottom-fixed-btn ~ .content {
+.gateway-bottom-fixed-btn ~ .content {
   padding-bottom: 9.1796875rem;
 }
-.trade-success-row {
+.gateway-success-row {
   border-top: 2px solid #d7d7d7;
   border-bottom: 2px solid #d7d7d7;
   padding: 1.953125rem;
@@ -41,29 +41,29 @@
   color: #666666;
   background: #fff;
 }
-.trade-success-row + .trade-success-row {
+.gateway-success-row + .gateway-success-row {
   border-top: 0;
 }
-.trade-success-row .trade-success-text {
+.gateway-success-row .gateway-success-text {
   font-size: 1.40625rem;
   margin-top: 0.9765625rem;
 }
-.trade-success-row .trade-success-text span {
+.gateway-success-row .gateway-success-text span {
   margin-bottom: 0.1953125rem;
 }
-.trade-notify-block {
+.gateway-notify-block {
   background: #fff;
   text-align: center;
   padding-top: 4.296875rem;
   padding-bottom: 5.2734375rem;
 }
-.trade-notify-block .trade-notify-block-text {
+.gateway-notify-block .gateway-notify-block-text {
   display: inline-block;
   position: relative;
   color: #333333;
   font-size: 2.34375rem;
 }
-.trade-notify-block .trade-notify-block-text img {
+.gateway-notify-block .gateway-notify-block-text img {
   position: absolute;
   top: 0;
   -lh-property: 0;
@@ -73,14 +73,14 @@ right:calc(100% + 2.34375rem);
 ;
   width: 3.90625rem;
 }
-.trade-notify-block .trade-notify-block-text span {
+.gateway-notify-block .gateway-notify-block-text span {
   display: block;
   font-size: 1.875rem;
 }
-.trade-action-btns {
+.gateway-action-btns {
   padding: 20.3125rem 1.953125rem 1.953125rem;
 }
-.trade-action-btns a {
+.gateway-action-btns a {
   display: inline-block;
   font-size: 1.953125rem;
   padding: 1.4453125rem 0.390625rem;
@@ -96,10 +96,10 @@ right:calc(100% + 2.34375rem);
   border: 1px solid #999999;
   color: #333333;
 }
-.trade-action-btns a.active {
+.gateway-action-btns a.active {
   color: #c41411;
   border-color: #c41411;
 }
-.trade-action-btns a + a {
+.gateway-action-btns a + a {
   margin-left: 10%;
 }
