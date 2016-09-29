@@ -108,36 +108,29 @@
 
     //fix for IE7 and IE8
     $(function () {
-        if (!$.support.placeholder) {
+        if (!$.support.placeholder){
 
-            $('input[type=password]').addClass('type-password');
-            $('input[type=password]').attr('type','text');
+            var elements = $('[placeholder]');
 
-            $("[placeholder]").focus(function () {
-                if ($(this).val() == $(this).attr("placeholder")){
-
-                    $(this).val("");
-                    if($(this).hasClass('type-password')){
-                       $(this).attr('type','password');
-                    }
-                }
-            }).blur(function () {
-                if ($(this).val() == ""){
-
-                    $(this).val($(this).attr("placeholder"));
-                    if($(this).hasClass('type-password')){
-                        $(this).attr('type','text');
-                    }
-                }
-            }).blur();
-
-            $("[placeholder]").parents("form").submit(function () {
-                $(this).find('[placeholder]').each(function() {
-                    if ($(this).val() == $(this).attr("placeholder")) {
-                        $(this).val("");
-                    }
-                });
+            $(elements).each(function(index,element){
+                $(element).parents('.controls')
+                          .addClass('pos-relative')
+                          .append('<span class="extra-placeholder">' + $(element).attr('placeholder') + '</span>');
             });
+
+            $("[placeholder]").focus(function(){
+                $(this).siblings(".extra-placeholder").fadeOut(0);
+            }).blur(function () {
+                if($(this).val() == ""){
+                    $(this).siblings(".extra-placeholder").fadeIn(0);
+                }
+            });
+
+
+            $('.extra-placeholder').click(function(){
+                $(this).siblings('input').focus();
+            });
+
         }
     });
 })(jQuery);

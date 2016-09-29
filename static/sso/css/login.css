@@ -144,6 +144,22 @@
 .sso-login-bg-outer .sui-form.form-horizontal.sui-validate .sui-msg.msg-error .msg-con {
   width: 320px;
 }
+.sso-login-bg-outer .sso-login-form-outr .sui-form.form-horizontal .controls {
+  padding-left: 0;
+  display: block;
+  margin: 0;
+}
+.sso-login-bg-outer .pos-relative .sui-msg {
+  top: -40px;
+}
+.sso-login-bg-outer .pos-relative.input-prepend-password .sui-msg,
+.sso-login-bg-outer .pos-relative .input-prepend-password .sui-msg {
+  top: -93px;
+}
+.sso-login-bg-outer .pos-relative span.extra-placeholder {
+  font-size: 12px;
+  left: 48px;
+}
 .sui-form.form-horizontal.sui-validate .sui-msg.msg-error {
   margin: 0;
   width: 100%;
