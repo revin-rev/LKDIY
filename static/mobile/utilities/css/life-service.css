@@ -1,22 +1,22 @@
 /******************************************************
    *Variables START
 ******************************************************/
-.content .life-service-main {
+.content .utilities-main {
   border-bottom: 2px solid #c41411;
 }
-.content .life-service-main .life-service-img {
+.content .utilities-main .utilities-img {
   padding: 2.421875rem;
   text-align: center;
 }
-.content .life-service-main .life-service-img img {
+.content .utilities-main .utilities-img img {
   width: 5.859375rem;
   height: 7.03125rem;
 }
-.content .life-service-main .life-service-txt {
+.content .utilities-main .utilities-txt {
   padding: 3.984375rem;
   text-align: center;
 }
-.content .life-service-main .life-service-txt span {
+.content .utilities-main .utilities-txt span {
   font-size: 1.875rem;
   color: #666666;
 }

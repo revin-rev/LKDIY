@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="../../static/mobile/common/plugins/sui-mobile/dist/css/sm-all.min.css">
     <link rel="stylesheet" href="../../static/mobile/common/css/common.css">
     <link rel="stylesheet" href="../../static/mobile/common/css/global.css">
-    <link rel="stylesheet" href="../../static/mobile/user/css/help-center.css">
+    <link rel="stylesheet" href="../../static/mobile/utilities/css/help-center.css">
 </head>
 <body>
 
@@ -26,7 +26,7 @@
 <!--  header END -->
 
 <div class="content" id="top">
-    <ul class="user-list-click-able">
+    <ul class="utilities-list-click-able">
         <li>
             <a href="#">申请售后服务 <span class="icon icon-down"></span></a>
         </li>
@@ -51,7 +51,7 @@
         $('form').submit(function(e){
             e.preventDefault();
 
-            $('.user-activation-msg').fadeIn(200,function(){
+            $('.utilities-activation-msg').fadeIn(200,function(){
                 var element = $(this);
                setTimeout(function(){
                    $(element).fadeOut();

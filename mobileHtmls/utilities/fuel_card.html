@@ -13,7 +13,7 @@
 	<link rel="stylesheet" href="../../static/mobile/common/plugins/sui-mobile/dist/css/sm-all.min.css">
 	<link rel="stylesheet" href="../../static/mobile/common/css/common.css">
 	<link rel="stylesheet" href="../../static/mobile/common/css/global.css">
-	<link rel="stylesheet" href="../../static/mobile/user/css/mobile-recharge.css">
+	<link rel="stylesheet" href="../../static/mobile/utilities/css/mobile-recharge.css">
 </head>
 <body>
 
@@ -29,57 +29,43 @@
 	<!--  Middle Start -->
 	<div class="content" id="top">
 
-		<div class="row trade-recharge-number-main">
-			<div class="col-60 trade-recharge-number">
-				<span>请输入充值号码</span>
+		<div class="row utilities-recharge-number-main">
+			<div class="col-60 utilities-recharge-number">
+				<span>请输入加油号码</span>
 			</div>
-			<div class="col-40 trade-recharge-imges">
-				<img src="../../static/mobile/user/images/user-recharge.png">
+			<div class="col-40 utilities-recharge-imges">
+				<img src="../../static/mobile/utilities/images/utilities-clock.png">
 			</div>
 		</div>
-		<div class="trade-custom-css">
-			<ul class="row trade-recharge-number-main-1">
-				<li class="col-33 trade-recharge-yen5 custom_width">
-					<span>5元</span>
-				</li>
-				<li class="col-33 trade-recharge-yen10 custom_width">
-					<span>10元</span>
-				</li>
-				<li class="col-33 trade-recharge-yen20 custom_width">
-					<span>20元</span>
-				</li>
-			</ul>
-			<ul class="row trade-recharge-total">
-				<li class="col-33 trade-recharge-yen30 custom_width">
-					<span>30元</span>
-				</li>
-				<li class="col-33 trade-recharge-yen50 active custom_width">
-					<span>50元</span>
-				</li>
-				<li class="col-33 trade-recharge-yen100 custom_width">
+		<div class="utilities-custom-css">
+			<ul class="row utilities-recharge-number-main-1">
+				<li class="col-33 utilities-recharge-yen5 custom_width">
 					<span>100元</span>
 				</li>
-			</ul>
-			<ul class="row trade-recharge-total">
-				<li class="col-33 trade-recharge-yen30 custom_width">
-					<span>200元</span>
+				<li class="col-33 utilities-recharge-yen10 active custom_width">
+					<span>50元</span>
 				</li>
-				<li class="col-33 trade-recharge-yen50 custom_width">
-					<span>300元</span>
-				</li>
-				<li class="col-33 trade-recharge-yen100 custom_width">
-					<span>500元</span>
+				<li class="col-33 utilities-recharge-yen20 custom_width">
+					<span>1000元</span>
 				</li>
 			</ul>
 		</div>
+		<div class="utilities-custom-css">
+			<div class="row utilities-recharge-number-main-1 fuel_card_color">
+				<div class="col-60 utilities-recharge-number">
+					<span>选择充值数量</span>
+				</div>
 
-		
+				<div class="col-40 utilities-recharge-number">
+					<div class="product-list-price-value-inc">
+						<input class="decrement" value="-" type="button">
+						<input name="quantity" value="1" maxlength="2" max="10" size="1" class="number" id="number" style="text-align: center" type="text">
+						<input type="button" class="increment" value="+" />
+					</div>
+				</div>	
 
-		
-		
-
-		
-		
+			</div>
+		</div>
 
 		<!--Products Container END-->
 
@@ -93,15 +79,13 @@
 		<div class="www-custom-width">   
 			<ul class="tab-label-mobile-recharge">
 				<li class="item-title label mobile-cart-99">合计 : </li>
-				<li class="item-title label mobile-cart-cf">500 积分 </li>
+				<li class="item-title label mobile-cart-cf">5000 积分 </li>
 			</ul>
 		</div>	
 
-			<div class="tab-item external external-fourth" href="#">
-				<span class="tab-label tab-label-buy-now">立即充值</span>
-			</div>
-		
-
+		<div class="tab-item external external-fourth" href="#">
+			<span class="tab-label tab-label-buy-now">立即充值</span>
+		</div>
 	</nav>
 	
 
@@ -109,6 +93,8 @@
 	<script type='text/javascript' src='//g.alicdn.com/sj/lib/zepto/zepto.min.js' charset='utf-8'></script>
 	<script type='text/javascript' src='../../static/mobile/common/plugins/sui-mobile/dist/js/sm-all.min.js' charset='utf-8'></script>
 	<script type='text/javascript' src='../../static/mobile/common/scripts/main.js' charset='utf-8'></script>
+	<script type='text/javascript' src='../../static/mobile/user/scripts/fuel_card.js' charset='utf-8'></script>
+
 	
 
 
