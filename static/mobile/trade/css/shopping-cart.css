@@ -1,20 +1,20 @@
 /******************************************************
    *Variables START
 ******************************************************/
-.www-error-block {
+.trade-error-block {
   padding-top: 6.25rem;
 }
-.www-error-block img {
+.trade-error-block img {
   width: 9.453125rem;
 }
-.www-error-block h2 {
+.trade-error-block h2 {
   margin-top: 6.015625rem;
   font-size: 1.796875rem;
   color: #999999;
   font-weight: normal;
   margin-bottom: 0;
 }
-.www-error-block a {
+.trade-error-block a {
   display: block;
   margin-top: 1.171875rem;
   font-size: 1.40625rem;
@@ -70,7 +70,7 @@
 .shopping-cart-list-products-container .shopping-cart-list-products-container-new {
   padding-top: 1.953125rem;
 }
-.shopping-cart-list-products-container .www-large-products {
+.shopping-cart-list-products-container .trade-large-products {
   border-top: 0.390625rem solid #f7f7f7;
 }
 .shopping-cart-list-products-container2 {

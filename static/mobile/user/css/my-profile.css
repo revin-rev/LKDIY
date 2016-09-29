@@ -1,17 +1,17 @@
 /******************************************************
    *Variables START
 ******************************************************/
-.content .trade-address-checkbox-row {
+.content .user-address-checkbox-row {
   border-top: 1.953125rem solid #f3f5f7;
   background-color: #fff;
   border-bottom: 1.953125rem solid #f3f5f7;
 }
-.content .trade-address-checkbox-row .trade-single-text {
+.content .user-address-checkbox-row .user-single-text {
   border-top: 2px solid #d7d7d7;
   width: 100%;
   display: inline-block;
 }
-.content .trade-address-checkbox-row .trade-single-text .myprofile-head {
+.content .user-address-checkbox-row .user-single-text .myprofile-head {
   padding-top: 3.125rem;
   padding-bottom: 3.125rem;
   display: inline-block;
@@ -19,7 +19,7 @@
   font-size: 1.5625rem;
   padding-left: 1.953125rem;
 }
-.content .trade-address-checkbox-row .trade-single-text .user-label-switch {
+.content .user-address-checkbox-row .user-single-text .user-label-switch {
   display: inline-block;
   text-align: center;
   padding-top: 0.78125rem;
@@ -27,11 +27,11 @@
   padding-right: 1.171875rem;
   width: 25%;
 }
-.content .trade-address-checkbox-row .trade-single-text .user-label-switch img {
+.content .user-address-checkbox-row .user-single-text .user-label-switch img {
   width: 6.5234375rem;
   height: 6.5234375rem;
 }
-.content .trade-address-checkbox-row .trade-single-text .profile_second .user-label-text {
+.content .user-address-checkbox-row .user-single-text .profile_second .user-label-text {
   display: inline-block;
   text-align: right;
   padding-top: 3.125rem;
@@ -39,24 +39,24 @@
   font-size: 1.5625rem;
   padding-right: 0.9765625rem;
 }
-.content .trade-address-checkbox-row .trade-single-text .profile_second a.product-detail-color .icon {
+.content .user-address-checkbox-row .user-single-text .profile_second a.product-detail-color .icon {
   color: #cccccc;
   padding-top: 3.125rem;
   padding-bottom: 3.125rem;
   padding-right: 1.25rem;
   font-size: 1.5625rem;
 }
-.content .trade-address-checkbox-row .trade-single-text .profile_second .user-profile-text {
+.content .user-address-checkbox-row .user-single-text .profile_second .user-profile-text {
   position: absolute;
   right: 7%;
 }
-.content .trade-address-checkbox-row .trade-single-second-brdr {
+.content .user-address-checkbox-row .user-single-second-brdr {
   border-bottom: 2px solid #d7d7d7;
 }
-.content .trade-profile-checkbox-row {
+.content .user-profile-checkbox-row {
   border-top: 0;
 }
-.trade-bottom-fixed-btn {
+.user-bottom-fixed-btn {
   background: #c41411;
   color: #fff;
   font-size: 1.953125rem;
@@ -67,7 +67,7 @@
   z-index: 10;
   text-align: center;
 }
-.trade-bottom-fixed-btn a {
+.user-bottom-fixed-btn a {
   display: block;
   color: #fff;
   padding: 1.40625rem 1.953125rem;
@@ -79,7 +79,7 @@
   border-top: 0;
   border-bottom: 2px solid #d7d7d7;
 }
-.content .profile-address-checkbox-row .trade-single-text-new {
+.content .profile-address-checkbox-row .user-single-text-new {
   border-top: 0;
 }
 .content .profile-4-20 {

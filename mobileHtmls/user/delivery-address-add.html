@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="../../static/mobile/common/plugins/sui-mobile/dist/css/sm-all.min.css">
     <link rel="stylesheet" href="../../static/mobile/common/css/common.css">
     <link rel="stylesheet" href="../../static/mobile/common/css/global.css">
-    <link rel="stylesheet" href="../../static/mobile/trade/css/delivery-address-add.css">
+    <link rel="stylesheet" href="../../static/mobile/user/css/delivery-address-add.css">
 </head>
 <body>
 
@@ -59,7 +59,7 @@
                 <div class="item-content">
                     <div class="item-inner">
                         <div class="item-title label">所在地区</div>
-                        <div class="item-input trade-select-input">
+                        <div class="item-input user-select-input">
                             <select>
                                 <option></option>
                                 <option>Country 1</option>
@@ -89,7 +89,7 @@
         </ul>
     </div>
 
-    <div class="trade-address-checkbox-row">
+    <div class="user-address-checkbox-row">
         <label class="label-checkbox item-content">
             <input type="radio" name="my-radio">
             <span class="item-media"><i class="icon icon-form-checkbox"></i></span>
@@ -120,9 +120,9 @@
     });
 
     (function($){
-        $('.trade-checkbox-action').click(function(e){
+        $('.user-checkbox-action').click(function(e){
             e.preventDefault();
-            $(this).parents('.trade-checkbox-block').toggleClass('open');
+            $(this).parents('.user-checkbox-block').toggleClass('open');
         });
     })(jQuery_noConflict);
 </script>

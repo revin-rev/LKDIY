@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="../../static/mobile/common/plugins/sui-mobile/dist/css/sm-all.min.css">
     <link rel="stylesheet" href="../../static/mobile/common/css/common.css">
     <link rel="stylesheet" href="../../static/mobile/common/css/global.css">
-    <link rel="stylesheet" href="../../static/mobile/trade/css/delivery-address-empty.css">
+    <link rel="stylesheet" href="../../static/mobile/user/css/delivery-address-empty.css">
 </head>
 <body>
 
@@ -26,13 +26,13 @@
 <!-- 工具栏 -->
 <!--  header END -->
 
-<div class="trade-bottom-fixed-btn">
+<div class="user-bottom-fixed-btn">
     <a href="#">添加新地址</a>
 </div>
 
 <div class="content" id="top">
 
-    <div class="trade-address-empty text-center">
+    <div class="user-address-empty text-center">
         您还没有添加过收货地址哦
         <a href="#">马上添加</a>
     </div>
@@ -58,9 +58,9 @@
     });
 
     (function($){
-        $('.trade-checkbox-action').click(function(e){
+        $('.user-checkbox-action').click(function(e){
             e.preventDefault();
-            $(this).parents('.trade-checkbox-block').toggleClass('open');
+            $(this).parents('.user-checkbox-block').toggleClass('open');
         });
     })(jQuery_noConflict);
 </script>

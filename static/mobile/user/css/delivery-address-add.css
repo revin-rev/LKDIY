@@ -26,10 +26,10 @@
   color: #666666;
   width: 8.4375rem;
 }
-.list-block .item-inner .trade-select-input {
+.list-block .item-inner .user-select-input {
   position: relative;
 }
-.list-block .item-inner .trade-select-input span {
+.list-block .item-inner .user-select-input span {
   position: absolute;
   right: 0;
   top: 0;
@@ -41,7 +41,7 @@
 .list-block .item-content {
   padding: 0;
 }
-.trade-address-checkbox-row {
+.user-address-checkbox-row {
   border-top: 2px solid #d7d7d7;
   border-bottom: 2px solid #d7d7d7;
   padding: 1.953125rem;
@@ -50,10 +50,10 @@
   margin-bottom: 1.953125rem;
   background: #fff;
 }
-.trade-address-checkbox-row label.label-checkbox input:checked ~ * {
+.user-address-checkbox-row label.label-checkbox input:checked ~ * {
   color: #c41411;
 }
-.trade-address-checkbox-row label.label-checkbox i {
+.user-address-checkbox-row label.label-checkbox i {
   width: 2.65625rem;
   height: 2.65625rem;
   -webkit-border-radius: 50%;
@@ -64,7 +64,7 @@
   background-clip: padding-box;
   border: 2px solid ;
 }
-.trade-address-checkbox-row label.label-checkbox i:after {
+.user-address-checkbox-row label.label-checkbox i:after {
   background-size: 1.171875rem 3.45rem !important;
   top: 0;
   margin: 0;
@@ -73,6 +73,6 @@
   width: 100%;
   height: 100%;
 }
-.trade-address-checkbox-row label.label-checkbox .item-inner {
+.user-address-checkbox-row label.label-checkbox .item-inner {
   margin-left: 1.3671875rem;
 }

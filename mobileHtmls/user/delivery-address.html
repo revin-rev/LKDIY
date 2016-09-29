@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="../../static/mobile/common/plugins/sui-mobile/dist/css/sm-all.min.css">
     <link rel="stylesheet" href="../../static/mobile/common/css/common.css">
     <link rel="stylesheet" href="../../static/mobile/common/css/global.css">
-    <link rel="stylesheet" href="../../static/mobile/trade/css/delivery-address.css">
+    <link rel="stylesheet" href="../../static/mobile/user/css/delivery-address.css">
 </head>
 <body>
 
@@ -26,22 +26,22 @@
 <!-- 工具栏 -->
 <!--  header END -->
 
-<div class="trade-bottom-fixed-btn">
+<div class="user-bottom-fixed-btn">
     <a href="#">添加新地址</a>
 </div>
 
 <div class="content" id="top">
 
-    <div class="trade-address-block">
-        <div class="trade-address-inner">
-            <div class="trade-address-row">
+    <div class="user-address-block">
+        <div class="user-address-inner">
+            <div class="user-address-row">
                 宗晓雅 <span class="pull-right">13688886666</span>
             </div>
-            <div class="trade-address-description">
+            <div class="user-address-description">
                 上海市静安区某某路110号某某栋某某楼100室
             </div>
         </div>
-        <div class="trade-address-checkbox-row">
+        <div class="user-address-checkbox-row">
             <label class="label-checkbox item-content">
                 <input type="radio" name="my-radio" checked>
                 <span class="item-media"><i class="icon icon-form-checkbox"></i></span>
@@ -49,21 +49,21 @@
                     默认地址
                 </span>
             </label>
-            <span class="trade-address-checkbox-actions pull-right"> <a href="#">编辑</a> <a href="#">删除</a> </span>
+            <span class="user-address-checkbox-actions pull-right"> <a href="#">编辑</a> <a href="#">删除</a> </span>
         </div>
     </div>
 
-    <div class="trade-address-block">
-        <div class="trade-address-inner">
-            <div class="trade-address-row">
+    <div class="user-address-block">
+        <div class="user-address-inner">
+            <div class="user-address-row">
                 宗晓雅 <span class="pull-right">13688886666</span>
             </div>
-            <div class="trade-address-description">
+            <div class="user-address-description">
                 南京南京市秦淮区秦虹路426号雅居乐花园二期15栋506室
                 （秦淮区政府对面）
             </div>
         </div>
-        <div class="trade-address-checkbox-row">
+        <div class="user-address-checkbox-row">
             <label class="label-checkbox item-content">
                 <input type="radio" name="my-radio">
                 <span class="item-media"><i class="icon icon-form-checkbox"></i></span>
@@ -71,7 +71,7 @@
                     默认地址
                 </span>
             </label>
-            <span class="trade-address-checkbox-actions pull-right"> <a href="#">编辑</a> <a href="#">删除</a> </span>
+            <span class="user-address-checkbox-actions pull-right"> <a href="#">编辑</a> <a href="#">删除</a> </span>
         </div>
     </div>
 
@@ -93,9 +93,9 @@
     });
 
     (function($){
-        $('.trade-checkbox-action').click(function(e){
+        $('.user-checkbox-action').click(function(e){
             e.preventDefault();
-            $(this).parents('.trade-checkbox-block').toggleClass('open');
+            $(this).parents('.user-checkbox-block').toggleClass('open');
         });
     })(jQuery_noConflict);
 </script>

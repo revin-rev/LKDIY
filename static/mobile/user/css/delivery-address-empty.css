@@ -5,7 +5,7 @@
   padding-top: 5.2734375rem;
   background: #fff;
 }
-.trade-bottom-fixed-btn {
+.user-bottom-fixed-btn {
   background: #c41411;
   color: #fff;
   font-size: 1.953125rem;
@@ -16,21 +16,21 @@
   z-index: 10;
   text-align: center;
 }
-.trade-bottom-fixed-btn a {
+.user-bottom-fixed-btn a {
   display: block;
   color: #fff;
   padding: 1.40625rem 1.953125rem;
 }
-.trade-bottom-fixed-btn ~ .content {
+.user-bottom-fixed-btn ~ .content {
   padding-bottom: 5.7421875rem;
 }
-.trade-address-empty {
+.user-address-empty {
   font-size: 1.796875rem;
   color: #999999;
   padding-top: 5.7421875rem;
   line-height: 2.8125rem;
 }
-.trade-address-empty a {
+.user-address-empty a {
   display: block;
   font-size: 1.40625rem;
   color: #005aa0;
