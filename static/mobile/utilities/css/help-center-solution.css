@@ -1,0 +1,39 @@
+/******************************************************
+   *Variables START
+******************************************************/
+#top ul.utilities-list-click-able {
+  background-color: #fff;
+  list-style: none;
+  margin: 0;
+  padding: 0 1.953125rem 0 1.953125rem;
+  border-bottom: 2px solid #dedede;
+}
+#top ul.utilities-list-click-able li {
+  border-bottom: 1px solid #dedede;
+  font-size: 1.5625rem;
+  padding: 1.5625rem 0;
+}
+#top ul.utilities-list-click-able li .utilities-qus {
+  padding-left: 1.953125rem;
+  display: inline-block;
+  color: #333333;
+}
+#top ul.utilities-list-click-able li .utilities-q {
+  color: #666666;
+  position: absolute;
+}
+#top ul.utilities-list-click-able li .utilities-a {
+  color: #666666;
+  position: absolute;
+}
+#top ul.utilities-list-click-able li .utilities-ans {
+  color: #999999;
+  padding-left: 1.953125rem;
+  display: inline-block;
+}
+#top ul.utilities-list-click-able li span {
+  color: #666666;
+}
+#top ul.utilities-list-click-able li span + span {
+  color: #000;
+}

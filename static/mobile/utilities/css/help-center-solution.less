@@ -1,0 +1,44 @@
+//Import all variables
+@import "../../common/css/variable";
+@import "../../common/css/lesshat";
+
+#top{
+  ul.utilities-list-click-able{
+    background-color: @white;
+    list-style:none;
+    margin: 0;
+    padding: 0 50/@baseRem 0 50/@baseRem;
+    border-bottom: 2px solid @borderColorExtra;
+    li{
+      border-bottom: 1px solid @borderColorExtra;
+      font-size: 40/@baseRem;
+      padding: 40/@baseRem 0;
+      .utilities-qus{
+        padding-left: 50/@baseRem;
+        display: inline-block;
+        color: @fontDarkColor;
+      }
+      .utilities-q{
+        color: @baseTextColor;
+        position: absolute;
+      }
+      .utilities-a{
+        color: @baseTextColor;
+        position: absolute;
+      }
+      .utilities-ans{
+        color: @fontLightColor;
+        padding-left: 50/@baseRem;
+        display: inline-block;
+      }
+      span{
+        color:#666666;
+        +  span{
+          color:#000;
+        }
+      }
+
+    }
+  }
+
+}
