@@ -1,0 +1,88 @@
+@import "../../common/css/variable";
+@import "../../common/css/lesshat";
+
+
+.content{
+  .buttons-tab{
+
+    a.button{
+      font-size: 46/@baseRem;
+      padding: 44/@baseRem 30/@baseRem ;
+      display: inline-block;
+      height: auto;
+      color: @baseTextColor;
+      border-color: @tradeBorderColor;
+      font-weight: normal;
+
+      &.active{
+        color: @baseColor;
+        border-color: @baseColor;
+        font-weight: normal;
+        background-color: @activeTabColor;
+      }
+    }
+  }
+  .utilities-my-profile{
+    background-color: @white;
+    padding: 50/@baseRem 50/@baseRem 0 50/@baseRem;
+    border-bottom: solid 2px @borderInternalColor;
+    .no-padding{
+      margin: 0;
+    }
+    .utilities-profile-img{
+      border: 1px solid @borderInternalColor;
+    }
+    .utilities-profile-title{
+      font-size: 40/@baseRem;
+      color: @baseTextColor;
+      padding-left: 30/@baseRem;
+      display: inline-block;
+    }
+    .utilities-star{
+      padding: 40/@baseRem 0 0 30/@baseRem;
+    }
+    .utilities-profile-title-inner{
+      color: @fontMediumDark;
+      font-size: 36/@baseRem;
+      padding: 30/@baseRem 0 20/@baseRem 0;
+      display: inline-block;
+    }
+    .utilities-inner-profile{
+      width: 222/@baseRem;
+      height: 222/@baseRem;
+      border: 1px solid @borderInternalColor;
+    }
+    .ips2{
+      margin-top: 20/@baseRem;
+    }
+    .utilities-dt{
+      ul{
+        padding: 0;
+        margin: 0;
+        li{
+          list-style-type: none;
+          display: inline-block;
+          font-size: 30/@baseRem;
+          color: @footerTextColor;
+          padding: 30/@baseRem 50/@baseRem 30/@baseRem 0;
+        }
+      }
+    }
+  }
+}
+
+.utilities-ps2{
+  border-top: solid 2px @borderInternalColor;
+  margin-top: 50/@baseRem;
+}
+.col-70{
+  width: 70%;
+}
+
+@media (max-width: 767px){
+  .utilities-star{
+    img{
+      width: 20px;
+    }
+  }
+}

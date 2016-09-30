@@ -36,7 +36,7 @@
 #top ul.utilities-list-click-able > li.active {
   padding-bottom: 0;
 }
-#top ul.utilities-list-click-able > li.active a {
+#top ul.utilities-list-click-able > li.active > a {
   padding-bottom: 1.953125rem;
   display: block;
 }

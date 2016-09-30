@@ -1,0 +1,75 @@
+/******************************************************
+   *Variables START
+******************************************************/
+.content .buttons-tab a.button {
+  font-size: 1.796875rem;
+  padding: 1.71875rem 1.171875rem;
+  display: inline-block;
+  height: auto;
+  color: #666666;
+  border-color: #d7d7d7;
+  font-weight: normal;
+}
+.content .buttons-tab a.button.active {
+  color: #c41411;
+  border-color: #c41411;
+  font-weight: normal;
+  background-color: #f3f5f7;
+}
+.content .utilities-my-profile {
+  background-color: #fff;
+  padding: 1.953125rem 1.953125rem 0 1.953125rem;
+  border-bottom: solid 2px #d7d7d7;
+}
+.content .utilities-my-profile .no-padding {
+  margin: 0;
+}
+.content .utilities-my-profile .utilities-profile-img {
+  border: 1px solid #d7d7d7;
+}
+.content .utilities-my-profile .utilities-profile-title {
+  font-size: 1.5625rem;
+  color: #666666;
+  padding-left: 1.171875rem;
+  display: inline-block;
+}
+.content .utilities-my-profile .utilities-star {
+  padding: 1.5625rem 0 0 1.171875rem;
+}
+.content .utilities-my-profile .utilities-profile-title-inner {
+  color: #222222;
+  font-size: 1.40625rem;
+  padding: 1.171875rem 0 0.78125rem 0;
+  display: inline-block;
+}
+.content .utilities-my-profile .utilities-inner-profile {
+  width: 8.671875rem;
+  height: 8.671875rem;
+  border: 1px solid #d7d7d7;
+}
+.content .utilities-my-profile .ips2 {
+  margin-top: 0.78125rem;
+}
+.content .utilities-my-profile .utilities-dt ul {
+  padding: 0;
+  margin: 0;
+}
+.content .utilities-my-profile .utilities-dt ul li {
+  list-style-type: none;
+  display: inline-block;
+  font-size: 1.171875rem;
+  color: #cccccc;
+  padding: 1.171875rem 1.953125rem 1.171875rem 0;
+}
+.utilities-ps2 {
+  border-top: solid 2px #d7d7d7;
+  margin-top: 1.953125rem;
+}
+.col-70 {
+  width: 70%;
+}
+@media (max-width: 767px) {
+  .utilities-star img {
+    width: 20px;
+  }
+}
