@@ -115,7 +115,7 @@
   font-size: 14px;
 }
 .trade-single-order-detail-row .trade-product-data .trade-name-new {
-  width: 44.5%;
+  width: 515px;
   margin-right: 10px;
   display: inline-block;
   vertical-align: middle;
@@ -138,34 +138,24 @@
   margin-right: 10px;
   display: inline-block;
   text-align: center;
-  position: absolute;
-  margin-top: 6px;
-  vertical-align: middle;
-  float: left;
-  width: 10.5%;
-  left: 48%;
+  vertical-align: top;
+  width: 147px;
 }
 .trade-single-order-detail-row .trade-product-data .trade-price-value-inc {
-  left: 61.5%;
   margin-right: 10px;
   display: inline-block;
   color: #999999;
   text-align: center;
-  vertical-align: middle;
-  position: absolute;
-  margin-top: 5px;
-  z-index: 999;
+  vertical-align: top;
+  width: 116px;
 }
 .trade-single-order-detail-row .trade-product-data .trade-status-value-final {
-  left: 72.5%;
   margin-right: 10px;
   display: inline-block;
-  color: #c41411;
+  color: #999999;
   text-align: center;
-  position: absolute;
-  margin-top: 5px;
-  z-index: 0;
-  width: 11%;
+  vertical-align: top;
+  width: 180px;
 }
 .trade-single-order-detail-row .trade-product-data .trade-operation-value {
   width: 95px;
@@ -246,17 +236,13 @@
   color: #ff5722;
 }
 .trade-extra-tight {
-  position: absolute;
-  top: 24px;
-  left: 10px;
   color: #c41411;
   text-align: center;
-  vertical-align: middle;
   width: 80%;
 }
 .unstyled {
   float: right;
-  left: -50px;
+  left: -62px;
   top: 4px;
   position: relative;
 }

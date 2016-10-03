@@ -133,4 +133,8 @@
 
         }
     });
+
+    $(document).on('click','.dropdown-bordered a',function(){
+        $(this).parents('.sui-dropdown').toggleClass('open');
+    })
 })(jQuery);

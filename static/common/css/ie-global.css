@@ -33,14 +33,23 @@ html[data-browser='8'] .middle-header .cart-column .cart-btn:hover:after {
 html[data-browser='8'] .middle-header .cart-column .cart-btn:hover .cart-drop-down {
   border: 1px solid #dedede;
 }
+html[data-browser='8'] .trade-single-order-detail-row .trade-product-data .trade-name-new {
+  width: 497px;
+  margin-right: 10px;
+  display: inline-block;
+  vertical-align: middle;
+}
 html[data-browser='8'] input[type="radio"],
 html[data-browser='9'] input[type="radio"],
-html[data-browser='10'] input[type="radio"],
+html[data-browser='10'] input[type="radio"] {
+  min-width: 20px;
+  min-height: 20px;
+}
 html[data-browser='8'] input[type="checkbox"],
 html[data-browser='9'] input[type="checkbox"],
 html[data-browser='10'] input[type="checkbox"] {
-  min-width: 20px;
-  min-height: 20px;
+  min-width: 15px;
+  min-height: 15px;
 }
 html[data-browser='11'] input[type="radio"],
 html[data-browser='11'] input[type="checkbox"] {
