@@ -1,575 +1,133 @@
 ﻿@import "variable";
 @import "lesshat";
 
-/******************************************************
-   *Normalizing CSS START
-******************************************************/
-* {
-  box-sizing: border-box;
-}
-
-body, html {
+body{
+  background: @bodyBackgroundColor;
   font-family: ~'Arial, "Microsoft Yahei", STXihei, sans-serif;';
-  padding: 0;
-  margin: 0;
-  font-size:@baseFont;
-  color: @baseTextColor;
 }
 
-ul {
-  margin: 0;
+
+html {
+  font-size: 8px;
 }
 
-a {
-  text-decoration: none;
-  outline: 0;
-  border: 0;
 
-  &:hover,&:focus {
-    text-decoration: none;
-    outline: 0;
-  }
-
-  img {
-    border: 0;
-    vertical-align: middle;
+@media only screen and (min-width: 400px){
+  html {
+    font-size: 9px!important;
   }
 }
 
-p {
-  margin: 0 0 10px 0;
-  padding: 0;
-}
-
-/******************************************************
-   *Normalizing CSS END
-******************************************************/
-
-/******************************************************
-   *Helper Classes CSS START
-******************************************************/
-.min-width-281{
-  min-width: 281px
-}
-.base-color-medium{
-  color: @textHoverColor;
-}
-.base-medium-font{
-  font-size: @baseFontLarge;
-}
-.base-large-font{
-  font-size: @baseFontMedium;
-}
-.base-color-light{
-  color: @primaryColorLight;
-}
-.base-text-color{
-  color: @baseTextColor;
-}
-.base-text-dark-color{
-  color: @baseTextColorDark;
-}
-.attention-color{
-  color: #e78925;
-}
-.btn-gray{
-  background: #eeeeee;
-  border: 1px solid #cccccc;
-  color: @baseTextColorDark;
-  margin-bottom: 0 !important;
-  display: inline-block;
-  padding: 6px 16px;
-}
-.btn-default{
-  background: @baseColor;
-  color: #fff;
-  border-color: @baseColor;
-
-  &:hover{
-    color: #fff;
+@media only screen and (min-width: 768px){
+  html {
+    font-size: 20px!important;
   }
+}
+
+@media only screen and (min-width: 992px){
+  html {
+    font-size: 25.6px!important;
+  }
+}
+/*Helper classes START*/
+
+.img-responsive{
+  max-width: 100%;
+}
+.padding-bottom-0{
+  padding-bottom: 0 !important;
+}
+.margin-0{
+  margin: 0 !important;
+}
+.center-block{
+  display: block;
+  margin: 0 auto;
 }
 .white-bg{
   background: @white;
 }
-.text-no-wrap{
-  white-space: nowrap;
+.base-color{
+  color: @baseColor !important;
 }
-.vertical-align-middle{
-  vertical-align: middle;
+.text-right{
+  text-align: right;
 }
-.line-height-23{
-  line-height: 23px;
-}
-.line-height-24{
-  line-height: 24px;
-}
-.line-height-36{
-  line-height: 36px;
-}
-span.dropdown-inner.input-error {
-  border-color: #ea4a36 !important;
-}
-
-.border-right {
-  border-right: 1px solid @avgBorderColor;
-}
-
-.border-bottom {
-  border-bottom: 1px solid @avgBorderColor;
-}
-
-.border {
-  border: 1px solid @avgBorderColor;
-}
-
-.center-block {
-  display: block;
-  margin: 0 auto;
-}
-
-.list-inline {
-  padding-left: 0;
-  margin-left: -5px;
-  list-style: none;
-
-  & > li {
-    display: inline-block;
-    padding-right: 5px;
-    padding-left: 5px;
-  }
-}
-
-.img-max-100 {
-  max-width: 100%;
-}
-
-.pos-relative{
-  position: relative !important;
-}
-
-
-span.extra-placeholder {
-  position: absolute;
-  top: 10px;
-  left: 24px;
-}
-
-
-.container {
-  width: 1200px;
-  margin: 0 auto;
-}
-
-.column {
-  padding-left: 10px;
-  padding-right: 10px;
-  float: left;
-}
-
-.float-right {
-  float: right;
-}
-
-.row {
-  margin: 0 -10px;
-
-  &:after {
-    content: '';
-    display: block;
-    position: relative;
-    clear: both;
-  }
-}
-
-.clear-fix {
-  &:after {
-    content: '';
-    display: block;
-    position: relative;
-    clear: both;
-  }
-}
-
-.row-img {
-  margin: 0 -3px;
-}
-
-.width-100 {
-  width: 100%;
-}
-
-.cart-icon {
-  background-image: url("../images/spirit_icons.png");
-  background-position: -14px 124px;
-  width: 21px;
-  height: 18px;
-  display: inline-block;
-}
-
-.red-arrow-down {
-  width: 14px;
-  height: 15px;
-  display: inline-block;
-  vertical-align: middle;
-  color: @white;
-  font-family: 'sui-icon';
-  speak: none;
-  text-transform: none;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background: @baseColorDark;
-  .border-radius(2px);
-  line-height: 10px;
-  text-align: center;
-
-  &:before{
-    content: "\e6c4";
-  }
-}
-
-.row-img {
-  margin: 0 -2px 0 -1px;
-}
-
-.column-img {
-  float: left;
-  padding-left: 1px;
-  padding-right: 2px;
-  width: 25%;
-}
-
-.box-icon {
-  width: 66px;
-  height: 66px;
-  display: inline-block;
-  background-image: url("../images/spirit_icons.png");
-}
-
-.truck-icon {
-  background-position: 124px 74px;
-}
-
-.brush-icon {
-  background-position: 358px 74px;
-}
-
-.seven-icon {
-  background-position: 272px 74px;
-}
-
-.hands-icon {
-  background-position: 195px 74px;
-}
-
-.margin-bottom-10 {
-  margin-bottom: 10px;
-}
-
-.margin-bottom-30 {
-  margin-bottom: 30px;
-}
-
-.margin-bottom-40 {
-  margin-bottom: 40px;
-}
-
-.margin-zero{
-  margin: 0;
-}
-.padding-top-10{
-  padding-top: 10px;
-}
-
-.border-bottom-zero{
-  border-bottom: 0;
-}
-.margin-bottom-0 {
-  margin-bottom: 0;
-}
-.margin-top-0 {
-  margin-top: 0;
-}
-.margin-bottom-10 {
-  margin-bottom: 10px !important;
-}
-.margin-top-10 {
-  margin-top: 10px ;
-}
-.margin-top-15 {
-  margin-top: 15px ;
-}
-.margin-right-10{
-  margin-right: 10px;
-}
-.margin-bottom-20 {
-  margin-bottom: 20px;
-}
-.margin-left-30{
-  margin-left: 30px;
-}
-.margin-left-20{
-  margin-left: 20px;
-}
-.margin-left-25{
-  margin-left: 25px;
-}
-.margin-left-15{
-  margin-left: 15px;
-}
-.margin-left-10{
-  margin-left: 15px;
-}
-.margin-left-5{
-  margin-left: 5px;
-}
-.margin-top-20 {
-  margin-top: 20px;
-}
-
-.margin-right {
-  margin-right: 10px;
-}
-.margin-bottom {
-  margin-bottom:0px;
-}
-
-.grey-bg{
-  background-color:@sideBarHover;
-}
-.grey-dark-bg{
-  background-color:@primaryColor;
-}
-
-.sui-form .height-auto[type="text"]{
-  height: auto;
-}
-
 .inline-block{
   display: inline-block;
 }
-
-.min-height-571{
-  min-height: 571px;
+.text-left{
+  text-align: left;
 }
-.tip{
-  color: @footerCopyrightTextColor;
+.base-dark-color{
+  color: @fontDarkColor;
 }
-.padding-top-null{
-  padding-top: 0 !important;
+.buttons-tab .button.active {
+  z-index: 99;
 }
-.padding-bottom-null{
-  padding-bottom: 0 !important;
+/*Helper classes END*/
+
+
+/*modal styling START*/
+
+.modal-overlay, .popup-overlay, .preloader-indicator-overlay{
+  background: rgba(255, 255, 255, 0.79);
 }
-.margin-bottom-null{
-  margin-bottom: 0 !important;
+.modal {
+  width: 38.5rem;
+  position: absolute;
+  margin-left: -19.75rem;
+  top: 50%;
 }
-/******************************************************
-   *Helper Classes CSS End
-******************************************************/
-
-
-/******************************************************
-   *Helper Element CSS START
-******************************************************/
-
-/**
-   *Input Group START
-**/
-.input-group {
-  position: relative;
-  display: block;
-  border-collapse: separate;
-  border: 2px solid @baseColorDark;
-
-  .clear-fix;
+.modal-inner {
+  padding: 4.8rem .75rem;
+  border-radius: 4px 4px 0 0;
+  background: @white;
+  border: 1px solid @fontLightColor;
+  border-bottom: 0;
 }
-
-.input-group .form-control {
-  position: relative;
-  z-index: 2;
-  float: left;
-  width: 452px;
-  margin-bottom: 0;
-  height: 32px;
-  border: 0;
-  outline: 0;
-  padding: 7px 10px;
-  max-width: 452px;
-  display: block;
-
+.modal-inner:after{
+  background: @fontLightColor;
 }
-
-.input-group-btn {
-  position: relative;
-  font-size: 0;
-  width: 81px;
-  white-space: nowrap;
-  vertical-align: middle;
-  display: block;
-  float: left;
-
-
-  .btn {
-    z-index: 2;
-    margin-left: -1px;
-    width: 82px;
-    display: inline-block;
-    padding: 6px 12px;
-    margin-bottom: 0;
-    font-size: 16px;
-    font-weight: 400;
-    text-align: center;
-    white-space: nowrap;
-    vertical-align: middle;
-    -ms-touch-action: manipulation;
-    touch-action: manipulation;
-    cursor: pointer;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    height: 32px;
-    border: 0;
-    background: @baseColorDark;
-    color: #fff;
-  }
-
-}
-.input-styled{
-  background-color: transparent;
-}
-
-
-/**
-   *Input Group End
-**/
-.simple-input-text-field{
-  border-radius: 0;
+.modal-button{
+  background: #fff;
+  border: 1px solid @fontLightColor;
+  border-top: 0;
   box-shadow: none;
-  padding: 8px;
+  font-size: 40/@baseRem;
+  color: @baseTextColor;
+  padding: 65/@baseRem 20/@baseRem;
+  display: inline-block;
+  line-height: 50/@baseRem;
+  height: auto;
+
+  &:after{
+    display: none;
+  }
+}
+.modal-button.modal-button-bold{
+  border-radius: 0 0 4px  0;
+  background: @baseColor;
+  color: @white;
+}
+.modal-button:first-child {
+  border-radius: 0 0 0 4px;
+  border-right: 0;
+}
+.modal-buttons{
   height: auto;
 }
 
 
-/*Breadcrumb START*/
-
-.custom-breadcrumb{
-  padding: 0;
-  margin-bottom: 15px;
-  margin-top: 20px;
-
-  li{
-    a{
-      font-size: 16px;
-      color: @baseTextColor;
-    }
-    & + li:before {
-      content: ">";
-      color: @baseTextColor;
-    }
-  }
-  & > .active {
-    color: @baseTextColor;
-  }
-
-  &.custom-breadcrumb-x2{
-      li{
-        &.first-link{
-          a{
-            font-size: 18px;
-            font-weight: bold;
-          }
-        }
-
-        + li{
-          &:before{
-            content: ">";
-            color: #666666;
-            font-family: monospace;
-            font-size: 16px;
-            vertical-align: top;
-            line-height: 14px;
-          }
-
-
-          a{
-            font-size: 12px;
-          }
-        }
-      }
-  }
+.modal-text{
+  font-size: 46/@baseRem;
 }
+/*modal styling END*/
 
-/*Breadcrumb END*/
 
-/*Panels START*/
-.panel.custom{
-  border:1px solid @avgBorderColor;
 
-  .panel-heading{
-    border-bottom:1px solid @avgBorderColor ;
-    padding: 10px 20px;
-    font-size: @baseFontLarge;
-    background: @primaryColor;
-  }
-  .panel-body{
-    padding: 7px 20px;
+/*Radio buttons style*/
+label.label-checkbox input[type=checkbox]:checked+.item-media i.icon-form-checkbox, label.label-checkbox input[type=radio]:checked+.item-media i.icon-form-checkbox {
 
-    &.long-body{
-      padding:20px;
-      min-height: 60px;
-    }
-  }
+  background-color: @baseColor;
 }
-/*Panels END*/
-
-
-.back-to-top {
-  height: 36px;
-  width: 36px;
-  background: url("../images/spirit_icons.png");
-  display: inline-block;
-  position: fixed;
-  right: 20px;
-  bottom: 48%;
-  background-position: 44px 78px;
-  .transition( height 0.2s);
-  .calc(~'bottom',~'50% - 18px');
-
-  &:hover{
-    height: 70px;
-    background-position: 44px 155px;
-  }
-}
-
-
-.padding-bottom-zero{padding-bottom: 0}
-
-.vertical-align-top{ vertical-align: top}
-
-.padding-left-zero{
-  padding-left: 0;
-}
-.border-right-zero{
-  border-right: 0;
-}
-
-.text-color-darkgrey{
-  color: @baseTextColor;
-}
-.text-color-lightgrey{
-  color: @footerCopyrightTextColor;
-}
-/******************************************************
-   *Helper Element CSS END
-******************************************************/
-
-
-.checked-icon{
-  background-position:106px -10px;
-  background-image: url("../../../static/common/images/spirit_icons.png");
-  width: 44px;
-  height: 44px;
-}
-

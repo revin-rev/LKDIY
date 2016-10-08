@@ -1,1596 +1,329 @@
+//Import all variables
 @import "variable";
 @import "lesshat";
-//Import all variables
 
-/******************************************************
-   *Header START
-******************************************************/
-.header {
-  border-bottom: 2px solid @baseColorDark;
-}
+/*index header START*/
 
-/**
-   *Header Top nav START
-**/
-.top-nav {
-  background: @primaryColor;
-  border-bottom: 1px solid #e5e5e5;
+.header-base-color{
+  .bar{
+    background: @baseColor;
+    padding: 0 ;
+    height: auto;
+    min-height: 131/@baseRem;
+    z-index:100;
 
-  /**
-     *Header Top nav left and right blocks START
-  **/
-  .top-nav-left, .top-nav-right {
-    text-align: center;
-    & > ul {
-      &:after {
-        content: '';
-        display: block;
-        position: relative;
-        clear: both;
+    .searchbar{
+      margin: 0;
+      background: transparent;
+      padding: .8rem 1.96rem;
+      height: auto;
+
+      .search-input{
+        float: left;
+        width: 87.75%;
       }
 
-      & > li {
-        padding: 0;
+      .search-input input{
+        .border-radius(2px);
+        height: auto;
+        font-size: 38/@baseRem;
+        padding:  1rem 43/@baseRem;
+        background: @baseColorDark;
+        color: fadeout(@white,20%);
+        position: relative;
+
+        .placeholder(fadeout(@white,20%));
+      }
+      .search-input .icon{
+        color: fadeout(@white,20%);
+        font-size: 2.9rem;
+        right: .3rem;
+        left: auto;
+      }
+      .message-notification {
         float: left;
+        width: 12.2%;
+        text-align: right;
 
-        & > a {
-          padding: 7px 18px;
-          display: block;
-          color: @baseTextColor;
-          border-left: 1px solid transparent;
-          border-right: 1px solid transparent;
-
-          .arrow {
-            display: inline-block;
-            height: 7px;
-            width: 8px;
-            vertical-align: middle;
-            background-position: -74px 150px;
-            margin-left: 3px;
-            line-height: 0px;
-            color: #999999;
-            font-family: 'sui-icon';
-            speak: none;
-            font-style: normal;
-            font-weight: normal;
-            font-variant: normal;
-            text-transform: none;
-            -webkit-font-smoothing: antialiased;
-            -moz-osx-font-smoothing: grayscale;
-
-            &:before{
-              content: "\e6c4";
-            }
-          }
-          &:hover {
-            text-decoration: none;
-          }
-        }
-
-        /**
-           *Top Menu DropDown Start
-        **/
-        &.drop-down {
+        a{
+          display: inline-block;
           position: relative;
+          top: 0.85rem;
+          padding-left: 0.3rem;
 
-          & > ul {
-            list-style: none;
-            padding: 0;
+          img{
+            max-width: 20px;
+
+            @media(min-width: 400px){
+              max-width: 24px;
+            }
+            @media(min-width: 768px){
+              max-width: 56px;
+            }
+            @media(min-width: 992px){
+              max-width: 100%;
+            }
+          }
+
+          .badge{
+            background: #e51937;
+            color: #fff;
+            height: 46/@baseRem;
+            width: 46/@baseRem;
+            font-size: 30/@baseRem;
+            border: 3/@baseRem solid #fff;
+            line-height: 1.3rem;
             position: absolute;
-            top: 100%;
-            background: @white;
-            left: 0;
-            border: 1px solid #e5e5e5;
-            border-top: 0;
-            display: none;
-            min-width: 100%;
-            padding-bottom: 4px;
-            z-index: 10;
-
-            & > li {
-
-              & > a {
-                padding: 7px 18px;
-                display: block;
-                color: @baseTextColor;
-                white-space: nowrap;
-                text-align: left;
-
-                span {
-                  color: @baseColor;
-                }
-              }
-            }
-          }
-          &:hover {
-            & > a {
-              background: @white;
-              border-left-color: #ddd;
-              border-right-color: #ddd;
-
-              .arrow {
-                line-height: 10px;
-
-                &:before{
-                  content: "\e6c5";
-                }
-              }
-            }
-            & > ul {
-              display: block;
-            }
-          }
-        }
-        /**
-           *Top Menu DropDown END
-        **/
-      }
-    }
-  }
-  /**
-     *Header Top nav left and right blocks END
-  **/
-}
-
-/**
-   *Header Top nav END
-**/
-
-/**
-   *Mid of Header Including Logo,Cart and Search Box START
-**/
-.middle-header {
-  margin: 32px auto;
-
-  .search-box {
-    margin-top: 2px;
-    width: 557px;
-    margin-left: 180px;
-
-    .search-notice {
-      margin-top: 8px;
-      color: @baseTextColor;
-      font-size: 12px;
-
-      a{
-        color: @baseTextColor;
-
-        & + a{
-          display: inline-block;
-          margin-left: 6px;
-        }
-      }
-    }
-  }
-  .cart-column {
-    margin-left: 73px;
-    margin-top: 2px;
-
-    .cart-btn {
-      background: @CartBtnBG;
-      display: inline-block;
-      border: 1px solid @darkBorderColor;
-      color: @baseTextColor;
-      width: 160px;
-      text-align: center;
-      height: 36px;
-      vertical-align: middle;
-      padding: 7px 0;
-      position: relative;
-      cursor: pointer;
-
-      * {
-        vertical-align: middle;
-      }
-
-      .cart-total {
-        font-size: 14px;
-        color: @baseColorDark;
-        margin-left: 20px;
-      }
-      .cart-icon {
-        margin-right: 4px;
-      }
-      .red-arrow-down {
-        margin-left: 5px;
-      }
-
-      .cart-drop-down {
-        position: absolute;
-        top: 36px;
-        right: -1px;
-        min-width: 321px;
-        background: @white;
-        min-height: 10px;
-        display: none;
-        z-index: 10;
-
-        .empty-cart {
-          display: block;
-          padding: 26px;
-          text-align: center;
-        }
-        .cart-row {
-          border-top: 1px solid @primaryColor;
-          padding: 10px;
-          display: block;
-          text-align: left;
-
-          * {
-            vertical-align: top;
-          }
-        }
-        .cart-item-image {
-          display: inline-block;
-          height: 50px;
-          width: 50px;
-          border: 1px solid @primaryColor;
-          margin-right: 10px;
-        }
-        .cart-item-title {
-          display: inline-block;
-          width: 144px;
-          text-align: left;
-          line-height: 16px;
-          height: 48px;
-          overflow: hidden;
-          a {
-            color: @baseTextColor;
-          }
-        }
-        .cart-item-detail {
-          text-align: right;
-          width: 89px;
-          display: inline-block;
-          color: @baseColorDark;
-
-          span {
-            color: @baseTextColor;
-          }
-
-          a {
-            color: @baseTextColor;
-            display: block;
-            &:hover {
-              color: @baseColorDark;
-            }
+            top: -1.0rem;
+            right: -1rem;
           }
         }
       }
 
-      &:hover {
-        background: @white;
-        border-color: @white;
-        box-shadow: 0 0 5px fadeout(#000, 40%);
+      &.with-arrow{
+        padding-left: 135/@baseRem;
 
-        &:after {
-          content: '';
-          position: absolute;
-          display: block;
-          top: 32px;
-          height: 5px;
-          width: 160px;
-          left: 0;
-          right: 0;
+        input{
           background: @white;
-          margin: 0 -1px;
-          z-index: 11;
-        }
-
-        .red-arrow-down {
-          line-height: 21px;
-          &:before{
-            content: "\e6c5";
-          }
-        }
-
-        .cart-drop-down {
-          display: block;
-          box-shadow: 0 0 5px fadeout(#000, 40%);
-        }
-        .cart-row-footer {
-          padding: 7px 10px;
-          padding-left: 20px;
-          background: @primaryColor;
-
-          & > span {
-            display: inline-block;
-            padding: 7px 0;
-          }
-          &:after {
-            display: block;
-            content: '';
-            clear: both;
-          }
-          .cart-footer-price {
-            color: @baseColorDark;
-            font-weight: bold;
-          }
-          .btn {
-            border-radius: 4px;
-            padding: 7px 8px;
-            background: @baseColorDark;
-            border: 0;
-          }
-        }
-      }
-    }
-  }
-  .header-page-title{
-    font-size: 24px;
-    font-weight: normal;
-    margin: 0;
-    padding-top: 28px;
-    color: @baseTextColorDark;
-  }
-
-  &.error-page-header{
-    .cart-column{
-      float: right;
-      margin-left: 50px;
-      margin-right: 16px;
-    }
-    .search-box {
-      margin-left: 252px;
-    }
-    .logo-column {
-      margin-top: -12px;
-    }
-  }
-}
-
-/**
-   *Mid of Header Including Logo,Cart and Search Box END
-**/
-
-/**
-   *Header Main Nav Bar START
-**/
-.main-nav-bar {
-  .nav-bar {
-    ul {
-      list-style: none;
-      padding: 0;
-      margin-left: 210px;
-
-      &:after {
-        content: '';
-        display: block;
-        position: relative;
-        clear: both;
-      }
-
-      li {
-        float: left;
-
-        a {
           color: @baseTextColor;
-          font-size: 16px;
-          padding: 12px 20px;
-          display: block;
-          text-align: center;
+          font-size: 42/@baseRem;
+          padding: 23/@baseRem 42/@baseRem;
+          .placeholder(@baseTextColor);
+          .border-radius(9/@baseRem);
+        }
 
-          &:hover {
-            color: @baseColorDark;
-          }
+        .message-notification a{
+          top: 0.65rem;
         }
       }
     }
   }
-}
-
-/**
-   *Header Main Nav Bar END
-**/
-
-/******************************************************
-   *Header END
-******************************************************/
-
-/******************************************************
-   *Sidebar START
-******************************************************/
-.side-bar {
-  width: 230px;
-  color: @white;
-  margin-top: -45px;
-
-  > h5 {
-    background: @baseColorDark;
-    font-size: 16px;
-    margin: 0;
-    padding: 12px 10px;
-    font-weight: normal;
-    line-height: 21px;
-
-    span{
-      height: 8px;
-      display: inline-block;
-      float: right;
-      line-height: 1px;
-      vertical-align: middle;
-      position: relative;
-      top: 8px;
-    }
-  }
-
-  > ul {
-    margin: 0;
-    padding: 0;
-    position: relative;
-
-    > li {
-      line-height: 16px;
-
-      > a {
-        position: relative;
-        display: block;
-        padding: 8px 10px;
-        background: @baseColor;
-        color: @white;
-        line-height: 16px;
-
-        > .nav-arrow {
-          position: absolute;
-          right: 10px;
-          top: 34%;
-          font-size: 10px;
-          font-family: Consolas, monaco, monospace;
-        }
-
-      }
-      .mega-menu {
-        position: absolute;
-        left: 100%;
-        width: 990px;
-        z-index: 15;
-        top: 0;
-        background: @sideBarHover;
-        height: 100%;
-        border-bottom: 1px solid @baseColor;
-        border-right: 1px solid @baseColor;
-        padding: 15px 10px;
-        display: none;
-
-        &:after {
-          content: '';
-          display: block;
-          clear: both;
-        }
-
-        > ul {
-          list-style: none;
-          padding: 0;
-          float: left;
-          > li {
-            > a {
-              text-align: right;
-              display: inline-block;
-              width: 90px;
-              color: @baseTextColor;
-              vertical-align: top;
-              font-weight: bold;
-              padding: 9px 0;
-
-              &:hover {
-                color: @baseColorDark;
-              }
-            }
-            .nav-arrow {
-              font-size: 10px;
-              font-family: Consolas, monaco, monospace;
-              vertical-align: middle;
-              display: inline-block;
-              margin-left: 10px;
-            }
-
-            ul {
-              vertical-align: top;
-              display: inline-block;
-              width: 611px;
-              margin-left: 18px;
-              border-bottom: 1px solid #ededed;
-              li {
-                display: inline-block;
-                position: relative;
-                left: -10px;
-                a {
-                  display: block;
-                  color: @baseTextColor;
-                  padding: 8px 10px;
-
-                  &:hover {
-                    color: @baseColorDark;
-                  }
-                }
-              }
-            }
-          }
-        }
-
-        > .dropdown-adds {
-          float: right;
-          padding-right: 10px;
-          width: 178px;
-        }
-      }
-      &:hover {
-        > a {
-          background: @sideBarHover;
-          color: @baseColorDark;
-          text-decoration: none;
-          > .nav-arrow {
-            color: @sideBarHover;
-          }
-        }
-        .mega-menu {
-          display: block;
-        }
-      }
-
-    }
-  }
-
-  &.transformed-mega-menu{
-    position: relative;
-    h5{
-      cursor: pointer;
-    }
-    &>ul{
-      display:none;
-      position: absolute;
-      top: 100%;
-      width: 210px;
-      z-index: 100;
-    }
-
-    &:hover{
-      & > ul{
-        display:block;
-      }
-      h5{
-        span.icon-sort-up{
-          display: block;
-          visibility: visible;
-          line-height: 12px;
-        }
-        span.icon-sort-down{
-          display: none;
-        }
-      }
-    }
-  }
-}
-
-/******************************************************
-   *Sidebar END
-******************************************************/
-
-/******************************************************
-   *Sub Footer Section  START
-******************************************************/
-
-.sub-footer {
-  background: @subFooterBG;
-  margin-top: 60px;
-
-  .row {
-    margin: 0;
-    padding: 0 25px;
-  }
-  .column {
-    width: 25%;
-  }
-}
-
-/**
-   *Sub Footer Service Block START
-**/
-.service-block {
-  padding: 30px 0;
-
-  .service-icon, .service-description {
+  .back-to-prev-btn{
+    position: absolute;
+    color: @white;
     display: inline-block;
-    vertical-align: middle;
-  }
-  .service-description {
-    width: 183px;
+    left: 31/@baseRem;
+    font-size: 42/@baseRem;
 
-    span {
-      display: block;
-      margin-top: 4px;
+    .icon{
+      font-size: 70/@baseRem;
+      line-height: 106/@baseRem;
     }
   }
-  .service-icon {
-    margin-right: 15px;
+  .bar-title{
+    color: @white;
+    font-size: 46/@baseRem;
+    font-weight: 400;
+    margin: 33/@baseRem 0;
   }
-  .service-title {
-    font-size: 22px;
-    color: @baseColorDark;
-    font-family: "SimHei";
-    line-height: 22px;
 
-    & > span {
-      font-size: 18px;
-      color: @baseTextColor;
+  .sort-links{
+    ul{
+      margin: 0;
+      padding: 0 50/@baseRem;
+      list-style: none;
+      background: @white;
+      margin-bottom: -1px;
+      border-bottom: 10/@baseRem solid @borderColorXtraLight;
+
+      li{
+        float: left;
+        width: 25%;
+        text-align: center;
+
+        a{
+          color: @baseTextColor;
+          font-size: 46/@baseRem;
+          display: block;
+          padding: 28/@baseRem 0 ;
+
+          img{
+            max-height: 29/@baseRem;
+          }
+        }
+
+        &:first-child{
+          text-align: left;
+        }
+        &:last-child{
+          text-align: right;
+        }
+
+        &.active{
+          a{
+            color: @baseColor;
+          }
+        }
+      }
     }
+  }
+
+  .right-side-link{
+    float: right;
+    right: 50/@baseRem;
+    position: absolute;
+    color: @white;
+    font-size: 36/@baseRem;
+    line-height: 70/@baseRem;
+
+    img{
+      vertical-align: middle;
+      height: 52/@baseRem;
+    }
+  }
+
+  & ~ .content{
+    padding-top: 133/@baseRem;
+  }
+
+  &.has-sort-menu ~ .content{
+    padding-top: 270/@baseRem;
   }
 }
 
-/**
- *Sub Footer Service Block END
-**/
 
-/******************************************************
-   *Sub Footer Section  END
-******************************************************/
 
-/******************************************************
-   *Footer Section  START
-******************************************************/
-.footer {
-  .main-footer {
-    padding-bottom: 30px;
-    margin-bottom: 15px;
-    border-bottom: 2px solid @baseColorDark;
+/*index header END*/
+
+/*Main bar Start*/
+.main-bar{
+  height: auto;
+  background: @white;
+  border-top: 2px solid @borderColorExtra;
+
+  .tab-item .icon ~ .tab-label{
+    font-size: 36/@baseRem;
+    padding-bottom: 0.5rem;
   }
-  .footer-title {
-    margin-top: 30px;
-    color: #333333;
-    font-size: 16px;
-    margin-bottom: 10px;
+  .tab-item{
+    height: 5.3rem;
   }
-  .footer-list {
+  .tab-item .icon {
+    top: .05rem;
+    height: 3.2rem;
+    line-height: 4.2rem;
+    padding-top: 0;
+    padding-bottom: 0;
+    font-size: 2.6rem;
+  }
+  .tab-item.active, .tab-item:active {
+    color: @baseColor;
+  }
+
+  &~.content {
+    bottom: 5.9rem;
+  }
+
+}
+/*Main bar End*/
+
+/*index Footer START*/
+.footer{
+  background: @baseTextColor;
+  color: @footerTextColor;
+  margin: 0;
+  padding: 50/@baseRem 60/@baseRem 60/@baseRem;
+  margin-top: 40/@baseRem;
+  font-size: 31/@baseRem;
+  font-weight: normal;
+
+  ul{
+    margin: 0 -40/@baseRem 60/@baseRem;
     padding: 0;
-    margin: 0;
     list-style: none;
 
-    li {
-      a {
-        color: @baseTextColor;
-        line-height: 20px;
-      }
-    }
-  }
-  .footer-first-column {
-    width: 190px;
-  }
-  .footer-second-column, .footer-third-column, .footer-fourth-column{
-    width: 197px;
-  }
-  .footer-fifth-column{
-    width: 190px;
-  }
-  .barcode {
-    margin-top: 34px;
-  }
-  .barcode-text {
-    color: @baseTextColor;
-  }
-
-  .footer-list-last {
-    margin-bottom: 15px;
-
-    li {
-      a {
-        color: @baseTextColor;
-      }
-    }
-  }
-  .footer-links {
-    a {
-      color: @baseTextColor;
-    }
-  }
-  .footer-copyright {
-    margin-top: 15px;
-    color: @footerCopyrightTextColor;
-    padding-bottom: 30px;
-
-    a {
-      color: @footerCopyrightTextColor;
-    }
-
-    .list-inline {
-      li {
-        margin-right: 66px;
-        margin-bottom: 8px;
-      }
-    }
-  }
-}
-
-/******************************************************
-   *Footer Section  END
-******************************************************/
-
-
-
-/******************************************************
-   *Header After Login START
-******************************************************/
-.after-login-header-outr{
-  background-color: @baseColor;
-  margin-bottom:32px;
-  .logo-column{
-    padding-top:19px;
-    padding-bottom:19px;
-  }
-  .login-navbar{
-    ul{
-      padding: 0;
-      margin:12px 0 0 51px;
-      list-style: none;
-      li{
-        display: inline-block;
-        a{
-          text-decoration: none;
-          color: @white;
-          font-size: 16px;
-          padding:35px 25px;
-          display: block;
-          position: relative;
-
-          &:hover{
-            &:after{
-              content: '';
-              width: 0;
-              height: 0;
-              border-left:14px solid transparent;
-              border-right:14px solid transparent;
-              border-bottom:11px solid @white;
-              position: absolute;
-              left: 0;
-              bottom:0;
-              right: 0;
-              margin: 0 auto;
-              text-align: center;
-            }
-          }
-        }
-        &.active{
-          a:after{
-            content: '';
-            width: 0;
-            height: 0;
-            border-left:14px solid transparent;
-            border-right:14px solid transparent;
-            border-bottom:11px solid @white;
-            position: absolute;
-            left: 0;
-            bottom:0;
-            right: 0;
-            margin: 0 auto;
-            text-align: center;
-          }
-        }
-      }
-
-    }
-  }
-  .after-login-search {
-    margin-top: 35px;
-
-    .input-group{
-      border: 0;
-      color: @baseTextColorDark;
-      width: 200px;
-      input[type="text"]{
-        width: 145px;
-      }
-      .form-control{
-        .placeholder(@baseTextColorDark)
-      }
-    }
-    .input-group-btn
-    {
-      width:55px;
-      .btn{
-        background-color: @subFooterBG;
-        color: @baseTextColorDark;
-        width:100%;
-        font-size: @baseFontLarge;
-      }
-    }
-
-  }
-}
-/******************************************************
-   *Header After Login End
-******************************************************/
-
-/******************************************************
-   *Login Sidebar START
-******************************************************/
-.login-sidebar{
-  width:150px;
-
-  .login-sidebar-block{
-    margin-bottom:41px;
-
-    &.last-child{
-      margin-bottom: 0;
-    }
-
-    h5{
-      color: #222222;
-      font-size: 16px;
-      margin-bottom: 9px;
-      margin-top: 0;
-    }
-
-    ul{
-      list-style: none;
-      display: block;
-      margin:0;
-      padding: 0;
-
-      li{
-
-        a{
-          list-style: none;
-          text-decoration: none;
-          color: @baseTextColor;
-          font-size: @baseFontLarge;
-          padding-top: 10px;
-          padding-bottom: 10px;
-          display: block;
-          &:hover, &.active{
-            color:@textHoverColor;
-          }
-          &.last-child-link{ padding-bottom: 0}
-        }
-
-      }
-    }
-  }
-}
-/******************************************************
-   *Login Sidebar End
-******************************************************/
-
-/******************************************************
-   *After Login Right Section START
-******************************************************/
-.after-login-right-content-section{
-  width:1060px;
-  background: @topHeadingBarBackground;
-
-  .heading{
-    color: @baseTextColorDark;
-    font-size: 16px;
-    margin-top: 0;
-    font-weight: normal;
-    margin-bottom: 40px;
-
-    &.margin-bottom-30{
-      margin-bottom: 30px;
-    }
-    &.margin-bottom-20{
-      margin-bottom: 20px;
-    }
-  }
-  form{
-    margin-bottom: 0;
-    input[type="text"], input[type="password"]{
-      background-color:@sideBarHover;
-      border-radius:0;
-      box-shadow: none;
-      padding: 8px;
-    }
-
-  }
-  .control-label{
-    margin-right: 18px;
-    display: block;
-    font-size: @baseFontLarge;
-  }
-  .sui-form .form-horizontal .control-group{
-    margin-bottom: 0;
-
-  }
-}
-
-.single-input{
-  input[type="text"]{
-    width: 300px;
-    height: 36px;
-  }
-}
-
-.double-input{
-  input[type="text"], input[type="password"]{
-    width: 160px;
-    height: 36px;
-  }
-}
-
-.after-login-sections-padding{
-  padding: 30px 20px;
-
-  .btn-primary{
-    padding: 11px 25px;
-    color: @white;
-    font-size: @baseFontLarge;
-    background-color: @textHoverColor;
-    border-color: @textHoverColor;
-    margin-top: 18px;
-    border-radius: 0;
-  }
-  ol{
-    margin-left: 12px;
-    margin-top: 28px;
-    color: @footerCopyrightTextColor;
-    font-size: @baseFontLarge;
-
     li{
-      line-height: 20px;
-
-      span{
-        color: @textHoverColor;
-      }
-    }
-  }
-  .sui-form.form-horizontal .control-group.margin-bottom-0{
-    margin-bottom: 0;
-  }
-}
-/******************************************************
-   *After Login Right Section Ends
-******************************************************/
-
-/******* right category section start *******/
-.category-listing-right-section{
-  width: 980px;
-  position: relative;
-}
-/******* right category section end *******/
-
-/******************************************************
-   *top heading bar start
-******************************************************/
-.top-heading-bar{
-  border-top:1px solid @darkBorderColor ;
-  border-bottom:1px solid @darkBorderColor ;
-  background-color: @subFooterBG
-}
-
-/******************************************************
-   *top heading bar end
-******************************************************/
-
-
-
-.accordion-sidebar{
-  width: 230px;
-}
-
-
-.loading-img {
-  .opacity(0.8);
-  position: fixed;
-  top: 45%;
-  left: 0;
-  right: 0;
-  margin: 0 auto;
-  display: block;
-  max-width: 245px;
-  z-index: 1000;
-}
-
-/*--- page title with logo ---*/
-.page-title-with-logo{
-  font-size:24px;
-  color: @baseTextColorDark;
-  margin-top: 35px;
-}
-
-/*******************Error message styling***********************/
-.sui-form.form-horizontal.sui-validate{
-
-  .sui-msg.msg-error  .msg-con{
-    background-color: #fff2f2;
-    border-color: #c41411;
-    width: 268px;
-    padding: 7px 35px 7px 33px;
-    position: relative;
-
-  }
-  .msg-icon{
-    position: absolute;
-    left: 12px;
-    top: 6px;
-    font-size: 18px;
-    text-decoration: none;
-    line-height: 16px;
-    &:before{
-      content: "\e6e4";
-      font-family: 'icon-tb';
       float: left;
-      margin-right: 5px;
-      margin-top: 3px;
-    }
-  }
-  .sui-msg.msg-error {
-    margin-left: 16px;
-  }
+      width: 25%;
+      padding: 0 20/@baseRem;
 
-  .sui-msg.msg-error > .msg-con {
-    margin: 0 !important;
-  }
-}
-/*******************Error message styling END***********************/
-
-
-/*******************Tabs START***********************/
-.after-login-tabs-design{
-  .sui-nav.nav-tabs.tab-wraped {
-    background-color: @white;
-    padding: 13px 30px;
-    border: 0;
-    li {
-      width: auto;
-      padding: 5px;
-      &.active a, a{
-        border: 0;
-        padding: 0;
-        padding: 0 30px;
-        border-right: 1px solid #cccccc;
-
-        &.padding-left-zero{
-          padding-left: 0;
-        }
-
-        &.border-right-zero{
-          border-right: 0;
-        }
-      }
-      &.active a h3{
-        color: @textHoverColor;
-        border-bottom: 1px solid @textHoverColor;
-        padding-bottom: 2px;
-      }
-      h3 {
-        font-weight: normal;
-        margin: 0;
-        font-size: 16px;
-        color: @baseTextColor;
-        line-height: normal;
+      a{
+        font-size: 36/@baseRem;
+        display: block;
+        width: 100%;
+        padding: 30/@baseRem;
+        text-align: center;
+        color: @footerTextColor;
+        .border-radius(8px);
+        border: 2px solid;
       }
     }
   }
-  .tab-content.tab-wraped{
-    background-color: @white;
-    border: 0;
-    margin-top: 5px;
+}
+/*index Footer END*/
+
+
+/*back to Top button START*/
+a.back-to-top {
+  position: fixed;
+  top: 48%;
+  right: 1.96rem;
+  width: 104/@baseRem;
+  display: block;
+  .calc(top,~'50% - 2.03rem');
+  z-index: 100;
+
+  img{
+    max-width: 100%;
   }
 }
-/*******************Tabs END***********************/
+/*back to Top button END*/
 
 
+/******** Sidebar **************/
+.sidebar{
+  width: 88%;
+  background: @white;
+  right: -88% !important;
 
-/*progress bar*/
-.sui-steps-round {
-  div {
-    width: 280px;
-
-    &:first-child  label{
-      width: 100%;
-      max-width: 100%;
-      left: -95px;
-    }
-    label {
-      font-size: @baseFontLarge;
-      margin-bottom: 10px;
-      width: 100%;
-      left: -95px;
-      color: @baseTextColor;
-    }
-
-  }
-  .todo > label{
-    color: @baseTextColor;
-  }
-  .current, .todo, .todo.last{
-
-    .bar{
-      background-color:@subFooterBG;
-      .box-shadow(0 1px 0 1px rgba(255, 255, 255, 0.5), 0 1px 0 0 rgba(0, 0, 0, 0.2) inset);
-      margin: 12px 0 0 32px;
-      .border-radius(0);
-      height: 8px;
-      position: absolute;
-      z-index: 9999999;
-      border-bottom: 1px solid #eeeeee;
-      width: 250px;
-    }
-
-    .round{
-      .box-shadow(0px 1px 0px 0px rgba(255, 255, 255, 0.35),inset 0px 1px 2px 0px rgba(0, 0, 0, 0.2));
-      background-color:transparent;
-      border:1px solid rgba(0, 0, 0, 0.2);
-      color: #cccccc;
-      font-size: 24px;
-      height: 32px;
-      line-height: 30px;
-      width: 32px;
-      .border-radius(15px);
-    }
-  }
-
-  .finished{
-    &:first-child{
-      margin-left: 58px;
-    }
-    label{
-      color: @textHoverColor;
-    }
-
-    .bar{
-      background-color:@baseColor;
-      margin:12px 0 0 31px;
-      .border-radius(0);
-      height:11px;
-      border: 1px solid;
-      border-bottom-color: @white;
-      border-top-color: #cecece;
-      border-left: 0;
-      border-right: 0;
-      width: 250px;
-    }
-
-    .round{
-      background-color:@baseColor;
-      border: 0;
-      color: @white;
-      .box-shadow(0px 1px 0px 0px rgba(255, 255, 255, 0.35),inset 0px 1px 2px 0px rgba(0, 0, 0, 0.2));
-      font-size: 24px;
-      height: 32px;
-      line-height: 30px;
-      width: 32px;
-
-      i{
-        font-size: 15px;
-      }
-    }
-    .text-color-darkgrey{
-      color: @baseTextColor;
-    }
-  }
-  .todo.last{
-    .wrap{
-      margin-top: 29px;
-    }
-  }
-}
-
-
-/****small progress bar starts START***/
-.top-steps{
-  margin-top: 20px;
-}
-.step-small{
-  width: 482px;
-
-  .step-progress-row{
-    height: 8px;
-    width: 100%;
-    background: @baseColor;
-    .border-radius(8px);
-  }
-  .step-label{
-    color:  @baseColor;
-    text-align: center;
-    display: inline-block;
-
-
-    .step-status{
-      background: @baseColor;
-      color: #fff;
-      display: block;
-      width: 24px;
-      height: 24px;
-      .border-radius(50%);
-      margin: 0 auto 5px;
-      padding-top: 3px;
-      font-size: @baseFontLarge;
-      font-weight: bold;
-    }
-  }
-
-  .small-step-1{
-    width: 112px;
-    float: left;
-    text-align: right;
-  }
-  .small-step-2{
-    width: 256px;
-    float: left;
-    text-align: center;
-  }
-
-  .step{
-    margin-top: -16px;
-  }
-
-
-}
-
-/****small progress bar starts END***/
-
-
-  /*pagination start*/
-.common-pagination{
-  float: right;
-
-  .sui-pagination ul li{
-
-    a, span{
-      margin-left: 3px;
-      margin-right: 3px;
-      padding: 10px 8px;
-      min-width: 40px;
-      border-color: @darkBorderColor;
-      background-color: @sideBarHover;
-      color:@baseTextColor;
-    }
-    span{
-      background: @backgroundColorTransparent;
-    }
-    a:hover{
-      background: @backgroundColorTransparent;
-      border-color:@white;
-      color: @baseColor;
-    }
-
-    &.active{
-      a {
-        background: @backgroundColorTransparent;
-        border-color:@white;
-        color: @baseColor;
-      }
-    }
-    &.prev{
-      a {
-        background: @backgroundColorTransparent;
-
-        &:hover{
-          border-color: @darkBorderColor;
-        }
-      }
-    }
-
-    &.dotted span{
-      border: 0;
-    }
-
-  }
-  .item-total-no-of-pages{
-    margin-right:10px;
-    margin-left: 24px;
-  }
-
-  div{
-    vertical-align: middle;
-    .page-confirm{
-      background-color:@subFooterBG;
-      color:@baseTextColor;
-      border-color: @darkBorderColor;
-      font-size: 12px;
-      line-height: 18px;
-      padding: 8px 12px;
-
-      &:hover, &:focus, &:active{
-        background-color:@baseColor;
-        border-color: @baseColor;
-      }
-    }
-  }
-  .item-simple-input-text-field{
-    border-radius: 0;
-    box-shadow: none;
-    padding: 8px;
-    height: 37px;
-    width: 38px;
-    text-align: center;
-    margin-left: 2px;
-    margin-right: 5px;
-    &:focus{
-      border-color:@baseColor;
-      outline: none;
-    }
-  }
-}
-.common-pagination{
-  float: right;
-  clear: both;
-
-  .sui-pagination ul li{
-
-    a, span{
-      margin-left: 3px;
-      margin-right: 3px;
-      padding: 10px 8px;
-      min-width: 40px;
-      text-align: center;
-      border-color: @darkBorderColor;
-      background-color: @sideBarHover;
-      color:@baseTextColor;
-    }
-    span{
-      background: @backgroundColorTransparent;
-    }
-    a:hover{
-      background: @backgroundColorTransparent;
-      border-color:@white;
-      color: @baseColor;
-    }
-
-    &.active{
-      a {
-        background: @backgroundColorTransparent;
-        border-color:@white;
-        color: @baseColor;
-      }
-    }
-    &.prev{
-      a {
-        background: @backgroundColorTransparent;
-        padding: 10px 16px;
-
-        &:hover{
-          border-color: @darkBorderColor;
-        }
-      }
-    }
-    &.next{
-      a {
-        background: @backgroundColorTransparent;
-        padding: 10px 16px;
-
-        &:hover{
-          border-color: @darkBorderColor;
-        }
-      }
-    }
-    &.dotted span{
-      border: 0;
-    }
-
-  }
-  .item-total-no-of-pages{
-    margin-right:10px;
-    margin-left: 24px;
-    font-weight: bold;
-  }
-
-  div{
-    vertical-align: middle;
-    .page-num + .page-confirm{
-      background-color:@subFooterBG;
-      color:@baseTextColor;
-      border-color: @darkBorderColor;
-      font-size: 12px;
-      line-height: 18px;
-      padding: 8px 12px;
-      min-width: 56px;
-      text-align: center;
-      margin-left: 12px;
-
-      &:hover, &:focus, &:active{
-        background-color:@baseColor;
-        border-color: @baseColor;
-      }
-    }
-  }
-  .page-num.item-simple-input-text-field{
-    border-radius: 0;
-    box-shadow: none;
-    padding: 8px;
-    height: 37px;
-    width: 40px;
-    text-align: center;
-    margin-left: 2px;
-    margin-right: 5px;
-    &:focus{
-      border-color:@baseColor;
-      outline: none;
-    }
-  }
-  .sui-pagination div .page-num:focus{
-    width: 40px;
-  }
-}
-/*pagination end*/
-
-/*related products start*/
-.related-products{
-  border-top: 30px solid @white;
-  float: left;
-  padding: 30px 42px;
-
-  h5{
-    display: inline-block;
-  }
-
-  a{
-    font-size: @baseFontLarge;
-    color: @baseTextColor;
-    float: right;
-  }
-
-  .product{
-    width: 229px;
-    height: 180px;
-    text-align: center;
-    margin-right: 20px;
-    float: left;
-    span {
-      display: table-cell;
-      height: 130px;
-      text-align: center;
-      vertical-align: middle;
-      width: 230px;
-      margin-bottom: 5px;
-    }
-
-    p{
-      width: 100%;
-      height: 18px;
-      overflow: hidden;
-      font-size: @baseFontLarge;
-      color: @baseTextColor;
-    }
-
-    .price{
-      color: @baseColor;
-      height: auto;
-    }
-    &.margin-zero{
-      margin: 0;
-    }
-  }
-}
-/*related products end*/
-
-.sui-form select:focus,
-.sui-form textarea:focus,
-.sui-form input[type="text"]:focus,
-.sui-form input[type="password"]:focus,
-.sui-form input[type="datetime"]:focus,
-.sui-form input[type="datetime-local"]:focus,
-.sui-form input[type="date"]:focus,
-.sui-form input[type="month"]:focus,
-.sui-form input[type="time"]:focus,
-.sui-form input[type="week"]:focus,
-.sui-form input[type="number"]:focus,
-.sui-form input[type="email"]:focus,
-.sui-form input[type="url"]:focus,
-.sui-form input[type="search"]:focus,
-.sui-form input[type="tel"]:focus,
-.sui-form input[type="color"]:focus,
-.sui-form .uneditable-input:focus{
-  outline: none
-}
-
-
-/*Styling for Fixed Error*/
-.fixed-error{
-  position: relative;
-  .sui-msg{
-    position: absolute;
-    left: 100%;
-    top: 1px;
-  }
-}
-.error-middle{
-  .sui-msg{
-    top: -9px;
-  }
-}
-
-
-/*Modal styling starts*/
-.sui-modal{
-  margin-left: -205px;
-  width: 410px;
-
-  border:4px solid fadeout(#000,90%);
-  .box-shadow(none);
-  .border-radius(3px);
-
-  .modal-title{
-    font-size: 14px;
-    color: @baseTextColorDark;
-    font-weight: bold;
-  }
-  .modal-header{
-    border-bottom: 0;
-    padding: 22px 0;
-    margin: 0 30px;
-  }
-  .modal-body {
-    position: relative;
-    overflow-y: auto;
-    min-height: 100px;
-    max-height: 550px;
+  .content-block{
+    padding: 50/@baseRem 36/@baseRem;
     margin: 0;
-    padding: 14px 30px 35px;
+    height: 100%;
+    overflow: auto;
 
-    .btn-gray{
-      padding: 7px 21px;
-      border-radius: 2px;
-
-      & + .btn-gray{
-        margin-left: 20px;
-      }
+    .side-bar-title{
+      margin-top: 0;
+      color: @fontDarkColor;
+      margin-bottom: 50/@baseRem;
+      font-weight: 400;
     }
   }
-  button.sui-close {
-    padding: 0;
-    cursor: pointer;
-    background: transparent;
-    border: 0;
-    -webkit-appearance: none;
-    margin-right: -10px;
-    margin-top: 0px;
-    font-size: 28px;
-    line-height: 19px;
+  .content-footer{
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    bottom: 0;
+    z-index: 10;
+
+    .btns{
+      .btn{
+        width: 50%;
+        display: inline-block;
+        font-size: 46/@baseRem;
+        background: @white;
+        color: @fontDarkColor;
+        text-align: center;
+        border-top: 1px solid @borderColorExtra;
+        padding: 45/@baseRem 15/@baseRem;
+
+        &.active{
+          background: @baseColor;
+          color: @white;
+        }
+      }
+    }
+
+    & + .content-block{
+      padding-bottom: 124/@baseRem;
+    }
   }
 }
-.sui-modal-backdrop, .sui-modal-backdrop.fade.in{
-  .opacity(0.5);
+body.with-panel-right-cover .sidebar {
+  -webkit-transform: translate3d(-100%,0,0);
+  transform: translate3d(-100%,0,0);
 }
-
-.form-control.trade-form-control{
-     
-    width: 397px;
-    
-    max-width: 397px;
-    
+.with-panel-right-cover .content{
+  overflow: hidden;
 }
-
-.column.trade-single-product:hover
-{
-  border: 1px solid #c41411;
-}
-.trade-ima {
-    color: #222;
-}
-
-.trade-single-product:last-child{
-  margin-right:0px;
-
-}
-.container-small
-{
-  width:965px;
-  margin:0px auto;
-}
-.container-small.middle-header-2
-{
-  margin: 32px auto;
-}
-.container-very-small
-{
-  width:940px;
-  margin:0px auto;
-}
-
-   .placeholder:-moz-placeholder
-{
-  color:#cccccc!important;
-  font-size:14px!important;
-}
-.placeholder::-webkit-input-placeholder{
-  color:#cccccc!important;
-  font-size:14px!important;
-}
-.placeholder:-ms-input-placeholder
-{
-  color:#cccccc!important;
-  font-size:14px!important;
-}
-
-
-
