@@ -1,119 +1,503 @@
 /******************************************************
    *Variables START
 ******************************************************/
-body {
-  background: #ededed;
-  font-family: Arial, "Microsoft Yahei", STXihei, sans-serif;;
+/******************************************************
+   *Normalizing CSS START
+******************************************************/
+* {
+  box-sizing: border-box;
 }
+body,
 html {
-  font-size: 8px;
+  font-family: Arial, "Microsoft Yahei", STXihei, sans-serif;;
+  padding: 0;
+  margin: 0;
+  font-size: 12px;
+  color: #666666;
 }
-@media only screen and (min-width: 400px) {
-  html {
-    font-size: 9px!important;
-  }
+ul {
+  margin: 0;
 }
-@media only screen and (min-width: 768px) {
-  html {
-    font-size: 20px!important;
-  }
+a {
+  text-decoration: none;
+  outline: 0;
+  border: 0;
 }
-@media only screen and (min-width: 992px) {
-  html {
-    font-size: 25.6px!important;
-  }
+a:hover,
+a:focus {
+  text-decoration: none;
+  outline: 0;
 }
-/*Helper classes START*/
-.img-responsive {
-  max-width: 100%;
+a img {
+  border: 0;
+  vertical-align: middle;
 }
-.padding-bottom-0 {
-  padding-bottom: 0 !important;
+p {
+  margin: 0 0 10px 0;
+  padding: 0;
 }
-.margin-0 {
-  margin: 0 !important;
+/******************************************************
+   *Normalizing CSS END
+******************************************************/
+/******************************************************
+   *Helper Classes CSS START
+******************************************************/
+.min-width-281 {
+  min-width: 281px;
+}
+.base-color-medium {
+  color: #d01716;
+}
+.base-medium-font {
+  font-size: 14px;
+}
+.base-large-font {
+  font-size: 16px;
+}
+.base-color-light {
+  color: #999999;
+}
+.base-text-color {
+  color: #666666;
+}
+.base-text-dark-color {
+  color: #333333;
+}
+.attention-color {
+  color: #e78925;
+}
+.btn-gray {
+  background: #eeeeee;
+  border: 1px solid #cccccc;
+  color: #333333;
+  margin-bottom: 0 !important;
+  display: inline-block;
+  padding: 6px 16px;
+}
+.btn-default {
+  background: #c41411;
+  color: #fff;
+  border-color: #c41411;
+}
+.btn-default:hover {
+  color: #fff;
+}
+.white-bg {
+  background: #fff;
+}
+.text-no-wrap {
+  white-space: nowrap;
+}
+.vertical-align-middle {
+  vertical-align: middle;
+}
+.line-height-23 {
+  line-height: 23px;
+}
+.line-height-24 {
+  line-height: 24px;
+}
+.line-height-36 {
+  line-height: 36px;
+}
+span.dropdown-inner.input-error {
+  border-color: #ea4a36 !important;
+}
+.border-right {
+  border-right: 1px solid #dedede;
+}
+.border-bottom {
+  border-bottom: 1px solid #dedede;
+}
+.border {
+  border: 1px solid #dedede;
 }
 .center-block {
   display: block;
   margin: 0 auto;
 }
-.white-bg {
-  background: #fff;
+.list-inline {
+  padding-left: 0;
+  margin-left: -5px;
+  list-style: none;
 }
-.base-color {
-  color: #c41411 !important;
+.list-inline > li {
+  display: inline-block;
+  padding-right: 5px;
+  padding-left: 5px;
 }
-.text-right {
-  text-align: right;
+.img-max-100 {
+  max-width: 100%;
+}
+.pos-relative {
+  position: relative !important;
+}
+span.extra-placeholder {
+  position: absolute;
+  top: 10px;
+  left: 24px;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+.column {
+  padding-left: 10px;
+  padding-right: 10px;
+  float: left;
+}
+.float-right {
+  float: right;
+}
+.row {
+  margin: 0 -10px;
+}
+.row:after {
+  content: '';
+  display: block;
+  position: relative;
+  clear: both;
+}
+.clear-fix:after {
+  content: '';
+  display: block;
+  position: relative;
+  clear: both;
+}
+.row-img {
+  margin: 0 -3px;
+}
+.width-100 {
+  width: 100%;
+}
+.cart-icon {
+  background-image: url("../images/spirit_icons.png");
+  background-position: -14px 124px;
+  width: 21px;
+  height: 18px;
+  display: inline-block;
+}
+.red-arrow-down {
+  width: 14px;
+  height: 15px;
+  display: inline-block;
+  vertical-align: middle;
+  color: #fff;
+  font-family: 'sui-icon';
+  speak: none;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #b0120a;
+  -webkit-border-radius: 2px;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 2px;
+  -moz-background-clip: padding;
+  border-radius: 2px;
+  background-clip: padding-box;
+  line-height: 10px;
+  text-align: center;
+}
+.red-arrow-down:before {
+  content: "\e6c4";
+}
+.row-img {
+  margin: 0 -2px 0 -1px;
+}
+.column-img {
+  float: left;
+  padding-left: 1px;
+  padding-right: 2px;
+  width: 25%;
+}
+.box-icon {
+  width: 66px;
+  height: 66px;
+  display: inline-block;
+  background-image: url("../images/spirit_icons.png");
+}
+.truck-icon {
+  background-position: 124px 74px;
+}
+.brush-icon {
+  background-position: 358px 74px;
+}
+.seven-icon {
+  background-position: 272px 74px;
+}
+.hands-icon {
+  background-position: 195px 74px;
+}
+.margin-bottom-10 {
+  margin-bottom: 10px;
+}
+.margin-bottom-30 {
+  margin-bottom: 30px;
+}
+.margin-bottom-40 {
+  margin-bottom: 40px;
+}
+.margin-zero {
+  margin: 0;
+}
+.padding-top-10 {
+  padding-top: 10px;
+}
+.border-bottom-zero {
+  border-bottom: 0;
+}
+.margin-bottom-0 {
+  margin-bottom: 0;
+}
+.margin-top-0 {
+  margin-top: 0;
+}
+.margin-bottom-10 {
+  margin-bottom: 10px !important;
+}
+.margin-top-10 {
+  margin-top: 10px ;
+}
+.margin-top-15 {
+  margin-top: 15px ;
+}
+.margin-right-10 {
+  margin-right: 10px;
+}
+.margin-bottom-20 {
+  margin-bottom: 20px;
+}
+.margin-left-30 {
+  margin-left: 30px;
+}
+.margin-left-20 {
+  margin-left: 20px;
+}
+.margin-left-25 {
+  margin-left: 25px;
+}
+.margin-left-15 {
+  margin-left: 15px;
+}
+.margin-left-10 {
+  margin-left: 15px;
+}
+.margin-left-5 {
+  margin-left: 5px;
+}
+.margin-top-20 {
+  margin-top: 20px;
+}
+.margin-right {
+  margin-right: 10px;
+}
+.margin-bottom {
+  margin-bottom: 0px;
+}
+.grey-bg {
+  background-color: #f7f7f7;
+}
+.grey-dark-bg {
+  background-color: #f2f2f2;
+}
+.sui-form .height-auto[type="text"] {
+  height: auto;
 }
 .inline-block {
   display: inline-block;
 }
-.text-left {
-  text-align: left;
+.min-height-571 {
+  min-height: 571px;
 }
-.base-dark-color {
-  color: #333333;
+.tip {
+  color: #999999;
 }
-.buttons-tab .button.active {
-  z-index: 99;
+.padding-top-null {
+  padding-top: 0 !important;
 }
-/*Helper classes END*/
-/*modal styling START*/
-.modal-overlay,
-.popup-overlay,
-.preloader-indicator-overlay {
-  background: rgba(255, 255, 255, 0.79);
+.padding-bottom-null {
+  padding-bottom: 0 !important;
 }
-.modal {
-  width: 38.5rem;
-  position: absolute;
-  margin-left: -19.75rem;
-  top: 50%;
+.margin-bottom-null {
+  margin-bottom: 0 !important;
 }
-.modal-inner {
-  padding: 4.8rem .75rem;
-  border-radius: 4px 4px 0 0;
-  background: #fff;
-  border: 1px solid #999999;
-  border-bottom: 0;
+/******************************************************
+   *Helper Classes CSS End
+******************************************************/
+/******************************************************
+   *Helper Element CSS START
+******************************************************/
+/**
+   *Input Group START
+**/
+.input-group {
+  position: relative;
+  display: block;
+  border-collapse: separate;
+  border: 2px solid #b0120a;
 }
-.modal-inner:after {
-  background: #999999;
+.input-group:after {
+  content: '';
+  display: block;
+  position: relative;
+  clear: both;
 }
-.modal-button {
-  background: #fff;
-  border: 1px solid #999999;
-  border-top: 0;
-  box-shadow: none;
-  font-size: 1.5625rem;
-  color: #666666;
-  padding: 2.5390625rem 0.78125rem;
+.input-group .form-control {
+  position: relative;
+  z-index: 2;
+  float: left;
+  width: 452px;
+  margin-bottom: 0;
+  height: 32px;
+  border: 0;
+  outline: 0;
+  padding: 7px 10px;
+  max-width: 452px;
+  display: block;
+}
+.input-group-btn {
+  position: relative;
+  font-size: 0;
+  width: 81px;
+  white-space: nowrap;
+  vertical-align: middle;
+  display: block;
+  float: left;
+}
+.input-group-btn .btn {
+  z-index: 2;
+  margin-left: -1px;
+  width: 82px;
   display: inline-block;
-  line-height: 1.953125rem;
-  height: auto;
-}
-.modal-button:after {
-  display: none;
-}
-.modal-button.modal-button-bold {
-  border-radius: 0 0 4px  0;
-  background: #c41411;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  height: 32px;
+  border: 0;
+  background: #b0120a;
   color: #fff;
 }
-.modal-button:first-child {
-  border-radius: 0 0 0 4px;
-  border-right: 0;
+.input-styled {
+  background-color: transparent;
 }
-.modal-buttons {
+/**
+   *Input Group End
+**/
+.simple-input-text-field {
+  border-radius: 0;
+  box-shadow: none;
+  padding: 8px;
   height: auto;
 }
-.modal-text {
-  font-size: 1.796875rem;
+/*Breadcrumb START*/
+.custom-breadcrumb {
+  padding: 0;
+  margin-bottom: 15px;
+  margin-top: 20px;
 }
-/*modal styling END*/
-/*Radio buttons style*/
-label.label-checkbox input[type=checkbox]:checked + .item-media i.icon-form-checkbox,
-label.label-checkbox input[type=radio]:checked + .item-media i.icon-form-checkbox {
-  background-color: #c41411;
+.custom-breadcrumb li a {
+  font-size: 16px;
+  color: #666666;
+}
+.custom-breadcrumb li + li:before {
+  content: ">";
+  color: #666666;
+}
+.custom-breadcrumb > .active {
+  color: #666666;
+}
+.custom-breadcrumb.custom-breadcrumb-x2 li.first-link a {
+  font-size: 18px;
+  font-weight: bold;
+}
+.custom-breadcrumb.custom-breadcrumb-x2 li + li:before {
+  content: ">";
+  color: #666666;
+  font-family: monospace;
+  font-size: 16px;
+  vertical-align: top;
+  line-height: 14px;
+}
+.custom-breadcrumb.custom-breadcrumb-x2 li + li a {
+  font-size: 12px;
+}
+/*Breadcrumb END*/
+/*Panels START*/
+.panel.custom {
+  border: 1px solid #dedede;
+}
+.panel.custom .panel-heading {
+  border-bottom: 1px solid #dedede;
+  padding: 10px 20px;
+  font-size: 14px;
+  background: #f2f2f2;
+}
+.panel.custom .panel-body {
+  padding: 7px 20px;
+}
+.panel.custom .panel-body.long-body {
+  padding: 20px;
+  min-height: 60px;
+}
+/*Panels END*/
+.back-to-top {
+  height: 36px;
+  width: 36px;
+  background: url("../images/spirit_icons.png");
+  display: inline-block;
+  position: fixed;
+  right: 20px;
+  bottom: 48%;
+  background-position: 44px 78px;
+  -webkit-transition: height 0.2s;
+  -moz-transition: height 0.2s;
+  -o-transition: height 0.2s;
+  transition: height 0.2s;
+  -lh-property: 0;
+bottom:-webkit-calc(50% - 18px);
+bottom:-moz-calc(50% - 18px);
+bottom:calc(50% - 18px);
+;
+}
+.back-to-top:hover {
+  height: 70px;
+  background-position: 44px 155px;
+}
+.padding-bottom-zero {
+  padding-bottom: 0;
+}
+.vertical-align-top {
+  vertical-align: top;
+}
+.padding-left-zero {
+  padding-left: 0;
+}
+.border-right-zero {
+  border-right: 0;
+}
+.text-color-darkgrey {
+  color: #666666;
+}
+.text-color-lightgrey {
+  color: #999999;
+}
+/******************************************************
+   *Helper Element CSS END
+******************************************************/
+.checked-icon {
+  background-position: 106px -10px;
+  background-image: url("../../../static/common/images/spirit_icons.png");
+  width: 44px;
+  height: 44px;
 }

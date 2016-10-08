@@ -13,11 +13,10 @@
 
             if(_isValid){
                 $('.sso-button',_form).addClass('sso-enable');
-                $('.sso-button',_form).attr('disabled',true);
+                $('.sso-button',_form).removeAttr('disabled',false);
             }else{
                 $('.sso-button',_form).removeClass('sso-enable');
-                $('.sso-button',_form).removeAttr('disabled');
-
+                $('.sso-button',_form).attr('disabled',true);
             }
 
 

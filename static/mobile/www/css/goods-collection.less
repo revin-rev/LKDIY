@@ -1,0 +1,154 @@
+@import "../../common/css/variable";
+@import "../../common/css/lesshat";
+.www-products-container{
+  background: @white;
+  margin: 0;
+  padding: .5rem;
+  border-bottom: 1px solid @borderColor;
+  border-top: 1px solid @borderColor;
+  margin-top: 0;
+  padding-top:0;
+  padding-bottom: 25/@baseRem;
+
+  .www-block-title{
+    font-weight: normal;
+    font-size: 42/@baseRem;
+    margin-top: 0;
+    margin-bottom: 40/@baseRem;
+  }
+  .www-custom-row{
+    border-top: 15/@baseRem solid @borderColorLight;
+
+    &.www-border-small{
+      border-top-width: 2px;
+    }
+  }
+
+  .www-product-col{
+    h2{
+      font-weight: bold;
+      font-size: 40/@baseRem;
+      margin-top: 30/@baseRem;
+      margin-bottom: 0;
+    }
+    h3{
+      font-size: 36/@baseRem;
+      margin-top: 0;
+      color: @fontLightColor;
+      font-weight: 400;
+      margin-bottom: 0;
+    }
+
+    & + .www-product-col{
+      border-left: 15/@baseRem solid @borderColorLight;
+      margin-left:2%;
+    }
+
+    &:nth-child(1){
+      padding-right: 15/@baseRem;
+      h2{
+        color: @baseColor;
+      }
+    }
+    &:nth-child(2){
+      h2{
+        color: @baseGreenColor;
+      }
+    }
+    &:nth-child(3){
+      h2{
+        color: @baseBlueColor;
+      }
+    }
+
+    .www-product-title{
+      color: @fontDarkColor;
+      font-size: 41/@baseRem;
+      font-weight: normal;
+      margin-top: 0;
+      margin-bottom: 45/@baseRem;
+      min-height: 122/@baseRem;
+    }
+    .www-product-price{
+      font-size: 40/@baseRem;
+      color: @baseColor;
+      font-weight: normal;
+      margin: 0;
+    }
+  }
+
+  .www-large-products{
+    border-top: 10/@baseRem solid @borderColorLight;
+
+    .www-product-col{
+      padding: 20/@baseRem;
+
+      &:nth-child(1){
+        padding-left: 0;
+        padding-right: 55/@baseRem;
+      }
+
+      & + .www-product-col {
+        border-left: 10/@baseRem solid @borderColorLight;
+        position: relative;
+        .new-sticker{
+          position: absolute;
+          top:0;
+          left:0;
+          width:100/@baseRem;
+        }
+      }
+    }
+  }
+
+  &.www-products-container-flat{
+    .text-left{
+      text-align: left;
+    }
+
+
+    .www-product-col{
+      h2{
+        font-weight: 400;
+        color: @fontDarkColor;
+      }
+      h3.margin-bottom{
+        margin-bottom: 60px;
+      }
+
+      & + .www-product-col{
+        border-left: 0;
+      }
+
+    }
+  }
+
+  hr{
+    border-top: 15/@baseRem solid @borderColorLight;
+    margin: 0 -.5rem;
+
+    &.www-meduim{
+      border-top-width: 10/@baseRem;
+    }
+  }
+}
+.buttons-tab{
+
+  a.button{
+    font-size: 46/@baseRem;
+    padding: 44/@baseRem 30/@baseRem ;
+    display: inline-block;
+    height: auto;
+    color: @baseTextColor;
+    border-color: @tradeBorderColor;
+    font-weight: normal;
+
+    &.active{
+      color: @baseColor;
+      border-color: @baseColor;
+      font-weight: normal;
+      background-color:#fff;
+    }
+  }
+}
+

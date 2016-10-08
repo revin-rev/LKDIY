@@ -297,3 +297,9 @@ label.label-checkbox i.icon-form-checkbox:after {
 .modal .modal-inner {
   padding: 5.859375rem;
 }
+@media (max-width: 480px) {
+  .shopping-cart-header-secondary2 .shopping-cart-product-list-product-col {
+    width: 48%;
+    float: left;
+  }
+}
