@@ -122,16 +122,23 @@
   background-color: #fff;
 }
 #top ul {
+  padding: 0;
   list-style-type: none;
   line-height: 1.796875rem;
+  margin: 0 -0.5rem;
 }
-#top ul li span {
+#top ul li {
   font-size: 1.640625rem;
   color: #666666;
+  border-bottom: 1px solid #d7d7d7;
+  padding: 0.703125rem 1.953125rem;
 }
-#top ul li span span {
+#top ul li span {
   color: #c41411;
+  font-size: 1.640625rem;
 }
-#top ul li strong {
+#top ul li span + span {
   font-size: 1.40625rem;
+  color: #666666;
+  padding: 0;
 }
