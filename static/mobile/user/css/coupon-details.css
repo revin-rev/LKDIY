@@ -1,0 +1,56 @@
+/******************************************************
+   *Variables START
+******************************************************/
+.content {
+  padding-top: 5.2734375rem;
+}
+#top ul.first-row {
+  list-style-type: none;
+  background: #fff;
+  margin: 0;
+}
+#top ul.first-row li {
+  padding-top: 1.9140625rem;
+}
+#top ul.first-row li:first-child {
+  color: #222222;
+  font-size: 1.796875rem;
+}
+#top ul.first-row li:nth-child(2) {
+  color: #999999;
+  font-size: 1.5625rem;
+}
+#top ul.first-row li .btn {
+  display: block;
+  text-align: center;
+  background: #b0120f;
+  color: #fff;
+  max-width: 38.28125rem;
+  width: 100%;
+  padding: 4.4921875rem;
+  font-size: 1.55351563rem;
+}
+#top ul.first-row li:last-child {
+  padding-bottom: 4.4921875rem;
+}
+#top .divider {
+  border: 2px solid #d7d7d7;
+  padding: 0.9765625rem 0;
+  background: #f3f5f7;
+  border-left: 0;
+  border-right: 0;
+}
+#top ul.first-row.second-row {
+  padding: 0;
+}
+#top ul.first-row.second-row li {
+  font-size: 1.40625rem;
+  padding-left: 1.5625rem;
+  color: #999999;
+}
+#top ul.first-row.second-row li:first-child {
+  border-bottom: 2px solid #d7d7d7;
+  padding-bottom: 1.8359375rem;
+  font-size: 1.796875rem;
+  color: #222222;
+}
