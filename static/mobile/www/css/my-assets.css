@@ -22,6 +22,9 @@
 #top ul.first-row li:last-child a {
   color: #ccc;
 }
+#top ul.first-row li img {
+  width: 2.65625rem;
+}
 #top ul.first-row li:nth-child(2) {
   font-size: 1.796875rem;
 }
@@ -47,5 +50,6 @@
   font-size: 1.5625rem;
 }
 #top .chat-box img {
-  vertical-align: bottom;
+  vertical-align: middle;
+  width: 1.796875rem;
 }
