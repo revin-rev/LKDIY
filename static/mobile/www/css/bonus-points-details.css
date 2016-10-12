@@ -1,0 +1,57 @@
+/******************************************************
+   *Variables START
+******************************************************/
+#top {
+  background: #fff;
+}
+#top .top-bar {
+  padding-top: 4.375rem;
+  padding-left: 2.8515625rem;
+  font-size: 3.125rem;
+  color: #b0120f;
+}
+#top .top-bar span {
+  font-size: 1.953125rem;
+}
+#top .top-bar span + span {
+  font-size: 1.40625rem;
+  color: #666666;
+}
+#top .divider {
+  margin-top: 4.296875rem;
+  border: 2px solid #d7d7d7;
+  padding: 25px 0;
+  background: #f3f5f7;
+  margin-bottom: 1.9921875rem;
+}
+#top ul {
+  list-style: none;
+  padding: 0;
+}
+#top ul li {
+  font-size: 1.640625rem;
+  padding-top: 1.0546875rem;
+  padding-bottom: 0.8203125rem;
+  border-bottom: 2px solid #d7d7d7;
+  padding-left: 1.953125rem;
+  color: #666666;
+}
+#top ul li:first-child {
+  color: #222222;
+  font-size: 1.796875rem;
+  padding-bottom: 1.953125rem;
+  border-bottom: 2px solid #d7d7d7;
+  padding-left: 1.953125rem;
+}
+#top ul li:first-child span {
+  color: #999999;
+  padding-right: 2.2265625rem;
+  font-size: 1.40625rem;
+}
+#top ul li span.amount {
+  font-size: 1.40625rem;
+  color: #c41411;
+  padding-top: 1.40625rem;
+  padding-right: 2.2265625rem;
+  padding-bottom: 2rem;
+}

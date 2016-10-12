@@ -131,14 +131,32 @@
   font-size: 1.640625rem;
   color: #666666;
   border-bottom: 1px solid #d7d7d7;
-  padding: 0.703125rem 1.953125rem;
+  padding: 1.5625rem 1.953125rem;
 }
 #top ul li span {
   color: #c41411;
   font-size: 1.640625rem;
+  padding-top: 0.703125rem;
 }
 #top ul li span + span {
   font-size: 1.40625rem;
   color: #666666;
   padding: 0;
+  margin-top: 0.78125rem;
+}
+.user-bottom-fixed-btn {
+  background: #f7f7f7;
+  color: #fff;
+  font-size: 1.953125rem;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  text-align: center;
+  min-height: 5.703125rem;
+  line-height: 5.703125rem;
+}
+.user-bottom-fixed-btn a {
+  color: #222222;
 }

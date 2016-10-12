@@ -1,45 +1,45 @@
 /******************************************************
    *Variables START
 ******************************************************/
-#top ul.utilities-list-click-able {
+#top ul.www-list-click-able {
   list-style: none;
   padding: 0;
   margin: 0;
 }
-#top ul.utilities-list-click-able > li {
+#top ul.www-list-click-able > li {
   border-bottom: 1px solid #dedede;
   padding: 1.953125rem 0 1.953125rem;
   background: #fff;
 }
-#top ul.utilities-list-click-able > li a {
+#top ul.www-list-click-able > li a {
   font-size: 1.5625rem;
   color: #333333;
   display: block;
   margin-left: 1.953125rem;
 }
-#top ul.utilities-list-click-able > li a span {
+#top ul.www-list-click-able > li a span {
   color: #a6a6a6;
   margin-right: 1.953125rem;
   font-weight: bold;
 }
-#top ul.utilities-list-click-able > li ul.inner-menus {
+#top ul.www-list-click-able > li ul.inner-menus {
   list-style: none;
   background: #f7f7f7;
   margin: 0;
   padding: 0;
   display: none;
 }
-#top ul.utilities-list-click-able > li ul.inner-menus li {
+#top ul.www-list-click-able > li ul.inner-menus li {
   padding: 1.953125rem 0 1.953125rem;
   border-bottom: 1px solid #dedede;
 }
-#top ul.utilities-list-click-able > li.active {
+#top ul.www-list-click-able > li.active {
   padding-bottom: 0;
 }
-#top ul.utilities-list-click-able > li.active > a {
+#top ul.www-list-click-able > li.active > a {
   padding-bottom: 1.953125rem;
   display: block;
 }
-#top ul.utilities-list-click-able > li.active ul {
+#top ul.www-list-click-able > li.active ul {
   display: block;
 }

@@ -1,0 +1,62 @@
+@import "../../common/css/variable";
+@import "../../common/css/lesshat";
+
+
+#top{
+  ul.first-row{
+    list-style-type: none;
+    border:1px solid #d7d7d7;
+    background: #fff;
+    padding-top: 30/@baseRem;
+    padding-bottom: 30/@baseRem;
+    li{
+      display: inline-block;
+      vertical-align: middle;
+      margin-right: 70/@baseRem;
+
+      &:last-child{
+        float:right;
+        padding-top:22/@baseRem;
+        color:#ccc;
+        font-size: 30/@baseRem;
+        a{
+          color:#ccc;
+        }
+      }
+    }
+    li:nth-child(2){
+      font-size: 46/@baseRem;
+    }
+
+    li:nth-child(3){
+      font-size: 40/@baseRem;
+      color:@baseColorDark
+    }
+
+  }
+  ul.second-row{
+    li{
+
+    }
+    li:last-child{
+      color:#222;
+      vertical-align: middle;
+      span{
+        float:right;
+        padding-top:22/@baseRem;
+        color:#ccc;
+        font-size: 30/@baseRem;
+        padding: 5/@baseRem;
+        padding-left: 48/@baseRem;
+        padding-right:0;
+      }
+    }
+  }
+  .chat-box{
+    padding-right:65/@baseRem;
+    font-size:40/@baseRem;
+    img{
+      vertical-align: bottom;
+    }
+  }
+}

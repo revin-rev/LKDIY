@@ -1,0 +1,51 @@
+/******************************************************
+   *Variables START
+******************************************************/
+#top ul.first-row {
+  list-style-type: none;
+  border: 1px solid #d7d7d7;
+  background: #fff;
+  padding-top: 1.171875rem;
+  padding-bottom: 1.171875rem;
+}
+#top ul.first-row li {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 2.734375rem;
+}
+#top ul.first-row li:last-child {
+  float: right;
+  padding-top: 0.859375rem;
+  color: #ccc;
+  font-size: 1.171875rem;
+}
+#top ul.first-row li:last-child a {
+  color: #ccc;
+}
+#top ul.first-row li:nth-child(2) {
+  font-size: 1.796875rem;
+}
+#top ul.first-row li:nth-child(3) {
+  font-size: 1.5625rem;
+  color: #b0120f;
+}
+#top ul.second-row li:last-child {
+  color: #222;
+  vertical-align: middle;
+}
+#top ul.second-row li:last-child span {
+  float: right;
+  padding-top: 0.859375rem;
+  color: #ccc;
+  font-size: 1.171875rem;
+  padding: 0.1953125rem;
+  padding-left: 1.875rem;
+  padding-right: 0;
+}
+#top .chat-box {
+  padding-right: 2.5390625rem;
+  font-size: 1.5625rem;
+}
+#top .chat-box img {
+  vertical-align: bottom;
+}
