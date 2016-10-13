@@ -8,9 +8,12 @@
   list-style-type: none;
   background: #fff;
   margin: 0;
+  padding: 0;
 }
 #top ul.first-row li {
   padding-top: 1.9140625rem;
+  padding-left: 1.5625rem;
+  padding-right: 1.5625rem;
 }
 #top ul.first-row li:first-child {
   color: #222222;
@@ -25,9 +28,8 @@
   text-align: center;
   background: #b0120f;
   color: #fff;
-  max-width: 38.28125rem;
   width: 100%;
-  padding: 4.4921875rem;
+  padding: 4.4921875rem 0;
   font-size: 1.55351563rem;
 }
 #top ul.first-row li:last-child {
