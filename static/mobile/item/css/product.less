@@ -824,3 +824,255 @@ width: 72.22%;
 
 
 
+
+
+
+@import "../../common/css/variable";
+@import "../../common/css/lesshat";
+
+.content{
+  padding-top: 135/@baseRem;
+}
+
+ul#main-slider{
+  margin: 0;
+}
+.bx-wrapper{
+  .bx-pager {
+    position: absolute;
+    bottom: 20/@baseRem;
+  }
+}
+
+
+.bx-wrapper .bx-pager.bx-default-pager a:hover, .bx-wrapper .bx-pager.bx-default-pager a.active {
+  background: #c41411;
+}
+.bx-wrapper .bx-pager.bx-default-pager a {
+  background: #d7d7d7;
+  text-indent: -9999px;
+  display: block;
+  width: 30px;
+  height: 30px;
+  outline: 0;
+  margin: 0 8px;
+  .border-radius(50%);
+}
+
+.www-main-options{
+  background: @white;
+  margin: 0;
+  padding: .5rem;
+  padding-top: 40/@baseRem;
+  padding-bottom: 25/@baseRem;
+  border-bottom: 1px solid @borderColor;
+
+  h2{
+    color: @fontLightColor;
+    font-size: 36/@baseRem;
+    font-weight: normal;
+    margin-top: 30/@baseRem;
+    margin-bottom: 40/@baseRem;
+  }
+}
+
+.www-products-container{
+  background: @white;
+  margin: 0;
+  padding: .5rem;
+  border-bottom: 1px solid @borderColor;
+  border-top: 1px solid @borderColor;
+  margin-top: 40/@baseRem;
+  padding-top: 40/@baseRem;
+  padding-bottom: 25/@baseRem;
+
+  .www-block-title{
+    font-weight: normal;
+    font-size: 42/@baseRem;
+    margin-top: 0;
+    margin-bottom: 40/@baseRem;
+  }
+  .www-custom-row{
+    border-top: 15/@baseRem solid @borderColorLight;
+
+    &.www-border-small{
+      border-top-width: 2px;
+    }
+  }
+
+  .www-product-col{
+    h2{
+      font-weight: bold;
+      font-size: 40/@baseRem;
+      margin-top: 30/@baseRem;
+      margin-bottom: 0;
+    }
+    h3{
+      font-size: 36/@baseRem;
+      margin-top: 0;
+      color: @fontLightColor;
+      font-weight: 400;
+      margin-bottom: 0;
+    }
+
+    & + .www-product-col{
+      border-left: 15/@baseRem solid @borderColorLight;
+      margin-left:2%;
+    }
+
+    &:nth-child(1){
+      padding-right: 15/@baseRem;
+      h2{
+        color: @baseColor;
+      }
+    }
+    &:nth-child(2){
+      h2{
+        color: @baseGreenColor;
+      }
+    }
+    &:nth-child(3){
+      h2{
+        color: @baseBlueColor;
+      }
+    }
+
+    .www-product-title{
+      color: @fontDarkColor;
+      font-size: 41/@baseRem;
+      font-weight: normal;
+      margin-top: 0;
+      margin-bottom: 45/@baseRem;
+      min-height: 122/@baseRem;
+    }
+    .www-product-price{
+      font-size: 40/@baseRem;
+      color: @baseColor;
+      font-weight: normal;
+      margin: 0;
+    }
+  }
+
+  .www-large-products{
+    border-top: 10/@baseRem solid @borderColorLight;
+
+    .www-product-col{
+      padding: 20/@baseRem;
+
+      &:nth-child(1){
+        padding-left: 0;
+        padding-right: 55/@baseRem;
+      }
+
+      & + .www-product-col {
+        border-left: 10/@baseRem solid @borderColorLight;
+      }
+    }
+  }
+
+  &.www-products-container-flat{
+    .text-left{
+      text-align: left;
+    }
+
+
+    .www-product-col{
+      h2{
+        font-weight: 400;
+        color: @fontDarkColor;
+      }
+      h3.margin-bottom{
+        margin-bottom: 60px;
+      }
+
+      & + .www-product-col{
+        border-left: 0;
+      }
+
+    }
+  }
+
+  hr{
+    border-top: 15/@baseRem solid @borderColorLight;
+    margin: 0 -.5rem;
+
+    &.www-meduim{
+      border-top-width: 10/@baseRem;
+    }
+  }
+
+}
+
+.www-border-left-bottom{
+  border-bottom: 2px solid @borderColorLight;
+  border-left: 2px solid @borderColorLight;
+}
+
+.border-right{
+  border-right:1px solid #dedede;
+}
+.small-size{
+  max-width:80%;
+}
+
+.www-custom-row{
+  margin-left: -.5rem;
+  margin-right: -.5rem;
+}
+
+.www-img-container {
+  height: 32.6vw;
+  max-height: 352px;
+  display: table-cell;
+  vertical-align: middle;
+
+  .img-responsive {
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+  }
+}
+
+.www-brands-row{
+  margin-left: -.5rem;
+  margin-right: -.5rem;
+  background: @borderColorLight;
+
+  ul{
+    padding: 17/@baseRem 16rem/@baseRem 1/@baseRem;
+    list-style: none;
+    margin: 0;
+
+    li{
+      float: left;
+      width: 33.33%;
+      padding: 0 8/@baseRem;
+
+      a{
+        display: block;
+        background: @white;
+        border: 1px solid @borderColor;
+        text-align: center;
+        margin-bottom: 16/@baseRem;
+
+        img{
+          max-width: 100%;
+        }
+      }
+    }
+  }
+}
+
+.www-more-link{
+  font-size: 36/@baseRem;
+  color: @fontMediumDark;
+  padding: 30/@baseRem 30/@baseRem 5/@baseRem;
+  display: inline-block;
+}
+
+@media only screen and (min-width: 992px){
+  .bx-wrapper .bx-pager.bx-default-pager a{
+    width: 30px;
+    height: 30px;
+  }
+}
