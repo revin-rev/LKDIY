@@ -70,7 +70,8 @@
 			<div class="user-single-text">
 				<span class="myprofile-head">生日</span>
 			    <span class="pull-right">
-				1983-06-21
+
+					<input type="text" id='picker-name' value="1980 - 01 - 1"/>
 				<a href="#" class="back-to-prev-btn  product-detail-color-new">
 					<span class="icon icon-right"></span>
 				</a>
@@ -131,6 +132,39 @@
 	<script type='text/javascript' src='//g.alicdn.com/sj/lib/zepto/zepto.min.js' charset='utf-8'></script>
 	<script type='text/javascript' src='../../static/mobile/common/plugins/sui-mobile/dist/js/sm-all.min.js' charset='utf-8'></script>
 	<script type='text/javascript' src='../../static/mobile/common/scripts/main.js' charset='utf-8'></script>
-	<script type='text/javascript' src='../../static/mobile/user/scripts/water.js' charset='utf-8'></script>
+
+	<script>
+		var yearsArray = [];
+		var daysArray = [];
+		var d = new Date();
+
+		for(var i = 1960;i <= d.getFullYear(); i++ ){
+			yearsArray.push(i + ' -' );
+		}
+		for(var i = 1;i <= 31; i++ ){
+			daysArray.push(i);
+		}
+
+		$("#picker-name").picker({
+			toolbarTemplate: '<header class="bar bar-nav">\
+							  <button class="button button-link pull-right close-picker">确定</button>\
+							  <h1 class="title">生日</h1>\
+							  </header>',
+			cols: [
+				{
+					textAlign: 'center',
+					values: yearsArray
+				},
+				{
+					textAlign: 'center',
+					values: ['01 -', '02 -', '03 -', '04 -', '05 -', '06 -', '07 -','08 -','09 -','10 -','11 -','12 -']
+				},
+				{
+					textAlign: 'center',
+					values: daysArray
+				}
+			]
+		});
+	</script>
 </body>
 </html>	

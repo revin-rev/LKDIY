@@ -60,15 +60,7 @@
                     <div class="item-inner">
                         <div class="item-title label">所在地区</div>
                         <div class="item-input user-select-input">
-                            <select>
-                                <option></option>
-                                <option>Country 1</option>
-                                <option>Country 2</option>
-                                <option>Country 3</option>
-                                <option>Country 4</option>
-                                <option>Country 5</option>
-                                <option>Country 6</option>
-                            </select>
+                            <input type="text" id="picker-name">
                             <span class="icon icon-right"></span>
                         </div>
                     </div>
@@ -117,6 +109,19 @@
 <script>
     $(document).on("click", ".sidebar-btn", function() {
         $.openPanel("#sidebar");
+    });
+
+    $("#picker-name").picker({
+        toolbarTemplate: '<header class="bar bar-nav">\
+							  <button class="button button-link pull-left close-picker"><span class="icon icon-left"></span></button>\
+							  <h1 class="title">选择地区</h1>\
+							  </header>',
+        cols: [
+            {
+                textAlign: 'left',
+                values: ['北京', '天津', '河北省', '山西省', '内蒙古自治区', '辽宁省', '吉林省','黑龙江省','上海','江苏省','浙江省','安徽省','福建省','南京市','无锡市','徐州市','常州市','苏州市','南通市','连云港市','淮安市','盐城市','扬州市','镇江市','泰州市','宿迁市','玄武区','白下区','建邺区','鼓楼区','秦淮区','下关区','浦口区','栖霞区','雨花台区','江宁区','六合区','溧水区','高淳区']
+            }
+        ]
     });
 
     (function($){
