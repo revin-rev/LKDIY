@@ -41,6 +41,7 @@
           span{
             color:#ce0000;
             margin-left:10/@baseRem;
+            vertical-align: middle;
           }
         }
  
@@ -264,7 +265,7 @@ color:#222;
   }
 }
 .order-details-paid-products-container-completed{
-      height: 846px;
+      height: 457px;
 }
 .order-detail-completed-block{
   background: #fff;
@@ -465,8 +466,8 @@ border-bottom: 1px solid #d7d7d7;
   left: 50%;
   bottom: 0;
   transform: translateX(-50%);
-  width: 23px;
-  height: 23px;
+  width: 23/@baseRem;
+  height: 23/@baseRem;
   border-radius: 50%;
   background: inherit;
   top: 0%;
@@ -474,7 +475,7 @@ border-bottom: 1px solid #d7d7d7;
 .timeline ul li div {
   position: relative;
   bottom: 0;
-  width:700px;
+  width:700/@baseRem;
   padding: 0 20/@baseRem;
   margin-left: 65/@baseRem;
   font-size:30/@baseRem;
@@ -486,6 +487,7 @@ border-bottom: 1px solid #d7d7d7;
   background: url('../images/order-tracking.png') no-repeat;
       width: 50/@baseRem;
     height: 50/@baseRem;
+        background-size: contain;
 }
 
 /* -----------------------------------------------
@@ -508,6 +510,8 @@ border-bottom: 1px solid #d7d7d7;
 
       img{
         max-width:100%;
+        width:120/@baseRem;
+        height:110/@baseRem;
       }
       
 }
@@ -530,8 +534,8 @@ h3{
 a{
   margin-top:218/@baseRem;
   display: inline-block;
-  padding:20px 65px;
-  border-radius:5px;
+  padding:20/@baseRem 65/@baseRem;
+  border-radius:5/@baseRem;
   color:#c41411;
   font-size:50/@baseRem;
   text-align: center;
@@ -559,7 +563,8 @@ a{
     right: 1.6796875rem;
     span{
       color:#fff;
-      font-size:36/@baseRem;
+      font-size:36/@baseRem!important;
+      padding-right: .3rem!important;
     }
 }
 
@@ -577,10 +582,10 @@ margin-top:50/@baseRem;
 .shopping-cart-product-comment{
   padding-left:50/@baseRem;
   width:30%;
-  padding-right:45/@baseRem;
+  //padding-right:45/@baseRem;
 }
 .shopping-cart-product-list-order-detail-comment{
-  width:61%;
+  width:58%;
   .shopping-cart-product-price{
     border:1px solid #d7d7d7;
     margin: 0;
@@ -598,7 +603,8 @@ margin-top:50/@baseRem;
 ul{
   list-style: none;
   float: left;
-  width: 95%;
+  width: 96%;
+  padding-left: 2.5rem;
   li{
     float: left;
     width: 22%;
@@ -623,6 +629,7 @@ ul{
   border-bottom: 1px solid #d7d7d7;
   margin-bottom: 50/@baseRem;
   background-color: #fff;
+  padding-left:1.5rem;
 .order-detail-comment-footer{
   h2{
   margin-left:70/@baseRem;
@@ -634,6 +641,8 @@ ul{
   }
   img{
     padding-top:56.32/@baseRem;
+    height:auto;
+    width: 1.6015625rem;
   }
 }
 }
@@ -1157,7 +1166,7 @@ label.label-checkbox i.icon-form-checkbox:after {
           margin-bottom: 0;
           background-color: #fff;
           border-top: 2px solid #d7d7d7;
-          width: 100%;
+          width: 95.5%;
           float: left;
            
           }
@@ -1283,5 +1292,11 @@ ul.order-detail-information-refund-1{
      /* -----------------------------------------------
  * Apply For Return Notice Ended
  * --------------------------------------------- */
-
+.order-detail-apply-refunding{
+          label{
+             color:#c41411;
+             font-size:46/@baseRem;
+          }
+         
+        }
 

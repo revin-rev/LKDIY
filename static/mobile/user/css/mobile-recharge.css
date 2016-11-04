@@ -1,115 +1,115 @@
 /******************************************************
    *Variables START
 ******************************************************/
-.content .utilities-recharge-number-main {
+.content .trade-recharge-number-main {
   border-bottom: 2px solid #d7d7d7;
 }
-.content .utilities-recharge-number-main .utilities-recharge-number {
+.content .trade-recharge-number-main .trade-recharge-number {
   text-align: center;
   padding-top: 2.9296875rem;
   padding-bottom: 2.9296875rem;
 }
-.content .utilities-recharge-number-main .utilities-recharge-number span {
+.content .trade-recharge-number-main .trade-recharge-number span {
   font-size: 2.8125rem;
   color: #cccccc;
 }
-.content .utilities-recharge-number-main .utilities-recharge-imges {
+.content .trade-recharge-number-main .trade-recharge-imges {
   text-align: center;
   padding-top: 2.9296875rem;
   padding-bottom: 2.9296875rem;
 }
-.content .utilities-recharge-number-main .utilities-recharge-imges img {
+.content .trade-recharge-number-main .trade-recharge-imges img {
   width: 3.125rem;
   height: 3.125rem;
   float: right;
   margin-right: 1.953125rem;
 }
-.content .utilities-custom-css {
+.content .trade-custom-css {
   border-top: 0.46875rem solid #f7f7f7;
   border-bottom: 1px solid #f7f7f7;
 }
-.content .utilities-custom-css .utilities-recharge-number-main-1 {
+.content .trade-custom-css .trade-recharge-number-main-1 {
   border-top: 1px solid #d7d7d7;
   background-color: #fff;
   margin: 0;
   padding: 0;
   list-style: none;
 }
-.content .utilities-custom-css .utilities-recharge-number-main-1 .utilities-recharge-yen5 {
+.content .trade-custom-css .trade-recharge-number-main-1 .trade-recharge-yen5 {
   text-align: center;
   padding: 3.125rem;
 }
-.content .utilities-custom-css .utilities-recharge-number-main-1 .utilities-recharge-yen5 span {
+.content .trade-custom-css .trade-recharge-number-main-1 .trade-recharge-yen5 span {
   font-size: 1.875rem;
   color: #cccccc;
 }
-.content .utilities-custom-css .utilities-recharge-number-main-1 .utilities-recharge-yen10 {
+.content .trade-custom-css .trade-recharge-number-main-1 .trade-recharge-yen10 {
   border-left: 0.1953125rem solid #f7f7f7;
   text-align: center;
   padding: 3.125rem;
 }
-.content .utilities-custom-css .utilities-recharge-number-main-1 .utilities-recharge-yen10 span {
+.content .trade-custom-css .trade-recharge-number-main-1 .trade-recharge-yen10 span {
   font-size: 1.875rem;
   color: #cccccc;
 }
-.content .utilities-custom-css .utilities-recharge-number-main-1 .utilities-recharge-yen20 {
+.content .trade-custom-css .trade-recharge-number-main-1 .trade-recharge-yen20 {
   border-left: 0.1953125rem solid #f7f7f7;
   text-align: center;
   padding: 3.125rem;
 }
-.content .utilities-custom-css .utilities-recharge-number-main-1 .utilities-recharge-yen20 span {
+.content .trade-custom-css .trade-recharge-number-main-1 .trade-recharge-yen20 span {
   font-size: 1.875rem;
   color: #333333;
 }
-.content .utilities-custom-css .utilities-recharge-number-main-1 .active {
+.content .trade-custom-css .trade-recharge-number-main-1 .active {
   border: 2px solid #c41411;
 }
-.content .utilities-custom-css .utilities-recharge-number-main-1 .active span {
+.content .trade-custom-css .trade-recharge-number-main-1 .active span {
   color: #c41411;
   font-size: 1.875rem;
 }
-.content .utilities-recharge-total {
+.content .trade-recharge-total {
   border-top: 0.1953125rem solid #f7f7f7;
   background-color: #fff;
   margin: 0;
   padding: 0;
   list-style: none;
 }
-.content .utilities-recharge-total .utilities-recharge-yen30 {
+.content .trade-recharge-total .trade-recharge-yen30 {
   text-align: center;
   padding: 3.125rem;
 }
-.content .utilities-recharge-total .utilities-recharge-yen30 span {
+.content .trade-recharge-total .trade-recharge-yen30 span {
   font-size: 1.875rem;
   color: #333333;
 }
-.content .utilities-recharge-total .utilities-recharge-yen50 {
+.content .trade-recharge-total .trade-recharge-yen50 {
   text-align: center;
   border-left: 0.1953125rem solid #f7f7f7;
   padding: 3.125rem;
 }
-.content .utilities-recharge-total .utilities-recharge-yen50 span {
+.content .trade-recharge-total .trade-recharge-yen50 span {
   font-size: 1.875rem;
   color: #333333;
 }
-.content .utilities-recharge-total .utilities-recharge-yen100 {
+.content .trade-recharge-total .trade-recharge-yen100 {
   text-align: center;
   padding: 3.125rem;
   border-left: 0.1953125rem solid #f7f7f7;
 }
-.content .utilities-recharge-total .utilities-recharge-yen100 span {
+.content .trade-recharge-total .trade-recharge-yen100 span {
   font-size: 1.875rem;
   color: #333333;
 }
-.content .utilities-recharge-total .custom_width {
+.content .trade-recharge-total .custom_width {
   width: 33%;
   margin: 0;
   padding-bottom: 4.125rem;
 }
-.content .utilities-recharge-total .active {
+.content .trade-recharge-total .active {
   border: 2px solid #c41411;
 }
-.content .utilities-recharge-total .active span {
+.content .trade-recharge-total .active span {
   color: #c41411;
   font-size: 1.875rem;
 }
@@ -119,11 +119,11 @@
   border-top: 2px solid #ededed;
   width: 100%;
 }
-.main-bar .utilities-www-custom-width {
+.main-bar .www-custom-width {
   width: 70%;
   float: left;
 }
-.main-bar .utilities-www-custom-width .tab-label-mobile-recharge {
+.main-bar .www-custom-width .tab-label-mobile-recharge {
   padding: 0;
   list-style: none;
   float: right;
@@ -131,7 +131,7 @@
   width: auto;
   white-space: nowrap;
 }
-.main-bar .utilities-www-custom-width .tab-label-mobile-recharge li {
+.main-bar .www-custom-width .tab-label-mobile-recharge li {
   color: #c41411;
   font-size: 1.640625rem;
   padding: 0.390625rem;
@@ -156,7 +156,7 @@
 /* -----------------------------------------------
  * Mobile Recharge-2 Start
  * --------------------------------------------- */
-.content .utilities-recharge-number-main .utilities-recharge-number-changed span.utilities-mobile-recharge-number {
+.content .trade-recharge-number-main .trade-recharge-number-changed span.trade-mobile-recharge-number {
   color: #333;
   font-size: 2.8125rem;
   float: left;
@@ -164,7 +164,7 @@
   text-align: left;
   margin-left: 7%;
 }
-.content .utilities-recharge-number-main .utilities-recharge-number-changed label {
+.content .trade-recharge-number-main .trade-recharge-number-changed label {
   font-size: 1.171875rem;
   color: #666666;
   float: left;
@@ -176,18 +176,18 @@
 /* -----------------------------------------------
  * Water Electricity_gas Started
  * --------------------------------------------- */
-.content .utilities-recharge-number-main-1 {
+.content .trade-recharge-number-main-1 {
   background-color: #fff;
 }
-.content .utilities-recharge-number-main-1 .utilities-recharge-yen5 {
+.content .trade-recharge-number-main-1 .trade-recharge-yen5 {
   text-align: center;
   padding-top: 2.9296875rem;
 }
-.content .utilities-recharge-number-main-1 .utilities-recharge-yen5 img {
+.content .trade-recharge-number-main-1 .trade-recharge-yen5 img {
   width: 5.78125rem;
   height: 5.4296875rem;
 }
-.content .utilities-recharge-number-main-1 .utilities-recharge-yen5 span {
+.content .trade-recharge-number-main-1 .trade-recharge-yen5 span {
   font-size: 1.40625rem;
   padding-bottom: 1.953125rem;
   color: #333333;
@@ -195,16 +195,16 @@
   display: inline-block;
   margin-top: 2.421875rem;
 }
-.content .utilities-recharge-number-main-1 .utilities-recharge-yen10 {
+.content .trade-recharge-number-main-1 .trade-recharge-yen10 {
   border-left: 0.1953125rem solid #f7f7f7;
   text-align: center;
   padding-top: 2.34375rem;
 }
-.content .utilities-recharge-number-main-1 .utilities-recharge-yen10 img {
+.content .trade-recharge-number-main-1 .trade-recharge-yen10 img {
   width: 3.984375rem;
   height: 6.1328125rem;
 }
-.content .utilities-recharge-number-main-1 .utilities-recharge-yen10 span {
+.content .trade-recharge-number-main-1 .trade-recharge-yen10 span {
   font-size: 1.40625rem;
   padding-bottom: 1.953125rem;
   color: #333333;
@@ -212,16 +212,16 @@
   display: inline-block;
   margin-top: 2.421875rem;
 }
-.content .utilities-recharge-number-main-1 .utilities-recharge-yen20 {
+.content .trade-recharge-number-main-1 .trade-recharge-yen20 {
   border-left: 0.1953125rem solid #f7f7f7;
   text-align: center;
   padding-top: 2.734375rem;
 }
-.content .utilities-recharge-number-main-1 .utilities-recharge-yen20 img {
+.content .trade-recharge-number-main-1 .trade-recharge-yen20 img {
   width: 3.4375rem;
   height: 5.78125rem;
 }
-.content .utilities-recharge-number-main-1 .utilities-recharge-yen20 span {
+.content .trade-recharge-number-main-1 .trade-recharge-yen20 span {
   font-size: 1.40625rem;
   padding-bottom: 1.953125rem;
   color: #333333;
@@ -229,7 +229,7 @@
   display: inline-block;
   margin-top: 2.421875rem;
 }
-.content .utilities-recharge-number-main-1 .custom_width {
+.content .trade-recharge-number-main-1 .custom_width {
   width: 33%;
   margin-left: 0%;
 }
@@ -239,10 +239,10 @@
 /* -----------------------------------------------
  * Water started
  * --------------------------------------------- */
-.content .utilities-address-checkbox-row.utilities-top-row {
+.content .trade-address-checkbox-row.trade-top-row {
   padding: 1.171875rem 1.953125rem;
 }
-.content .utilities-address-checkbox-row {
+.content .trade-address-checkbox-row {
   border-bottom: 0.1953125rem solid #ededed;
   padding: 1.953125rem;
   font-size: 1.5625rem;
@@ -271,7 +271,7 @@
   width: 2.34375rem;
   height: 2.34375rem;
 }
-.utilities-bottom-fixed-btn {
+.trade-bottom-fixed-btn {
   background: #dedede;
   color: #fff;
   font-size: 1.953125rem;
@@ -282,7 +282,7 @@
   z-index: 10;
   text-align: center;
 }
-.utilities-bottom-fixed-btn a {
+.trade-bottom-fixed-btn a {
   display: block;
   color: #cccccc;
   padding: 1.40625rem 1.953125rem;
@@ -293,7 +293,7 @@
 /* -----------------------------------------------
  * Water-2 Start
  * --------------------------------------------- */
-.utilities-bottom-fixed-btn {
+.trade-bottom-fixed-btn {
   background: #c41411;
   color: #fff;
   font-size: 1.953125rem;
@@ -304,7 +304,7 @@
   z-index: 10;
   text-align: center;
 }
-.utilities-bottom-fixed-btn a {
+.trade-bottom-fixed-btn a {
   display: block;
   color: #fff;
   padding: 1.40625rem 1.953125rem;
@@ -440,7 +440,7 @@
 /* -----------------------------------------------
  * Fuel Card Start
  * --------------------------------------------- */
-.content .utilities-custom-css .fuel_card_color .utilities-recharge-number span {
+.content .trade-custom-css .fuel_card_color .trade-recharge-number span {
   color: #333;
   font-size: 1.875rem;
   margin-top: 3.046875rem;
@@ -448,23 +448,23 @@
   float: left;
   padding-left: 13%;
 }
-.content .utilities-custom-css .fuel_card_color .product-list-price-value-inc {
+.content .trade-custom-css .fuel_card_color .product-list-price-value-inc {
   margin: 2rem 0rem 0rem 0rem;
   padding-bottom: 1.875rem;
 }
-.content .utilities-custom-css .fuel_card_color .product-list-price-value-inc .decrement {
+.content .trade-custom-css .fuel_card_color .product-list-price-value-inc .decrement {
   font-size: 2.34375rem;
   border: 1px solid #f3f5f7;
   padding: 0.5859375rem 0.9375rem 0.5859375rem 0.9375rem;
 }
-.content .utilities-custom-css .fuel_card_color .product-list-price-value-inc .number {
+.content .trade-custom-css .fuel_card_color .product-list-price-value-inc .number {
   font-size: 2.34375rem;
   border: 1px solid #f3f5f7;
   padding: 0.4859375rem 0.9375rem 0.5859375rem 0.9375rem;
   position: relative;
   left: -0.1171875rem;
 }
-.content .utilities-custom-css .fuel_card_color .product-list-price-value-inc .increment {
+.content .trade-custom-css .fuel_card_color .product-list-price-value-inc .increment {
   font-size: 2.34375rem;
   border: 1px solid #f3f5f7;
   padding: 0.5859375rem 0.9375rem 0.5859375rem 0.9375rem;
@@ -477,7 +477,7 @@
 /* -----------------------------------------------
  * Fuel Card 2 Start
  * --------------------------------------------- */
-.content .utilities-recharge-number-main .utilities-recharge-number span.fuel_card_2_color {
+.content .trade-recharge-number-main .trade-recharge-number span.fuel_card_2_color {
   font-size: 2.109375rem;
   color: #333;
 }

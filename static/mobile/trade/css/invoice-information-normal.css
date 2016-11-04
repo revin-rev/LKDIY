@@ -1,9 +1,6 @@
 /******************************************************
    *Variables START
 ******************************************************/
-.content {
-  padding-top: 5.2734375rem;
-}
 .trade-bottom-fixed-btn {
   background: #c41411;
   color: #fff;
@@ -26,7 +23,7 @@
 .trade-address-checkbox-row {
   border-top: 2px solid #d7d7d7;
   border-bottom: 2px solid #d7d7d7;
-  padding: 1.953125rem;
+  padding: 1.05313rem;
   font-size: 1.5625rem;
   color: #666666;
   margin-bottom: 1.953125rem;
@@ -275,4 +272,7 @@ width:calc(100% - 11.953125rem);
 .popup-overlay,
 .preloader-indicator-overlay {
   background: rgba(17, 17, 17, 0.5);
+}
+#tab1 {
+  height: 65.39375rem;
 }

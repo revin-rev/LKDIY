@@ -30,7 +30,7 @@
     padding: 0rem;
     //margin: 3.6328125rem 0;
     margin-bottom: 0;
-    height: calc(100vh - 3.6328125rem );
+   // height: calc(100vh - 3.6328125rem );
     background:#fff;
 
   }
@@ -94,6 +94,12 @@
       .sso-list-block
       {
         padding-top:145/@baseRem;
+        padding-left: 15/@baseRem;
+        padding-right: 15/@baseRem;
+
+        ul{
+          padding:15/@baseRem;
+        }
       }
 
       .sso-text
@@ -141,7 +147,7 @@
       }
       .input-large
       {
-        width: 50%;
+        width: 49%;
         margin-right:53/@baseRem;
         float: left;
       }
@@ -207,6 +213,66 @@
   }
 
 
+}
+
+.popup-create{
+  top: 10%;
+    width: 90%;
+    height: 78%;
+    left: 5%;
+    background-color: #f7f7f7;
+     p{
+      text-align: center;
+      font-size:42/@baseRem;
+      color:#333333;
+    }
+  .content-block{
+    width:90%;
+    float: left;
+    margin: 0;
+    background-color:#fff;
+    padding:50/@baseRem;
+    margin-left:5%;
+   
+   span{
+     font-size:30/@baseRem;
+     color:#666666;
+     line-height: 50/@baseRem;
+     margin-bottom: 10px;
+     float: left;
+     
+   } 
+  }
+  a.close-popup{
+    font-size: 30/@baseRem;
+    color: #666666;
+    border: 2px solid #dedede;
+    border-radius: 5px;
+    position: relative;
+    top: 5%;
+    width: 50%;
+    float: left;
+    left: 25%;
+    padding: 35/@baseRem 35/@baseRem;
+
+    }
+     
+}
+.popup a {
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+    color: #c41411;
+    border-top: 1px solid #d7d7d7;
+    font-size: 1.5625rem;
+    padding-top: 2.34375rem;
+}
+.popup .content-block .modal-overlay, .popup-overlay, .preloader-indicator-overlay {
+    background: rgba(17, 17, 17, 0.5);
+}
+
+.list-block input[type=number] {
+    -moz-appearance:textfield;
 }
   
 

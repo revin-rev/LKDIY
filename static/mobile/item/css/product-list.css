@@ -372,7 +372,7 @@ ul li a {
   font-size: 1.40625rem;
   display: block;
   width: 100%;
-  padding: 1.171875rem 1.7578125rem;
+  padding: 1.171875rem 1.3671875rem;
   text-align: center;
   color: #666666;
   background-color: #f3f5f7;
@@ -389,23 +389,20 @@ ul li a.active {
   padding-left: 0.78125rem;
 }
 .product-list-price-value-inc .decrement {
-  font-size: 3.125rem;
+  font-size: 1.171875rem;
   border: 1px solid #f3f5f7;
-  padding: 1.171875rem;
 }
 .product-list-price-value-inc .number {
-  font-size: 3.125rem;
+  font-size: 1.171875rem;
   border: 1px solid #f3f5f7;
   position: relative;
-  padding: 1.171875rem;
   left: -3px;
 }
 .product-list-price-value-inc .increment {
-  font-size: 3.125rem;
+  font-size: 1.171875rem;
   border: 1px solid #f3f5f7;
   position: relative;
   right: 5px;
-  padding: 1.171875rem;
 }
 .product-list-price-value-inc .product-detail-stock {
   font-size: 1.40625rem;
@@ -418,7 +415,7 @@ ul li a.active {
 }
 .product-detail-footer {
   background-color: #c41411;
-  padding: 1.953125rem 0rem 1.7578125rem 2.03125rem;
+  padding: 1.953125rem 0rem 1.7578125rem 0rem;
   text-align: center;
   font-size: 1.953125rem;
 }

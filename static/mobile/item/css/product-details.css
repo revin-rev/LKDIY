@@ -623,4 +623,7 @@ top:calc(50% - 5.15625rem);
   width: 1.7578125rem;
   height: 2.65625rem;
 }
+.header-base-color ~ .item-content {
+  padding-top: 0rem;
+}
 /*--- best products end ----*/
