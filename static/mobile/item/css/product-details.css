@@ -359,6 +359,8 @@ hr.www-meduim {
   color: #333333;
   padding: 1.171875rem 1.171875rem 1.171875rem 1.953125rem;
   font-size: 1.40625rem;
+  margin-bottom: 8rem;
+  display: inline-block;
 }
 .content-block-title {
   color: #222222;

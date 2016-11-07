@@ -157,6 +157,7 @@
   padding: 0rem 1.5625rem;
   background-size: contain;
   float: left;
+  position: absolute;
 }
 .content .product-list-products-container .item-www-large-products .product-list-laterally-product-col {
   border-left: 0rem;
@@ -465,4 +466,5 @@
   padding: 0rem 1.5625rem;
   background-size: contain;
   float: left;
+  position: absolute;
 }
