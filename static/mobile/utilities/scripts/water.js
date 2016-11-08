@@ -20,7 +20,7 @@ $(document).on('click','.create-popup', function () {
 
 $(document).on('click','.create-popup-area', function () {
   var popupHTML = '<div class="popup popup-area">'+
-  '<div href="#" class="back-to-prev-btn"><span class="icon icon-left pull-left"></span><p class="popup-top-class">缴费单位</p></div>'+
+  '<div href="#" class="back-to-prev-btn"><span class="icon icon-left pull-left"></span><p class="popup-top-class">选择地区</p></div>'+
   
   '<div class="content-block content-block-border">'+
   '<ul>'+

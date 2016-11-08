@@ -52,6 +52,7 @@
 }
 .content .user-address-checkbox-row .user-single-second-brdr {
   border-bottom: 2px solid #d7d7d7;
+  margin-bottom: 5rem;
 }
 .content .user-profile-checkbox-row {
   border-top: 0;
@@ -130,7 +131,7 @@
   margin-bottom: 2.0703125rem;
 }
 .content .sso-form .sso-list-block ul li.sso-margin-bottom .sso-text {
-  height: 3.125rem;
+  height: 4.125rem;
   color: #333333;
   border-radius: 3px;
   border: 1px solid #dedede;
@@ -144,15 +145,15 @@
 }
 .content .sso-form .sso-list-block ul li.sso-margin-bottom img {
   width: 45%;
-  height: 3.125rem;
+  height: 4.125rem;
   float: left;
 }
 .content .sso-form .sso-list-block ul li.sso-margin-bottom .medium {
   border: 1px solid #cccccc;
-  padding-top: 0.9765625rem;
+  padding-top: 1.5rem;
   padding-bottom: 1.09375rem;
   display: inline-block;
-  height: 3.16914062rem;
+  height: 4.125rem;
   vertical-align: middle;
   color: #333;
   border-radius: 3px;

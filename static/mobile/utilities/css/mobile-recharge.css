@@ -141,7 +141,7 @@
 .main-bar .external-fourth {
   background-color: #ce0000;
   height: 5.46875rem;
-  width: 30%;
+  width: 27%;
   float: right;
 }
 .main-bar .external-fourth .tab-label-buy-now {
@@ -250,11 +250,16 @@
   background: #fff;
 }
 .content .label-switch {
-  width: 34%;
+  width: 40%;
   border-radius: .8rem;
   height: 3.4375rem;
   display: inline;
   color: #999999;
+}
+.content .label-switch span {
+  text-align: right;
+  display: inline-block;
+  width: 83%;
 }
 .content .product-detail-color {
   color: #cccccc;
@@ -263,15 +268,22 @@
   color: #999;
   margin-left: 5%;
 }
-.content .order-spec-text-changed-area {
+.content span.order-spec-text-changed-one {
+  font-size: 1.1rem;
+  width: 76%;
+}
+.content .order-spec-text-changed-three {
   color: #999;
   margin-left: 5%;
+}
+.content .order-spec-text-changed-area {
+  color: #999;
 }
 .content img {
   width: 2.34375rem;
   height: 2.34375rem;
 }
-.utilities-bottom-fixed-btn {
+.utilities-bottom-fixed-btned {
   background: #dedede;
   color: #fff;
   font-size: 1.953125rem;
@@ -282,7 +294,7 @@
   z-index: 10;
   text-align: center;
 }
-.utilities-bottom-fixed-btn a {
+.utilities-bottom-fixed-btned a {
   display: block;
   color: #cccccc;
   padding: 1.40625rem 1.953125rem;
@@ -413,6 +425,7 @@
   display: inline-block;
   color: #fff;
   font-size: 1.640625rem;
+  margin-left: -1%;
 }
 .popup-area {
   top: -0.1171875rem;
@@ -449,23 +462,23 @@
   padding-left: 13%;
 }
 .content .utilities-custom-css .fuel_card_color .product-list-price-value-inc {
-  margin: 2rem 0rem 0rem 0rem;
+  margin: 3rem 0rem 0rem 2rem;
   padding-bottom: 1.875rem;
 }
 .content .utilities-custom-css .fuel_card_color .product-list-price-value-inc .decrement {
-  font-size: 2.34375rem;
+  font-size: 1.34375rem;
   border: 1px solid #f3f5f7;
   padding: 0.5859375rem 0.9375rem 0.5859375rem 0.9375rem;
 }
 .content .utilities-custom-css .fuel_card_color .product-list-price-value-inc .number {
-  font-size: 2.34375rem;
+  font-size: 1.34375rem;
   border: 1px solid #f3f5f7;
   padding: 0.4859375rem 0.9375rem 0.5859375rem 0.9375rem;
   position: relative;
   left: -0.1171875rem;
 }
 .content .utilities-custom-css .fuel_card_color .product-list-price-value-inc .increment {
-  font-size: 2.34375rem;
+  font-size: 1.34375rem;
   border: 1px solid #f3f5f7;
   padding: 0.5859375rem 0.9375rem 0.5859375rem 0.9375rem;
   position: relative;
@@ -478,8 +491,13 @@
  * Fuel Card 2 Start
  * --------------------------------------------- */
 .content .utilities-recharge-number-main .utilities-recharge-number span.fuel_card_2_color {
-  font-size: 2.109375rem;
+  font-size: 1.899375rem;
   color: #333;
+}
+.product-review-center {
+  text-align: center;
+  width: 100%;
+  display: inline-block;
 }
 /* -----------------------------------------------
  * Fuel Card 2 Ended

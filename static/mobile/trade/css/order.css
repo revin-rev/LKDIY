@@ -1,6 +1,10 @@
 /******************************************************
    *Variables START
 ******************************************************/
+.product-review-center {
+  display: inline-block;
+  width: 100%;
+}
 .content .order-deatil-fixed-tab {
   padding-top: 1.171875rem;
 }
@@ -210,7 +214,7 @@
   margin: 0;
   border-top: 1px solid #d7d7d7;
   border-bottom: 0.546875rem solid #fff;
-  height: 970px;
+  height: 53.320313rem;
 }
 .content .order-details-large-products-new .order-details-paid-products-container .order-detail-paid-product-information {
   font-size: 1.796875rem;
@@ -222,12 +226,12 @@
   margin-bottom: 1.8359375rem;
 }
 .content .order-details-large-products-new .order-details-paid-products-container-completed {
-  height: 457px;
+  height: 53.320313rem;
 }
 .content .order-details-large-products-new .order-detail-completed-block {
   background: #fff;
   padding: 1.953125rem 2.34375rem 2.34375rem 2.34375rem;
-  margin: 0;
+  margin-bottom: 0.78125rem;
   float: left;
   width: 100%;
 }

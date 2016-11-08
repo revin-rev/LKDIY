@@ -111,7 +111,11 @@ top:calc(50% - 1.7578125rem);
   border-bottom: 2px solid #d7d7d7;
   margin-left: 0;
   width: 25%;
-  min-height: 12.03125rem;
+  min-height: 12.5rem;
+}
+.user-main-links .col-25 img {
+  width: 4.765625rem;
+  height: 4.765625rem;
 }
 .user-main-links .col-25 h2 {
   font-weight: normal;

@@ -160,7 +160,7 @@
 .popup-create {
   top: 10%;
   width: 90%;
-  height: 78%;
+  height: 74%;
   left: 5%;
   background-color: #f7f7f7;
 }
@@ -190,11 +190,12 @@
   border: 2px solid #dedede;
   border-radius: 5px;
   position: relative;
-  top: 5%;
+  top: 3%;
   width: 50%;
   float: left;
   left: 25%;
   padding: 1.3671875rem 1.3671875rem;
+  margin-bottom: 0.5859375rem;
 }
 .popup a {
   text-align: center;

@@ -154,7 +154,6 @@
   padding: 1.5625rem;
 }
 .content .product-list-products-container .item-www-large-products .product-list-laterally-product-col:nth-child(1) img.product-list-added-new {
-  padding: 0rem 1.5625rem;
   background-size: contain;
   float: left;
   position: absolute;
@@ -463,7 +462,6 @@
   margin: 0;
 }
 .content .product-list-products-container .item-large-products .product-list-laterally-product-col:nth-child(1) img.product-list-added-new {
-  padding: 0rem 1.5625rem;
   background-size: contain;
   float: left;
   position: absolute;

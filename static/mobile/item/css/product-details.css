@@ -199,7 +199,6 @@
   border: 3px solid #d7d7d7;
   height: auto;
   border-left: none;
-  width: 27.77777777777778%;
 }
 .product-detail-tabs-footer a.external-first .icon.icon-collect {
   background: url("../image/product-detail-heart.png") no-repeat;
@@ -217,7 +216,6 @@
   border: 3px solid #d7d7d7;
   height: auto;
   border-left: none;
-  width: 27.77777777777778%;
 }
 .product-detail-tabs-footer a.external-second .icon-customer-service {
   background: url("../image/product-detail-customer-service.png") no-repeat;
@@ -340,7 +338,7 @@
   margin-left: -0.5rem;
   margin-right: -0.5rem;
 }
-hr.www-meduim {
+hr.item-www-meduim {
   margin: 0rem;
   border-top: 2.03125rem solid #f3f5f7;
   border-bottom: 1px solid #d7d7d7;
