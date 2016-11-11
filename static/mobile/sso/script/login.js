@@ -68,7 +68,7 @@
   '<span>③：积极联系卖家协商，并关注退款状态和退款超</span><br/>'+
 
   '</div>'+
-  '<a href="#" class="close-popup">取消</a>'+
+  '<a href="#" class="close-popup">确定</a>'+
   '</div>'
   $.popup(popupHTML);
 

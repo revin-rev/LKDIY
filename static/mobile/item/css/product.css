@@ -141,9 +141,10 @@
 }
 .product-list-bar-tab {
   background-color: #fff;
-  padding-top: 0.234375rem;
+  padding-top: 0.534375rem;
   z-index: 10;
-  height: 4.84375rem;
+  height: 4.0625rem;
+  border-bottom: 0.390625rem solid #eeeeee;
 }
 .product-list-up-down {
   position: relative;
@@ -427,3 +428,13 @@
   min-height: 4.765625rem;
 }
 /*--- best products end ----*/
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .item-www-product-col {
+    height: 37rem;
+  }
+}
+@media only screen and (min-device-width: 360px) and (max-device-width: 640px) {
+  .product-list-products-container {
+    margin-bottom: 0rem;
+  }
+}

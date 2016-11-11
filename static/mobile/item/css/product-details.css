@@ -209,7 +209,6 @@
 .product-detail-tabs-footer a.external-first span.tab-label-collect {
   margin-top: 0.78125rem;
   font-size: 1.09375rem !important;
-  padding-bottom: 3.671875rem;
 }
 .product-detail-tabs-footer a.external-second {
   padding: 0.78125rem;
@@ -226,12 +225,11 @@
 .product-detail-tabs-footer a.external-second span.tab-customer-service {
   margin-top: 0.78125rem;
   font-size: 1.09375rem !important;
-  padding-bottom: 3.671875rem;
 }
 .product-detail-tabs-footer a.external-third {
   background-color: #ff4200;
   color: #fff;
-  height: auto;
+  height: 7.1875rem;
   padding: 0.234375rem 0rem;
   padding-bottom: 1.3671875rem;
 }
@@ -246,7 +244,7 @@
 .product-detail-tabs-footer a.external-fourth {
   background-color: #c41411;
   color: #fff;
-  height: auto;
+  height: 7.1875rem;
   padding: 0.234375rem 0rem;
   padding-bottom: 1.3671875rem;
 }

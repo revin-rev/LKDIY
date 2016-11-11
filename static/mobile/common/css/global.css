@@ -66,13 +66,13 @@ html {
   background: rgba(255, 255, 255, 0.79);
 }
 .modal {
-  width: 31.5rem;
+  width: 21.5rem;
   position: absolute;
-  margin-left: -15.75rem;
+  margin-left: -9.75rem;
   top: 50%;
 }
 .modal-inner {
-  padding: 4.8rem .75rem;
+  padding: 2.8rem .75rem;
   border-radius: 4px 4px 0 0;
   background: #fff;
   border: 1px solid #999999;

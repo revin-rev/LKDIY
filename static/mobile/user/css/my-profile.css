@@ -12,8 +12,8 @@
   display: inline-block;
 }
 .content .user-address-checkbox-row .user-single-text .myprofile-head {
-  padding-top: 3.125rem;
-  padding-bottom: 3.125rem;
+  padding-top: 1.9rem;
+  padding-bottom: 1.171875rem;
   display: inline-block;
   text-align: left;
   font-size: 1.5625rem;
@@ -22,27 +22,27 @@
 .content .user-address-checkbox-row .user-single-text .user-label-switch {
   display: inline-block;
   text-align: center;
-  padding-top: 0.78125rem;
-  padding-bottom: 1.171875rem;
   padding-right: 1.171875rem;
   width: 25%;
+  height: auto;
 }
 .content .user-address-checkbox-row .user-single-text .user-label-switch img {
-  width: 6.5234375rem;
-  height: 6.5234375rem;
+  width: 5.46875rem;
+  height: 5.46875rem;
+  padding: 0.390625rem;
 }
 .content .user-address-checkbox-row .user-single-text .profile_second .user-label-text {
   display: inline-block;
   text-align: right;
-  padding-top: 3.125rem;
-  padding-bottom: 3.125rem;
+  padding-top: 1.771875rem;
+  padding-bottom: 1.171875rem;
   font-size: 1.5625rem;
   padding-right: 0.9765625rem;
 }
 .content .user-address-checkbox-row .user-single-text .profile_second a.product-detail-color .icon {
   color: #cccccc;
-  padding-top: 3.125rem;
-  padding-bottom: 3.125rem;
+  padding-top: 1.771875rem;
+  padding-bottom: 1.171875rem;
   padding-right: 1.25rem;
   font-size: 1.5625rem;
 }
@@ -161,6 +161,9 @@
   text-align: center;
   margin-bottom: 0.390625rem;
   background-color: #fff;
+}
+.list-block ul:after {
+  background-color: unset;
 }
 /* -----------------------------------------------
  * My Profile Changed Password Ended

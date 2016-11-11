@@ -212,7 +212,7 @@
   padding-top:0/@baseRem;
   padding:0/@baseRem;
   margin-top:100.6/@baseRem;
-  margin-bottom: 42/@baseRem;
+ margin-bottom: 42/@baseRem;
   z-index: 99;
 }
 .content{
@@ -243,10 +243,11 @@
 }
 .product-list-bar-tab
 {
-  background-color: #fff;
-  padding-top:6/@baseRem;
-      z-index: 10;
-  height:124/@baseRem;
+        background-color: #fff;
+    padding-top: 0.534375rem;
+    z-index: 10;
+    height: 4.0625rem;
+    border-bottom: 0.390625rem solid #eeeeee;
 }
 .product-list-up-down
 {
@@ -647,7 +648,21 @@ width: 72.22%;
 
 /*--- best products end ----*/
 
+@media only screen and (min-device-width: 768px) and (max-device-width : 1024px)
+{
+.item-www-product-col{
+     height: 37rem;
 
+}
+
+}
+@media only screen and (min-device-width: 360px) and (max-device-width : 640px)
+{
+.product-list-products-container{
+  margin-bottom: 0rem;
+
+}
+}
 
 
 

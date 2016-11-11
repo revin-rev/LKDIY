@@ -45,8 +45,15 @@
                 <h3>￥2998.00 <span>X1</span></h3>
             </div>
             <div class="trade-product-footer">
-                <span class="trade-product-footer-text">备注信息 <span>备注（选填）</span></span>
+                <!--  <input type="text" class="trade-input"> -->
+                <span class="trade-product-footer-text">备注信息 
+                    <span>备注（选填）
+                    </span>
+                </span>
+                <input class="aa" type = 'text' style = 'display:none;width:100%;border:1px solid #cfcfcf;padding:1.17rem;font-size:1.17rem;z-index: 99;' />
             </div>
+           
+            <!-- <span class="trade-product-footer-text">备注信息 <span>备注（选填）</span></span> -->
         </div>
         <div class="trade-product-list-row clearfix">
             <div class="trade-product-list-image">
@@ -56,8 +63,9 @@
                 <h2>SANSUI TCL 扫地机器人全自动智能吸尘器 <span>颜色: 褐色</span></h2>
                 <h3>￥998.00 <span>X1</span></h3>
             </div>
-            <div class="trade-product-footer">
-                <span class="trade-product-footer-text">备注信息 <span>备注（选填）</span></span>
+            <div class="trade-product-footer" >
+                <span class="trade-product-footer-text" >备注信息 <span>备注（选填）</span></span>
+               <input class="aa" type = 'text' style = 'display:none;width:100%;border:1px solid #cfcfcf;padding:1.17rem;font-size:1.17rem;z-index: 99;' />  
             </div>
         </div>
     </div>
@@ -74,6 +82,7 @@
             </div>
             <div class="trade-product-footer">
                 <span class="trade-product-footer-text">备注信息 <span>备注（选填）</span></span>
+                <input class="aa" type = 'text' style = 'display:none;width:100%;border:1px solid #cfcfcf;padding:1.17rem;font-size:1.17rem;z-index: 99;' />
             </div>
         </div>
         <div class="trade-product-list-row clearfix">
@@ -86,6 +95,7 @@
             </div>
             <div class="trade-product-footer">
                 <span class="trade-product-footer-text">备注信息 <span>备注（选填）</span></span>
+                <input class="aa" type = 'text' style = 'display:none;width:100%;border:1px solid #cfcfcf;padding:1.17rem;font-size:1.17rem;z-index: 99;' />
             </div>
         </div>
     </div>
@@ -133,6 +143,20 @@
 <script type='text/javascript' src='../../static/mobile/common/plugins/sui-mobile/dist/js/sm-all.min.js' charset='utf-8'></script>
 <script type='text/javascript' src='../../static/mobile/common/scripts/main.js' charset='utf-8'></script>
 <script>
+    $(document).ready(function(){
+        $('.trade-product-footer-text').click(function(){
+            $('.aa').hide();
+            $('.trade-product-footer-text').show();
+
+            var label = $(this);
+    
+    $(this).hide();
+    $(this).next().show();
+   // 
+});
+    });
+</script>
+<script>
     $(document).on("click", ".sidebar-btn", function() {
         $.openPanel("#sidebar");
     });
@@ -143,6 +167,10 @@
             $(this).parents('.trade-checkbox-block').toggleClass('open');
         });
     })(jQuery_noConflict);
+
+    
 </script>
+
+
 </body>
 </html>

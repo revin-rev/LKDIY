@@ -1,4 +1,4 @@
-/*$(document).on('click','.create-popup', function () {
+$(document).on('click','.create-popup', function () {
   var popupHTML = '<div class="popup">'+
                     '<div class="content-block">'+
                       '<p>退货原因.</p>'+
@@ -16,8 +16,8 @@
   $.popup(popupHTML);
 
 
-});*/
-/*$(document).on('click','.create-popup-vat', function () {
+});
+$(document).on('click','.create-popup-vat', function () {
   var popupHTML = '<div class="popup">'+
                     '<div class="content-block">'+
                       '<p>退货原因.</p>'+
@@ -35,7 +35,7 @@
   $.popup(popupHTML);
 
 
-});*/
+});
 
 
 /*$(document).on('click','.create-popup-logistic', function () {

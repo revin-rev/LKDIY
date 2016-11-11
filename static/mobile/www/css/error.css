@@ -42,3 +42,8 @@
 .www-server-upgrade-block h2.www-h2-content span {
   font-size: 2.34375rem;
 }
+@media screen and (min-width: 768px) and (max-width: 1028px) {
+  .www-server-upgrade-block h2.www-h2-content {
+    bottom: 19%;
+  }
+}

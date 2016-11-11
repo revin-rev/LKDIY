@@ -3,7 +3,7 @@
 ******************************************************/
 .product-review-center {
   display: inline-block;
-  width: 100%;
+  width: 90%;
 }
 .content .order-deatil-fixed-tab {
   padding-top: 1.171875rem;
@@ -375,6 +375,7 @@
  * --------------------------------------------- */
 .timeline ul {
   padding-top: 1.953125rem;
+  padding-left: 2.2rem;
 }
 .timeline ul li {
   list-style-type: none;
@@ -399,7 +400,7 @@
 .timeline ul li div {
   position: relative;
   bottom: 0;
-  width: 27.34375rem;
+  width: 31.34375rem;
   padding: 0 0.78125rem;
   margin-left: 2.5390625rem;
   font-size: 1.171875rem;
@@ -573,7 +574,7 @@
   padding: 0.5859375rem 1.171875rem 0.5859375rem 1.171875rem;
   border-radius: 5px;
   float: right;
-  width: 61%;
+  width: 65%;
   margin-right: 0.5859375rem;
   margin-top: 0.5859375rem;
   font-size: 1.5625rem;
@@ -597,7 +598,7 @@
 }
 .content .buttons-tab-apply {
   border-bottom: 1px solid #d7d7d7;
-  padding-top: 1.171875rem;
+  padding-top: 2.34375rem;
 }
 .content .buttons-tab-apply a.button.active {
   font-size: 1.796875rem;
@@ -663,6 +664,7 @@
 .content .order-detail-reason-comment-second {
   border-bottom: 0;
   margin-top: 1.953125rem;
+  height: 21.95rem;
 }
 .content .order-detail-reason-comment-second ul {
   margin: 0;
@@ -1041,4 +1043,14 @@ label.label-checkbox i.icon-form-checkbox:after {
 .order-detail-apply-refunding label {
   color: #c41411;
   font-size: 1.796875rem;
+}
+@media only screen and (orientation: landscape) {
+  .timeline ul li div {
+    width: 54rem;
+  }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .timeline ul li div {
+    width: 33rem;
+  }
 }

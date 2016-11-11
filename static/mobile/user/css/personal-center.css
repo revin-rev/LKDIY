@@ -125,3 +125,6 @@ top:calc(50% - 1.7578125rem);
 .user-main-links .col-25 + .col-25 {
   border-left: 2px solid #d7d7d7;
 }
+.bar-tab ~ .content {
+  bottom: 11.5rem;
+}

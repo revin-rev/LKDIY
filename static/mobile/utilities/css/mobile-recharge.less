@@ -32,6 +32,7 @@
     .utilities-custom-css{
 border-top:12/@baseRem solid #f7f7f7;
 border-bottom: 1px solid #f7f7f7;
+    height: 14rem;
 
 
     .utilities-recharge-number-main-1{
@@ -42,10 +43,12 @@ border-bottom: 1px solid #f7f7f7;
             list-style: none;
         .utilities-recharge-yen5{
             text-align: center;
-            padding:80/@baseRem;
+            padding:3.125rem;
             span{
                 font-size:48/@baseRem;
                 color:#cccccc;
+                padding-bottom: 1.953125rem;
+                 margin-top: 2.421875rem;
             }
 
         }
@@ -53,10 +56,12 @@ border-bottom: 1px solid #f7f7f7;
             border-left:5/@baseRem solid #f7f7f7;
             
             text-align: center;
-            padding:80/@baseRem;
+            padding:3.125rem;
             span{
                 font-size:48/@baseRem;
                 color:#cccccc;
+                    margin-top: 2.421875rem;
+                    padding-bottom: 1.953125rem;
             }
 
         }
@@ -64,10 +69,12 @@ border-bottom: 1px solid #f7f7f7;
              border-left:5/@baseRem solid #f7f7f7;
             
             text-align: center;
-            padding:80/@baseRem;
+            padding:3.125rem;
             span{
                 font-size:48/@baseRem;
                 color:#333333;
+                    margin-top: 2.421875rem;
+                    padding-bottom: 1.953125rem;
             }
 
         }
@@ -77,10 +84,14 @@ border-bottom: 1px solid #f7f7f7;
                span{
                    color:#c41411;
                    font-size:48/@baseRem;
+                   
 
                }
            }
     }
+    }
+    .utilities-custom-css.utilities-custom-css-border{
+        border-bottom: 0px solid #f7f7f7;
     }
     .utilities-recharge-total{
         border-top:5/@baseRem solid #f7f7f7;
@@ -92,7 +103,7 @@ border-bottom: 1px solid #f7f7f7;
         
        .utilities-recharge-yen30 {
            text-align: center;
-            padding:80/@baseRem;
+            padding:3.125rem;
            span{
                 font-size:48/@baseRem;
                 color:#333333;
@@ -103,7 +114,7 @@ border-bottom: 1px solid #f7f7f7;
            text-align: center;
             border-left:5/@baseRem solid #f7f7f7;
             //border-top:5/@baseRem solid #c41411;
-            padding:80/@baseRem;
+            padding:3.125rem;
             
            span{
                 font-size:48/@baseRem;
@@ -115,7 +126,7 @@ border-bottom: 1px solid #f7f7f7;
         
         .utilities-recharge-yen100 {
            text-align: center;
-            padding:80/@baseRem;
+            padding:3.125rem;
             border-left:5/@baseRem solid #f7f7f7;
            
            span{
@@ -247,7 +258,7 @@ border-bottom: 1px solid #f7f7f7;
         .utilities-recharge-yen10{
                 border-left: 0.1953125rem solid #f7f7f7;
                 text-align:center;
-            padding-top:60/@baseRem;
+            padding-top:2.125rem;
              img{
                width:102/@baseRem;
                height:157/@baseRem;
@@ -317,6 +328,7 @@ border-bottom: 1px solid #f7f7f7;
     height: 3.4375rem;
     display: inline;
     color:#999999;
+    text-align: right;
     span{
         text-align: right;
     display: inline-block;
@@ -330,9 +342,13 @@ border-bottom: 1px solid #f7f7f7;
     color:#999;
         margin-left: 5%;
 }
+.order-spec-text-changed-news{
+    color:#999;
+        margin-left: 5%;
+}
 span.order-spec-text-changed-one{
-    font-size: 1.1rem;
-    width: 76%;
+    font-size: 1.2rem;
+    width: 80%;
 }
 .order-spec-text-changed-three {
     color:#999;
@@ -552,6 +568,8 @@ a {
     .utilities-custom-css{
         .fuel_card_color{
             .utilities-recharge-number{
+                    margin-left: 1%;
+                    width: 47%;
                 span{
                     color:#333;
                     font-size:48/@baseRem;
@@ -566,24 +584,28 @@ a {
             .product-list-price-value-inc{
             margin:3rem 0rem 0rem 2rem;
             padding-bottom: 1.875rem;
+            float: right;
             //padding-left: 0.78125rem;
 
             .decrement {
             font-size: 1.34375rem;
             border: 1px solid #f3f5f7;
-            padding: 0.5859375rem 0.9375rem 0.5859375rem 0.9375rem;
+           // padding: 0.5859375rem 0.9375rem 0.5859375rem 0.9375rem;
+           padding:10/@baseRem 30/@baseRem;
             }
             .number {
             font-size: 1.34375rem;
             border: 1px solid #f3f5f7;
-            padding: 0.4859375rem 0.9375rem 0.5859375rem 0.9375rem;
+            //padding: 0.4859375rem 0.9375rem 0.5859375rem 0.9375rem;
+             padding:10/@baseRem 30/@baseRem;
             position: relative;
             left: -3/@baseRem;
              }
              .increment {
             font-size: 1.34375rem;
             border: 1px solid #f3f5f7;
-            padding: 0.5859375rem 0.9375rem 0.5859375rem 0.9375rem;
+            //padding: 0.5859375rem 0.9375rem 0.5859375rem 0.9375rem;
+             padding:10/@baseRem 30/@baseRem;
             position: relative;
             right: 5/@baseRem;
                 }
@@ -621,3 +643,13 @@ a {
   /* -----------------------------------------------
  * Fuel Card 2 Ended
  * --------------------------------------------- */
+
+
+ @media screen and (min-width:768px) and (max-width:1028px)
+ {
+
+     .content .label-switch.utilities-label-switch{
+         width:20%;
+         margin-top:1%;
+     }
+ }

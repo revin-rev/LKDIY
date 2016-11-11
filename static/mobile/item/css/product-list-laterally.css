@@ -132,9 +132,10 @@
 }
 .product-list-bar-tab {
   background-color: #fff;
-  padding-top: 0.234375rem;
+  padding-top: 0.534375rem;
   z-index: 10;
-  height: 4.84375rem;
+  height: 4.0625rem;
+  border-bottom: 0.390625rem solid #eeeeee;
 }
 .product-list-up-down {
   position: relative;
@@ -465,4 +466,12 @@
   background-size: contain;
   float: left;
   position: absolute;
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .header-base-color .bar .searchbar .search-input {
+    width: 83.75%;
+  }
+  .header-base-color .bar .searchbar .message-notification {
+    width: 16.2%;
+  }
 }

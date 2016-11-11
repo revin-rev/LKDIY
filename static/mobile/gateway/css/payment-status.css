@@ -103,3 +103,8 @@ right:calc(100% + 2.34375rem);
 .gateway-action-btns a + a {
   margin-left: 10%;
 }
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .gateway-action-btns {
+    padding: 5.859375rem 1.953125rem 1.953125rem;
+  }
+}

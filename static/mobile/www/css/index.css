@@ -19,8 +19,8 @@ ul#main-slider {
   background: #d7d7d7;
   text-indent: -9999px;
   display: block;
-  width: 30px;
-  height: 30px;
+  width: 1.171875rem;
+  height: 1.171875rem;
   outline: 0;
   margin: 0 8px;
   -webkit-border-radius: 50%;
@@ -37,6 +37,10 @@ ul#main-slider {
   padding-top: 1.5625rem;
   padding-bottom: 0.9765625rem;
   border-bottom: 1px solid #e8e8e8;
+}
+.www-main-options img {
+  width: 4.765625rem;
+  height: 4.765625rem;
 }
 .www-main-options h2 {
   color: #999999;
@@ -201,7 +205,7 @@ ul#main-slider {
 }
 @media only screen and (min-width: 992px) {
   .bx-wrapper .bx-pager.bx-default-pager a {
-    width: 30px;
-    height: 30px;
+    width: 1.171875rem;
+    height: 1.171875rem;
   }
 }
