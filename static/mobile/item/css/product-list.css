@@ -402,10 +402,11 @@ ul li a.active {
   font-size: 1.40625rem;
   color: #d7d7d7;
   margin-left: 1.953125rem;
-  vertical-align: middle;
+  vertical-align: top;
 }
 .product-list-price-value-inc .product-detail-stock .product-detail-stock-number {
   color: #666;
+  vertical-align: top;
 }
 .product-detail-footer {
   background-color: #c41411;
