@@ -22,7 +22,6 @@
   width: 100%;
 }
 #top ul li .details {
-  margin-left: 1.640625rem;
   max-height: 12.890625rem;
 }
 #top ul li .details .amount {
@@ -30,6 +29,9 @@
   line-height: 8.515625rem;
   color: #b0120f;
   font-size: 1.953125rem;
+}
+#top ul li.user-clearfix {
+  padding-top: 0.284375rem;
 }
 /* Smartphones (landscape) ----------- */
 @media only screen and (min-width: 768px) {

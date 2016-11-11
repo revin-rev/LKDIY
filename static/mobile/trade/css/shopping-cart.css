@@ -157,25 +157,37 @@
   margin: 0rem 0rem 0rem 0rem;
   padding-bottom: 1.875rem;
   padding-left: 0.78125rem;
+  font-size: 0;
 }
 .shopping-cart-header-secondary2 .product-list-price-value-inc .decrement {
-  font-size: 2.34375rem;
+  background: url(../images/minus.png) no-repeat 0.8203125rem;
   border: 1px solid #f3f5f7;
-  padding: 0.234375rem 1.5625rem;
-}
-.shopping-cart-header-secondary2 .product-list-price-value-inc .number {
-  font-size: 2.34375rem;
-  border: 1px solid #f3f5f7;
-  padding: 0.234375rem 0.78125rem;
+  vertical-align: text-bottom;
   position: relative;
+  right: 0.1953125rem;
+  padding: 1.5rem 1.5rem;
+  background-size: 50%;
+  background-color: #f3f5f7;
   left: 0.078125rem;
 }
-.shopping-cart-header-secondary2 .product-list-price-value-inc .increment {
-  font-size: 2.34375rem;
+.shopping-cart-header-secondary2 .product-list-price-value-inc .number {
+  font-size: 1.2rem;
   border: 1px solid #f3f5f7;
-  padding: 0.234375rem 1.5625rem;
   position: relative;
-  right: 0.0390625rem;
+  left: 0rem;
+  padding: 0.79rem 0.8rem;
+  margin: 0px;
+  vertical-align: text-bottom;
+}
+.shopping-cart-header-secondary2 .product-list-price-value-inc .increment {
+  background: url(../images/plus.png) no-repeat 0.8203125rem;
+  border: 1px solid #f3f5f7;
+  position: relative;
+  right: 0.1953125rem;
+  padding: 1.5rem 1.5rem;
+  background-size: 50%;
+  background-color: #f3f5f7;
+  vertical-align: text-bottom;
 }
 .shopping-cart-header-secondary2 .product-list-price-value-inc .product-detail-stock {
   font-size: 1.40625rem;
@@ -230,7 +242,8 @@
 }
 .shopping-cart-tabs-footer .custom-width-second .external-third {
   float: left;
-  width: 26%;
+  width: 25%;
+  margin-left: 12%;
 }
 .shopping-cart-tabs-footer .custom-width-second .external-third .tab-label-shopping-cart {
   list-style: none;

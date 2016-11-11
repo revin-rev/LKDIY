@@ -153,6 +153,7 @@
   float: left;
   margin-left: 4%;
   width: 34%;
+  font-weight: normal;
 }
 .content .order-detail-product-payment-method label {
   margin-top: 2.04101563rem;
@@ -174,6 +175,7 @@
   float: left;
   margin-left: 4%;
   width: 34%;
+  font-weight: normal;
 }
 .content .order-detail-product-payment-method-second label {
   margin-top: 2.04101563rem;
