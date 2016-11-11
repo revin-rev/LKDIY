@@ -59,9 +59,15 @@
                 <div class="item-content">
                     <div class="item-inner">
                         <div class="item-title label">所在地区</div>
-                        <div class="item-input user-select-input">
+                        <!-- <div class="item-input user-select-input create-popup-area">
                             <input type="text" id="picker-name">
                             <span class="icon icon-right"></span>
+                        </div> -->
+                        <div class="user-label-switch pull-right create-popup-area">
+                            <span class="order-spec-text-changed-area"></span>
+                            <a href="#" class="back-to-prev-btn pull-right product-detail-color">
+                                <span class="icon icon-right"></span>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -107,28 +113,48 @@
 <script type='text/javascript' src='../../static/mobile/common/plugins/sui-mobile/dist/js/sm-all.min.js' charset='utf-8'></script>
 <script type='text/javascript' src='../../static/mobile/common/scripts/main.js' charset='utf-8'></script>
 <script>
-    $(document).on("click", ".sidebar-btn", function() {
-        $.openPanel("#sidebar");
-    });
+    $(document).on('click','.create-popup-area', function () {
+  var popupHTML = '<div class="popup popup-area">'+
+  '<div href="#" class="back-to-prev-btn"><span class="icon icon-left pull-left"></span><p class="popup-top-class">选择地区</p></div>'+
+  
+  '<div class="content-block content-block-border">'+
+  '<ul>'+
+  '<li class="popup-vat-area">北京 <span class="icon icon-right pull-right area-padding-rhgt"></span></li>'+
+  '<li class="popup-vat-area">天津 <span class="icon icon-right pull-right area-padding-rhgt"></span></li>'+
+  '<li class="popup-vat-area">河北省 <span class="icon icon-right pull-right area-padding-rhgt"></span></li>'+
+  '<li class="popup-vat-area">山西省 <span class="icon icon-right pull-right area-padding-rhgt"></span></li>'+
+  '<li class="popup-vat-area">内蒙古自治区 <span class="icon icon-right pull-right area-padding-rhgt"></span></li>'+
+  '<li class="popup-vat-area">辽宁省 <span class="icon icon-right pull-right area-padding-rhgt"></span></li>'+
+  '<li class="popup-vat-area">吉林省 <span class="icon icon-right pull-right area-padding-rhgt"></span></li>'+
+  '<li class="popup-vat-area">黑龙江省 <span class="icon icon-right pull-right area-padding-rhgt"></span></li>'+
+  '<li class="popup-vat-area">上海 <span class="icon icon-right pull-right area-padding-rhgt"></span></li>'+
+  '<li class="popup-vat-area">江苏省 <span class="icon icon-right pull-right area-padding-rhgt"></span></li>'+
+  '<li class="popup-vat-area">浙江省 <span class="icon icon-right pull-right area-padding-rhgt"></span></li>'+
+  '<li class="popup-vat-area">安徽省 <span class="icon icon-right pull-right area-padding-rhgt"></span></li>'+
+  '<li class="popup-vat-area">南京市 <span class="icon icon-right pull-right area-padding-rhgt"></span></li>'+
+  '<li class="popup-vat-area">无锡市 <span class="icon icon-right pull-right area-padding-rhgt"></span></li>'+
+  '<li class="popup-vat-area">徐州市 <span class="icon icon-right pull-right area-padding-rhgt"></span></li>'+
+  '<li class="popup-vat-area">常州市 <span class="icon icon-right pull-right area-padding-rhgt"></span></li>'+
+  '<li class="popup-vat-area">苏州市 <span class="icon icon-right pull-right area-padding-rhgt"></span></li>'+
+  '<li class="popup-vat-area">南通市 <span class="icon icon-right pull-right area-padding-rhgt"></span></li>'+
+  '<li class="popup-vat-area">连云港市 <span class="icon icon-right pull-right area-padding-rhgt"></span></li>'+
+  '<li class="popup-vat-area">淮安市 <span class="icon icon-right pull-right area-padding-rhgt"></span></li>'+
+  '</ul>'+
+                      //'<h2 class="mar_gaya">退货原因5</h2>'+
+                      '</div>'+
+                      
 
-    $("#picker-name").picker({
-        toolbarTemplate: '<header class="bar bar-nav">\
-							  <button class="button button-link pull-left close-picker"><span class="icon icon-left"></span></button>\
-							  <h1 class="title">选择地区</h1>\
-							  </header>',
-        cols: [
-            {
-                textAlign: 'left',
-                values: ['北京', '天津', '河北省', '山西省', '内蒙古自治区', '辽宁省', '吉林省','黑龙江省','上海','江苏省','浙江省','安徽省','福建省','南京市','无锡市','徐州市','常州市','苏州市','南通市','连云港市','淮安市','盐城市','扬州市','镇江市','泰州市','宿迁市','玄武区','白下区','建邺区','鼓楼区','秦淮区','下关区','浦口区','栖霞区','雨花台区','江宁区','六合区','溧水区','高淳区']
-            }
-        ]
-    });
+                      '<a href="#" class="close-popup">取消</a>'+
+                      '</div>'
+                      $.popup(popupHTML);
 
-    (function($){
-        $('.user-checkbox-action').click(function(e){
-            e.preventDefault();
-            $(this).parents('.user-checkbox-block').toggleClass('open');
-        });
+
+                    });
+$('body').on('click','.popup-vat-area',function(){
+  $('.order-spec-text-changed-area').text($(this).text());
+  $('.close-popup').trigger('click');
+  $('.close-popup').click();
+
     })(jQuery_noConflict);
 </script>
 </body>

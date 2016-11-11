@@ -486,23 +486,32 @@
   float: right;
 }
 .content .utilities-custom-css .fuel_card_color .product-list-price-value-inc .decrement {
-  font-size: 1.34375rem;
+  background: url(../images/minus.png) no-repeat 0.8203125rem;
   border: 1px solid #f3f5f7;
-  padding: 0.390625rem 1.171875rem;
-}
-.content .utilities-custom-css .fuel_card_color .product-list-price-value-inc .number {
-  font-size: 1.34375rem;
-  border: 1px solid #f3f5f7;
-  padding: 0.390625rem 1.171875rem;
-  position: relative;
-  left: -0.1171875rem;
-}
-.content .utilities-custom-css .fuel_card_color .product-list-price-value-inc .increment {
-  font-size: 1.34375rem;
-  border: 1px solid #f3f5f7;
-  padding: 0.390625rem 1.171875rem;
   position: relative;
   right: 0.1953125rem;
+  padding: 1rem 1.5rem;
+  background-size: 50%;
+  background-color: #f3f5f7;
+  left: 0.078125rem;
+}
+.content .utilities-custom-css .fuel_card_color .product-list-price-value-inc .number {
+  font-size: 1.3rem;
+  border: 1px solid #f3f5f7;
+  position: relative;
+  left: 0rem;
+  top: -0.1171875rem;
+  padding: 0.79rem 0.8rem;
+  margin: 0px;
+}
+.content .utilities-custom-css .fuel_card_color .product-list-price-value-inc .increment {
+  background: url(../images/plus.png) no-repeat 0.8203125rem;
+  border: 1px solid #f3f5f7;
+  position: relative;
+  right: 0.1953125rem;
+  padding: 1rem 1.5rem;
+  background-size: 50%;
+  background-color: #f3f5f7;
 }
 /* -----------------------------------------------
  * Fuel Card Ended

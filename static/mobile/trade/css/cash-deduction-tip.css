@@ -85,7 +85,7 @@
   padding: 0;
   padding-left: 1.953125rem;
   padding-top: 1.0071875rem;
-  margin-bottom: 0;
+  margin-bottom: 3rem;
   z-index: 3;
 }
 .shopping-cart-header-secondary2 label.label-checkbox .item-media {
@@ -295,9 +295,25 @@ label.label-checkbox i.icon-form-checkbox:after {
   height: 1.45rem;
 }
 .modal {
-  top: 42%;
+  top: 50%;
   position: absolute;
   left: 51%;
+}
+.modal .modal-inner {
+  padding: 2.8rem .75rem;
+  border-radius: 4px 4px 0 0;
+  background: #fff;
+  border: 1px solid #999999;
+  border-bottom: 0;
+  text-align: left;
+}
+.modal .modal-inner .modal-text {
+  font-size: 1.596875rem;
+}
+.modal-overlay,
+.popup-overlay,
+.preloader-indicator-overlay {
+  background: rgba(0, 0, 0, 0.4);
 }
 @media (max-width: 480px) {
   .shopping-cart-header-secondary2 .shopping-cart-product-list-product-col {

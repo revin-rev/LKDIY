@@ -423,7 +423,6 @@
   padding-right: 0rem;
   float: left;
   width: 43%;
-  margin-left: 1.5625rem;
   padding: 0;
 }
 .content .product-list-products-container .item-large-products .product-list-laterally-product-col {
@@ -432,7 +431,7 @@
   float: left;
 }
 .content .product-list-products-container .item-large-products .product-list-laterally-product-col:nth-child(1) img {
-  padding: 1.5625rem;
+  padding: 1.5625rem 0.4rem;
 }
 .item-products-container .item-large-products .item-product-col {
   padding: 0.78125rem;

@@ -229,7 +229,7 @@
 .product-detail-tabs-footer a.external-third {
   background-color: #ff4200;
   color: #fff;
-  height: 7.1875rem;
+  height: 6.5234375rem;
   padding: 0.234375rem 0rem;
   padding-bottom: 1.3671875rem;
 }
@@ -244,7 +244,7 @@
 .product-detail-tabs-footer a.external-fourth {
   background-color: #c41411;
   color: #fff;
-  height: 7.1875rem;
+  height: 6.5234375rem;
   padding: 0.234375rem 0rem;
   padding-bottom: 1.3671875rem;
 }
@@ -259,6 +259,7 @@
 .product-detail-tabs-footer .custom-width {
   width: 27.77777777777778%;
   float: left;
+  height: 6.5234375rem;
 }
 .product-detail-tabs-footer .custom-width-second {
   width: 72.22%;
@@ -625,3 +626,8 @@ top:calc(50% - 5.15625rem);
   padding-top: 0rem;
 }
 /*--- best products end ----*/
+@media screen and (min-width: 768px) and (max-width: 1028px) {
+  .product-detail-border-bottom {
+    max-width: 100%;
+  }
+}

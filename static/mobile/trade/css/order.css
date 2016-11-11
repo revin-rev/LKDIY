@@ -226,7 +226,7 @@
   margin-bottom: 1.8359375rem;
 }
 .content .order-details-large-products-new .order-details-paid-products-container-completed {
-  height: 53.320313rem;
+  height: 60.320313rem;
 }
 .content .order-details-large-products-new .order-detail-completed-block {
   background: #fff;
@@ -1053,4 +1053,30 @@ label.label-checkbox i.icon-form-checkbox:after {
   .timeline ul li div {
     width: 33rem;
   }
+}
+.order-details-scroll {
+  height: 32rem;
+}
+.custom-row {
+  width: 100%;
+  z-index: 999;
+  height: auto;
+}
+.custom-row .order-detail-content-block .order-details-list-second h2.customer-service-refund {
+  margin-left: 1.875rem;
+  font-weight: normal;
+  color: #c41411;
+  font-size: 1.40625rem;
+}
+.custom-row .order-detail-content-block .order-details-list-second .order-detail-pull a.order-detail-customer-service-upload {
+  text-align: center;
+  color: #c41411;
+  border: 2px solid #c41411;
+  padding: 0.5859375rem 1.171875rem 0.5859375rem 1.171875rem;
+  border-radius: 5px;
+  float: right;
+  width: 65%;
+  margin-right: 0.5859375rem;
+  margin-top: 0.5859375rem;
+  font-size: 1.5625rem;
 }

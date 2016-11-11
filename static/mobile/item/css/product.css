@@ -205,7 +205,7 @@
   padding: 0rem;
 }
 .content .product-detail-content-block .list-block ul li {
-  padding: 0 12px 25px 12px;
+  padding: 0 0.46875rem 0.9765625rem 0.46875rem;
 }
 .product-detail-bar-tab {
   height: 5.24964844rem;
@@ -240,13 +240,10 @@
   height: 6.4453125rem;
 }
 .product-detail-tabs-footer a.external-first {
-  padding: .6rem 1.5625rem 0 1.5625rem;
+  padding: 0.78125rem;
   border: 3px solid #d7d7d7;
-  height: 7.1875rem;
+  height: auto;
   border-left: none;
-  display: inline-block;
-  width: 50%;
-  vertical-align: top;
 }
 .product-detail-tabs-footer a.external-first .icon.icon-collect {
   background: url("../image/product-detail-heart.png") no-repeat;
@@ -257,16 +254,12 @@
 .product-detail-tabs-footer a.external-first span.tab-label-collect {
   margin-top: 0.78125rem;
   font-size: 1.09375rem !important;
-  padding-bottom: 3.671875rem;
 }
 .product-detail-tabs-footer a.external-second {
-  padding: 0.7rem 1.5625rem 0 1.5625rem;
+  padding: 0.78125rem;
   border: 3px solid #d7d7d7;
-  height: 7.1875rem;
+  height: auto;
   border-left: none;
-  display: inline-block;
-  width: 50%;
-  vertical-align: top;
 }
 .product-detail-tabs-footer a.external-second .icon-customer-service {
   background: url("../image/product-detail-customer-service.png") no-repeat;
@@ -277,7 +270,6 @@
 .product-detail-tabs-footer a.external-second span.tab-customer-service {
   margin-top: 0.78125rem;
   font-size: 1.09375rem !important;
-  padding-bottom: 3.671875rem;
 }
 .product-detail-tabs-footer a.external-third {
   background-color: #ff4200;
@@ -431,6 +423,9 @@
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   .item-www-product-col {
     height: 37rem;
+  }
+  .content .product-detail-content-block .list-block ul {
+    height: 49rem;
   }
 }
 @media only screen and (min-device-width: 360px) and (max-device-width: 640px) {
