@@ -66,13 +66,13 @@ html {
   background: rgba(255, 255, 255, 0.79);
 }
 .modal {
-  width: 38.5rem;
+  width: 21.5rem;
   position: absolute;
-  margin-left: -19.75rem;
+  margin-left: -9.75rem;
   top: 50%;
 }
 .modal-inner {
-  padding: 4.8rem .75rem;
+  padding: 2.8rem .75rem;
   border-radius: 4px 4px 0 0;
   background: #fff;
   border: 1px solid #999999;
@@ -116,4 +116,12 @@ html {
 label.label-checkbox input[type=checkbox]:checked + .item-media i.icon-form-checkbox,
 label.label-checkbox input[type=radio]:checked + .item-media i.icon-form-checkbox {
   background-color: #c41411;
+}
+.center-block-second {
+  position: absolute;
+  right: 7%;
+  max-width: 25%;
+  padding: 0 2%;
+  margin-left: auto;
+  margin-right: auto;
 }

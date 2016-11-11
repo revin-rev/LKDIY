@@ -309,7 +309,7 @@ color: @fontDarkColor;
         border:3px solid #d7d7d7;
         height:auto;
         border-left: none;
-        width: 27.77777777777778%;
+        //width: 27.77777777777778%;
   
   .icon.icon-collect
   {
@@ -325,7 +325,7 @@ color: @fontDarkColor;
     
     margin-top:20/@baseRem;
     font-size:28/@baseRem !important;
-    padding-bottom: 94/@baseRem;
+    //padding-bottom: 94/@baseRem;
   }
   }
    a.external-second
@@ -337,7 +337,7 @@ color: @fontDarkColor;
         height:auto;
         border-left: none;
       
-       width: 27.77777777777778%;
+      // width: 27.77777777777778%;
 
    .icon-customer-service
   {
@@ -351,7 +351,7 @@ background:url("../image/product-detail-customer-service.png") no-repeat;
     
     margin-top:20/@baseRem;
    font-size:28/@baseRem !important;
-    padding-bottom: 94/@baseRem;
+    //padding-bottom: 94/@baseRem;
   }
   }
 
@@ -360,7 +360,7 @@ background:url("../image/product-detail-customer-service.png") no-repeat;
   
     background-color: #ff4200;
     color:#fff;
-        height:auto;
+        height: 6.5234375rem;
    
       padding: 6/@baseRem 0/@baseRem;
     padding-bottom: 35/@baseRem;
@@ -381,7 +381,7 @@ font-size:60/@baseRem !important;
   
     background-color: #c41411;
     color:#fff;
-    height:auto;
+       height: 6.5234375rem;
     padding: 6/@baseRem 0/@baseRem;
     padding-bottom: 35/@baseRem;
    
@@ -402,12 +402,14 @@ width: 27.77777777777778%;
     //margin: 0/@baseRem;
    // margin-left:1%;
     float: left;
+    height:167/@baseRem;
 }
 .custom-width-second
 {
 width: 72.22%;
     float: left;
     margin: 0/@baseRem;
+    
 }
 
 }
@@ -463,6 +465,7 @@ width: 72.22%;
   .product-detail-border-bottom{
         width:1080/@baseRem;
          height:1080/@baseRem;
+
 }
 }
 .www-large-products {
@@ -508,7 +511,7 @@ width: 72.22%;
     margin-left: -0.5rem;
     margin-right: -0.5rem;
 }
-hr.www-meduim {
+hr.item-www-meduim {
     //border-top-width:52/@baseRem;
     margin: 0/@baseRem;
     //background-color: #f3f5f7;
@@ -532,6 +535,8 @@ hr.www-meduim {
   color:#333333;
   padding:30/@baseRem 30/@baseRem 30/@baseRem 50/@baseRem;
   font-size:36/@baseRem;
+  margin-bottom: 8rem;
+  display: inline-block;
   
 }
 
@@ -854,11 +859,16 @@ position: absolute;
 
 }
 
-
+.header-base-color ~ .item-content{
+  padding-top:0/@baseRem;
+}
 
 /*--- best products end ----*/
 
-
-
+@media screen and (min-width:768px) and (max-width:1028px){
+.product-detail-border-bottom{
+  max-width: 100%;
+}
+}
 
 

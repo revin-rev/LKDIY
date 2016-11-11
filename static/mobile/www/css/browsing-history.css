@@ -14,10 +14,11 @@
   border-bottom: 3px solid #f8f8f8;
   padding-bottom: 1.953125rem;
   padding-top: 1.484375rem;
+  padding-left: 0.5rem;
 }
 #top ul li img {
   float: left;
-  max-width: 12.6953125rem;
+  max-width: 15.695313rem;
   width: 100%;
 }
 #top ul li .details {
@@ -25,8 +26,14 @@
   max-height: 12.890625rem;
 }
 #top ul li .details .amount {
-  min-height: 13.515625rem;
-  line-height: 13.515625rem;
+  min-height: 8.515625rem;
+  line-height: 8.515625rem;
   color: #b0120f;
   font-size: 1.953125rem;
+}
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width: 768px) {
+  #top ul li img {
+    max-width: 9.695313rem;
+  }
 }

@@ -1,20 +1,6 @@
 /******************************************************
    *Variables START
 ******************************************************/
-.header-base-color .bar .item-icon {
-  position: absolute;
-  font-size: 2.98046875rem;
-  top: 1.609375rem;
-  color: #fff;
-  margin-left: 1.25rem;
-}
-.header-base-color .bar .item-searchbar .item-search-input input {
-  width: 29.9609375rem;
-  border-radius: 8px;
-  background-color: #fff;
-  margin-left: 3.5546875rem;
-  color: #333333;
-}
 .content .bar {
   height: 4.87550781rem;
   position: static;
@@ -124,21 +110,6 @@
   position: relative;
   top: 3px;
   margin-left: 0.78125rem;
-}
-.content .product-list-products-container .www-large-products .product-list-laterally-product-col:nth-child(1) {
-  padding-right: 0rem;
-  width: 12.99988281rem;
-  margin-left: 1.7578125rem;
-}
-.content .product-list-products-container .www-large-products .product-list-laterally-product-col {
-  border-left: 0rem;
-  width: 27.2265625rem;
-}
-.content .product-list-products-container .www-large-products .product-list-laterally-product-col .product-list-laterally-product-title {
-  margin-bottom: 4.4rem;
-}
-.content .product-list-products-container .www-large-products .product-list-laterally-product-col .product-list-laterally-product-price {
-  font-size: 1.953125rem;
 }
 .content .buttons-tab {
   width: 100%;
@@ -326,10 +297,12 @@
 .product-detail-spec .product-detail-color .icon-right {
   font-size: 2.109375rem;
 }
-.www-custom-row {
-  margin-left: -0.5rem;
-  margin-right: -0.5rem;
-}
+/*.www-custom-row {
+    margin-left: -0.5rem;
+    margin-right: -0.5rem;
+
+    
+}*/
 hr.www-meduim {
   margin: 0rem;
   border-top: 2.03125rem solid #f3f5f7;
@@ -369,10 +342,10 @@ ul li {
   padding: 0 0.78125rem;
 }
 ul li a {
-  font-size: 1.40625rem;
+  font-size: 1.0rem;
   display: block;
   width: 100%;
-  padding: 1.171875rem 1.7578125rem;
+  padding: 1.171875rem 1.3671875rem;
   text-align: center;
   color: #666666;
   background-color: #f3f5f7;
@@ -387,25 +360,43 @@ ul li a.active {
   margin: 1.953125rem 0rem 0rem 2.03125rem;
   padding-bottom: 1.875rem;
   padding-left: 0.78125rem;
+  font-size: 0;
 }
 .product-list-price-value-inc .decrement {
-  font-size: 3.125rem;
+  /*font-size: 30/@baseRem;
+    border: 1px solid #f3f5f7;
+   // padding:30/@baseRem 30/@baseRem 30/@baseRem 30/@baseRem;
+   //padding:30/@baseRem;
+   padding:10/@baseRem 40/@baseRem;
+   background:url("../image/minus.png") no-repeat;*/
+  background: url(../image/minus.png) no-repeat 0.8203125rem;
   border: 1px solid #f3f5f7;
-  padding: 1.171875rem;
+  vertical-align: text-bottom;
+  position: relative;
+  right: 0.1953125rem;
+  padding: 1.5rem 1.5rem;
+  background-size: 50%;
+  background-color: #f3f5f7;
+  left: 0.078125rem;
 }
 .product-list-price-value-inc .number {
-  font-size: 3.125rem;
+  font-size: 1.3rem;
   border: 1px solid #f3f5f7;
   position: relative;
-  padding: 1.171875rem;
-  left: -3px;
+  left: 0rem;
+  padding: 0.79rem 0.8rem;
+  margin: 0px;
+  vertical-align: text-bottom;
 }
 .product-list-price-value-inc .increment {
-  font-size: 3.125rem;
+  background: url(../image/plus.png) no-repeat 0.8203125rem;
   border: 1px solid #f3f5f7;
   position: relative;
-  right: 5px;
-  padding: 1.171875rem;
+  right: 0.1953125rem;
+  padding: 1.5rem 1.5rem;
+  background-size: 50%;
+  background-color: #f3f5f7;
+  vertical-align: text-bottom;
 }
 .product-list-price-value-inc .product-detail-stock {
   font-size: 1.40625rem;
@@ -418,7 +409,7 @@ ul li a.active {
 }
 .product-detail-footer {
   background-color: #c41411;
-  padding: 1.953125rem 0rem 1.7578125rem 2.03125rem;
+  padding: 1.953125rem 0rem 1.7578125rem 0rem;
   text-align: center;
   font-size: 1.953125rem;
 }

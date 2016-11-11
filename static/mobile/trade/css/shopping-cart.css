@@ -59,7 +59,7 @@
   padding-top: 0rem;
   padding: 0rem;
   margin-top: 3.9rem;
-  margin-bottom: 1.640625rem;
+  margin-bottom: 4.640625rem;
   z-index: 99;
   margin-right: 0;
   margin-left: 0;
@@ -69,6 +69,9 @@
 }
 .shopping-cart-list-products-container .shopping-cart-list-products-container-new {
   padding-top: 1.953125rem;
+}
+.shopping-cart-list-products-container .shopping-cart-border-bott {
+  border-bottom: 0.390625rem solid #f7f7f7;
 }
 .shopping-cart-list-products-container .trade-large-products {
   border-top: 0.390625rem solid #f7f7f7;
@@ -130,6 +133,7 @@
   font-size: 1.40625rem;
   font-weight: normal;
   color: #999999;
+  padding-left: 0.8203125rem;
 }
 .shopping-cart-header-secondary2 .shopping-cart-product-list-product-col h4.shopping-cart-product-price-yen {
   font-size: 1.953125rem;
@@ -140,6 +144,7 @@
   width: 50%;
   float: left;
   margin-bottom: 0;
+  padding-left: 0.8203125rem;
 }
 .shopping-cart-header-secondary2 .shopping-cart-product-list-product-col h4.shopping-cart-product-price-x1 {
   float: right;
@@ -156,19 +161,19 @@
 .shopping-cart-header-secondary2 .product-list-price-value-inc .decrement {
   font-size: 2.34375rem;
   border: 1px solid #f3f5f7;
-  padding: 0.5859375rem 0.9375rem 0.5859375rem 0.9375rem;
+  padding: 0.234375rem 1.5625rem;
 }
 .shopping-cart-header-secondary2 .product-list-price-value-inc .number {
   font-size: 2.34375rem;
   border: 1px solid #f3f5f7;
-  padding: 0.5859375rem 0.9375rem 0.5859375rem 0.9375rem;
+  padding: 0.234375rem 0.78125rem;
   position: relative;
   left: 0.078125rem;
 }
 .shopping-cart-header-secondary2 .product-list-price-value-inc .increment {
   font-size: 2.34375rem;
   border: 1px solid #f3f5f7;
-  padding: 0.5859375rem 0.9375rem 0.5859375rem 0.9375rem;
+  padding: 0.234375rem 1.5625rem;
   position: relative;
   right: 0.0390625rem;
 }
@@ -226,7 +231,6 @@
 .shopping-cart-tabs-footer .custom-width-second .external-third {
   float: left;
   width: 26%;
-  margin-left: 11%;
 }
 .shopping-cart-tabs-footer .custom-width-second .external-third .tab-label-shopping-cart {
   list-style: none;

@@ -54,13 +54,13 @@
   vertical-align: middle;
 }
 .gateway-address-checkbox-row .gateway-single-text img {
-  width: 7.8125rem;
+  width: 2.734375rem;
+  height: 2.734375rem;
 }
 .gateway-address-checkbox-row .gateway-single-text label {
   margin-left: 1.953125rem;
 }
 .gateway-address-checkbox-row .gateway-single-text .icon {
   float: right;
-  padding-top: 2.109375rem;
   color: #999999;
 }

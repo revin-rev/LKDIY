@@ -1,9 +1,6 @@
 /******************************************************
    *Variables START
 ******************************************************/
-.content {
-  padding-top: 5.2734375rem;
-}
 .trade-bottom-fixed-btn {
   background: #c41411;
   color: #fff;
@@ -43,7 +40,7 @@
 .trade-address-checkbox-row {
   border-top: 2px solid #d7d7d7;
   border-bottom: 2px solid #d7d7d7;
-  padding: 1.953125rem;
+  padding: 1.557813rem;
   font-size: 1.5625rem;
   color: #666666;
   margin-bottom: 1.953125rem;
@@ -103,4 +100,10 @@ width:calc(100% - 13.90625rem);
   display: inline-block;
   padding: 1.5625rem 2.34375rem;
   margin-left: 1.7578125rem;
+}
+#tab2 {
+  height: 62.39375rem;
+}
+#tab1 {
+  height: 36.394rem;
 }

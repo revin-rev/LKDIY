@@ -1,26 +1,26 @@
 $(document).on('click','.create-popup', function () {
   var popupHTML = '<div class="popup">'+
-                    '<div class="content-block">'+
-                      '<p>缴费单位</p>'+
-                      '<ul>'+
-                      '<li class="popup-vat">缴费单位1</li>'+
-                      '<li class="popup-vat">缴费单位2</li>'+
-                      '<li class="popup-vat">缴费单位3</li>'+
-                      '<li class="popup-vat">缴费单位4</li>'+
-                      '<li class="popup-vat">缴费单位5</li>'+
-                      '</ul>'+
+  '<div class="content-block">'+
+  '<p>缴费单位</p>'+
+  '<ul>'+
+  '<li class="popup-vat">缴费单位1</li>'+
+  '<li class="popup-vat">缴费单位2</li>'+
+  '<li class="popup-vat">缴费单位3</li>'+
+  '<li class="popup-vat">缴费单位4</li>'+
+  '<li class="popup-vat">缴费单位5</li>'+
+  '</ul>'+
                       //'<h2 class="mar_gaya">退货原因5</h2>'+
-                    '</div>'+
-                    '<a href="#" class="close-popup">取消</a>'+
-                  '</div>'
-  $.popup(popupHTML);
+                      '</div>'+
+                      '<a href="#" class="close-popup">取消</a>'+
+                      '</div>'
+                      $.popup(popupHTML);
 
 
-});
+                    });
 
 $(document).on('click','.create-popup-area', function () {
   var popupHTML = '<div class="popup popup-area">'+
-  '<div href="#" class="back-to-prev-btn"><span class="icon icon-left pull-left"></span><p class="popup-top-class">缴费单位</p></div>'+
+  '<div href="#" class="back-to-prev-btn"><span class="icon icon-left pull-left"></span><p class="popup-top-class">选择地区</p></div>'+
   
   '<div class="content-block content-block-border">'+
   '<ul>'+
@@ -56,8 +56,8 @@ $(document).on('click','.create-popup-area', function () {
 
                     });
 $('body').on('click','.popup-vat-area',function(){
-$('.order-spec-text-changed-area').text($(this).text());
-$('.close-popup').trigger('click');
+  $('.order-spec-text-changed-area').text($(this).text());
+  $('.close-popup').trigger('click');
   $('.close-popup').click();
 });
 
@@ -65,4 +65,20 @@ $('body').on('click','.popup-vat',function(){
   $('.order-spec-text-changed').text($(this).text());
   $('.close-popup').trigger('click');
   $('.close-popup').click();
+});
+
+
+$(document).ready(function(){
+  $('.order-spec-text-changed-news').click(function(){
+    $('.aa').hide();
+    $('.order-spec-text-changed-news').show();
+    $('.utilities-mar-top').css('margin-top','7px;')
+
+
+    var label = $(this);
+    
+    $(this).hide();
+    $(this).next().show();
+   // 
+ });
 });

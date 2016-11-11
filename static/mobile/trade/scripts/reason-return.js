@@ -17,7 +17,7 @@ $(document).on('click','.create-popup', function () {
 
 
 });
-/*$(document).on('click','.create-popup-vat', function () {
+$(document).on('click','.create-popup-vat', function () {
   var popupHTML = '<div class="popup">'+
                     '<div class="content-block">'+
                       '<p>退货原因.</p>'+
@@ -35,10 +35,10 @@ $(document).on('click','.create-popup', function () {
   $.popup(popupHTML);
 
 
-});*/
+});
 
 
-$(document).on('click','.create-popup-logistic', function () {
+/*$(document).on('click','.create-popup-logistic', function () {
   var popupHTML = '<div class="popup">'+
                     '<div class="content-block">'+
                       '<p>物流公司</p>'+
@@ -56,7 +56,7 @@ $(document).on('click','.create-popup-logistic', function () {
   $.popup(popupHTML);
 
 
-});
+});*/
 
 $(document).ready(function(){
 $('input[name="locationthemes"]:checked').each(function() {

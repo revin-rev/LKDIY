@@ -1,6 +1,11 @@
 @import "../../common/css/variable";
 @import "../../common/css/lesshat";
 //Order-Detail start
+
+.product-review-center{
+  display: inline-block;
+  width:90%;
+}
 .content{
   .order-deatil-fixed-tab
   {
@@ -41,6 +46,7 @@
           span{
             color:#ce0000;
             margin-left:10/@baseRem;
+            vertical-align: middle;
           }
         }
  
@@ -252,7 +258,7 @@ color:#222;
   margin: 0;
   border-top: 1px solid #d7d7d7;
   border-bottom: 14/@baseRem solid #fff;
-  height: 970px;
+  height: 53.320313rem;
   .order-detail-paid-product-information{
     font-size: 46/@baseRem;
     font-weight:normal;
@@ -264,12 +270,12 @@ color:#222;
   }
 }
 .order-details-paid-products-container-completed{
-      height: 846px;
+      height: 60.320313rem;
 }
 .order-detail-completed-block{
   background: #fff;
   padding:50/@baseRem 60/@baseRem 60/@baseRem 60/@baseRem;
-      margin: 0;
+      margin-bottom: 20/@baseRem;
     float: left;
     width: 100%;
     .clearfix{
@@ -449,6 +455,7 @@ border-bottom: 1px solid #d7d7d7;
 .timeline ul {
   //background: #456990;
   padding-top: 50/@baseRem;
+      padding-left: 2.2rem;
 }
 .timeline ul li {
   list-style-type: none;
@@ -465,8 +472,8 @@ border-bottom: 1px solid #d7d7d7;
   left: 50%;
   bottom: 0;
   transform: translateX(-50%);
-  width: 23px;
-  height: 23px;
+  width: 23/@baseRem;
+  height: 23/@baseRem;
   border-radius: 50%;
   background: inherit;
   top: 0%;
@@ -474,7 +481,7 @@ border-bottom: 1px solid #d7d7d7;
 .timeline ul li div {
   position: relative;
   bottom: 0;
-  width:700px;
+  width:31.34375rem;
   padding: 0 20/@baseRem;
   margin-left: 65/@baseRem;
   font-size:30/@baseRem;
@@ -486,6 +493,7 @@ border-bottom: 1px solid #d7d7d7;
   background: url('../images/order-tracking.png') no-repeat;
       width: 50/@baseRem;
     height: 50/@baseRem;
+        background-size: contain;
 }
 
 /* -----------------------------------------------
@@ -508,6 +516,8 @@ border-bottom: 1px solid #d7d7d7;
 
       img{
         max-width:100%;
+        width:120/@baseRem;
+        height:110/@baseRem;
       }
       
 }
@@ -530,8 +540,8 @@ h3{
 a{
   margin-top:218/@baseRem;
   display: inline-block;
-  padding:20px 65px;
-  border-radius:5px;
+  padding:20/@baseRem 65/@baseRem;
+  border-radius:5/@baseRem;
   color:#c41411;
   font-size:50/@baseRem;
   text-align: center;
@@ -559,7 +569,8 @@ a{
     right: 1.6796875rem;
     span{
       color:#fff;
-      font-size:36/@baseRem;
+      font-size:36/@baseRem!important;
+      padding-right: .3rem!important;
     }
 }
 
@@ -577,10 +588,10 @@ margin-top:50/@baseRem;
 .shopping-cart-product-comment{
   padding-left:50/@baseRem;
   width:30%;
-  padding-right:45/@baseRem;
+  //padding-right:45/@baseRem;
 }
 .shopping-cart-product-list-order-detail-comment{
-  width:61%;
+  width:58%;
   .shopping-cart-product-price{
     border:1px solid #d7d7d7;
     margin: 0;
@@ -598,7 +609,8 @@ margin-top:50/@baseRem;
 ul{
   list-style: none;
   float: left;
-  width: 95%;
+  width: 96%;
+  padding-left: 2.5rem;
   li{
     float: left;
     width: 22%;
@@ -623,6 +635,7 @@ ul{
   border-bottom: 1px solid #d7d7d7;
   margin-bottom: 50/@baseRem;
   background-color: #fff;
+  padding-left:1.5rem;
 .order-detail-comment-footer{
   h2{
   margin-left:70/@baseRem;
@@ -634,6 +647,8 @@ ul{
   }
   img{
     padding-top:56.32/@baseRem;
+    height:auto;
+    width: 1.6015625rem;
   }
 }
 }
@@ -675,7 +690,7 @@ ul{
             //margin-top: 15/@baseRem;
            // display: inline-block;
            float: right;
-           width:61%;
+           width:65%;
            margin-right: 15/@baseRem;
            margin-top:15/@baseRem;
             font-size:40/@baseRem;
@@ -718,7 +733,7 @@ ul{
 .content{
   .buttons-tab-apply{
     border-bottom: 1px solid #d7d7d7;
-     padding-top: 30/@baseRem;
+     padding-top: 60/@baseRem;
     a.button.active{
      font-size:46/@baseRem;
     color:#ce0000;
@@ -814,6 +829,7 @@ ul{
   .order-detail-reason-comment-second{
     border-bottom: 0;
     margin-top:50/@baseRem;
+        height: 21.95rem;
     ul{
        margin: 0;
        padding-left: 69/@baseRem;
@@ -1156,8 +1172,8 @@ label.label-checkbox i.icon-form-checkbox:after {
           margin-top: 0;
           margin-bottom: 0;
           background-color: #fff;
-          border-top: 2px solid #d7d7d7;
-          width: 100%;
+          border: 1px solid #d7d7d7;
+          width: 95.5%;
           float: left;
            
           }
@@ -1283,5 +1299,56 @@ ul.order-detail-information-refund-1{
      /* -----------------------------------------------
  * Apply For Return Notice Ended
  * --------------------------------------------- */
+.order-detail-apply-refunding{
+          label{
+             color:#c41411;
+             font-size:46/@baseRem;
+          }
+         
+        }
 
+@media only screen and (orientation:landscape){
+.timeline ul li div{
+  width: 54rem;
+}
+}
 
+@media only screen and (min-device-width: 768px) and (max-device-width : 1024px){
+.timeline ul li div{
+  width: 33rem;
+}
+}
+.order-details-scroll{
+  height:32rem;
+}
+.custom-row {
+    width: 100%;
+    z-index: 999;
+    height: auto;
+    .order-detail-content-block{
+      .order-details-list-second{
+        h2.customer-service-refund{
+          margin-left:48/@baseRem;
+      font-weight:normal;
+      color:#c41411;
+      font-size:36/@baseRem;
+        }
+        .order-detail-pull{
+          a.order-detail-customer-service-upload{
+            text-align: center;
+            color: #c41411;
+            border:2px solid #c41411;
+            padding:15/@baseRem 30/@baseRem 15/@baseRem 30/@baseRem; 
+            border-radius:5px;
+            //margin-top: 15/@baseRem;
+           // display: inline-block;
+           float: right;
+           width:65%;
+           margin-right: 15/@baseRem;
+           margin-top:15/@baseRem;
+            font-size:40/@baseRem;
+          }
+        }
+      }
+    }
+}

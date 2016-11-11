@@ -1,6 +1,10 @@
 /******************************************************
    *Variables START
 ******************************************************/
+.product-review-center {
+  display: inline-block;
+  width: 90%;
+}
 .content .order-deatil-fixed-tab {
   padding-top: 1.171875rem;
 }
@@ -35,6 +39,7 @@
 .content .order-details-large-products .order-detail-content-block .order-details-list .order-deatils-total span {
   color: #ce0000;
   margin-left: 0.390625rem;
+  vertical-align: middle;
 }
 .content .order-details-large-products .order-detail-content-block .order-details-list .order-detail-complete {
   float: right;
@@ -209,7 +214,7 @@
   margin: 0;
   border-top: 1px solid #d7d7d7;
   border-bottom: 0.546875rem solid #fff;
-  height: 970px;
+  height: 53.320313rem;
 }
 .content .order-details-large-products-new .order-details-paid-products-container .order-detail-paid-product-information {
   font-size: 1.796875rem;
@@ -221,12 +226,12 @@
   margin-bottom: 1.8359375rem;
 }
 .content .order-details-large-products-new .order-details-paid-products-container-completed {
-  height: 846px;
+  height: 60.320313rem;
 }
 .content .order-details-large-products-new .order-detail-completed-block {
   background: #fff;
   padding: 1.953125rem 2.34375rem 2.34375rem 2.34375rem;
-  margin: 0;
+  margin-bottom: 0.78125rem;
   float: left;
   width: 100%;
 }
@@ -370,6 +375,7 @@
  * --------------------------------------------- */
 .timeline ul {
   padding-top: 1.953125rem;
+  padding-left: 2.2rem;
 }
 .timeline ul li {
   list-style-type: none;
@@ -385,8 +391,8 @@
   left: 50%;
   bottom: 0;
   transform: translateX(-50%);
-  width: 23px;
-  height: 23px;
+  width: 0.8984375rem;
+  height: 0.8984375rem;
   border-radius: 50%;
   background: inherit;
   top: 0%;
@@ -394,7 +400,7 @@
 .timeline ul li div {
   position: relative;
   bottom: 0;
-  width: 700px;
+  width: 31.34375rem;
   padding: 0 0.78125rem;
   margin-left: 2.5390625rem;
   font-size: 1.171875rem;
@@ -404,6 +410,7 @@
   background: url('../images/order-tracking.png') no-repeat;
   width: 1.953125rem;
   height: 1.953125rem;
+  background-size: contain;
 }
 /* -----------------------------------------------
  * Timeline Ended
@@ -423,6 +430,8 @@
 }
 .content .order-detail-border .order-detail-thankyou img {
   max-width: 100%;
+  width: 4.6875rem;
+  height: 4.296875rem;
 }
 .content .order-detail-border .order-detail-successfully-thankyou-posted {
   width: 60%;
@@ -437,8 +446,8 @@
 .content .text-center a {
   margin-top: 8.515625rem;
   display: inline-block;
-  padding: 20px 65px;
-  border-radius: 5px;
+  padding: 0.78125rem 2.5390625rem;
+  border-radius: 0.1953125rem;
   color: #c41411;
   font-size: 1.953125rem;
   text-align: center;
@@ -463,7 +472,8 @@
 }
 .product-detail-dots span {
   color: #fff;
-  font-size: 1.40625rem;
+  font-size: 1.40625rem !important;
+  padding-right: .3rem!important;
 }
 .content .order-detail-list-products-container {
   margin: 0;
@@ -478,10 +488,9 @@
 .content .order-detail-comment-main .shopping-cart-product-comment {
   padding-left: 1.953125rem;
   width: 30%;
-  padding-right: 1.7578125rem;
 }
 .content .order-detail-comment-main .shopping-cart-product-list-order-detail-comment {
-  width: 61%;
+  width: 58%;
 }
 .content .order-detail-comment-main .shopping-cart-product-list-order-detail-comment .shopping-cart-product-price {
   border: 1px solid #d7d7d7;
@@ -499,7 +508,8 @@
 .content .order-detail-comment-second ul {
   list-style: none;
   float: left;
-  width: 95%;
+  width: 96%;
+  padding-left: 2.5rem;
 }
 .content .order-detail-comment-second ul li {
   float: left;
@@ -522,6 +532,7 @@
   border-bottom: 1px solid #d7d7d7;
   margin-bottom: 1.953125rem;
   background-color: #fff;
+  padding-left: 1.5rem;
 }
 .content .order-detail-comment-third .order-detail-comment-footer h2 {
   margin-left: 2.734375rem;
@@ -533,6 +544,8 @@
 }
 .content .order-detail-comment-third .order-detail-comment-footer img {
   padding-top: 2.2rem;
+  height: auto;
+  width: 1.6015625rem;
 }
 /* -----------------------------------------------
  * Customer service list Started
@@ -561,7 +574,7 @@
   padding: 0.5859375rem 1.171875rem 0.5859375rem 1.171875rem;
   border-radius: 5px;
   float: right;
-  width: 61%;
+  width: 65%;
   margin-right: 0.5859375rem;
   margin-top: 0.5859375rem;
   font-size: 1.5625rem;
@@ -585,7 +598,7 @@
 }
 .content .buttons-tab-apply {
   border-bottom: 1px solid #d7d7d7;
-  padding-top: 1.171875rem;
+  padding-top: 2.34375rem;
 }
 .content .buttons-tab-apply a.button.active {
   font-size: 1.796875rem;
@@ -651,6 +664,7 @@
 .content .order-detail-reason-comment-second {
   border-bottom: 0;
   margin-top: 1.953125rem;
+  height: 21.95rem;
 }
 .content .order-detail-reason-comment-second ul {
   margin: 0;
@@ -936,8 +950,8 @@ label.label-checkbox i.icon-form-checkbox:after {
   margin-top: 0;
   margin-bottom: 0;
   background-color: #fff;
-  border-top: 2px solid #d7d7d7;
-  width: 100%;
+  border: 1px solid #d7d7d7;
+  width: 95.5%;
   float: left;
 }
 .content #tab3 .order-details-apply-for-return .order-details-apply-refunded .order-detail-apply-refund {
@@ -1026,3 +1040,43 @@ label.label-checkbox i.icon-form-checkbox:after {
 /* -----------------------------------------------
  * Apply For Return Notice Ended
  * --------------------------------------------- */
+.order-detail-apply-refunding label {
+  color: #c41411;
+  font-size: 1.796875rem;
+}
+@media only screen and (orientation: landscape) {
+  .timeline ul li div {
+    width: 54rem;
+  }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .timeline ul li div {
+    width: 33rem;
+  }
+}
+.order-details-scroll {
+  height: 32rem;
+}
+.custom-row {
+  width: 100%;
+  z-index: 999;
+  height: auto;
+}
+.custom-row .order-detail-content-block .order-details-list-second h2.customer-service-refund {
+  margin-left: 1.875rem;
+  font-weight: normal;
+  color: #c41411;
+  font-size: 1.40625rem;
+}
+.custom-row .order-detail-content-block .order-details-list-second .order-detail-pull a.order-detail-customer-service-upload {
+  text-align: center;
+  color: #c41411;
+  border: 2px solid #c41411;
+  padding: 0.5859375rem 1.171875rem 0.5859375rem 1.171875rem;
+  border-radius: 5px;
+  float: right;
+  width: 65%;
+  margin-right: 0.5859375rem;
+  margin-top: 0.5859375rem;
+  font-size: 1.5625rem;
+}

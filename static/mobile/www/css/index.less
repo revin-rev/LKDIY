@@ -23,8 +23,8 @@ ul#main-slider{
   background: #d7d7d7;
   text-indent: -9999px;
   display: block;
-  width: 30px;
-  height: 30px;
+  width: 30/@baseRem;
+  height: 30/@baseRem;
   outline: 0;
   margin: 0 8px;
   .border-radius(50%);
@@ -37,6 +37,10 @@ ul#main-slider{
   padding-top: 40/@baseRem;
   padding-bottom: 25/@baseRem;
   border-bottom: 1px solid @borderColor;
+  img{
+    width:122/@baseRem;
+    height:122/@baseRem;
+  }
 
   h2{
     color: @fontLightColor;
@@ -243,7 +247,7 @@ ul#main-slider{
 
 @media only screen and (min-width: 992px){
 .bx-wrapper .bx-pager.bx-default-pager a{
- width: 30px;
-  height: 30px;
+ width: 30/@baseRem;
+  height: 30/@baseRem;
 }
 }
