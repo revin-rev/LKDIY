@@ -373,11 +373,9 @@ ul li a.active {
   border: 1px solid #f3f5f7;
   vertical-align: text-bottom;
   position: relative;
-  right: 0.1953125rem;
   padding: 1.5rem 1.5rem;
   background-size: 50%;
   background-color: #f3f5f7;
-  left: 0.078125rem;
 }
 .product-list-price-value-inc .number {
   font-size: 1.2rem;
@@ -392,7 +390,6 @@ ul li a.active {
   background: url(../image/plus.png) no-repeat 0.8203125rem;
   border: 1px solid #f3f5f7;
   position: relative;
-  right: 0.1953125rem;
   padding: 1.5rem 1.5rem;
   background-size: 50%;
   background-color: #f3f5f7;

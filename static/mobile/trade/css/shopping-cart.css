@@ -320,6 +320,14 @@ label.label-checkbox i.icon-form-checkbox:after {
     float: left;
   }
 }
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .shopping-cart-tabs-footer .custom-width-second .external-third {
+    margin-left: 12%;
+  }
+  .shopping-cart-tabs-footer .shopping-cart-external-third .shopping-cart-moved {
+    padding-left: 0;
+  }
+}
 .shopping-cart-tabs-footer .custom-width-second .external-third.trade-external-third {
   margin-left: 0%;
 }

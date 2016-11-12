@@ -326,3 +326,8 @@ label.label-checkbox i.icon-form-checkbox:after {
     margin-left: 7%;
   }
 }
+@media only screen and (min-device-width: 250px) and (max-device-width: 450px) {
+  .shopping-cart-tabs-footer .custom-width-second .external-third {
+    margin-left: 7%;
+  }
+}
