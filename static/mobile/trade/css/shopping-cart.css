@@ -76,9 +76,6 @@
 .shopping-cart-list-products-container .trade-large-products {
   border-top: 0.390625rem solid #f7f7f7;
 }
-.shopping-cart-list-products-container2 {
-  margin-top: 1.790625rem;
-}
 .shopping-cart-header-secondary2 {
   top: 10.63671875rem;
   min-height: 3.90625rem;
@@ -323,6 +320,9 @@ label.label-checkbox i.icon-form-checkbox:after {
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   .shopping-cart-tabs-footer .custom-width-second .external-third {
     margin-left: 12%;
+  }
+  .shopping-cart-list-products-container22 {
+    margin-bottom: 11.640625rem;
   }
   .shopping-cart-tabs-footer .shopping-cart-external-third .shopping-cart-moved {
     padding-left: 0;
