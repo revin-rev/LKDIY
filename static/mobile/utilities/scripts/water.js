@@ -70,7 +70,7 @@ $('body').on('click','.popup-vat',function(){
 
 $(document).ready(function(){
   $('.order-spec-text-changed-news').click(function(){
-    $('.aa').hide();
+    $('.utilities-gas, .utilities-electricity, .utilities-mobile-recharge, .utilities-water').hide();
     $('.order-spec-text-changed-news').show();
     $('.utilities-mar-top').css('margin-top','7px;')
 
