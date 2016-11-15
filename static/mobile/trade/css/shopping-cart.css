@@ -77,7 +77,7 @@
   border-top: 0.390625rem solid #f7f7f7;
 }
 .trade-shopping-cart-header-secondary2 {
-  top: 10.63671875rem;
+  top: 10.036719rem;
   min-height: 3.90625rem;
   padding: 0;
   padding-left: 1.953125rem;
@@ -194,6 +194,9 @@
 }
 .trade-shopping-cart-header-secondary2 .trade-product-list-price-value-inc .product-detail-stock .product-detail-stock-number {
   color: #666;
+}
+.trade-shopping-cart-header-secondary1 {
+  background-color: #fff;
 }
 .shopping-cart-tabs-footer {
   padding-left: 2.3390625rem;
