@@ -555,9 +555,6 @@
 .content .order-details-large-products .order-details-customer-service-list {
   border-top: 1px solid #d7d7d7;
 }
-.content .order-detail-content-block .order-details-list {
-  border-bottom: 1px solid #d7d7d7;
-}
 .content .order-detail-content-block .order-details-list h2.customer-service-refund {
   margin-left: 1.875rem;
   font-weight: normal;
@@ -1073,6 +1070,7 @@ label.label-checkbox i.icon-form-checkbox:after {
   width: 100%;
   z-index: 999;
   height: auto;
+  background-color: #fff;
 }
 .custom-row .order-detail-content-block .order-details-list-second h2.customer-service-refund {
   margin-left: 1.875rem;

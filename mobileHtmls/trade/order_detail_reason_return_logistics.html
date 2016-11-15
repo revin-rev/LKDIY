@@ -53,7 +53,8 @@
 			
 		</div>
 		<div class="product-detail-spec apply-product-detail-spec order-detail-reason-return-spec">
-		请输入您的联系方式
+		<span class="trade-product-footer-text">请输入您的联系方式</span>
+		<input class="trade-input" type="text">	
 			
 		</div>
 		<div class="product-detail-spec apply-product-detail-spec order-detail-reason-return">
@@ -83,7 +84,20 @@
 	<script type='text/javascript' src='../../static/mobile/common/scripts/main.js' charset='utf-8'></script>
 	<script type='text/javascript' src='../../static/mobile/trade/scripts/reason-return.js' charset='utf-8'></script>
 
+<script>
+    $(document).ready(function(){
+        $('.trade-product-footer-text').click(function(){
+            $('.trade-input').hide();
+            $('.trade-product-footer-text').show();
 
+            var label = $(this);
+    
+    $(this).hide();
+    $(this).next().show();
+   // 
+});
+    });
+</script>
 
 </body>
 </html>
