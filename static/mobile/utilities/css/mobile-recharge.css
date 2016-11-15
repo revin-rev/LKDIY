@@ -567,6 +567,9 @@
     width: 20%;
     margin-top: 1%;
   }
+  .content .utilities-custom-css {
+    height: 41rem;
+  }
   .content .utilities-custom-css.utilities-custom-css-border {
     height: 25rem;
   }
