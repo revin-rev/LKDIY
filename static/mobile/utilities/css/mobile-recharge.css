@@ -294,7 +294,6 @@
 }
 .content .utilities-electricity,
 .content .utilities-gas,
-.content .utilities-mobile-recharge,
 .content .utilities-water {
   width: 50%;
   border: 0px solid #cfcfcf;
@@ -303,6 +302,16 @@
   z-index: 99;
   display: none;
   margin-left: 1%;
+}
+.content .utilities-mobile-recharge {
+  width: 100%;
+  border: 0px solid #cfcfcf;
+  padding: 0.8rem;
+  font-size: 1.5rem;
+  z-index: 99;
+  display: none;
+  margin-left: 5%;
+  background-color: unset;
 }
 .content span.order-spec-text-changed-one {
   font-size: 1.2rem;

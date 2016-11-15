@@ -31,7 +31,7 @@
 		<div class="row utilities-recharge-number-main">
 			<div class="col-60 utilities-recharge-number">
 				<span class="order-spec-text-changed-news">请输入充值号码</span>
-				<input class="utilities-mobile-recharge" type="number" style="width: 100%; border: 0px solid rgb(207, 207, 207); padding: 0.8rem; font-size: 1.5rem; z-index: 99;display:none;margin-left: 1%;background-color: unset;">
+				<input class="utilities-mobile-recharge" type="number" />
 			</div>
 			<div class="col-40 utilities-recharge-imges">
 				<img src="../../static/mobile/utilities/images/user-recharge.png">
@@ -89,9 +89,9 @@
 			</ul>
 		</div>	
 
-			<div class="tab-item external external-fourth" href="#">
-				<span class="tab-label tab-label-buy-now">立即充值</span>
-			</div>
+		<div class="tab-item external external-fourth" href="#">
+			<span class="tab-label tab-label-buy-now">立即充值</span>
+		</div>
 		
 
 	</nav>
@@ -102,7 +102,14 @@
 	<script type='text/javascript' src='../../static/mobile/common/plugins/sui-mobile/dist/js/sm-all.min.js' charset='utf-8'></script>
 	<script type='text/javascript' src='../../static/mobile/common/scripts/main.js' charset='utf-8'></script>
 	<script type='text/javascript' src='../../static/mobile/utilities/scripts/water.js' charset='utf-8'></script>
-
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('li').click(function(){
+				$('.custom_width').removeClass('active');
+				$(this).addClass('active');
+			});
+		});	
+	</script>
 
 
 </body>

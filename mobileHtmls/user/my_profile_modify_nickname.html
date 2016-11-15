@@ -35,7 +35,7 @@
 		<div class="user-address-checkbox-row profile-address-checkbox-row user-top-row">
 			<div class="user-single-text user-single-text-new">
 				<span class="myprofile-head">QwQ鑫</span>
-
+				<input class="user-modify-name" type="text"/>
 			</div>
 		</div>
 		<span class="profile-4-20">4-20个字符，可由中英文、数字、“_”、“-”组成</span>
@@ -53,5 +53,19 @@
 	<script type='text/javascript' src='../../static/mobile/common/plugins/sui-mobile/dist/js/sm-all.min.js' charset='utf-8'></script>
 	<script type='text/javascript' src='../../static/mobile/common/scripts/main.js' charset='utf-8'></script>
 	<script type='text/javascript' src='../../static/mobile/user/scripts/water.js' charset='utf-8'></script>
+	<script>
+    $(document).ready(function(){
+        $('.myprofile-head').click(function(){
+            $('.user-modify-name').hide();
+            $('.myprofile-head').show();
+
+            var label = $(this);
+    
+    $(this).hide();
+    $(this).next().show();
+   // 
+});
+    });
+</script>
 </body>
 </html>	

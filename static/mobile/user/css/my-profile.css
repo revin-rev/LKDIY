@@ -10,6 +10,7 @@
   border-top: 2px solid #d7d7d7;
   width: 100%;
   display: inline-block;
+  padding: 1.17rem;
 }
 .content .user-address-checkbox-row .user-single-text .myprofile-head {
   padding-top: 1.9rem;
@@ -82,6 +83,14 @@
 }
 .content .profile-address-checkbox-row .user-single-text-new {
   border-top: 0;
+}
+.content .profile-address-checkbox-row .user-single-text-new .user-modify-name {
+  display: none;
+  width: 100%;
+  border: 1px solid #cfcfcf;
+  padding: 1.17rem;
+  font-size: 1.17rem;
+  z-index: 99;
 }
 .content .profile-4-20 {
   margin-top: 2.1875rem;

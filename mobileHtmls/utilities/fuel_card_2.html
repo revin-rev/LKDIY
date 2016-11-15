@@ -93,7 +93,14 @@
 	<script type='text/javascript' src='../../static/mobile/common/plugins/sui-mobile/dist/js/sm-all.min.js' charset='utf-8'></script>
 	<script type='text/javascript' src='../../static/mobile/common/scripts/main.js' charset='utf-8'></script>
 	<script type='text/javascript' src='../../static/mobile/utilities/scripts/fuel_card.js' charset='utf-8'></script>
-
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('li').click(function(){
+				$('.custom_width').removeClass('active');
+				$(this).addClass('active');
+			});
+		});	
+	</script>
 	
 
 
