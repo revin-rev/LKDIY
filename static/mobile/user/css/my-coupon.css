@@ -77,7 +77,7 @@
 }
 .user-address-checkbox-row label.label-checkbox .item-inner span {
   display: block;
-  font-size: 1rem;
+  font-size: 1.328125rem;
   color: #cccccc;
   margin-top: 0.78125rem;
 }
@@ -103,4 +103,9 @@ width:calc(100% - 13.90625rem);
   display: inline-block;
   padding: 1.5625rem 2.34375rem;
   margin-left: 0;
+}
+@media screen and (min-width: 768px) and (max-width: 1028px) {
+  .user-address-checkbox-row label.label-checkbox .item-inner span {
+    font-size: 1.2rem;
+  }
 }
