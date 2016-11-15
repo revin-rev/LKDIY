@@ -558,8 +558,8 @@
     width: 20%;
     margin-top: 1%;
   }
-  .content .utilities-custom-css {
-    height: 42rem;
+  .content .utilities-custom-css.utilities-custom-css-border {
+    height: 25rem;
   }
 }
 @media screen and (min-width: 250px) and (max-width: 450px) {

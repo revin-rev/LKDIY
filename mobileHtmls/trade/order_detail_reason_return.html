@@ -45,9 +45,10 @@
 			
 		</div>
 		<div class="product-detail-spec apply-product-detail-spec order-detail-reason-return-spec">
-		请输入退货说明
-			
+		<span class="trade-product-footer-text">请输入退货说明</span>
+		<input class="trade-input" type="text">	
 		</div>
+
 		<div class="row order-detail-comment-second order-detail-reason-comment-second">
         <ul>
           <li>照片</li>
@@ -82,6 +83,20 @@
 	<script type='text/javascript' src='../../static/mobile/common/plugins/sui-mobile/dist/js/sm-all.min.js' charset='utf-8'></script>
 	<script type='text/javascript' src='../../static/mobile/common/scripts/main.js' charset='utf-8'></script>
 	<script type='text/javascript' src='../../static/mobile/trade/scripts/reason-return.js' charset='utf-8'></script>
+	<script>
+    $(document).ready(function(){
+        $('.trade-product-footer-text').click(function(){
+            $('.trade-input').hide();
+            $('.trade-product-footer-text').show();
+
+            var label = $(this);
+    
+    $(this).hide();
+    $(this).next().show();
+   // 
+});
+    });
+</script>
 
 
 

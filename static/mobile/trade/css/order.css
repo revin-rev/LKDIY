@@ -663,6 +663,16 @@
 .content .order-detail-reason-return-spec {
   border-bottom: 2px solid #d7d7d7;
 }
+.content .order-detail-reason-return-spec .trade-input {
+  display: none;
+  width: 100%;
+  border: 1px solid #cfcfcf;
+  padding: 1.17rem;
+  font-size: 1.17rem;
+  z-index: 99;
+  position: relative;
+  top: -0.625rem;
+}
 .content .order-detail-reason-comment-second {
   border-bottom: 0;
   margin-top: 1.953125rem;
