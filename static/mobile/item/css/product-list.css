@@ -373,27 +373,35 @@ ul li a.active {
   border: 1px solid #f3f5f7;
   vertical-align: text-bottom;
   position: relative;
+  right: 0rem;
   padding: 1.5rem 1.5rem;
   background-size: 50%;
   background-color: #f3f5f7;
+  left: 0rem;
+  z-index: 999;
+  height: 3.2rem;
 }
 .product-list-price-value-inc .number {
   font-size: 1.2rem;
-  border: 1px solid #f3f5f7;
+  border: 1px solid #fff;
   position: relative;
   left: 0rem;
-  padding: 0.79rem 0.8rem;
+  padding: 0.84rem 0.4rem;
   margin: 0px;
   vertical-align: text-bottom;
+  height: 3.2rem;
+  border-radius: 1px;
 }
 .product-list-price-value-inc .increment {
   background: url(../image/plus.png) no-repeat 0.8203125rem;
   border: 1px solid #f3f5f7;
   position: relative;
+  /* right: 0.1953125rem; */
   padding: 1.5rem 1.5rem;
   background-size: 50%;
   background-color: #f3f5f7;
   vertical-align: text-bottom;
+  height: 3.2rem;
 }
 .product-list-price-value-inc .product-detail-stock {
   font-size: 1.40625rem;

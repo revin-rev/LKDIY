@@ -521,28 +521,35 @@
   border: 1px solid #f3f5f7;
   vertical-align: text-bottom;
   position: relative;
+  right: 0rem;
   padding: 1.5rem 1.5rem;
   background-size: 50%;
   background-color: #f3f5f7;
+  left: 0rem;
+  z-index: 999;
+  height: 3.2rem;
 }
 .content .utilities-custom-css .fuel_card_color .product-list-price-value-inc .number {
   font-size: 1.2rem;
-  border: 1px solid #f3f5f7;
+  border: 1px solid #fff;
   position: relative;
   left: 0rem;
-  padding: 0.79rem 0.8rem;
+  padding: 0.84rem 0.4rem;
   margin: 0px;
-  font-weight: bolder;
   vertical-align: text-bottom;
+  height: 3.2rem;
+  border-radius: 1px;
 }
 .content .utilities-custom-css .fuel_card_color .product-list-price-value-inc .increment {
   background: url(../images/plus.png) no-repeat 0.8203125rem;
   border: 1px solid #f3f5f7;
   position: relative;
+  /* right: 0.1953125rem; */
   padding: 1.5rem 1.5rem;
   background-size: 50%;
   background-color: #f3f5f7;
   vertical-align: text-bottom;
+  height: 3.2rem;
 }
 /* -----------------------------------------------
  * Fuel Card Ended
