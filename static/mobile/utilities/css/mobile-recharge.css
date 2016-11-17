@@ -101,6 +101,9 @@
 .content .utilities-recharge-total .utilities-recharge-yen30 span {
   font-size: 1.875rem;
   color: #333333;
+  padding-bottom: 1.953125rem;
+  margin-top: 2.421875rem;
+  display: inline-block;
 }
 .content .utilities-recharge-total .utilities-recharge-yen50 {
   text-align: center;
@@ -110,6 +113,9 @@
 .content .utilities-recharge-total .utilities-recharge-yen50 span {
   font-size: 1.875rem;
   color: #333333;
+  padding-bottom: 1.953125rem;
+  margin-top: 2.421875rem;
+  display: inline-block;
 }
 .content .utilities-recharge-total .utilities-recharge-yen100 {
   text-align: center;
@@ -119,11 +125,14 @@
 .content .utilities-recharge-total .utilities-recharge-yen100 span {
   font-size: 1.875rem;
   color: #333333;
+  padding-bottom: 1.953125rem;
+  margin-top: 2.421875rem;
+  display: inline-block;
 }
 .content .utilities-recharge-total .custom_width {
   width: 33%;
   margin: 0;
-  padding-bottom: 4.125rem;
+  padding: 3.125rem;
 }
 .content .utilities-recharge-total .active {
   border: 2px solid #c41411;
@@ -131,6 +140,9 @@
 .content .utilities-recharge-total .active span {
   color: #c41411;
   font-size: 1.875rem;
+  padding-bottom: 1.953125rem;
+  margin-top: 2.421875rem;
+  display: inline-block;
 }
 .main-bar {
   height: auto;
