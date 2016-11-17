@@ -377,7 +377,7 @@
  * --------------------------------------------- */
 .timeline ul {
   padding-top: 1.953125rem;
-  padding-left: 2.2rem;
+  padding-left: 1.953125rem;
 }
 .timeline ul li {
   list-style-type: none;
@@ -402,7 +402,7 @@
 .timeline ul li div {
   position: relative;
   bottom: 0;
-  width: 31.34375rem;
+  width: 35.34375rem;
   padding: 0 0.78125rem;
   margin-left: 2.5390625rem;
   font-size: 1.171875rem;
@@ -1060,7 +1060,7 @@ label.label-checkbox i.icon-form-checkbox:after {
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   .timeline ul li div {
-    width: 33rem;
+    width: 32rem;
   }
 }
 .order-details-scroll {
