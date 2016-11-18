@@ -150,11 +150,11 @@
   border-top: 2px solid #ededed;
   width: 100%;
 }
-.main-bar .utilities-www-custom-width {
+.main-bar .utilities-custom-width-fuel2 {
   width: 70%;
   float: left;
 }
-.main-bar .utilities-www-custom-width .tab-label-mobile-recharge {
+.main-bar .utilities-custom-width-fuel2 .tab-label-mobile-recharge {
   padding: 0;
   list-style: none;
   float: right;
@@ -162,7 +162,7 @@
   width: auto;
   white-space: nowrap;
 }
-.main-bar .utilities-www-custom-width .tab-label-mobile-recharge li {
+.main-bar .utilities-custom-width-fuel2 .tab-label-mobile-recharge li {
   color: #c41411;
   font-size: 1.640625rem;
   padding: 0.390625rem;
