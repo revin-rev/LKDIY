@@ -34,6 +34,7 @@
   color: #666666;
   font-size: 1.640625rem;
   display: inline-block;
+  z-index: 999;
 }
 .sso-page a.active {
   color: #c41411;
@@ -74,6 +75,7 @@
   border: 1px solid #dedede;
   padding-left: 1.953125rem;
   font-size: 1.5625rem;
+  z-index: 999;
 }
 .sso-page .tabs .tab .sso-button {
   text-align: center;

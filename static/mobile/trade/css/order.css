@@ -461,6 +461,7 @@
  * --------------------------------------------- */
 .order-detail_comment_delete {
   background-color: #000;
+  height: 70rem;
 }
 .order-detail_comment_delete img {
   padding-top: 17.578125rem;

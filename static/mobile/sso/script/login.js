@@ -48,8 +48,9 @@
           });
 
     $('a.sso-link').click(function(){
-      setTimeout(function(){
       
+      setTimeout(function(){
+       
       location.reload(true);
       }, 10);
     })

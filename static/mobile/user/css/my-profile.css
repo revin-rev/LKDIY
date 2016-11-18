@@ -13,7 +13,7 @@
   padding: 1.17rem;
 }
 .content .user-address-checkbox-row .user-single-text .myprofile-head {
-  padding-top: 1.9rem;
+  padding-top: 1.1rem;
   padding-bottom: 1.171875rem;
   display: inline-block;
   text-align: left;
@@ -155,7 +155,7 @@ label.label-checkbox i.icon-form-checkbox:after {
   margin-bottom: 2.0703125rem;
 }
 .content .sso-form .sso-list-block ul li.sso-margin-bottom .sso-text {
-  height: 5.125rem;
+  height: 5.500rem;
   color: #333333;
   border-radius: 3px;
   border: 1px solid #dedede;
@@ -170,7 +170,7 @@ label.label-checkbox i.icon-form-checkbox:after {
 }
 .content .sso-form .sso-list-block ul li.sso-margin-bottom img {
   width: 45%;
-  height: 5.125rem;
+  height: 5.500rem;
   float: left;
 }
 .content .sso-form .sso-list-block ul li.sso-margin-bottom .medium {
@@ -178,7 +178,7 @@ label.label-checkbox i.icon-form-checkbox:after {
   padding-top: 1.2rem;
   padding-bottom: 1.09375rem;
   display: inline-block;
-  height: 5.125rem;
+  height: 5.500rem;
   vertical-align: middle;
   color: #333;
   border-radius: 3px;
