@@ -155,12 +155,13 @@ label.label-checkbox i.icon-form-checkbox:after {
   margin-bottom: 2.0703125rem;
 }
 .content .sso-form .sso-list-block ul li.sso-margin-bottom .sso-text {
-  height: 4.125rem;
+  height: 5.125rem;
   color: #333333;
   border-radius: 3px;
   border: 1px solid #dedede;
   background-color: #fff;
   padding-left: 1.171875rem;
+  font-size: 1.9rem;
 }
 .content .sso-form .sso-list-block ul li.sso-margin-bottom .input-large {
   width: 50%;
@@ -169,15 +170,15 @@ label.label-checkbox i.icon-form-checkbox:after {
 }
 .content .sso-form .sso-list-block ul li.sso-margin-bottom img {
   width: 45%;
-  height: 4.125rem;
+  height: 5.125rem;
   float: left;
 }
 .content .sso-form .sso-list-block ul li.sso-margin-bottom .medium {
   border: 1px solid #cccccc;
-  padding-top: 1.5rem;
+  padding-top: 1.2rem;
   padding-bottom: 1.09375rem;
   display: inline-block;
-  height: 4.125rem;
+  height: 5.125rem;
   vertical-align: middle;
   color: #333;
   border-radius: 3px;
@@ -185,6 +186,7 @@ label.label-checkbox i.icon-form-checkbox:after {
   text-align: center;
   margin-bottom: 0.390625rem;
   background-color: #fff;
+  font-size: 1.9rem;
 }
 .list-block ul:after {
   background-color: unset;
