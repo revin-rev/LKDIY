@@ -19,6 +19,7 @@
   text-align: left;
   font-size: 1.5625rem;
   padding-left: 1.953125rem;
+  width: 90%;
 }
 .content .user-address-checkbox-row .user-single-text .user-label-switch {
   display: inline-block;
@@ -115,13 +116,27 @@
  * my-profile-modify Gender Start
  * --------------------------------------------- */
 .content .product-detail-color-new {
-  padding-top: 2.625rem;
-  padding-right: 2.1484375rem;
-  padding-bottom: 0rem;
+  display: inline-block;
+  margin-top: 0.5859375rem;
+  margin-bottom: 0.5859375rem;
+  /*img{
+      width:40/@baseRem;
+      height:27/@baseRem;
+    }*/
 }
-.content .product-detail-color-new img {
-  width: 1.5625rem;
-  height: 1.0546875rem;
+.content .product-detail-color-new i.form-checkbox {
+  width: 3.6rem;
+  height: 3.6rem;
+  border-radius: 2.1rem;
+}
+label.label-checkbox i.icon-form-checkbox:after {
+  position: absolute;
+  left: 24%;
+  margin-left: -0.4rem;
+  top: 23%;
+  margin-top: -0.1rem;
+  width: 2.6rem;
+  height: 2.45rem;
 }
 /* -----------------------------------------------
  * my-profile-modify Gender Ended
@@ -211,4 +226,8 @@
   right: 1.953125rem;
   top: 2.1484375rem;
   width: 2.65625rem;
+}
+label.label-checkbox input[type=checkbox]:checked + .item-media i.icon-form-checkbox:after,
+label.label-checkbox input[type=radio]:checked + .item-media i.icon-form-checkbox:after {
+  background-size: 2.5rem 2.5rem;
 }
