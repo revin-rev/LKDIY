@@ -1,6 +1,7 @@
 @import "../../common/css/variable";
 @import "../../common/css/lesshat";
 
+
 .header-base-color{
   .bar{
     .item-icon {
@@ -658,22 +659,22 @@ width: 72.22%;
     margin-left: 2%;
 }
 .content .product-list-products-container .item-large-products .product-list-laterally-product-col .product-list-laterally-product-title {
-    margin-bottom: 4.4rem;
-    margin-top: 1.5625rem;
+    margin-bottom: (4.4 * @oldBase) / @baseRem ;
+    margin-top: (1.5625 * @oldBase ) @baseRem;
 }
 .item-products-container .item-product-col .item-product-title {
     color: #333333;
-    font-size: 1.6015625rem;
+    font-size: (1.6015625* @oldBase) / @baseRem;
     font-weight: normal;
     margin-top: 0;
-    margin-bottom: 1.7578125rem;
-    min-height: 4.765625rem;
+    margin-bottom: (1.7578125 * @oldBase) / @baseRem;
+    min-height: (4.765625 * @oldBase) / @baseRem;
 }
 .content .product-list-products-container .item-large-products .product-list-laterally-product-col .product-list-laterally-product-price {
-    font-size: 1.953125rem;
+    font-size: (1.953125 * @oldBase) / @baseRem;
 }
 .item-products-container .item-product-col .item-product-price {
-    font-size: 1.5625rem;
+    font-size: (1.5625 * @oldBase) / @baseRem;
     color: #c41411;
     font-weight: normal;
     margin: 0;

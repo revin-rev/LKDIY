@@ -2,6 +2,7 @@
 @import "../../common/css/lesshat";
 
 
+
 .content{
     .utilities-recharge-number-main{
         border-bottom: 2px solid #d7d7d7;
@@ -45,12 +46,12 @@ border-bottom: 1px solid #f7f7f7;
             list-style: none;
         .utilities-recharge-yen5{
             text-align: center;
-            padding:3.125rem;
+            padding:(3.125*@oldBase) / @baseRem;
             span{
                 font-size:48/@baseRem;
                 color:#cccccc;
-                padding-bottom: 1.953125rem;
-                 margin-top: 2.421875rem;
+                padding-bottom: (1.953125*@oldBase) / @baseRem;
+                 margin-top: (2.421875*@oldBase) / @baseRem;
             }
 
         }
@@ -62,8 +63,8 @@ border-bottom: 1px solid #f7f7f7;
             span{
                 font-size:48/@baseRem;
                 color:#cccccc;
-                    margin-top: 2.421875rem;
-                    padding-bottom: 1.953125rem;
+                    margin-top: (2.421875*@oldBase) / @baseRem;
+                    padding-bottom: (1.953125*@oldBase) / @baseRem;
             }
 
         }
@@ -105,12 +106,12 @@ border-bottom: 1px solid #f7f7f7;
         
        .utilities-recharge-yen30 {
            text-align: center;
-            padding:3.125rem;
+            padding:(3.125*@oldBase) / @baseRem;
            span{
                 font-size:48/@baseRem;
                 color:#333333;
-                padding-bottom: 1.953125rem;
-                margin-top: 2.421875rem;
+                padding-bottom: (1.953125*@oldBase) / @baseRem;
+                margin-top: (2.421875*@oldBase) / @baseRem;
                 display: inline-block;
            }
 
@@ -119,13 +120,13 @@ border-bottom: 1px solid #f7f7f7;
            text-align: center;
             border-left:5/@baseRem solid #f7f7f7;
             //border-top:5/@baseRem solid #c41411;
-            padding:3.125rem;
+            padding:(3.125*@oldBase) / @baseRem;
             
            span{
                 font-size:48/@baseRem;
                 color:#333333;
-                 padding-bottom: 1.953125rem;
-    margin-top: 2.421875rem;
+                 padding-bottom: (1.953125*@oldBase) / @baseRem;
+    margin-top: (2.421875*@oldBase) / @baseRem;
     display: inline-block;
            }
            
@@ -134,14 +135,14 @@ border-bottom: 1px solid #f7f7f7;
         
         .utilities-recharge-yen100 {
            text-align: center;
-            padding:3.125rem;
+            padding:(3.125*@oldBase) / @baseRem;
             border-left:5/@baseRem solid #f7f7f7;
            
            span{
                 font-size:48/@baseRem;
                 color:#333333;
-                 padding-bottom: 1.953125rem;
-    margin-top: 2.421875rem;
+                 padding-bottom: (1.953125*@oldBase) / @baseRem;
+    margin-top: (2.421875*@oldBase) / @baseRem;
     display: inline-block;
            }
 
@@ -149,7 +150,7 @@ border-bottom: 1px solid #f7f7f7;
         .custom_width{
             width:33%;
             margin: 0;
-            padding: 3.125rem;
+            padding: (3.125*@oldBase) / @baseRem;
         }
          .active{
                border:2px solid #c41411;
@@ -157,7 +158,7 @@ border-bottom: 1px solid #f7f7f7;
                    color:#c41411;
                    font-size:48/@baseRem;
                    padding-bottom: 1.953125rem;
-    margin-top: 2.421875rem;
+    margin-top: (2.421875*@oldBase) / @baseRem;
     display: inline-block;
 
 
@@ -197,15 +198,15 @@ border-bottom: 1px solid #f7f7f7;
     .external-fourth {
     
     background-color: #ce0000;
-    height: 5.46875rem;
+    height: (5.46875*@oldBase) / @baseRem;
     width: 27%;
     
     float: right;
     .tab-label-buy-now {
     color: #fff;
-    font-size: 1.953125rem;
+    font-size: (1.953125*@oldBase) / @baseRem;
     vertical-align: middle;
-    padding: 1.09375rem 0px 0 0rem;
+    padding: (1.09375*@oldBase) / @baseRem 0px 0 0rem;
     float: left;
     width: 100%;
     text-align: center;
@@ -323,10 +324,13 @@ border-bottom: 1px solid #f7f7f7;
   /* -----------------------------------------------
  * Water started
  * --------------------------------------------- */
+
 .content{
+    
     .utilities-address-checkbox-row.utilities-top-row {
     //margin-top: 1.953125rem;
-    padding: 1.171875rem 1.953125rem;
+    padding: (1.171875*@oldBase) / @baseRem (1.953125 * @oldBase) / @baseRem;
+    font-size: 80/@baseRem;
 }
 .utilities-address-checkbox-row {
     
@@ -362,14 +366,14 @@ border-bottom: 1px solid #f7f7f7;
         margin-left: 5%;
 }
 .utilities-electricity, .utilities-gas, .utilities-water{
-    width: 50%; border: 0px solid rgb(207, 207, 207); padding: 0.8rem; font-size: 1.5rem; z-index: 99;display:none;margin-left: 1%;
+    width: 50%; border: 0px solid rgb(207, 207, 207); padding: (0.8 * @oldBase) / @baseRem; font-size: (1.5*@oldBase) / @baseRem; z-index: 99;display:none;margin-left: 1%;
 }
 .utilities-mobile-recharge
 {
-    width: 100%; border: 0px solid rgb(207, 207, 207); padding: 0.8rem; font-size: 1.5rem; z-index: 99;display:none;margin-left: 5%;background-color: unset;
+    width: 100%; border: 0px solid rgb(207, 207, 207); padding: (0.8*@oldBase) / @baseRem; font-size: (1.5*@oldBase) / @baseRem; z-index: 99;display:none;margin-left: 5%;background-color: unset;
 }
 span.order-spec-text-changed-one{
-    font-size: 1.2rem;
+    font-size: (1.2*@oldBase) / @baseRem;
     width: 80%;
 }
 .order-spec-text-changed-three {

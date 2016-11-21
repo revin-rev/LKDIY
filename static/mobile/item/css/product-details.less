@@ -1,6 +1,7 @@
 @import "../../common/css/variable";
 @import "../../common/css/lesshat";
 
+
 .header-base-color{
   .bar{
     .item-icon {
@@ -300,7 +301,7 @@ color: @fontDarkColor;
 
 .product-detail-tabs-footer
 {
-  height: 165/@baseRem;
+  height: 185/@baseRem;
   a.external-first
   {
    
@@ -323,8 +324,10 @@ color: @fontDarkColor;
   span.tab-label-collect
   {
     
-    margin-top:20/@baseRem;
+    margin-top:30/@baseRem;
     font-size:28/@baseRem !important;
+    margin-bottom:30/@baseRem;
+
     //padding-bottom: 94/@baseRem;
   }
   }
@@ -360,7 +363,7 @@ background:url("../image/product-detail-customer-service.png") no-repeat;
   
     background-color: #ff4200;
     color:#fff;
-        height: 6.5234375rem;
+        height: 199 / @baseRem;
    
       padding: 6/@baseRem 0/@baseRem;
     padding-bottom: 35/@baseRem;
@@ -381,7 +384,7 @@ font-size:60/@baseRem !important;
   
     background-color: #c41411;
     color:#fff;
-       height: 6.5234375rem;
+       height: (6.5234375 * @oldBase) / @baseRem;
     padding: 6/@baseRem 0/@baseRem;
     padding-bottom: 35/@baseRem;
    
@@ -462,6 +465,7 @@ width: 72.22%;
 {
   margin: 0;
   float: left;
+  width:100%;
   .product-detail-border-bottom{
         width:1080/@baseRem;
          height:1080/@baseRem;

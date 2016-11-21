@@ -2,6 +2,7 @@
 @import "../../common/css/lesshat";
 
 
+
 .trade-bottom-fixed-btn{
   background: @baseColor;
   color: @white;
@@ -15,7 +16,8 @@
   a{
     display: block;
     color: @white;
-    padding:36/@baseRem 50/@baseRem;
+    padding:106/@baseRem 50/@baseRem;
+    font-size: 40/@baseRem;
   }
 
   ~ .content{
@@ -25,6 +27,7 @@
 
 .buttons-tab{
   margin-bottom: 50/@baseRem;
+  margin-top: 100/@baseRem;
 
   a.button{
     font-size: 46/@baseRem;
@@ -93,7 +96,8 @@
     display: inline-block;
     margin-left: 0;
     vertical-align: middle;
-    .calc(width,~'100% - 13.90625rem');
+    width:60%;
+    //.calc(width,~'100% - 13.90625rem');
   }
   .trade-coupon-badge{
     background: @baseColor;
@@ -107,11 +111,11 @@
 
 #tab2
 {
-  height:62.39375rem;
+  height:(62.39375* @oldBase) /@baseRem;
 }
 #tab1
 {
-  height:36.394rem;
+  height:(36.394 * @oldBase) /@baseRem;
 }
 
 @media screen and (min-width:768px) and (max-width:1028px){

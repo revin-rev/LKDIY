@@ -1,6 +1,8 @@
 /******************************************************
    *Variables START
 ******************************************************/
+@import "reset.css";
+@import "rem.css";
 body {
   background: #ededed;
   font-family: Arial, "Microsoft Yahei", STXihei, sans-serif;;
@@ -8,21 +10,23 @@ body {
 html {
   font-size: 8px;
 }
-@media only screen and (min-width: 400px) {
+/*@media only screen and (min-width: 400px){
   html {
     font-size: 9px!important;
   }
 }
-@media only screen and (min-width: 768px) {
+
+@media only screen and (min-width: 768px){
   html {
     font-size: 20px!important;
   }
 }
-@media only screen and (min-width: 992px) {
+
+@media only screen and (min-width: 992px){
   html {
     font-size: 25.6px!important;
   }
-}
+}*/
 /*Helper classes START*/
 .img-responsive {
   max-width: 100%;
@@ -86,11 +90,11 @@ html {
   border: 1px solid #999999;
   border-top: 0;
   box-shadow: none;
-  font-size: 1.5625rem;
+  font-size: 40rem;
   color: #666666;
-  padding: 2.5390625rem 0.78125rem;
+  padding: 65rem 20rem;
   display: inline-block;
-  line-height: 1.953125rem;
+  line-height: 50rem;
   height: auto;
 }
 .modal-button:after {
@@ -109,7 +113,7 @@ html {
   height: auto;
 }
 .modal-text {
-  font-size: 1.796875rem;
+  font-size: 46rem;
 }
 /*modal styling END*/
 /*Radio buttons style*/

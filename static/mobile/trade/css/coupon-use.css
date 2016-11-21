@@ -4,7 +4,7 @@
 .trade-bottom-fixed-btn {
   background: #c41411;
   color: #fff;
-  font-size: 1.953125rem;
+  font-size: 0.5rem;
   position: fixed;
   bottom: 0;
   left: 0;
@@ -15,17 +15,19 @@
 .trade-bottom-fixed-btn a {
   display: block;
   color: #fff;
-  padding: 1.40625rem 1.953125rem;
+  padding: 1.06rem 0.5rem;
+  font-size: 0.4rem;
 }
 .trade-bottom-fixed-btn ~ .content {
-  padding-bottom: 5.7421875rem;
+  padding-bottom: 1.47rem;
 }
 .buttons-tab {
-  margin-bottom: 1.953125rem;
+  margin-bottom: 0.5rem;
+  margin-top: 1rem;
 }
 .buttons-tab a.button {
-  font-size: 1.796875rem;
-  padding: 1.71875rem 1.171875rem;
+  font-size: 0.46rem;
+  padding: 0.44rem 0.3rem;
   display: inline-block;
   height: auto;
   color: #666666;
@@ -41,14 +43,14 @@
   border-top: 2px solid #d7d7d7;
   border-bottom: 2px solid #d7d7d7;
   padding: 1.557813rem;
-  font-size: 1.5625rem;
+  font-size: 0.4rem;
   color: #666666;
-  margin-bottom: 1.953125rem;
+  margin-bottom: 0.5rem;
   background: #fff;
 }
 .trade-address-checkbox-row label.label-checkbox i {
-  width: 2.65625rem;
-  height: 2.65625rem;
+  width: 0.68rem;
+  height: 0.68rem;
   -webkit-border-radius: 50%;
   -webkit-background-clip: padding-box;
   -moz-border-radius: 50%;
@@ -58,7 +60,7 @@
   border: 2px solid ;
 }
 .trade-address-checkbox-row label.label-checkbox i:after {
-  background-size: 1.171875rem 3.45rem !important;
+  background-size: 0.3rem 3.45rem !important;
   top: 0;
   margin: 0;
   left: 0;
@@ -67,19 +69,19 @@
   height: 100%;
 }
 .trade-address-checkbox-row label.label-checkbox .item-inner {
-  margin-left: 1.3671875rem;
-  font-size: 1.796875rem;
+  margin-left: 0.35rem;
+  font-size: 0.46rem;
   color: #333333;
-  padding-left: 1.953125rem;
+  padding-left: 0.5rem;
 }
 .trade-address-checkbox-row label.label-checkbox .item-inner span {
   display: block;
-  font-size: 1.328125rem;
+  font-size: 0.34rem;
   color: #999999;
-  margin-top: 0.5078125rem;
+  margin-top: 0.13rem;
 }
 .trade-address-checkbox-row .trade-checkbox-block {
-  width: 13.90625rem;
+  width: 3.56rem;
   display: inline-block;
   vertical-align: middle;
 }
@@ -87,25 +89,21 @@
   display: inline-block;
   margin-left: 0;
   vertical-align: middle;
-  -lh-property: 0;
-width:-webkit-calc(100% - 13.90625rem);
-width:-moz-calc(100% - 13.90625rem);
-width:calc(100% - 13.90625rem);
-;
+  width: 60%;
 }
 .trade-address-checkbox-row .trade-coupon-badge {
   background: #c41411;
   color: #fff;
-  font-size: 1.4453125rem;
+  font-size: 0.37rem;
   display: inline-block;
-  padding: 1.5625rem 2.34375rem;
-  margin-left: 1.7578125rem;
+  padding: 0.4rem 0.6rem;
+  margin-left: 0.45rem;
 }
 #tab2 {
-  height: 62.39375rem;
+  height: 15.9728rem;
 }
 #tab1 {
-  height: 36.394rem;
+  height: 9.316864rem;
 }
 @media screen and (min-width: 768px) and (max-width: 1028px) {
   .trade-address-checkbox-row label.label-checkbox .item-inner span {

@@ -7,16 +7,18 @@
   border-bottom: 1px solid #dedede;
 }
 .sso-page .sso-icon {
-  font-size: 3rem;
+  font-size: 0.768rem;
   color: #666666;
   position: absolute;
-  top: 2rem;
+  top: 0.512rem;
+  padding: 0;
+  line-height: 0.328rem;
 }
 .sso-page .sso-content {
-  padding-top: 4.609375rem;
+  padding-top: 1.18rem;
 }
 .sso-page .sso-content-block {
-  margin: 3.6328125rem 0;
+  margin: 0.93rem 0;
   padding: 0rem;
   margin-bottom: 0;
   background: #fff;
@@ -30,9 +32,9 @@
   background-color: unset;
 }
 .sso-page a {
-  padding: 1.6796875rem 1.953125rem;
+  padding: 0.43rem 0.5rem;
   color: #666666;
-  font-size: 1.640625rem;
+  font-size: 0.42rem;
   display: inline-block;
   z-index: 999;
 }
@@ -44,7 +46,7 @@
   border-top: 1px solid #dedede;
 }
 .sso-page .sso-content-second {
-  padding-top: 4.8046875rem;
+  padding-top: 1.23rem;
 }
 .sso-page .list-block ul:before {
   background-color: unset;
@@ -53,28 +55,28 @@
   background-color: unset;
 }
 .sso-page .tabs .tab .sso-title {
-  font-size: 1.796875rem;
+  font-size: 0.46rem;
   width: 99%;
-  margin-top: 2.03125rem;
+  margin-top: 0.52rem;
 }
 .sso-page .tabs .tab .sso-margin-bottom {
-  margin-bottom: 2.0703125rem;
+  margin-bottom: 0.53rem;
 }
 .sso-page .tabs .tab .sso-list-block {
-  padding-top: 5.6640625rem;
-  padding-left: 0.5859375rem;
-  padding-right: 0.5859375rem;
+  padding-top: 1.45rem;
+  padding-left: 0.15rem;
+  padding-right: 0.15rem;
 }
 .sso-page .tabs .tab .sso-list-block ul {
-  padding: 0.5859375rem;
+  padding: 0.15rem;
 }
 .sso-page .tabs .tab .sso-text {
-  height: 5.859375rem;
+  height: 1.5rem;
   color: #333333;
-  border-radius: 3px;
+  border-radius: 0.03rem;
   border: 1px solid #dedede;
-  padding-left: 1.953125rem;
-  font-size: 1.5625rem;
+  padding-left: 0.5rem;
+  font-size: 0.4rem;
   z-index: 999;
 }
 .sso-page .tabs .tab .sso-button {
@@ -82,20 +84,20 @@
   width: 100%;
   background-color: #dedede;
   color: #cccccc;
-  font-size: 1.5625rem;
+  font-size: 0.4rem;
 }
 .sso-page .tabs .tab .sso-incorrect {
   text-align: center;
   width: 100%;
   background-color: #333333;
   color: #e0e0e0;
-  margin-bottom: 0.9765625rem;
+  margin-bottom: 0.25rem;
   display: none;
-  margin-top: 20px;
+  margin-top: 0.2rem;
 }
 .sso-page .tabs .tab .user-captcha-image {
   width: 45%;
-  height: 5.859375rem;
+  height: 1.5rem;
 }
 .sso-page .tabs .tab .sso-enable {
   background-color: #c41411;
@@ -104,47 +106,47 @@
 .sso-page .tabs .tab .sso-pass-eye {
   position: absolute;
   top: 39%;
-  right: 4%;
-  width: 2.65625rem;
-  height: 1.6015625rem;
+  right: 6%;
+  width: 0.68rem;
+  height: 0.41rem;
 }
 .sso-page .tabs .tab .input-large {
   width: 49%;
-  margin-right: 2.0703125rem;
+  margin-right: 0.53rem;
   float: left;
 }
 .sso-page .tabs .tab .medium {
   border: 1px solid #cccccc;
-  padding-top: 1.6rem;
-  padding-bottom: 1.09375rem;
+  padding-top: 0.4096rem;
+  padding-bottom: 0.28rem;
   display: inline-block;
-  height: 5.859375rem;
+  height: 1.5rem;
   vertical-align: middle;
   color: #333;
-  border-radius: 3px;
+  border-radius: 0.03rem;
   width: 45%;
   text-align: center;
-  margin-bottom: 0.390625rem;
-  font-size: 1.5625rem;
+  margin-bottom: 0.1rem;
+  font-size: 0.4rem;
 }
 .sso-page .tabs .tab .auto-login {
-  font-size: 1.40625rem;
+  font-size: 0.36rem;
 }
 .sso-page .tabs .tab .sso-condition {
   color: #c41411;
-  font-size: 1.40625rem;
-  padding: 2.109375rem 0rem 0rem 0rem;
+  font-size: 0.36rem;
+  padding: 0.54rem 0rem 0rem 0rem;
 }
 .sso-page .tabs .tab .input-error {
-  width: 1.5625rem;
-  height: 1.17578125rem;
+  width: 0.4rem;
+  height: 0.301rem;
 }
 .sso-page .tabs .tab .sso-customer {
   text-align: right;
-  padding: 1.6796875rem 1.953125rem;
+  padding: 0.43rem 0.5rem;
   color: #666666;
-  font-size: 1.640625rem;
-  height: 23.7890625rem;
+  font-size: 0.42rem;
+  height: 6.09rem;
   width: 100%;
 }
 .sso-page input[type="checkbox"]:checked :before {
@@ -160,34 +162,35 @@
   background-color: transparent;
 }
 .popup-create {
-  top: 10%;
+  top: 14%;
   width: 90%;
-  height: 74%;
   left: 5%;
+  height: 45%;
   background-color: #f7f7f7;
 }
 .popup-create p {
   text-align: center;
-  font-size: 1.640625rem;
+  font-size: 0.42rem;
   color: #333333;
+  padding: 0.5rem;
 }
 .popup-create .content-block {
   width: 90%;
   float: left;
   margin: 0;
   background-color: #fff;
-  padding: 1.953125rem;
+  padding: 0.5rem;
   margin-left: 5%;
 }
 .popup-create .content-block span {
-  font-size: 1.171875rem;
+  font-size: 0.3rem;
   color: #666666;
-  line-height: 1.953125rem;
+  line-height: 0.5rem;
   margin-bottom: 10px;
   float: left;
 }
 .popup-create a.close-popup {
-  font-size: 1.171875rem;
+  font-size: 0.3rem;
   color: #666666;
   border: 2px solid #dedede;
   border-radius: 5px;
@@ -196,8 +199,8 @@
   width: 50%;
   float: left;
   left: 25%;
-  padding: 1.3671875rem 1.3671875rem;
-  margin-bottom: 0.5859375rem;
+  padding: 0.35rem 0.35rem;
+  margin-bottom: 0.15rem;
 }
 .popup a {
   text-align: center;
@@ -205,8 +208,8 @@
   display: inline-block;
   color: #c41411;
   border-top: 1px solid #d7d7d7;
-  font-size: 1.5625rem;
-  padding-top: 2.34375rem;
+  font-size: 0.4rem;
+  padding-top: 0.6rem;
 }
 .popup .content-block .modal-overlay,
 .popup-overlay,

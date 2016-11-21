@@ -1,5 +1,6 @@
 @import "../../common/css/variable";
 
+
 //Import all variables
 
 .sso-page{
@@ -10,10 +11,12 @@
   }
   .sso-icon
   {
-    font-size: 3rem;
+    font-size: (3 * @oldBase) / @baseRem;
     color:@baseTextColor;
     position: absolute;
     top: 51.2/@baseRem;
+    padding:0;
+    line-height: 32.8/@baseRem;
   }
 
 
@@ -107,7 +110,7 @@
       {
         height: 150/@baseRem;
         color:@baseColorPlacholderWrite;
-        border-radius:3px;
+        border-radius:3/@baseRem;
         border:1px solid #dedede;
         padding-left:50/@baseRem;
         font-size: 40/@baseRem;
@@ -130,7 +133,7 @@
         color:#e0e0e0;
         margin-bottom: 25/@baseRem;
         display: none;
-        margin-top: 20px;
+        margin-top: 20/@baseRem;
       }
       .user-captcha-image{
         width:45%;
@@ -145,7 +148,7 @@
       {
         position: absolute;
         top: 39%;
-        right: 4%;
+        right: 6%;
         width:68/@baseRem;
         height:41/@baseRem;
       }
@@ -158,13 +161,13 @@
       .medium
       {
         border: 1px solid #cccccc;
-        padding-top:1.6rem;
+        padding-top:(1.6 * @oldBase) / @baseRem;
         padding-bottom: 28/@baseRem;
         display: inline-block;
         height:150/@baseRem;
         vertical-align: middle;
         color: #333;
-        border-radius: 3px;
+        border-radius: 3/@baseRem;
         width:45%;
         text-align: center;
         margin-bottom: 10/@baseRem;
@@ -221,15 +224,16 @@
 }
 
 .popup-create{
-  top: 10%;
+      top: 14%;
     width: 90%;
-    height: 74%;
     left: 5%;
+    height: 45%;
     background-color: #f7f7f7;
      p{
       text-align: center;
       font-size:42/@baseRem;
       color:#333333;
+       padding:50/@baseRem;
     }
   .content-block{
     width:90%;
@@ -270,8 +274,8 @@
     display: inline-block;
     color: #c41411;
     border-top: 1px solid #d7d7d7;
-    font-size: 1.5625rem;
-    padding-top: 2.34375rem;
+    font-size: (1.5625 * @oldBase) / @baseRem;
+    padding-top: (2.34375 * @oldBase) /@baseRem;
 }
 .popup .content-block .modal-overlay, .popup-overlay, .preloader-indicator-overlay {
     background: rgba(17, 17, 17, 0.5);

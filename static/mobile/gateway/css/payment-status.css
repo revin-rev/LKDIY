@@ -2,10 +2,10 @@
    *Variables START
 ******************************************************/
 .content {
-  padding-top: 5.1171875rem !important;
+  padding-top: 1.31rem !important;
 }
 .gateway-bottom-fixed-btn {
-  font-size: 1.953125rem;
+  font-size: 0.5rem;
   position: fixed;
   bottom: 0;
   left: 0;
@@ -15,12 +15,12 @@
   background: #fff;
 }
 .gateway-bottom-fixed-btn .gateway-text {
-  font-size: 1.5625rem;
-  padding: 1.953125rem;
+  font-size: 0.4rem;
+  padding: 0.5rem;
   color: #222222;
 }
 .gateway-bottom-fixed-btn .gateway-text .gateway-total {
-  font-size: 1.953125rem;
+  font-size: 0.5rem;
   color: #c41411;
 }
 .gateway-bottom-fixed-btn .gateway-text .gateway-extra {
@@ -31,13 +31,13 @@
   color: #222222;
 }
 .gateway-bottom-fixed-btn ~ .content {
-  padding-bottom: 9.1796875rem;
+  padding-bottom: 2.35rem;
 }
 .gateway-success-row {
   border-top: 2px solid #d7d7d7;
   border-bottom: 2px solid #d7d7d7;
-  padding: 1.953125rem;
-  font-size: 1.796875rem;
+  padding: 0.5rem;
+  font-size: 0.46rem;
   color: #666666;
   background: #fff;
 }
@@ -45,23 +45,23 @@
   border-top: 0;
 }
 .gateway-success-row .gateway-success-text {
-  font-size: 1.40625rem;
-  margin-top: 0.9765625rem;
+  font-size: 0.36rem;
+  margin-top: 0.25rem;
 }
 .gateway-success-row .gateway-success-text span {
-  margin-bottom: 0.1953125rem;
+  margin-bottom: 0.05rem;
 }
 .gateway-notify-block {
   background: #fff;
   text-align: center;
-  padding-top: 4.296875rem;
-  padding-bottom: 5.2734375rem;
+  padding-top: 1.1rem;
+  padding-bottom: 1.35rem;
 }
 .gateway-notify-block .gateway-notify-block-text {
   display: inline-block;
   position: relative;
   color: #333333;
-  font-size: 2.34375rem;
+  font-size: 0.6rem;
 }
 .gateway-notify-block .gateway-notify-block-text img {
   position: absolute;
@@ -71,27 +71,27 @@ right:-webkit-calc(100% + 2.34375rem);
 right:-moz-calc(100% + 2.34375rem);
 right:calc(100% + 2.34375rem);
 ;
-  width: 3.90625rem;
+  width: 1rem;
 }
 .gateway-notify-block .gateway-notify-block-text span {
   display: block;
-  font-size: 1.875rem;
+  font-size: 0.48rem;
 }
 .gateway-action-btns {
-  padding: 16.40625rem 1.953125rem 1.953125rem;
+  padding: 4.2rem 0.5rem 0.5rem;
 }
 .gateway-action-btns a {
   display: inline-block;
-  font-size: 1.953125rem;
-  padding: 1.4453125rem 0.390625rem;
+  font-size: 0.5rem;
+  padding: 0.37rem 0.1rem;
   background: #fff;
   width: 45%;
   text-align: center;
-  -webkit-border-radius: 0.3125rem;
+  -webkit-border-radius: 0.08rem;
   -webkit-background-clip: padding-box;
-  -moz-border-radius: 0.3125rem;
+  -moz-border-radius: 0.08rem;
   -moz-background-clip: padding;
-  border-radius: 0.3125rem;
+  border-radius: 0.08rem;
   background-clip: padding-box;
   border: 1px solid #999999;
   color: #333333;
@@ -105,6 +105,6 @@ right:calc(100% + 2.34375rem);
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   .gateway-action-btns {
-    padding: 5.859375rem 1.953125rem 1.953125rem;
+    padding: 1.5rem 0.5rem 0.5rem;
   }
 }

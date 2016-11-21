@@ -2,6 +2,7 @@
 @import "../../common/css/lesshat";
 
 
+
 .content{
 .bar{
    height:124.813/@baseRem;
@@ -47,14 +48,14 @@
   }
 .bar-tab .tab-item .icon.item-icon-me{
      background: url("../image/item-search.png") no-repeat;
-    height: 38px;
-    width: 38px;
+    height: 38/@baseRem;
+    width: 38/@baseRem;
 }
 .bar-tab .tab-item .icon.item-icon-settings
 {
 background: url("../image/item-people.png") no-repeat;
-    height: 38px;
-    width: 38px;
+    height: 38@baseRem;
+    width: 38@baseRem;
 }
 
   .row
@@ -447,7 +448,7 @@ width: 72.22%;
   //background-position: ~'calc(100% - 1.5rem)' center;
     background-repeat: no-repeat;
    // background-size: 0.7rem auto;
-    padding-right: 1.5rem;
+    padding-right: (1.5* @oldBase) / @baseRem;;
 
     .product-detail-color{
         color:#cccccc;
@@ -479,8 +480,8 @@ hr.www-meduim {
     color: #999999;
     //display: flex;
     flex-shrink: 0;
-    margin-left: 0.25rem;
-    max-height: 1.4rem;
+    margin-left: (0.25 * @oldBase) / @baseRem;;
+    max-height: (1.4 * @oldBase) / @baseRem;;
     white-space: nowrap;
 }
 .product-detail-continue-more-link
@@ -509,10 +510,10 @@ ul {
 ul li {
     float: left;
     width: 24%;
-    padding: 0 0.78125rem;
+    padding: (0.78125 * @oldBase) / @baseRem;
 }
 ul li a {
-    font-size: 1.0rem;
+    font-size: 50/@baseRem;
     display: block;
     width: 100%;
     //padding-top:20/@baseRem;
@@ -549,25 +550,25 @@ ul li a.active{
     border: 1px solid #f3f5f7;
     vertical-align: text-bottom;
     position: relative;
-    right: 0rem;
-    padding: 1.5rem 1.5rem;
+    right: 0;
+    padding: (1.5* @oldBase) / @baseRem (1.5* @oldBase) / @baseRem;;
     background-size: 50%;
     background-color: #f3f5f7;
     left: 0rem;
     z-index: 999;
-    height: 3.2rem
+    height: (3.2* @oldBase) / @baseRem;
 
   }
   .number
   {
-    font-size: 1.2rem;
+    font-size: (1.2 * @oldBase) / @baseRem;;
     border: 1px solid #f3f5f7;
     position: relative;
     left: 0rem;
-    padding: 0.84rem 0.4rem;
+    padding: (0.84 * @oldBase) / @baseRem (0.4* @oldBase) / @baseRem;;
     margin: 0px;
     vertical-align: text-bottom;
-    height: 3.2rem;
+    height: (3.2 * @oldBase) / @baseRem;
     border-radius: 1px;
 
   }
@@ -577,11 +578,11 @@ ul li a.active{
     border: 1px solid #f3f5f7;
     position: relative;
     /* right: 0.1953125rem; */
-    padding: 1.5rem 1.5rem;
+    padding: (1.5* @oldBase) / @baseRem (1.5 * @oldBase) / @baseRem;
     background-size: 50%;
     background-color: #f3f5f7;
     vertical-align: text-bottom;
-    height: 3.2rem;
+    height: (3.2* @oldBase) / @baseRem;
   }
   .product-detail-stock
   {

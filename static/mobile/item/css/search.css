@@ -2,12 +2,12 @@
    *Variables START
 ******************************************************/
 .content {
-  padding-top: 5.2734375rem;
+  padding-top: 1.35rem;
 }
 .item-product-list-row {
-  padding: 0 10px;
+  padding: 0 0.1rem;
   background: #fff;
-  border-bottom: 3px solid #eeeeee;
+  border-bottom: 0.768rem solid #eeeeee;
 }
 .item-product-list-row .item-product-list-image {
   float: left;
@@ -20,39 +20,41 @@
 .item-product-list-row .item-product-list-text h2 {
   color: #333333;
   font-weight: normal;
-  font-size: 1.71875rem;
-  margin-top: 1.5625rem;
-  min-height: 7.320313rem;
+  font-size: 0.5rem;
+  margin-top: 1rem;
+  min-height: 1.87400013rem;
+  padding-left: 0.5rem;
 }
 .item-product-list-row .item-product-list-text h3 {
   color: #c41411;
   font-weight: normal;
-  font-size: 1.953125rem;
+  font-size: 0.5rem;
   margin-bottom: 0;
-  margin-top: 0;
+  margin-top: 1rem;
+  padding-left: 0.5rem;
 }
 .item-no-result-block {
-  padding-top: 6.25rem;
+  padding-top: 3.6rem;
 }
 .item-no-result-block img {
-  width: 9.453125rem;
+  width: 2.42rem;
 }
 .item-no-result-block h2 {
-  margin-top: 6.015625rem;
-  font-size: 1.796875rem;
+  margin-top: 1.54rem;
+  font-size: 0.46rem;
   color: #999999;
   font-weight: normal;
 }
 .item-no-result-block h2 span {
   display: block;
-  font-size: 1.40625rem;
+  font-size: 0.36rem;
 }
 .item-sidebar-inputs {
   position: relative;
 }
 .item-sidebar-inputs .item-input-minus {
   background: #999999;
-  width: 1.5625rem;
+  width: 0.4rem;
   height: 4px;
   position: absolute;
   left: 0;
@@ -73,52 +75,52 @@ top:calc(48% - 2px);
 }
 .item-sidebar-inputs .item-input-block-1 {
   width: 50%;
-  padding-right: 1.171875rem;
+  padding-right: 0.3rem;
   float: left;
 }
 .item-sidebar-inputs .item-input-block-2 {
   width: 50%;
-  padding-left: 1.171875rem;
+  padding-left: 0.3rem;
   float: left;
 }
 .item-sidebar-inputs input {
   width: 100%;
   border: 2px solid #dedede;
   text-align: center;
-  font-size: 1.640625rem;
+  font-size: 0.42rem;
   -webkit-border-radius: 4px;
   -webkit-background-clip: padding-box;
   -moz-border-radius: 4px;
   -moz-background-clip: padding;
   border-radius: 4px;
   background-clip: padding-box;
-  padding: 0.78125rem;
+  padding: 0.2rem;
 }
 .item-styled-hr {
-  height: 0.390625rem;
+  height: 0.1rem;
   background: #ededed;
   border-top: 1px solid #dedede;
   border-bottom: 1px solid #dedede;
   border-left: 0;
-  margin: 1.171875rem -1.40625rem 1.953125rem;
+  margin: 0.3rem -0.36rem 0.5rem;
 }
 .item-checkbox-block .item-checkbox-title {
-  font-size: 1.796875rem;
+  font-size: 0.46rem;
   color: #333333;
 }
 .item-checkbox-block .item-checkbox-title-small {
-  font-size: 1.640625rem;
+  font-size: 0.42rem;
   color: #666666;
 }
 .item-checkbox-block .item-checkboxes-heading {
-  margin-bottom: 1.7578125rem;
+  margin-bottom: 0.45rem;
 }
 .item-checkbox-block .item-checkbox-action {
-  font-size: 1.796875rem;
-  line-height: 1.09375rem;
+  font-size: 0.46rem;
+  line-height: 0.28rem;
   position: relative;
-  top: 0.5859375rem;
-  margin-left: 2.1875rem;
+  top: 0.15rem;
+  margin-left: 0.56rem;
   color: #cccccc;
   -webkit-transition: 0.3s;
   -moz-transition: 0.3s;
@@ -126,10 +128,10 @@ top:calc(48% - 2px);
   transition: 0.3s;
 }
 .item-checkbox-block .item-checkboxes-row {
-  margin-left: -0.5859375rem;
-  margin-right: -0.5859375rem;
-  margin-bottom: 0.5859375rem;
-  max-height: 4.7265625rem;
+  margin-left: -0.15rem;
+  margin-right: -0.15rem;
+  margin-bottom: 0.15rem;
+  max-height: 1.21rem;
   overflow: hidden;
 }
 .item-checkbox-block .item-checkboxes-row:after {
@@ -141,9 +143,9 @@ top:calc(48% - 2px);
 .item-checkbox-block .item-checkboxes-row .item-checkbox-column {
   float: left;
   width: 33%;
-  padding-left: 0.5859375rem;
-  padding-right: 0.5859375rem;
-  margin-bottom: 1.171875rem;
+  padding-left: 0.15rem;
+  padding-right: 0.15rem;
+  margin-bottom: 0.3rem;
 }
 .item-checkbox-block .item-checkboxes-row .item-checkbox-column .item-checkbox {
   position: relative;
@@ -153,14 +155,14 @@ top:calc(48% - 2px);
   background: #f7f7f7;
   color: #333;
   text-align: center;
-  font-size: 1.640625rem;
+  font-size: 0.42rem;
   -webkit-border-radius: 4px;
   -webkit-background-clip: padding-box;
   -moz-border-radius: 4px;
   -moz-background-clip: padding;
   border-radius: 4px;
   background-clip: padding-box;
-  padding: 0.46875rem 10 25.6rem;
+  padding: 0.12rem 10 100rem;
   border: 2px solid #f7f7f7;
   white-space: nowrap;
   overflow: hidden;
