@@ -2,7 +2,7 @@
    *Variables START
 ******************************************************/
 .header-base-color ~ .content {
-  padding-top: 3.17rem;
+  padding-top: 3.57rem;
 }
 .product-review-center {
   display: inline-block;
@@ -31,7 +31,7 @@
 .content .order-details-large-products .order-detail-content-block {
   background-color: #fff;
   margin: 0;
-  padding: 0.8rem 0 0 0;
+  padding: 0.8rem 0 0.5rem 0;
   border-top: 1px solid #d7d7d7;
 }
 .content .order-details-large-products .order-detail-content-block .order-details-list .order-deatils-total {
@@ -43,7 +43,7 @@
   color: #ce0000;
   margin-left: 0.1rem;
   vertical-align: middle;
-  font-size: 0.5rem;
+  font-size: 0.8rem;
 }
 .content .order-details-large-products .order-detail-content-block .order-details-list .order-detail-complete {
   float: right;
@@ -147,7 +147,7 @@
   float: right;
   margin-top: 1.2rem;
   margin-bottom: 0;
-  margin-right: 0.14rem;
+  margin-right: 1.4rem;
   font-size: 0.8rem;
 }
 .content .order-detail-product-payment-method {
@@ -155,10 +155,11 @@
   background-color: #fff;
   float: left;
   margin-bottom: 0;
-  border-top: 1px solid #d7d7d7;
+  border-top: 1rem solid #d7d7d7;
+  padding-top: 1rem;
 }
 .content .order-detail-product-payment-method h4.order-detail-paid-pay {
-  font-size: 0.4rem;
+  font-size: 0.7rem;
   color: #222;
   float: left;
   margin-left: 4%;
@@ -166,10 +167,10 @@
   font-weight: normal;
 }
 .content .order-detail-product-payment-method label {
-  margin-top: 0.5225rem;
+  margin-bottom: 0.7rem;
   float: left;
   color: #999999;
-  font-size: 0.4rem;
+  font-size: 0.7rem;
 }
 .content .order-detail-product-payment-method-second {
   width: 100%;
@@ -177,10 +178,11 @@
   float: left;
   margin-bottom: 0;
   margin-top: 0;
+  padding-top: 1rem;
   border-top: 1px solid #d7d7d7;
 }
 .content .order-detail-product-payment-method-second h4.order-detail-paid-pay {
-  font-size: 0.4rem;
+  font-size: 0.7rem;
   color: #222;
   float: left;
   margin-left: 4%;
@@ -188,32 +190,33 @@
   font-weight: normal;
 }
 .content .order-detail-product-payment-method-second label {
-  margin-top: 0.5225rem;
+  margin-bottom: 0.7rem;
   float: left;
   color: #999999;
-  font-size: 0.4rem;
+  font-size: 0.7rem;
 }
 .content .product-detail-spec {
-  padding-top: 0.47rem;
+  padding-top: 0.6rem;
   padding-left: 0.6rem;
-  font-size: 0.4rem;
+  font-size: 0.7rem;
   color: #999999;
-  height: 1.51rem;
+  height: 1.91rem;
   display: inline-block;
   width: 100%;
+  padding-bottom: 0.7rem;
   background-color: #fff;
   background-repeat: no-repeat;
   padding-right: 1.5rem;
 }
 .content .product-detail-spec span {
-  font-size: 0.4rem;
+  font-size: 0.7rem;
   color: #999999;
 }
 .content .product-detail-spec .product-detail-color {
   color: #cccccc;
 }
 .content .product-detail-spec .product-detail-color .icon-right {
-  font-size: 0.4rem;
+  font-size: 0.7rem;
 }
 .content .order-details-large-products-new {
   border-top: 0;
@@ -229,21 +232,22 @@
   height: 53.320313rem;
 }
 .content .order-details-large-products-new .order-details-paid-products-container .order-detail-paid-product-information {
-  font-size: 0.46rem;
+  font-size: 0.7rem;
   font-weight: normal;
   padding-left: 0.6528rem;
   background-color: #fff;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+  padding-top: 0.7rem;
+  padding-bottom: 0.7rem;
   margin-bottom: 0.47rem;
 }
 .content .order-details-large-products-new .order-details-paid-products-container-completed {
-  height: 60.320313rem;
+  height: 27rem;
 }
 .content .order-details-large-products-new .order-detail-completed-block {
   background: #fff;
-  padding: 0.5rem 0.6rem 0.6rem 0.6rem;
+  padding: 1.2rem 0.7rem 1.2rem 0.7rem;
   margin-bottom: 0.2rem;
+  margin-top: 0.9rem;
   float: left;
   width: 100%;
 }
@@ -251,20 +255,21 @@
   list-style: none;
   float: right;
   padding: 0;
+  width: 40%;
 }
 .content .order-details-large-products-new .order-detail-completed-block li {
   display: inline;
 }
 .content .order-details-large-products-new .order-detail-completed-block a {
-  font-size: 0.4rem;
+  font-size: 0.7rem;
   color: #cccccc;
   background-color: #dedede;
-  padding: 0.26rem 0.4rem 0.26rem 0.4rem;
-  border-radius: 5px;
-  margin-right: 35px;
+  padding: 0.7rem 0.7rem 0.7rem 0.7rem;
+  border-radius: 0.05rem;
+  margin-right: 0.35rem;
 }
 .content .order-details-large-products-new .order-detail-completed-block .order-completed-buy-again {
-  font-size: 0.4rem;
+  font-size: 0.7rem;
   color: #ce0000;
   background-color: #ffffff;
   margin-right: 0;
@@ -272,7 +277,7 @@
 }
 .content .order-details-large-products-new .order-detail-paid-content-block {
   background-color: transparent;
-  width: 89%;
+  width: 85%;
   float: left;
   border: 1px solid #dedede;
   margin-left: 7%;
@@ -284,7 +289,7 @@
   padding-left: 0.6528rem;
   margin-top: 0.3404rem;
   float: left;
-  font-size: 0.4rem;
+  font-size: 0.7rem;
   margin-bottom: 0.3404rem;
   color: #999999;
   padding-right: 0.7rem;
@@ -294,51 +299,54 @@
   margin-top: 0.3404rem;
   float: left;
   color: #999999;
-  font-size: 0.4rem;
+  font-size: 0.7rem;
 }
 .content .order-detail-paid-container {
   border-top: 0.15rem solid #f3f5f7;
   background-color: #fff;
-  border-bottom: 1.953125rem solid #f3f5f7;
+  border-bottom: 1rem solid #f3f5f7;
 }
 .content .order-detail-paid-container .order-detail-paid-list {
   margin-top: 0.5rem;
-  margin-bottom: 0.27rem;
+  margin-bottom: 0.7rem;
+  padding-left: 1rem;
 }
 .content .order-detail-paid-container .order-detail-paid-list .order-detail-paid-number {
-  font-size: 0.46rem;
+  font-size: 0.8rem;
   margin-left: 0.7672rem;
   color: #222222;
   float: left;
 }
 .content .order-detail-paid-container .order-detail-paid-list label {
-  font-size: 0.46rem;
+  font-size: 0.8rem;
   color: #ce0000;
   padding-left: 0.25rem;
 }
 .content .order-detail-paid-container .order-detail-paid-list-date {
-  margin-bottom: 0.27rem;
+  margin-bottom: 0.7rem;
+  padding-left: 1rem;
 }
 .content .order-detail-paid-container .order-detail-paid-list-date .order-detail-paid-date {
-  font-size: 0.36rem;
+  font-size: 0.8rem;
   color: #666666;
   margin-left: 0.7672rem;
 }
 .content .order-detail-paid-container .order-detail-paid-list-date label {
-  font-size: 0.36rem;
+  font-size: 0.8rem;
   color: #666666;
 }
 .content .order-detail-paid-container .order-detail-paid-list-money {
-  padding-bottom: 0.27rem;
+  padding-bottom: 0.7rem;
+  padding-left: 1rem;
   border-bottom: 1px solid #d7d7d7;
 }
 .content .order-detail-paid-container .order-detail-paid-list-money .order-detail-paid-money {
-  font-size: 0.36rem;
+  font-size: 0.7rem;
   color: #666666;
   margin-left: 0.7672rem;
 }
 .content .order-detail-paid-container .order-detail-paid-list-money label {
-  font-size: 0.36rem;
+  font-size: 0.7rem;
   color: #ce0000;
 }
 .content .order-detail-paid-container .order-detail-paid-list-money label span {
@@ -346,40 +354,41 @@
 }
 .content .order-detail-paid-wang {
   padding-left: 0.6528rem;
-  border-top: 1px solid #d7d7d7;
+  border-top: 1rem solid #d7d7d7;
   background-color: #fff;
-  border-bottom: 1.953125rem solid #f3f5f7;
+  border-bottom: 1rem solid #f3f5f7;
 }
 .content .order-detail-paid-wang .col-50 h2 {
   color: #222222;
-  font-size: 0.46rem;
+  font-size: 0.7rem;
   font-weight: normal;
-  margin-bottom: 0.13rem;
+  margin-bottom: 0.7rem;
+  padding-top: 0.7rem;
 }
 .content .order-detail-paid-wang .col-50 h2.order-detail-paid-wang-number {
-  font-size: 0.44rem;
+  font-size: 0.7rem;
   font-weight: normal;
   color: #222222;
   float: right;
-  padding-right: 0.45rem;
+  padding-right: 1.7rem;
   margin-bottom: 0.13rem;
 }
 .content .order-detail-paid-wang .order-detail-paid-address {
-  font-size: 0.37rem;
+  font-size: 0.7rem;
   color: #949494;
   float: left;
-  margin-left: 1.9%;
+  margin-left: 3.9%;
   width: 96%;
-  padding-bottom: 0.5rem;
+  padding-bottom: 0.8rem;
 }
 .product-detail-paid a.external {
   background-color: #c41411;
-  font-size: 0.5rem;
+  font-size: 0.7rem;
   color: #fff;
 }
 .product-detail-paid-payment a.externals {
   background-color: #fff;
-  font-size: 0.5rem;
+  font-size: 0.7rem;
   color: #222222;
 }
 /* -----------------------------------------------
@@ -502,22 +511,17 @@
   padding-left: 0.5rem;
   width: 30%;
 }
-.content .order-detail-comment-main .shopping-cart-product-comment img {
-  width: auto;
-  height: auto;
-}
 .content .order-detail-comment-main .shopping-cart-product-list-order-detail-comment {
   width: 58%;
 }
 .content .order-detail-comment-main .shopping-cart-product-list-order-detail-comment .shopping-cart-product-price {
   border: 1px solid #d7d7d7;
   margin: 0;
-  padding: 0.6rem 0.6rem 0.6rem 0.6rem;
+  padding: 0.2rem 0.2rem 1.5503rem 0.3rem;
   color: #999;
-  font-size: 0.6rem;
+  font-size: 0.4rem;
   font-weight: normal;
   background-color: #fff;
-  height: 5.78rem;
 }
 .content .order-detail-comment-second {
   margin-top: 1rem;
@@ -527,14 +531,14 @@
   list-style: none;
   float: left;
   width: 96%;
-  padding-left: 0.8rem;
+  padding-left: 2.5rem;
 }
 .content .order-detail-comment-second ul li {
   float: left;
   width: 22%;
   margin-left: 3%;
   border: 1px solid #d7d7d7;
-  padding-bottom: 3.24rem;
+  padding-bottom: 2.24rem;
   margin-bottom: 0.3rem;
   background-color: #fff;
 }
@@ -552,13 +556,10 @@
   background-color: #fff;
   padding-left: 1.5rem;
 }
-.content .order-detail-comment-third .order-detail-comment-footer {
-  margin-bottom: 0.5rem;
-}
 .content .order-detail-comment-third .order-detail-comment-footer h2 {
   margin-left: 0.7rem;
-  font-size: 0.66rem;
-  padding-top: 1.2rem;
+  font-size: 0.36rem;
+  padding-top: 0.5rem;
   margin-top: 0;
   width: 35%;
   float: left;
@@ -645,7 +646,7 @@
 }
 .content .order-details-apply-for-return .order-details-customer-apply-list .order-detail-apply-list-product-col h4.order-detail-product-price-x1 {
   font-weight: normal;
-  margin-right: 0.2936rem;
+  margin-right: 1.36rem;
 }
 .content .order-details-apply-for-return .order-details-customer-apply-list .order-detail-apply-content-block .order-details-list .order-detail-pull span.order-detail-apply-zero {
   font-size: 0.36rem;

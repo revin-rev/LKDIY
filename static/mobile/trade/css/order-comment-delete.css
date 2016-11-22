@@ -2,11 +2,12 @@
    *Variables START
 ******************************************************/
 .header-base-color ~ .content {
-  padding-top: 3.17rem;
+  padding-top: 2.67rem;
 }
-.product-review-center {
+.header-base-color .product-review-center {
   display: inline-block;
-  width: 90%;
+  width: 91%;
+  font-size: 0.66rem;
 }
 .content a.button.active {
   font-size: 0.66rem;
@@ -471,21 +472,22 @@
  * --------------------------------------------- */
 .order-detail_comment_delete {
   background-color: #000;
-  height: 70rem;
+  height: 32.7rem;
 }
 .order-detail_comment_delete img {
-  padding-top: 4.5rem;
+  padding-top: 6.7rem;
   max-width: 100%;
   padding-bottom: 4.5rem;
 }
 .product-detail-dots {
   position: relative;
-  top: 1.5625rem;
-  right: 1.6796875rem;
+  top: 0.56rem;
+  right: 0.32rem;
+  font-size: 0.66rem;
 }
 .product-detail-dots span {
   color: #fff;
-  font-size: 0.36rem !important;
+  font-size: 0.66rem !important;
   padding-right: .3rem!important;
 }
 .content .order-detail-list-products-container {
@@ -502,22 +504,17 @@
   padding-left: 0.5rem;
   width: 30%;
 }
-.content .order-detail-comment-main .shopping-cart-product-comment img {
-  width: auto;
-  height: auto;
-}
 .content .order-detail-comment-main .shopping-cart-product-list-order-detail-comment {
   width: 58%;
 }
 .content .order-detail-comment-main .shopping-cart-product-list-order-detail-comment .shopping-cart-product-price {
   border: 1px solid #d7d7d7;
   margin: 0;
-  padding: 0.6rem 0.6rem 0.6rem 0.6rem;
+  padding: 0.2rem 0.2rem 1.5503rem 0.3rem;
   color: #999;
-  font-size: 0.6rem;
+  font-size: 0.4rem;
   font-weight: normal;
   background-color: #fff;
-  height: 5.78rem;
 }
 .content .order-detail-comment-second {
   margin-top: 1rem;
@@ -527,14 +524,14 @@
   list-style: none;
   float: left;
   width: 96%;
-  padding-left: 0.8rem;
+  padding-left: 2.5rem;
 }
 .content .order-detail-comment-second ul li {
   float: left;
   width: 22%;
   margin-left: 3%;
   border: 1px solid #d7d7d7;
-  padding-bottom: 3.24rem;
+  padding-bottom: 2.24rem;
   margin-bottom: 0.3rem;
   background-color: #fff;
 }
@@ -552,13 +549,10 @@
   background-color: #fff;
   padding-left: 1.5rem;
 }
-.content .order-detail-comment-third .order-detail-comment-footer {
-  margin-bottom: 0.5rem;
-}
 .content .order-detail-comment-third .order-detail-comment-footer h2 {
   margin-left: 0.7rem;
-  font-size: 0.66rem;
-  padding-top: 1.2rem;
+  font-size: 0.36rem;
+  padding-top: 0.5rem;
   margin-top: 0;
   width: 35%;
   float: left;
