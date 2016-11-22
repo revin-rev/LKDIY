@@ -3,6 +3,7 @@
 
 
 
+
 .trade-bottom-fixed-btn{
   background: @baseColor;
   color: @white;
@@ -17,11 +18,14 @@
   a{
     display: block;
     color: @white;
-    padding:36/@baseRem 50/@baseRem;
+    padding:86/@baseRem 50/@baseRem;
+    font-size: 80/@baseRem;
   }
 
   ~ .content{
     padding-bottom: 147/@baseRem;
+    padding-top: 257/@baseRem;
+
   }
 }
 
@@ -275,5 +279,5 @@ h2.mar_gaya{
 
 #tab1
 {
-  height:65.39375rem;
+  height:(65.39375 * @oldBase) / @baseRem;
 }
