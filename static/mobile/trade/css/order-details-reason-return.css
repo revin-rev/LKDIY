@@ -2,12 +2,11 @@
    *Variables START
 ******************************************************/
 .header-base-color ~ .content {
-  padding-top: 3.57rem;
+  padding-top: 3.07rem;
 }
-.header-base-color .product-review-center {
+.product-review-center {
   display: inline-block;
   width: 90%;
-  font-size: 0.7rem;
 }
 .content a.button.active {
   font-size: 0.66rem;
@@ -207,14 +206,14 @@
   padding-right: 1.5rem;
 }
 .content .product-detail-spec span {
-  font-size: 0.4rem;
+  font-size: 0.7rem;
   color: #999999;
 }
 .content .product-detail-spec .product-detail-color {
   color: #cccccc;
 }
 .content .product-detail-spec .product-detail-color .icon-right {
-  font-size: 0.4rem;
+  font-size: 0.7rem;
 }
 .content .order-details-large-products-new {
   border-top: 0;
@@ -481,8 +480,8 @@
 }
 .product-detail-dots {
   position: relative;
-  top: 1.45rem;
-  right: 1.67rem;
+  top: 1.5625rem;
+  right: 1.6796875rem;
 }
 .product-detail-dots span {
   color: #fff;
@@ -604,8 +603,8 @@
 }
 .header-base-color .bar .span_icon img {
   max-width: 100%;
-  width: 1.08rem;
-  height: 1.08rem;
+  width: 0.68rem;
+  height: 0.68rem;
 }
 .content .buttons-tab-apply {
   border-bottom: 1px solid #d7d7d7;
@@ -661,16 +660,20 @@
  * Return Reason  Start
  * --------------------------------------------- */
 .content .order-detail-reason-return {
-  font-size: 0.46rem;
+  font-size: 0.7rem;
   color: #222;
   background-color: #f3f5f7;
   border-bottom: 2px solid #d7d7d7;
+  height: 1.7rem;
+  padding-top: 0.5rem;
 }
 .content .order-detail-reason-return label {
   color: #ce0000;
 }
 .content .order-detail-reason-return-spec {
   border-bottom: 2px solid #d7d7d7;
+  height: 1.7rem;
+  padding-top: 0.5rem;
 }
 .content .order-detail-reason-return-spec .trade-input {
   display: none;
@@ -714,9 +717,11 @@
   padding-top: 0.2rem;
   padding-left: 0.46rem;
   padding-right: 0.46rem;
+  margin: 0.8rem 0;
+  padding-bottom: 0.8rem;
 }
 .popup .content-block p {
-  font-size: 0.46rem;
+  font-size: 0.7rem;
   color: #222;
   padding-bottom: 0.1rem;
   margin-top: 0.05rem;
@@ -724,15 +729,15 @@
 .popup .content-block #popupSelect {
   z-index: 1000;
   position: absolute;
-  top: 130px;
-  left: 50px;
+  top: 1.3rem;
+  left: 0.5rem;
 }
 .popup .content-block ul {
   padding: 0;
   list-style: none;
 }
 .popup .content-block ul li {
-  font-size: 0.4rem;
+  font-size: 0.7rem;
   color: #666666;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
@@ -757,7 +762,7 @@
   display: inline-block;
   color: #c41411;
   border-top: 1px solid #d7d7d7;
-  font-size: 0.4rem;
+  font-size: 0.7rem;
   padding-top: 0.6rem;
 }
 .modal-overlay,
@@ -781,29 +786,29 @@
 .content .order-deatil-return-content-block h2.order-detail-return-process {
   padding-left: 0.45rem;
   color: #222;
-  font-size: 0.7rem;
+  font-size: 0.46rem;
   font-weight: normal;
   border-bottom: 2px solid #d7d7d7;
-  padding-bottom: 0.7rem;
-  padding-top: 0.7rem;
+  padding-bottom: 0.25rem;
+  padding-top: 0.25rem;
   margin-top: 0;
 }
 .content .order-deatil-return-content-block ul.order-detail-return-information-step {
   list-style: none;
   float: left;
+  padding-left: 0.0288rem;
   width: 100%;
   position: relative;
-  padding-top: 1rem;
   text-align: center;
 }
 .content .order-deatil-return-content-block ul.order-detail-return-information-step li.order-detail-retun-information-step1 .label-checkbox {
   float: left;
 }
 .content .order-deatil-return-content-block ul.order-detail-return-information-step li.order-detail-retun-information-step1 .label-checkbox .item-media i.icon-form-checkbox {
-  width: 1.7rem;
-  height: 1.7rem;
+  width: 0.7rem;
+  height: 0.7rem;
   background-color: #c41411;
-  border-radius: 1.5rem;
+  border-radius: 50px;
 }
 .content .order-deatil-return-content-block ul.order-detail-return-information-step li.order-detail-retun-information-step1 .label-checkbox .item-media i.icon-form-checkbox.shopping-cart-return-information {
   background-color: #d7d7d7;
@@ -815,12 +820,12 @@
 }
 .content .order-deatil-return-content-block ul.order-detail-return-information-step li a {
   display: block;
-  padding: 0.49rem 0.04rem;
+  padding: 0.23rem 0.04rem;
 }
 .content .order-deatil-return-content-block ul.order-detail-return-information-step li a span {
   display: block;
-  width: 0.5rem;
-  height: 0.5rem;
+  width: 0.15rem;
+  height: 0.15rem;
   background-color: #ce0000;
   border-radius: 100%;
   opacity: 0.6;
@@ -844,10 +849,12 @@
   background-color: #d7d7d7;
 }
 .content .order-deatil-return-content-block .order-detail-return-info-main {
-  width: 100%;
+  width: 90%;
   float: left;
   padding-left: 0.04rem;
   padding-right: 0.12rem;
+  border-bottom: 2px dashed #d7d7d7;
+  margin-left: 5%;
   padding-bottom: 0.4rem;
   position: relative;
 }
@@ -862,61 +869,39 @@
   float: left;
   width: 23%;
   margin-left: 2%;
-  text-align: center;
 }
 .content .order-deatil-return-content-block .order-detail-return-info-main ul li a.selected {
   color: #c41411;
-  font-size: 0.7rem;
-  display: inline-block;
-  text-align: center;
-  margin: 0.4rem 0;
+  font-size: 0.36rem;
 }
 .content .order-deatil-return-content-block .order-detail-return-info-main ul li a {
   color: #cccccc;
-  font-size: 0.7rem;
-  margin: 0.4rem 0;
-  display: inline-block;
-  text-align: center;
+  font-size: 0.36rem;
 }
 .content .order-deatil-return-content-block .order-detail-return-info-main ul li:first-child {
   text-align: left;
-}
-.content .order-deatil-return-content-block .order-detail-return-info-main ul li:nth-child(2) {
-  text-align: center;
   margin-left: 0%;
-}
-.content .order-deatil-return-content-block .order-detail-return-info-main ul li:nth-child(3) {
-  text-align: center;
-  margin-left: 4%;
 }
 .content .order-deatil-return-content-block .order-detail-return-info-main ul li:last-child {
   text-align: right;
-  margin-left: -3%;
+  margin-left: 2%;
 }
 .content .order-deatil-return-content-block h3 {
   float: left;
-  font-size: 0.7rem;
+  padding-left: 0.6rem;
+  font-size: 0.44rem;
   font-weight: normal;
   color: #222;
-  border-top: 0.1rem dashed #d7d7d7;
-  width: 90%;
-  margin-left: 1.2rem;
-  padding-top: 0.6rem;
 }
 .content .order-deatil-return-content-block div.order-detail-return {
-  padding-top: 0.5rem;
+  padding-top: 0;
   height: auto;
-  padding-bottom: 0.8rem;
-  font-size: 0.7rem;
-  padding-left: 1.1rem;
+  padding-bottom: 1.8359375rem;
 }
 .content .order-deatil-return-content-block p.order-detail-return {
   margin: 0;
   padding-top: 0;
   height: auto;
-  padding-bottom: 0.8rem;
-  font-size: 0.7rem;
-  padding-left: 1.1rem;
 }
 .content .order-deatil-return-content-block a.order-return-logistics {
   text-align: center;
@@ -932,12 +917,8 @@
   font-size: 0.5rem;
 }
 .content .order-detail-application-return {
-  border-top: 1.05rem solid #f3f5f7;
+  border-top: 1.953125rem solid #f3f5f7;
   background-color: #fff;
-  padding-bottom: 0.6rem;
-}
-.content .order-detail-application-return .content-block {
-  margin: 0.8rem 0;
 }
 .content .order-detail-application-return .content-block .sale-type-new {
   width: 30%;
@@ -945,9 +926,9 @@
   padding-top: 0.2719rem;
 }
 .content .order-detail-application-return .content-block .sale-type-new p.sale-type {
-  font-size: 0.7rem;
+  font-size: 0.44rem;
   color: #999;
-  padding-left: 1.1rem;
+  padding-left: 0.7rem;
   margin: 0;
   padding-bottom: 0.5rem;
 }
@@ -977,10 +958,10 @@ label.label-checkbox i.icon-form-checkbox:after {
   position: absolute;
   left: 39%;
   margin-left: -0.4rem;
-  top: 17%;
+  top: 29%;
   margin-top: -0.1rem;
-  width: 1.2rem;
-  height: 1.25rem;
+  width: 1.6rem;
+  height: 1.45rem;
 }
 /* -----------------------------------------------
  * Return Information  Ended

@@ -386,15 +386,15 @@
  * Timeline Start
  * --------------------------------------------- */
 .timeline ul {
-  padding-top: 0.5rem;
-  padding-left: 0.5rem;
+  padding-top: 0.7rem;
+  padding-left: 0.7rem;
 }
 .timeline ul li {
   list-style-type: none;
   position: relative;
   width: 0.06rem;
-  margin-left: 0.36rem;
-  padding-bottom: 0.5rem;
+  margin-left: 0.7rem;
+  padding-bottom: 0.7rem;
   background: #ccc;
 }
 .timeline ul li::after {
@@ -403,8 +403,8 @@
   left: 50%;
   bottom: 0;
   transform: translateX(-50%);
-  width: 0.23rem;
-  height: 0.23rem;
+  width: 0.5rem;
+  height: 0.5rem;
   border-radius: 50%;
   background: inherit;
   top: 0%;
@@ -412,16 +412,17 @@
 .timeline ul li div {
   position: relative;
   bottom: 0;
-  width: 35.34375rem;
-  padding: 0 0.2rem;
+  width: 21.3rem;
+  padding: 0 0.8rem;
   margin-left: 0.65rem;
-  font-size: 0.3rem;
+  font-size: 0.7rem;
+  line-height: 0.9rem;
   color: #666;
 }
 .timeline ul li.timeline-container::after {
   background: url('../images/order-tracking.png') no-repeat;
-  width: 0.5rem;
-  height: 0.5rem;
+  width: 1rem;
+  height: 1rem;
   background-size: contain;
 }
 /* -----------------------------------------------
@@ -435,7 +436,7 @@
   padding-bottom: 1.85rem;
 }
 .content .order-detail-border .order-detail-thankyou {
-  padding-top: 2.18rem;
+  padding-top: 1.18rem;
   width: 40%;
   display: inline-block;
   text-align: right;
@@ -450,7 +451,7 @@
   float: right;
 }
 .content .order-detail-border .order-detail-successfully-thankyou-posted h3 {
-  font-size: 0.6rem;
+  font-size: 0.7rem;
   color: #c41411;
   padding-top: 1.75rem;
   padding-left: 0.38rem;
@@ -461,7 +462,7 @@
   padding: 0.2rem 0.65rem;
   border-radius: 0.05rem;
   color: #c41411;
-  font-size: 0.5rem;
+  font-size: 0.7rem;
   text-align: center;
   border: 1px solid #c41411;
   margin-bottom: 0.5rem;
@@ -713,9 +714,11 @@
   padding-top: 0.2rem;
   padding-left: 0.46rem;
   padding-right: 0.46rem;
+  margin: 0.8rem 0;
+  padding-bottom: 0.8rem;
 }
 .popup .content-block p {
-  font-size: 0.46rem;
+  font-size: 0.7rem;
   color: #222;
   padding-bottom: 0.1rem;
   margin-top: 0.05rem;
@@ -723,15 +726,15 @@
 .popup .content-block #popupSelect {
   z-index: 1000;
   position: absolute;
-  top: 130px;
-  left: 50px;
+  top: 1.3rem;
+  left: 0.5rem;
 }
 .popup .content-block ul {
   padding: 0;
   list-style: none;
 }
 .popup .content-block ul li {
-  font-size: 0.4rem;
+  font-size: 0.7rem;
   color: #666666;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
@@ -756,7 +759,7 @@
   display: inline-block;
   color: #c41411;
   border-top: 1px solid #d7d7d7;
-  font-size: 0.4rem;
+  font-size: 0.7rem;
   padding-top: 0.6rem;
 }
 .modal-overlay,
@@ -1066,7 +1069,7 @@ label.label-checkbox i.icon-form-checkbox:after {
 }
 @media only screen and (orientation: landscape) {
   .timeline ul li div {
-    width: 54rem;
+    width: 21rem;
   }
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
@@ -1075,7 +1078,7 @@ label.label-checkbox i.icon-form-checkbox:after {
   }
 }
 .order-details-scroll {
-  height: 32rem;
+  height: 0.32rem;
 }
 .custom-row {
   width: 100%;

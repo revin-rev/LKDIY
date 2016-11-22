@@ -6,7 +6,7 @@
 
 ~ .content{
     
-    padding-top: 357/@baseRem;
+    padding-top: 307/@baseRem;
 
   }
 }
@@ -15,7 +15,10 @@
   width:90%;
 }
 .content{
- 
+  .order-deatil-fixed-tab
+  {
+      //padding-top: 30/@baseRem;
+  }
   a.button.active{
     font-size:66/@baseRem;
     color:#ce0000;
@@ -42,7 +45,7 @@
   .order-detail-content-block{
     background-color:#fff;
     margin:0;
-    padding:80/@baseRem 0 80/@baseRem 0;
+    padding:80/@baseRem 0 0 0;
     border-top:1px solid #d7d7d7;
     .order-details-list{
     //margin-bottom:20/@baseRem;
@@ -50,14 +53,12 @@
   .order-deatils-total{
           margin-left:45/@baseRem;
           font-weight:normal;
-          font-size:70/@baseRem;
-          padding-bottom: 60/@baseRem;
+          font-size:50/@baseRem;
           span{
             color:#ce0000;
             margin-left:10/@baseRem;
             vertical-align: middle;
-            font-size:70/@baseRem;
-             padding-bottom: 60/@baseRem;
+            font-size:50/@baseRem;
           }
         }
  
@@ -245,7 +246,7 @@ color:#222;
   
     padding-right: 1.5rem;
     span{
-    font-size:40/@baseRem;
+    font-size:70/@baseRem;
     color:#999999;
     //padding-left:25/@baseRem;
     }
@@ -253,7 +254,7 @@ color:#222;
     .product-detail-color{
         color:#cccccc;
         .icon-right{
-          font-size:40/@baseRem;
+          font-size:70/@baseRem;
         }
     }
 
@@ -691,16 +692,16 @@ ul{
   .order-details-list{
     //border-bottom: 1px solid #d7d7d7;
     h2.customer-service-refund{
-      margin-left:70/@baseRem;
+      margin-left:48/@baseRem;
       font-weight:normal;
       color:#c41411;
-      font-size:70/@baseRem;
+      font-size:36/@baseRem;
     }
     .order-detail-pull{
       .customer-service-list-right{
         float: right;
         width:58%;
-        font-size:70/@baseRem;
+        font-size:36/@baseRem;
 
       }
       .order-detail-customer-service-upload{
@@ -806,7 +807,9 @@ ul{
                   h2.customer-service-list-right{
                      width:68%;
                      margin-left:0/@baseRem;
-                    
+                    span{
+                     
+                    }
                   }
                 }
               
@@ -834,16 +837,21 @@ ul{
 
 .content{
   .order-detail-reason-return{
-    font-size:46/@baseRem;
+    font-size:70/@baseRem;
     color:#222;
     background-color: #f3f5f7;
     border-bottom: 2px solid #d7d7d7;
+    height:170/@baseRem;
+    padding-top:50/@baseRem;
     label{
       color:#ce0000;
     }
   }
   .order-detail-reason-return-spec{
     border-bottom: 2px solid #d7d7d7;
+    height:170/@baseRem;
+    padding-top:50/@baseRem;
+
     .trade-input{
     display: none;
     width: 100%;
@@ -892,8 +900,10 @@ ul{
      padding-top:20/@baseRem;
   padding-left:46/@baseRem;
   padding-right:46/@baseRem;
+  margin: 80/@baseRem 0;
+    padding-bottom: 80/@baseRem;
     p{
-     font-size:46/@baseRem;
+     font-size:70/@baseRem;
       color:#222;
       padding-bottom: 10/@baseRem;
       margin-top:5/@baseRem;
@@ -902,14 +912,14 @@ ul{
     #popupSelect{
     z-index: 1000;
     position: absolute;
-    top: 130px;
-    left: 50px;
+    top: 130/@baseRem;
+    left: 50/@baseRem;
 }
     ul{
       padding:0;
       list-style: none;
       li{
-        font-size:40/@baseRem;
+        font-size:70/@baseRem;
         color:#666666;
         padding-top: 50/@baseRem;
         padding-bottom: 50/@baseRem;
@@ -937,7 +947,7 @@ h2.mar_gaya{
       display: inline-block;
       color:#c41411;
       border-top:1px solid #d7d7d7;
-      font-size: 40/@baseRem;
+      font-size: 70/@baseRem;
       padding-top: 60/@baseRem;
 
 
@@ -1345,11 +1355,11 @@ ul.order-detail-information-refund-1{
 
 @media only screen and (min-device-width: 768px) and (max-device-width : 1024px){
 .timeline ul li div{
-  width: 3200/@baseRem;
+  width: 32rem;
 }
 }
 .order-details-scroll{
-  height:820/@baseRem;
+  height:32rem;
 }
 .custom-row {
     width: 100%;
@@ -1357,30 +1367,27 @@ ul.order-detail-information-refund-1{
     height: auto;
     background-color: #fff;
     .order-detail-content-block{
-      margin:80/@baseRem;
       .order-details-list-second{
         h2.customer-service-refund{
           margin-left:48/@baseRem;
-          font-weight:normal;
-          color:#c41411;
-          font-size:70/@baseRem;
-          padding-top: 50/@baseRem
-
+      font-weight:normal;
+      color:#c41411;
+      font-size:36/@baseRem;
         }
         .order-detail-pull{
           a.order-detail-customer-service-upload{
             text-align: center;
             color: #c41411;
             border:2px solid #c41411;
-            padding:20/@baseRem 60/@baseRem 20/@baseRem 60/@baseRem; 
+            padding:15/@baseRem 30/@baseRem 15/@baseRem 30/@baseRem; 
             border-radius:5px;
             //margin-top: 15/@baseRem;
            // display: inline-block;
            float: right;
-           width:50%;
+           width:65%;
            margin-right: 15/@baseRem;
            margin-top:15/@baseRem;
-            font-size:70/@baseRem;
+            font-size:40/@baseRem;
           }
         }
       }

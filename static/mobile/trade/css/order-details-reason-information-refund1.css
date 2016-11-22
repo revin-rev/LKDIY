@@ -883,7 +883,7 @@
 }
 .content .order-deatil-return-content-block .order-detail-return-info-main ul li:nth-child(2) {
   text-align: center;
-  margin-left: 0%;
+  margin-left: 9%;
 }
 .content .order-deatil-return-content-block .order-detail-return-info-main ul li:nth-child(3) {
   text-align: center;
@@ -891,7 +891,7 @@
 }
 .content .order-deatil-return-content-block .order-detail-return-info-main ul li:last-child {
   text-align: right;
-  margin-left: -3%;
+  margin-left: 2%;
 }
 .content .order-deatil-return-content-block h3 {
   float: left;
@@ -1033,9 +1033,11 @@ label.label-checkbox i.icon-form-checkbox:after {
 }
 .content .order-deatil-return-content-block .order-return-info-main-refund ul {
   text-align: center;
+  padding-left: 3.25rem;
 }
 .content .order-deatil-return-content-block .order-return-info-main-refund ul li:first-child {
-  margin-left: 12%;
+  margin-left: 0%;
+  text-align: center;
 }
 /* -----------------------------------------------
  * Apply For step1  Ended
@@ -1129,6 +1131,17 @@ label.label-checkbox i.icon-form-checkbox:after {
 @media only screen and (min-device-width: 250px) and (max-device-width: 450px) {
   .custom-row .order-detail-content-block .order-details-list-second .order-detail-pull a.order-detail-customer-service-upload {
     width: 80%;
+  }
+  .content .order-deatil-return-content-block .order-return-info-main-refund ul {
+    padding: 0;
+  }
+  .content .order-deatil-return-content-block .order-detail-return-info-main ul li:nth-child(2) {
+    width: 50%;
+    margin-left: 2%;
+  }
+  .content .order-deatil-return-content-block .order-detail-return-info-main ul li:last-child {
+    text-align: center;
+    margin-left: 2%;
   }
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1028px) {

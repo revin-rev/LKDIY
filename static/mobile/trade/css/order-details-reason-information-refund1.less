@@ -2,6 +2,8 @@
 @import "../../common/css/lesshat";
 //Order-Detail start
 
+
+
 .header-base-color{
 
 ~ .content{
@@ -9,13 +11,18 @@
     padding-top: 357/@baseRem;
 
   }
-}
-.product-review-center{
+  .product-review-center{
   display: inline-block;
   width:90%;
+  font-size:70/@baseRem;
 }
+}
+
 .content{
- 
+  .order-deatil-fixed-tab
+  {
+      //padding-top: 30/@baseRem;
+  }
   a.button.active{
     font-size:66/@baseRem;
     color:#ce0000;
@@ -42,7 +49,7 @@
   .order-detail-content-block{
     background-color:#fff;
     margin:0;
-    padding:80/@baseRem 0 80/@baseRem 0;
+    padding:80/@baseRem 0 0 0;
     border-top:1px solid #d7d7d7;
     .order-details-list{
     //margin-bottom:20/@baseRem;
@@ -50,14 +57,12 @@
   .order-deatils-total{
           margin-left:45/@baseRem;
           font-weight:normal;
-          font-size:70/@baseRem;
-          padding-bottom: 60/@baseRem;
+          font-size:50/@baseRem;
           span{
             color:#ce0000;
             margin-left:10/@baseRem;
             vertical-align: middle;
-            font-size:70/@baseRem;
-             padding-bottom: 60/@baseRem;
+            font-size:50/@baseRem;
           }
         }
  
@@ -587,8 +592,8 @@ a{
  }
  .product-detail-dots {
     position: relative;
-    top: 1.5625rem;
-    right: 1.6796875rem;
+    top: 145/@baseRem;
+    right: 167/@baseRem;
     span{
       color:#fff;
       font-size:36/@baseRem!important;
@@ -691,16 +696,16 @@ ul{
   .order-details-list{
     //border-bottom: 1px solid #d7d7d7;
     h2.customer-service-refund{
-      margin-left:70/@baseRem;
+      margin-left:48/@baseRem;
       font-weight:normal;
       color:#c41411;
-      font-size:70/@baseRem;
+      font-size:36/@baseRem;
     }
     .order-detail-pull{
       .customer-service-list-right{
         float: right;
         width:58%;
-        font-size:70/@baseRem;
+        font-size:36/@baseRem;
 
       }
       .order-detail-customer-service-upload{
@@ -743,8 +748,8 @@ ul{
   padding:0;
   img{
     max-width:100%;
-    width:68/@baseRem;
-    height:68/@baseRem;
+    width:108/@baseRem;
+    height:108/@baseRem;
   }
 }
 
@@ -806,7 +811,9 @@ ul{
                   h2.customer-service-list-right{
                      width:68%;
                      margin-left:0/@baseRem;
-                    
+                    span{
+                     
+                    }
                   }
                 }
               
@@ -969,19 +976,20 @@ h2.mar_gaya{
     h2.order-detail-return-process{
       padding-left:45/@baseRem;
       color:#222;
-      font-size:46/@baseRem;
+      font-size:70/@baseRem;
       font-weight: normal;
       border-bottom: 2px solid #d7d7d7;
-      padding-bottom: 25/@baseRem;
-      padding-top: 25/@baseRem;
+      padding-bottom: 70/@baseRem;
+      padding-top: 70/@baseRem;
       margin-top:0;
     }
     ul.order-detail-return-information-step{
       list-style: none;
       float: left;
-      padding-left: 2.88/@baseRem;
+      //padding-left: 288/@baseRem;
       width: 100%;
       position: relative;
+      padding-top:100/@baseRem;
       text-align:center;
       li.order-detail-retun-information-step1{
             
@@ -989,10 +997,10 @@ h2.mar_gaya{
         float: left;
         .item-media{
           i.icon-form-checkbox{
-            width:70/@baseRem;
-            height:70/@baseRem;
+            width:170/@baseRem;
+            height:170/@baseRem;
             background-color:#c41411;
-            border-radius:50px;
+            border-radius:150/@baseRem;
             
           }
           i.icon-form-checkbox.shopping-cart-return-information{
@@ -1010,11 +1018,11 @@ h2.mar_gaya{
     padding: 0;
     a {
     display: block;
-    padding: 23/@baseRem 4/@baseRem;
+    padding: 49/@baseRem 4/@baseRem;
     span {
     display: block;
-    width: 15/@baseRem;
-    height: 15/@baseRem;
+    width: 50/@baseRem;
+    height: 50/@baseRem;
     background-color: #ce0000;
     border-radius: 100%;
     opacity: 0.6;
@@ -1044,12 +1052,12 @@ span.color-change{
      
     }
     .order-detail-return-info-main{
-      width:90%;
+      width:100%;
       float:left;
       padding-left:4/@baseRem; 
       padding-right:12/@baseRem;
-      border-bottom:2px dashed #d7d7d7;
-      margin-left: 5%;
+      
+     //margin-left: 5%;
        padding-bottom: 40/@baseRem;
        position: relative;
 
@@ -1063,44 +1071,70 @@ span.color-change{
            float: left;
            width:23%;
            margin-left:2%;
+           text-align: center;
          
          a.selected{
            color:#c41411;
-           font-size: 36/@baseRem;
+           font-size: 70/@baseRem;
+           display: inline-block;
+           text-align: center;
+           margin:40/@baseRem 0;
+
          }
          a{
           color:#cccccc;
-          font-size: 36/@baseRem;
+          font-size: 70/@baseRem;
+           margin:40/@baseRem 0;
+            display: inline-block;
+           text-align: center;
          }
          }
          li:first-child{
            text-align: left;
-           margin-left:0%;
+          // margin-left:0%;
+         }
+         li:nth-child(2){
+           text-align: center;
+           margin-left: 9%;
+         }
+         li:nth-child(3){
+           text-align: center;
+           margin-left:4%;
          }
           
          li:last-child{
-           text-align: right;
-           margin-left:2%;
+               text-align: right;
+    margin-left: 2%;
          }
        }
     
     }
+    
     h3{
     float: left;
-    padding-left: 60/@baseRem;
-    font-size:44/@baseRem;
+   // padding-left: 60/@baseRem;
+    font-size:70/@baseRem;
     font-weight: normal;
     color: #222;
+     border-top:10/@baseRem dashed #d7d7d7;
+     width:90%;
+     margin-left:120/@baseRem;
+     padding-top: 60/@baseRem;
     }
     div.order-detail-return{
-      padding-top:0;
+      padding-top:50/@baseRem;
     height:auto;
-    padding-bottom: 1.8359375rem;
+    padding-bottom: 80/@baseRem;
+    font-size:70/@baseRem;
+        padding-left: 110/@baseRem;
   }
   p.order-detail-return{
     margin:0;
     padding-top:0;
     height:auto;
+     padding-bottom: 80/@baseRem;
+    font-size:70/@baseRem;
+        padding-left: 110/@baseRem;
   }
   a.order-return-logistics{
     text-align: center;
@@ -1117,11 +1151,14 @@ span.color-change{
   }
   
   }
+  
   .order-detail-application-return{
-    border-top: 1.953125rem solid #f3f5f7;
+    border-top: 105/@baseRem solid #f3f5f7;
     background-color: #fff;
+    padding-bottom: 60/@baseRem;
 
     .content-block{
+      margin:80/@baseRem 0;
      
         
       .sale-type-new{
@@ -1130,9 +1167,9 @@ span.color-change{
         padding-top:27.19/@baseRem;
         
       p.sale-type{
-        font-size:44/@baseRem;
+        font-size:70/@baseRem;
         color:#999;
-        padding-left:70/@baseRem;
+        padding-left:110/@baseRem;
         margin:0;
         padding-bottom:50/@baseRem;
 
@@ -1167,16 +1204,16 @@ span.color-change{
 }
 
 label.label-checkbox input[type=checkbox]:checked + .item-media i.icon-form-checkbox:after, label.label-checkbox input[type=radio]:checked + .item-media i.icon-form-checkbox:after{
-      background-size: 1.8rem 1.9rem;
+      background-size: 180/@baseRem 190/@baseRem;
 }
 label.label-checkbox i.icon-form-checkbox:after {
     position: absolute;
     left: 39%;
     margin-left: -0.4rem;
-    top: 29%;
+    top: 17%;
     margin-top: -0.1rem;
-    width: 1.6rem;
-    height: 1.45rem;
+    width: 120  / @baseRem ;
+    height: 125 / @baseRem;
 }
 
 
@@ -1258,10 +1295,11 @@ ul.order-detail-information-refund-1{
 .order-return-info-main-refund{
     ul{
       text-align: center;
-      //padding-left:100/@baseRem;
+      padding-left:325/@baseRem;
     
     li:first-child{
-          margin-left: 12%;
+          margin-left: 0%;
+          text-align: center;
 
     }
     }
@@ -1345,11 +1383,11 @@ ul.order-detail-information-refund-1{
 
 @media only screen and (min-device-width: 768px) and (max-device-width : 1024px){
 .timeline ul li div{
-  width: 3200/@baseRem;
+  width: 32rem;
 }
 }
 .order-details-scroll{
-  height:820/@baseRem;
+  height:32rem;
 }
 .custom-row {
     width: 100%;
@@ -1357,30 +1395,27 @@ ul.order-detail-information-refund-1{
     height: auto;
     background-color: #fff;
     .order-detail-content-block{
-      margin:80/@baseRem;
       .order-details-list-second{
         h2.customer-service-refund{
           margin-left:48/@baseRem;
-          font-weight:normal;
-          color:#c41411;
-          font-size:70/@baseRem;
-          padding-top: 50/@baseRem
-
+      font-weight:normal;
+      color:#c41411;
+      font-size:36/@baseRem;
         }
         .order-detail-pull{
           a.order-detail-customer-service-upload{
             text-align: center;
             color: #c41411;
             border:2px solid #c41411;
-            padding:20/@baseRem 60/@baseRem 20/@baseRem 60/@baseRem; 
+            padding:15/@baseRem 30/@baseRem 15/@baseRem 30/@baseRem; 
             border-radius:5px;
             //margin-top: 15/@baseRem;
            // display: inline-block;
            float: right;
-           width:50%;
+           width:65%;
            margin-right: 15/@baseRem;
            margin-top:15/@baseRem;
-            font-size:70/@baseRem;
+            font-size:40/@baseRem;
           }
         }
       }
@@ -1390,6 +1425,17 @@ ul.order-detail-information-refund-1{
 @media only screen and (min-device-width: 250px) and (max-device-width : 450px){
 .custom-row .order-detail-content-block .order-details-list-second .order-detail-pull a.order-detail-customer-service-upload{
         width:80%;
+}
+.content .order-deatil-return-content-block .order-return-info-main-refund ul{
+  padding:0;
+}
+.content .order-deatil-return-content-block .order-detail-return-info-main ul li:nth-child(2){
+ width: 50%;
+    margin-left: 2%;
+}
+.content .order-deatil-return-content-block .order-detail-return-info-main ul li:last-child{
+  text-align: center;
+    margin-left: 2%;
 }
 
 }

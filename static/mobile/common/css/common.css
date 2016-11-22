@@ -136,7 +136,7 @@
 }
 .header-base-color .bar-title {
   color: #fff;
-  font-size: 0.46rem;
+  font-size: 0.7rem;
   font-weight: 400;
   margin: 1.3rem 0;
   padding-left: 0.868rem;
@@ -194,24 +194,25 @@
 /*index header END*/
 /*Main bar Start*/
 .main-bar {
-  height: auto;
+  height: 1.9rem;
   background: #fff;
   border-top: 2px solid #dedede;
 }
 .main-bar .tab-item .icon ~ .tab-label {
-  font-size: 0.36rem;
-  padding-bottom: 0.5rem;
+  font-size: 0.7rem;
+  padding-bottom: 0.005rem;
+  padding-top: 0.005rem;
 }
 .main-bar .tab-item {
   height: 1.3568rem;
 }
 .main-bar .tab-item .icon {
-  top: 0.0128rem;
+  top: 0.01792rem;
   height: 0.8192rem;
   line-height: 1.0752rem;
-  padding-top: 0;
-  padding-bottom: 0;
-  font-size: 0.6656rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-size: 0.7rem;
 }
 .main-bar .tab-item.active,
 .main-bar .tab-item:active {

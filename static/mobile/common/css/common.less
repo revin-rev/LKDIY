@@ -117,7 +117,7 @@
   }
   .bar-title{
     color: @white;
-    font-size: 46/@baseRem;
+    font-size: 70/@baseRem;
     font-weight: 400;
     margin: 130/@baseRem 0;
     //     position: absolute;
@@ -196,24 +196,26 @@
 
 /*Main bar Start*/
 .main-bar{
-  height: auto;
+  height: 190/@baseRem;
   background: @white;
   border-top: 2px solid @borderColorExtra;
 
   .tab-item .icon ~ .tab-label{
-    font-size: 36/@baseRem;
-    padding-bottom: 0.5rem;
+    font-size: 70/@baseRem;
+    padding-bottom: 0.5/@baseRem;
+    padding-top: 0.5/@baseRem;
   }
   .tab-item{
     height: (5.3 * @oldBase) / @baseRem;
   }
   .tab-item .icon {
-    top: (.05 * @oldBase) / @baseRem;
+    top: (.07 * @oldBase) / @baseRem;
     height: (3.2 * @oldBase) / @baseRem;
     line-height: (4.2 * @oldBase) / @baseRem;
-    padding-top: 0;
-    padding-bottom: 0;
-    font-size: (2.6 *@oldBase) / @baseRem;
+    padding-top: 50/@baseRem;
+    padding-bottom: 50/@baseRem;
+    font-size: 70 / @baseRem;
+    
   }
   .tab-item.active, .tab-item:active {
     color: @baseColor;

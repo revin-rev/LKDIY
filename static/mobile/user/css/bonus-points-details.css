@@ -3,55 +3,57 @@
 ******************************************************/
 #top {
   background: #fff;
+  padding-top: 2.33rem;
 }
 #top .top-bar {
-  padding-top: 4.375rem;
-  padding-left: 2.8515625rem;
-  font-size: 3.125rem;
+  padding-top: 1.82rem;
+  padding-left: 0.73rem;
+  font-size: 0.8rem;
   color: #b0120f;
 }
 #top .top-bar span {
-  font-size: 1.953125rem;
+  font-size: 0.7rem;
 }
 #top .top-bar span + span {
-  font-size: 1.40625rem;
+  font-size: 0.7rem;
   color: #666666;
+  padding-top: 0.5rem;
 }
 #top .divider {
-  margin-top: 4.296875rem;
-  border: 2px solid #d7d7d7;
-  padding: 0.390625rem 0;
+  margin-top: 1.1rem;
+  border: 0.02rem solid #d7d7d7;
+  padding: 0.1rem 0;
   background: #f3f5f7;
-  margin-bottom: 1.9921875rem;
+  margin-bottom: 0.51rem;
 }
 #top ul {
   list-style: none;
   padding: 0;
 }
 #top ul li {
-  font-size: 1.640625rem;
-  padding-top: 1.0546875rem;
-  padding-bottom: 0.8203125rem;
+  font-size: 0.7rem;
+  padding-top: 0.27rem;
+  padding-bottom: 0.21rem;
   border-bottom: 2px solid #d7d7d7;
-  padding-left: 1.953125rem;
+  padding-left: 0.5rem;
   color: #666666;
 }
 #top ul li:first-child {
   color: #222222;
-  font-size: 1.796875rem;
-  padding-bottom: 1.953125rem;
+  font-size: 0.7rem;
+  padding-bottom: 0.5rem;
   border-bottom: 2px solid #d7d7d7;
-  padding-left: 1.953125rem;
+  padding-left: 0.5rem;
 }
 #top ul li:first-child span {
   color: #999999;
-  padding-right: 2.2265625rem;
-  font-size: 1.40625rem;
+  padding-right: 0.57rem;
+  font-size: 0.7rem;
 }
 #top ul li span.amount {
-  font-size: 1.40625rem;
+  font-size: 0.7rem;
   color: #c41411;
-  padding-top: 1.40625rem;
-  padding-right: 2.2265625rem;
+  padding-top: 0.36rem;
+  padding-right: 0.57rem;
   padding-bottom: 2rem;
 }

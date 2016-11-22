@@ -70,7 +70,7 @@
   border: 0px;
 }
 .trade-product-list-row .trade-product-footer .trade-product-footer-text {
-  font-size: 0.4rem;
+  font-size: 0.7rem;
 }
 .trade-product-list-row .trade-product-footer .trade-product-footer-text span {
   color: #999999;
@@ -142,7 +142,7 @@
 .trade-pricing-counting-block .trade-pricing-counting-row {
   border-bottom: 2px solid #dedede;
   padding: 0.4rem 0.5rem;
-  font-size: 0.4rem;
+  font-size: 0.7rem;
 }
 .trade-pricing-counting-block .trade-pricing-counting-row .trade-label {
   color: #222222;
@@ -150,13 +150,13 @@
 }
 .trade-pricing-counting-block .trade-pricing-counting-row .trade-label div {
   padding-top: 0.31rem;
-  font-size: 0.4rem;
+  font-size: 0.7rem;
 }
 .trade-pricing-counting-block .trade-pricing-counting-row .trade-label.trade-padding-top {
   padding-top: 0.31rem;
 }
 .trade-pricing-counting-block .trade-pricing-counting-row .trade-label .trade-badge {
-  font-size: 0.3rem;
+  font-size: 0.7rem;
   background: #c41411;
   color: #fff;
   padding: 5px;
@@ -167,10 +167,11 @@
   float: right;
   vertical-align: middle;
   text-align: right;
+  font-size: 0.7rem;
 }
 .trade-pricing-counting-block .trade-pricing-counting-row .trade-action div {
   padding-top: 0.31rem;
-  font-size: 0.4rem;
+  font-size: 0.7rem;
 }
 .trade-pricing-counting-block .trade-pricing-counting-row .trade-action span {
   color: #cccccc;
@@ -182,12 +183,12 @@
   border-top: 2px solid #dedede;
 }
 .trade-pricing-total-block .trade-text {
-  font-size: 0.4rem;
+  font-size: 0.7rem;
   padding: 0.5rem;
   color: #222222;
 }
 .trade-pricing-total-block .trade-text .trade-total {
-  font-size: 0.5rem;
+  font-size: 0.7rem;
   color: #c41411;
 }
 .trade-pricing-total-block .trade-text .trade-extra {
@@ -252,7 +253,7 @@
   background: transparent;
   border: 0;
   padding: 0;
-  top: 1.2890625rem;
+  top: 0.28rem;
 }
 .trade-top-input-block button img {
   width: 1.08rem;

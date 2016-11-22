@@ -1,6 +1,12 @@
 @import "../../common/css/variable";
 @import "../../common/css/lesshat";
 
+.header-base-color 
+{
+  ~ .content{
+      padding-top: 357/@baseRem;
+}
+}
 .trade-error-block{
   padding-top: 160/@baseRem;
 
@@ -28,7 +34,7 @@
 }
 
 .trade-shopping-cart-header-secondary{
-  top:132/@baseRem;
+  top:332/@baseRem;
   min-height:100/@baseRem;
   padding: 0;
   border-bottom: 2px solid #cfcfcf;
@@ -37,15 +43,16 @@
       {
         .col-50{
           .trade-shopping-cart-total{
-            font-size:36/@baseRem;
+            font-size:70/@baseRem;
             font-weight:normal;
             padding-left:50/@baseRem;
             color:#999999;
-            margin-top:22.68/@baseRem;
+            //margin-top:22/@baseRem;
+            padding:50/@baseRem;
             span{
               padding-left:15/@baseRem;
               padding-right:15/@baseRem;
-              font-size:36/@baseRem;
+              font-size:70/@baseRem;
               color:#c41411;
 
             }
@@ -56,16 +63,15 @@
             color:#c41411;
              font-weight:normal;
              padding-right:35.6/@baseRem;
-             font-size:40/@baseRem;
-             margin-top:22.68/@baseRem;
-             margin-bottom: 22.68/@baseRem;
+             font-size:70/@baseRem;
+             padding:50/@baseRem;
           }
         }
         
       }
 }
 .shopping-cart-tabs-footer-navigation{
-  height:11.520703rem !important;
+  height:452/@baseRem !important;
 }
 
 .trade-shopping-cart-list-products-container{
@@ -77,31 +83,26 @@
     z-index: 99;
     margin-right: 0;
     margin-left: 0;
-    .trade-shopping-cart-large-products
-        {
-              border-top: 40/@baseRem solid #f3f5f7;
-        }
-
+    
     .trade-shopping-cart-list-products-container-new {
-  padding-top:50/@baseRem;
+  padding-top:450/@baseRem;
 }
 .trade-shopping-cart-border-bott{
   border-bottom: 0.390625rem solid #f7f7f7;
+  padding-bottom: 100/@baseRem;
 }
 .trade-large-products {
     border-top: 0.390625rem solid #f7f7f7;
 }
 }
-.trade-shopping-cart-list-products-container2{
-  //margin-top: 45.84/@baseRem;
-}
+
 
 .trade-shopping-cart-header-secondary2{
-  top:10.036719rem;
+  top:600/@baseRem;
   min-height:100/@baseRem;
   padding: 0;
   padding-left:50/@baseRem;
-  padding-top:25.784/@baseRem;
+  padding-top:50/@baseRem;
   //padding-bottom: 35/@baseRem;
   margin-bottom: 0;
       z-index: 3;
@@ -110,21 +111,18 @@
     
       .item-media{
         float: left;
-        i.trade-shopping-cart-form-checkbox{
-          width:50/@baseRem;
-          height:50/@baseRem;
-         
-        }
+        
         i.trade-shopping-cart-form-checkbox-down{
           margin-top:110/@baseRem;
         }
         h2{
           float: right;
           margin: 0;
-          font-size: 36/@baseRem;
+          font-size: 70/@baseRem;
           padding-left: 20/@baseRem;
           font-weight: normal;
           color: #333;
+          padding-top: 20/@baseRem;
         }
       }
     
@@ -140,7 +138,7 @@
         display: inline-block;
         color:#c41411;
         margin-top:15/@baseRem;
-        font-size: 36/@baseRem;
+        font-size: 70/@baseRem;
         font-weight: normal;
       }
 
@@ -151,34 +149,37 @@
     width:50%;
     float: left;
     h4.trade-shopping-cart-product-title{
-      font-size:40/@baseRem;
-      margin-top:-12/@baseRem;
+      font-size:100/@baseRem;
+      margin-top:12/@baseRem;
+      margin-bottom: 70/@baseRem;
       font-weight: normal;
+      line-height: 150/@baseRem;
     }
     h4.trade-shopping-cart-product-price{
-      font-size:36/@baseRem;
+      font-size:70/@baseRem;
       font-weight: normal;
       color:#999999;
       padding-left:21/@baseRem;
+       margin-bottom: 70/@baseRem;
 
     }
     h4.trade-shopping-cart-product-price-yen{
-      font-size:50/@baseRem;
+      font-size:80/@baseRem;
       font-weight: normal;
       color:#c41411;
-      margin-top: -7/@baseRem;
-      margin-left: -10/@baseRem;
+      margin-top: 7/@baseRem;
+      margin-left: 10/@baseRem;
       width: 50%;
       float: left;
       margin-bottom: 0;
-      padding-left:21/@baseRem;
+     // padding-left:21/@baseRem;
     }
     h4.trade-shopping-cart-product-price-x1{
       float: right;
-      font-size:40/@baseRem;
+      font-size:80/@baseRem;
       color:#333;
           margin: 0;
-          padding-right:10/@baseRem;
+          //padding-right:10/@baseRem;
     }
   }
 
@@ -199,7 +200,7 @@
     background-size: 50%;
     background-color: #f3f5f7;
     left: 0rem;
-    z-index: 999;
+    z-index: 1;
        height: 3.2rem;
 
   }
@@ -249,7 +250,7 @@
 .shopping-cart-tabs-footer
 {
   padding-left:59.88/@baseRem;
-  height:5.5rem;
+  height:270/@baseRem;
       width: auto;
       border-top:1px solid #d7d7d7;
   
@@ -257,23 +258,21 @@
     margin-left: 2%;
     margin-top: 1.5%;
     width: 35%;
+    padding-left:50/@baseRem;
   
   label.label-checkbox{
     
       .item-media{
         float: left;
-        i.shopping-cart-form-checkbox{
-          width:50/@baseRem;
-          height:50/@baseRem;
-        }
+        
         i.shopping-cart-form-checkbox-down{
           margin-top:17.84/@baseRem;
           padding:5.12/@baseRem;
         }
         h2{
            float: right;
-          margin-top: 16/@baseRem;
-          font-size: 36/@baseRem;
+          margin-top: 46/@baseRem;
+          font-size: 70/@baseRem;
           padding-left: 20/@baseRem;
           font-weight: normal;
           color: #333;
@@ -285,11 +284,11 @@
   }
   .shopping-cart-external-third{
  background-color: #ff5722;
- height: 140/@baseRem;
+ height: 270/@baseRem;
     .shopping-cart-moved{
       color:#fff;
-      font-size:40/@baseRem;
-      padding:35/@baseRem 0 0 20/@baseRem;
+      font-size:70/@baseRem;
+      padding:99/@baseRem 0 0 0/@baseRem;
       float: left;
       width:100%;
       text-align: center;
@@ -316,19 +315,24 @@
      float:left;
    }
    .shopping-cart-99{
-     font-size:40/@baseRem;
+     font-size:70/@baseRem;
      color:#999;
-         display: inline;
+        // display: inline;
     float: left;
+   // padding-bottom: 60/@baseRem;
+    padding-top:40/@baseRem;
+
         width: 45%;
    }
    
    .shopping-cart-cf{
-     font-size:40/@baseRem;
+     font-size:70/@baseRem;
          float: right;
     color: #c41411;
     text-align: right;
     font-weight: bold;
+    //padding-bottom: 40/@baseRem;
+    padding-top:40/@baseRem;
         padding-right: 15/@baseRem;
             width: 50%;
 
@@ -338,16 +342,16 @@
   .external-fourth{
     float: left;
     background-color:#ce0000;
-    height:140/@baseRem;
+    height:270/@baseRem;
        width: 25%;
     margin-left: 0%;
     float: right;
    .tab-label-buy-now{
       color:#fff;
-      font-size:50/@baseRem;
+      font-size:70/@baseRem;
       vertical-align: middle;
     text-align: center;
-    padding: 28/@baseRem 0px 0 0/@baseRem;
+    padding: 99/@baseRem 0px 0 0/@baseRem;
     float: left;
     //margin-left: 85/@baseRem;
     width:100%;
@@ -372,16 +376,16 @@ label.label-checkbox input[type=checkbox]:checked+.item-media i.icon-form-checkb
   background-color:#ce0000;
 }
 label.label-checkbox input[type=checkbox]:checked+.item-media i.icon-form-checkbox:after, label.label-checkbox input[type=radio]:checked+.item-media i.icon-form-checkbox:after{
-  background-size: 1.5rem 1.5rem;
+  background-size: 100/@baseRem 100/@baseRem;
 }
 label.label-checkbox i.icon-form-checkbox:after{
       position: absolute;
-    left: 29%;
+    left: 38%;
     margin-left: -.4rem;
-    top: 20%;
+    top: 0%;
     margin-top: -.1rem;
-    width: 1.6rem;
-    height: 1.45rem;
+    width: 100/@baseRem;
+    height: 145/@baseRem;
 }
 .modal{
       top: 42%;
@@ -391,9 +395,7 @@ label.label-checkbox i.icon-form-checkbox:after{
 .modal-inner{
   padding:150/@baseRem;
 
-.modal-text{
 
-}
 }
 }
 

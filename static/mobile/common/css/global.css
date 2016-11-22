@@ -40,6 +40,7 @@ html {
 .center-block {
   display: block;
   margin: 0 auto;
+  padding-top: 0.4rem;
 }
 .white-bg {
   background: #fff;
@@ -90,11 +91,11 @@ html {
   border: 1px solid #999999;
   border-top: 0;
   box-shadow: none;
-  font-size: 40rem;
+  font-size: 0.7rem;
   color: #666666;
-  padding: 65rem 20rem;
+  padding: 0.65rem 0.2rem;
   display: inline-block;
-  line-height: 50rem;
+  line-height: 0.5rem;
   height: auto;
 }
 .modal-button:after {
@@ -113,7 +114,7 @@ html {
   height: auto;
 }
 .modal-text {
-  font-size: 46rem;
+  font-size: 0.46rem;
 }
 /*modal styling END*/
 /*Radio buttons style*/
