@@ -1,6 +1,12 @@
 /******************************************************
    *Variables START
 ******************************************************/
+.header-base-color .back-to-prev-btn .icon {
+  line-height: 3.36rem;
+}
+.header-base-color ~ .content {
+  padding-top: 3.07rem;
+}
 .user-goods-products-container {
   background: #fff;
   margin: 0;
@@ -9,39 +15,39 @@
   border-top: 1px solid #e8e8e8;
   margin-top: 0;
   padding-top: 0;
-  padding-bottom: 0.9765625rem;
+  padding-bottom: 0.25rem;
 }
 .user-goods-products-container .user-goods-block-title {
   font-weight: normal;
-  font-size: 1.640625rem;
+  font-size: 0.7rem;
   margin-top: 0;
-  margin-bottom: 1.5625rem;
+  margin-bottom: 0.4rem;
 }
 .user-goods-products-container .user-goods-custom-row {
-  border-top: 0.5859375rem solid #f7f7f7;
+  border-top: 0.15rem solid #f7f7f7;
 }
 .user-goods-products-container .user-goods-custom-row.user-www-border-small {
   border-top-width: 2px;
 }
 .user-goods-products-container .user-goods-product-col h2 {
   font-weight: bold;
-  font-size: 1.5625rem;
-  margin-top: 1.171875rem;
+  font-size: 0.7rem;
+  margin-top: 0.3rem;
   margin-bottom: 0;
 }
 .user-goods-products-container .user-goods-product-col h3 {
-  font-size: 1.40625rem;
+  font-size: 0.36rem;
   margin-top: 0;
   color: #999999;
   font-weight: 400;
   margin-bottom: 0;
 }
 .user-goods-products-container .user-goods-product-col + .user-goods-product-col {
-  border-left: 0.5859375rem solid #f7f7f7;
+  border-left: 0.15rem solid #f7f7f7;
   margin-left: 2%;
 }
 .user-goods-products-container .user-goods-product-col:nth-child(1) {
-  padding-right: 0.5859375rem;
+  padding-right: 0.15rem;
 }
 .user-goods-products-container .user-goods-product-col:nth-child(1) h2 {
   color: #c41411;
@@ -54,37 +60,38 @@
 }
 .user-goods-products-container .user-goods-product-col .user-goods-product-title {
   color: #333333;
-  font-size: 1.6015625rem;
+  font-size: 0.7rem;
   font-weight: normal;
   margin-top: 0;
-  margin-bottom: 1.7578125rem;
-  min-height: 4.765625rem;
+  margin-bottom: 0.45rem;
+  min-height: 1.22rem;
+  line-height: 1rem;
 }
 .user-goods-products-container .user-goods-product-col .user-goods-product-price {
-  font-size: 1.5625rem;
+  font-size: 0.7rem;
   color: #c41411;
   font-weight: normal;
   margin: 0;
 }
 .user-goods-products-container .user-goods-large-products {
-  border-top: 0.390625rem solid #f7f7f7;
+  border-top: 0.1rem solid #f7f7f7;
 }
 .user-goods-products-container .user-goods-large-products .user-goods-product-col {
-  padding: 0.78125rem;
+  padding: 0.2rem;
 }
 .user-goods-products-container .user-goods-large-products .user-goods-product-col:nth-child(1) {
   padding-left: 0;
-  padding-right: 2.1484375rem;
+  padding-right: 0.55rem;
 }
 .user-goods-products-container .user-goods-large-products .user-goods-product-col + .user-goods-product-col {
-  border-left: 0.390625rem solid #f7f7f7;
+  border-left: 0.1rem solid #f7f7f7;
   position: relative;
 }
 .user-goods-products-container .user-goods-large-products .user-goods-product-col + .user-goods-product-col .new-sticker {
   position: absolute;
   top: 0;
   left: 0;
-  width: 3.90625rem;
+  width: 1rem;
 }
 .user-goods-products-container .user-goods-large-products .user-goods-product-col + .user-goods-product-col .absolute {
   position: absolute;
@@ -106,15 +113,15 @@
   position: absolute;
 }
 .user-goods-products-container hr {
-  border-top: 0.5859375rem solid #f7f7f7;
+  border-top: 0.15rem solid #f7f7f7;
   margin: 0 -0.5rem;
 }
 .user-goods-products-container hr.www-meduim {
-  border-top-width: 0.390625rem;
+  border-top-width: 0.1rem;
 }
 .buttons-tab a.button {
-  font-size: 1.796875rem;
-  padding: 1.71875rem 1.171875rem;
+  font-size: 0.7rem;
+  padding: 0.44rem 0.3rem;
   display: inline-block;
   height: auto;
   color: #666666;
@@ -154,13 +161,13 @@
 }
 .user-cutom-radio > span {
   border-radius: 50%;
-  height: 2.734375rem;
-  width: 2.734375rem;
+  height: 0.7rem;
+  width: 0.7rem;
   display: block;
   border: 2px solid #cccccc;
   text-align: center;
-  font-size: 1.40625rem;
-  line-height: 2.265625rem;
+  font-size: 0.7rem;
+  line-height: 0.58rem;
   color: transparent;
 }
 .col-50.text-left.user-goods-product-col {
@@ -173,15 +180,15 @@
 .user-bottom-fixed-btn {
   background: #c41411;
   color: #fff;
-  font-size: 1.953125rem;
+  font-size: 0.7rem;
   position: fixed;
   bottom: 0;
   left: 0;
   right: 0;
   z-index: 10;
   text-align: center;
-  min-height: 5.703125rem;
-  line-height: 5.703125rem;
+  min-height: 1.46rem;
+  line-height: 1.46rem;
 }
 .user-bottom-fixed-btn a {
   color: #fff;
