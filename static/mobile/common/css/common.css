@@ -6,7 +6,7 @@
   background: #c41411;
   padding: 0 ;
   height: auto;
-  min-height: 1.95rem;
+  min-height: 2rem;
   z-index: 100;
 }
 .header-base-color .bar .searchbar {
@@ -131,7 +131,7 @@
 }
 .header-base-color .back-to-prev-btn .icon {
   font-size: 0.7rem;
-  line-height: 3.06rem;
+  line-height: 2.06rem;
   padding: 0;
 }
 .header-base-color .bar-title {

@@ -1,14 +1,24 @@
 /******************************************************
    *Variables START
 ******************************************************/
+.header-base-color .back-to-prev-btn .icon {
+  line-height: 3.36rem;
+}
+.header-base-color ~ .content {
+  padding-top: 3.57rem;
+}
+.header-base-color .bar-title {
+  padding: 0;
+  font-size: 0.8rem;
+}
 .content {
-  padding-top: 5.2734375rem;
+  padding-top: 1.35rem;
   background: #fff;
 }
 .user-bottom-fixed-btn {
   background: #c41411;
   color: #fff;
-  font-size: 1.953125rem;
+  font-size: 0.8rem;
   position: fixed;
   bottom: 0;
   left: 0;
@@ -19,19 +29,21 @@
 .user-bottom-fixed-btn a {
   display: block;
   color: #fff;
-  padding: 1.40625rem 1.953125rem;
+  padding: 0.6rem 0.5rem;
+  font-size: 0.8rem;
 }
 .user-bottom-fixed-btn ~ .content {
-  padding-bottom: 5.7421875rem;
+  padding-bottom: 1.47rem;
 }
 .user-address-empty {
-  font-size: 1.796875rem;
+  font-size: 0.8rem;
   color: #999999;
-  padding-top: 5.7421875rem;
-  line-height: 2.8125rem;
+  padding-top: 1.47rem;
+  line-height: 0.72rem;
 }
 .user-address-empty a {
   display: block;
-  font-size: 1.40625rem;
+  font-size: 0.8rem;
   color: #005aa0;
+  padding-top: 0.6rem;
 }

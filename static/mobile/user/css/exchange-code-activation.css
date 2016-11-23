@@ -1,15 +1,24 @@
 /******************************************************
    *Variables START
 ******************************************************/
+.header-base-color .back-to-prev-btn .icon {
+  line-height: 3.36rem;
+}
+.header-base-color ~ .content {
+  padding-top: 3.57rem;
+}
 .content {
   background: #f3f5f7;
 }
 .content-block {
-  padding: 5.8984375rem 1.953125rem;
+  padding: 1.51rem 0.5rem;
   margin: 0;
 }
-.content-block input[type=text] {
-  font-size: 1.5625rem;
+.content-block form {
+  text-align: center;
+}
+.content-block form input[type=text] {
+  font-size: 0.7rem;
   border: 2px solid #dedede;
   -webkit-border-radius: 4px;
   -webkit-background-clip: padding-box;
@@ -17,63 +26,61 @@
   -moz-background-clip: padding;
   border-radius: 4px;
   background-clip: padding-box;
-  padding: 1.3671875rem 0.9375rem;
+  padding: 0.6rem 0.24rem;
   vertical-align: top;
-  -lh-property: 0;
-width:-webkit-calc(100% - 14.921875rem);
-width:-moz-calc(100% - 14.921875rem);
-width:calc(100% - 14.921875rem);
-;
+  width: 60%;
   background: #fff;
 }
-.content-block input[type=text]::-webkit-input-placeholder {
+.content-block form input[type=text]::-webkit-input-placeholder {
   color: #cccccc;
 }
-.content-block input[type=text]:-moz-placeholder {
+.content-block form input[type=text]:-moz-placeholder {
   color: #cccccc;
 }
-.content-block input[type=text]::-moz-placeholder {
+.content-block form input[type=text]::-moz-placeholder {
   color: #cccccc;
 }
-.content-block input[type=text]:-ms-input-placeholder {
+.content-block form input[type=text]:-ms-input-placeholder {
   color: #cccccc;
 }
-.content-block input[type=submit] {
-  font-size: 1.5625rem;
+.content-block form input[type=submit] {
+  font-size: 0.7rem;
   -webkit-border-radius: 4px;
   -webkit-background-clip: padding-box;
   -moz-border-radius: 4px;
   -moz-background-clip: padding;
   border-radius: 4px;
   background-clip: padding-box;
-  padding: 1.2109375rem 0.9375rem;
+  padding: 0.5rem 0.24rem;
   vertical-align: top;
   background: #c41411;
   color: #fff;
   border: 2px solid #c41411;
-  width: 12.96875rem;
-  margin-left: 1.953125rem;
+  width: 6.32rem;
+  margin-left: 0.5rem;
 }
 .user-exchange-link {
   display: inline-block;
   vertical-align: middle;
   color: #222222;
-  font-size: 1.5625rem;
-  margin-top: 3.90625rem;
+  font-size: 0.7rem;
+  margin-top: 1rem;
+  position: relative;
+  left: -2.3rem;
 }
 .user-exchange-link img {
   vertical-align: middle;
-  width: 1.875rem;
+  width: 0.48rem;
 }
 .user-activation-msg {
   background: rgba(0, 0, 0, 0.8);
   color: #fff;
-  font-size: 1.640625rem;
+  font-size: 0.42rem;
   position: fixed;
   z-index: 1000;
   top: 50%;
   left: 0;
-  padding: 3.59375rem 1.953125rem;
+  padding: 0.92rem 0.5rem;
   -webkit-border-radius: 4px;
   -webkit-background-clip: padding-box;
   -moz-border-radius: 4px;
@@ -82,11 +89,16 @@ width:calc(100% - 14.921875rem);
   background-clip: padding-box;
   right: 0;
   margin: 0 auto;
-  width: 26.875rem;
+  width: 6.88rem;
   text-align: center;
   -lh-property: 0;
 top:-webkit-calc(50% - 4.84375rem);
 top:-moz-calc(50% - 4.84375rem);
 top:calc(50% - 4.84375rem);
 ;
+}
+@media screen and (min-width: 320px) and (max-width: 765px) {
+  .user-exchange-link {
+    left: 0;
+  }
 }

@@ -37,7 +37,7 @@
   font-weight: normal;
   padding-left: 0.5rem;
   color: #999999;
-  margin-top: 0.2268rem;
+  margin-top: 0.68rem;
 }
 .shopping-cart-header-secondary .row .col-50 .shopping-cart-total span {
   padding-left: 0.15rem;
@@ -51,7 +51,7 @@
   font-weight: normal;
   padding-right: 0.356rem;
   font-size: 0.7rem;
-  margin-top: 0.2268rem;
+  margin-top: 0.68rem;
   margin-bottom: 0.2268rem;
 }
 .shopping-cart-tabs-footer-navigation {
@@ -85,7 +85,7 @@
   min-height: 1rem;
   padding: 0;
   padding-left: 0.5rem;
-  padding-top: 0.25784rem;
+  padding-top: 0.57rem;
   margin-bottom: 3rem;
   z-index: 3;
 }

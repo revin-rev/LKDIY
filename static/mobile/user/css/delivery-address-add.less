@@ -1,6 +1,11 @@
 @import "../../common/css/variable";
 @import "../../common/css/lesshat";
 
+
+
+.header-base-color .back-to-prev-btn .icon{
+  line-height: 336/@baseRem;
+}
 .header-base-color 
 {
   ~ .content{
@@ -11,7 +16,8 @@
 
 
 .list-block{
-  margin-top: 0;
+  margin-top: 0/@baseRem;
+  margin-bottom: 130/@baseRem;
 
   .item-inner{
     align-items: flex-start;
@@ -22,13 +28,14 @@
     input,textarea,select{
       font-size: 70/@baseRem;
       color: @fontDarkColor;
+      
     }
     .item-input{
       margin: 4px 0;
     }
     .item-title{
       color: @baseTextColor;
-      width: 216/@baseRem;
+      margin:90/@baseRem 0;
       font-size: 70/@baseRem;
 
     }
@@ -89,14 +96,24 @@
 }
 .user-label-switch{
     width: 80%;
-    border-radius: .8rem;
-    height: 3.4375rem;
+    border-radius: 80/@baseRem;
+    height: 243/@baseRem;
     display: inline;
     color: #333333;
-    margin-top: 1%;
+    
+
+    .order-spec-text-changed-area{
+    margin-top: 4%;
+    display: inline-block;
+   
+    }
+     
   }
 .product-detail-color {
     color: #cccccc;
+    font-size: 80/@baseRem;
+     margin-top: 4%;
+      display: inline-block;
 }
 
 .popup {
@@ -121,8 +138,8 @@ ul {
     li {
     font-size: 70/@baseRem;
     color: #666666;
-    padding-top: 190/@baseRem;
-    padding-bottom: 190/@baseRem;
+    padding-top: 90/@baseRem;
+    padding-bottom: 90/@baseRem;
     border-bottom: 1px solid #d7d7d7;
 }
 }
@@ -132,6 +149,7 @@ li:last-child{
 }
 .content-block-border{
     padding:0;
+    margin:0;
     
     ul{
         li.popup-vat-area{
@@ -152,8 +170,8 @@ a {
     display: inline-block;
     color: #c41411;
     border-top: 1px solid #d7d7d7;
-    font-size: 156/@baseRem;
-    padding-top: 234/@baseRem;
+    font-size: 110/@baseRem;
+    padding-top: 134/@baseRem;
 }
 .back-to-prev-btn{
     background-color: #c41411;
@@ -164,8 +182,8 @@ a {
     display: inline-block;
     text-align: center;
     .icon {
-    font-size: 2.734375rem;
-    line-height: 6.140625rem;
+    font-size: 73/@baseRem;
+    line-height: 40/@baseRem;
     color: #fff;
     margin-left: 22/@baseRem;
 }
@@ -174,15 +192,22 @@ a {
         text-align: center;
         display: inline-block;
         color:#fff;
-        font-size:42/@baseRem;
-        margin-left:-1%;
+        //font-size:42/@baseRem;
+        //margin-left:-1%;
         }
     
 }
 }
 .popup-area{
-    top: 27.117188rem;
+    top: 40%;
 }
 .modal-overlay, .popup-overlay, .preloader-indicator-overlay {
     background: rgba(17, 17, 17, 0.5);
+}
+
+
+@media screen and (min-width:769px) and (max-width:1024){
+  .user-label-switch{
+    margin-top:3%;
+  }
 }
