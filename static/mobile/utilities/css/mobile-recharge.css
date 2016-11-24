@@ -6,11 +6,11 @@
 }
 .content .utilities-recharge-number-main .utilities-recharge-number {
   text-align: center;
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
+  padding-top: 2.9296875rem;
+  padding-bottom: 2.9296875rem;
 }
 .content .utilities-recharge-number-main .utilities-recharge-number span {
-  font-size: 0.72rem;
+  font-size: 2.8125rem;
   color: #cccccc;
 }
 .content .utilities-recharge-number-main .utilities-recharge-number .utilities-input {
@@ -24,17 +24,17 @@
 }
 .content .utilities-recharge-number-main .utilities-recharge-imges {
   text-align: center;
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
+  padding-top: 2.9296875rem;
+  padding-bottom: 2.9296875rem;
 }
 .content .utilities-recharge-number-main .utilities-recharge-imges img {
-  width: 0.8rem;
-  height: 0.8rem;
+  width: 3.125rem;
+  height: 3.125rem;
   float: right;
-  margin-right: 0.5rem;
+  margin-right: 1.953125rem;
 }
 .content .utilities-custom-css {
-  border-top: 0.12rem solid #f7f7f7;
+  border-top: 0.46875rem solid #f7f7f7;
   border-bottom: 1px solid #f7f7f7;
   height: 14rem;
 }
@@ -47,32 +47,32 @@
 }
 .content .utilities-custom-css .utilities-recharge-number-main-1 .utilities-recharge-yen5 {
   text-align: center;
-  padding: 0.8rem;
+  padding: 3.125rem;
 }
 .content .utilities-custom-css .utilities-recharge-number-main-1 .utilities-recharge-yen5 span {
-  font-size: 0.48rem;
+  font-size: 1.875rem;
   color: #cccccc;
-  padding-bottom: 0.5rem;
-  margin-top: 0.62rem;
+  padding-bottom: 1.953125rem;
+  margin-top: 2.421875rem;
 }
 .content .utilities-custom-css .utilities-recharge-number-main-1 .utilities-recharge-yen10 {
-  border-left: 0.05rem solid #f7f7f7;
+  border-left: 0.1953125rem solid #f7f7f7;
   text-align: center;
   padding: 3.125rem;
 }
 .content .utilities-custom-css .utilities-recharge-number-main-1 .utilities-recharge-yen10 span {
-  font-size: 0.48rem;
+  font-size: 1.875rem;
   color: #cccccc;
-  margin-top: 0.62rem;
-  padding-bottom: 0.5rem;
+  margin-top: 2.421875rem;
+  padding-bottom: 1.953125rem;
 }
 .content .utilities-custom-css .utilities-recharge-number-main-1 .utilities-recharge-yen20 {
-  border-left: 0.05rem solid #f7f7f7;
+  border-left: 0.1953125rem solid #f7f7f7;
   text-align: center;
   padding: 3.125rem;
 }
 .content .utilities-custom-css .utilities-recharge-number-main-1 .utilities-recharge-yen20 span {
-  font-size: 0.48rem;
+  font-size: 1.875rem;
   color: #333333;
   margin-top: 2.421875rem;
   padding-bottom: 1.953125rem;
@@ -82,13 +82,13 @@
 }
 .content .utilities-custom-css .utilities-recharge-number-main-1 .active span {
   color: #c41411;
-  font-size: 0.48rem;
+  font-size: 1.875rem;
 }
 .content .utilities-custom-css.utilities-custom-css-border {
   border-bottom: 0px solid #f7f7f7;
 }
 .content .utilities-recharge-total {
-  border-top: 0.05rem solid #f7f7f7;
+  border-top: 0.1953125rem solid #f7f7f7;
   background-color: #fff;
   margin: 0;
   padding: 0;
@@ -96,52 +96,52 @@
 }
 .content .utilities-recharge-total .utilities-recharge-yen30 {
   text-align: center;
-  padding: 0.8rem;
+  padding: 3.125rem;
 }
 .content .utilities-recharge-total .utilities-recharge-yen30 span {
-  font-size: 0.48rem;
+  font-size: 1.875rem;
   color: #333333;
-  padding-bottom: 0.5rem;
-  margin-top: 0.62rem;
+  padding-bottom: 1.953125rem;
+  margin-top: 2.421875rem;
   display: inline-block;
 }
 .content .utilities-recharge-total .utilities-recharge-yen50 {
   text-align: center;
-  border-left: 0.05rem solid #f7f7f7;
-  padding: 0.8rem;
+  border-left: 0.1953125rem solid #f7f7f7;
+  padding: 3.125rem;
 }
 .content .utilities-recharge-total .utilities-recharge-yen50 span {
-  font-size: 0.48rem;
+  font-size: 1.875rem;
   color: #333333;
-  padding-bottom: 0.5rem;
-  margin-top: 0.62rem;
+  padding-bottom: 1.953125rem;
+  margin-top: 2.421875rem;
   display: inline-block;
 }
 .content .utilities-recharge-total .utilities-recharge-yen100 {
   text-align: center;
-  padding: 0.8rem;
-  border-left: 0.05rem solid #f7f7f7;
+  padding: 3.125rem;
+  border-left: 0.1953125rem solid #f7f7f7;
 }
 .content .utilities-recharge-total .utilities-recharge-yen100 span {
-  font-size: 0.48rem;
+  font-size: 1.875rem;
   color: #333333;
-  padding-bottom: 0.5rem;
-  margin-top: 0.62rem;
+  padding-bottom: 1.953125rem;
+  margin-top: 2.421875rem;
   display: inline-block;
 }
 .content .utilities-recharge-total .custom_width {
   width: 33%;
   margin: 0;
-  padding: 0.8rem;
+  padding: 3.125rem;
 }
 .content .utilities-recharge-total .active {
   border: 2px solid #c41411;
 }
 .content .utilities-recharge-total .active span {
   color: #c41411;
-  font-size: 0.48rem;
+  font-size: 1.875rem;
   padding-bottom: 1.953125rem;
-  margin-top: 0.62rem;
+  margin-top: 2.421875rem;
   display: inline-block;
 }
 .main-bar {
@@ -164,22 +164,22 @@
 }
 .main-bar .utilities-custom-width-fuel2 .tab-label-mobile-recharge li {
   color: #c41411;
-  font-size: 0.42rem;
-  padding: 0.1rem;
+  font-size: 1.640625rem;
+  padding: 0.390625rem;
   float: none;
   display: inline-block;
 }
 .main-bar .external-fourth {
   background-color: #ce0000;
-  height: 1.4rem;
+  height: 5.46875rem;
   width: 27%;
   float: right;
 }
 .main-bar .external-fourth .tab-label-buy-now {
   color: #fff;
-  font-size: 0.5rem;
+  font-size: 1.953125rem;
   vertical-align: middle;
-  padding: 0.28rem 0px 0 0rem;
+  padding: 1.09375rem 0px 0 0rem;
   float: left;
   width: 100%;
   text-align: center;
@@ -189,14 +189,14 @@
  * --------------------------------------------- */
 .content .utilities-recharge-number-main .utilities-recharge-number-changed span.utilities-mobile-recharge-number {
   color: #333;
-  font-size: 0.72rem;
+  font-size: 2.8125rem;
   float: left;
   width: 85%;
   text-align: left;
   margin-left: 7%;
 }
 .content .utilities-recharge-number-main .utilities-recharge-number-changed label {
-  font-size: 0.3rem;
+  font-size: 1.171875rem;
   color: #666666;
   float: left;
   width: 38%;
@@ -212,19 +212,19 @@
 }
 .content .utilities-recharge-number-main-1 .utilities-recharge-yen5 {
   text-align: center;
-  padding-top: 0.75rem;
+  padding-top: 2.9296875rem;
 }
 .content .utilities-recharge-number-main-1 .utilities-recharge-yen5 img {
-  width: 1.48rem;
-  height: 1.39rem;
+  width: 5.78125rem;
+  height: 5.4296875rem;
 }
 .content .utilities-recharge-number-main-1 .utilities-recharge-yen5 span {
-  font-size: 0.36rem;
-  padding-bottom: 0.5rem;
+  font-size: 1.40625rem;
+  padding-bottom: 1.953125rem;
   color: #333333;
   width: 100%;
   display: inline-block;
-  margin-top: 0.62rem;
+  margin-top: 2.421875rem;
 }
 .content .utilities-recharge-number-main-1 .utilities-recharge-yen10 {
   border-left: 0.1953125rem solid #f7f7f7;
@@ -232,33 +232,33 @@
   padding-top: 2.125rem;
 }
 .content .utilities-recharge-number-main-1 .utilities-recharge-yen10 img {
-  width: 1.02rem;
-  height: 1.57rem;
+  width: 3.984375rem;
+  height: 6.1328125rem;
 }
 .content .utilities-recharge-number-main-1 .utilities-recharge-yen10 span {
-  font-size: 0.36rem;
-  padding-bottom: 0.5rem;
+  font-size: 1.40625rem;
+  padding-bottom: 1.953125rem;
   color: #333333;
   width: 100%;
   display: inline-block;
-  margin-top: 0.62rem;
+  margin-top: 2.421875rem;
 }
 .content .utilities-recharge-number-main-1 .utilities-recharge-yen20 {
   border-left: 0.1953125rem solid #f7f7f7;
   text-align: center;
-  padding-top: 0.7rem;
+  padding-top: 2.734375rem;
 }
 .content .utilities-recharge-number-main-1 .utilities-recharge-yen20 img {
-  width: 0.88rem;
-  height: 1.48rem;
+  width: 3.4375rem;
+  height: 5.78125rem;
 }
 .content .utilities-recharge-number-main-1 .utilities-recharge-yen20 span {
-  font-size: 0.36rem;
-  padding-bottom: 0.5rem;
+  font-size: 1.40625rem;
+  padding-bottom: 1.953125rem;
   color: #333333;
   width: 100%;
   display: inline-block;
-  margin-top: 0.62rem;
+  margin-top: 2.421875rem;
 }
 .content .utilities-recharge-number-main-1 .custom_width {
   width: 33%;
@@ -271,11 +271,10 @@
  * Water started
  * --------------------------------------------- */
 .content .utilities-address-checkbox-row.utilities-top-row {
-  padding: 0.3rem 0.5rem;
-  font-size: 0.8rem;
+  padding: 1.171875rem 1.953125rem;
 }
 .content .utilities-address-checkbox-row {
-  border-bottom: 0.05rem solid #ededed;
+  border-bottom: 0.1953125rem solid #ededed;
   padding: 1.953125rem;
   font-size: 1.5625rem;
   color: #666666;
@@ -310,8 +309,8 @@
 .content .utilities-water {
   width: 50%;
   border: 0px solid #cfcfcf;
-  padding: 0.2048rem;
-  font-size: 0.384rem;
+  padding: 0.8rem;
+  font-size: 1.5rem;
   z-index: 99;
   display: none;
   margin-left: 1%;
@@ -319,15 +318,15 @@
 .content .utilities-mobile-recharge {
   width: 100%;
   border: 0px solid #cfcfcf;
-  padding: 0.2048rem;
-  font-size: 0.384rem;
+  padding: 0.8rem;
+  font-size: 1.5rem;
   z-index: 99;
   display: none;
   margin-left: 5%;
   background-color: unset;
 }
 .content span.order-spec-text-changed-one {
-  font-size: 0.3072rem;
+  font-size: 1.2rem;
   width: 80%;
 }
 .content .order-spec-text-changed-three {
@@ -338,8 +337,8 @@
   color: #999;
 }
 .content img {
-  width: 0.6rem;
-  height: 0.6rem;
+  width: 2.34375rem;
+  height: 2.34375rem;
 }
 .utilities-bottom-fixed-btned {
   background: #dedede;
@@ -394,7 +393,7 @@
   padding-top: 1.06210938rem;
 }
 .content .user-address-checkbox-water .sale-type-new p.sale-type {
-  font-size: 0.48rem;
+  font-size: 1.875rem;
   color: #333333;
   padding-left: 1.734375rem;
   margin: 0;
@@ -407,7 +406,7 @@
 }
 .content .user-address-checkbox-water .sale-type-new2 p.return-sale-type {
   color: #666;
-  font-size: 0.48rem;
+  font-size: 1.875rem;
   margin: 0;
   padding-bottom: 1.953125rem;
 }
@@ -449,10 +448,10 @@
   padding: 0;
 }
 .popup .content-block-border ul li.popup-vat-area {
-  padding-left: 0.4rem;
+  padding-left: 1.5625rem;
 }
 .popup .content-block-border ul li.popup-vat-area span.area-padding-rhgt {
-  padding-right: 0.6rem;
+  padding-right: 2.34375rem;
 }
 .popup a {
   text-align: center;
@@ -476,17 +475,17 @@
   font-size: 2.734375rem;
   line-height: 6.140625rem;
   color: #fff;
-  margin-left: 0.22rem;
+  margin-left: 0.859375rem;
 }
 .popup .back-to-prev-btn p.popup-top-class {
   text-align: center;
   display: inline-block;
   color: #fff;
-  font-size: 0.42rem;
+  font-size: 1.640625rem;
   margin-left: -1%;
 }
 .popup-area {
-  top: -0.03rem;
+  top: -0.1171875rem;
 }
 .modal-overlay,
 .popup-overlay,
@@ -500,9 +499,9 @@
  * No Result Start
  * --------------------------------------------- */
 .content .no-inquiry {
-  margin-top: 2.17rem;
+  margin-top: 8.4765625rem;
   text-align: center;
-  font-size: 0.48rem;
+  font-size: 1.875rem;
   color: #666666;
 }
 /* -----------------------------------------------
@@ -517,9 +516,9 @@
 }
 .content .utilities-custom-css .fuel_card_color .utilities-recharge-number span {
   color: #333;
-  font-size: 0.48rem;
-  margin-top: 0.78rem;
-  margin-bottom: 0.78rem;
+  font-size: 1.875rem;
+  margin-top: 3.046875rem;
+  margin-bottom: 3.046875rem;
   float: left;
   padding-left: 13%;
 }

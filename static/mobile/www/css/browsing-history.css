@@ -3,7 +3,6 @@
 ******************************************************/
 #top {
   background: #fff;
-  padding-top: 3.33rem;
 }
 #top ul {
   list-style: none;
@@ -11,25 +10,25 @@
 }
 #top ul li {
   color: #333333;
-  font-size: 0.7rem;
+  font-size: 1.71875rem;
   border-bottom: 3px solid #f8f8f8;
-  padding-bottom: 0.5rem;
-  padding-top: 0.38rem;
+  padding-bottom: 1.953125rem;
+  padding-top: 1.484375rem;
   padding-left: 0.5rem;
 }
 #top ul li img {
   float: left;
-  max-width: 32%;
+  max-width: 15.695313rem;
   width: 100%;
 }
 #top ul li .details {
-  max-height: 3.3rem;
+  max-height: 12.890625rem;
 }
 #top ul li .details .amount {
-  min-height: 8.5rem;
-  line-height: 8.5rem;
+  min-height: 8.515625rem;
+  line-height: 8.515625rem;
   color: #b0120f;
-  font-size: 0.7rem;
+  font-size: 1.953125rem;
 }
 #top ul li.user-clearfix {
   padding-top: 0.284375rem;

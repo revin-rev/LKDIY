@@ -1,43 +1,31 @@
 @import "../../common/css/variable";
 @import "../../common/css/lesshat";
 
-
-
-.header-base-color .back-to-prev-btn .icon{
-  line-height: 336/@baseRem;
-}
-.header-base-color 
-{
-  ~ .content{
-      padding-top: 357/@baseRem;
-}
+.content{
+  padding-top: 135/@baseRem;
 }
 
 
 
 .list-block{
-  margin-top: 0/@baseRem;
-  margin-bottom: 130/@baseRem;
+  margin-top: 0;
 
   .item-inner{
     align-items: flex-start;
-    font-size: 70/@baseRem;
+    font-size: 40/@baseRem;
     padding: 47/@baseRem 50/@baseRem;
     border-bottom: 2px solid @borderColorExtra;
 
     input,textarea,select{
-      font-size: 70/@baseRem;
+      font-size: 40/@baseRem;
       color: @fontDarkColor;
-      
     }
     .item-input{
       margin: 4px 0;
     }
     .item-title{
       color: @baseTextColor;
-      margin:90/@baseRem 0;
-      font-size: 70/@baseRem;
-
+      width: 216/@baseRem;
     }
     .user-select-input{
       position: relative;
@@ -49,7 +37,7 @@
         bottom: 0;
         height: 100%;
         color: @footerTextColor;
-        font-size: 70/@baseRem;
+        font-size: 45/@baseRem;
       }
     }
   }
@@ -62,7 +50,7 @@
   border-top:2px solid @tradeBorderColor;
   border-bottom:2px solid @tradeBorderColor;
   padding: 50/@baseRem;
-  font-size: 70/@baseRem;
+  font-size: 40/@baseRem;
   color: @baseTextColor;
   margin-bottom: 50/@baseRem;
   background: @white;
@@ -96,24 +84,14 @@
 }
 .user-label-switch{
     width: 80%;
-    border-radius: 80/@baseRem;
-    height: 243/@baseRem;
+    border-radius: .8rem;
+    height: 3.4375rem;
     display: inline;
     color: #333333;
-    
-
-    .order-spec-text-changed-area{
-    margin-top: 4%;
-    display: inline-block;
-   
-    }
-     
+    margin-top: 1%;
   }
 .product-detail-color {
     color: #cccccc;
-    font-size: 80/@baseRem;
-     margin-top: 4%;
-      display: inline-block;
 }
 
 .popup {
@@ -123,23 +101,23 @@
     padding-bottom: 1.5625rem;
     
      .content-block {
-    padding-top: 78/@baseRem;
-    padding-left: 1.7/@baseRem;
-    padding-right: 1.7/@baseRem;
+    padding-top: 0.78125rem;
+    padding-left: 1.796875rem;
+    padding-right: 1.796875rem;
      p {
-    font-size: 70/@baseRem;
+    font-size: 1.796875rem;
     color: #222;
-    padding-bottom: 39/@baseRem;
-    margin-top: 19/@baseRem;
+    padding-bottom: 0.390625rem;
+    margin-top: 0.1953125rem;
 }
 ul {
     padding: 0;
     list-style: none;
     li {
-    font-size: 70/@baseRem;
+    font-size: 1.5625rem;
     color: #666666;
-    padding-top: 90/@baseRem;
-    padding-bottom: 90/@baseRem;
+    padding-top: 1.953125rem;
+    padding-bottom: 1.953125rem;
     border-bottom: 1px solid #d7d7d7;
 }
 }
@@ -149,7 +127,6 @@ li:last-child{
 }
 .content-block-border{
     padding:0;
-    margin:0;
     
     ul{
         li.popup-vat-area{
@@ -170,20 +147,20 @@ a {
     display: inline-block;
     color: #c41411;
     border-top: 1px solid #d7d7d7;
-    font-size: 110/@baseRem;
-    padding-top: 134/@baseRem;
+    font-size: 1.5625rem;
+    padding-top: 2.34375rem;
 }
 .back-to-prev-btn{
     background-color: #c41411;
-    padding-top:134/@baseRem;
-    padding-bottom: 134/@baseRem;
-    font-size: 70/@baseRem;
+    padding-top:1.34375rem;
+    padding-bottom: 1.34375rem;
+    font-size: 1.5625rem;
     width: 100%;
     display: inline-block;
     text-align: center;
     .icon {
-    font-size: 73/@baseRem;
-    line-height: 40/@baseRem;
+    font-size: 2.734375rem;
+    line-height: 6.140625rem;
     color: #fff;
     margin-left: 22/@baseRem;
 }
@@ -192,22 +169,15 @@ a {
         text-align: center;
         display: inline-block;
         color:#fff;
-        //font-size:42/@baseRem;
-        //margin-left:-1%;
+        font-size:42/@baseRem;
+        margin-left:-1%;
         }
     
 }
 }
 .popup-area{
-    top: 40%;
+    top: 27.117188rem;
 }
 .modal-overlay, .popup-overlay, .preloader-indicator-overlay {
     background: rgba(17, 17, 17, 0.5);
-}
-
-
-@media screen and (min-width:769px) and (max-width:1024){
-  .user-label-switch{
-    margin-top:3%;
-  }
 }

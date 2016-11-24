@@ -1,58 +1,55 @@
 /******************************************************
    *Variables START
 ******************************************************/
-.header-base-color ~ .content {
-  padding-top: 3.57rem;
-}
 .trade-error-block {
-  padding-top: 1.6rem;
+  padding-top: 6.25rem;
 }
 .trade-error-block img {
-  width: 2.42rem;
+  width: 9.453125rem;
 }
 .trade-error-block h2 {
-  margin-top: 1.54rem;
-  font-size: 0.46rem;
+  margin-top: 6.015625rem;
+  font-size: 1.796875rem;
   color: #999999;
   font-weight: normal;
   margin-bottom: 0;
 }
 .trade-error-block a {
   display: block;
-  margin-top: 0.3rem;
-  font-size: 0.36rem;
+  margin-top: 1.171875rem;
+  font-size: 1.40625rem;
 }
 .cash-deduction {
   z-index: 1;
 }
 .shopping-cart-header-secondary {
-  top: 3.32rem;
-  min-height: 1rem;
+  top: 5.15625rem;
+  min-height: 3.90625rem;
   padding: 0;
   border-bottom: 2px solid #cfcfcf;
   z-index: -10;
 }
 .shopping-cart-header-secondary .row .col-50 .shopping-cart-total {
-  font-size: 0.7rem;
+  font-size: 1.40625rem;
   font-weight: normal;
-  padding-left: 0.5rem;
+  padding-left: 1.953125rem;
   color: #999999;
-  margin-top: 0.68rem;
+  margin-top: 0.8859375rem;
 }
 .shopping-cart-header-secondary .row .col-50 .shopping-cart-total span {
-  padding-left: 0.15rem;
-  padding-right: 0.15rem;
-  font-size: 0.7rem;
+  padding-left: 0.5859375rem;
+  padding-right: 0.5859375rem;
+  font-size: 1.40625rem;
   color: #c41411;
 }
 .shopping-cart-header-secondary .row .col-50 .shopping-cart-edit {
   float: right;
   color: #c41411;
   font-weight: normal;
-  padding-right: 0.356rem;
-  font-size: 0.7rem;
-  margin-top: 0.68rem;
-  margin-bottom: 0.2268rem;
+  padding-right: 1.390625rem;
+  font-size: 1.5625rem;
+  margin-top: 0.8859375rem;
+  margin-bottom: 0.8859375rem;
 }
 .shopping-cart-tabs-footer-navigation {
   height: 11.520703rem !important;
@@ -61,48 +58,53 @@
   border-top: 0px;
   padding-top: 0rem;
   padding: 0rem;
-  margin-top: 0.9984rem;
-  margin-bottom: 0.42rem;
+  margin-top: 3.9rem;
+  margin-bottom: 1.640625rem;
   z-index: 99;
   margin-right: 0;
   margin-left: 0;
 }
+.shopping-cart-list-products-container .shopping-cart-large-products {
+  border-top: 1.5625rem solid #f3f5f7;
+}
 .shopping-cart-list-products-container .shopping-cart-list-products-container-new {
-  padding-top: 4.5rem;
+  padding-top: 1.953125rem;
 }
 .shopping-cart-list-products-container .shopping-cart-border-bott {
   border-bottom: 0.390625rem solid #f7f7f7;
-  padding-bottom: 1rem;
 }
 .shopping-cart-list-products-container .trade-large-products {
   border-top: 0.390625rem solid #f7f7f7;
 }
 .shopping-cart-list-products-container2 {
-  margin-top: 0.4584rem;
+  margin-top: 1.790625rem;
 }
 .shopping-cart-header-secondary2 {
-  top: 6rem;
-  min-height: 1rem;
+  top: 10.63671875rem;
+  min-height: 3.90625rem;
   padding: 0;
-  padding-left: 0.5rem;
-  padding-top: 0.57rem;
+  padding-left: 1.953125rem;
+  padding-top: 1.0071875rem;
   margin-bottom: 3rem;
   z-index: 3;
 }
 .shopping-cart-header-secondary2 label.label-checkbox .item-media {
   float: left;
 }
+.shopping-cart-header-secondary2 label.label-checkbox .item-media i.shopping-cart-form-checkbox {
+  width: 1.953125rem;
+  height: 1.953125rem;
+}
 .shopping-cart-header-secondary2 label.label-checkbox .item-media i.shopping-cart-form-checkbox-down {
-  margin-top: 1.1rem;
+  margin-top: 4.296875rem;
 }
 .shopping-cart-header-secondary2 label.label-checkbox .item-media h2 {
   float: right;
   margin: 0;
-  font-size: 0.7rem;
-  padding-left: 0.2rem;
+  font-size: 1.40625rem;
+  padding-left: 0.78125rem;
   font-weight: normal;
   color: #333;
-  padding-top: 0.2rem;
 }
 .shopping-cart-header-secondary2 .shopping-cart-product-col {
   width: 37%;
@@ -114,8 +116,8 @@
   width: 81%;
   display: inline-block;
   color: #c41411;
-  margin-top: 0.15rem;
-  font-size: 0.7rem;
+  margin-top: 0.5859375rem;
+  font-size: 1.40625rem;
   font-weight: normal;
 }
 .shopping-cart-header-secondary2 .shopping-cart-product-list-product-col {
@@ -123,71 +125,70 @@
   float: left;
 }
 .shopping-cart-header-secondary2 .shopping-cart-product-list-product-col h4.shopping-cart-product-title {
-  font-size: 1rem;
-  margin-top: 0.12rem;
-  margin-bottom: 0.7rem;
+  font-size: 1.5625rem;
+  margin-top: -0.46875rem;
   font-weight: normal;
-  line-height: 1.5rem;
 }
 .shopping-cart-header-secondary2 .shopping-cart-product-list-product-col h4.shopping-cart-product-price {
-  font-size: 0.7rem;
+  font-size: 1.40625rem;
   font-weight: normal;
   color: #999999;
-  padding-left: 0.21rem;
-  margin-bottom: 0.7rem;
+  padding-left: 0.8203125rem;
 }
 .shopping-cart-header-secondary2 .shopping-cart-product-list-product-col h4.shopping-cart-product-price-yen {
-  font-size: 0.8rem;
+  font-size: 1.953125rem;
   font-weight: normal;
   color: #c41411;
-  margin-top: 0.07rem;
-  margin-left: 0.1rem;
+  margin-top: -0.2734375rem;
+  margin-left: -0.390625rem;
   width: 50%;
   float: left;
   margin-bottom: 0;
+  padding-left: 0.8203125rem;
 }
 .shopping-cart-header-secondary2 .shopping-cart-product-list-product-col h4.shopping-cart-product-price-x1 {
   float: right;
-  font-size: 0.8rem;
+  font-size: 1.5625rem;
   color: #333;
   margin: 0;
+  padding-right: 0.390625rem;
 }
 .shopping-cart-header-secondary2 .product-list-price-value-inc {
   margin: 0rem 0rem 0rem 0rem;
-  padding-bottom: 0.48rem;
-  padding-left: 0.2rem;
+  padding-bottom: 1.875rem;
+  padding-left: 0.78125rem;
 }
 .shopping-cart-header-secondary2 .product-list-price-value-inc .decrement {
-  font-size: 0.6rem;
+  font-size: 2.34375rem;
   border: 1px solid #f3f5f7;
-  padding: 0.06rem 0.4rem;
+  padding: 0.234375rem 1.5625rem;
 }
 .shopping-cart-header-secondary2 .product-list-price-value-inc .number {
-  font-size: 0.6rem;
+  font-size: 2.34375rem;
   border: 1px solid #f3f5f7;
-  padding: 0.06rem 0.2rem;
+  padding: 0.234375rem 0.78125rem;
   position: relative;
-  left: 0.02rem;
+  left: 0.078125rem;
 }
 .shopping-cart-header-secondary2 .product-list-price-value-inc .increment {
-  font-size: 0.6rem;
+  font-size: 2.34375rem;
   border: 1px solid #f3f5f7;
-  padding: 0.06rem 0.4rem;
+  padding: 0.234375rem 1.5625rem;
   position: relative;
-  right: 0.01rem;
+  right: 0.0390625rem;
 }
 .shopping-cart-header-secondary2 .product-list-price-value-inc .product-detail-stock {
-  font-size: 0.36rem;
+  font-size: 1.40625rem;
   color: #d7d7d7;
-  margin-left: 0.5rem;
+  margin-left: 1.953125rem;
   vertical-align: middle;
 }
 .shopping-cart-header-secondary2 .product-list-price-value-inc .product-detail-stock .product-detail-stock-number {
   color: #666;
 }
 .shopping-cart-tabs-footer {
-  padding-left: 0.5988rem;
-  height: 2.7rem;
+  padding-left: 2.3390625rem;
+  height: 5.0rem;
   width: auto;
   border-top: 1px solid #d7d7d7;
 }
@@ -195,32 +196,34 @@
   margin-left: 2%;
   margin-top: 1.5%;
   width: 35%;
-  padding-left: 0.5rem;
 }
 .shopping-cart-tabs-footer .custom-width label.label-checkbox .item-media {
   float: left;
 }
+.shopping-cart-tabs-footer .custom-width label.label-checkbox .item-media i.shopping-cart-form-checkbox {
+  width: 1.953125rem;
+  height: 1.953125rem;
+}
 .shopping-cart-tabs-footer .custom-width label.label-checkbox .item-media i.shopping-cart-form-checkbox-down {
-  margin-top: 0.1784rem;
-  padding: 0.0512rem;
+  margin-top: 0.696875rem;
+  padding: 0.2rem;
 }
 .shopping-cart-tabs-footer .custom-width label.label-checkbox .item-media h2 {
   float: right;
-  margin-top: 0.46rem;
-  font-size: 0.7rem;
-  padding-left: 0.2rem;
+  margin-top: 0.625rem;
+  font-size: 1.40625rem;
+  padding-left: 0.78125rem;
   font-weight: normal;
   color: #333;
 }
 .shopping-cart-tabs-footer .shopping-cart-external-third {
   background-color: #ff5722;
-  height: 2.7rem;
-  height: 1.4rem;
+  height: 5.46875rem;
 }
 .shopping-cart-tabs-footer .shopping-cart-external-third .shopping-cart-moved {
   color: #fff;
-  font-size: 0.7rem;
-  padding: 0.99rem 0 0 0rem;
+  font-size: 1.5625rem;
+  padding: 1.3671875rem 0 0 0.78125rem;
   float: left;
   width: 100%;
   text-align: center;
@@ -228,44 +231,44 @@
 .shopping-cart-tabs-footer .custom-width-second .external-third {
   float: left;
   width: 26%;
+  margin-left: 11%;
 }
 .shopping-cart-tabs-footer .custom-width-second .external-third .tab-label-shopping-cart {
   list-style: none;
   padding: 0;
   text-align: left;
-  margin-top: 0.11rem;
+  margin-top: 0.4296875rem;
   float: left;
 }
 .shopping-cart-tabs-footer .custom-width-second .external-third .shopping-cart-99 {
-  font-size: 0.7rem;
+  font-size: 1.5625rem;
   color: #999;
+  display: inline;
   float: left;
-  padding-top: 0.4rem;
   width: 45%;
 }
 .shopping-cart-tabs-footer .custom-width-second .external-third .shopping-cart-cf {
-  font-size: 0.7rem;
+  font-size: 1.5625rem;
   float: right;
   color: #c41411;
   text-align: right;
   font-weight: bold;
-  padding-top: 0.4rem;
-  padding-right: 0.15rem;
+  padding-right: 0.5859375rem;
   width: 50%;
 }
 .shopping-cart-tabs-footer .custom-width-second .external-fourth {
   float: left;
   background-color: #ce0000;
-  height: 2.7rem;
+  height: 5.0rem;
   width: 25%;
-  margin-left: 0%;
+  margin-left: 1%;
   float: right;
 }
 .shopping-cart-tabs-footer .custom-width-second .external-fourth .tab-label-buy-now {
   color: #fff;
-  font-size: 0.7rem;
+  font-size: 1.953125rem;
   vertical-align: middle;
-  padding: 0.99rem 0px 0 0rem;
+  padding: 1.09375rem 0px 0 0rem;
   float: left;
   width: 100%;
   text-align: center;
@@ -280,15 +283,15 @@ label.label-checkbox input[type=radio]:checked + .item-media i.icon-form-checkbo
 }
 label.label-checkbox input[type=checkbox]:checked + .item-media i.icon-form-checkbox:after,
 label.label-checkbox input[type=radio]:checked + .item-media i.icon-form-checkbox:after {
-  background-size: 1rem 1rem;
+  background-size: 1.5rem 1.5rem;
 }
 label.label-checkbox i.icon-form-checkbox:after {
   position: absolute;
-  left: 39%;
+  left: 29%;
   margin-left: -0.4rem;
-  top: 0%;
+  top: 20%;
   margin-top: -0.1rem;
-  width: 1rem;
+  width: 1.6rem;
   height: 1.45rem;
 }
 .modal {
@@ -305,7 +308,7 @@ label.label-checkbox i.icon-form-checkbox:after {
   text-align: left;
 }
 .modal .modal-inner .modal-text {
-  font-size: 0.7rem;
+  font-size: 1.596875rem;
 }
 .modal-overlay,
 .popup-overlay,

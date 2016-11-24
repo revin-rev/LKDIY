@@ -2,16 +2,6 @@
 @import "../../common/css/variable";
 @import "../../common/css/lesshat";
 
-.header-base-color .back-to-prev-btn .icon{
-  line-height: 336/@baseRem;
-}
-
-.header-base-color 
-{
-  ~ .content{
-      padding-top: 357/@baseRem;
-}
-}
 .content{
   background: #f3f5f7;
 }
@@ -19,43 +9,36 @@
   padding: 151/@baseRem 50/@baseRem;
   margin: 0;
 
-form{
-  text-align: center;
   input[type=text]{
-    font-size: 70/@baseRem;
+    font-size: 40/@baseRem;
     border: 2px solid @borderColorExtra;
     .border-radius(4px);
-    padding:60/@baseRem 24/@baseRem;
+    padding: 35/@baseRem 24/@baseRem;
     vertical-align: top;
-    //.calc(width,~'100% - 14.921875rem');
-     width: 60%;
-
+    .calc(width,~'100% - 14.921875rem');
     background: @white;
 
     .placeholder(@footerTextColor);
   }
   input[type=submit]{
-    font-size: 70/@baseRem;
+    font-size: 40/@baseRem;
     .border-radius(4px);
-    padding: 50/@baseRem 24/@baseRem;
+    padding: 31/@baseRem 24/@baseRem;
     vertical-align: top;
     background: @baseColor;
     color: @white;
     border: 2px solid @baseColor;
-    width: 632/@baseRem;
+    width: 332/@baseRem;
     margin-left: 50/@baseRem;
   }
-}
 }
 
 .user-exchange-link{
   display: inline-block;
   vertical-align: middle;
   color: @fontMediumDark;
-  font-size: 70/@baseRem;
+  font-size: 40/@baseRem;
   margin-top: 100/@baseRem;
-  position: relative;
-  left:-230/@baseRem;
 
   img{
     vertical-align: middle;
@@ -78,11 +61,4 @@ form{
   width: 688/@baseRem;
   text-align: center;
   .calc(top,~'50% - 4.84375rem');
-}
-
-@media screen and (min-width:320px)  and (max-width:765px)
-{
-  .user-exchange-link{
-    left:0;
-  }
 }

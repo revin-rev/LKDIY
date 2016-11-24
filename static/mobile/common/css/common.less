@@ -2,7 +2,6 @@
 @import "variable";
 @import "lesshat";
 
-
 /*index header START*/
 
 .header-base-color{
@@ -10,7 +9,7 @@
     background: @baseColor;
     padding: 0 ;
     height: auto;
-    min-height: 200/@baseRem;
+    min-height: 131/@baseRem;
     z-index:100;
 
     .searchbar{
@@ -49,7 +48,7 @@
         a{
           display: inline-block;
           position: relative;
-          top: (0.25 * @oldBase) /@baseRem;
+          top: 0.85rem;
           padding-left: 0.3rem;
 
           img{
@@ -69,35 +68,32 @@
           .badge{
             background: #e51937;
             color: #fff;
-            height: 96/@baseRem;
-            width: 96/@baseRem;
-            font-size: 50/@baseRem;
+            height: 46/@baseRem;
+            width: 46/@baseRem;
+            font-size: 30/@baseRem;
             border: 3/@baseRem solid #fff;
-            line-height: (1.6 * @oldBase) / @baseRem;
+            line-height: 1.6rem;
             position: absolute;
-            /*top: (15 * @oldBase) / @baseRem;
-            right: (15 * @oldBase) / @baseRem;*/
-            top: -72%;
-            right: -55%;
-            padding: 20/@baseRem 35/ @baseRem 15 /@baseRem;
+            top: -1.0rem;
+            right: -1rem;
           }
         }
       }
 
       &.with-arrow{
-       // padding-left: 135/@baseRem;
+        padding-left: 135/@baseRem;
 
         input{
           background: @white;
           color: @baseTextColor;
           font-size: 42/@baseRem;
-          padding: 45/@baseRem 45/@baseRem;
+          padding: 23/@baseRem 42/@baseRem;
           .placeholder(@baseTextColor);
           .border-radius(9/@baseRem);
         }
 
         .message-notification a{
-          top: 25 /@baseRem;
+          top: 0.65rem;
         }
       }
     }
@@ -111,18 +107,17 @@
 
     .icon{
       font-size: 70/@baseRem;
-      line-height: 206/@baseRem;
-      padding:0;
+      line-height: 106/@baseRem;
     }
   }
   .bar-title{
     color: @white;
-    font-size: 70/@baseRem;
+    font-size: 46/@baseRem;
     font-weight: 400;
-    margin: 130/@baseRem 0;
+    margin: 33/@baseRem 0;
     //     position: absolute;
     // left: 41%;
-        padding-left: (3.390625*@oldBase) / @baseRem;
+        padding-left: 3.390625rem;
   }
 
   .sort-links{
@@ -144,7 +139,6 @@
           font-size: 46/@baseRem;
           display: block;
           padding: 28/@baseRem 0 ;
-          text-align: center;
 
           img{
             max-height: 29/@baseRem;
@@ -172,7 +166,7 @@
     right: 50/@baseRem;
     position: absolute;
     color: @white;
-    font-size: 70/@baseRem;
+    font-size: 36/@baseRem;
     line-height: 70/@baseRem;
 
     img{
@@ -186,7 +180,7 @@
   }
 
   &.has-sort-menu ~ .content{
-    padding-top: 370/@baseRem;
+    padding-top: 270/@baseRem;
   }
 }
 
@@ -196,26 +190,24 @@
 
 /*Main bar Start*/
 .main-bar{
-  height: 190/@baseRem;
+  height: auto;
   background: @white;
   border-top: 2px solid @borderColorExtra;
 
   .tab-item .icon ~ .tab-label{
-    font-size: 70/@baseRem;
-    padding-bottom: 0.5/@baseRem;
-    padding-top: 0.5/@baseRem;
+    font-size: 36/@baseRem;
+    padding-bottom: 0.5rem;
   }
   .tab-item{
-    height: (5.3 * @oldBase) / @baseRem;
+    height: 5.3rem;
   }
   .tab-item .icon {
-    top: (.07 * @oldBase) / @baseRem;
-    height: (3.2 * @oldBase) / @baseRem;
-    line-height: (4.2 * @oldBase) / @baseRem;
-    padding-top: 50/@baseRem;
-    padding-bottom: 50/@baseRem;
-    font-size: 70 / @baseRem;
-    
+    top: .05rem;
+    height: 3.2rem;
+    line-height: 4.2rem;
+    padding-top: 0;
+    padding-bottom: 0;
+    font-size: 2.6rem;
   }
   .tab-item.active, .tab-item:active {
     color: @baseColor;
@@ -237,7 +229,7 @@
   margin-top: 40/@baseRem;
   font-size: 31/@baseRem;
   font-weight: normal;
-     height: (15 *@oldBase) /@baseRem;
+     height: 15rem;
 
   ul{
     margin: 0 -40/@baseRem 60/@baseRem;

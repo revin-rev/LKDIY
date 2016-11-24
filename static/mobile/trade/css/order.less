@@ -2,32 +2,25 @@
 @import "../../common/css/lesshat";
 //Order-Detail start
 
-.header-base-color{
-
-~ .content{
-    
-    padding-top: 357/@baseRem;
-
-  }
-}
 .product-review-center{
   display: inline-block;
   width:90%;
 }
 .content{
-  
+  .order-deatil-fixed-tab
+  {
+      padding-top: 30/@baseRem;
+  }
   a.button.active{
-    font-size:66/@baseRem;
+    font-size:46/@baseRem;
     color:#ce0000;
     border-color:#ce0000;
-    border-bottom: 2/@baseRem solid;
+    border-bottom: 2px solid;
     //width:20%;
     margin-left:45/@baseRem;
-    height:166/@baseRem;
+    height:66.87/@baseRem;
         padding: 0;
         margin-right:45/@baseRem;
-        width:30%;
-        display: inline-block;
   }
   a.button{
     font-size:46/@baseRem;
@@ -42,7 +35,7 @@
   .order-detail-content-block{
     background-color:#fff;
     margin:0;
-    padding:80/@baseRem 0 0 0;
+    padding:0/@baseRem 0 0 0;
     border-top:1px solid #d7d7d7;
     .order-details-list{
     //margin-bottom:20/@baseRem;
@@ -50,12 +43,10 @@
   .order-deatils-total{
           margin-left:45/@baseRem;
           font-weight:normal;
-          font-size:50/@baseRem;
           span{
             color:#ce0000;
             margin-left:10/@baseRem;
             vertical-align: middle;
-            font-size:50/@baseRem;
           }
         }
  
@@ -63,9 +54,6 @@
      float: right;
      padding-right:43/@baseRem;
      color:#ce0000;
-     font-size:56/@baseRem;
-      //padding-top:80/@baseRem ;
-      padding-bottom:80/@baseRem ;
 
    }
     }
@@ -80,16 +68,12 @@
    .order-detail-total-second{
    
         float: left;
-        padding-top:25/@baseRem;
     
   }
   .order-detail-completed{
      float: right;
      padding-right:43/@baseRem;
     font-weight: normal;
-    font-size: 80/@baseRem;
-    padding-bottom: 50/@baseRem;
-    padding-top:10/@baseRem;
   }
     }
   }
@@ -149,21 +133,21 @@
      width:62%;
      margin-left: 4%;
      h4.order-detail-product-title{
-       font-size:80/@baseRem;
+       font-size:40/@baseRem;
        margin-top: 4/@baseRem;
        font-weight:normal;
        margin-bottom: 10/@baseRem;
      }
      h4.order-detail-product-price{
        color:#999999;
-       font-size: 80/@baseRem;
-       margin-top: 30/@baseRem;
+       font-size: 36/@baseRem;
+       margin: 0;
        font-weight: normal;
 
      }
      h4.order-detail-product-price-yen{
-       font-size: 80/@baseRem;
-       margin: 120/@baseRem 0 0 0;
+       font-size: 36/@baseRem;
+       margin: 20/@baseRem 0 0 0;
        font-weight: normal;
        color:#c41411;
        width: 50%;
@@ -171,10 +155,10 @@
      }
      h4.order-detail-product-price-x1{
        float: right;
-       margin-top: 120/@baseRem;
+       margin-top: 20/@baseRem;
        margin-bottom: 0;
        margin-right: 14/@baseRem;
-       font-size: 80/@baseRem;
+       font-size: 40/@baseRem;
      }
    }
   }
@@ -473,15 +457,15 @@ border-bottom: 1px solid #d7d7d7;
 
 .timeline ul {
   //background: #456990;
-  padding-top: 70/@baseRem;
-  padding-left: 70/@baseRem;
+  padding-top: 50/@baseRem;
+  padding-left: 50/@baseRem;
 }
 .timeline ul li {
   list-style-type: none;
   position: relative;
   width: 6/@baseRem;
-  margin-left: 70/@baseRem;
-  padding-bottom: 70/@baseRem;
+  margin-left: 36/@baseRem;
+  padding-bottom: 50/@baseRem;
   background: #ccc;
 }
  
@@ -491,8 +475,8 @@ border-bottom: 1px solid #d7d7d7;
   left: 50%;
   bottom: 0;
   transform: translateX(-50%);
-  width: 50/@baseRem;
-  height: 50/@baseRem;
+  width: 23/@baseRem;
+  height: 23/@baseRem;
   border-radius: 50%;
   background: inherit;
   top: 0%;
@@ -500,19 +484,18 @@ border-bottom: 1px solid #d7d7d7;
 .timeline ul li div {
   position: relative;
   bottom: 0;
-  width:2130/@baseRem;
-  padding: 0 80/@baseRem;
+  width:35.34375rem;
+  padding: 0 20/@baseRem;
   margin-left: 65/@baseRem;
-  font-size:70/@baseRem;
-  line-height: 90/@baseRem;
+  font-size:30/@baseRem;
   color:#666;
   
 }
 
 .timeline ul li.timeline-container::after{
   background: url('../images/order-tracking.png') no-repeat;
-      width: 100/@baseRem;
-    height: 100/@baseRem;
+      width: 50/@baseRem;
+    height: 50/@baseRem;
         background-size: contain;
 }
 
@@ -529,7 +512,7 @@ border-bottom: 1px solid #d7d7d7;
     border-bottom:3px solid #d7d7d7;
     padding-bottom: 185/@baseRem;
 .order-detail-thankyou{
-      padding-top: 118/@baseRem;
+      padding-top: 218/@baseRem;
       width: 40%;
       display: inline-block;
       text-align: right;
@@ -547,7 +530,7 @@ border-bottom: 1px solid #d7d7d7;
       float: right;
            
 h3{
-        font-size:70/@baseRem;
+        font-size:60/@baseRem;
         color:#c41411;
         padding-top: 175/@baseRem;
         padding-left:38/@baseRem;
@@ -563,7 +546,7 @@ a{
   padding:20/@baseRem 65/@baseRem;
   border-radius:5/@baseRem;
   color:#c41411;
-  font-size:70/@baseRem;
+  font-size:50/@baseRem;
   text-align: center;
   border:1px solid #c41411;
   margin-bottom: 50/@baseRem;
@@ -805,7 +788,9 @@ ul{
                   h2.customer-service-list-right{
                      width:68%;
                      margin-left:0/@baseRem;
-                    
+                    span{
+                     
+                    }
                   }
                 }
               
@@ -891,10 +876,8 @@ ul{
      padding-top:20/@baseRem;
   padding-left:46/@baseRem;
   padding-right:46/@baseRem;
-  margin: 80/@baseRem 0;
-    padding-bottom: 80/@baseRem;
     p{
-     font-size:70/@baseRem;
+     font-size:46/@baseRem;
       color:#222;
       padding-bottom: 10/@baseRem;
       margin-top:5/@baseRem;
@@ -903,14 +886,14 @@ ul{
     #popupSelect{
     z-index: 1000;
     position: absolute;
-    top: 130/@baseRem;
-    left: 50/@baseRem;
+    top: 130px;
+    left: 50px;
 }
     ul{
       padding:0;
       list-style: none;
       li{
-        font-size:70/@baseRem;
+        font-size:40/@baseRem;
         color:#666666;
         padding-top: 50/@baseRem;
         padding-bottom: 50/@baseRem;
@@ -938,7 +921,7 @@ h2.mar_gaya{
       display: inline-block;
       color:#c41411;
       border-top:1px solid #d7d7d7;
-      font-size: 70/@baseRem;
+      font-size: 40/@baseRem;
       padding-top: 60/@baseRem;
 
 
@@ -1340,17 +1323,17 @@ ul.order-detail-information-refund-1{
 
 @media only screen and (orientation:landscape){
 .timeline ul li div{
-  width: 2100/@baseRem;
+  width: 54rem;
 }
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width : 1024px){
 .timeline ul li div{
-  width: 3200/@baseRem;
+  width: 32rem;
 }
 }
 .order-details-scroll{
-  height:32/@baseRem;
+  height:32rem;
 }
 .custom-row {
     width: 100%;

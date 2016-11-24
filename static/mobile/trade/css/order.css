@@ -1,56 +1,50 @@
 /******************************************************
    *Variables START
 ******************************************************/
-.header-base-color ~ .content {
-  padding-top: 3.57rem;
-}
 .product-review-center {
   display: inline-block;
   width: 90%;
 }
+.content .order-deatil-fixed-tab {
+  padding-top: 1.171875rem;
+}
 .content a.button.active {
-  font-size: 0.66rem;
+  font-size: 1.796875rem;
   color: #ce0000;
   border-color: #ce0000;
-  border-bottom: 0.02rem solid;
-  margin-left: 0.45rem;
-  height: 1.66rem;
+  border-bottom: 2px solid;
+  margin-left: 1.7578125rem;
+  height: 2.61210938rem;
   padding: 0;
-  margin-right: 0.45rem;
-  width: 30%;
-  display: inline-block;
+  margin-right: 1.7578125rem;
 }
 .content a.button {
-  font-size: 0.46rem;
+  font-size: 1.796875rem;
   color: #666666;
   padding: 0;
 }
 .content .order-details-large-products {
-  border-top: 0.4rem solid #f3f5f7;
+  border-top: 1.5625rem solid #f3f5f7;
 }
 .content .order-details-large-products .order-detail-content-block {
   background-color: #fff;
   margin: 0;
-  padding: 0.8rem 0 0 0;
+  padding: 0rem 0 0 0;
   border-top: 1px solid #d7d7d7;
 }
 .content .order-details-large-products .order-detail-content-block .order-details-list .order-deatils-total {
-  margin-left: 0.45rem;
+  margin-left: 1.7578125rem;
   font-weight: normal;
-  font-size: 0.5rem;
 }
 .content .order-details-large-products .order-detail-content-block .order-details-list .order-deatils-total span {
   color: #ce0000;
-  margin-left: 0.1rem;
+  margin-left: 0.390625rem;
   vertical-align: middle;
-  font-size: 0.5rem;
 }
 .content .order-details-large-products .order-detail-content-block .order-details-list .order-detail-complete {
   float: right;
-  padding-right: 0.43rem;
+  padding-right: 1.6796875rem;
   color: #ce0000;
-  font-size: 0.56rem;
-  padding-bottom: 0.8rem;
 }
 .content .order-details-large-products .order-detail-content-block .order-refund-list {
   border-bottom: 0;
@@ -62,15 +56,11 @@
 }
 .content .order-details-large-products .order-detail-content-block .order-detail-pull .order-detail-total-second {
   float: left;
-  padding-top: 0.25rem;
 }
 .content .order-details-large-products .order-detail-content-block .order-detail-pull .order-detail-completed {
   float: right;
-  padding-right: 0.43rem;
+  padding-right: 1.6796875rem;
   font-weight: normal;
-  font-size: 0.8rem;
-  padding-bottom: 0.5rem;
-  padding-top: 0.1rem;
 }
 .content .order-details-large-products .order-detail-content-block-new {
   border-bottom: 1px solid #d7d7d7;
@@ -83,37 +73,37 @@
 .content .order-details-large-products .order-detail-content-block-button .order-detail-pull {
   float: right;
   width: 50%;
-  padding-top: 0.24rem;
-  padding-bottom: 0.24rem;
+  padding-top: 0.9375rem;
+  padding-bottom: 0.9375rem;
 }
 .content .order-details-large-products .order-detail-content-block-button .order-detail-pull .order-detail-total-second {
   float: left;
   width: 44%;
   text-align: center;
   color: #222222;
-  padding: 0.2rem;
+  padding: 0.78125rem;
   border-radius: 5px;
   border: 1px solid #999999;
-  font-size: 0.4rem;
+  font-size: 1.5625rem;
 }
 .content .order-details-large-products .order-detail-content-block-button .order-detail-pull .order-detail-completed {
   text-align: center;
   color: #ce0000;
-  padding: 0.2rem;
+  padding: 0.78125rem;
   border-radius: 5px;
   border: 1px solid #ce0000;
-  font-size: 0.4rem;
+  font-size: 1.5625rem;
   width: 44%;
   float: left;
   margin-left: 9%;
 }
 .content .order-details-large-products .order-detail-content-block-button .order-detail-pull .order-detail-completed-second {
   float: right;
-  margin-right: 0.43rem;
+  margin-right: 1.6796875rem;
 }
 .content .order-details-large-products .order-details-list-products-container {
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
+  margin-top: 1.953125rem;
+  margin-bottom: 1.953125rem;
 }
 .content .order-details-large-products .order-details-list-products-container .order-detail-product-col {
   width: 25%;
@@ -124,20 +114,20 @@
   margin-left: 4%;
 }
 .content .order-details-large-products .order-detail-product-list-product-col h4.order-detail-product-title {
-  font-size: 0.8rem;
-  margin-top: 0.04rem;
+  font-size: 1.5625rem;
+  margin-top: 0.15625rem;
   font-weight: normal;
-  margin-bottom: 0.1rem;
+  margin-bottom: 0.390625rem;
 }
 .content .order-details-large-products .order-detail-product-list-product-col h4.order-detail-product-price {
   color: #999999;
-  font-size: 0.8rem;
-  margin-top: 0.3rem;
+  font-size: 1.40625rem;
+  margin: 0;
   font-weight: normal;
 }
 .content .order-details-large-products .order-detail-product-list-product-col h4.order-detail-product-price-yen {
-  font-size: 0.8rem;
-  margin: 1.2rem 0 0 0;
+  font-size: 1.40625rem;
+  margin: 0.78125rem 0 0 0;
   font-weight: normal;
   color: #c41411;
   width: 50%;
@@ -145,10 +135,10 @@
 }
 .content .order-details-large-products .order-detail-product-list-product-col h4.order-detail-product-price-x1 {
   float: right;
-  margin-top: 1.2rem;
+  margin-top: 0.78125rem;
   margin-bottom: 0;
-  margin-right: 0.14rem;
-  font-size: 0.8rem;
+  margin-right: 0.546875rem;
+  font-size: 1.5625rem;
 }
 .content .order-detail-product-payment-method {
   width: 100%;
@@ -158,7 +148,7 @@
   border-top: 1px solid #d7d7d7;
 }
 .content .order-detail-product-payment-method h4.order-detail-paid-pay {
-  font-size: 0.4rem;
+  font-size: 1.5625rem;
   color: #222;
   float: left;
   margin-left: 4%;
@@ -166,10 +156,10 @@
   font-weight: normal;
 }
 .content .order-detail-product-payment-method label {
-  margin-top: 0.5225rem;
+  margin-top: 2.04101563rem;
   float: left;
   color: #999999;
-  font-size: 0.4rem;
+  font-size: 1.5625rem;
 }
 .content .order-detail-product-payment-method-second {
   width: 100%;
@@ -180,7 +170,7 @@
   border-top: 1px solid #d7d7d7;
 }
 .content .order-detail-product-payment-method-second h4.order-detail-paid-pay {
-  font-size: 0.4rem;
+  font-size: 1.5625rem;
   color: #222;
   float: left;
   margin-left: 4%;
@@ -188,17 +178,17 @@
   font-weight: normal;
 }
 .content .order-detail-product-payment-method-second label {
-  margin-top: 0.5225rem;
+  margin-top: 2.04101563rem;
   float: left;
   color: #999999;
-  font-size: 0.4rem;
+  font-size: 1.5625rem;
 }
 .content .product-detail-spec {
-  padding-top: 0.47rem;
-  padding-left: 0.6rem;
-  font-size: 0.4rem;
+  padding-top: 1.8359375rem;
+  padding-left: 2.34375rem;
+  font-size: 1.5625rem;
   color: #999999;
-  height: 1.51rem;
+  height: 5.8984375rem;
   display: inline-block;
   width: 100%;
   background-color: #fff;
@@ -206,14 +196,14 @@
   padding-right: 1.5rem;
 }
 .content .product-detail-spec span {
-  font-size: 0.4rem;
+  font-size: 1.5625rem;
   color: #999999;
 }
 .content .product-detail-spec .product-detail-color {
   color: #cccccc;
 }
 .content .product-detail-spec .product-detail-color .icon-right {
-  font-size: 0.4rem;
+  font-size: 1.5625rem;
 }
 .content .order-details-large-products-new {
   border-top: 0;
@@ -225,25 +215,25 @@
 .content .order-details-large-products-new .order-details-paid-products-container {
   margin: 0;
   border-top: 1px solid #d7d7d7;
-  border-bottom: 0.14rem solid #fff;
+  border-bottom: 0.546875rem solid #fff;
   height: 53.320313rem;
 }
 .content .order-details-large-products-new .order-details-paid-products-container .order-detail-paid-product-information {
-  font-size: 0.46rem;
+  font-size: 1.796875rem;
   font-weight: normal;
-  padding-left: 0.6528rem;
+  padding-left: 2.55rem;
   background-color: #fff;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-  margin-bottom: 0.47rem;
+  padding-top: 1.953125rem;
+  padding-bottom: 1.953125rem;
+  margin-bottom: 1.8359375rem;
 }
 .content .order-details-large-products-new .order-details-paid-products-container-completed {
   height: 60.320313rem;
 }
 .content .order-details-large-products-new .order-detail-completed-block {
   background: #fff;
-  padding: 0.5rem 0.6rem 0.6rem 0.6rem;
-  margin-bottom: 0.2rem;
+  padding: 1.953125rem 2.34375rem 2.34375rem 2.34375rem;
+  margin-bottom: 0.78125rem;
   float: left;
   width: 100%;
 }
@@ -256,15 +246,15 @@
   display: inline;
 }
 .content .order-details-large-products-new .order-detail-completed-block a {
-  font-size: 0.4rem;
+  font-size: 1.5625rem;
   color: #cccccc;
   background-color: #dedede;
-  padding: 0.26rem 0.4rem 0.26rem 0.4rem;
+  padding: 1.015625rem 1.5625rem 1.015625rem 1.5625rem;
   border-radius: 5px;
   margin-right: 35px;
 }
 .content .order-details-large-products-new .order-detail-completed-block .order-completed-buy-again {
-  font-size: 0.4rem;
+  font-size: 1.5625rem;
   color: #ce0000;
   background-color: #ffffff;
   margin-right: 0;
@@ -281,120 +271,120 @@
   margin-bottom: 3%;
 }
 .content .order-details-large-products-new .order-detail-paid-content-block .order-detail-paid-memo {
-  padding-left: 0.6528rem;
-  margin-top: 0.3404rem;
+  padding-left: 2.55rem;
+  margin-top: 1.3296875rem;
   float: left;
-  font-size: 0.4rem;
-  margin-bottom: 0.3404rem;
+  font-size: 1.5625rem;
+  margin-bottom: 1.3296875rem;
   color: #999999;
-  padding-right: 0.7rem;
+  padding-right: 2.734375rem;
   font-weight: normal;
 }
 .content .order-details-large-products-new .order-detail-paid-content-block label {
-  margin-top: 0.3404rem;
+  margin-top: 1.3296875rem;
   float: left;
   color: #999999;
-  font-size: 0.4rem;
+  font-size: 1.5625rem;
 }
 .content .order-detail-paid-container {
-  border-top: 0.15rem solid #f3f5f7;
+  border-top: 0.5859375rem solid #f3f5f7;
   background-color: #fff;
   border-bottom: 1.953125rem solid #f3f5f7;
 }
 .content .order-detail-paid-container .order-detail-paid-list {
-  margin-top: 0.5rem;
-  margin-bottom: 0.27rem;
+  margin-top: 1.953125rem;
+  margin-bottom: 1.0546875rem;
 }
 .content .order-detail-paid-container .order-detail-paid-list .order-detail-paid-number {
-  font-size: 0.46rem;
-  margin-left: 0.7672rem;
+  font-size: 1.796875rem;
+  margin-left: 2.996875rem;
   color: #222222;
   float: left;
 }
 .content .order-detail-paid-container .order-detail-paid-list label {
-  font-size: 0.46rem;
+  font-size: 1.796875rem;
   color: #ce0000;
-  padding-left: 0.25rem;
+  padding-left: 0.9765625rem;
 }
 .content .order-detail-paid-container .order-detail-paid-list-date {
-  margin-bottom: 0.27rem;
+  margin-bottom: 1.0546875rem;
 }
 .content .order-detail-paid-container .order-detail-paid-list-date .order-detail-paid-date {
-  font-size: 0.36rem;
+  font-size: 1.40625rem;
   color: #666666;
-  margin-left: 0.7672rem;
+  margin-left: 2.996875rem;
 }
 .content .order-detail-paid-container .order-detail-paid-list-date label {
-  font-size: 0.36rem;
+  font-size: 1.40625rem;
   color: #666666;
 }
 .content .order-detail-paid-container .order-detail-paid-list-money {
-  padding-bottom: 0.27rem;
+  padding-bottom: 1.0546875rem;
   border-bottom: 1px solid #d7d7d7;
 }
 .content .order-detail-paid-container .order-detail-paid-list-money .order-detail-paid-money {
-  font-size: 0.36rem;
+  font-size: 1.40625rem;
   color: #666666;
-  margin-left: 0.7672rem;
+  margin-left: 2.996875rem;
 }
 .content .order-detail-paid-container .order-detail-paid-list-money label {
-  font-size: 0.36rem;
+  font-size: 1.40625rem;
   color: #ce0000;
 }
 .content .order-detail-paid-container .order-detail-paid-list-money label span {
   color: #666666;
 }
 .content .order-detail-paid-wang {
-  padding-left: 0.6528rem;
+  padding-left: 2.55rem;
   border-top: 1px solid #d7d7d7;
   background-color: #fff;
   border-bottom: 1.953125rem solid #f3f5f7;
 }
 .content .order-detail-paid-wang .col-50 h2 {
   color: #222222;
-  font-size: 0.46rem;
+  font-size: 1.796875rem;
   font-weight: normal;
-  margin-bottom: 0.13rem;
+  margin-bottom: 0.5078125rem;
 }
 .content .order-detail-paid-wang .col-50 h2.order-detail-paid-wang-number {
-  font-size: 0.44rem;
+  font-size: 1.71875rem;
   font-weight: normal;
   color: #222222;
   float: right;
-  padding-right: 0.45rem;
-  margin-bottom: 0.13rem;
+  padding-right: 1.7578125rem;
+  margin-bottom: 0.5078125rem;
 }
 .content .order-detail-paid-wang .order-detail-paid-address {
-  font-size: 0.37rem;
+  font-size: 1.4453125rem;
   color: #949494;
   float: left;
   margin-left: 1.9%;
   width: 96%;
-  padding-bottom: 0.5rem;
+  padding-bottom: 1.953125rem;
 }
 .product-detail-paid a.external {
   background-color: #c41411;
-  font-size: 0.5rem;
+  font-size: 1.953125rem;
   color: #fff;
 }
 .product-detail-paid-payment a.externals {
   background-color: #fff;
-  font-size: 0.5rem;
+  font-size: 1.953125rem;
   color: #222222;
 }
 /* -----------------------------------------------
  * Timeline Start
  * --------------------------------------------- */
 .timeline ul {
-  padding-top: 0.7rem;
-  padding-left: 0.7rem;
+  padding-top: 1.953125rem;
+  padding-left: 1.953125rem;
 }
 .timeline ul li {
   list-style-type: none;
   position: relative;
-  width: 0.06rem;
-  margin-left: 0.7rem;
-  padding-bottom: 0.7rem;
+  width: 0.234375rem;
+  margin-left: 1.40625rem;
+  padding-bottom: 1.953125rem;
   background: #ccc;
 }
 .timeline ul li::after {
@@ -403,8 +393,8 @@
   left: 50%;
   bottom: 0;
   transform: translateX(-50%);
-  width: 0.5rem;
-  height: 0.5rem;
+  width: 0.8984375rem;
+  height: 0.8984375rem;
   border-radius: 50%;
   background: inherit;
   top: 0%;
@@ -412,17 +402,16 @@
 .timeline ul li div {
   position: relative;
   bottom: 0;
-  width: 21.3rem;
-  padding: 0 0.8rem;
-  margin-left: 0.65rem;
-  font-size: 0.7rem;
-  line-height: 0.9rem;
+  width: 35.34375rem;
+  padding: 0 0.78125rem;
+  margin-left: 2.5390625rem;
+  font-size: 1.171875rem;
   color: #666;
 }
 .timeline ul li.timeline-container::after {
   background: url('../images/order-tracking.png') no-repeat;
-  width: 1rem;
-  height: 1rem;
+  width: 1.953125rem;
+  height: 1.953125rem;
   background-size: contain;
 }
 /* -----------------------------------------------
@@ -433,39 +422,39 @@
  * --------------------------------------------- */
 .content .order-detail-border {
   border-bottom: 3px solid #d7d7d7;
-  padding-bottom: 1.85rem;
+  padding-bottom: 7.2265625rem;
 }
 .content .order-detail-border .order-detail-thankyou {
-  padding-top: 1.18rem;
+  padding-top: 8.515625rem;
   width: 40%;
   display: inline-block;
   text-align: right;
 }
 .content .order-detail-border .order-detail-thankyou img {
   max-width: 100%;
-  width: 1.2rem;
-  height: 1.1rem;
+  width: 4.6875rem;
+  height: 4.296875rem;
 }
 .content .order-detail-border .order-detail-successfully-thankyou-posted {
   width: 60%;
   float: right;
 }
 .content .order-detail-border .order-detail-successfully-thankyou-posted h3 {
-  font-size: 0.7rem;
+  font-size: 2.34375rem;
   color: #c41411;
-  padding-top: 1.75rem;
-  padding-left: 0.38rem;
+  padding-top: 6.8359375rem;
+  padding-left: 1.484375rem;
 }
 .content .text-center a {
-  margin-top: 2.18rem;
+  margin-top: 8.515625rem;
   display: inline-block;
-  padding: 0.2rem 0.65rem;
-  border-radius: 0.05rem;
+  padding: 0.78125rem 2.5390625rem;
+  border-radius: 0.1953125rem;
   color: #c41411;
-  font-size: 0.7rem;
+  font-size: 1.953125rem;
   text-align: center;
   border: 1px solid #c41411;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1.953125rem;
 }
 /* -----------------------------------------------
  * Successfullu Ended
@@ -475,9 +464,9 @@
   height: 70rem;
 }
 .order-detail_comment_delete img {
-  padding-top: 4.5rem;
+  padding-top: 17.578125rem;
   max-width: 100%;
-  padding-bottom: 4.5rem;
+  padding-bottom: 17.578125rem;
 }
 .product-detail-dots {
   position: relative;
@@ -486,21 +475,21 @@
 }
 .product-detail-dots span {
   color: #fff;
-  font-size: 0.36rem !important;
+  font-size: 1.40625rem !important;
   padding-right: .3rem!important;
 }
 .content .order-detail-list-products-container {
   margin: 0;
 }
 .content .shopping-cart-large-products {
-  border-top: 0.5rem solid #f8f8f8;
+  border-top: 1.953125rem solid #f8f8f8;
   border-bottom: 1px solid #d7d7d7;
 }
 .content .order-detail-comment-main {
-  margin-top: 0.5rem;
+  margin-top: 1.953125rem;
 }
 .content .order-detail-comment-main .shopping-cart-product-comment {
-  padding-left: 0.5rem;
+  padding-left: 1.953125rem;
   width: 30%;
 }
 .content .order-detail-comment-main .shopping-cart-product-list-order-detail-comment {
@@ -509,14 +498,14 @@
 .content .order-detail-comment-main .shopping-cart-product-list-order-detail-comment .shopping-cart-product-price {
   border: 1px solid #d7d7d7;
   margin: 0;
-  padding: 0.2rem 0.2rem 1.5503rem 0.3rem;
+  padding: 0.78125rem 0.78125rem 6.05585937rem 1.171875rem;
   color: #999;
-  font-size: 0.4rem;
+  font-size: 1.5625rem;
   font-weight: normal;
   background-color: #fff;
 }
 .content .order-detail-comment-second {
-  margin-top: 1rem;
+  margin-top: 3.90625rem;
   border-bottom: 1px solid #d7d7d7;
 }
 .content .order-detail-comment-second ul {
@@ -530,8 +519,8 @@
   width: 22%;
   margin-left: 3%;
   border: 1px solid #d7d7d7;
-  padding-bottom: 2.24rem;
-  margin-bottom: 0.3rem;
+  padding-bottom: 8.75rem;
+  margin-bottom: 1.171875rem;
   background-color: #fff;
 }
 .content .order-detail-comment-second ul li:last-child {
@@ -544,20 +533,20 @@
 }
 .content .order-detail-comment-third {
   border-bottom: 1px solid #d7d7d7;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1.953125rem;
   background-color: #fff;
   padding-left: 1.5rem;
 }
 .content .order-detail-comment-third .order-detail-comment-footer h2 {
-  margin-left: 0.7rem;
-  font-size: 0.36rem;
-  padding-top: 0.5rem;
+  margin-left: 2.734375rem;
+  font-size: 1.40625rem;
+  padding-top: 1.953125rem;
   margin-top: 0;
   width: 35%;
   float: left;
 }
 .content .order-detail-comment-third .order-detail-comment-footer img {
-  padding-top: 0.5632rem;
+  padding-top: 2.2rem;
   height: auto;
   width: 1.6015625rem;
 }
@@ -568,30 +557,30 @@
   border-top: 1px solid #d7d7d7;
 }
 .content .order-detail-content-block .order-details-list h2.customer-service-refund {
-  margin-left: 0.48rem;
+  margin-left: 1.875rem;
   font-weight: normal;
   color: #c41411;
-  font-size: 0.36rem;
+  font-size: 1.40625rem;
 }
 .content .order-detail-content-block .order-details-list .order-detail-pull .customer-service-list-right {
   float: right;
   width: 58%;
-  font-size: 0.36rem;
+  font-size: 1.40625rem;
 }
 .content .order-detail-content-block .order-details-list .order-detail-pull .order-detail-customer-service-upload {
   text-align: center;
   color: #c41411;
   border: 2px solid #c41411;
-  padding: 0.15rem 0.3rem 0.15rem 0.3rem;
+  padding: 0.5859375rem 1.171875rem 0.5859375rem 1.171875rem;
   border-radius: 5px;
   float: right;
   width: 65%;
-  margin-right: 0.15rem;
-  margin-top: 0.15rem;
-  font-size: 0.4rem;
+  margin-right: 0.5859375rem;
+  margin-top: 0.5859375rem;
+  font-size: 1.5625rem;
 }
 .content .order-detail-content-block .order-details-list-second {
-  padding: 0.25rem;
+  padding: 0.9765625rem;
 }
 /* -----------------------------------------------
  * Customer service list Ended
@@ -604,30 +593,30 @@
 }
 .header-base-color .bar .span_icon img {
   max-width: 100%;
-  width: 0.68rem;
-  height: 0.68rem;
+  width: 2.65625rem;
+  height: 2.65625rem;
 }
 .content .buttons-tab-apply {
   border-bottom: 1px solid #d7d7d7;
-  padding-top: 0.6rem;
+  padding-top: 2.34375rem;
 }
 .content .buttons-tab-apply a.button.active {
-  font-size: 0.46rem;
+  font-size: 1.796875rem;
   color: #ce0000;
   border-color: #ce0000;
   border-bottom: 2px solid;
-  margin-left: 0.45rem;
-  height: 0.6687rem;
+  margin-left: 1.7578125rem;
+  height: 2.61210938rem;
   padding: 0;
-  margin-right: 0.45rem;
+  margin-right: 1.7578125rem;
 }
 .content .buttons-tab-apply a.button {
   color: #222;
-  font-size: 0.46rem;
+  font-size: 1.796875rem;
   padding: 0;
 }
 .content .order-details-apply-for-return {
-  border-top: 0.12rem solid #f3f5f7;
+  border-top: 0.46875rem solid #f3f5f7;
 }
 .content .order-details-apply-for-return .order-details-customer-apply-list {
   background-color: #f8f8f8;
@@ -638,13 +627,13 @@
 }
 .content .order-details-apply-for-return .order-details-customer-apply-list .order-detail-apply-list-product-col h4.order-detail-product-price-x1 {
   font-weight: normal;
-  margin-right: 0.2936rem;
+  margin-right: 1.146875rem;
 }
 .content .order-details-apply-for-return .order-details-customer-apply-list .order-detail-apply-content-block .order-details-list .order-detail-pull span.order-detail-apply-zero {
-  font-size: 0.36rem;
+  font-size: 1.40625rem;
   color: #222;
-  margin-top: 0.32rem;
-  margin-bottom: 0.19rem;
+  margin-top: 1.25rem;
+  margin-bottom: 0.7421875rem;
   float: left;
 }
 .content .order-details-apply-for-return .order-details-customer-apply-list .order-detail-apply-content-block .order-details-list .order-detail-pull h2.customer-service-list-right {
@@ -661,7 +650,7 @@
  * Return Reason  Start
  * --------------------------------------------- */
 .content .order-detail-reason-return {
-  font-size: 0.46rem;
+  font-size: 1.796875rem;
   color: #222;
   background-color: #f3f5f7;
   border-bottom: 2px solid #d7d7d7;
@@ -680,75 +669,73 @@
   font-size: 1.17rem;
   z-index: 99;
   position: relative;
-  top: -0.16rem;
+  top: -0.625rem;
 }
 .content .order-detail-reason-comment-second {
   border-bottom: 0;
-  margin-top: 0.5rem;
+  margin-top: 1.953125rem;
   height: 21.95rem;
 }
 .content .order-detail-reason-comment-second ul {
   margin: 0;
-  padding-left: 0.69rem;
+  padding-left: 2.6953125rem;
 }
 .content .order-detail-reason-comment-second ul li {
   vertical-align: middle;
   text-align: center;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-top: 3.90625rem;
+  padding-bottom: 3.90625rem;
 }
 .content .order-detail-reason-comment-second .order-detail-reason-comment-upload-certificate {
   color: #999999;
   float: left;
   margin-left: 9%;
   font-weight: normal;
-  font-size: 0.36rem;
+  font-size: 1.40625rem;
 }
 .popup {
   top: auto;
   height: auto;
   bottom: 0;
-  padding-bottom: 0.4rem;
+  padding-bottom: 1.5625rem;
 }
 .popup .content-block {
-  padding-top: 0.2rem;
-  padding-left: 0.46rem;
-  padding-right: 0.46rem;
-  margin: 0.8rem 0;
-  padding-bottom: 0.8rem;
+  padding-top: 0.78125rem;
+  padding-left: 1.796875rem;
+  padding-right: 1.796875rem;
 }
 .popup .content-block p {
-  font-size: 0.7rem;
+  font-size: 1.796875rem;
   color: #222;
-  padding-bottom: 0.1rem;
-  margin-top: 0.05rem;
+  padding-bottom: 0.390625rem;
+  margin-top: 0.1953125rem;
 }
 .popup .content-block #popupSelect {
   z-index: 1000;
   position: absolute;
-  top: 1.3rem;
-  left: 0.5rem;
+  top: 130px;
+  left: 50px;
 }
 .popup .content-block ul {
   padding: 0;
   list-style: none;
 }
 .popup .content-block ul li {
-  font-size: 0.7rem;
+  font-size: 1.5625rem;
   color: #666666;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+  padding-top: 1.953125rem;
+  padding-bottom: 1.953125rem;
   border-bottom: 1px solid #d7d7d7;
 }
 .popup .content-block ul li:last-child {
   border-bottom: 0px;
 }
 .popup .content-block h2 {
-  font-size: 0.4rem;
+  font-size: 1.5625rem;
   color: #666666;
   font-weight: normal;
   border-bottom: 1px solid #d7d7d7;
-  padding-bottom: 0.1rem;
+  padding-bottom: 0.390625rem;
 }
 .popup .content-block h2.mar_gaya {
   border-bottom: 0;
@@ -759,8 +746,8 @@
   display: inline-block;
   color: #c41411;
   border-top: 1px solid #d7d7d7;
-  font-size: 0.7rem;
-  padding-top: 0.6rem;
+  font-size: 1.5625rem;
+  padding-top: 2.34375rem;
 }
 .modal-overlay,
 .popup-overlay,
@@ -777,23 +764,23 @@
   padding: 0;
   background-color: #fff;
   margin: 0;
-  padding-bottom: 1rem;
+  padding-bottom: 3.90625rem;
   border-bottom: 2px solid #d7d7d7;
 }
 .content .order-deatil-return-content-block h2.order-detail-return-process {
-  padding-left: 0.45rem;
+  padding-left: 1.7578125rem;
   color: #222;
-  font-size: 0.46rem;
+  font-size: 1.796875rem;
   font-weight: normal;
   border-bottom: 2px solid #d7d7d7;
-  padding-bottom: 0.25rem;
-  padding-top: 0.25rem;
+  padding-bottom: 0.9765625rem;
+  padding-top: 0.9765625rem;
   margin-top: 0;
 }
 .content .order-deatil-return-content-block ul.order-detail-return-information-step {
   list-style: none;
   float: left;
-  padding-left: 0.0288rem;
+  padding-left: 0.1125rem;
   width: 100%;
   position: relative;
   text-align: center;
@@ -802,8 +789,8 @@
   float: left;
 }
 .content .order-deatil-return-content-block ul.order-detail-return-information-step li.order-detail-retun-information-step1 .label-checkbox .item-media i.icon-form-checkbox {
-  width: 0.7rem;
-  height: 0.7rem;
+  width: 2.734375rem;
+  height: 2.734375rem;
   background-color: #c41411;
   border-radius: 50px;
 }
@@ -817,12 +804,12 @@
 }
 .content .order-deatil-return-content-block ul.order-detail-return-information-step li a {
   display: block;
-  padding: 0.23rem 0.04rem;
+  padding: 0.8984375rem 0.15625rem;
 }
 .content .order-deatil-return-content-block ul.order-detail-return-information-step li a span {
   display: block;
-  width: 0.15rem;
-  height: 0.15rem;
+  width: 0.5859375rem;
+  height: 0.5859375rem;
   background-color: #ce0000;
   border-radius: 100%;
   opacity: 0.6;
@@ -848,18 +835,18 @@
 .content .order-deatil-return-content-block .order-detail-return-info-main {
   width: 90%;
   float: left;
-  padding-left: 0.04rem;
-  padding-right: 0.12rem;
+  padding-left: 0.15625rem;
+  padding-right: 0.46875rem;
   border-bottom: 2px dashed #d7d7d7;
   margin-left: 5%;
-  padding-bottom: 0.4rem;
+  padding-bottom: 1.5625rem;
   position: relative;
 }
 .content .order-deatil-return-content-block .order-detail-return-info-main ul {
   list-style: none;
   width: 100%;
   float: left;
-  padding-left: 0.25rem;
+  padding-left: 0.9765625rem;
   text-align: center;
 }
 .content .order-deatil-return-content-block .order-detail-return-info-main ul li {
@@ -869,11 +856,11 @@
 }
 .content .order-deatil-return-content-block .order-detail-return-info-main ul li a.selected {
   color: #c41411;
-  font-size: 0.36rem;
+  font-size: 1.40625rem;
 }
 .content .order-deatil-return-content-block .order-detail-return-info-main ul li a {
   color: #cccccc;
-  font-size: 0.36rem;
+  font-size: 1.40625rem;
 }
 .content .order-deatil-return-content-block .order-detail-return-info-main ul li:first-child {
   text-align: left;
@@ -885,8 +872,8 @@
 }
 .content .order-deatil-return-content-block h3 {
   float: left;
-  padding-left: 0.6rem;
-  font-size: 0.44rem;
+  padding-left: 2.34375rem;
+  font-size: 1.71875rem;
   font-weight: normal;
   color: #222;
 }
@@ -904,14 +891,14 @@
   text-align: center;
   display: inline-block;
   width: 60%;
-  padding: 0.36rem 0.85rem;
+  padding: 1.40625rem 3.3203125rem;
   border: 1px solid #d7d7d7;
   border-radius: 5px;
   margin-left: 18%;
   background-color: #c41411;
   margin-top: 2%;
   color: #fff;
-  font-size: 0.5rem;
+  font-size: 1.953125rem;
 }
 .content .order-detail-application-return {
   border-top: 1.953125rem solid #f3f5f7;
@@ -920,32 +907,32 @@
 .content .order-detail-application-return .content-block .sale-type-new {
   width: 30%;
   float: left;
-  padding-top: 0.2719rem;
+  padding-top: 1.06210938rem;
 }
 .content .order-detail-application-return .content-block .sale-type-new p.sale-type {
-  font-size: 0.44rem;
+  font-size: 1.71875rem;
   color: #999;
-  padding-left: 0.7rem;
+  padding-left: 2.734375rem;
   margin: 0;
-  padding-bottom: 0.5rem;
+  padding-bottom: 1.953125rem;
 }
 .content .order-detail-application-return .content-block .sale-type-new2 {
   float: left;
   width: 70%;
-  padding-top: 0.2791rem;
+  padding-top: 1.09023438rem;
 }
 .content .order-detail-application-return .content-block .sale-type-new2 p.return-sale-type {
   color: #222;
-  font-size: 0.44rem;
+  font-size: 1.71875rem;
   margin: 0;
-  padding-bottom: 0.5rem;
+  padding-bottom: 1.953125rem;
 }
 .content .order-detail-application-return .content-block hr {
   width: 86%;
   border-color: #d7d7d7;
 }
 .content .order-detail-return-content-block-approval {
-  padding-bottom: 0.3045rem;
+  padding-bottom: 1.18945313rem;
 }
 label.label-checkbox input[type=checkbox]:checked + .item-media i.icon-form-checkbox:after,
 label.label-checkbox input[type=radio]:checked + .item-media i.icon-form-checkbox:after {
@@ -968,7 +955,7 @@ label.label-checkbox i.icon-form-checkbox:after {
  * Apply For Refund  Start
  * --------------------------------------------- */
 .content #tab3 .order-details-apply-for-return .order-details-apply-refunded .order-detail-new-apply-refund {
-  margin-left: 0.5rem;
+  margin-left: 1.953125rem;
   margin-right: 0;
   margin-top: 0;
   margin-bottom: 0;
@@ -979,25 +966,25 @@ label.label-checkbox i.icon-form-checkbox:after {
 }
 .content #tab3 .order-details-apply-for-return .order-details-apply-refunded .order-detail-apply-refund {
   background-color: #fff;
-  padding-left: 0.6rem;
-  padding-top: 0.5rem;
-  font-size: 0.46rem;
-  padding-bottom: 0.5rem;
+  padding-left: 2.34375rem;
+  padding-top: 1.953125rem;
+  font-size: 1.796875rem;
+  padding-bottom: 1.953125rem;
 }
 .content #tab3 .order-details-apply-for-return .order-details-apply-refunded .order-detail-apply-refund label {
   color: #c41411;
-  font-size: 0.46rem;
+  font-size: 1.796875rem;
 }
 .content #tab3 .order-details-apply-for-return .order-details-apply-refunded .order-detail-apply-refund span {
-  font-size: 0.46rem;
+  font-size: 1.796875rem;
   color: #c41411;
 }
 .content #tab3 .order-details-apply-for-return .order-details-apply-refunded .order-detail-apply-refunding label {
   color: #c41411;
-  font-size: 0.46rem;
+  font-size: 1.796875rem;
 }
 .content #tab3 .order-details-apply-for-return .order-details-apply-refunded .order-detail-apply-refunding span {
-  font-size: 0.46rem;
+  font-size: 1.796875rem;
   color: #222;
 }
 /* -----------------------------------------------
@@ -1030,7 +1017,7 @@ label.label-checkbox i.icon-form-checkbox:after {
 }
 .popup-create p {
   text-align: center;
-  font-size: 0.42rem;
+  font-size: 1.640625rem;
   color: #333333;
 }
 .popup-create .content-block {
@@ -1038,18 +1025,18 @@ label.label-checkbox i.icon-form-checkbox:after {
   float: left;
   margin: 0;
   background-color: #fff;
-  padding: 0.5rem;
+  padding: 1.953125rem;
   margin-left: 5%;
 }
 .popup-create .content-block span {
-  font-size: 0.3rem;
+  font-size: 1.171875rem;
   color: #666666;
-  line-height: 0.5rem;
+  line-height: 1.953125rem;
   margin-bottom: 10px;
   float: left;
 }
 .popup-create a.close-popup {
-  font-size: 0.3rem;
+  font-size: 1.171875rem;
   color: #666666;
   border: 2px solid #dedede;
   border-radius: 5px;
@@ -1058,18 +1045,18 @@ label.label-checkbox i.icon-form-checkbox:after {
   width: 50%;
   float: left;
   left: 25%;
-  padding: 0.35rem 0.35rem;
+  padding: 1.3671875rem 1.3671875rem;
 }
 /* -----------------------------------------------
  * Apply For Return Notice Ended
  * --------------------------------------------- */
 .order-detail-apply-refunding label {
   color: #c41411;
-  font-size: 0.46rem;
+  font-size: 1.796875rem;
 }
 @media only screen and (orientation: landscape) {
   .timeline ul li div {
-    width: 21rem;
+    width: 54rem;
   }
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
@@ -1078,7 +1065,7 @@ label.label-checkbox i.icon-form-checkbox:after {
   }
 }
 .order-details-scroll {
-  height: 0.32rem;
+  height: 32rem;
 }
 .custom-row {
   width: 100%;
@@ -1087,22 +1074,22 @@ label.label-checkbox i.icon-form-checkbox:after {
   background-color: #fff;
 }
 .custom-row .order-detail-content-block .order-details-list-second h2.customer-service-refund {
-  margin-left: 0.48rem;
+  margin-left: 1.875rem;
   font-weight: normal;
   color: #c41411;
-  font-size: 0.36rem;
+  font-size: 1.40625rem;
 }
 .custom-row .order-detail-content-block .order-details-list-second .order-detail-pull a.order-detail-customer-service-upload {
   text-align: center;
   color: #c41411;
   border: 2px solid #c41411;
-  padding: 0.15rem 0.3rem 0.15rem 0.3rem;
+  padding: 0.5859375rem 1.171875rem 0.5859375rem 1.171875rem;
   border-radius: 5px;
   float: right;
   width: 65%;
-  margin-right: 0.15rem;
-  margin-top: 0.15rem;
-  font-size: 0.4rem;
+  margin-right: 0.5859375rem;
+  margin-top: 0.5859375rem;
+  font-size: 1.5625rem;
 }
 @media only screen and (min-device-width: 250px) and (max-device-width: 450px) {
   .custom-row .order-detail-content-block .order-details-list-second .order-detail-pull a.order-detail-customer-service-upload {

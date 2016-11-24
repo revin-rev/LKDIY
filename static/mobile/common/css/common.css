@@ -6,7 +6,7 @@
   background: #c41411;
   padding: 0 ;
   height: auto;
-  min-height: 2rem;
+  min-height: 5.1171875rem;
   z-index: 100;
 }
 .header-base-color .bar .searchbar {
@@ -27,8 +27,8 @@
   border-radius: 2px;
   background-clip: padding-box;
   height: auto;
-  font-size: 0.38rem;
-  padding: 1rem 0.43rem;
+  font-size: 1.484375rem;
+  padding: 1rem 1.6796875rem;
   background: #b0120f;
   color: rgba(255, 255, 255, 0.8);
   position: relative;
@@ -59,7 +59,7 @@
 .header-base-color .bar .searchbar .message-notification a {
   display: inline-block;
   position: relative;
-  top: 0.064rem;
+  top: 0.85rem;
   padding-left: 0.3rem;
 }
 .header-base-color .bar .searchbar .message-notification a img {
@@ -83,28 +83,28 @@
 .header-base-color .bar .searchbar .message-notification a .badge {
   background: #e51937;
   color: #fff;
-  height: 0.96rem;
-  width: 0.96rem;
-  font-size: 0.5rem;
-  border: 0.03rem solid #fff;
-  line-height: 0.4096rem;
+  height: 1.796875rem;
+  width: 1.796875rem;
+  font-size: 1.171875rem;
+  border: 0.1171875rem solid #fff;
+  line-height: 1.6rem;
   position: absolute;
-  /*top: (15 * @oldBase) / @baseRem;
-            right: (15 * @oldBase) / @baseRem;*/
-  top: -72%;
-  right: -55%;
-  padding: 0.2rem 0.35rem 0.15rem;
+  top: -1rem;
+  right: -1rem;
+}
+.header-base-color .bar .searchbar.with-arrow {
+  padding-left: 5.2734375rem;
 }
 .header-base-color .bar .searchbar.with-arrow input {
   background: #fff;
   color: #666666;
-  font-size: 0.42rem;
-  padding: 0.45rem 0.45rem;
-  -webkit-border-radius: 0.09rem;
+  font-size: 1.640625rem;
+  padding: 0.8984375rem 1.640625rem;
+  -webkit-border-radius: 0.3515625rem;
   -webkit-background-clip: padding-box;
-  -moz-border-radius: 0.09rem;
+  -moz-border-radius: 0.3515625rem;
   -moz-background-clip: padding;
-  border-radius: 0.09rem;
+  border-radius: 0.3515625rem;
   background-clip: padding-box;
 }
 .header-base-color .bar .searchbar.with-arrow input::-webkit-input-placeholder {
@@ -120,34 +120,33 @@
   color: #666666;
 }
 .header-base-color .bar .searchbar.with-arrow .message-notification a {
-  top: 0.25rem;
+  top: 0.65rem;
 }
 .header-base-color .back-to-prev-btn {
   position: absolute;
   color: #fff;
   display: inline-block;
-  left: 0.31rem;
-  font-size: 0.42rem;
+  left: 1.2109375rem;
+  font-size: 1.640625rem;
 }
 .header-base-color .back-to-prev-btn .icon {
-  font-size: 0.7rem;
-  line-height: 2.06rem;
-  padding: 0;
+  font-size: 2.734375rem;
+  line-height: 4.140625rem;
 }
 .header-base-color .bar-title {
   color: #fff;
-  font-size: 0.7rem;
+  font-size: 1.796875rem;
   font-weight: 400;
-  margin: 1.3rem 0;
-  padding-left: 0.868rem;
+  margin: 1.2890625rem 0;
+  padding-left: 3.390625rem;
 }
 .header-base-color .sort-links ul {
   margin: 0;
-  padding: 0 0.5rem;
+  padding: 0 1.953125rem;
   list-style: none;
   background: #fff;
   margin-bottom: -1px;
-  border-bottom: 0.1rem solid #eeeeee;
+  border-bottom: 0.390625rem solid #eeeeee;
 }
 .header-base-color .sort-links ul li {
   float: left;
@@ -156,13 +155,12 @@
 }
 .header-base-color .sort-links ul li a {
   color: #666666;
-  font-size: 0.46rem;
+  font-size: 1.796875rem;
   display: block;
-  padding: 0.28rem 0;
-  text-align: center;
+  padding: 1.09375rem 0;
 }
 .header-base-color .sort-links ul li a img {
-  max-height: 0.29rem;
+  max-height: 1.1328125rem;
 }
 .header-base-color .sort-links ul li:first-child {
   text-align: left;
@@ -175,44 +173,43 @@
 }
 .header-base-color .right-side-link {
   float: right;
-  right: 0.5rem;
+  right: 1.953125rem;
   position: absolute;
   color: #fff;
-  font-size: 0.7rem;
-  line-height: 0.7rem;
+  font-size: 1.40625rem;
+  line-height: 2.734375rem;
 }
 .header-base-color .right-side-link img {
   vertical-align: middle;
-  height: 0.52rem;
+  height: 2.03125rem;
 }
 .header-base-color ~ .content {
-  padding-top: 1.33rem;
+  padding-top: 5.1953125rem;
 }
 .header-base-color.has-sort-menu ~ .content {
-  padding-top: 3.7rem;
+  padding-top: 10.546875rem;
 }
 /*index header END*/
 /*Main bar Start*/
 .main-bar {
-  height: 1.9rem;
+  height: auto;
   background: #fff;
   border-top: 2px solid #dedede;
 }
 .main-bar .tab-item .icon ~ .tab-label {
-  font-size: 0.7rem;
-  padding-bottom: 0.005rem;
-  padding-top: 0.005rem;
+  font-size: 1.40625rem;
+  padding-bottom: 0.5rem;
 }
 .main-bar .tab-item {
-  height: 1.3568rem;
+  height: 5.3rem;
 }
 .main-bar .tab-item .icon {
-  top: 0.01792rem;
-  height: 0.8192rem;
-  line-height: 1.0752rem;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-  font-size: 0.7rem;
+  top: .05rem;
+  height: 3.2rem;
+  line-height: 4.2rem;
+  padding-top: 0;
+  padding-bottom: 0;
+  font-size: 2.6rem;
 }
 .main-bar .tab-item.active,
 .main-bar .tab-item:active {
@@ -224,27 +221,27 @@
   background: #666666;
   color: #cccccc;
   margin: 0;
-  padding: 0.5rem 0.6rem 0.6rem;
-  margin-top: 0.4rem;
-  font-size: 0.31rem;
+  padding: 1.953125rem 2.34375rem 2.34375rem;
+  margin-top: 1.5625rem;
+  font-size: 1.2109375rem;
   font-weight: normal;
-  height: 3.84rem;
+  height: 15rem;
 }
 .footer ul {
-  margin: 0 -0.4rem 0.6rem;
+  margin: 0 -1.5625rem 2.34375rem;
   padding: 0;
   list-style: none;
 }
 .footer ul li {
   float: left;
   width: 25%;
-  padding: 0 0.2rem;
+  padding: 0 0.78125rem;
 }
 .footer ul li a {
-  font-size: 0.36rem;
+  font-size: 1.40625rem;
   display: block;
   width: 100%;
-  padding: 0.3rem;
+  padding: 1.171875rem;
   text-align: center;
   color: #cccccc;
   -webkit-border-radius: 8px;
@@ -261,7 +258,7 @@ a.back-to-top {
   position: fixed;
   top: 48%;
   right: 1.96rem;
-  width: 1.04rem;
+  width: 4.0625rem;
   display: block;
   -lh-property: 0;
 top:-webkit-calc(50% - 2.03rem);
@@ -281,7 +278,7 @@ a.back-to-top img {
   right: -88% !important;
 }
 .sidebar .content-block {
-  padding: 0.5rem 0.36rem;
+  padding: 1.953125rem 1.40625rem;
   margin: 0;
   height: 100%;
   overflow: auto;
@@ -289,7 +286,7 @@ a.back-to-top img {
 .sidebar .content-block .side-bar-title {
   margin-top: 0;
   color: #333333;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1.953125rem;
   font-weight: 400;
 }
 .sidebar .content-footer {
@@ -303,19 +300,19 @@ a.back-to-top img {
 .sidebar .content-footer .btns .btn {
   width: 50%;
   display: inline-block;
-  font-size: 0.46rem;
+  font-size: 1.796875rem;
   background: #fff;
   color: #333333;
   text-align: center;
   border-top: 1px solid #dedede;
-  padding: 0.45rem 0.15rem;
+  padding: 1.7578125rem 0.5859375rem;
 }
 .sidebar .content-footer .btns .btn.active {
   background: #c41411;
   color: #fff;
 }
 .sidebar .content-footer + .content-block {
-  padding-bottom: 1.24rem;
+  padding-bottom: 4.84375rem;
 }
 body.with-panel-right-cover .sidebar {
   -webkit-transform: translate3d(-100%, 0, 0);

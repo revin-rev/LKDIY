@@ -1,11 +1,11 @@
 /******************************************************
    *Variables START
 ******************************************************/
-.header-base-color ~ .content {
-  padding-top: 3.04rem;
+.content {
+  padding-top: 5.1171875rem !important;
 }
 .gateway-bottom-fixed-btn {
-  font-size: 0.5rem;
+  font-size: 1.953125rem;
   position: fixed;
   bottom: 0;
   left: 0;
@@ -15,12 +15,12 @@
   background: #fff;
 }
 .gateway-bottom-fixed-btn .gateway-text {
-  font-size: 0.4rem;
-  padding: 0.5rem;
+  font-size: 1.5625rem;
+  padding: 1.953125rem;
   color: #222222;
 }
 .gateway-bottom-fixed-btn .gateway-text .gateway-total {
-  font-size: 0.5rem;
+  font-size: 1.953125rem;
   color: #c41411;
 }
 .gateway-bottom-fixed-btn .gateway-text .gateway-extra {
@@ -31,13 +31,13 @@
   color: #222222;
 }
 .gateway-bottom-fixed-btn ~ .content {
-  padding-bottom: 2.35rem;
+  padding-bottom: 9.1796875rem;
 }
 .gateway-success-row {
   border-top: 2px solid #d7d7d7;
   border-bottom: 2px solid #d7d7d7;
-  padding: 0.5rem;
-  font-size: 0.8rem;
+  padding: 1.953125rem;
+  font-size: 1.796875rem;
   color: #666666;
   background: #fff;
 }
@@ -45,23 +45,23 @@
   border-top: 0;
 }
 .gateway-success-row .gateway-success-text {
-  font-size: 0.8rem;
-  margin-top: 0.25rem;
+  font-size: 1.40625rem;
+  margin-top: 0.9765625rem;
 }
 .gateway-success-row .gateway-success-text span {
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.1953125rem;
 }
 .gateway-notify-block {
   background: #fff;
   text-align: center;
-  padding-top: 1.1rem;
-  padding-bottom: 1.35rem;
+  padding-top: 4.296875rem;
+  padding-bottom: 5.2734375rem;
 }
 .gateway-notify-block .gateway-notify-block-text {
   display: inline-block;
   position: relative;
   color: #333333;
-  font-size: 0.8rem;
+  font-size: 2.34375rem;
 }
 .gateway-notify-block .gateway-notify-block-text img {
   position: absolute;
@@ -71,34 +71,27 @@ right:-webkit-calc(100% + 2.34375rem);
 right:-moz-calc(100% + 2.34375rem);
 right:calc(100% + 2.34375rem);
 ;
-  width: 1rem;
-}
-.gateway-notify-block .gateway-notify-block-text h4 {
-  display: inline-block;
-  position: relative;
-  color: #333333;
-  font-size: 0.8rem;
+  width: 3.90625rem;
 }
 .gateway-notify-block .gateway-notify-block-text span {
   display: block;
-  font-size: 0.8rem;
-  padding-top: 0.3rem;
+  font-size: 1.875rem;
 }
 .gateway-action-btns {
-  padding: 4.2rem 0.5rem 0.5rem;
+  padding: 16.40625rem 1.953125rem 1.953125rem;
 }
 .gateway-action-btns a {
   display: inline-block;
-  font-size: 0.8rem;
-  padding: 0.37rem 0.1rem;
+  font-size: 1.953125rem;
+  padding: 1.4453125rem 0.390625rem;
   background: #fff;
   width: 45%;
   text-align: center;
-  -webkit-border-radius: 0.08rem;
+  -webkit-border-radius: 0.3125rem;
   -webkit-background-clip: padding-box;
-  -moz-border-radius: 0.08rem;
+  -moz-border-radius: 0.3125rem;
   -moz-background-clip: padding;
-  border-radius: 0.08rem;
+  border-radius: 0.3125rem;
   background-clip: padding-box;
   border: 1px solid #999999;
   color: #333333;
@@ -112,98 +105,6 @@ right:calc(100% + 2.34375rem);
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   .gateway-action-btns {
-    padding: 1.5rem 0.5rem 0.5rem;
-  }
-  .header-base-color ~ .content {
-    padding-top: 2.04rem;
-  }
-  .gateway-action-btns {
-    position: absolute;
-    top: auto;
-    bottom: 2.5rem;
-    width: 100%;
-    height: 8.45rem;
-    padding: 0 .15rem;
-    overflow: hidden;
-    clear: both;
-  }
-  .gateway-action-btns a {
-    padding: 1.37rem 1.1rem;
-    font-size: 0.8rem;
-    text-align: center;
-    width: 42%;
-    border-radius: 0.3rem;
-    margin-left: 5% !important;
-  }
-  .gateway-action-btns a.active {
-    width: 42%;
-  }
-}
-@media only screen and (min-device-width: 320px) and (max-device-width: 767px) {
-  .gateway-notify-block .gateway-notify-block-text {
-    font-size: 3rem;
-    padding-top: 2rem;
-  }
-  .gateway-notify-block .gateway-notify-block-text img {
-    width: 4rem;
-    padding-top: 1rem;
-  }
-  .header-base-color .back-to-prev-btn .icon {
-    font-size: 1.7rem;
-    line-height: 4.06rem;
-  }
-  .header-base-color .bar {
-    min-height: 4rem;
-  }
-  .gateway-notify-block .gateway-notify-block-text span {
-    font-size: 1.7rem;
-    padding-top: 1rem;
-  }
-  .gateway-success-row {
-    padding: 1.5rem;
-    font-size: 1.8rem;
-  }
-  .gateway-success-row .gateway-success-text {
-    font-size: 1.8rem;
-    margin-top: 1.25rem;
-  }
-  .gateway-success-row .gateway-success-text span {
-    margin-bottom: 0.9rem;
-  }
-  .gateway-action-btns {
-    position: absolute;
-    top: auto;
-    bottom: 2.5rem;
-    width: 100%;
-    height: 8.45rem;
-    padding: 0 .15rem;
-    overflow: hidden;
-    clear: both;
-  }
-  .gateway-action-btns a {
-    padding: 1.37rem 1.1rem;
-    font-size: 1.8rem;
-    text-align: center;
-    width: 42%;
-    border-radius: 0.9rem;
-    margin-left: 5% !important;
-  }
-  .gateway-action-btns a.active {
-    width: 42%;
-  }
-}
-@media only screen and (max-device-width: 767px) {
-  .gateway-notify-block .gateway-notify-block-text img {
-    padding-top: 14%;
-    display: inline-block;
-    padding-left: 7%;
-    width: 3rem;
-  }
-  .gateway-success-row {
-    padding: 1.5rem 0 0rem 1.0rem;
-  }
-  .gateway-success-row .gateway-success-text {
-    margin-bottom: 1.25rem;
-    font-size: 1.6rem;
+    padding: 5.859375rem 1.953125rem 1.953125rem;
   }
 }

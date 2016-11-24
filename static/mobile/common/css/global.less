@@ -2,36 +2,13 @@
 @import "lesshat";
 @import "reset.css";
 @import "rem.css";
-
-
 body{
   background: @bodyBackgroundColor;
   font-family: ~'Arial, "Microsoft Yahei", STXihei, sans-serif;';
 }
 
 
-html {
-  font-size: 8px;
-}
 
-
-/*@media only screen and (min-width: 400px){
-  html {
-    font-size: 9px!important;
-  }
-}
-
-@media only screen and (min-width: 768px){
-  html {
-    font-size: 20px!important;
-  }
-}
-
-@media only screen and (min-width: 992px){
-  html {
-    font-size: 25.6px!important;
-  }
-}*/
 /*Helper classes START*/
 
 .img-responsive{
@@ -46,7 +23,6 @@ html {
 .center-block{
   display: block;
   margin: 0 auto;
-  padding-top:40/@baseRem;
 }
 .white-bg{
   background: @white;
@@ -98,7 +74,7 @@ html {
   border: 1px solid @fontLightColor;
   border-top: 0;
   box-shadow: none;
-  font-size: 70/@baseRem;
+  font-size: 40/@baseRem;
   color: @baseTextColor;
   padding: 65/@baseRem 20/@baseRem;
   display: inline-block;

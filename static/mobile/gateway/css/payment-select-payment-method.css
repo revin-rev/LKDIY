@@ -2,10 +2,10 @@
    *Variables START
 ******************************************************/
 .content {
-  padding-top: 1.8rem !important;
+  padding-top: 5.2734375rem !important;
 }
 .gateway-bottom-fixed-btn {
-  font-size: 0.5rem;
+  font-size: 1.953125rem;
   position: fixed;
   bottom: 0;
   left: 0;
@@ -15,12 +15,12 @@
   background: #fff;
 }
 .gateway-bottom-fixed-btn .gateway-text {
-  font-size: 0.4rem;
-  padding: 0.5rem;
+  font-size: 1.5625rem;
+  padding: 1.953125rem;
   color: #222222;
 }
 .gateway-bottom-fixed-btn .gateway-text .gateway-total {
-  font-size: 0.5rem;
+  font-size: 1.953125rem;
   color: #c41411;
 }
 .gateway-bottom-fixed-btn .gateway-text .gateway-extra {
@@ -31,13 +31,13 @@
   color: #222222;
 }
 .gateway-bottom-fixed-btn ~ .content {
-  padding-bottom: 2.35rem;
+  padding-bottom: 9.1796875rem;
 }
 .gateway-address-checkbox-row {
   border-top: 2px solid #d7d7d7;
   border-bottom: 2px solid #d7d7d7;
-  padding: 0.5rem;
-  font-size: 0.4rem;
+  padding: 1.953125rem;
+  font-size: 1.5625rem;
   color: #666666;
   background: #fff;
 }
@@ -45,20 +45,20 @@
   border-top: 0;
 }
 .gateway-address-checkbox-row .gateway-single-text {
-  font-size: 0.46rem;
+  font-size: 1.796875rem;
   color: #333333;
-  line-height: 0.88rem;
+  line-height: 3.4375rem;
   vertical-align: middle;
 }
 .gateway-address-checkbox-row .gateway-single-text * {
   vertical-align: middle;
 }
 .gateway-address-checkbox-row .gateway-single-text img {
-  width: 0.7rem;
-  height: 0.7rem;
+  width: 2.734375rem;
+  height: 2.734375rem;
 }
 .gateway-address-checkbox-row .gateway-single-text label {
-  margin-left: 0.5rem;
+  margin-left: 1.953125rem;
 }
 .gateway-address-checkbox-row .gateway-single-text .icon {
   float: right;

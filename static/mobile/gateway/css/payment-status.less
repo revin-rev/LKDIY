@@ -1,10 +1,8 @@
 @import "../../common/css/variable";
 @import "../../common/css/lesshat";
 
-.header-base-color {
-~ .content{
-  padding-top: 304/@baseRem;
-}
+.content{
+  padding-top: 131/@baseRem !important;
 }
 
 .gateway-bottom-fixed-btn{
@@ -46,7 +44,7 @@
   border-top:2px solid @tradeBorderColor;
   border-bottom:2px solid @tradeBorderColor;
   padding: 50/@baseRem;
-  font-size: 80/@baseRem;
+  font-size: 46/@baseRem;
   color: @baseTextColor;
   background: @white;
 
@@ -56,11 +54,11 @@
 
 
   .gateway-success-text{
-    font-size: 80/@baseRem;
+    font-size: 36/@baseRem;
     margin-top: 25/@baseRem;
 
     span{
-      margin-bottom: 50/@baseRem;
+      margin-bottom: 5/@baseRem;
     }
   }
 }
@@ -75,7 +73,7 @@
     display: inline-block;
     position: relative;
     color: @fontDarkColor;
-    font-size: 80/@baseRem;
+    font-size: 60/@baseRem;
 
     img{
       position: absolute;
@@ -85,17 +83,9 @@
       width: 100/@baseRem;
     }
 
-    h4{
-     display: inline-block;
-    position: relative;
-    color: @fontDarkColor;
-    font-size: 80/@baseRem;
-    }
-
     span{
       display: block;
-      font-size: 80/@baseRem;
-      padding-top:30/@baseRem;
+      font-size: 48/@baseRem;
     }
   }
 }
@@ -105,7 +95,7 @@
 
   a{
     display: inline-block;
-    font-size: 80/@baseRem;
+    font-size: 50/@baseRem;
     padding: 37/@baseRem 10/@baseRem;
     background: @white;
     width: 45%;
@@ -132,103 +122,4 @@
   padding: 150/@baseRem 50/@baseRem 50/@baseRem;
 
 }
-.header-base-color ~ .content{
-  padding-top: 2.04rem;
 }
-.gateway-action-btns{
-    position: absolute;
-    top: auto;
-    bottom: 2.5rem;
-    width: 100%;
-    height: 8.45rem;
-    padding: 0 .15rem;
-    overflow: hidden;
-    clear: both;
-}
-.gateway-action-btns a{
-      padding: 1.37rem 1.1rem;
-      font-size: 0.8rem;
-        
-    text-align: center;
-       width: 42%;
-    border-radius: 30/@baseRem;
-        margin-left: 5% !important;
-}
-.gateway-action-btns a.active{
-  width: 42%;
-}
-
-}
-@media only screen and (min-device-width: 320px) and (max-device-width : 767px){
-  .gateway-notify-block .gateway-notify-block-text{
-    font-size:300/@baseRem;
-    padding-top: 200/@baseRem;
-  }
-  .gateway-notify-block .gateway-notify-block-text img{
-    width: 4rem;
-    padding-top: 100/@baseRem;
-  }
-  .header-base-color .back-to-prev-btn .icon{
-    font-size: 170/@baseRem;
-    line-height: 406/@baseRem;
-  }
-  .header-base-color .bar{
-    min-height: 400/@baseRem;
-  }
-  .gateway-notify-block .gateway-notify-block-text span{
-    font-size: 170/@baseRem;
-     padding-top: 100/@baseRem;
-  }
-  .gateway-success-row{
-    padding: 1.5rem;
-    font-size: 1.8rem;
-  }
-  .gateway-success-row .gateway-success-text{
-        font-size: 1.8rem;
-    margin-top: 1.25rem;
-  }
-  .gateway-success-row .gateway-success-text span {
-    margin-bottom: 0.9rem;
-}
-.gateway-action-btns{
-    position: absolute;
-    top: auto;
-    bottom: 2.5rem;
-    width: 100%;
-    height: 8.45rem;
-    padding: 0 .15rem;
-    overflow: hidden;
-    clear: both;
-}
-.gateway-action-btns a{
-      padding: 1.37rem 1.1rem;
-      font-size: 1.8rem;
-        
-    text-align: center;
-       width: 42%;
-    border-radius: 90/@baseRem;
-        margin-left: 5% !important;
-}
-.gateway-action-btns a.active{
-  width: 42%;
-}
-}
-@media only screen and (max-device-width : 767px){
-  
-  .gateway-notify-block .gateway-notify-block-text img{
-        padding-top: 14%;
-    display: inline-block;
-    padding-left: 7%;
-
-width: 3rem;
-  }
-  .gateway-success-row{
-    padding:1.5rem 0 0rem 1.0rem;
-  }
-  .gateway-success-row .gateway-success-text{
-        margin-bottom: 1.25rem;
-            font-size: 1.6rem;
-  }
-  
-}
-

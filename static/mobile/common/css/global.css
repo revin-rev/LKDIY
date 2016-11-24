@@ -7,26 +7,6 @@ body {
   background: #ededed;
   font-family: Arial, "Microsoft Yahei", STXihei, sans-serif;;
 }
-html {
-  font-size: 8px;
-}
-/*@media only screen and (min-width: 400px){
-  html {
-    font-size: 9px!important;
-  }
-}
-
-@media only screen and (min-width: 768px){
-  html {
-    font-size: 20px!important;
-  }
-}
-
-@media only screen and (min-width: 992px){
-  html {
-    font-size: 25.6px!important;
-  }
-}*/
 /*Helper classes START*/
 .img-responsive {
   max-width: 100%;
@@ -40,7 +20,6 @@ html {
 .center-block {
   display: block;
   margin: 0 auto;
-  padding-top: 0.4rem;
 }
 .white-bg {
   background: #fff;
@@ -91,11 +70,11 @@ html {
   border: 1px solid #999999;
   border-top: 0;
   box-shadow: none;
-  font-size: 0.7rem;
+  font-size: 1.5625rem;
   color: #666666;
-  padding: 0.65rem 0.2rem;
+  padding: 2.5390625rem 0.78125rem;
   display: inline-block;
-  line-height: 0.5rem;
+  line-height: 1.953125rem;
   height: auto;
 }
 .modal-button:after {
@@ -114,7 +93,7 @@ html {
   height: auto;
 }
 .modal-text {
-  font-size: 0.46rem;
+  font-size: 1.796875rem;
 }
 /*modal styling END*/
 /*Radio buttons style*/

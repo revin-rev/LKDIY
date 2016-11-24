@@ -1,8 +1,8 @@
 /******************************************************
    *Variables START
 ******************************************************/
-.header-base-color ~ .content {
-  padding-top: 3.33rem;
+.content {
+  padding-top: 5.2734375rem;
 }
 #top ul.first-row {
   list-style-type: none;
@@ -11,17 +11,17 @@
   padding: 0;
 }
 #top ul.first-row li {
-  padding-top: 0.49rem;
-  padding-left: 0.4rem;
-  padding-right: 0.4rem;
+  padding-top: 1.9140625rem;
+  padding-left: 1.5625rem;
+  padding-right: 1.5625rem;
 }
 #top ul.first-row li:first-child {
   color: #222222;
-  font-size: 0.7rem;
+  font-size: 1.796875rem;
 }
 #top ul.first-row li:nth-child(2) {
   color: #999999;
-  font-size: 0.7rem;
+  font-size: 1.5625rem;
 }
 #top ul.first-row li .btn {
   display: block;
@@ -29,15 +29,15 @@
   background: #b0120f;
   color: #fff;
   width: 100%;
-  padding: 1.15rem 0;
-  font-size: 0.7rem;
+  padding: 4.4921875rem 0;
+  font-size: 1.55351563rem;
 }
 #top ul.first-row li:last-child {
-  padding-bottom: 1.15rem;
+  padding-bottom: 4.4921875rem;
 }
 #top .divider {
   border: 2px solid #d7d7d7;
-  padding: 0.25rem 0;
+  padding: 0.9765625rem 0;
   background: #f3f5f7;
   border-left: 0;
   border-right: 0;
@@ -46,13 +46,13 @@
   padding: 0;
 }
 #top ul.first-row.second-row li {
-  font-size: 0.7rem;
-  padding-left: 0.4rem;
+  font-size: 1.40625rem;
+  padding-left: 1.5625rem;
   color: #999999;
 }
 #top ul.first-row.second-row li:first-child {
   border-bottom: 2px solid #d7d7d7;
-  padding-bottom: 0.47rem;
-  font-size: 0.7rem;
+  padding-bottom: 1.8359375rem;
+  font-size: 1.796875rem;
   color: #222222;
 }
