@@ -16,6 +16,7 @@
   display: block;
   color: #fff;
   padding: 1.40625rem 1.953125rem;
+  font-size: 1.953125rem;
 }
 .trade-bottom-fixed-btn ~ .content {
   padding-bottom: 5.7421875rem;

@@ -1,6 +1,9 @@
 /******************************************************
    *Variables START
 ******************************************************/
+.header-base-color ~ .content {
+  padding-top: 5.0953125rem;
+}
 .www-wheel-container {
   background: #691b4f;
 }

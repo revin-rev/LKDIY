@@ -16,6 +16,7 @@
   display: block;
   color: #fff;
   padding: 1.40625rem 1.953125rem;
+  font-size: 1.953125rem;
 }
 .trade-bottom-fixed-btn ~ .content {
   padding-bottom: 5.7421875rem;
@@ -78,6 +79,8 @@
 .trade-address-checkbox-row .trade-radio-btn-title {
   color: #333333;
   font-size: 1.796875rem;
+  margin-bottom: 1.0rem;
+  display: inline-block;
 }
 .trade-address-checkbox-row .trade-input-hidden {
   font-size: 1.5625rem;
@@ -188,6 +191,7 @@
 }
 .trade-select-row .product-detail-color {
   color: #cccccc;
+  font-size: 1.5rem;
 }
 .trade-select-row select {
   -lh-property: 0;
@@ -274,5 +278,5 @@ width:calc(100% - 11.953125rem);
   background: rgba(17, 17, 17, 0.5);
 }
 #tab1 {
-  height: 65.39375rem;
+  height: 54.9375rem;
 }
