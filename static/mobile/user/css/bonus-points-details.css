@@ -1,6 +1,14 @@
 /******************************************************
    *Variables START
 ******************************************************/
+.header-base-color .bar-title {
+  color: #fff;
+  font-size: 1.796875rem;
+  font-weight: 400;
+  margin: 1.890625rem 0;
+  padding-left: 3.390625rem;
+  width: 95%;
+}
 #top {
   background: #fff;
 }
@@ -14,22 +22,25 @@
   font-size: 1.953125rem;
 }
 #top .top-bar span + span {
-  font-size: 1.40625rem;
+  font-size: 1.925rem;
   color: #666666;
+  padding-top: 0.9rem;
 }
 #top .divider {
   margin-top: 4.296875rem;
   border: 2px solid #d7d7d7;
-  padding: 0.390625rem 0;
+  padding: 1.3rem 0;
   background: #f3f5f7;
   margin-bottom: 1.9921875rem;
+  border-left: 0px solid;
+  border-right: 0px solid;
 }
 #top ul {
   list-style: none;
   padding: 0;
 }
 #top ul li {
-  font-size: 1.640625rem;
+  font-size: 1.825rem;
   padding-top: 1.0546875rem;
   padding-bottom: 0.8203125rem;
   border-bottom: 2px solid #d7d7d7;
@@ -46,12 +57,16 @@
 #top ul li:first-child span {
   color: #999999;
   padding-right: 2.2265625rem;
-  font-size: 1.40625rem;
+  font-size: 1.725rem;
 }
 #top ul li span.amount {
-  font-size: 1.40625rem;
+  font-size: 1.725rem;
   color: #c41411;
   padding-top: 1.40625rem;
   padding-right: 2.2265625rem;
   padding-bottom: 2rem;
+}
+#top ul li span.center-block {
+  font-size: 1.725rem;
+  padding-top: 1rem;
 }

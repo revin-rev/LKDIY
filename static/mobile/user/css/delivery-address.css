@@ -4,6 +4,14 @@
 .content {
   padding-top: 5.2734375rem;
 }
+.header-base-color .bar-title {
+  color: #fff;
+  font-size: 1.796875rem;
+  font-weight: 400;
+  margin: 1.890625rem 0;
+  padding-left: 3.390625rem;
+  width: 95%;
+}
 .user-bottom-fixed-btn {
   background: #c41411;
   color: #fff;
@@ -19,12 +27,15 @@
   display: block;
   color: #fff;
   padding: 1.40625rem 1.953125rem;
+  font-size: 1.9rem;
 }
 .user-bottom-fixed-btn ~ .content {
   padding-bottom: 5.7421875rem;
 }
 .user-address-block {
   background: #fff;
+  padding-top: 1rem;
+  border-top: 2px solid #d7d7d7;
 }
 .user-address-block .user-address-inner {
   padding: 1.171875rem 1.953125rem;
@@ -34,10 +45,11 @@
   color: #333333;
 }
 .user-address-block .user-address-inner .user-address-description {
-  font-size: 1.40625rem;
+  font-size: 1.625rem;
   margin-top: 0.9765625rem;
   color: #666666;
   min-height: 4.375rem;
+  line-height: 2.0rem;
 }
 .user-address-block .user-address-checkbox-row {
   border-top: 2px solid #d7d7d7;

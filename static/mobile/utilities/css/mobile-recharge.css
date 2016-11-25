@@ -1,6 +1,14 @@
 /******************************************************
    *Variables START
 ******************************************************/
+.header-base-color .bar-title {
+  color: #fff;
+  font-size: 1.796875rem;
+  font-weight: 400;
+  margin: 1.890625rem 0;
+  padding-left: 3.390625rem;
+  width: 95%;
+}
 .content .utilities-recharge-number-main {
   border-bottom: 2px solid #d7d7d7;
 }
@@ -17,7 +25,7 @@
   display: none;
   width: 100%;
   border: 0px solid #cfcfcf;
-  padding: 1.17rem;
+  padding: 0.9rem;
   font-size: 2rem;
   z-index: 99;
   background-color: unset;
@@ -161,6 +169,8 @@
   text-align: right;
   width: auto;
   white-space: nowrap;
+  margin-right: 1.171875rem;
+  margin-top: 1.17rem;
 }
 .main-bar .utilities-custom-width-fuel2 .tab-label-mobile-recharge li {
   color: #c41411;
@@ -179,7 +189,7 @@
   color: #fff;
   font-size: 1.953125rem;
   vertical-align: middle;
-  padding: 1.09375rem 0px 0 0rem;
+  padding: 1.7rem 0px 0 0rem;
   float: left;
   width: 100%;
   text-align: center;
@@ -271,7 +281,7 @@
  * Water started
  * --------------------------------------------- */
 .content .utilities-address-checkbox-row.utilities-top-row {
-  padding: 1.171875rem 1.953125rem;
+  padding: 2.171875rem 1.953125rem;
 }
 .content .utilities-address-checkbox-row {
   border-bottom: 0.1953125rem solid #ededed;
@@ -292,6 +302,7 @@
   text-align: right;
   display: inline-block;
   width: 83%;
+  font-size: 1.7rem;
 }
 .content .product-detail-color {
   color: #cccccc;
@@ -379,6 +390,7 @@
   display: block;
   color: #fff;
   padding: 1.40625rem 1.953125rem;
+  font-size: 1.9rem;
 }
 /* -----------------------------------------------
  * Water-2 Ended
@@ -461,7 +473,7 @@
   display: inline-block;
   color: #c41411;
   border-top: 1px solid #d7d7d7;
-  font-size: 1.5625rem;
+  font-size: 1.9rem;
   padding-top: 2.34375rem;
 }
 .popup .back-to-prev-btn {
@@ -480,11 +492,12 @@
   margin-left: 0.859375rem;
 }
 .popup .back-to-prev-btn p.popup-top-class {
-  text-align: center;
+  width: 88%;
   display: inline-block;
   color: #fff;
-  font-size: 1.640625rem;
-  margin-left: -1%;
+  /* border-top: 1px solid #d7d7d7; */
+  font-size: 1.9rem;
+  padding-top: 2.34375rem;
 }
 .popup-area {
   top: -0.1171875rem;
@@ -525,7 +538,7 @@
   padding-left: 13%;
 }
 .content .utilities-custom-css .fuel_card_color .product-list-price-value-inc {
-  margin: 3rem 0rem 0rem 2rem;
+  margin: 2.4rem 0rem 0rem 2rem;
   padding-bottom: 1.875rem;
   float: right;
   font-size: 0;
@@ -598,6 +611,6 @@
 @media screen and (min-width: 250px) and (max-width: 450px) {
   .content .label-switch.utilities-label-switch {
     width: 20%;
-    margin-top: 1%;
+    margin-top: -1%;
   }
 }

@@ -1,6 +1,14 @@
 /******************************************************
    *Variables START
 ******************************************************/
+.header-base-color .bar-title {
+  color: #fff;
+  font-size: 1.796875rem;
+  font-weight: 400;
+  margin: 1.890625rem 0;
+  padding-left: 3.390625rem;
+  width: 95%;
+}
 .www-products-container {
   background: #fff;
   margin: 0;
@@ -159,4 +167,5 @@
 }
 .user-bottom-fixed-btn a {
   color: #222222;
+  font-size: 1.9rem;
 }
