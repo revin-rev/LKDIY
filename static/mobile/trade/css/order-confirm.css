@@ -1,6 +1,9 @@
 /******************************************************
    *Variables START
 ******************************************************/
+.header-base-color .bar-title {
+  margin: 1.890625rem 0;
+}
 .trade-product-panel {
   background: #f8f8f8;
   border-top: 2px solid #dedede;
@@ -37,6 +40,7 @@
   margin-top: 0;
   min-height: 7.320313rem;
   margin-bottom: 1.515625rem;
+  line-height: 2.3rem;
 }
 .trade-product-list-row .trade-product-list-text h2 span {
   display: block;
@@ -118,6 +122,7 @@
   color: #666666;
   display: block;
   margin-bottom: 1.3671875rem;
+  line-height: 2.3rem;
 }
 .trade-top-order-header .trade-link {
   font-size: 1.5625rem;
@@ -144,6 +149,7 @@
 .trade-pricing-counting-block .trade-pricing-counting-row .trade-label {
   color: #222222;
   float: left;
+  line-height: 2.3rem;
 }
 .trade-pricing-counting-block .trade-pricing-counting-row .trade-label.trade-padding-top {
   padding-top: 1.2109375rem;
@@ -160,6 +166,7 @@
   float: right;
   vertical-align: middle;
   text-align: right;
+  line-height: 2.3rem;
 }
 .trade-pricing-counting-block .trade-pricing-counting-row .trade-action span {
   color: #cccccc;
@@ -182,6 +189,7 @@
 .trade-pricing-total-block .trade-text .trade-extra {
   display: block;
   color: #c41411;
+  padding-top: 0.9rem;
 }
 .trade-pricing-total-block .trade-text .trade-extra span {
   color: #222222;
@@ -259,4 +267,12 @@
   .trade-checkbox-block .trade-checkboxes-row {
     max-height: 30px;
   }
+}
+.trade-modify {
+  display: none;
+  width: 100%;
+  border: 1px solid #cfcfcf;
+  padding: 1.17rem;
+  font-size: 1.17rem;
+  z-index: 99;
 }

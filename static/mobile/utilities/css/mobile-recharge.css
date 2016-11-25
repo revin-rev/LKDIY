@@ -295,6 +295,7 @@
 }
 .content .product-detail-color {
   color: #cccccc;
+  font-size: 1.5rem;
 }
 .content .order-spec-text-changed {
   color: #999;
@@ -355,6 +356,7 @@
   display: block;
   color: #cccccc;
   padding: 1.40625rem 1.953125rem;
+  font-size: 1.53125rem;
 }
 /* -----------------------------------------------
  * Water Ended
@@ -584,7 +586,7 @@
 @media screen and (min-width: 768px) and (max-width: 1028px) {
   .content .label-switch.utilities-label-switch {
     width: 20%;
-    margin-top: 1%;
+    margin-top: -1%;
   }
   .content .utilities-custom-css {
     height: 41rem;

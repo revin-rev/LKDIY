@@ -95,12 +95,14 @@
 }
 .row .item-right .item-bg-white .item-img-container a h3 {
   color: #666666;
+  font-size: 1.25rem;
 }
 .row ul.item-category-page-li li a {
   padding: 2.6171875rem 0 2.6171875rem 0;
   width: 100%;
   display: block;
   text-align: center;
+  font-size: 1.2rem;
 }
 .item-border {
   border: 2px solid #dedede;

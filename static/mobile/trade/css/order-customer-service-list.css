@@ -43,7 +43,7 @@
   color: #ce0000;
   margin-left: 0.390625rem;
   vertical-align: middle;
-  font-size: 2.2rem;
+  font-size: 1.5rem;
 }
 .content .order-details-large-products .order-detail-content-block .order-details-list .order-detail-complete {
   float: right;
@@ -1091,11 +1091,15 @@ label.label-checkbox i.icon-form-checkbox:after {
   height: auto;
   background-color: #fff;
 }
+.custom-row .order-detail-content-block {
+  margin: 1.1rem 0;
+}
 .custom-row .order-detail-content-block .order-details-list-second h2.customer-service-refund {
   margin-left: 1.875rem;
   font-weight: normal;
   color: #c41411;
   font-size: 1.40625rem;
+  padding-top: 1.1rem;
 }
 .custom-row .order-detail-content-block .order-details-list-second .order-detail-pull a.order-detail-customer-service-upload {
   text-align: center;

@@ -55,6 +55,7 @@
             </div>
             <div class="trade-product-footer">
                 <span class="trade-product-footer-text">备注信息 <span>备注（选填）</span></span>
+                <input class="trade-modify" type="text"/>
             </div>
         </div>
         <div class="trade-product-list-row clearfix">
@@ -67,6 +68,7 @@
             </div>
             <div class="trade-product-footer">
                 <span class="trade-product-footer-text">备注信息 <span>备注（选填）</span></span>
+                <input class="trade-modify" type="text"/>
             </div>
         </div>
     </div>
@@ -83,6 +85,7 @@
             </div>
             <div class="trade-product-footer">
                 <span class="trade-product-footer-text">备注信息 <span>备注（选填）</span></span>
+                <input class="trade-modify" type="text"/>
             </div>
         </div>
         <div class="trade-product-list-row clearfix">
@@ -95,6 +98,7 @@
             </div>
             <div class="trade-product-footer">
                 <span class="trade-product-footer-text">备注信息 <span>备注（选填）</span></span>
+                <input class="trade-modify" type="text"/>
             </div>
         </div>
     </div>
@@ -140,6 +144,20 @@
 <script type='text/javascript' src='//g.alicdn.com/sj/lib/zepto/zepto.min.js' charset='utf-8'></script>
 <script type='text/javascript' src='../../static/mobile/common/plugins/sui-mobile/dist/js/sm-all.min.js' charset='utf-8'></script>
 <script type='text/javascript' src='../../static/mobile/common/scripts/main.js' charset='utf-8'></script>
+<script>
+    $(document).ready(function(){
+        $('.trade-product-footer-text').click(function(){
+            $('.trade-modify').hide();
+            $('.trade-product-footer-text').show();
+
+            var label = $(this);
+    
+    $(this).hide();
+    $(this).next().show();
+   // 
+});
+    });
+</script>
 <script>
     $(document).on("click", ".sidebar-btn", function() {
         $.openPanel("#sidebar");
