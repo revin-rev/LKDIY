@@ -490,8 +490,8 @@ border-bottom: 1px solid #d7d7d7;
   left: 50%;
   bottom: 0;
   transform: translateX(-50%);
-  width: 1.5984375rem;
-  height: 1.5984375rem;
+  width: 23/@baseRem;
+  height: 23/@baseRem;
   border-radius: 50%;
   background: inherit;
   top: 0%;
@@ -504,14 +504,13 @@ border-bottom: 1px solid #d7d7d7;
   margin-left: 65/@baseRem;
   font-size:30/@baseRem;
   color:#666;
-  line-height: 2.2rem
   
 }
 
 .timeline ul li.timeline-container::after{
   background: url('../images/order-tracking.png') no-repeat;
-      width: 80/@baseRem;
-    height: 80/@baseRem;
+      width: 50/@baseRem;
+    height: 50/@baseRem;
         background-size: contain;
 }
 
@@ -970,14 +969,14 @@ h2.mar_gaya{
     border-bottom: 2px solid #d7d7d7;
     
     h2.order-detail-return-process{
-      padding-left:45/@baseRem;
-      color:#222;
-      font-size:46/@baseRem;
-      font-weight: normal;
-      border-bottom: 2px solid #d7d7d7;
-      padding-bottom: 25/@baseRem;
-      padding-top: 25/@baseRem;
-      margin-top:0;
+     padding-left: 1.7578125rem;
+    color: #222;
+    font-size: 2.1rem;
+    font-weight: normal;
+    border-bottom: 2px solid #d7d7d7;
+    padding-bottom: 1.9765625rem;
+    padding-top: 1.9765625rem;
+    margin-top: 0;
     }
     ul.order-detail-return-information-step{
       list-style: none;
@@ -986,6 +985,7 @@ h2.mar_gaya{
       width: 100%;
       position: relative;
       text-align:center;
+      padding-top: 2.1rem;
       li.order-detail-retun-information-step1{
             
         .label-checkbox{
@@ -1013,7 +1013,7 @@ h2.mar_gaya{
     padding: 0;
     a {
     display: block;
-    padding: 23/@baseRem 4/@baseRem;
+    padding: 0.8984375rem 0.1rem;
     span {
     display: block;
     width: 15/@baseRem;
@@ -1053,8 +1053,9 @@ span.color-change{
       padding-right:12/@baseRem;
       border-bottom:2px dashed #d7d7d7;
       margin-left: 5%;
-       padding-bottom: 40/@baseRem;
-       position: relative;
+      padding-bottom: 40/@baseRem;
+      position: relative;
+      padding-top: 1rem;
 
        ul{
         list-style: none;
@@ -1078,7 +1079,10 @@ span.color-change{
          }
          li:first-child{
            text-align: left;
-           margin-left:0%;
+           margin-left:-2%;
+         }
+         li:nth-child(3){
+          margin-left:6%;
          }
           
          li:last-child{
@@ -1094,16 +1098,19 @@ span.color-change{
     font-size:44/@baseRem;
     font-weight: normal;
     color: #222;
+    padding-top: 1.9rem;
     }
     div.order-detail-return{
-      padding-top:0;
+      padding-top:2.0rem;
     height:auto;
     padding-bottom: 1.8359375rem;
   }
   p.order-detail-return{
-    margin:0;
-    padding-top:0;
-    height:auto;
+       margin: 0;
+    padding-top: 0;
+    height: auto;
+    font-size: 1.7rem;
+    padding-bottom: 1.2rem;
   }
   a.order-return-logistics{
     text-align: center;
@@ -1158,6 +1165,8 @@ span.color-change{
     hr{
       width:86%;
           border-color: #d7d7d7;
+          margin-left: 7%;
+    display: inline-block;
          
     }
   }
@@ -1390,10 +1399,6 @@ ul.order-detail-information-refund-1{
 @media only screen and (min-device-width: 250px) and (max-device-width : 450px){
 .custom-row .order-detail-content-block .order-details-list-second .order-detail-pull a.order-detail-customer-service-upload{
         width:80%;
-}
-.timeline ul li div{
-      width: 33.34375rem;
-      font-size: 1.71875rem;
 }
 
 }

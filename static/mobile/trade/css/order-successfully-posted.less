@@ -490,8 +490,8 @@ border-bottom: 1px solid #d7d7d7;
   left: 50%;
   bottom: 0;
   transform: translateX(-50%);
-  width: 1.5984375rem;
-  height: 1.5984375rem;
+  width: 23/@baseRem;
+  height: 23/@baseRem;
   border-radius: 50%;
   background: inherit;
   top: 0%;
@@ -504,14 +504,13 @@ border-bottom: 1px solid #d7d7d7;
   margin-left: 65/@baseRem;
   font-size:30/@baseRem;
   color:#666;
-  line-height: 2.2rem
   
 }
 
 .timeline ul li.timeline-container::after{
   background: url('../images/order-tracking.png') no-repeat;
-      width: 80/@baseRem;
-    height: 80/@baseRem;
+      width: 50/@baseRem;
+    height: 50/@baseRem;
         background-size: contain;
 }
 
@@ -527,8 +526,9 @@ border-bottom: 1px solid #d7d7d7;
   .order-detail-border{
     border-bottom:3px solid #d7d7d7;
     padding-bottom: 185/@baseRem;
+    background: #fff;
 .order-detail-thankyou{
-      padding-top: 218/@baseRem;
+      padding-top: 5.515625rem;
       width: 40%;
       display: inline-block;
       text-align: right;
@@ -559,7 +559,7 @@ h3{
 a{
   margin-top:218/@baseRem;
   display: inline-block;
-  padding:20/@baseRem 65/@baseRem;
+  padding:1.68125rem 2.9rem;
   border-radius:5/@baseRem;
   color:#c41411;
   font-size:50/@baseRem;
@@ -1390,10 +1390,6 @@ ul.order-detail-information-refund-1{
 @media only screen and (min-device-width: 250px) and (max-device-width : 450px){
 .custom-row .order-detail-content-block .order-details-list-second .order-detail-pull a.order-detail-customer-service-upload{
         width:80%;
-}
-.timeline ul li div{
-      width: 33.34375rem;
-      font-size: 1.71875rem;
 }
 
 }

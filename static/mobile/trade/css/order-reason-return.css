@@ -192,11 +192,11 @@
   font-size: 1.5625rem;
 }
 .content .product-detail-spec {
-  padding-top: 1.5359375rem;
+  padding-top: 1.9359375rem;
   padding-left: 2.34375rem;
   font-size: 2.2rem;
   color: #999999;
-  height: 4.8984375rem;
+  height: 5.8984375rem;
   display: inline-block;
   width: 100%;
   background-color: #fff;
@@ -206,7 +206,6 @@
 .content .product-detail-spec span {
   font-size: 2.0rem;
   color: #999999;
-  padding-left: 0.9rem;
 }
 .content .product-detail-spec .product-detail-color {
   color: #cccccc;
@@ -407,8 +406,8 @@
   left: 50%;
   bottom: 0;
   transform: translateX(-50%);
-  width: 1.5984375rem;
-  height: 1.5984375rem;
+  width: 0.8984375rem;
+  height: 0.8984375rem;
   border-radius: 50%;
   background: inherit;
   top: 0%;
@@ -421,12 +420,11 @@
   margin-left: 2.5390625rem;
   font-size: 1.171875rem;
   color: #666;
-  line-height: 2.2rem;
 }
 .timeline ul li.timeline-container::after {
   background: url('../images/order-tracking.png') no-repeat;
-  width: 3.125rem;
-  height: 3.125rem;
+  width: 1.953125rem;
+  height: 1.953125rem;
   background-size: contain;
 }
 /* -----------------------------------------------
@@ -1114,13 +1112,12 @@ label.label-checkbox i.icon-form-checkbox:after {
   .custom-row .order-detail-content-block .order-details-list-second .order-detail-pull a.order-detail-customer-service-upload {
     width: 80%;
   }
-  .timeline ul li div {
-    width: 33.34375rem;
-    font-size: 1.71875rem;
-  }
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1028px) {
   .custom-row .order-detail-content-block .order-details-list-second .order-detail-pull a.order-detail-customer-service-upload {
     width: 80%;
+  }
+  .header-base-color ~ .content {
+    height: 105rem;
   }
 }
