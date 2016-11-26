@@ -45,8 +45,9 @@
   border-top: 0;
 }
 .gateway-success-row .gateway-success-text {
-  font-size: 1.40625rem;
+  font-size: 1.90625rem;
   margin-top: 0.9765625rem;
+  line-height: 2.3rem;
 }
 .gateway-success-row .gateway-success-text span {
   margin-bottom: 0.1953125rem;
@@ -62,6 +63,7 @@
   position: relative;
   color: #333333;
   font-size: 2.34375rem;
+  padding-top: 0.9rem;
 }
 .gateway-notify-block .gateway-notify-block-text img {
   position: absolute;
@@ -76,9 +78,17 @@ right:calc(100% + 2.34375rem);
 .gateway-notify-block .gateway-notify-block-text span {
   display: block;
   font-size: 1.875rem;
+  padding-top: 0.9rem;
 }
 .gateway-action-btns {
-  padding: 16.40625rem 1.953125rem 1.953125rem;
+  position: absolute;
+  top: auto;
+  bottom: 2.5rem;
+  width: 100%;
+  /* height: .45rem; */
+  padding: 0 2.15rem;
+  overflow: hidden;
+  clear: both;
 }
 .gateway-action-btns a {
   display: inline-block;

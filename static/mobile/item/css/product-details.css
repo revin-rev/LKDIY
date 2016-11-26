@@ -15,6 +15,12 @@
   margin-left: 3.5546875rem;
   color: #333333;
 }
+.header-base-color .bar-title {
+  color: #fff;
+  font-size: 1.796875rem;
+  font-weight: 400;
+  margin: 1.890625rem 0;
+}
 .content .bar {
   height: 4.87550781rem;
   position: static;
@@ -195,7 +201,7 @@
   height: 6.4453125rem;
 }
 .product-detail-tabs-footer a.external-first {
-  padding: 0.78125rem;
+  padding: 0.98125rem;
   border: 3px solid #d7d7d7;
   height: auto;
   border-left: none;
@@ -293,6 +299,7 @@
   margin-bottom: 0rem;
   background-color: #fff;
   float: left;
+  line-height: 2.5rem;
 }
 .product-detail-content-block {
   margin: 3.6328125rem 0;
@@ -311,7 +318,7 @@
   border-top: 0.390625rem solid #f7f7f7;
 }
 .product-detail-spec {
-  padding-top: 1.5625rem;
+  padding-top: 1.953125rem;
   padding-left: 1.953125rem;
   font-size: 1.796875rem;
   color: #333;
@@ -355,7 +362,7 @@ hr.item-meduim-line {
 .product-detail-continue-more-link {
   color: #333333;
   padding: 1.171875rem 1.171875rem 1.171875rem 1.953125rem;
-  font-size: 1.40625rem;
+  font-size: 1.625rem;
   margin-bottom: 8rem;
   display: inline-block;
 }

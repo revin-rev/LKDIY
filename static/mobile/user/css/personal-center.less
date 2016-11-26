@@ -2,6 +2,21 @@
 @import "../../common/css/variable";
 @import "../../common/css/lesshat";
 
+
+.header-base-color {
+  .bar-title{
+    color: #fff;
+    font-size: 1.796875rem;
+    font-weight: 400;
+    margin: 1.890625rem 0;
+        padding-left: 3.25rem;
+  }
+  .right-side-link{
+    font-size: 1.796875rem;
+    line-height: 2.1rem;
+
+  }
+}
 .user-profile-header{
   background: @white;
   padding: 60/@baseRem 50/@baseRem;
@@ -34,10 +49,11 @@
       margin-top: 30/@baseRem;
     }
     h3{
-      color: @fontLightColor;
-      font-size: 40/@baseRem;
-      margin: 0;
-      font-weight: 400;
+      color: #999999;
+    font-size: 1.725rem;
+    margin: 0;
+    font-weight: 400;
+    padding-top: 1.4rem;
     }
     .icon-right-fixed{
       position: absolute;
@@ -64,7 +80,7 @@
 
   .user-row-title{
     font-size: 46/@baseRem;
-    padding: 35/@baseRem 50/@baseRem;
+    padding:2.1671875rem 1.953125rem;
 
     >span{
       color: @borderInternalColor;
@@ -107,9 +123,10 @@
           }
         }
         label{
-          display: block;
-          font-size: 36/@baseRem;
-          color: @fontLightColor;
+             display: block;
+    font-size: 1.625rem;
+    color: #999999;
+    padding-top: 1.5rem;
         }
       }
     }
@@ -132,11 +149,18 @@
       font-weight: normal;
       color: @fontLightColor;
       margin-bottom: 0;
+          padding-top: 1.6rem;
     }
 
     & + .col-25{
       border-left: 2px solid @borderInternalColor;
     }
   }
+}
+
+.main-bar .tab-item .icon ~ .tab-label {
+    font-size: 1.625rem;
+    padding-bottom: 0.5rem;
+    padding-top: 0.9rem;
 }
 

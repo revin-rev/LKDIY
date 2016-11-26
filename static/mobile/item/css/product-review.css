@@ -497,9 +497,10 @@ top:calc(50% - 5.15625rem);
   margin: 0;
   float: left;
   width: 100%;
-  font-size: 1.40625rem;
+  font-size: 1.625rem;
   padding-bottom: 1.40625rem;
   color: #666666;
+  line-height: 2.1rem;
 }
 .item-text img {
   width: 1.640625rem;
@@ -525,16 +526,20 @@ top:calc(50% - 5.15625rem);
   margin-top: 1.953125rem;
   color: #999999;
   font-size: 1.40625rem;
-  height: 11rem;
   padding: 0 0.625rem;
+  margin-bottom: 1.9rem;
 }
 .product-review-meduim {
   margin: 0rem;
   border-top: 1.53125rem solid #eeeeee;
-  border-bottom: 1px solid #d7d7d7;
+  width: 100%;
+  display: inline-block;
 }
 .product-review-content {
   background-color: #fff;
+}
+.product-review-height {
+  height: 21rem;
 }
 .menu {
   list-style: none;

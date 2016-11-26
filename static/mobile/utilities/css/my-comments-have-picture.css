@@ -28,27 +28,34 @@
   border: 1px solid #d7d7d7;
 }
 .content .utilities-my-profile .utilities-profile-title {
-  font-size: 1.5625rem;
+  font-size: 1.7625rem;
   color: #666666;
   padding-left: 1.171875rem;
   display: inline-block;
+  line-height: 2.1rem;
 }
 .content .utilities-my-profile .utilities-star {
   padding: 1.5625rem 0 0 1.171875rem;
 }
 .content .utilities-my-profile .utilities-profile-title-inner {
   color: #222222;
-  font-size: 1.40625rem;
-  padding: 1.171875rem 0 0.78125rem 0;
+  font-size: 1.70625rem;
+  padding: 1.171875rem 0 1.5625rem 0;
   display: inline-block;
+  line-height: 2.5rem;
 }
 .content .utilities-my-profile .utilities-inner-profile {
-  width: 8.671875rem;
-  height: 8.671875rem;
+  width: 10.671875rem;
+  height: 10.671875rem;
   border: 1px solid #d7d7d7;
 }
 .content .utilities-my-profile .ips2 {
+  margin-left: 1%;
   margin-top: 0.78125rem;
+}
+.content .utilities-my-profile .row {
+  overflow: hidden;
+  margin-left: 0%;
 }
 .content .utilities-my-profile .utilities-dt ul {
   padding: 0;
@@ -57,7 +64,7 @@
 .content .utilities-my-profile .utilities-dt ul li {
   list-style-type: none;
   display: inline-block;
-  font-size: 1.171875rem;
+  font-size: 1.640625rem;
   color: #cccccc;
   padding: 1.171875rem 1.953125rem 1.171875rem 0;
 }

@@ -1,8 +1,15 @@
 /******************************************************
    *Variables START
 ******************************************************/
-.content {
-  padding-top: 5.2734375rem !important;
+.header-base-color .bar-title {
+  color: #fff;
+  font-size: 1.796875rem;
+  font-weight: 400;
+  margin: 1.890625rem 0;
+}
+.header-base-color .right-side-link {
+  font-size: 1.796875rem;
+  line-height: 2.1rem;
 }
 .gateway-bottom-fixed-btn {
   font-size: 1.953125rem;
@@ -22,6 +29,8 @@
 .gateway-bottom-fixed-btn .gateway-text .gateway-total {
   font-size: 1.953125rem;
   color: #c41411;
+  margin-bottom: 0.5rem;
+  display: inline-block;
 }
 .gateway-bottom-fixed-btn .gateway-text .gateway-extra {
   display: block;
@@ -34,7 +43,6 @@
   padding-bottom: 9.1796875rem;
 }
 .gateway-address-checkbox-row {
-  border-top: 2px solid #d7d7d7;
   border-bottom: 2px solid #d7d7d7;
   padding: 1.953125rem;
   font-size: 1.5625rem;

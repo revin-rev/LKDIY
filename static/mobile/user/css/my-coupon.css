@@ -1,6 +1,16 @@
 /******************************************************
    *Variables START
 ******************************************************/
+.header-base-color .bar-title {
+  color: #fff;
+  font-size: 1.796875rem;
+  font-weight: 400;
+  margin: 1.890625rem 0;
+}
+.header-base-color .right-side-link {
+  font-size: 1.796875rem;
+  line-height: 2.1rem;
+}
 .content {
   padding-top: 5.2734375rem;
 }

@@ -2,19 +2,24 @@
 @import "../../common/css/lesshat";
 
 
-.header-base-color .bar-title {
+.header-base-color {
+  .bar-title{
     color: #fff;
     font-size: 1.796875rem;
     font-weight: 400;
     margin: 1.890625rem 0;
-    padding-left: 3.390625rem;
-    width: 95%;
-   
+    //padding-left: 0rem;
+  }
+  .right-side-link{
+    font-size: 1.796875rem;
+    line-height: 2.1rem;
+  }
 }
+
 .content{
-    .utilities-recharge-number-main{
+    .trade-recharge-number-main{
         border-bottom: 2px solid #d7d7d7;
-   .utilities-recharge-number{
+   .trade-recharge-number{
        text-align: center;
        padding-top:75/@baseRem;
        padding-bottom: 75/@baseRem;
@@ -23,11 +28,9 @@
            color:#cccccc;
            
        }
-      .utilities-input{
-          display:none;width:100%;border:0px solid #cfcfcf;padding:0.9rem;font-size:2rem;z-index: 99; background-color:unset
-      }
+      
    }
-   .utilities-recharge-imges{
+   .trade-recharge-imges{
        text-align: center;
         padding-top:75/@baseRem;
        padding-bottom: 75/@baseRem;
@@ -40,52 +43,45 @@
        }
    }
     }
-    .utilities-custom-css{
+    .trade-custom-css{
 border-top:12/@baseRem solid #f7f7f7;
 border-bottom: 1px solid #f7f7f7;
-    height: 14rem;
 
 
-    .utilities-recharge-number-main-1{
+    .trade-recharge-number-main-1{
         border-top:1px solid #d7d7d7;
             background-color: #fff;
             margin:0;
             padding:0;
             list-style: none;
-        .utilities-recharge-yen5{
+        .trade-recharge-yen5{
             text-align: center;
-            padding:3.125rem;
+            padding:80/@baseRem;
             span{
                 font-size:48/@baseRem;
                 color:#cccccc;
-                padding-bottom: 1.953125rem;
-                 margin-top: 2.421875rem;
             }
 
         }
-        .utilities-recharge-yen10{
+        .trade-recharge-yen10{
             border-left:5/@baseRem solid #f7f7f7;
             
             text-align: center;
-            padding:3.125rem;
+            padding:80/@baseRem;
             span{
                 font-size:48/@baseRem;
                 color:#cccccc;
-                    margin-top: 2.421875rem;
-                    padding-bottom: 1.953125rem;
             }
 
         }
-        .utilities-recharge-yen20{
+        .trade-recharge-yen20{
              border-left:5/@baseRem solid #f7f7f7;
             
             text-align: center;
-            padding:3.125rem;
+            padding:80/@baseRem;
             span{
                 font-size:48/@baseRem;
                 color:#333333;
-                    margin-top: 2.421875rem;
-                    padding-bottom: 1.953125rem;
             }
 
         }
@@ -95,16 +91,12 @@ border-bottom: 1px solid #f7f7f7;
                span{
                    color:#c41411;
                    font-size:48/@baseRem;
-                   
 
                }
            }
     }
     }
-    .utilities-custom-css.utilities-custom-css-border{
-        border-bottom: 0px solid #f7f7f7;
-    }
-    .utilities-recharge-total{
+    .trade-recharge-total{
         border-top:5/@baseRem solid #f7f7f7;
         background-color: #fff;
         margin:0;
@@ -112,63 +104,50 @@ border-bottom: 1px solid #f7f7f7;
         list-style: none;
 
         
-       .utilities-recharge-yen30 {
+       .trade-recharge-yen30 {
            text-align: center;
-            padding:3.125rem;
+            padding:80/@baseRem;
            span{
                 font-size:48/@baseRem;
                 color:#333333;
-                padding-bottom: 1.953125rem;
-                margin-top: 2.421875rem;
-                display: inline-block;
            }
 
         }
-        .utilities-recharge-yen50 {
+        .trade-recharge-yen50 {
            text-align: center;
             border-left:5/@baseRem solid #f7f7f7;
             //border-top:5/@baseRem solid #c41411;
-            padding:3.125rem;
+            padding:80/@baseRem;
             
            span{
                 font-size:48/@baseRem;
                 color:#333333;
-                 padding-bottom: 1.953125rem;
-    margin-top: 2.421875rem;
-    display: inline-block;
            }
            
 
         }
         
-        .utilities-recharge-yen100 {
+        .trade-recharge-yen100 {
            text-align: center;
-            padding:3.125rem;
+            padding:80/@baseRem;
             border-left:5/@baseRem solid #f7f7f7;
            
            span{
                 font-size:48/@baseRem;
                 color:#333333;
-                 padding-bottom: 1.953125rem;
-    margin-top: 2.421875rem;
-    display: inline-block;
            }
 
         }
         .custom_width{
             width:33%;
             margin: 0;
-            padding: 3.125rem;
+            padding-bottom: 4.125rem;
         }
          .active{
                border:2px solid #c41411;
                span{
                    color:#c41411;
                    font-size:48/@baseRem;
-                   padding-bottom: 1.953125rem;
-    margin-top: 2.421875rem;
-    display: inline-block;
-
 
                }
            }
@@ -181,20 +160,17 @@ border-bottom: 1px solid #f7f7f7;
     border-top: 2px solid #ededed;
     width:100%;
     
-    
-    .utilities-custom-width-fuel2{
+    .www-custom-width{
             width: 70%;
     float: left;
    
     .tab-label-mobile-recharge{
-          padding: 0;
+           padding: 0;
     list-style: none;
     float: right;
     text-align: right;
     width: auto;
     white-space: nowrap;
-    margin-right: 1.171875rem;
-    margin-top: 1.17rem;
        li{
            color:#c41411;
            font-size:42/@baseRem;
@@ -210,14 +186,14 @@ border-bottom: 1px solid #f7f7f7;
     
     background-color: #ce0000;
     height: 5.46875rem;
-    width: 27%;
+    width: 30%;
     
     float: right;
     .tab-label-buy-now {
     color: #fff;
     font-size: 1.953125rem;
     vertical-align: middle;
-    padding: 1.7rem 0px 0 0rem;
+    padding: 1.09375rem 0px 0 0rem;
     float: left;
     width: 100%;
     text-align: center;
@@ -232,9 +208,9 @@ border-bottom: 1px solid #f7f7f7;
  * --------------------------------------------- */
 
 .content{
-.utilities-recharge-number-main{
-    .utilities-recharge-number-changed{
- span.utilities-mobile-recharge-number{
+.trade-recharge-number-main{
+    .trade-recharge-number-changed{
+ span.trade-mobile-recharge-number{
            color:#333;
            font-size:72/@baseRem;
            float: left;
@@ -243,11 +219,10 @@ border-bottom: 1px solid #f7f7f7;
            margin-left: 7%;       
        }
        label{
-               font-size: 1.71875rem;
-    color: #666666;
-    float: left;
-    width: 52%;
-    padding: 0.90625rem 0 0 0;
+           font-size:30/@baseRem;
+           color:#666666;
+           float: left;
+           width: 38%;
               
        }
     }
@@ -264,9 +239,9 @@ border-bottom: 1px solid #f7f7f7;
  * --------------------------------------------- */
 .content{
 
-    .utilities-recharge-number-main-1{
+    .trade-recharge-number-main-1{
         background-color: #fff;
-        .utilities-recharge-yen5{
+        .trade-recharge-yen5{
             text-align:center;
             padding-top:75/@baseRem;
             
@@ -283,10 +258,10 @@ border-bottom: 1px solid #f7f7f7;
                 margin-top:62/@baseRem;
             }
         }
-        .utilities-recharge-yen10{
+        .trade-recharge-yen10{
                 border-left: 0.1953125rem solid #f7f7f7;
                 text-align:center;
-            padding-top:2.125rem;
+            padding-top:60/@baseRem;
              img{
                width:102/@baseRem;
                height:157/@baseRem;
@@ -301,7 +276,7 @@ border-bottom: 1px solid #f7f7f7;
             }
 
         }
-         .utilities-recharge-yen20{
+         .trade-recharge-yen20{
                 border-left: 0.1953125rem solid #f7f7f7;
                 text-align:center;
             padding-top:70/@baseRem;
@@ -337,11 +312,11 @@ border-bottom: 1px solid #f7f7f7;
  * Water started
  * --------------------------------------------- */
 .content{
-    .utilities-address-checkbox-row.utilities-top-row {
+    .trade-address-checkbox-row.trade-top-row {
     //margin-top: 1.953125rem;
-    padding: 2.171875rem 1.953125rem;
+    padding: 1.171875rem 1.953125rem;
 }
-.utilities-address-checkbox-row {
+.trade-address-checkbox-row {
     
    border-bottom: 5/@baseRem solid #ededed;
     padding: 1.953125rem;
@@ -351,49 +326,22 @@ border-bottom: 1px solid #f7f7f7;
     background: #fff;
 }
 .label-switch {
-    width:40%;
+    width:34%;
     border-radius: .8rem;
     height: 3.4375rem;
     display: inline;
     color:#999999;
-    text-align: right;
-    span{
-        text-align: right;
-        display: inline-block;
-        width: 83%;
-        font-size: 1.7rem;
-    }
 }
 .product-detail-color {
     color: #cccccc;
-        font-size: 1.5rem;
 }
 .order-spec-text-changed {
     color:#999;
         margin-left: 5%;
 }
-.order-spec-text-changed-news{
-    color:#999;
-        margin-left: 5%;
-}
-.utilities-electricity, .utilities-gas, .utilities-water{
-    width: 50%; border: 0px solid rgb(207, 207, 207); padding: 0.8rem; font-size: 1.5rem; z-index: 99;display:none;margin-left: 1%;
-}
-.utilities-mobile-recharge
-{
-    width: 100%; border: 0px solid rgb(207, 207, 207); padding: 0.8rem; font-size: 1.5rem; z-index: 99;display:none;margin-left: 5%;background-color: unset;
-}
-span.order-spec-text-changed-one{
-    font-size: 1.2rem;
-    width: 80%;
-}
-.order-spec-text-changed-three {
-    color:#999;
-        margin-left: 5%;
-}
 .order-spec-text-changed-area {
     color:#999;
-        //margin-left: 5%;
+        margin-left: 5%;
 }
 img{
     width:60/@baseRem;
@@ -401,7 +349,7 @@ img{
 }
 
 }
-.utilities-bottom-fixed-btned {
+.trade-bottom-fixed-btn {
     background: #dedede;
     color: #fff;
     font-size: 1.953125rem;
@@ -415,7 +363,7 @@ img{
     display: block;
     color: #cccccc;
     padding: 1.40625rem 1.953125rem;
-     font-size: 1.53125rem;
+     font-size: 1.953125rem;
 }
 }
 
@@ -429,7 +377,7 @@ img{
  * --------------------------------------------- */
 
 
-.utilities-bottom-fixed-btn {
+.trade-bottom-fixed-btn {
     background: #c41411;
     color: #fff;
     font-size: 1.953125rem;
@@ -443,7 +391,6 @@ img{
     display: block;
     color: #fff;
     padding: 1.40625rem 1.953125rem;
-    font-size:1.9rem;
 }
 }
 
@@ -522,7 +469,6 @@ li:last-child{
 }
 .content-block-border{
     padding:0;
-    
     ul{
         li.popup-vat-area{
             padding-left:40/@baseRem;
@@ -542,7 +488,7 @@ a {
     display: inline-block;
     color: #c41411;
     border-top: 1px solid #d7d7d7;
-    font-size: 1.9rem;
+    font-size: 1.5625rem;
     padding-top: 2.34375rem;
 }
 .back-to-prev-btn{
@@ -561,12 +507,10 @@ a {
 }
         p.popup-top-class{
         //margin: 0;
-           width: 88%;
-    display: inline-block;
-    color: #fff;
-    /* border-top: 1px solid #d7d7d7; */
-    font-size: 1.9rem;
-    padding-top: 2.34375rem;
+        text-align: center;
+        display: inline-block;
+        color:#fff;
+        font-size:42/@baseRem;
         }
     
 }
@@ -605,11 +549,9 @@ a {
  * Fuel Card Start
  * --------------------------------------------- */
 .content{
-    .utilities-custom-css{
+    .trade-custom-css{
         .fuel_card_color{
-            .utilities-recharge-number{
-                    margin-left: 1%;
-                    width: 47%;
+            .trade-recharge-number{
                 span{
                     color:#333;
                     font-size:48/@baseRem;
@@ -622,48 +564,28 @@ a {
                 }
             }
             .product-list-price-value-inc{
-            margin:2.4rem 0rem 0rem 2rem;
+            margin:2rem 0rem 0rem 0rem;
             padding-bottom: 1.875rem;
-            float: right;
-            font-size:0;
             //padding-left: 0.78125rem;
 
             .decrement {
-               background: url(../images/minus.png) no-repeat 0.8203125rem;
-       border: 1px solid #f3f5f7;
-    vertical-align: text-bottom;
-    position: relative;
-    right: 0rem;
-    padding: 1.5rem 1.5rem;
-    background-size: 50%;
-    background-color: #f3f5f7;
-    left: 0rem;
-    z-index: 999;
-    height: 3.2rem;
-
-    //left: 0.01rem;
+            font-size: 2.34375rem;
+            border: 1px solid #f3f5f7;
+            padding: 0.5859375rem 0.9375rem 0.5859375rem 0.9375rem;
             }
             .number {
-                font-size: 1.2rem;
-    border: 1px solid #f3f5f7;
-    position: relative;
-    left: 0rem;
-    padding: 0.84rem 0.4rem;
-    margin: 0px;
-    vertical-align: text-bottom;
-    height: 3.2rem;
-    border-radius: 1px;
+            font-size: 2.34375rem;
+            border: 1px solid #f3f5f7;
+            padding: 0.4859375rem 0.9375rem 0.5859375rem 0.9375rem;
+            position: relative;
+            left: -3/@baseRem;
              }
              .increment {
-                background: url(../images/plus.png) no-repeat 0.8203125rem;
-  border: 1px solid #f3f5f7;
-    position: relative;
-    /* right: 0.1953125rem; */
-    padding: 1.5rem 1.5rem;
-    background-size: 50%;
-    background-color: #f3f5f7;
-    vertical-align: text-bottom;
-    height: 3.2rem;
+            font-size: 2.34375rem;
+            border: 1px solid #f3f5f7;
+            padding: 0.5859375rem 0.9375rem 0.5859375rem 0.9375rem;
+            position: relative;
+            right: 5/@baseRem;
                 }
             }
         }
@@ -680,52 +602,16 @@ a {
  * --------------------------------------------- */
 
 .content{
-    .utilities-recharge-number-main{
-        .utilities-recharge-number{
+    .trade-recharge-number-main{
+        .trade-recharge-number{
             span.fuel_card_2_color{
-                font-size:1.899375rem;
+                font-size:54/@baseRem;
                 color:#333;
             }
         }
     }
 }
 
-.product-review-center{
-    text-align: center;
-    width:100%;
-    display: inline-block;
-}
-
   /* -----------------------------------------------
  * Fuel Card 2 Ended
  * --------------------------------------------- */
-
-
- @media screen and (min-width:768px) and (max-width:1028px)
- {
-
-     .content .label-switch.utilities-label-switch{
-         width:20%;
-         margin-top:-1%;
-     }
-
-     .content .utilities-custom-css{
-             height: 41rem;
-     }
-     .content .utilities-custom-css.utilities-custom-css-border{
-         height:25rem;
-     }
- }
-
- @media screen and (min-width:250px) and (max-width:450px)
- {
-
-     .content .label-switch.utilities-label-switch{
-         width:20%;
-        margin-top:-1%;
-     }
-     .content .utilities-custom-css{
-             height: 45rem;
-             border-bottom: 0px solid #f7f7f7;
-     }
- }

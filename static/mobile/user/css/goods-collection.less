@@ -1,7 +1,21 @@
 @import "../../common/css/variable";
 @import "../../common/css/lesshat";
 
-.user-www-products-container{
+.header-base-color {
+  .bar-title{
+    color: #fff;
+    font-size: 1.796875rem;
+    font-weight: 400;
+    margin: 1.890625rem 0;
+    padding-left: 0rem;
+  }
+  .right-side-link{
+    font-size: 1.796875rem;
+    line-height: 2.1rem;
+  }
+}
+
+.user-goods-products-container{
   background: @white;
   margin: 0;
   padding: .5rem;
@@ -9,15 +23,15 @@
   border-top: 1px solid @borderColor;
   margin-top: 0;
   padding-top:0;
-  padding-bottom: 25/@baseRem;
+  padding-bottom: 0/@baseRem;
 
-  .user-www-block-title{
+  .user-goods-block-title{
     font-weight: normal;
     font-size: 42/@baseRem;
     margin-top: 0;
     margin-bottom: 40/@baseRem;
   }
-  .user-www-custom-row{
+  .user-goods-custom-row{
     border-top: 15/@baseRem solid @borderColorLight;
 
     &.www-border-small{
@@ -25,7 +39,7 @@
     }
   }
 
-  .user-www-product-col{
+  .user-goods-product-col{
     h2{
       font-weight: bold;
       font-size: 40/@baseRem;
@@ -40,7 +54,7 @@
       margin-bottom: 0;
     }
 
-    & + .user-www-product-col{
+    & + .user-goods-product-col{
       border-left: 15/@baseRem solid @borderColorLight;
       margin-left:2%;
     }
@@ -62,26 +76,27 @@
       }
     }
 
-    .user-www-product-title{
-      color: @fontDarkColor;
-      font-size: 41/@baseRem;
-      font-weight: normal;
-      margin-top: 0;
-      margin-bottom: 45/@baseRem;
-      min-height: 122/@baseRem;
+    .user-goods-product-title{
+     color: #333333;
+    font-size: 1.5015625rem;
+    font-weight: normal;
+    margin-top: 0;
+    margin-bottom: 1.7578125rem;
+    min-height: 4.765625rem;
+    line-height: 2.1rem;
     }
-    .user-www-product-price{
+    .user-goods-product-price{
       font-size: 40/@baseRem;
       color: @baseColor;
       font-weight: normal;
-      margin: 0;
+      margin: 1rem 0;
     }
   }
 
-  .user-www-large-products{
+  .user-goods-large-products{
     border-top: 10/@baseRem solid @borderColorLight;
 
-    .user-www-product-col{
+    .user-goods-product-col{
       padding: 20/@baseRem;
 
       &:nth-child(1){
@@ -89,7 +104,7 @@
         padding-right: 55/@baseRem;
       }
 
-      & + .user-www-product-col {
+      & + .user-goods-product-col {
         border-left: 10/@baseRem solid @borderColorLight;
         position: relative;
         .user-new-sticker{
@@ -108,7 +123,7 @@
     }
 
 
-    .user-www-product-col{
+    .user-goods-product-col{
       h2{
         font-weight: 400;
         color: @fontDarkColor;

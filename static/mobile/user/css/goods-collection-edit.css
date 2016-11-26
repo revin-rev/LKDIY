@@ -1,6 +1,17 @@
 /******************************************************
    *Variables START
 ******************************************************/
+.header-base-color .bar-title {
+  color: #fff;
+  font-size: 1.796875rem;
+  font-weight: 400;
+  margin: 1.890625rem 0;
+  padding-left: 0rem;
+}
+.header-base-color .right-side-link {
+  font-size: 1.796875rem;
+  line-height: 2.1rem;
+}
 .user-goods-products-container {
   background: #fff;
   margin: 0;
@@ -54,11 +65,12 @@
 }
 .user-goods-products-container .user-goods-product-col .user-goods-product-title {
   color: #333333;
-  font-size: 1.6015625rem;
+  font-size: 1.5015625rem;
   font-weight: normal;
   margin-top: 0;
   margin-bottom: 1.7578125rem;
   min-height: 4.765625rem;
+  line-height: 2.1rem;
 }
 .user-goods-products-container .user-goods-product-col .user-goods-product-price {
   font-size: 1.5625rem;
@@ -185,4 +197,5 @@
 }
 .user-bottom-fixed-btn a {
   color: #fff;
+  font-size: 1.953125rem;
 }

@@ -1,10 +1,20 @@
 @import "../../common/css/variable";
 @import "../../common/css/lesshat";
 
-.content{
-  padding-top: 135/@baseRem !important;
-}
 
+.header-base-color {
+  .bar-title{
+    color: #fff;
+    font-size: 1.796875rem;
+    font-weight: 400;
+    margin: 1.890625rem 0;
+    //padding-left: 0rem;
+  }
+  .right-side-link{
+    font-size: 1.796875rem;
+    line-height: 2.1rem;
+  }
+}
 .gateway-bottom-fixed-btn{
   font-size: 50/@baseRem;
   position: fixed;
@@ -23,8 +33,10 @@
       color: #222222;
 
       .gateway-total{
-        font-size: 50/@baseRem;
-        color: @baseColor;
+            font-size: 1.953125rem;
+    color: #c41411;
+    margin-bottom: 0.5rem;
+    display: inline-block;
       }
       .gateway-extra{
         display: block;
@@ -41,7 +53,7 @@
 }
 
 .gateway-address-checkbox-row{
-  border-top:2px solid @tradeBorderColor;
+  //border-top:2px solid @tradeBorderColor;
   border-bottom:2px solid @tradeBorderColor;
   padding: 50/@baseRem;
   font-size: 40/@baseRem;

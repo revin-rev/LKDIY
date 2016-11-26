@@ -1,6 +1,17 @@
 /******************************************************
    *Variables START
 ******************************************************/
+.header-base-color .bar-title {
+  color: #fff;
+  font-size: 1.796875rem;
+  font-weight: 400;
+  margin: 1.890625rem 0;
+  padding-left: 3.25rem;
+}
+.header-base-color .right-side-link {
+  font-size: 1.796875rem;
+  line-height: 2.1rem;
+}
 .user-profile-header {
   background: #fff;
   padding: 2.34375rem 1.953125rem;
@@ -32,9 +43,10 @@
 }
 .user-profile-header .user-data h3 {
   color: #999999;
-  font-size: 1.5625rem;
+  font-size: 1.725rem;
   margin: 0;
   font-weight: 400;
+  padding-top: 1.4rem;
 }
 .user-profile-header .user-data .icon-right-fixed {
   position: absolute;
@@ -61,7 +73,7 @@ top:calc(50% - 1.7578125rem);
 }
 .user-row .user-row-title {
   font-size: 1.796875rem;
-  padding: 1.3671875rem 1.953125rem;
+  padding: 2.1671875rem 1.953125rem;
 }
 .user-row .user-row-title > span {
   color: #d7d7d7;
@@ -100,8 +112,9 @@ top:calc(50% - 1.7578125rem);
 }
 .user-nav-links li a label {
   display: block;
-  font-size: 1.40625rem;
+  font-size: 1.625rem;
   color: #999999;
+  padding-top: 1.5rem;
 }
 .user-main-links {
   border-bottom: 0;
@@ -121,7 +134,13 @@ top:calc(50% - 1.7578125rem);
   font-weight: normal;
   color: #999999;
   margin-bottom: 0;
+  padding-top: 1.6rem;
 }
 .user-main-links .col-25 + .col-25 {
   border-left: 2px solid #d7d7d7;
+}
+.main-bar .tab-item .icon ~ .tab-label {
+  font-size: 1.625rem;
+  padding-bottom: 0.5rem;
+  padding-top: 0.9rem;
 }

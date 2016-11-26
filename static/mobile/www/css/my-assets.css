@@ -1,12 +1,23 @@
 /******************************************************
    *Variables START
 ******************************************************/
+.header-base-color .bar-title {
+  color: #fff;
+  font-size: 1.796875rem;
+  font-weight: 400;
+  margin: 1.890625rem 0;
+}
+.header-base-color .right-side-link {
+  font-size: 1.796875rem;
+  line-height: 2.1rem;
+}
 #top ul.first-row {
   list-style-type: none;
   border: 1px solid #d7d7d7;
   background: #fff;
-  padding-top: 1.171875rem;
-  padding-bottom: 1.171875rem;
+  padding-top: 2.171875rem;
+  padding-bottom: 2.171875rem;
+  padding-left: 1.9rem;
 }
 #top ul.first-row li {
   display: inline-block;
@@ -21,6 +32,7 @@
 }
 #top ul.first-row li:last-child a {
   color: #ccc;
+  font-size: 1.171875rem;
 }
 #top ul.first-row li img {
   width: 2.65625rem;
@@ -46,8 +58,9 @@
   padding-right: 0;
 }
 #top .chat-box {
-  padding-right: 2.5390625rem;
-  font-size: 1.5625rem;
+  padding-right: 3.10625rem;
+  font-size: 1.825rem;
+  padding-top: 2.0rem;
 }
 #top .chat-box img {
   vertical-align: middle;

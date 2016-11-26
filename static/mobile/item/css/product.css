@@ -15,6 +15,13 @@
   margin-left: 3.5546875rem;
   color: #333333;
 }
+.header-base-color .bar-title {
+  color: #fff;
+  font-size: 1.796875rem;
+  font-weight: 400;
+  margin: 1.890625rem 0;
+  padding-left: 6.90625rem;
+}
 .content .bar {
   height: 5.08203125rem;
   position: static;
@@ -32,7 +39,10 @@
   padding-bottom: 0.5078125rem;
 }
 .bar-tab .tab-item.active .item-label {
-  font-size: 1.40625rem;
+  font-size: 1.90625rem;
+}
+.bar-tab .tab-item .item-label {
+  font-size: 1.90625rem;
 }
 .content .bar-tab .tab-item .product-item-label {
   font-size: 1.796875rem;
@@ -207,7 +217,11 @@
   padding: 0rem;
 }
 .content .product-detail-content-block .list-block ul li {
-  padding: 0 0.46875rem 0.9765625rem 0.46875rem;
+  padding: 0.9rem 0.96875rem 0.9765625rem 0.96875rem;
+}
+.content .product-detail-content-block .list-block ul .item-content {
+  border-bottom: 1px solid #d7d7d7;
+  line-height: 2.9rem;
 }
 .product-detail-bar-tab {
   height: 5.24964844rem;
@@ -218,7 +232,7 @@
 }
 .list-block .product-detail-item-title.label {
   width: 27%;
-  font-size: 1.5625rem;
+  font-size: 1.9625rem;
 }
 .tabs #tab2 .product-detail-content-block {
   margin: 0rem;
@@ -242,7 +256,7 @@
   height: 6.4453125rem;
 }
 .product-detail-tabs-footer a.external-first {
-  padding: 0.78125rem;
+  padding: 0.98125rem;
   border: 3px solid #d7d7d7;
   height: auto;
   border-left: none;
@@ -402,6 +416,7 @@
   margin-bottom: 1.7578125rem;
   min-height: 4.765625rem;
   padding-left: 1rem;
+  line-height: 1.8rem;
 }
 .item-www-products-container .item-www-product-col .item-www-product-price {
   font-size: 1.5625rem;
@@ -437,6 +452,6 @@
 }
 @media only screen and (min-device-width: 250px) and (max-device-width: 350px) {
   .content .product-detail-content-block .list-block ul {
-    height: 52rem;
+    height: 69rem;
   }
 }
