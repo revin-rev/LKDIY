@@ -35,8 +35,8 @@
 .content .user-address-checkbox-row .user-single-text .profile_second .user-label-text {
   display: inline-block;
   text-align: right;
-  padding-top: 3.125rem;
-  padding-bottom: 3.125rem;
+  padding-top: 1.771875rem;
+  padding-bottom: 1.171875rem;
   font-size: 1.5625rem;
   padding-right: 0.9765625rem;
 }
@@ -228,4 +228,12 @@
   right: 1.953125rem;
   top: 2.1484375rem;
   width: 2.65625rem;
+}
+.content .user-address-checkbox-row .user-single-text .profile_second .user-label-text {
+  display: inline-block;
+  text-align: right;
+  padding-top: 1.771875rem;
+  padding-bottom: 1.171875rem;
+  font-size: 1.5625rem;
+  padding-right: 0.9765625rem;
 }
