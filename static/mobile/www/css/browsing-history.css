@@ -2,11 +2,10 @@
    *Variables START
 ******************************************************/
 .header-base-color .bar-title {
-  margin: 1.890625rem 0;
   width: 90%;
 }
 .header-base-color .right-side-link {
-  line-height: 1.734375rem;
+  line-height: 2.734375rem;
   font-size: 1.796875rem;
 }
 #top {
@@ -33,6 +32,7 @@
   max-height: 12.890625rem;
   padding-top: 1.2rem;
   line-height: 2.1rem;
+  padding-left: 1.2rem;
 }
 #top ul li .details .amount {
   min-height: 8.515625rem;

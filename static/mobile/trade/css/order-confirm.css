@@ -2,7 +2,7 @@
    *Variables START
 ******************************************************/
 .header-base-color .bar-title {
-  margin: 1.890625rem 0;
+  padding: 0;
 }
 .trade-product-panel {
   background: #f8f8f8;
@@ -27,6 +27,10 @@
 .trade-product-list-row .trade-product-list-image {
   float: left;
   width: 32.822306238185256%;
+}
+.trade-product-list-row .trade-product-list-image img {
+  width: 12.109375rem;
+  height: 12.109375rem;
 }
 .trade-product-list-row .trade-product-list-text {
   float: left;

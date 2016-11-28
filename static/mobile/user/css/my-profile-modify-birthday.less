@@ -40,11 +40,12 @@
       .profile_second{
         .user-label-text{
           display: inline-block;
-    text-align: right;
-    padding-top: 1.771875rem;
-    padding-bottom: 1.171875rem;
-    font-size: 1.5625rem;
-    padding-right: 0.9765625rem;
+          text-align: right;
+          padding-top:80/@baseRem;
+          padding-bottom: 80/@baseRem;
+
+          font-size:40/@baseRem;
+          padding-right:25/@baseRem;
         }
 
         a.product-detail-color{
@@ -119,6 +120,15 @@
   }
 }
 
+
+#picker-name{
+  border: 0;
+  text-align: right;
+}
+.picker-center-highlight:before,.picker-center-highlight:after{
+  height: 2px;
+  background: #33b5e5;
+}
 /* -----------------------------------------------
 *my-profile-modify nickname Start
 * --------------------------------------------- */
@@ -148,8 +158,6 @@
   span.icon{
     color:#fff;
     font-size:36/@baseRem;
-
-
   }
 }
 
@@ -265,13 +273,4 @@
     top: 55/@baseRem;
     width:68/@baseRem;
   }
-}
-
-.content .user-address-checkbox-row .user-single-text .profile_second .user-label-text {
-    display: inline-block;
-    text-align: right;
-    padding-top: 1.771875rem;
-    padding-bottom: 1.171875rem;
-    font-size: 1.5625rem;
-    padding-right: 0.9765625rem;
 }

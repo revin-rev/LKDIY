@@ -5,9 +5,10 @@
   color: #fff;
   font-size: 1.796875rem;
   font-weight: 400;
-  margin: 1.890625rem 0;
-  padding-left: 3.390625rem;
-  width: 95%;
+  padding-left: 0rem;
+  width: 100%;
+  display: inline-block;
+  text-align: center;
 }
 .content .utilities-recharge-number-main {
   border-bottom: 2px solid #d7d7d7;
@@ -189,7 +190,7 @@
   color: #fff;
   font-size: 1.953125rem;
   vertical-align: middle;
-  padding: 1.7rem 0px 0 0rem;
+  padding: 1.5rem 0px 0 0rem;
   float: left;
   width: 100%;
   text-align: center;
@@ -282,7 +283,7 @@
  * Water started
  * --------------------------------------------- */
 .content .utilities-address-checkbox-row.utilities-top-row {
-  padding: 2.171875rem 1.953125rem;
+  padding: 1.171875rem 1.953125rem;
 }
 .content .utilities-address-checkbox-row {
   border-bottom: 0.1953125rem solid #ededed;
@@ -302,8 +303,9 @@
 .content .label-switch span {
   text-align: right;
   display: inline-block;
-  width: 83%;
+  width: 87%;
   font-size: 1.7rem;
+  margin: 0%;
 }
 .content .product-detail-color {
   color: #cccccc;
@@ -461,6 +463,7 @@
 }
 .popup .content-block-border {
   padding: 0;
+  margin: 0;
 }
 .popup .content-block-border ul li.popup-vat-area {
   padding-left: 1.5625rem;
@@ -479,8 +482,6 @@
 }
 .popup .back-to-prev-btn {
   background-color: #c41411;
-  padding-top: 1.34375rem;
-  padding-bottom: 1.34375rem;
   font-size: 1.5625rem;
   width: 100%;
   display: inline-block;
@@ -498,7 +499,7 @@
   color: #fff;
   /* border-top: 1px solid #d7d7d7; */
   font-size: 1.9rem;
-  padding-top: 2.34375rem;
+  padding-top: 1.75rem;
 }
 .popup-area {
   top: -0.1171875rem;
@@ -602,9 +603,6 @@
     width: 20%;
     margin-top: -1%;
   }
-  .content .utilities-custom-css {
-    height: 41rem;
-  }
   .content .utilities-custom-css.utilities-custom-css-border {
     height: 25rem;
   }
@@ -615,7 +613,6 @@
     margin-top: -1%;
   }
   .content .utilities-custom-css {
-    height: 45rem;
     border-bottom: 0px solid #f7f7f7;
   }
 }

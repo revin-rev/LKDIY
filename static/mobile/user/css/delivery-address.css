@@ -8,8 +8,6 @@
   color: #fff;
   font-size: 1.796875rem;
   font-weight: 400;
-  margin: 1.890625rem 0;
-  padding-left: 3.390625rem;
   width: 95%;
 }
 .user-bottom-fixed-btn {
@@ -87,6 +85,7 @@
 }
 .user-address-block .user-address-checkbox-row .user-address-checkbox-actions a {
   color: #999999;
+  font-size: 1.9rem;
 }
 .user-address-block .user-address-checkbox-row .user-address-checkbox-actions a + a {
   margin-left: 1.953125rem;

@@ -5,8 +5,6 @@
   color: #fff;
   font-size: 1.796875rem;
   font-weight: 400;
-  margin: 1.890625rem 0;
-  padding-left: 3.390625rem;
   width: 95%;
 }
 .www-products-container {
@@ -116,7 +114,7 @@
 }
 #top .buttons-tab a.button {
   font-size: 1.796875rem;
-  padding: 1.71875rem 1.171875rem;
+  padding: 0.9rem 0.9rem ;
   display: inline-block;
   height: auto;
   color: #666666;
@@ -139,7 +137,7 @@
   font-size: 1.640625rem;
   color: #666666;
   border-bottom: 1px solid #d7d7d7;
-  padding: 1.5625rem 1.953125rem;
+  padding: 0.9rem 0.9rem;
 }
 #top ul li span {
   color: #c41411;
@@ -168,4 +166,10 @@
 .user-bottom-fixed-btn a {
   color: #222222;
   font-size: 1.9rem;
+}
+#tab2 {
+  height: 129rem;
+}
+#tab1 {
+  height: 129rem;
 }

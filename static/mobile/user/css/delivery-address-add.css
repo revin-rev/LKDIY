@@ -8,13 +8,12 @@
   color: #fff;
   font-size: 1.796875rem;
   font-weight: 400;
-  margin: 1.890625rem 0;
-  padding-left: 3.390625rem;
-  width: 92%;
+  width: 98%;
+  padding: 0;
 }
 .header-base-color .bar-title .right-side-link {
   font-size: 1.925rem;
-  line-height: 1.734375rem;
+  line-height: 2.734375rem;
 }
 .list-block {
   margin-top: 0;
@@ -133,6 +132,7 @@
 }
 .popup .content-block-border {
   padding: 0;
+  margin: 0;
 }
 .popup .content-block-border ul li.popup-vat-area {
   padding-left: 1.5625rem;
@@ -151,8 +151,6 @@
 }
 .popup .back-to-prev-btn {
   background-color: #c41411;
-  padding-top: 1.34375rem;
-  padding-bottom: 1.34375rem;
   font-size: 1.5625rem;
   width: 100%;
   display: inline-block;
@@ -170,7 +168,7 @@
   color: #fff;
   font-size: 1.940625rem;
   margin-left: -5%;
-  padding-top: 1.65rem;
+  padding-top: 1.0rem;
 }
 .popup-area {
   top: 27.117188rem;

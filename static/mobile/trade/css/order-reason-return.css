@@ -1,9 +1,6 @@
 /******************************************************
    *Variables START
 ******************************************************/
-.header-base-color .bar-title {
-  margin: 1.890625rem 0;
-}
 .product-review-center {
   display: inline-block;
   width: 90%;
@@ -192,9 +189,9 @@
   font-size: 1.5625rem;
 }
 .content .product-detail-spec {
-  padding-top: 1.9359375rem;
+  padding-top: 1.5359375rem;
   padding-left: 2.34375rem;
-  font-size: 2.2rem;
+  font-size: 1.5625rem;
   color: #999999;
   height: 5.8984375rem;
   display: inline-block;
@@ -702,13 +699,14 @@
   text-align: center;
   padding-top: 3.90625rem;
   padding-bottom: 3.90625rem;
+  font-size: 1.5rem;
 }
 .content .order-detail-reason-comment-second .order-detail-reason-comment-upload-certificate {
   color: #999999;
   float: left;
   margin-left: 9%;
   font-weight: normal;
-  font-size: 1.40625rem;
+  font-size: 1.6rem;
 }
 .popup {
   top: auto;

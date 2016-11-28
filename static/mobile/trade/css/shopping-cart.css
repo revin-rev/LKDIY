@@ -97,7 +97,6 @@
 }
 .trade-shopping-cart-header-secondary2 label.label-checkbox .item-media h2 {
   float: right;
-  margin-top: 0.4rem;
   font-size: 1.40625rem;
   padding-left: 0.78125rem;
   font-weight: normal;
@@ -107,6 +106,10 @@
   width: 37%;
   float: left;
   margin-left: 3%;
+}
+.trade-shopping-cart-header-secondary2 .trade-shopping-cart-product-col a img {
+  width: 12.109375rem;
+  height: 12.109375rem;
 }
 .trade-shopping-cart-header-secondary2 .trade-shopping-cart-product-col a .trade-shopping-cart-product-price-tight {
   text-align: center;
@@ -121,6 +124,7 @@
 .trade-shopping-cart-header-secondary2 .trade-shopping-cart-product-list-product-col {
   width: 50%;
   float: left;
+  margin: 0%;
 }
 .trade-shopping-cart-header-secondary2 .trade-shopping-cart-product-list-product-col h4.trade-shopping-cart-product-title {
   font-size: 1.6625rem;
@@ -174,7 +178,7 @@
   border: 1px solid #fff;
   position: relative;
   left: 0rem;
-  padding: 1.84rem 1.4rem;
+  padding: 0.3rem 0.3rem;
   margin: 0px;
   vertical-align: text-bottom;
   height: 4.2rem;
@@ -227,7 +231,7 @@
 }
 .shopping-cart-tabs-footer .custom-width label.label-checkbox .item-media h2 {
   float: right;
-  margin-top: 1.1rem;
+  margin-top: 0.7rem;
   font-size: 1.40625rem;
   padding-left: 0.78125rem;
   font-weight: normal;
@@ -240,7 +244,7 @@
 .shopping-cart-tabs-footer .shopping-cart-external-third .shopping-cart-moved {
   color: #fff;
   font-size: 1.5625rem;
-  padding: 1.875rem 0 0 0rem;
+  padding: 1.375rem 0 0 0rem;
   float: left;
   width: 100%;
   text-align: center;
@@ -254,7 +258,7 @@
   list-style: none;
   padding: 0;
   text-align: left;
-  margin-top: 0.9296875rem;
+  margin-top: 0.396875rem;
   float: left;
 }
 .shopping-cart-tabs-footer .custom-width-second .external-third .shopping-cart-99 {
@@ -263,7 +267,6 @@
   display: inline-block;
   /* float: left; */
   /* width: 45%; */
-  padding-bottom: 0.9rem;
 }
 .shopping-cart-tabs-footer .custom-width-second .external-third .shopping-cart-cf {
   font-size: 1.5625rem;
@@ -286,7 +289,7 @@
   color: #fff;
   font-size: 1.953125rem;
   vertical-align: middle;
-  padding: 1.9375rem 0px 0 0rem;
+  padding: 1.2375rem 0px 0 0rem;
   float: left;
   width: 100%;
   text-align: center;

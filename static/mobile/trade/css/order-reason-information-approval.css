@@ -1,9 +1,6 @@
 /******************************************************
    *Variables START
 ******************************************************/
-.header-base-color .bar-title {
-  margin: 1.890625rem 0;
-}
 .product-review-center {
   display: inline-block;
   width: 90%;
@@ -930,30 +927,36 @@
   border-top: 1.953125rem solid #f3f5f7;
   background-color: #fff;
 }
-.content .order-detail-application-return .content-block .sale-type-new {
+.content .order-detail-application-return .order-detail-application-return-border-bttm {
+  border-top: 1px solid #d7d7d7;
+  margin: 0;
+  padding-top: 1.75rem;
+  border-bottom: 1px solid #d7d7d7;
+}
+.content .order-detail-application-return .order-detail-application-return-border-bttm .sale-type-new {
   width: 30%;
   float: left;
   padding-top: 1.06210938rem;
 }
-.content .order-detail-application-return .content-block .sale-type-new p.sale-type {
+.content .order-detail-application-return .order-detail-application-return-border-bttm .sale-type-new p.sale-type {
   font-size: 1.71875rem;
   color: #999;
   padding-left: 2.734375rem;
   margin: 0;
   padding-bottom: 1.953125rem;
 }
-.content .order-detail-application-return .content-block .sale-type-new2 {
+.content .order-detail-application-return .order-detail-application-return-border-bttm .sale-type-new2 {
   float: left;
   width: 70%;
   padding-top: 1.09023438rem;
 }
-.content .order-detail-application-return .content-block .sale-type-new2 p.return-sale-type {
+.content .order-detail-application-return .order-detail-application-return-border-bttm .sale-type-new2 p.return-sale-type {
   color: #222;
   font-size: 1.71875rem;
   margin: 0;
   padding-bottom: 1.953125rem;
 }
-.content .order-detail-application-return .content-block hr {
+.content .order-detail-application-return .order-detail-application-return-border-bttm hr {
   width: 86%;
   border-color: #d7d7d7;
   margin-left: 7%;
@@ -1127,5 +1130,19 @@ label.label-checkbox i.icon-form-checkbox:after {
 @media only screen and (min-device-width: 768px) and (max-device-width: 1028px) {
   .custom-row .order-detail-content-block .order-details-list-second .order-detail-pull a.order-detail-customer-service-upload {
     width: 80%;
+  }
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 560px) {
+  .content .order-deatil-return-content-block .order-detail-return-info-main ul li:first-child {
+    margin-left: 5%;
+  }
+  .content .order-deatil-return-content-block .order-detail-return-info-main ul li:nth-child(2) {
+    margin-left: -2%;
+  }
+  .content .order-deatil-return-content-block .order-detail-return-info-main ul li:nth-child(3) {
+    margin-left: 1%;
+  }
+  .content .order-deatil-return-content-block .order-detail-return-info-main ul li:last-child {
+    margin-left: -1%;
   }
 }
