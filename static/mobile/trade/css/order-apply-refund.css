@@ -620,6 +620,7 @@
 }
 .content .order-details-apply-for-return .order-details-customer-apply-list {
   background-color: #f8f8f8;
+  border-bottom: 1px solid #d7d7d7;
 }
 .content .order-details-apply-for-return .order-details-customer-apply-list .order-detail-apply-list-product-col h4.order-detail-product-title {
   color: #222;

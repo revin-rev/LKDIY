@@ -30,7 +30,7 @@
   background-color: #fff;
   margin: 0;
   padding: 1.3rem;
-  border-bottom: 1px solid #d7d7d7;
+  border-top: 1px solid #d7d7d7;
 }
 .content .order-details-large-products .order-detail-content-block .order-details-list .order-deatils-total {
   margin-left: 0.9rem;
@@ -66,6 +66,7 @@
 }
 .content .order-details-large-products .order-detail-content-block-new {
   border-bottom: 1px solid #d7d7d7;
+  border-top: 0px solid;
 }
 .content .order-details-large-products .order-detail-content-block-button {
   float: left;
@@ -1107,6 +1108,10 @@ label.label-checkbox i.icon-form-checkbox:after {
   margin-right: 0.5859375rem;
   margin-top: 0.5859375rem;
   font-size: 1.5625rem;
+}
+.content .order-details-large-products .order-detail-content-block.order-detail-content-block-bottom {
+  border-bottom: 1px solid #d7d7d7;
+  border-top: 0px solid;
 }
 @media only screen and (min-device-width: 250px) and (max-device-width: 450px) {
   .custom-row .order-detail-content-block .order-details-list-second .order-detail-pull a.order-detail-customer-service-upload {
