@@ -63,6 +63,10 @@ $('input[name="locationthemes"]:checked').each(function() {
    console.log(this.value); 
 });
 
+/*var w = $(window).width();
+alert("width" + w);
+var h = $(window).height();
+alert("width" + h);*/
 
 
 });

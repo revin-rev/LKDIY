@@ -29,18 +29,17 @@
 .content .order-details-large-products .order-detail-content-block {
   background-color: #fff;
   margin: 0;
-  padding: 1.3rem;
+  padding: 0rem;
   border-bottom: 1px solid #d7d7d7;
 }
 .content .order-details-large-products .order-detail-content-block .order-details-list .order-deatils-total {
-  margin-left: 0.9rem;
+  margin-left: 1.7578125rem;
   font-weight: normal;
 }
 .content .order-details-large-products .order-detail-content-block .order-details-list .order-deatils-total span {
   color: #ce0000;
   margin-left: 0.390625rem;
   vertical-align: middle;
-  font-size: 1.5rem;
 }
 .content .order-details-large-products .order-detail-content-block .order-details-list .order-detail-complete {
   float: right;
@@ -51,7 +50,7 @@
 }
 .content .order-details-large-products .order-detail-content-block .order-detail-pull {
   float: right;
-  width: 50%;
+  width: 57%;
   margin: 0;
 }
 .content .order-details-large-products .order-detail-content-block .order-detail-pull .order-detail-total-second {
@@ -118,7 +117,6 @@
   font-size: 1.5625rem;
   margin-top: 0.15625rem;
   font-weight: normal;
-  margin-bottom: 0.390625rem;
   line-height: 2.3rem;
 }
 .content .order-details-large-products .order-detail-product-list-product-col h4.order-detail-product-price {
@@ -147,7 +145,6 @@
   background-color: #fff;
   float: left;
   margin-bottom: 0;
-  padding: 1.3rem;
   border-top: 1px solid #d7d7d7;
 }
 .content .order-detail-product-payment-method h4.order-detail-paid-pay {
@@ -157,10 +154,9 @@
   margin-left: 4%;
   width: 34%;
   font-weight: normal;
-  margin-top: 0.7rem;
 }
 .content .order-detail-product-payment-method label {
-  margin-top: 0.7rem;
+  margin-top: 2.04101563rem;
   float: left;
   color: #999999;
   font-size: 1.5625rem;
@@ -170,7 +166,7 @@
   background-color: #fff;
   float: left;
   margin-bottom: 0;
-  padding: 1.3rem;
+  margin-top: 0;
   border-top: 1px solid #d7d7d7;
 }
 .content .order-detail-product-payment-method-second h4.order-detail-paid-pay {
@@ -180,20 +176,19 @@
   margin-left: 4%;
   width: 34%;
   font-weight: normal;
-  margin-top: 0.7rem;
 }
 .content .order-detail-product-payment-method-second label {
-  margin-top: 0.7rem;
+  margin-top: 2.04101563rem;
   float: left;
   color: #999999;
   font-size: 1.5625rem;
 }
 .content .product-detail-spec {
-  padding-top: 1.5359375rem;
+  padding-top: 1.8359375rem;
   padding-left: 2.34375rem;
-  font-size: 2.2rem;
+  font-size: 1.5625rem;
   color: #999999;
-  height: 4.8984375rem;
+  height: 5.8984375rem;
   display: inline-block;
   width: 100%;
   background-color: #fff;
@@ -201,16 +196,14 @@
   padding-right: 1.5rem;
 }
 .content .product-detail-spec span {
-  font-size: 2.0rem;
+  font-size: 1.5625rem;
   color: #999999;
-  padding-left: 0.9rem;
 }
 .content .product-detail-spec .product-detail-color {
   color: #cccccc;
 }
 .content .product-detail-spec .product-detail-color .icon-right {
-  font-size: 1.6rem;
-  margin-top: 0.4rem;
+  font-size: 1.5625rem;
 }
 .content .order-details-large-products-new {
   border-top: 0;
@@ -276,7 +269,6 @@
   border-radius: 8px;
   margin-top: 3%;
   margin-bottom: 3%;
-  padding: 0.3rem;
 }
 .content .order-details-large-products-new .order-detail-paid-content-block .order-detail-paid-memo {
   padding-left: 2.55rem;
@@ -298,20 +290,19 @@
   border-top: 0.5859375rem solid #f3f5f7;
   background-color: #fff;
   border-bottom: 1.953125rem solid #f3f5f7;
-  padding-left: 0.9rem;
 }
 .content .order-detail-paid-container .order-detail-paid-list {
   margin-top: 1.953125rem;
   margin-bottom: 1.0546875rem;
 }
 .content .order-detail-paid-container .order-detail-paid-list .order-detail-paid-number {
-  font-size: 2.5rem;
+  font-size: 1.796875rem;
   margin-left: 2.996875rem;
   color: #222222;
   float: left;
 }
 .content .order-detail-paid-container .order-detail-paid-list label {
-  font-size: 2.2rem;
+  font-size: 1.796875rem;
   color: #ce0000;
   padding-left: 0.9765625rem;
 }
@@ -319,12 +310,12 @@
   margin-bottom: 1.0546875rem;
 }
 .content .order-detail-paid-container .order-detail-paid-list-date .order-detail-paid-date {
-  font-size: 2.2rem;
+  font-size: 1.40625rem;
   color: #666666;
   margin-left: 2.996875rem;
 }
 .content .order-detail-paid-container .order-detail-paid-list-date label {
-  font-size: 2.2rem;
+  font-size: 1.40625rem;
   color: #666666;
 }
 .content .order-detail-paid-container .order-detail-paid-list-money {
@@ -332,12 +323,12 @@
   border-bottom: 1px solid #d7d7d7;
 }
 .content .order-detail-paid-container .order-detail-paid-list-money .order-detail-paid-money {
-  font-size: 2.2rem;
+  font-size: 1.40625rem;
   color: #666666;
   margin-left: 2.996875rem;
 }
 .content .order-detail-paid-container .order-detail-paid-list-money label {
-  font-size: 2.2rem;
+  font-size: 1.40625rem;
   color: #ce0000;
 }
 .content .order-detail-paid-container .order-detail-paid-list-money label span {
@@ -348,7 +339,6 @@
   border-top: 1px solid #d7d7d7;
   background-color: #fff;
   border-bottom: 1.953125rem solid #f3f5f7;
-  padding-top: 1.9rem;
 }
 .content .order-detail-paid-wang .col-50 h2 {
   color: #222222;
@@ -365,13 +355,12 @@
   margin-bottom: 0.5078125rem;
 }
 .content .order-detail-paid-wang .order-detail-paid-address {
-  font-size: 1.6rem;
+  font-size: 1.4453125rem;
   color: #949494;
   float: left;
   margin-left: 1.9%;
   width: 96%;
   padding-bottom: 1.953125rem;
-  line-height: 2.5rem;
 }
 .product-detail-paid a.external {
   background-color: #c41411;
@@ -481,7 +470,7 @@
 }
 .product-detail-dots {
   position: relative;
-  top: 1.5625rem;
+  top: 1.25rem;
   right: 1.6796875rem;
 }
 .product-detail-dots span {
@@ -523,7 +512,7 @@
   list-style: none;
   float: left;
   width: 96%;
-  padding-left: 1.5rem;
+  padding-left: 2.5rem;
 }
 .content .order-detail-comment-second ul li {
   float: left;
@@ -548,9 +537,6 @@
   background-color: #fff;
   padding-left: 1.5rem;
 }
-.content .order-detail-comment-third .order-detail-comment-footer {
-  padding-bottom: 1.9rem;
-}
 .content .order-detail-comment-third .order-detail-comment-footer h2 {
   margin-left: 2.734375rem;
   font-size: 1.40625rem;
@@ -560,7 +546,7 @@
   float: left;
 }
 .content .order-detail-comment-third .order-detail-comment-footer img {
-  padding-top: 1.953125rem;
+  padding-top: 2.2rem;
   height: auto;
   width: 1.6015625rem;
 }
@@ -612,7 +598,7 @@
 }
 .content .buttons-tab-apply {
   border-bottom: 1px solid #d7d7d7;
-  padding-top: 2.34375rem;
+  padding-top: 1.3rem;
 }
 .content .buttons-tab-apply a.button.active {
   font-size: 1.796875rem;
@@ -620,7 +606,7 @@
   border-color: #ce0000;
   border-bottom: 2px solid;
   margin-left: 1.7578125rem;
-  height: 2.61210938rem;
+  height: 3.612109rem;
   padding: 0;
   margin-right: 1.7578125rem;
 }
@@ -636,7 +622,6 @@
   background-color: #f8f8f8;
 }
 .content .order-details-apply-for-return .order-details-customer-apply-list .order-detail-apply-list-product-col h4.order-detail-product-title {
-  letter-spacing: 4px;
   color: #222;
   margin-top: 0;
 }
@@ -654,6 +639,8 @@
 .content .order-details-apply-for-return .order-details-customer-apply-list .order-detail-apply-content-block .order-details-list .order-detail-pull h2.customer-service-list-right {
   width: 68%;
   margin-left: 0rem;
+  margin-top: 1.25rem;
+  margin-bottom: 0.7421875rem;
 }
 .content .order-details-apply-for-return .order-details-customer-apply-list .apply-product-detail-spec {
   color: #222;
@@ -975,8 +962,7 @@ label.label-checkbox i.icon-form-checkbox:after {
   margin-top: 0;
   margin-bottom: 0;
   background-color: #fff;
-  border: 1px solid #d7d7d7;
-  width: 95.5%;
+  width: 94.5%;
   float: left;
 }
 .content #tab3 .order-details-apply-for-return .order-details-apply-refunded .order-detail-apply-refund {
@@ -1088,15 +1074,11 @@ label.label-checkbox i.icon-form-checkbox:after {
   height: auto;
   background-color: #fff;
 }
-.custom-row .order-detail-content-block {
-  margin: 1.1rem 0;
-}
 .custom-row .order-detail-content-block .order-details-list-second h2.customer-service-refund {
   margin-left: 1.875rem;
   font-weight: normal;
   color: #c41411;
   font-size: 1.40625rem;
-  padding-top: 1.1rem;
 }
 .custom-row .order-detail-content-block .order-details-list-second .order-detail-pull a.order-detail-customer-service-upload {
   text-align: center;

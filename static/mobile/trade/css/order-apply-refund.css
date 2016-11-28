@@ -1,9 +1,6 @@
 /******************************************************
    *Variables START
 ******************************************************/
-.header-base-color .bar-title {
-  margin: 1.890625rem 0;
-}
 .product-review-center {
   display: inline-block;
   width: 90%;
@@ -32,7 +29,7 @@
 .content .order-details-large-products .order-detail-content-block {
   background-color: #fff;
   margin: 0;
-  padding: 1.3rem;
+  padding: 0rem;
   border-top: 1px solid #d7d7d7;
 }
 .content .order-details-large-products .order-detail-content-block .order-details-list .order-deatils-total {
@@ -120,7 +117,6 @@
   font-size: 1.5625rem;
   margin-top: 0.15625rem;
   font-weight: normal;
-  margin-bottom: 0.390625rem;
   line-height: 2.3rem;
 }
 .content .order-details-large-products .order-detail-product-list-product-col h4.order-detail-product-price {
@@ -474,7 +470,7 @@
 }
 .product-detail-dots {
   position: relative;
-  top: 1.5625rem;
+  top: 1.25rem;
   right: 1.6796875rem;
 }
 .product-detail-dots span {
@@ -610,7 +606,7 @@
   border-color: #ce0000;
   border-bottom: 2px solid;
   margin-left: 1.7578125rem;
-  height: 2.61210938rem;
+  height: 3.612109rem;
   padding: 0;
   margin-right: 1.7578125rem;
 }
@@ -626,7 +622,6 @@
   background-color: #f8f8f8;
 }
 .content .order-details-apply-for-return .order-details-customer-apply-list .order-detail-apply-list-product-col h4.order-detail-product-title {
-  letter-spacing: 4px;
   color: #222;
   margin-top: 0;
 }

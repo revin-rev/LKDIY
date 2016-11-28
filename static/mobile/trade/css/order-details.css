@@ -35,12 +35,13 @@
 .content .order-details-large-products .order-detail-content-block .order-details-list .order-deatils-total {
   margin-left: 0.9rem;
   font-weight: normal;
+  font-size: 1.5rem;
 }
 .content .order-details-large-products .order-detail-content-block .order-details-list .order-deatils-total span {
   color: #ce0000;
   margin-left: 0.390625rem;
   vertical-align: middle;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 .content .order-details-large-products .order-detail-content-block .order-details-list .order-detail-complete {
   float: right;
@@ -119,7 +120,7 @@
   margin-top: 0.15625rem;
   font-weight: normal;
   margin-bottom: 0.390625rem;
-  line-height: 2.3rem;
+  line-height: 2.1rem;
 }
 .content .order-details-large-products .order-detail-product-list-product-col h4.order-detail-product-price {
   color: #999999;
@@ -129,7 +130,7 @@
 }
 .content .order-details-large-products .order-detail-product-list-product-col h4.order-detail-product-price-yen {
   font-size: 1.40625rem;
-  margin: 0.78125rem 0 0 0;
+  margin: 0.5rem 0 0 0;
   font-weight: normal;
   color: #c41411;
   width: 50%;
@@ -404,8 +405,8 @@
   left: 50%;
   bottom: 0;
   transform: translateX(-50%);
-  width: 0.8984375rem;
-  height: 0.8984375rem;
+  width: 1.5984375rem;
+  height: 1.5984375rem;
   border-radius: 50%;
   background: inherit;
   top: 0%;
@@ -418,11 +419,12 @@
   margin-left: 2.5390625rem;
   font-size: 1.171875rem;
   color: #666;
+  line-height: 2.2rem;
 }
 .timeline ul li.timeline-container::after {
   background: url('../images/order-tracking.png') no-repeat;
-  width: 1.953125rem;
-  height: 1.953125rem;
+  width: 3.125rem;
+  height: 3.125rem;
   background-size: contain;
 }
 /* -----------------------------------------------
@@ -1088,15 +1090,11 @@ label.label-checkbox i.icon-form-checkbox:after {
   height: auto;
   background-color: #fff;
 }
-.custom-row .order-detail-content-block {
-  margin: 1.1rem 0;
-}
 .custom-row .order-detail-content-block .order-details-list-second h2.customer-service-refund {
   margin-left: 1.875rem;
   font-weight: normal;
   color: #c41411;
   font-size: 1.40625rem;
-  padding-top: 1.1rem;
 }
 .custom-row .order-detail-content-block .order-details-list-second .order-detail-pull a.order-detail-customer-service-upload {
   text-align: center;
@@ -1113,6 +1111,10 @@ label.label-checkbox i.icon-form-checkbox:after {
 @media only screen and (min-device-width: 250px) and (max-device-width: 450px) {
   .custom-row .order-detail-content-block .order-details-list-second .order-detail-pull a.order-detail-customer-service-upload {
     width: 80%;
+  }
+  .timeline ul li div {
+    width: 33.34375rem;
+    font-size: 1.71875rem;
   }
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1028px) {
