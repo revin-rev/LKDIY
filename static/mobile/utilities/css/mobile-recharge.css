@@ -324,7 +324,7 @@
 .content .utilities-water {
   width: 50%;
   border: 0px solid #cfcfcf;
-  padding: 0.8rem;
+  padding: 0.0rem;
   font-size: 1.5rem;
   z-index: 99;
   display: none;
@@ -601,7 +601,7 @@
 @media screen and (min-width: 768px) and (max-width: 1028px) {
   .content .label-switch.utilities-label-switch {
     width: 20%;
-    margin-top: -1%;
+    margin-top: 2%;
   }
   .content .utilities-custom-css.utilities-custom-css-border {
     height: 25rem;
@@ -610,7 +610,7 @@
 @media screen and (min-width: 250px) and (max-width: 450px) {
   .content .label-switch.utilities-label-switch {
     width: 20%;
-    margin-top: -1%;
+    margin-top: 0%;
   }
   .content .utilities-custom-css {
     border-bottom: 0px solid #f7f7f7;
