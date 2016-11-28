@@ -292,7 +292,7 @@
 .product-detail-tabs-footer a.external-third {
   background-color: #ff4200;
   color: #fff;
-  height: 6.5rem;
+  height: 7.5rem;
   padding: 0.234375rem 0rem;
   padding-bottom: 1.3671875rem;
 }
@@ -452,8 +452,8 @@
     margin-bottom: 0rem;
   }
 }
-@media only screen and (min-device-width: 250px) and (max-device-width: 350px) {
+@media only screen and (min-device-width: 560px) {
   .content .product-detail-content-block .list-block ul {
-    height: 69rem;
+    height: 70rem;
   }
 }
