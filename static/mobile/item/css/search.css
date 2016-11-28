@@ -16,6 +16,7 @@
 .item-product-list-row .item-product-list-text {
   float: left;
   width: 64.17769376%;
+  padding-left: 1.9rem;
 }
 .item-product-list-row .item-product-list-text h2 {
   color: #333333;

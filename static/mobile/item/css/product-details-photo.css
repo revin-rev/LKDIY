@@ -19,8 +19,6 @@
   color: #fff;
   font-size: 1.796875rem;
   font-weight: 400;
-  margin: 1.890625rem 0;
-  padding-left: 6.90625rem;
 }
 .content .bar {
   height: 5.08203125rem;
@@ -35,6 +33,8 @@
 .bar-tab .tab-item.active,
 .bar-tab .tab-item:active {
   color: #c41411;
+  padding-top: 0.5078125rem;
+  padding-bottom: 0.5078125rem;
 }
 .bar-tab .tab-item.active .item-label {
   font-size: 1.90625rem;
@@ -250,6 +250,10 @@
   top: 1.5625rem;
   right: 1.6796875rem;
 }
+.product-detail-dots img {
+  width: 2.65625rem;
+  height: 0.5859375rem;
+}
 .product-detail-tabs-footer {
   height: 6.4453125rem;
 }
@@ -433,7 +437,6 @@
   margin-top: 0;
   margin-bottom: 1.7578125rem;
   min-height: 4.765625rem;
-  line-height: 1.8rem;
 }
 /*--- best products end ----*/
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {

@@ -5,8 +5,7 @@
   color: #fff;
   font-size: 1.796875rem;
   font-weight: 400;
-  margin: 1.890625rem 0;
-  padding-left: 7.390625rem;
+  padding-left: 4.390625rem;
 }
 .header-base-color .right-side-link {
   font-size: 1.796875rem;
@@ -172,6 +171,10 @@
   position: relative;
   top: 1.5625rem;
   right: 1.6796875rem;
+}
+.product-detail-dots img {
+  width: 2.65625rem;
+  height: 0.5859375rem;
 }
 .product-detail-tabs-footer {
   height: 6.4453125rem;

@@ -29,7 +29,7 @@
     color: #fff;
     font-size: 1.796875rem;
     font-weight: 400;
-    margin: 1.890625rem 0;
+   // margin: 1.890625rem 0;
     //padding-left: 3.25rem;
   }
 
@@ -764,6 +764,10 @@ a {
       margin:0;
       
       right:10/@baseRem;
+      img{
+        width:68/@baseRem;
+        height:15/@baseRem;
+      }
     }
     .dropdown{
       display: none;
@@ -876,6 +880,14 @@ position: absolute;
 @media screen and (min-width:768px) and (max-width:1028px){
 .product-detail-border-bottom{
   max-width: 100%;
+}
+}
+
+
+@media screen and (min-width:250px) and (max-width:680px){
+.menu .menu-main .dropdown{
+    right: -20%;
+    top: 180%;
 }
 }
 

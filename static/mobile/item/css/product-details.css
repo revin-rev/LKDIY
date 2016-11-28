@@ -19,7 +19,6 @@
   color: #fff;
   font-size: 1.796875rem;
   font-weight: 400;
-  margin: 1.890625rem 0;
 }
 .content .bar {
   height: 4.87550781rem;
@@ -551,6 +550,10 @@ top:calc(50% - 5.15625rem);
   margin: 0;
   right: 0.390625rem;
 }
+.menu .menu-main .product-detail-dots img {
+  width: 2.65625rem;
+  height: 0.5859375rem;
+}
 .menu .menu-main .dropdown {
   display: none;
   position: absolute;
@@ -636,5 +639,11 @@ top:calc(50% - 5.15625rem);
 @media screen and (min-width: 768px) and (max-width: 1028px) {
   .product-detail-border-bottom {
     max-width: 100%;
+  }
+}
+@media screen and (min-width: 250px) and (max-width: 680px) {
+  .menu .menu-main .dropdown {
+    right: -20%;
+    top: 180%;
   }
 }
