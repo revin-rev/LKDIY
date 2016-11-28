@@ -161,12 +161,12 @@
   font-size: 0;
 }
 .trade-shopping-cart-header-secondary2 .trade-product-list-price-value-inc .decrement {
-  background: url(../images/minus.png) no-repeat 1.203125rem;
+  background: url(../images/minus.png) no-repeat 0.7rem;
   border: 1px solid #f3f5f7;
   vertical-align: text-bottom;
   position: relative;
   right: 0rem;
-  padding: 1.5rem 2.5rem;
+  padding: 1.5rem 1.5rem;
   background-size: 50%;
   background-color: #f3f5f7;
   left: 0rem;
@@ -178,18 +178,17 @@
   border: 1px solid #fff;
   position: relative;
   left: 0rem;
-  padding: 0.3rem 0.3rem;
   margin: 0px;
   vertical-align: text-bottom;
   height: 4.2rem;
   border-radius: 1px;
 }
 .trade-shopping-cart-header-secondary2 .trade-product-list-price-value-inc .increment {
-  background: url(../images/plus.png) no-repeat 1.203125rem;
+  background: url(../images/plus.png) no-repeat 0.7rem;
   border: 1px solid #f3f5f7;
   position: relative;
   /* right: 0.1953125rem; */
-  padding: 1.5rem 2.5rem;
+  padding: 1.5rem 1.5rem;
   background-size: 50%;
   background-color: #f3f5f7;
   vertical-align: text-bottom;
