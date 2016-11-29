@@ -12,8 +12,8 @@
   display: inline-block;
 }
 .content .user-address-checkbox-row .user-single-text .myprofile-head {
-  padding-top: 3.125rem;
-  padding-bottom: 3.125rem;
+  padding-top: 2.125rem;
+  padding-bottom: 2.125rem;
   display: inline-block;
   text-align: left;
   font-size: 1.5625rem;
@@ -67,24 +67,28 @@
 .content .divider-2 {
   border-bottom: 0;
 }
-.content span {
+.content span.pull-right {
   padding: 2.1484375rem 0;
   color: #666666;
   font-size: 1.5625rem;
+  position: relative;
 }
-.content span img {
+.content span.pull-right img {
   width: 5.46875rem;
   vertical-align: middle;
 }
-.content span span.icon {
+.content span.pull-right span.icon {
   color: #cccccc;
   font-size: 1.171875rem;
+  position: absolute;
+  right: 3%;
+  top: 36%;
 }
 .content .border-top-0 {
   border: 0 !important;
 }
 .content span.first-row {
-  padding: 1.171875rem 0;
+  padding: 0.9rem 0;
 }
 .user-bottom-fixed-btn {
   background: #c41411;
@@ -144,9 +148,8 @@
 * my-profile-modify Gender Start
 * --------------------------------------------- */
 .content .product-detail-color-new {
-  padding-top: 3.90625rem;
   padding-right: 2.1484375rem;
-  padding-bottom: 3.515625rem;
+  display: inline-block;
 }
 .content .product-detail-color-new img {
   width: 1.5625rem;
