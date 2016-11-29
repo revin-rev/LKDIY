@@ -312,6 +312,7 @@
 .product-detail-content-block .product-detail-border-bottom {
   width: 42.1875rem;
   height: 42.1875rem;
+  max-width: 100%;
 }
 .www-large-products {
   border-top: 0.390625rem solid #f7f7f7;

@@ -20,7 +20,7 @@
   border-top: 2px solid #d7d7d7;
   width: 100%;
   display: inline-block;
-  padding: 1.17rem;
+  padding: 0rem;
 }
 .content .user-address-checkbox-row .user-single-text .myprofile-head {
   padding-top: 1.7rem;
@@ -57,10 +57,6 @@
   padding-bottom: 1.171875rem;
   padding-right: 1.25rem;
   font-size: 1.5625rem;
-}
-.content .user-address-checkbox-row .user-single-text .profile_second .user-profile-text {
-  position: absolute;
-  right: 7%;
 }
 .content .user-address-checkbox-row .user-single-second-brdr {
   border-bottom: 2px solid #d7d7d7;
@@ -132,6 +128,7 @@
   display: inline-block;
   margin-top: 0.5859375rem;
   margin-bottom: 0.5859375rem;
+  padding: 1.0rem;
   /*img{
       width:40/@baseRem;
       height:27/@baseRem;
@@ -141,6 +138,7 @@
   width: 3.6rem;
   height: 3.6rem;
   border-radius: 2.1rem;
+  border: 0px;
 }
 label.label-checkbox i.icon-form-checkbox:after {
   position: absolute;
@@ -168,13 +166,13 @@ label.label-checkbox i.icon-form-checkbox:after {
   margin-bottom: 2.0703125rem;
 }
 .content .sso-form .sso-list-block ul li.sso-margin-bottom .sso-text {
-  height: 5.500rem;
+  height: 5.000rem;
   color: #333333;
   border-radius: 3px;
   border: 1px solid #dedede;
   background-color: #fff;
   padding-left: 1.171875rem;
-  font-size: 1.9rem;
+  font-size: 1.6rem;
 }
 .content .sso-form .sso-list-block ul li.sso-margin-bottom .input-large {
   width: 50%;
@@ -183,15 +181,15 @@ label.label-checkbox i.icon-form-checkbox:after {
 }
 .content .sso-form .sso-list-block ul li.sso-margin-bottom img {
   width: 45%;
-  height: 5.500rem;
+  height: 5.0  00rem;
   float: left;
 }
 .content .sso-form .sso-list-block ul li.sso-margin-bottom .medium {
   border: 1px solid #cccccc;
-  padding-top: 1.2rem;
+  padding-top: 1.4rem;
   padding-bottom: 1.09375rem;
   display: inline-block;
-  height: 5.500rem;
+  height: 5.000rem;
   vertical-align: middle;
   color: #333;
   border-radius: 3px;
@@ -199,7 +197,7 @@ label.label-checkbox i.icon-form-checkbox:after {
   text-align: center;
   margin-bottom: 0.390625rem;
   background-color: #fff;
-  font-size: 1.9rem;
+  font-size: 1.6rem;
 }
 .list-block ul:after {
   background-color: unset;

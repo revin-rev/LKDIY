@@ -15,15 +15,16 @@
   border-bottom: 2px solid #c41411;
 }
 .content .utilities-main .utilities-img {
-  padding: 2.421875rem;
+  padding: 2.421875rem 0 0 0;
   text-align: center;
 }
 .content .utilities-main .utilities-img img {
   width: 5.859375rem;
   height: 7.03125rem;
+  max-width: 100%;
 }
 .content .utilities-main .utilities-txt {
-  padding: 3.984375rem;
+  padding: 3.984375rem 0 0.7rem 0;
   text-align: center;
 }
 .content .utilities-main .utilities-txt span {

@@ -80,3 +80,9 @@
     width: 20px;
   }
 }
+@media (min-width: 250px) and (max-width: 400px) {
+  .content .utilities-my-profile .utilities-inner-profile {
+    width: 5.671875rem;
+    height: 5.671875rem;
+  }
+}

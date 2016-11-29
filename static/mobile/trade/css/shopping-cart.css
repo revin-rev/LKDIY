@@ -161,7 +161,7 @@
   font-size: 0;
 }
 .trade-shopping-cart-header-secondary2 .trade-product-list-price-value-inc .decrement {
-  background: url(../images/minus.png) no-repeat 0.7rem;
+  background: url(../images/minus.png) no-repeat 0.8203125rem;
   border: 1px solid #f3f5f7;
   vertical-align: text-bottom;
   position: relative;
@@ -170,21 +170,22 @@
   background-size: 50%;
   background-color: #f3f5f7;
   left: 0rem;
-  z-index: 1;
-  height: 4.2rem;
+  z-index: 999;
+  height: 3.2rem;
 }
 .trade-shopping-cart-header-secondary2 .trade-product-list-price-value-inc .number {
-  font-size: 1.6rem;
-  border: 1px solid #fff;
+  font-size: 1.2rem;
+  border: 1px solid #f3f5f7;
   position: relative;
   left: 0rem;
+  padding: 0.84rem 0.4rem;
   margin: 0px;
   vertical-align: text-bottom;
-  height: 4.2rem;
+  height: 3.2rem;
   border-radius: 1px;
 }
 .trade-shopping-cart-header-secondary2 .trade-product-list-price-value-inc .increment {
-  background: url(../images/plus.png) no-repeat 0.7rem;
+  background: url(../images/plus.png) no-repeat 0.8203125rem;
   border: 1px solid #f3f5f7;
   position: relative;
   /* right: 0.1953125rem; */
@@ -192,7 +193,7 @@
   background-size: 50%;
   background-color: #f3f5f7;
   vertical-align: text-bottom;
-  height: 4.2rem;
+  height: 3.2rem;
 }
 .trade-shopping-cart-header-secondary2 .trade-product-list-price-value-inc .product-detail-stock {
   font-size: 1.40625rem;
