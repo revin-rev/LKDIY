@@ -183,3 +183,10 @@
 .list-block .item-inner select {
   font-size: 1.9rem;
 }
+@media screen and (min-width: 200px) and (max-width: 500px) {
+  .list-block .item-inner input,
+  .list-block .item-inner textarea,
+  .list-block .item-inner select {
+    font-size: 1.39rem;
+  }
+}
